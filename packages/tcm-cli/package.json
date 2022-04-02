@@ -108,7 +108,7 @@
     "@types/eslint": "8.4.1",
     "@types/figlet": "1.5.4",
     "@types/fs-extra": "9.0.13",
-    "@types/lodash": "4.14.179",
+    "@types/lodash": "4.14.181",
     "@types/node": "16.11.26",
     "@types/react": "17.0.39",
     "@types/rollup-plugin-json": "3.0.3",
