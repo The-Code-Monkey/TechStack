@@ -9,6 +9,24 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
+"@aw-web-design/components@0.2.57":
+  version "0.2.57"
+  resolved "https://registry.yarnpkg.com/@aw-web-design/components/-/components-0.2.57.tgz#3b0f4f3090175d2c99fab4a11dbdc52939d66c66"
+  integrity sha512-gzL65+YuVKgdrAG6p5Qu0Io+zKXQlVL5sIeHOCOidgaL+AehMVagpYY17uAO6TuzvyuGGu/XFRznQP7hLeTwVw==
+  dependencies:
+    "@aw-web-design/styled-system" "0.2.3"
+    "@aw-web-design/tcm-cli" "1.0.23"
+    "@aw-web-design/theme" "0.2.20"
+    "@types/react-table" "^7.7.10"
+    classnames "^2.3.1"
+    memoize-one "^6.0.0"
+    react "18.0.0"
+    react-dom "18.0.0"
+    react-feather "^2.0.9"
+    react-lazy-named "^1.2.2"
+    react-table "^7.7.0"
+    styled-components "^5.3.3"
+
 "@aw-web-design/styled-system@0.2.3":
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@aw-web-design/styled-system/-/styled-system-0.2.3.tgz#1e5ab96fa382a7c1034ec484bbfbb2f94858022b"
@@ -87,6 +105,18 @@
     tslib "2.3.1"
     type-fest "2.12.0"
     typescript "4.6.2"
+
+"@aw-web-design/theme@0.2.20":
+  version "0.2.20"
+  resolved "https://registry.yarnpkg.com/@aw-web-design/theme/-/theme-0.2.20.tgz#5259dd9813c49863d3d179fc0938799722350f36"
+  integrity sha512-3wFsLXghaHEVCh5oXo2EflBmB1q9L4gF3PDvliWTvKo+nnKBTeMyIdS3rBDRETKJw+duShv6vtOONu3M2tgDrw==
+  dependencies:
+    fs-extra "10.0.1"
+    lodash "4.17.21"
+    lodash-es "4.17.21"
+    sade "1.8.1"
+    style-dictionary "3.7.0"
+    tinycolor2 "1.4.2"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.0", "@babel/code-frame@^7.16.7", "@babel/code-frame@^7.5.5", "@babel/code-frame@^7.8.3":
   version "7.16.7"

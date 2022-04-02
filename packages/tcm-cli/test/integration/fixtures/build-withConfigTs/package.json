@@ -1,7 +1,0 @@
-{
-  "scripts": {
-    "build": "tcm build"
-  },
-  "name": "build-withconfigts",
-  "license": "MIT"
-}
