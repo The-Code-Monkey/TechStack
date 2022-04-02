@@ -27,7 +27,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install
-        run: npm i --no-package-lock
+        run: yarn --frozen-lockfile
 
       - name: Lint
         run: yarn lint
