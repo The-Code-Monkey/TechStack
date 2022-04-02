@@ -27,7 +27,6 @@
     "release": "yarn test && release-it --access=public",
     "deduplicate": "yarn dedupe",
     "deduplicate:check": "yarn dedupe -c",
-    "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
     "doctoc": "doctoc README.md"
@@ -128,7 +127,6 @@
     "babel-plugin-replace-identifiers": "0.1.1",
     "cssnano": "5.1.0",
     "doctoc": "2.1.0",
-    "husky": "7.0.4",
     "lint-staged": "12.3.4",
     "pinst": "3.0.0",
     "react": "17.0.2",
