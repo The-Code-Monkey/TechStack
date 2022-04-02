@@ -8,7 +8,7 @@ const List = async (req: NextApiRequest, res: NextApiResponse) => {
       username: "test user",
       firstName: "test",
       lastName: "test",
-      email: "test@test.com",
+      email: "test@test.co",
     },
     {
       id: 1,
