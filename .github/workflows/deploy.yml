@@ -27,7 +27,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install
-        run: yarn
+        run: npm i --no-package-lock
 
       - name: Lint
         run: yarn lint
