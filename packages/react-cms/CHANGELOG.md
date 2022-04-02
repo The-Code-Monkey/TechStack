@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.3 (2022-04-02)
+
+
+### Bug Fixes
+
+* attempt to remove submodules as breaks lerna ([d7e4770](https://github.com/The-Code-Monkey/TechStack/commit/d7e47702e36627bc16910b0b7ecf05e426d5eea2))
+
+
+
+
+
 ## 1.0.2 (2022-04-02)
 
 
