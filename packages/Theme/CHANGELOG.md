@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@0.2.23...@aw-web-design/theme@0.3.0) (2022-04-02)
+
+
+### Features
+
+* add table config to theme ([68e3df0](https://github.com/The-Code-Monkey/TechStack/commit/68e3df065dca5ff5021883d6ab84882b779a59d1))
+
+
+
+
+
 ## 0.2.23 (2022-04-02)
 
 
