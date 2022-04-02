@@ -4,17 +4,18 @@
     "publish": {
       "ignoreChanges": ["ignored-file"],
       "message": "chore(release): publish %s",
-      "registry": "https://registry.npmjs.org/"
+      "registry": "https://registry.npmjs.org/",
+      "conventionalCommits": true
     },
     "version": {
       "message": "chore(release): version %s",
-      "allowBranch": "master",
-      "conventionalCommits": true
+      "allowBranch": "master"
     },
     "bootstrap": {
       "npmClientArgs": ["--no-package-lock"]
     }
   },
+  "useWorkspaces": true,
   "packages": [
     "packages/*"
   ],
