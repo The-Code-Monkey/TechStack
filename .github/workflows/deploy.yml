@@ -46,7 +46,9 @@ jobs:
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
+     - run: echo //registry.npmjs.org/:_authToken=${{ secrets.npm_tokem }} > .npmrc
+
       - name: Deploy
         run: yarn release
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
