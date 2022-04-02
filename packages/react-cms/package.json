@@ -1,6 +1,6 @@
 {
   "name": "react-cms",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": true,
   "scripts": {
     "dev": "yarn build:tokens && next dev",
@@ -11,7 +11,7 @@
     "prettier": "prettier --write \"{components,pages}/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "@aw-web-design/components": "^0.2.61",
+    "@aw-web-design/components": "^0.2.62",
     "@aw-web-design/styled-system": "0.2.3",
     "@aw-web-design/theme": "^0.3.0",
     "deepmerge": "4.2.2",
