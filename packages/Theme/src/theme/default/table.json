@@ -1,0 +1,12 @@
+{
+  "table": {
+    "table": {
+      "width": {
+        "value": "{sizes.full.value}"
+      },
+      "height": {
+        "value": "{sizes.full.value}"
+      }
+    }
+  }
+}
