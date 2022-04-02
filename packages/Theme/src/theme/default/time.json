@@ -1,0 +1,58 @@
+{
+  "time": {
+    "transition": {
+      "0": {
+        "value": "0"
+      },
+      "1": {
+        "value": "120ms"
+      },
+      "2": {
+        "value": "250ms"
+      },
+      "3": {
+        "value": "400ms"
+      },
+      "4": {
+        "value": "600ms"
+      },
+      "default": {
+        "value": "{time.transition.2.value}"
+      }
+    },
+    "delay": {
+      "0": {
+        "value": "0"
+      },
+      "1": {
+        "value": "50ms"
+      },
+      "2": {
+        "value": "100ms"
+      },
+      "3": {
+        "value": "200ms"
+      },
+      "default": {
+        "value": "{time.delay.2.value}"
+      }
+    },
+    "duration": {
+      "0": {
+        "value": "0"
+      },
+      "1": {
+        "value": "1000ms"
+      },
+      "2": {
+        "value": "2000ms"
+      },
+      "3": {
+        "value": "4000ms"
+      },
+      "default": {
+        "value": "{time.duration.2.value}"
+      }
+    }
+  }
+}

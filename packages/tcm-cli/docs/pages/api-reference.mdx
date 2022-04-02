@@ -1,0 +1,101 @@
+---
+name: API Reference
+---
+
+# API Reference
+
+## tcm watch
+>  Rebuilds on any change
+
+```sh
+Usage
+  $ tcm watch [options]
+
+Options
+  -i, --entry           Entry module(s)
+  --target              Specify your target environment  (default web)
+  --name                Specify name exposed in UMD builds
+  --format              Specify module format(s)  (default cjs,esm)
+  --tsconfig            Specify your custom tsconfig path (default <root-folder>/tsconfig.json)
+  --verbose             Keep outdated console output in watch mode instead of clearing the screen
+  --onFirstSuccess      Run a command on the first successful build
+  --onSuccess           Run a command on a successful build
+  --onFailure           Run a command on a failed build
+  --noClean             Don't clean the dist folder
+  --transpileOnly       Skip type checking
+  -h, --help            Displays this message
+
+Examples
+  $ tcm watch --entry src/foo.tsx
+  $ tcm watch --target node
+  $ tcm watch --name Foo
+  $ tcm watch --format cjs,esm,umd
+  $ tcm watch --tsconfig ./tsconfig.foo.json
+  $ tcm watch --noClean
+  $ tcm watch --onFirstSuccess "echo The first successful build!"
+  $ tcm watch --onSuccess "echo Successful build!"
+  $ tcm watch --onFailure "echo The build failed!"
+  $ tcm watch --transpileOnly
+```
+
+## tcm build
+>   Build your project once and exit
+
+```sh
+Usage
+  $ tcm build [options]
+
+Options
+  -i, --entry           Entry module(s)
+  --target              Specify your target environment  (default web)
+  --name                Specify name exposed in UMD builds
+  --format              Specify module format(s)  (default cjs,esm)
+  --extractErrors       Opt-in to extracting invariant error codes
+  --tsconfig            Specify your custom tsconfig path (default <root-folder>/tsconfig.json)
+  --transpileOnly       Skip type checking
+  -h, --help            Displays this message
+
+Examples
+  $ tcm build --entry src/foo.tsx
+  $ tcm build --target node
+  $ tcm build --name Foo
+  $ tcm build --format cjs,esm,umd
+  $ tcm build --extractErrors
+  $ tcm build --tsconfig ./tsconfig.foo.json
+  $ tcm build --transpileOnly
+```
+
+## tcm test
+> This runs Jest v24.x, forwarding all CLI flags to it. See [https://jestjs.io](https://jestjs.io) for options. For example, if you would like to run in watch mode, you can run `tcm test --watch`. So you could set up your `package.json` `scripts` like:
+ 
+```json
+{
+  "scripts": {
+    "test": "tcm test",
+    "test:watch": "tcm test --watch",
+    "test:coverage": "tcm test --coverage"
+  }
+}
+```
+
+## tcm lint
+>  Run eslint with Prettier
+
+```sh
+Usage
+  $ tcm lint [options]
+
+Options
+  --fix               Fixes fixable errors and warnings
+  --ignore-pattern    Ignore a pattern
+  --write-file        Write the config file locally
+  --report-file       Write JSON report to file locally
+  -h, --help          Displays this message
+
+Examples
+  $ tcm lint src
+  $ tcm lint src --fix
+  $ tcm lint src test --ignore-pattern test/foo.ts
+  $ tcm lint src --write-file
+  $ tcm lint src --report-file report.json
+```

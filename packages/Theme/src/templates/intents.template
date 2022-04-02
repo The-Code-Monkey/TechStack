@@ -1,0 +1,9 @@
+const intents = {
+<% _.each(allProperties, function(prop) { 
+%>      <%= prop.name %>: {<% _.each(prop.value, function(palette, name) { %>
+          <%= name %>: [<% _.each(palette, function(color, i) { %>"<%= color %>"<% if (i !== palette.length-1) { %>,<% }; %><% }); %>],<% });%>
+        },
+<% }); %>
+}
+
+export default intents;

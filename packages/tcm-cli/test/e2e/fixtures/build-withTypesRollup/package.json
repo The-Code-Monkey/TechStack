@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "tcm build"
+  },
+  "name": "build-with-types-rollup",
+  "license": "MIT",
+  "types": "dist/index.d.ts"
+}

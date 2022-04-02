@@ -1,0 +1,4 @@
+{
+  // ensure that extends works (trailing comma & comment too)
+  "extends": "./tsconfig.base.json",
+}

@@ -1,0 +1,98 @@
+version: 2.1
+  
+orbs:
+  node: circleci/node@5.0.2
+  
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test:
+          filters:
+            branches:
+              ignore:
+                - master
+                - /alpha-*/
+                - /beta-*/
+      - build:
+          requires:
+            - test
+          filters:
+            branches:
+              ignore:
+                - master
+                - /alpha-*/
+                - /beta-*/
+  deploy:
+    jobs:
+      - test:
+          filters:
+            branches:
+              only:
+                - master
+                - /alpha-*/
+                - /beta-*/
+      - build:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - master
+                - /alpha-*/
+                - /beta-*/
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master
+                - /alpha-*/
+                - /beta-*/
+
+jobs:
+  test:
+    executor:
+      name: node/default
+      tag: '16.12'
+    steps:
+      - checkout
+      - run: yarn
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+      - run: yarn lint
+      
+      - run:
+          name: Test Cli
+          command: node ./dist/index.js generate
+  build:
+    executor:
+      name: node/default
+      tag: '16.12'
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: Build packages
+          command: yarn build
+
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+  deploy:
+    executor:
+      name: node/default
+      tag: '16.12'
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: Authenticate with registry
+          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+      - run:
+          name: Publish package
+          command: npm publish --access=public

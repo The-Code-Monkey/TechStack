@@ -1,0 +1,67 @@
+{
+  "version": "0.2.22",
+  "license": "MIT",
+  "bin": {
+    "orchard": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && yarn copy",
+    "copy": "cp ./src/config.json ./dist/config.json && cp -r ./src/templates ./dist && cp -r ./src/theme ./dist && cp ./orchard.theme.config.json ./dist",
+    "lint": "tcm lint",
+    "prepare": "yarn build",
+    "size": "size-limit",
+    "generate": "ts-node ./src/index.ts generate",
+    "release": "yarn build && release-it --ci --npm.access=public"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tcm lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "endOfLine": "auto"
+  },
+  "name": "@aw-web-design/theme",
+  "author": "The-Code-Monkey",
+  "size-limit": [
+    {
+      "path": "dist/index.js",
+      "limit": "2 KB"
+    }
+  ],
+  "devDependencies": {
+    "@aw-web-design/tcm-cli": "1.0.23",
+    "@release-it/conventional-changelog": "4.2.2",
+    "@size-limit/file": "7.0.8",
+    "@tsconfig/recommended": "1.0.1",
+    "@types/fs-extra": "9.0.13",
+    "@types/lodash": "4.14.181",
+    "@types/lodash-es": "4.17.6",
+    "@types/tinycolor2": "1.4.3",
+    "husky": "7.0.4",
+    "release-it": "14.13.1",
+    "size-limit": "7.0.8",
+    "ts-jest": "27.1.4",
+    "tslib": "2.3.1",
+    "typescript": "4.6.3"
+  },
+  "dependencies": {
+    "fs-extra": "10.0.1",
+    "lodash": "4.17.21",
+    "lodash-es": "4.17.21",
+    "sade": "1.8.1",
+    "style-dictionary": "3.7.0",
+    "tinycolor2": "1.4.2"
+  }
+}

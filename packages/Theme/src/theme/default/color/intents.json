@@ -1,0 +1,18 @@
+{
+  "color": {
+    "intents": {
+      "info": {
+        "value": "#2172B8"
+      },
+      "success": {
+        "value": "#44C44A"
+      },
+      "warning": {
+        "value": "#F3C751"
+      },
+      "danger": {
+        "value": "#DA4141"
+      }
+    }
+  }
+}

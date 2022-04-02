@@ -1,0 +1,35 @@
+{
+  "color": {
+    "common": {
+      "brand": {
+        "value": "#009fe3"
+      },
+      "white": {
+        "value": "#fff"
+      },
+      "black": {
+        "value": "#000"
+      },
+      "primary": {
+        "0": {
+          "value": "#5a90b1"
+        },
+        "1": {
+          "value": "#5485a3"
+        },
+        "2": {
+          "value": "#6b9bb9"
+        },
+        "3": {
+          "value": "#83acc5"
+        },
+        "4": {
+          "value": "#dee9ef"
+        }
+      }
+    },
+    "neutral_base": {
+      "value": "#1C1F22"
+    }
+  }
+}

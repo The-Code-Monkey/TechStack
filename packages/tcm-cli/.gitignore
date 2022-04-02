@@ -1,0 +1,25 @@
+
+*.log
+.DS_Store
+node_modules
+dist
+tester
+tester-react
+package-lock.json
+# Local Netlify folder
+.netlify
+
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# WebStorm project files
+.idea
+
+# tsc cache
+tsconfig.tsbuildinfo

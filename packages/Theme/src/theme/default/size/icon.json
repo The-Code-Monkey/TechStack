@@ -1,0 +1,27 @@
+{
+  "size": {
+    "icon": {
+      "xs": {
+        "value": "12px"
+      },
+      "sm": {
+        "value": "16px"
+      },
+      "md": {
+        "value": "24px"
+      },
+      "lg": {
+        "value": "48px"
+      },
+      "xl": {
+        "value": "96px"
+      },
+      "xxl": {
+        "value": "120px"
+      },
+      "default": {
+        "value": "{size.icon.md.value}"
+      }
+    }
+  }
+}

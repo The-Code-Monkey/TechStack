@@ -1,0 +1,220 @@
+{
+  "source": [],
+  "log": "",
+  "platforms": {
+    "PASSTHROUGH_JS": {
+      "transforms": ["attribute/cti"],
+      "buildPath": "theme-dist/",
+      "files": [
+        {
+          "destination": "core.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "type": "common"
+            }
+          }
+        }
+      ]
+    },
+    "JS": {
+      "transforms": ["attribute/cti", "color/makeNeutrals", "color/makeShades"],
+      "buildPath": "theme-dist/",
+      "files": [
+        {
+          "destination": "dark-mode.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "type": "modes",
+              "item": "dark"
+            }
+          }
+        },
+        {
+          "destination": "light-mode.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "type": "modes",
+              "item": "light"
+            }
+          }
+        },
+        {
+          "destination": "intents.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "type": "intents"
+            }
+          }
+        },
+        {
+          "destination": "neutrals.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "type": "neutral_base"
+            }
+          }
+        },
+        {
+          "destination": "fonts.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "type": "family"
+            }
+          }
+        },
+        {
+          "destination": "elevation.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "zIndices"
+            }
+          }
+        },
+        {
+          "destination": "shadows.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "shadows"
+            }
+          }
+        },
+        {
+          "destination": "time.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "time"
+            }
+          }
+        },
+        {
+          "destination": "sizes.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "sizes"
+            }
+          }
+        },
+        {
+          "destination": "panelSizes.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "panelSizes"
+            }
+          }
+        },
+        {
+          "destination": "fontSizes.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "size",
+              "type": "fontSizes"
+            }
+          }
+        },
+        {
+          "destination": "fontWeights.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "size",
+              "type": "fontWeights"
+            }
+          }
+        },
+        {
+          "destination": "radii.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "radii"
+            }
+          }
+        },
+        {
+          "destination": "opacity.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "opacity"
+            }
+          }
+        },
+        {
+          "destination": "space.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "space"
+            }
+          }
+        },
+        {
+          "destination": "spacing.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "spacing"
+            }
+          }
+        },
+        {
+          "destination": "borders.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "borders"
+            }
+          }
+        },
+        {
+          "destination": "lineHeights.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "lineHeights"
+            }
+          }
+        },
+        {
+          "destination": "breakpoints.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "breakpoints"
+            }
+          }
+        },
+        {
+          "destination": "breakpointSizes.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "breakpointSizes"
+            }
+          }
+        },
+        {
+          "destination": "maxWidths.ts",
+          "format": "custom/nested/json",
+          "filter": {
+            "attributes": {
+              "category": "maxWidths"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

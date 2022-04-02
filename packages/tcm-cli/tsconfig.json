@@ -1,0 +1,23 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["src/template/**/*"],
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "react",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "declaration": true,
+    "module": "commonjs",
+    "rootDir": "src",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "target": "es2017",
+    "resolveJsonModule": true,
+    "incremental": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "maxWidths": {
+    "small": {
+      "value": "576px"
+    },
+    "medium": {
+      "value": "768px"
+    },
+    "large": {
+      "value": "992px"
+    },
+    "xlarge": {
+      "value": "1200px"
+    }
+  }
+}

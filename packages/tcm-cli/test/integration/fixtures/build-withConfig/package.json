@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "tcm build"
+  },
+  "name": "build-withconfig",
+  "license": "MIT"
+}

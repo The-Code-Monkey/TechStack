@@ -1,0 +1,81 @@
+{
+  "space": {
+    "0": {
+      "value": "0"
+    },
+    "1": {
+      "value": "2px"
+    },
+    "2": {
+      "value": "3px"
+    },
+    "3": {
+      "value": "6px"
+    },
+    "4": {
+      "value": "12px"
+    },
+    "5": {
+      "value": "18px"
+    },
+    "6": {
+      "value": "24px"
+    },
+    "7": {
+      "value": "32px"
+    },
+    "8": {
+      "value": "40px"
+    },
+    "9": {
+      "value": "48px"
+    },
+    "10": {
+      "value": "64px"
+    },
+    "11": {
+      "value": "80px"
+    },
+    "12": {
+      "value": "96px"
+    },
+    "13": {
+      "value": "120px"
+    },
+    "14": {
+      "value": "160px"
+    }
+  },
+  "spacing": {
+    "none": {
+      "value": "{space.0.value}"
+    },
+    "xxs": {
+      "value": "{space.1.value}"
+    },
+    "xs": {
+      "value": "{space.2.value}"
+    },
+    "sm": {
+      "value": "{space.3.value}"
+    },
+    "md": {
+      "value": "{space.4.value}"
+    },
+    "lg": {
+      "value": "{space.5.value}"
+    },
+    "xl": {
+      "value": "{space.6.value}"
+    },
+    "xxl": {
+      "value": "{space.7.value}"
+    },
+    "xxxl": {
+      "value": "{space.8.value}"
+    },
+    "full": {
+      "value": "100%"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> renders correctly 1`] = `
+<Component>
+  <Input
+    name="test"
+  >
+    <styled.input
+      name="test"
+      onChange={[Function]}
+      placeholder="Placeholder"
+      type="text"
+    >
+      <input
+        className="sc-jSMfEi hHHIcy"
+        name="test"
+        onChange={[Function]}
+        placeholder="Placeholder"
+        type="text"
+      />
+    </styled.input>
+  </Input>
+</Component>
+`;

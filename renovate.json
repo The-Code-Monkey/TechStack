@@ -1,0 +1,23 @@
+{
+  "extends": [
+    ":dependencyDashboard",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":ignoreModulesAndTests",
+    ":autodetectPinVersions",
+    ":prConcurrentLimit20",
+    "group:monorepos",
+    "group:recommended",
+    "workarounds:all"
+  ],
+  "labels": ["dependencies"],
+  "automerge": true,
+  "vulnerabilityAlerts": {
+    "labels": ["security"]
+  },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
+}

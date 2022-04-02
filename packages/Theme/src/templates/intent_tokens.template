@@ -1,0 +1,15 @@
+{
+    "color": {
+        "intents": { <% _.each(allProperties, function(prop) { var theme_index = _.indexOf(allProperties, prop); %>
+            "<%= prop.name %>": {
+                <% _.each(prop.value, function(palette, name) {
+                    var p_keys = _.keys(prop.value);
+                    var p_index = _.indexOf(p_keys, name);
+                %>"<%= name %>": { <% _.each(palette, function(color, i) { %>
+                    "<%= i %>" : { "value": "<%= color %>"}<% if (i !== palette.length-1) { %>,<% }; %><% }); %>
+                }<% if (p_index !== p_keys.length-1) { %>,<% }; %><% });%>
+                }<% if (theme_index !== allProperties.length-1) { %>,<% }; %>
+            <% }); %>
+        }
+    }
+}

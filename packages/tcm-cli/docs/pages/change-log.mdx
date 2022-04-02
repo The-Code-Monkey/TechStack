@@ -1,0 +1,19 @@
+---
+name: Changelog
+---
+
+import { useContext } from "react";
+import ReleasesRenderer from "../components/release";
+
+export const getStaticProps = ({ params }) => {
+  return (
+    fetch("https://api.github.com/repos/the-code-monkey/tcm-cli/releases")
+      .then((res) => res.json())
+      // we keep the most recent 3 releases here
+      .then((releases) => ({ props: { ssg: releases.slice(0, 10) } }))
+  );
+};
+
+# Change Log
+
+<ReleasesRenderer releases={props.ssg} />

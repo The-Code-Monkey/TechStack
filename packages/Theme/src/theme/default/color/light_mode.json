@@ -1,0 +1,51 @@
+{
+  "color": {
+    "modes": {
+      "light": {
+        "text": {
+          "value": "rgba(25, 25, 25, 0.9)"
+        },
+        "highlight": {
+          "value": "#009fe3"
+        },
+        "highlights": {
+          "0": {
+            "value": "#009fe3"
+          },
+          "1": {
+            "value": "#018ECB"
+          },
+          "2": {
+            "value": "#006A99"
+          },
+          "3": {
+            "value": "#213740"
+          },
+          "4": {
+            "value": "#0E2934"
+          },
+          "5": {
+            "value": "#1F2D32"
+          }
+        },
+        "primary": {
+          "0": {
+            "value": "#5a90b1"
+          },
+          "1": {
+            "value": "#5485a3"
+          },
+          "2": {
+            "value": "#6b9bb9"
+          },
+          "3": {
+            "value": "#83acc5"
+          },
+          "4": {
+            "value": "#dee9ef"
+          }
+        }
+      }
+    }
+  }
+}

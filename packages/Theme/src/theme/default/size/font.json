@@ -1,0 +1,71 @@
+{
+  "size": {
+    "fontSizes": {
+      "0": {
+        "value": "0"
+      },
+      "1": {
+        "value": "9px"
+      },
+      "2": {
+        "value": "11px"
+      },
+      "3": {
+        "value": "12px"
+      },
+      "4": {
+        "value": "14px"
+      },
+      "5": {
+        "value": "16px"
+      },
+      "6": {
+        "value": "18px"
+      },
+      "7": {
+        "value": "24px"
+      },
+      "8": {
+        "value": "36px"
+      },
+      "9": {
+        "value": "48px"
+      },
+      "default": {
+        "value": "{size.fontSizes.4.value}"
+      },
+      "full": {
+        "value": "100%"
+      }
+    },
+    "fontWeights": {
+      "0": {
+        "value": "0"
+      },
+      "1": {
+        "value": "100"
+      },
+      "2": {
+        "value": "200"
+      },
+      "3": {
+        "value": "300"
+      },
+      "4": {
+        "value": "400"
+      },
+      "5": {
+        "value": "500"
+      },
+      "6": {
+        "value": "600"
+      },
+      "7": {
+        "value": "700"
+      },
+      "bold": {
+        "value": "bold"
+      }
+    }
+  }
+}
