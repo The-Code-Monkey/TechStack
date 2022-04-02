@@ -24,8 +24,6 @@
     "start": "tsc -p tsconfig.json --watch",
     "deduplicate": "yarn dedupe",
     "deduplicate:check": "yarn dedupe -c",
-    "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable",
     "doctoc": "doctoc README.md"
   },
   "files": [
@@ -125,7 +123,6 @@
     "cssnano": "5.1.0",
     "doctoc": "2.1.0",
     "lint-staged": "12.3.4",
-    "pinst": "3.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-is": "17.0.2",
