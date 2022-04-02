@@ -35,11 +35,11 @@ jobs:
       - name: Test
         run: yarn test
 
-      - name: Size
-        run: yarn size
-        
       - name: Build
         run: yarn build
+
+      - name: Size
+        run: yarn size
 
       - name: git config
         run: |
