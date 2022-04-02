@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.6 (2022-04-02)
+
+
+### Bug Fixes
+
+* make independent package versions ([9a7f594](https://github.com/The-Code-Monkey/TechStack/commit/9a7f59463951aadc9c87803ec32be8e0cc89844a))
+
+
+
+
+
 ## [1.0.5](https://github.com/The-Code-Monkey/TechStack/compare/react-cms@1.0.4...react-cms@1.0.5) (2022-04-02)
 
 **Note:** Version bump only for package react-cms

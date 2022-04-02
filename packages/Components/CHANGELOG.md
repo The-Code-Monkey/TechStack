@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.63 (2022-04-02)
+
+
+### Bug Fixes
+
+* make independent package versions ([9a7f594](https://github.com/The-Code-Monkey/TechStack/commit/9a7f59463951aadc9c87803ec32be8e0cc89844a))
+
+
+
+
+
 ## [0.2.62](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@0.2.61...@aw-web-design/components@0.2.62) (2022-04-02)
 
 **Note:** Version bump only for package @aw-web-design/components
