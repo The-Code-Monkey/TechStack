@@ -48,3 +48,5 @@ jobs:
 
       - name: Deploy
         run: yarn release
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
