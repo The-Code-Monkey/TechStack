@@ -18,6 +18,5 @@
   "useWorkspaces": true,
   "packages": [
     "packages/*"
-  ],
-  "version": "independent"
+  ]
 }

@@ -8,16 +8,11 @@ import { GetEntryData, ModifyEntry } from "../../db/mysql/queries";
 
 interface Props {
   query: ParsedUrlQuery;
-  data: Record<string, any>;
+  data: Record<string, unknown>;
 }
 
 const Entry: NextPage<Props> = ({ query }: Props) => {
-  const {
-    register,
-    handleSubmit,
-    watch,
-    formState: { errors },
-  } = useForm();
+  const { register, handleSubmit } = useForm();
 
   const isCreate = query.create === "create";
 
@@ -28,6 +23,8 @@ const Entry: NextPage<Props> = ({ query }: Props) => {
       isCreate ? "create" : "update",
       isCreate ? 0 : `${query.entry}`
     );
+
+    console.log(res);
   };
 
   return (

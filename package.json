@@ -11,8 +11,14 @@
   ],
   "scripts": {
     "test": "lerna run test",
+    "lint": "lerna run lint",
+    "lint:fix": "lerna run lint -- --fix",
+    "size": "lerna run size",
+    "build": "lerna run build",
     "lerna:changed": "lerna changed",
-    "lerna:version": "lerna version --conventional-commits"
+    "lerna:version": "lerna version --conventional-commits --yes",
+    "lerna:publish": "lerna publish --yes",
+    "release": "yarn lerna:changed && yarn lerna:version && yarn lerna:publish"
   },
   "devDependencies": {
     "lerna": "^4.0.0"

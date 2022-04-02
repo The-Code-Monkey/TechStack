@@ -3,7 +3,7 @@ name: Deploy Package Version
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
@@ -26,14 +26,25 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: npm install
-      - run: npm run build
+      - name: Install
+        run: yarn
 
       - name: Lint
         run: yarn lint
+
+      - name: Test
+        run: yarn test
+
+      - name: Size
+        run: yarn size
         
       - name: Build
         run: yarn build
+
+      - name: git config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
       - name: Deploy
         run: yarn release
