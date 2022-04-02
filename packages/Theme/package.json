@@ -34,6 +34,9 @@
   },
   "name": "@aw-web-design/theme",
   "author": "The-Code-Monkey",
+  "publishConfig": {
+    "access": "public"
+  },
   "size-limit": [
     {
       "path": "dist/index.js",
