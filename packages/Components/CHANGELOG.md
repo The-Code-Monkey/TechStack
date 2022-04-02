@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.68 (2022-04-02)
+
+
+### Bug Fixes
+
+* remove lock files from sub folders ([fc5656b](https://github.com/The-Code-Monkey/TechStack/commit/fc5656b76fee0f5b0cf1a08bc471f5230319cffb))
+
+
+
+
+
 ## [0.2.67](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@0.2.66...@aw-web-design/components@0.2.67) (2022-04-02)
 
 **Note:** Version bump only for package @aw-web-design/components

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.11 (2022-04-02)
+
+
+### Bug Fixes
+
+* remove lock files from sub folders ([fc5656b](https://github.com/The-Code-Monkey/TechStack/commit/fc5656b76fee0f5b0cf1a08bc471f5230319cffb))
+
+
+
+
+
 ## [1.0.10](https://github.com/The-Code-Monkey/TechStack/compare/react-cms@1.0.9...react-cms@1.0.10) (2022-04-02)
 
 **Note:** Version bump only for package react-cms
