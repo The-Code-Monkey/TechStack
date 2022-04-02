@@ -16,5 +16,5 @@
     }
   },
   "packages": ["packages/*"],
-  "version": "fixed"
+  "version": "independent"
 }
