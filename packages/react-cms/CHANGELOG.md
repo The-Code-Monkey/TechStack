@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.37 (2022-04-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.12.0 ([c2ad26f](https://github.com/The-Code-Monkey/TechStack/commit/c2ad26f6dab183ec977524d735f415f8de320887))
+
+
+
+
+
 ## 1.0.36 (2022-04-03)
 
 **Note:** Version bump only for package react-cms
