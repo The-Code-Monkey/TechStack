@@ -128,7 +128,7 @@
     "react-is": "17.0.2",
     "release-it": "14.12.5",
     "rollup-plugin-postcss": "4.0.2",
-    "styled-components": "5.3.3",
+    "styled-components": "5.3.5",
     "tiny-invariant": "1.2.0",
     "tiny-warning": "1.0.3"
   },
