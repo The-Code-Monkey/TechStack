@@ -1,6 +1,6 @@
 {
   "name": "react-cms",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "private": true,
   "scripts": {
     "dev": "yarn build:tokens && next dev",
