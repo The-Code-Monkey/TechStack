@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/tcm-cli",
-  "version": "1.0.50",
+  "version": "1.0.51",
   "description": "Zero-config TypeScript package development",
   "license": "MIT",
   "repository": {
