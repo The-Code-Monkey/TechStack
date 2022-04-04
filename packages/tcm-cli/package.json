@@ -166,6 +166,5 @@
     "*.{js,jsx,ts,tsx}": [
       "node dist/index.js lint --fix"
     ]
-  },
-  "packageManager": "yarn@3.1.1"
+  }
 }
