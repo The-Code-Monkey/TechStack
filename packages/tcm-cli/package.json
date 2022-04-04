@@ -83,7 +83,7 @@
     "prettier": "2.5.1",
     "progress-estimator": "0.3.0",
     "regenerator-runtime": "0.13.9",
-    "rollup": "2.69.0",
+    "rollup": "2.70.1",
     "rollup-plugin-delete": "2.0.0",
     "rollup-plugin-dts": "4.2.0",
     "rollup-plugin-sourcemaps": "0.6.3",
