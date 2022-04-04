@@ -19,12 +19,10 @@ const Button = ({
   variant = 'default',
   ...rest
 }: Props) => {
-  const hasChildren = useMemo(() => {
-    if (typeof children === 'string' && children === '') {
-      return false;
-    }
-    return true;
-  }, [children]);
+  const hasChildren = useMemo(
+    () => !(typeof children === 'string' && children === ''),
+    [children]
+  );
 
   return (
     <StyledInteractable

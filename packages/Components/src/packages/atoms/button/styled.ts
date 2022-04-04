@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 import { variant, Theme } from '@aw-web-design/styled-system';
 
-import { Interactable } from '../../primatives';
+import { Interactable, StyledBoxProps } from '../../primatives';
 
 export const iconMargins = {
   left: {
@@ -80,4 +80,5 @@ export const StyledInteractable = styled(Interactable)`
     })}
     ${ButtonVariants(p.theme)}
   `}
+  ${StyledBoxProps}
 `;
