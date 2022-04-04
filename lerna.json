@@ -3,7 +3,10 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "ignoreChanges": ["ignored-file", "*.md"],
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ],
       "message": "chore(release): publish %s",
       "registry": "https://registry.npmjs.org/"
     },
@@ -13,9 +16,13 @@
       "conventionalCommits": true
     },
     "bootstrap": {
-      "npmClientArgs": ["--no-package-lock"]
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
     }
   },
-  "packages": ["packages/*"],
-  "version": "independent"
+  "packages": [
+    "packages/*"
+  ],
+  "version": "2.0.0"
 }
