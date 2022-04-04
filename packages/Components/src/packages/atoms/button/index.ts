@@ -1,4 +1,4 @@
 import Button, { Props as ButtonProps } from './Button';
 
-export { ButtonProps };
+export { Button, ButtonProps };
 export default Button;
