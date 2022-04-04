@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.101 (2022-04-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sort-package-json to v1.55.0 ([dfb8984](https://github.com/The-Code-Monkey/TechStack/commit/dfb898430d71e33ba2721a08dbfee54d2fa00678))
+
+
+
+
+
 ## 0.2.100 (2022-04-04)
 
 **Note:** Version bump only for package @aw-web-design/components
