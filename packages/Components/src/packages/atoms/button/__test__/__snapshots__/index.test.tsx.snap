@@ -13,14 +13,14 @@ exports[`<Button /> renders default correctly 1`] = `
       <Interactable
         as="button"
         autoid="Default_button"
-        className="sc-jSMfEi daOYlM"
+        className="sc-jSMfEi hxGaF"
         flexDirection="row"
         typography="button"
         variant="default"
       >
         <Styled(Box)
           as="button"
-          className="sc-jSMfEi daOYlM"
+          className="sc-jSMfEi hxGaF"
           data-autoid="Default_button"
           flexDirection="row"
           onClick={[Function]}
@@ -28,7 +28,7 @@ exports[`<Button /> renders default correctly 1`] = `
           variant="default"
         >
           <button
-            className="sc-hKMtZM sc-jSMfEi daOYlM"
+            className="sc-hKMtZM sc-jSMfEi hxGaF"
             data-autoid="Default_button"
             onClick={[Function]}
           >
@@ -67,14 +67,14 @@ exports[`<Button /> renders icon correctly 1`] = `
       <Interactable
         as="button"
         autoid="Secondary_button"
-        className="sc-jSMfEi daOYlM"
+        className="sc-jSMfEi hxGaF"
         flexDirection="row"
         typography="button"
         variant="default"
       >
         <Styled(Box)
           as="button"
-          className="sc-jSMfEi daOYlM"
+          className="sc-jSMfEi hxGaF"
           data-autoid="Secondary_button"
           flexDirection="row"
           onClick={[Function]}
@@ -82,7 +82,7 @@ exports[`<Button /> renders icon correctly 1`] = `
           variant="default"
         >
           <button
-            className="sc-hKMtZM sc-jSMfEi daOYlM"
+            className="sc-hKMtZM sc-jSMfEi hxGaF"
             data-autoid="Secondary_button"
             onClick={[Function]}
           >
@@ -179,14 +179,14 @@ exports[`<Button /> renders icon only correctly 1`] = `
       <Interactable
         as="button"
         autoid="_button"
-        className="sc-jSMfEi daOYlM"
+        className="sc-jSMfEi hxGaF"
         flexDirection="row"
         typography="button"
         variant="default"
       >
         <Styled(Box)
           as="button"
-          className="sc-jSMfEi daOYlM"
+          className="sc-jSMfEi hxGaF"
           data-autoid="_button"
           flexDirection="row"
           onClick={[Function]}
@@ -194,7 +194,7 @@ exports[`<Button /> renders icon only correctly 1`] = `
           variant="default"
         >
           <button
-            className="sc-hKMtZM sc-jSMfEi daOYlM"
+            className="sc-hKMtZM sc-jSMfEi hxGaF"
             data-autoid="_button"
             onClick={[Function]}
           >
@@ -285,14 +285,14 @@ exports[`<Button /> renders primary correctly 1`] = `
       <Interactable
         as="button"
         autoid="Primary_button"
-        className="sc-jSMfEi UWsOd"
+        className="sc-jSMfEi fOiwAw"
         flexDirection="row"
         typography="button"
         variant="primary"
       >
         <Styled(Box)
           as="button"
-          className="sc-jSMfEi UWsOd"
+          className="sc-jSMfEi fOiwAw"
           data-autoid="Primary_button"
           flexDirection="row"
           onClick={[Function]}
@@ -300,7 +300,7 @@ exports[`<Button /> renders primary correctly 1`] = `
           variant="primary"
         >
           <button
-            className="sc-hKMtZM sc-jSMfEi UWsOd"
+            className="sc-hKMtZM sc-jSMfEi fOiwAw"
             data-autoid="Primary_button"
             onClick={[Function]}
           >
@@ -339,14 +339,14 @@ exports[`<Button /> renders secondary correctly 1`] = `
       <Interactable
         as="button"
         autoid="Secondary_button"
-        className="sc-jSMfEi BXdWe"
+        className="sc-jSMfEi bWHMQb"
         flexDirection="row"
         typography="button"
         variant="secondary"
       >
         <Styled(Box)
           as="button"
-          className="sc-jSMfEi BXdWe"
+          className="sc-jSMfEi bWHMQb"
           data-autoid="Secondary_button"
           flexDirection="row"
           onClick={[Function]}
@@ -354,7 +354,7 @@ exports[`<Button /> renders secondary correctly 1`] = `
           variant="secondary"
         >
           <button
-            className="sc-hKMtZM sc-jSMfEi BXdWe"
+            className="sc-hKMtZM sc-jSMfEi bWHMQb"
             data-autoid="Secondary_button"
             onClick={[Function]}
           >
