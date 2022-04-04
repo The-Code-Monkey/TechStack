@@ -21,4 +21,5 @@
       "automerge": true
     }
   ]
+  "ignoreDeps": ["execa", "ora"]
 }
