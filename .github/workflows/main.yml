@@ -19,13 +19,13 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - run: ls
-      - run: cd packages
-      - run: ls
-      - run: cd tcm-cli
-      - run: yarn
-      - run: cd ..
-      - run: cd ..
+      - name: Build TCM
+        working-directory: ./packages/tcm-cli
+        run: yarn && yarn build
+
+      - name: Install packages
+        working-directory: ./
+        run: yarn
 
       - name: Build
         run: yarn build
