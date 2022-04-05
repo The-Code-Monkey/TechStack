@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.6](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.0.4...@aw-web-design/theme@3.0.6) (2022-04-05)
+
+
+### Bug Fixes
+
+* broken package ([6d56d06](https://github.com/The-Code-Monkey/TechStack/commit/6d56d067aac5e09f872f07bb84e3682ffd2a453c))
+* update packages to newest versions ([5c50c04](https://github.com/The-Code-Monkey/TechStack/commit/5c50c04fb62af415ccd68c4a243be348abcc43aa))
+
+
+
+
+
 ## [3.0.5](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.0.4...@aw-web-design/theme@3.0.5) (2022-04-05)
 
 **Note:** Version bump only for package @aw-web-design/theme
