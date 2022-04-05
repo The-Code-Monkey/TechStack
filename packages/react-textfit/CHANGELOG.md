@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.2 (2022-04-05)
+
+
+### Bug Fixes
+
+* change lerna publish command ([1fddae9](https://github.com/the-code-monkey/react-textfit/commit/1fddae9ec734f843e6420b3fbc89ed5bee171f9b))
+
+
+
+
+
 ## 3.0.1 (2022-04-05)
 
 
