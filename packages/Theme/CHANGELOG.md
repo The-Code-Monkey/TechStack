@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.10](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.0.9...@aw-web-design/theme@3.0.10) (2022-04-05)
+
+
+### Bug Fixes
+
+* **deps:** pin dependency @aw-web-design/tcm-cli to 3.0.9 ([db81111](https://github.com/The-Code-Monkey/TechStack/commit/db81111c7791766b8c56d090d1059302a0bcd13a))
+
+
+
+
+
 ## [3.0.9](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.0.8...@aw-web-design/theme@3.0.9) (2022-04-05)
 
 **Note:** Version bump only for package @aw-web-design/theme
