@@ -17,7 +17,7 @@
     "build": "lerna run build",
     "lerna:changed": "lerna changed",
     "lerna:version": "lerna version --conventional-commits --yes",
-    "lerna:publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --yes"
+    "lerna:publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --force-publish=* --yes"
   },
   "devDependencies": {
     "lerna": "4.0.0"
