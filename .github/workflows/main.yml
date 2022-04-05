@@ -21,6 +21,7 @@ jobs:
 
       - run: ls
       - run: cd packages
+      - run: ls
       - run: cd tcm-cli
       - run: yarn
       - run: cd ..
