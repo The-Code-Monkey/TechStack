@@ -9,15 +9,14 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@aw-web-design/components@0.2.57":
-  version "0.2.57"
-  resolved "https://registry.yarnpkg.com/@aw-web-design/components/-/components-0.2.57.tgz#3b0f4f3090175d2c99fab4a11dbdc52939d66c66"
-  integrity sha512-gzL65+YuVKgdrAG6p5Qu0Io+zKXQlVL5sIeHOCOidgaL+AehMVagpYY17uAO6TuzvyuGGu/XFRznQP7hLeTwVw==
+"@aw-web-design/components@2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@aw-web-design/components/-/components-2.0.9.tgz#9d549d254247bfb1413a5a632646cfeda37d0cf0"
+  integrity sha512-9Dls84X2/ND6QDx5+vWPjqlAQjnkh3+29PSB3EOyVO5FVF7/v+5o8BXDnlxzlz2jmap+/kY2WIwno/iQzwblhg==
   dependencies:
     "@aw-web-design/styled-system" "0.2.3"
     "@aw-web-design/tcm-cli" "1.0.23"
     "@aw-web-design/theme" "0.2.20"
-    "@types/react-table" "^7.7.10"
     classnames "^2.3.1"
     memoize-one "^6.0.0"
     react "18.0.0"
@@ -4524,7 +4523,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-table@7.7.10", "@types/react-table@^7.7.10":
+"@types/react-table@7.7.10":
   version "7.7.10"
   resolved "https://registry.yarnpkg.com/@types/react-table/-/react-table-7.7.10.tgz#ca8bb5420bfeae964ff61682f31f1cadfcfee726"
   integrity sha512-yt7FHv/2cFsucStSWLBOB3OmsRZF08DvVHzz8Zg41B4tzRL6pQ+5VYvmhaR1dKS//tDG4UOJ1RQJPEINHYoRtg==
