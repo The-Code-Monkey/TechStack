@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.8](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@3.0.4...@aw-web-design/tcm-cli@3.0.8) (2022-04-05)
+
+
+### Bug Fixes
+
+* broken package ([6d56d06](https://github.com/The-Code-Monkey/TechStack/commit/6d56d067aac5e09f872f07bb84e3682ffd2a453c))
+
+
+
+
+
 ## [3.0.7](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@3.0.4...@aw-web-design/tcm-cli@3.0.7) (2022-04-05)
 
 

@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.10](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.0.9...@aw-web-design/components@3.0.10) (2022-04-05)
+
+
+### Bug Fixes
+
+* broken package ([6d56d06](https://github.com/The-Code-Monkey/TechStack/commit/6d56d067aac5e09f872f07bb84e3682ffd2a453c))
+* **deps:** update dependency styled-components to v5.3.5 ([cb2d90a](https://github.com/The-Code-Monkey/TechStack/commit/cb2d90a402122e1cfb664477d31876f9ee7e38ac))
+* update packages to newest versions ([5c50c04](https://github.com/The-Code-Monkey/TechStack/commit/5c50c04fb62af415ccd68c4a243be348abcc43aa))
+
+
+
+
+
 ## 3.0.9 (2022-04-05)
 
 **Note:** Version bump only for package @aw-web-design/components
