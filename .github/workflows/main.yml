@@ -19,13 +19,8 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Build TCM
-        working-directory: ./packages/tcm-cli
-        run: yarn && yarn build
-
-      - name: Install packages
-        working-directory: ./
-        run: yarn
+      - name: Install deps and build (with cache)
+        uses: bahmutov/npm-install@v1
 
       - name: Build
         run: yarn build
