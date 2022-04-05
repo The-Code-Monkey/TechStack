@@ -9,6 +9,9 @@
     "lint": "eslint",
     "prepublish": "npm run lint && npm run clean && npm run build"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/the-code-monkey/react-textfit.git"
@@ -52,5 +55,5 @@
     "process": "^0.11.10",
     "prop-types": "^15.7.2"
   },
-  "gitHead": "3a7c568bb423521dd6b655230d8b1a96f16a4228"
+  "gitHead": "4eff72e16ff10a3811ffdb619debd8d94868067d"
 }
