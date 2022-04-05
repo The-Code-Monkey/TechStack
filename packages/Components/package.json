@@ -1,5 +1,5 @@
 {
-  "version": "3.0.10",
+  "version": "3.0.11",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -123,8 +123,8 @@
   },
   "dependencies": {
     "@aw-web-design/styled-system": "^3.0.8",
-    "@aw-web-design/tcm-cli": "^3.0.8",
-    "@aw-web-design/theme": "^3.0.8",
+    "@aw-web-design/tcm-cli": "^3.0.9",
+    "@aw-web-design/theme": "^3.0.9",
     "classnames": "2.3.1",
     "memoize-one": "6.0.0",
     "react": "18.0.0",

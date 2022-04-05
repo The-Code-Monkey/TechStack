@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.10](https://github.com/the-code-monkey/react-textfit/compare/@aw-web-design/react-textfit@3.0.9...@aw-web-design/react-textfit@3.0.10) (2022-04-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prop-types to v15.8.1 ([7fe6cd7](https://github.com/the-code-monkey/react-textfit/commit/7fe6cd7a1deee0145aa3c5e1b58e8b9039d3bf85))
+
+
+
+
+
 ## [3.0.9](https://github.com/the-code-monkey/react-textfit/compare/@aw-web-design/react-textfit@3.0.8...@aw-web-design/react-textfit@3.0.9) (2022-04-05)
 
 **Note:** Version bump only for package @aw-web-design/react-textfit
