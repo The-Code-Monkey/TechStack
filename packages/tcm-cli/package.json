@@ -167,5 +167,5 @@
       "node dist/index.js lint --fix"
     ]
   },
-  "gitHead": "fb7d94cd93e103be342540fe3935a3af41209543"
+  "gitHead": "3a7c568bb423521dd6b655230d8b1a96f16a4228"
 }
