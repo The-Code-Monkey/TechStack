@@ -123,7 +123,7 @@
   },
   "dependencies": {
     "@aw-web-design/styled-system": "0.2.3",
-    "@aw-web-design/tcm-cli": "1.0.23",
+    "@aw-web-design/tcm-cli": "2.0.9",
     "@aw-web-design/theme": "0.2.20",
     "classnames": "^2.3.1",
     "memoize-one": "^6.0.0",
