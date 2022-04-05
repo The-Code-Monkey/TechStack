@@ -19,8 +19,12 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Build TCM First
-        run: cd packages/tcm-cli && yarn && yarn build && cd ../.. && yarn
+      - run: ls
+      - run: cd packages
+      - run: cd tcm-cli
+      - run: yarn
+      - run: cd ..
+      - run: cd ..
 
       - name: Build
         run: yarn build
