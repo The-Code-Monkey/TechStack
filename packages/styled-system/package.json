@@ -20,7 +20,6 @@
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
-  "peerDependencies": {},
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
@@ -56,5 +55,6 @@
     "@emotion/is-prop-valid": "^1.1.0",
     "@emotion/memoize": "^0.7.5",
     "csstype": "^3.0.10"
-  }
+  },
+  "gitHead": "fb7d94cd93e103be342540fe3935a3af41209543"
 }

@@ -166,5 +166,6 @@
     "*.{js,jsx,ts,tsx}": [
       "node dist/index.js lint --fix"
     ]
-  }
+  },
+  "gitHead": "fb7d94cd93e103be342540fe3935a3af41209543"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "react-textfit",
+  "name": "@aw-web-design/react-textfit",
   "version": "1.1.23",
   "description": "React component to fit headlines and paragraphs into any element",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/malte-wessel/react-textfit.git"
+    "url": "https://github.com/the-code-monkey/react-textfit.git"
   },
   "keywords": [
     "textfit",
@@ -20,12 +20,11 @@
     "react",
     "react-component"
   ],
-  "author": "Malte Wessel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/malte-wessel/react-textfit/issues"
+    "url": "https://github.com/the-code-monkey/react-textfit/issues"
   },
-  "homepage": "https://github.com/malte-wessel/react-textfit",
+  "homepage": "https://github.com/the-code-monkey/react-textfit",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
@@ -52,5 +51,6 @@
   "dependencies": {
     "process": "^0.11.10",
     "prop-types": "^15.7.2"
-  }
+  },
+  "gitHead": "fb7d94cd93e103be342540fe3935a3af41209543"
 }

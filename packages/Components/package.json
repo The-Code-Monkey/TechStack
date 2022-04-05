@@ -133,5 +133,6 @@
     "react-lazy-named": "^1.2.2",
     "react-table": "^7.7.0",
     "styled-components": "^5.3.3"
-  }
+  },
+  "gitHead": "fb7d94cd93e103be342540fe3935a3af41209543"
 }
