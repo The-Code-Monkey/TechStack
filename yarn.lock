@@ -9,33 +9,6 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@aw-web-design/components@0.2.57":
-  version "0.2.57"
-  resolved "https://registry.yarnpkg.com/@aw-web-design/components/-/components-0.2.57.tgz#3b0f4f3090175d2c99fab4a11dbdc52939d66c66"
-  integrity sha512-gzL65+YuVKgdrAG6p5Qu0Io+zKXQlVL5sIeHOCOidgaL+AehMVagpYY17uAO6TuzvyuGGu/XFRznQP7hLeTwVw==
-  dependencies:
-    "@aw-web-design/styled-system" "0.2.3"
-    "@aw-web-design/tcm-cli" "1.0.23"
-    "@aw-web-design/theme" "0.2.20"
-    "@types/react-table" "^7.7.10"
-    classnames "^2.3.1"
-    memoize-one "^6.0.0"
-    react "18.0.0"
-    react-dom "18.0.0"
-    react-feather "^2.0.9"
-    react-lazy-named "^1.2.2"
-    react-table "^7.7.0"
-    styled-components "^5.3.3"
-
-"@aw-web-design/styled-system@0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@aw-web-design/styled-system/-/styled-system-0.2.3.tgz#1e5ab96fa382a7c1034ec484bbfbb2f94858022b"
-  integrity sha512-H2wS1q9pQhJh23gFFb2RtA1SVA9jM2My+2mbq3NSge+0Fgt7bjnDZCUic888wkliHJr5B5i0FdU7ei2FMdFbRA==
-  dependencies:
-    "@emotion/is-prop-valid" "^1.1.0"
-    "@emotion/memoize" "^0.7.5"
-    csstype "^3.0.10"
-
 "@aw-web-design/styled-system@0.2.8":
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/@aw-web-design/styled-system/-/styled-system-0.2.8.tgz#ccf4e3292e57985d6278ed9a1dc605288e00e16e"
@@ -4533,7 +4506,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-table@7.7.10", "@types/react-table@^7.7.10":
+"@types/react-table@7.7.10":
   version "7.7.10"
   resolved "https://registry.yarnpkg.com/@types/react-table/-/react-table-7.7.10.tgz#ca8bb5420bfeae964ff61682f31f1cadfcfee726"
   integrity sha512-yt7FHv/2cFsucStSWLBOB3OmsRZF08DvVHzz8Zg41B4tzRL6pQ+5VYvmhaR1dKS//tDG4UOJ1RQJPEINHYoRtg==
