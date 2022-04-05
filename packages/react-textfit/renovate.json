@@ -1,0 +1,15 @@
+{
+  "extends": [
+    ":dependencyDashboard",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":autodetectPinVersions",
+    ":prConcurrentLimit20",
+    "group:monorepos",
+    "group:recommended",
+    "workarounds:all"
+  ],
+  "includeForks": true,
+  "bumpVersion": "patch",
+  "automerge": true,
+  "ignoreDeps": ["ansi-escapes", "chalk", "execa", "ora"]
+}

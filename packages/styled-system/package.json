@@ -1,0 +1,60 @@
+{
+  "version": "0.2.8",
+  "license": "MIT",
+  "name": "@aw-web-design/styled-system",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "author": "The-Code-Monkey",
+  "module": "dist/styled-system.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/styled-system.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/styled-system.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/file": "7.0.8",
+    "husky": "7.0.4",
+    "size-limit": "7.0.8",
+    "tsdx": "0.14.1",
+    "tslib": "2.3.1",
+    "typescript": "4.6.3"
+  },
+  "dependencies": {
+    "@emotion/is-prop-valid": "^1.1.0",
+    "@emotion/memoize": "^0.7.5",
+    "csstype": "^3.0.10"
+  }
+}
