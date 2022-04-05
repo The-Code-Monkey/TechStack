@@ -12,18 +12,13 @@
     "node": ">=12"
   },
   "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build",
+    "start": "tcm watch",
+    "build": "tcm build",
+    "test": "tcm test",
+    "lint": "tcm lint",
+    "prepare": "tcm build",
     "size": "size-limit",
     "analyze": "size-limit --why"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
   },
   "prettier": {
     "printWidth": 80,
@@ -44,8 +39,8 @@
     }
   ],
   "devDependencies": {
+    "@aw-web-design/tcm-cli": "3.0.4",
     "@size-limit/file": "7.0.8",
-    "husky": "7.0.4",
     "size-limit": "7.0.8",
     "tsdx": "0.14.1",
     "tslib": "2.3.1",

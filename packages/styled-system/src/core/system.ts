@@ -14,7 +14,7 @@ export interface SystemConfig {
 export function system(args: SystemConfig = {}): Parser {
   const config: { [key: string]: StyleFn } = {};
 
-  Object.keys(args).forEach(key => {
+  Object.keys(args).forEach((key) => {
     const argConfig = args[key];
 
     if (argConfig === false) {

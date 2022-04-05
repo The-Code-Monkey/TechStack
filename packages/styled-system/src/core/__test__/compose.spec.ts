@@ -30,10 +30,7 @@ describe('compose', () => {
   });
 
   it('should handle null parsers', () => {
-    const parser = compose(
-      (null as unknown) as Parser,
-      ({} as unknown) as Parser
-    );
+    const parser = compose(null as unknown as Parser, {} as unknown as Parser);
 
     const styles = parser({
       color: 'tomato',

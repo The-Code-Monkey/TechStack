@@ -38,8 +38,8 @@ function parseResponsiveObject(
 ) {
   let styles: any = {};
 
-  Object.keys(raw).forEach(key => {
-    const breakpoint = breakpoints[(key as unknown) as number]; // FIXME?
+  Object.keys(raw).forEach((key) => {
+    const breakpoint = breakpoints[key as unknown as number]; // FIXME?
     const value = raw[key];
     const style = sx(value, scale, props);
 
@@ -75,7 +75,7 @@ export function createParser(config: any) {
     let shouldSort = false;
     const isCacheDisabled = props.theme?.disableStyledSystemCache;
 
-    Object.keys(props).forEach(key => {
+    Object.keys(props).forEach((key) => {
       if (!config[key]) {
         return;
       }
@@ -136,11 +136,11 @@ export function createParser(config: any) {
   parser.cache = cache;
 
   const keys = Object.keys(config).filter(
-    k => !['config', 'propNames', 'cache'].includes(k)
+    (k) => !['config', 'propNames', 'cache'].includes(k)
   );
 
   if (keys.length > 1) {
-    keys.forEach(key => {
+    keys.forEach((key) => {
       parser[key] = createParser({ [key]: config[key] });
     });
   }

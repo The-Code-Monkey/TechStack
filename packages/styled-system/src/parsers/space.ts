@@ -276,6 +276,7 @@ export const padding = system(paddingConfig);
 export interface SpaceProps<
   ThemeType extends Theme = RequiredTheme,
   TVal = ThemeValue<'space', ThemeType>
-> extends MarginProps<ThemeType, TVal>, PaddingProps<ThemeType, TVal> {}
+> extends MarginProps<ThemeType, TVal>,
+    PaddingProps<ThemeType, TVal> {}
 
 export const space = compose(margin, padding);

@@ -48,7 +48,7 @@ export function createStyleFunction({
       return undefined;
     }
 
-    p.forEach(prop => {
+    p.forEach((prop) => {
       result[prop] = value;
     });
 

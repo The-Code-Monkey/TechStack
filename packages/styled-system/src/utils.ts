@@ -15,7 +15,7 @@ export function isFunction(value: any): value is Function {
   return typeof value === 'function';
 }
 
-export const defaultBreakpoints = [40, 52, 64].map(n => `${n}em`);
+export const defaultBreakpoints = [40, 52, 64].map((n) => `${n}em`);
 
 export const defaultTheme = {
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72],

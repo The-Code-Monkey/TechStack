@@ -35,7 +35,7 @@ export function getParserDicts() {
   const scales: Record<string, string> = {};
   const transforms: Record<string, any> = {};
 
-  all.propNames.forEach(propName => {
+  all.propNames.forEach((propName) => {
     const config: StyleFn = all.config[propName];
 
     if (!config) {
