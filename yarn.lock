@@ -118,6 +118,18 @@
     style-dictionary "3.7.0"
     tinycolor2 "1.4.2"
 
+"@aw-web-design/theme@2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@aw-web-design/theme/-/theme-2.0.9.tgz#b7fcbad7279a18d009492c156052426b140ca3eb"
+  integrity sha512-rgoUyuq6H0z2Y+xO5Fj/WRfjK85yyC+qCq5fbr5DZfCKY46fqVNctRNmceV9dGG3u6eVohsRmG+rG1o+7RMenQ==
+  dependencies:
+    fs-extra "10.0.1"
+    lodash "4.17.21"
+    lodash-es "4.17.21"
+    sade "1.8.1"
+    style-dictionary "3.7.0"
+    tinycolor2 "1.4.2"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.0", "@babel/code-frame@^7.16.7", "@babel/code-frame@^7.5.5", "@babel/code-frame@^7.8.3":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.16.7.tgz#44416b6bd7624b998f5b1af5d470856c40138789"
