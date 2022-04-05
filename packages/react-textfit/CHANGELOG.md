@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.1 (2022-04-05)
+
+
+### Bug Fixes
+
+* release new version of everything ([fb0a068](https://github.com/the-code-monkey/react-textfit/commit/fb0a06851515dfde016669312440cd13101ff1dc))
+
+
+
+
+
 ## 2.0.10 (2022-04-05)
 
 
