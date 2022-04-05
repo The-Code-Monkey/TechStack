@@ -44,7 +44,7 @@
     }
   ],
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "1.0.23",
+    "@aw-web-design/tcm-cli": "3.0.5",
     "@release-it/conventional-changelog": "4.2.2",
     "@size-limit/file": "7.0.8",
     "@tsconfig/recommended": "1.0.1",
