@@ -3,12 +3,12 @@
   "version": "3.0.6",
   "private": true,
   "scripts": {
-    "dev": "yarn build:tokens && next dev",
-    "build": "yarn build:tokens && next build",
-    "build:tokens": "orchard generate",
-    "start": "yarn build:tokens && next start",
-    "lint": "next lint",
-    "prettier": "prettier --write \"{components,pages}/**/*.{js,jsx,ts,tsx}\""
+    "dev": "yarn build:tokens && node_modules/.bin/next dev",
+    "build": "yarn build:tokens && node_modules/.bin/next build",
+    "build:tokens": "node_modules/.bin/orchard generate",
+    "start": "yarn build:tokens && node_modules/.bin/next start",
+    "lint": "node_modules/.bin/next lint",
+    "prettier": "node_modules/.bin/prettier --write \\\"{components,pages}/**/*.{js,jsx,ts,tsx}\\\""
   },
   "dependencies": {
     "@aw-web-design/components": "3.0.6",
