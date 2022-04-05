@@ -12,6 +12,10 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          
+      - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
       - name: Setup Node
         uses: actions/setup-node@v3
