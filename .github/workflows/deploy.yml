@@ -30,8 +30,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install
-        run: yarn
+      - name: Install deps and build (with cache)
+        uses: bahmutov/npm-install@v1
 
       - name: Lint
         run: yarn lint
