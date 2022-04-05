@@ -17,9 +17,11 @@
     "build": "lerna run build",
     "lerna:changed": "lerna changed",
     "lerna:version": "lerna version --conventional-commits --yes",
-    "lerna:publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --no-verify-access --yes"
+    "lerna:publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --no-verify-access --yes",
+    "prepare": "husky install"
   },
   "devDependencies": {
+    "husky": "7.0.4",
     "lerna": "4.0.0"
   }
 }
