@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.6](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.0.5...@aw-web-design/components@3.0.6) (2022-04-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @aw-web-design/styled-system to v0.2.8 ([c2c25c9](https://github.com/The-Code-Monkey/TechStack/commit/c2c25c9ff77f053b7a137a862d87eae3badd7837))
+
+
+
+
+
 ## [3.0.5](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.0.4...@aw-web-design/components@3.0.5) (2022-04-05)
 
 **Note:** Version bump only for package @aw-web-design/components
