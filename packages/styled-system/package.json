@@ -41,12 +41,11 @@
   "devDependencies": {
     "@size-limit/file": "7.0.8",
     "size-limit": "7.0.8",
-    "tsdx": "0.14.1",
     "tslib": "2.3.1",
     "typescript": "4.6.3"
   },
   "dependencies": {
-    "@aw-web-design/tcm-cli": "1.0.23",
+    "@aw-web-design/tcm-cli": "3.0.5",
     "@emotion/is-prop-valid": "^1.1.0",
     "@emotion/memoize": "^0.7.5",
     "csstype": "^3.0.10"

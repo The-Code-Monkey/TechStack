@@ -122,9 +122,9 @@
     "typescript": "4.6.3"
   },
   "dependencies": {
-    "@aw-web-design/styled-system": "0.2.3",
-    "@aw-web-design/tcm-cli": "1.0.23",
-    "@aw-web-design/theme": "0.2.20",
+    "@aw-web-design/styled-system": "3.0.5",
+    "@aw-web-design/tcm-cli": "3.0.5",
+    "@aw-web-design/theme": "3.0.5",
     "classnames": "^2.3.1",
     "memoize-one": "^6.0.0",
     "react": "18.0.0",
