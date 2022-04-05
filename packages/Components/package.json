@@ -125,14 +125,14 @@
     "@aw-web-design/styled-system": "3.0.5",
     "@aw-web-design/tcm-cli": "3.0.6",
     "@aw-web-design/theme": "3.0.5",
-    "classnames": "^2.3.1",
-    "memoize-one": "^6.0.0",
+    "classnames": "2.3.1",
+    "memoize-one": "6.0.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-feather": "^2.0.9",
-    "react-lazy-named": "^1.2.2",
-    "react-table": "^7.7.0",
-    "styled-components": "^5.3.3"
+    "react-feather": "2.0.9",
+    "react-lazy-named": "1.2.2",
+    "react-table": "7.7.0",
+    "styled-components": "5.3.3"
   },
   "gitHead": "25f6ba2d98aa011acb349bb3f16320be8bccafc0"
 }

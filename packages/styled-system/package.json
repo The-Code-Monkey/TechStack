@@ -46,9 +46,9 @@
   },
   "dependencies": {
     "@aw-web-design/tcm-cli": "3.0.6",
-    "@emotion/is-prop-valid": "^1.1.0",
-    "@emotion/memoize": "^0.7.5",
-    "csstype": "^3.0.10"
+    "@emotion/is-prop-valid": "1.1.0",
+    "@emotion/memoize": "0.7.5",
+    "csstype": "3.0.10"
   },
   "gitHead": "25f6ba2d98aa011acb349bb3f16320be8bccafc0"
 }
