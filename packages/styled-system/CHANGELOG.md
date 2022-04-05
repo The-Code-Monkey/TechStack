@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.11 (2022-04-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @aw-web-design/tcm-cli to v3.0.9 ([1937612](https://github.com/The-Code-Monkey/TechStack/commit/1937612e05654282bd724fd8c3c3e26421693d8f))
+
+
+
+
+
 ## [3.0.10](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/styled-system@3.0.9...@aw-web-design/styled-system@3.0.10) (2022-04-05)
 
 
