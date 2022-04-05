@@ -11,7 +11,7 @@
     "prettier": "node_modules/.bin/prettier --write \\\"{components,pages}/**/*.{js,jsx,ts,tsx}\\\""
   },
   "dependencies": {
-    "@aw-web-design/components": "3.0.14",
+    "@aw-web-design/components": "3.0.15",
     "@aw-web-design/styled-system": "3.0.6",
     "@aw-web-design/theme": "3.0.11",
     "deepmerge": "4.2.2",
