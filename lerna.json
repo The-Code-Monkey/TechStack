@@ -18,7 +18,8 @@
     }
   },
   "packages": [
-    "packages/*"
+    "packages/*",
+    "platforms/*"
   ],
   "version": "independent"
 }
