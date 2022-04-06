@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.12](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@3.0.11...@aw-web-design/tcm-cli@3.0.12) (2022-04-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency semver to v7.3.6 ([38e17a0](https://github.com/The-Code-Monkey/TechStack/commit/38e17a04369d3f13b35c9b1c55eeb23e5becf3e3))
+
+
+
+
+
 ## 3.0.11 (2022-04-06)
 
 
