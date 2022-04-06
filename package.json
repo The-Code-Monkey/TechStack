@@ -19,7 +19,7 @@
     "build": "yarn build:tcm && yarn lerna:link && lerna run build",
     "lerna:link": "lerna link",
     "lerna:changed": "lerna changed",
-    "lerna:version": "lerna version --conventional-commits --yes",
+    "lerna:version": "lerna version --conventional-commits --exact --yes",
     "lerna:publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --no-verify-access --yes",
     "prepare": "husky install"
   },
