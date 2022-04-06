@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.20](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.0.19...@aw-web-design/components@3.0.20) (2022-04-06)
+
+
+### Bug Fixes
+
+* update storybook command ([158a9bf](https://github.com/The-Code-Monkey/TechStack/commit/158a9bf9aa1373a73b97a79d431a995561f10b5a))
+
+
+
+
+
 ## [3.0.19](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.0.18...@aw-web-design/components@3.0.19) (2022-04-06)
 
 
