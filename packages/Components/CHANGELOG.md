@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.19](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.0.18...@aw-web-design/components@3.0.19) (2022-04-06)
+
+
+### Bug Fixes
+
+* **deps:** pin dependency @aw-web-design/styled-system to 3.0.12 ([c216e6c](https://github.com/The-Code-Monkey/TechStack/commit/c216e6ce0329a2168941eedfe1f658bd6332b45f))
+
+
+
+
+
 ## [3.0.18](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.0.17...@aw-web-design/components@3.0.18) (2022-04-06)
 
 
