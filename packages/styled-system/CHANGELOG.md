@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.12 (2022-04-06)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([ba5805e](https://github.com/The-Code-Monkey/TechStack/commit/ba5805e440c82a56ad7b2aafc0d336123acc94aa))
+
+
+
+
+
 ## 3.0.11 (2022-04-05)
 
 

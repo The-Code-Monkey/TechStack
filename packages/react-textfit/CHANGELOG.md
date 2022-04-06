@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.11 (2022-04-06)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([ba5805e](https://github.com/the-code-monkey/react-textfit/commit/ba5805e440c82a56ad7b2aafc0d336123acc94aa))
+
+
+
+
+
 ## [3.0.10](https://github.com/the-code-monkey/react-textfit/compare/@aw-web-design/react-textfit@3.0.9...@aw-web-design/react-textfit@3.0.10) (2022-04-05)
 
 

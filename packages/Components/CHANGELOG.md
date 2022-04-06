@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.18](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.0.17...@aw-web-design/components@3.0.18) (2022-04-06)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([ba5805e](https://github.com/The-Code-Monkey/TechStack/commit/ba5805e440c82a56ad7b2aafc0d336123acc94aa))
+
+
+
+
+
 ## [3.0.17](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.0.16...@aw-web-design/components@3.0.17) (2022-04-06)
 
 
