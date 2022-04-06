@@ -9,6 +9,9 @@
     "group:recommended",
     "workarounds:all"
   ],
+  "constraints": {
+    "node": "> ^14 || < ^16"
+  },
   "rangeStrategy": "pin",
   "rollbackPrs": false,
   "labels": ["dependencies"],
