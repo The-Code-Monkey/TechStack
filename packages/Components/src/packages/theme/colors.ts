@@ -1,8 +1,8 @@
 import common from './dist/core';
-import neutrals from './dist/neutrals';
-import intents from './dist/intents';
 import darkMode from './dist/dark-mode';
+import intents from './dist/intents';
 import lightMode from './dist/light-mode';
+import neutrals from './dist/neutrals';
 
 const colors = {
   common: common.common,

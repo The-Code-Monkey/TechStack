@@ -1,5 +1,5 @@
-import React, { useCallback, useContext, useMemo } from 'react';
 import cn from 'classnames';
+import React, { useCallback, useContext, useMemo } from 'react';
 import { Accessor, TableOptions, useTable } from 'react-table';
 import { ThemeContext } from 'styled-components';
 

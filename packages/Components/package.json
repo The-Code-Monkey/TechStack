@@ -41,21 +41,41 @@
     ]
   },
   "eslintConfig": {
+    "extends": [
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:import/typescript"
+    ],
+    "plugins": [
+      "import"
+    ],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": "latest",
+      "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+      }
+    },
     "rules": {
-      "import/no-anonymous-default-export": 0,
+      "import/no-unresolved": "off",
+      "import/no-named-as-default": "off",
+      "import/no-anonymous-default-export": "off",
       "import/order": [
         "error",
         {
           "groups": [
             "builtin",
             "external",
-            "internal",
             "parent",
             "sibling",
-            "index",
-            "object"
+            "index"
           ],
-          "newlines-between": "always"
+          "newlines-between": "always",
+          "alphabetize": {
+            "order": "asc",
+            "caseInsensitive": true
+          }
         }
       ]
     }
@@ -73,24 +93,6 @@
       "limit": "10 KB"
     }
   ],
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release v${version}"
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "conventionalcommits",
-        "infile": "CHANGELOG.md",
-        "ignoreRecommendedBump": true
-      }
-    },
-    "github": {
-      "release": true
-    },
-    "npm": {
-      "skipChecks": true
-    }
-  },
   "devDependencies": {
     "@babel/core": "7.17.8",
     "@release-it/conventional-changelog": "4.2.2",
@@ -113,6 +115,7 @@
     "dts-cli": "1.4.0",
     "enzyme": "3.11.0",
     "enzyme-to-json": "3.6.2",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "4.0.0",
     "react-is": "18.0.0",
     "release-it": "14.14.0",

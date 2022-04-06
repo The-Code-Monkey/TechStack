@@ -1,8 +1,8 @@
-import React from 'react';
 import toJson from 'enzyme-to-json';
+import React from 'react';
 
-import { mountWithTheme } from '../../../test-tools';
 import Input from '..';
+import { mountWithTheme } from '../../../test-tools';
 
 describe('<Input />', () => {
   it('renders correctly', () => {

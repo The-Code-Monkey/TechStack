@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components';
 import { variant, Theme } from '@aw-web-design/styled-system';
+import styled, { css } from 'styled-components';
 
 import { Interactable, StyledBoxProps } from '../../primatives';
 

@@ -1,9 +1,9 @@
-import React, { ReactNode } from 'react';
 import { mount, shallow, ShallowWrapper, ReactWrapper } from 'enzyme';
+import React, { ReactNode } from 'react';
 import { ThemeProvider } from 'styled-components';
 
-import { ConfigContext } from '../utils';
 import theme from '../theme';
+import { ConfigContext } from '../utils';
 
 const config = {
   outputDir: '/src/packages/',

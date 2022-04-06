@@ -1,8 +1,8 @@
-import React from 'react';
 import toJson from 'enzyme-to-json';
+import React from 'react';
 
-import { mountWithTheme } from '../../../test-tools';
 import Divider from '..';
+import { mountWithTheme } from '../../../test-tools';
 
 describe('<Divider />', () => {
   it('renders correctly', () => {

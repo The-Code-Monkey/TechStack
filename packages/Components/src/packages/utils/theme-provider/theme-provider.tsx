@@ -1,8 +1,8 @@
 import React, { ReactNode } from 'react';
 import { ThemeProvider as StyledThemeProvider } from 'styled-components';
 
-import { ThemeModeEnum } from './enum';
 import createTheme, { ThemeType } from './create-theme';
+import { ThemeModeEnum } from './enum';
 import { StyledDiv } from './styled';
 
 interface Props {

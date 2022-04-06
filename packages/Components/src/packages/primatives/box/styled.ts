@@ -1,4 +1,3 @@
-import styled from 'styled-components';
 import {
   compose,
   color,
@@ -12,6 +11,7 @@ import {
   get,
   getContrast,
 } from '@aw-web-design/styled-system';
+import styled from 'styled-components';
 
 import { shouldForwardProp } from '../../utils';
 

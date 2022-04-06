@@ -10,6 +10,7 @@
     "packages/*"
   ],
   "scripts": {
+    "postinstall": "yarn build",
     "test": "lerna run test",
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint -- --fix",

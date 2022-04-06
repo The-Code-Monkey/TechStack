@@ -9,6 +9,8 @@
     "group:recommended",
     "workarounds:all"
   ],
+  "rangeStrategy": "pin",
+  "rollbackPrs": false,
   "labels": ["dependencies"],
   "automerge": true,
   "vulnerabilityAlerts": {

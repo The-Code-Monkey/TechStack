@@ -1,5 +1,3 @@
-import React, { ReactNode } from 'react';
-import { Property } from 'csstype';
 import {
   SpaceProps,
   ColorProps,
@@ -9,6 +7,8 @@ import {
   ShadowProps,
   FlexboxProps,
 } from '@aw-web-design/styled-system';
+import { Property } from 'csstype';
+import React, { ReactNode } from 'react';
 
 import { generateAutomationId } from '../../utils';
 

@@ -1,5 +1,5 @@
-import React, { useMemo } from 'react';
 import { GridProps } from '@aw-web-design/styled-system';
+import React, { useMemo } from 'react';
 
 import { BoxProps } from '../../primatives';
 

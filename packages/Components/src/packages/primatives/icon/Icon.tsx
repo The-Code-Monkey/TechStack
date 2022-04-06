@@ -4,8 +4,8 @@ import { HelpCircle } from 'react-feather';
 import { generateAutomationId, ConfigContext } from '../../utils';
 import { BoxProps } from '../box';
 
-import { getIcon } from './utils';
 import { SvgWrapper } from './styled';
+import { getIcon } from './utils';
 
 export interface Props extends Omit<BoxProps, 'children'> {
   name: string;

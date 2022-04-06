@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { grid } from '@aw-web-design/styled-system';
+import styled from 'styled-components';
 
 import { Box } from '../../primatives';
 
