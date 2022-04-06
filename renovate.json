@@ -10,7 +10,7 @@
     "workarounds:all"
   ],
   "constraints": {
-    "node": "> ^14 || < ^16"
+    "node": ">= 14.0.0"
   },
   "rangeStrategy": "pin",
   "rollbackPrs": false,
