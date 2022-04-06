@@ -24,6 +24,10 @@
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
+    },
+    {
+      "matchPackageNames": ["node"],
+      "enabled": false
     }
   ],
   "ignoreDeps": ["execa", "ora"]
