@@ -94,7 +94,7 @@
     }
   ],
   "devDependencies": {
-    "@babel/core": "7.17.8",
+    "@babel/core": "7.17.9",
     "@release-it/conventional-changelog": "4.2.2",
     "@size-limit/file": "7.0.8",
     "@storybook/addon-essentials": "6.4.20",
