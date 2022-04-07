@@ -12,6 +12,9 @@
     "build:es": "rm -rf dist && babel src --out-dir dist --copy-files",
     "build": "concurrently \"npm:build:*\""
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist",
     "es"

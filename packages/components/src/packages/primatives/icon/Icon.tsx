@@ -1,5 +1,5 @@
+import { HelpCircle } from '@aw-web-design/react-feather';
 import React, { useContext, Suspense, memo } from 'react';
-import { HelpCircle } from 'react-feather';
 
 import { generateAutomationId, ConfigContext } from '../../utils';
 import { BoxProps } from '../box';

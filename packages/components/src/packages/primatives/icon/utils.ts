@@ -7,7 +7,7 @@ export const getIcon = (
   if (config?.iconDir) {
     switch (config.iconDir) {
       default:
-        return lazy(() => import('react-feather'), name);
+        return lazy(() => import('@aw-web-design/react-feather'), name);
     }
   }
 
