@@ -18498,8 +18498,7 @@ tree-kill@^1.2.2:
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
 
-trim-fix@^0.0.2, trim@0.0.1, "trim@npm:trim-fix@^0.0.2":
-  name trim
+trim-fix@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/trim-fix/-/trim-fix-0.0.2.tgz#8fd67ce9d2b0d1dc9ee4b74b5f5bd4364def9278"
   integrity sha512-WozN6UrGnUSKUmuBvAPC9E4VAZfKv9D7m7EHr2IAUbi4WNROoXOhNrTJvIxjfcN08XERYRXvTgULUgexstzWoA==
@@ -18518,6 +18517,11 @@ trim-trailing-lines@^1.0.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/trim-trailing-lines/-/trim-trailing-lines-1.1.4.tgz#bd4abbec7cc880462f10b2c8b5ce1d8d1ec7c2c0"
   integrity sha512-rjUWSqnfTNrjbB9NQWfPMH/xRK1deHeGsHoVfpxJ++XeYXE0d6B1En37AHfw3jtfTU7dzMzZL2jjpe8Qb5gLIQ==
+
+trim@0.0.1, "trim@= 0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/trim/-/trim-0.0.3.tgz#05243a47a3a4113e6b49367880a9cca59697a20b"
+  integrity sha512-h82ywcYhHK7veeelXrCScdH7HkWfbIT1D/CgYO+nmDarz3SGNssVBMws6jU16Ga60AJCRAvPV6w6RLuNerQqjg==
 
 trough@^1.0.0:
   version "1.0.5"
