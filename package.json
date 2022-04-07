@@ -36,6 +36,6 @@
     "braces": "= 2.3.1"
   },
   "dependencies": {
-    "trim-fix": "^0.0.2"
+    "trim-fix": "0.0.2"
   }
 }
