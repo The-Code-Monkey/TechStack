@@ -2,15 +2,12 @@
   "name": "@aw-web-design/react-feather",
   "version": "3.0.14",
   "description": "React component for Feather icons",
-  "main": "build/index.js",
   "module": "dist/index.js",
   "sideEffects": false,
   "typings": "dist/index.d.ts",
   "scripts": {
-    "compile": "rm -rf src/icons && node bin/build.js",
-    "build:bundle": "rm -rf build && rollup --config rollup.config.js",
-    "build:es": "rm -rf dist && babel src --out-dir dist --copy-files",
-    "build": "concurrently \"npm:build:*\""
+    "lint": "tcm lint",
+    "build": "tcm build"
   },
   "publishConfig": {
     "access": "public"
@@ -50,7 +47,6 @@
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.2",
-    "feather-icons": "^4.28.0",
     "prettier-eslint": "^9.0.0",
     "rollup": "^2.3.3",
     "rollup-plugin-babel": "^4.3.3",
@@ -60,6 +56,6 @@
     "react": "^16.8.6 || ^17"
   },
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "@aw-web-design/tcm-cli": "3.0.12"
   }
 }
