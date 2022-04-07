@@ -46,7 +46,7 @@
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.2",
-    "prettier-eslint": "^9.0.0",
+    "prettier-eslint": "9.0.2",
     "rollup": "^2.3.3",
     "rollup-plugin-babel": "^4.3.3",
     "uppercamelcase": "^3.0.0"
