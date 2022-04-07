@@ -60,6 +60,6 @@
     "react": "^16.8.6 || ^17"
   },
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "prop-types": "15.8.1"
   }
 }
