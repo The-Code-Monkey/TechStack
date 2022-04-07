@@ -1,36 +1,30 @@
 import React, { ForwardedRef, forwardRef } from 'react';
 import { IconProps } from '../types';
 
-
-const Award = ({ color = 'currentColor', size = 24, ...rest }: IconProps, ref: ForwardedRef<SVGSVGElement>) => {
-    return (
-      <svg
-        
-        ref={ref}
-        xmlns="http://www.w3.org/2000/svg"
-        width={size}
-        height={size}
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke={color}
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        {...rest}
-      >
-        <circle cx="12" cy="8" r="7" />
-        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
-      </svg>
-    );
-  }
-);
-
-Award.propTypes = {
-  // @ts-expect-error ts-migrate(2322) FIXME: Type '{ color: PropTypes.Requireable<string>; size... Remove this comment to see the full error message
-  color: PropTypes.string,
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+const Award = (
+  { color = 'currentColor', size = 24, ...rest }: IconProps,
+  ref: ForwardedRef<SVGSVGElement>
+) => {
+  return (
+    <svg
+      ref={ref}
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke={color}
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...rest}
+    >
+      <circle cx="12" cy="8" r="7" />
+      <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+    </svg>
+  );
 };
 
 Award.displayName = 'Award';
 
-export default Award;
+export default forwardRef(Award);

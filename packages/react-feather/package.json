@@ -2,9 +2,12 @@
   "name": "@aw-web-design/react-feather",
   "version": "3.0.14",
   "description": "React component for Feather icons",
-  "module": "dist/index.js",
-  "sideEffects": false,
+  "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "lint": "tcm lint",
     "build": "tcm build"
@@ -12,10 +15,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "dist",
-    "es"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/The-Code-Monkey/TechStack.git"

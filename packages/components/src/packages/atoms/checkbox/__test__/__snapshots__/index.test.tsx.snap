@@ -81,7 +81,7 @@ exports[`<Checkbox /> renders correctly checked 1`] = `
                 size="full"
               >
                 <Suspense
-                  fallback={<HelpCircle />}
+                  fallback={<ForwardRef(HelpCircle) />}
                 >
                   <Styled(Box)
                     autoid="undefinedcheckbox_icon_icon"
@@ -103,7 +103,7 @@ exports[`<Checkbox /> renders correctly checked 1`] = `
                       </styled.div>
                     </Box>
                   </Styled(Box)>
-                  <HelpCircle>
+                  <ForwardRef(HelpCircle)>
                     <svg
                       fill="none"
                       height={24}
@@ -130,7 +130,7 @@ exports[`<Checkbox /> renders correctly checked 1`] = `
                         y2="17"
                       />
                     </svg>
-                  </HelpCircle>
+                  </ForwardRef(HelpCircle)>
                 </Suspense>
               </Memo(Icon)>
             </div>
@@ -219,7 +219,7 @@ exports[`<Checkbox /> renders correctly indeterminate 1`] = `
                 size="full"
               >
                 <Suspense
-                  fallback={<HelpCircle />}
+                  fallback={<ForwardRef(HelpCircle) />}
                 >
                   <Styled(Box)
                     autoid="undefinedcheckbox_icon_icon"
@@ -241,7 +241,7 @@ exports[`<Checkbox /> renders correctly indeterminate 1`] = `
                       </styled.div>
                     </Box>
                   </Styled(Box)>
-                  <HelpCircle>
+                  <ForwardRef(HelpCircle)>
                     <svg
                       fill="none"
                       height={24}
@@ -268,7 +268,7 @@ exports[`<Checkbox /> renders correctly indeterminate 1`] = `
                         y2="17"
                       />
                     </svg>
-                  </HelpCircle>
+                  </ForwardRef(HelpCircle)>
                 </Suspense>
               </Memo(Icon)>
             </div>
