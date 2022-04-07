@@ -52,7 +52,7 @@
     "uppercamelcase": "3.0.0"
   },
   "peerDependencies": {
-    "react": "17.0.2"
+    "react": "18.0.0"
   },
   "dependencies": {
     "@aw-web-design/tcm-cli": "3.0.12"
