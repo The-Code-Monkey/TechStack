@@ -1,8 +1,8 @@
-import React, { ForwardedRef, forwardRef } from 'react';
-import { IconProps } from '../types';
+import React, { ForwardedRef, forwardRef } from "react";
+import { IconProps } from "../types";
 
 const Tv = (
-  { color = 'currentColor', size = 24, ...rest }: IconProps,
+  { color = "currentColor", size = 24, ...rest }: IconProps,
   ref: ForwardedRef<SVGSVGElement>
 ) => {
   return (
@@ -25,6 +25,6 @@ const Tv = (
   );
 };
 
-Tv.displayName = 'Tv';
+Tv.displayName = "Tv";
 
 export default forwardRef(Tv);

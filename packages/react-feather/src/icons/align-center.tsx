@@ -1,8 +1,8 @@
-import React, { ForwardedRef, forwardRef } from 'react';
-import { IconProps } from '../types';
+import React, { ForwardedRef, forwardRef } from "react";
+import { IconProps } from "../types";
 
 const AlignCenter = (
-  { color = 'currentColor', size = 24, ...rest }: IconProps,
+  { color = "currentColor", size = 24, ...rest }: IconProps,
   ref: ForwardedRef<SVGSVGElement>
 ) => {
   return (
@@ -27,6 +27,6 @@ const AlignCenter = (
   );
 };
 
-AlignCenter.displayName = 'AlignCenter';
+AlignCenter.displayName = "AlignCenter";
 
 export default forwardRef(AlignCenter);

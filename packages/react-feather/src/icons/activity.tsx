@@ -1,8 +1,8 @@
-import React, { ForwardedRef, forwardRef } from 'react';
-import { IconProps } from '../types';
+import React, { ForwardedRef, forwardRef } from "react";
+import { IconProps } from "../types";
 
 const Activity = (
-  { color = 'currentColor', size = 24, ...rest }: IconProps,
+  { color = "currentColor", size = 24, ...rest }: IconProps,
   ref: ForwardedRef<any>
 ) => {
   return (
@@ -24,6 +24,6 @@ const Activity = (
   );
 };
 
-Activity.displayName = 'Activity';
+Activity.displayName = "Activity";
 
 export default forwardRef(Activity);

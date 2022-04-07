@@ -1,8 +1,8 @@
-import React, { ForwardedRef, forwardRef } from 'react';
-import { IconProps } from '../types';
+import React, { ForwardedRef, forwardRef } from "react";
+import { IconProps } from "../types";
 
 const Shuffle = (
-  { color = 'currentColor', size = 24, ...rest }: IconProps,
+  { color = "currentColor", size = 24, ...rest }: IconProps,
   ref: ForwardedRef<SVGSVGElement>
 ) => {
   return (
@@ -28,6 +28,6 @@ const Shuffle = (
   );
 };
 
-Shuffle.displayName = 'Shuffle';
+Shuffle.displayName = "Shuffle";
 
 export default forwardRef(Shuffle);

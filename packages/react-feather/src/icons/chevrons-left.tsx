@@ -1,8 +1,8 @@
-import React, { ForwardedRef, forwardRef } from 'react';
-import { IconProps } from '../types';
+import React, { ForwardedRef, forwardRef } from "react";
+import { IconProps } from "../types";
 
 const ChevronsLeft = (
-  { color = 'currentColor', size = 24, ...rest }: IconProps,
+  { color = "currentColor", size = 24, ...rest }: IconProps,
   ref: ForwardedRef<SVGSVGElement>
 ) => {
   return (
@@ -25,6 +25,6 @@ const ChevronsLeft = (
   );
 };
 
-ChevronsLeft.displayName = 'ChevronsLeft';
+ChevronsLeft.displayName = "ChevronsLeft";
 
 export default forwardRef(ChevronsLeft);

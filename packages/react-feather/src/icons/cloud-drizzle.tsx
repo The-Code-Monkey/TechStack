@@ -1,8 +1,8 @@
-import React, { ForwardedRef, forwardRef } from 'react';
-import { IconProps } from '../types';
+import React, { ForwardedRef, forwardRef } from "react";
+import { IconProps } from "../types";
 
 const CloudDrizzle = (
-  { color = 'currentColor', size = 24, ...rest }: IconProps,
+  { color = "currentColor", size = 24, ...rest }: IconProps,
   ref: ForwardedRef<SVGSVGElement>
 ) => {
   return (
@@ -30,6 +30,6 @@ const CloudDrizzle = (
   );
 };
 
-CloudDrizzle.displayName = 'CloudDrizzle';
+CloudDrizzle.displayName = "CloudDrizzle";
 
 export default forwardRef(CloudDrizzle);
