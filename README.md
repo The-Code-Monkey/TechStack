@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/logo.png" alt="logo" width="200" height="auto" />
+  <img src="logo.png" alt="logo" width="200" height="auto" />
   <h1>Tech Stack</h1>
   
   <p>
