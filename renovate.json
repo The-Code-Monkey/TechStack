@@ -12,7 +12,7 @@
   "constraints": {
     "node": ">= 14.0.0"
   },
-  "baseBranches": ["master", "dev"],
+  "baseBranches": "dev",
   "rangeStrategy": "pin",
   "rollbackPrs": false,
   "labels": ["dependencies"],
