@@ -33,7 +33,7 @@
   },
   "resolutions": {
     "trim": "1.0.1",
-    "braces": "= 2.3.1"
+    "braces": "2.3.2"
   },
   "dependencies": {
     "trim-fix": "0.0.2"
