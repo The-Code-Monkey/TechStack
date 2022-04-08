@@ -3,8 +3,6 @@ import React, { useCallback, useContext, useMemo } from 'react';
 import { Accessor, TableOptions, useTable } from 'react-table';
 import { ThemeContext } from 'styled-components';
 
-import { ITheme } from '../../utils/theme-provider/types';
-
 import {
   StyledTable,
   StyledTHead,
@@ -20,7 +18,7 @@ export interface Props extends TableOptions<object> {
 }
 
 const Table = ({ columns, data, className, onRowClick }: Props) => {
-  const theme = useContext<ITheme>(ThemeContext);
+  const theme = useContext(ThemeContext);
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({ columns, data });
 
