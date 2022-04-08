@@ -69,7 +69,7 @@
     "eslint-plugin-react": "7.29.4",
     "eslint-plugin-react-hooks": "4.4.0",
     "eslint-plugin-testing-library": "5.2.1",
-    "execa": "4.1.0",
+    "execa": "6.1.0",
     "figlet": "1.5.2",
     "fs-extra": "10.0.1",
     "jest": "27.5.1",
