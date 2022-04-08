@@ -34,6 +34,5 @@
       "matchPackagePatterns": ["@aw-web-design/*"],
       "groupName": "@aw-web-design mono repo"
     }
-  ],
-  "ignoreDeps": ["execa", "ora"]
+  ]
 }
