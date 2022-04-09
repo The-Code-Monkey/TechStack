@@ -7,14 +7,17 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "platforms/*"
   ],
   "scripts": {
     "postinstall": "yarn build",
     "test": "lerna run test",
+    "test:fix": "lerna run test -- -u",
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint -- --fix",
     "size": "lerna run size",
+    "build:cms": "cd platforms/react-cms && yarn build",
     "build:tcm": "cd packages/tcm-cli && yarn build",
     "build": "yarn build:tcm && yarn lerna:link && lerna run build",
     "lerna:link": "lerna link",
@@ -29,6 +32,10 @@
     "lerna": "4.0.0"
   },
   "resolutions": {
-    "**/trim": "1.0.1"
+    "trim": "1.0.1",
+    "braces": "3.0.2"
+  },
+  "dependencies": {
+    "trim-fix": "0.0.2"
   }
 }

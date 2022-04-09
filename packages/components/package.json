@@ -1,0 +1,141 @@
+{
+  "version": "3.0.22",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "tcm watch",
+    "build": "yarn build:tokens && tcm build",
+    "build:tokens": "orchard generate",
+    "test": "yarn build:tokens && tcm test --passWithNoTests",
+    "lint": "yarn build:tokens && tcm lint",
+    "prepare": "tcm build",
+    "size": "size-limit",
+    "analyze": "size-limit --why",
+    "storybook": "yarn build:tokens && start-storybook -p 6006",
+    "build-storybook": "yarn build:tokens && build-storybook",
+    "release": "yarn lint && yarn build && release-it --ci --npm.access=public"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "endOfLine": "auto"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "preset": "ts-jest",
+    "setupFiles": [
+      "<rootDir>/setupTests.js"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:import/typescript"
+    ],
+    "plugins": [
+      "import"
+    ],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": "latest",
+      "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+      }
+    },
+    "rules": {
+      "import/no-unresolved": "off",
+      "import/no-named-as-default": "off",
+      "import/no-anonymous-default-export": "off",
+      "import/order": [
+        "error",
+        {
+          "groups": [
+            "builtin",
+            "external",
+            "parent",
+            "sibling",
+            "index"
+          ],
+          "newlines-between": "always",
+          "alphabetize": {
+            "order": "asc",
+            "caseInsensitive": true
+          }
+        }
+      ]
+    }
+  },
+  "name": "@aw-web-design/components",
+  "author": "The-Code-Monkey",
+  "module": "dist/components.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/components.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/components.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@babel/core": "7.17.9",
+    "@release-it/conventional-changelog": "4.2.2",
+    "@size-limit/file": "7.0.8",
+    "@storybook/addon-essentials": "6.4.21",
+    "@storybook/addon-links": "6.4.21",
+    "@storybook/addons": "6.4.21",
+    "@storybook/react": "6.4.21",
+    "@tsconfig/create-react-app": "1.0.2",
+    "@tsconfig/recommended": "1.0.1",
+    "@types/enzyme": "3.10.11",
+    "@types/react": "17.0.44",
+    "@types/react-dom": "18.0.0",
+    "@types/react-table": "7.7.10",
+    "@types/styled-components": "5.1.25",
+    "@wojtekmaj/enzyme-adapter-react-17": "0.6.7",
+    "babel-jest": "27.5.1",
+    "babel-loader": "8.2.4",
+    "babel-plugin-module-resolver": "4.1.0",
+    "dts-cli": "1.4.0",
+    "enzyme": "3.11.0",
+    "enzyme-to-json": "3.6.2",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "react-is": "18.0.0",
+    "release-it": "14.14.0",
+    "size-limit": "7.0.8",
+    "ts-jest": "27.1.4",
+    "tslib": "2.3.1",
+    "typescript": "4.6.3"
+  },
+  "dependencies": {
+    "@aw-web-design/styled-system": "3.0.14",
+    "@aw-web-design/tcm-cli": "3.0.12",
+    "@aw-web-design/theme": "3.0.14",
+    "@aw-web-design/react-feather": "3.0.14",
+    "classnames": "2.3.1",
+    "memoize-one": "6.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-lazy-named": "1.2.2",
+    "react-table": "7.7.0",
+    "styled-components": "5.3.5"
+  },
+  "gitHead": "25f6ba2d98aa011acb349bb3f16320be8bccafc0"
+}

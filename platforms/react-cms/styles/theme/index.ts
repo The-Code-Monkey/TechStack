@@ -17,6 +17,7 @@ import breakpoints from "./dist/breakpoints";
 import breakpointSizes from "./dist/breakpointSizes";
 import maxWidths from "./dist/maxWidths";
 import panelSizes from "./dist/panelSizes";
+import table from "./dist/table";
 
 const theme = {
   colors,
@@ -38,6 +39,7 @@ const theme = {
   ...opacity,
   ...space,
   ...spacing,
+  ...table,
 };
 
 export default theme;

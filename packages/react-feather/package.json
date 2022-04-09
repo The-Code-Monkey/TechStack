@@ -1,0 +1,60 @@
+{
+  "name": "@aw-web-design/react-feather",
+  "version": "3.0.14",
+  "description": "React component for Feather icons",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "lint": "tcm lint",
+    "build": "tcm build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Code-Monkey/TechStack.git"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "inline",
+    "feather",
+    "design"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/The-Code-Monkey/TechStack/issues"
+  },
+  "homepage": "https://github.com/The-Code-Monkey/TechStack#readme",
+  "devDependencies": {
+    "@babel/cli": "7.17.6",
+    "@babel/core": "7.17.9",
+    "@babel/plugin-proposal-object-rest-spread": "7.17.3",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-react": "7.16.7",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "concurrently": "7.1.0",
+    "eslint": "8.13.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-react": "7.29.4",
+    "prettier-eslint": "13.0.0",
+    "rollup": "2.70.1",
+    "rollup-plugin-babel": "4.4.0",
+    "uppercamelcase": "3.0.0"
+  },
+  "peerDependencies": {
+    "react": "18.0.0"
+  },
+  "dependencies": {
+    "@aw-web-design/tcm-cli": "3.0.12"
+  }
+}
