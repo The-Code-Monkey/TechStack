@@ -118,7 +118,7 @@
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-prettier": "4.0.0",
     "react-is": "18.0.0",
-    "release-it": "14.14.0",
+    "release-it": "14.14.1",
     "size-limit": "7.0.8",
     "ts-jest": "27.1.4",
     "tslib": "2.3.1",
