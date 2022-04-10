@@ -1,3 +1,5 @@
+import { ITheme } from '../utils';
+
 import colors from './colors';
 import borders from './dist/borders';
 import breakpoints from './dist/breakpoints';
@@ -18,7 +20,7 @@ import spacing from './dist/spacing';
 import time from './dist/time';
 import variants from './variants';
 
-const theme = {
+const theme: ITheme<{}> = {
   colors,
   variants,
   fonts: fonts.fonts.family,

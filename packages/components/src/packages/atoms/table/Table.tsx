@@ -18,6 +18,7 @@ export interface Props extends TableOptions<object> {
 }
 
 const Table = ({ columns, data, className, onRowClick }: Props) => {
+  // @ts-ignore
   const theme = useContext(ThemeContext);
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({ columns, data });
@@ -25,7 +26,7 @@ const Table = ({ columns, data, className, onRowClick }: Props) => {
   const tableProps = useMemo(() => getTableProps(), [getTableProps]);
 
   const handleRowClick = useCallback(
-    (id) => {
+    (id: any) => {
       if (onRowClick) onRowClick(id);
     },
     [onRowClick]

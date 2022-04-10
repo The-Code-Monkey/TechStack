@@ -1,3 +1,5 @@
+import { ITheme } from "@aw-web-design/components";
+
 import colors from "./colors";
 import variants from "./variants";
 import fonts from "./dist/fonts";
@@ -19,7 +21,9 @@ import maxWidths from "./dist/maxWidths";
 import panelSizes from "./dist/panelSizes";
 import table from "./dist/table";
 
-const theme = {
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+const theme: ITheme<typeof variants> = {
   colors,
   variants,
   fonts: fonts.fonts.family,

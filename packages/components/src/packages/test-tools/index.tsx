@@ -30,9 +30,9 @@ const removeProperties = () => {
 const formattedTheme = {
   ...theme,
   colors: {
-    common: theme.colors.common,
-    modes: theme.colors.modes,
-    ...theme.colors.modes.light,
+    common: theme.colors?.common,
+    modes: theme.colors?.modes,
+    ...theme.colors?.modes.light,
   },
 };
 
