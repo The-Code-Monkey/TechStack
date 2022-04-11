@@ -22,7 +22,11 @@ const applyMode = <V extends {}>(
   mode?: ThemeModeEnum
 ): ITheme<V> => {
   if (theme?.colors?.modes) {
-    const colors = { ...theme.colors, mode };
+    const colors = { ...theme.colors };
+
+    if (mode) {
+      colors.mode = mode;
+    }
 
     if (mode && theme.colors.modes[mode]) {
       return {

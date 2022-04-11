@@ -1,4 +1,4 @@
-import { ITheme } from "@aw-web-design/components";
+import { ITheme, IThemeColorsType, ModeThemeType } from "@aw-web-design/components";
 
 import colors from "./colors";
 import variants from "./variants";
@@ -21,10 +21,8 @@ import maxWidths from "./dist/maxWidths";
 import panelSizes from "./dist/panelSizes";
 import table from "./dist/table";
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
 const theme: ITheme<typeof variants> = {
-  colors,
+  colors: colors as IThemeColorsType & ModeThemeType,
   variants,
   fonts: fonts.fonts.family,
   ...borders,
