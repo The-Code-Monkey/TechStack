@@ -1,13 +1,11 @@
 {
   "name": "@aw-web-design/react-textfit",
-  "version": "3.0.12",
+  "version": "3.1.0",
   "description": "React component to fit headlines and paragraphs into any element",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "clean": "rimraf lib dist",
-    "build": "babel src --out-dir lib",
-    "lint": "eslint",
-    "prepublish": "npm run lint && npm run clean && npm run build"
+    "build": "tcm build",
+    "lint": "tcm lint"
   },
   "publishConfig": {
     "access": "public"
@@ -29,6 +27,7 @@
   },
   "homepage": "https://github.com/the-code-monkey/react-textfit",
   "devDependencies": {
+    "@aw-web-design/tcm-cli": "3.0.12",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",
@@ -54,6 +53,24 @@
   "dependencies": {
     "process": "0.11.10",
     "prop-types": "15.8.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:import/typescript"
+    ],
+    "plugins": [
+      "import"
+    ],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": "latest",
+      "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+      }
+    }
   },
   "gitHead": "4eff72e16ff10a3811ffdb619debd8d94868067d"
 }
