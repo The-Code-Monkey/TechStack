@@ -9,6 +9,23 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
+"@aw-web-design/components@3.0.22":
+  version "3.0.22"
+  resolved "https://registry.yarnpkg.com/@aw-web-design/components/-/components-3.0.22.tgz#250f226dce35fde5c01adb1465fdf29393edb467"
+  integrity sha512-HPQsF4QGBkd3RJrGFbS+dmvWHuF8WgXsoZWrtQghzIDhFm5tgKQO6F6pNAyV4IzXair3UngrY2dkpg6o2DisNA==
+  dependencies:
+    "@aw-web-design/styled-system" "3.0.14"
+    "@aw-web-design/tcm-cli" "3.0.12"
+    "@aw-web-design/theme" "3.0.14"
+    classnames "2.3.1"
+    memoize-one "6.0.0"
+    react "18.0.0"
+    react-dom "18.0.0"
+    react-feather "2.0.9"
+    react-lazy-named "1.2.2"
+    react-table "7.7.0"
+    styled-components "5.3.5"
+
 "@aw-web-design/react-feather@3.0.14":
   version "3.0.14"
   resolved "https://registry.yarnpkg.com/@aw-web-design/react-feather/-/react-feather-3.0.14.tgz#bb59ae11e94fa3a3db6abdae7670b4656be32f6f"
@@ -15386,6 +15403,13 @@ react-fast-compare@^3.0.1, react-fast-compare@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
+
+react-feather@2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/react-feather/-/react-feather-2.0.9.tgz#6e42072130d2fa9a09d4476b0e61b0ed17814480"
+  integrity sha512-yMfCGRkZdXwIs23Zw/zIWCJO3m3tlaUvtHiXlW+3FH7cIT6fiK1iJ7RJWugXq7Fso8ZaQyUm92/GOOHXvkiVUw==
+  dependencies:
+    prop-types "^15.7.2"
 
 react-helmet-async@^1.0.7:
   version "1.2.3"
