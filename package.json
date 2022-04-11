@@ -32,7 +32,7 @@
     "lerna": "4.0.0"
   },
   "resolutions": {
-    "trim": "1.0.1",
+    "trim": "0.0.3",
     "braces": "3.0.2"
   },
   "dependencies": {
