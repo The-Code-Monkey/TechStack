@@ -34,8 +34,5 @@
   "resolutions": {
     "trim": "0.0.3",
     "braces": "3.0.2"
-  },
-  "dependencies": {
-    "trim-fix": "0.0.2"
   }
 }
