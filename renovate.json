@@ -30,7 +30,7 @@
     },
     {
       "matchPackagePatterns": ["@aw-web-design/*"],
-      "groupName": "@aw-web-design mono repo"
+      "groupName": "@aw-web-design mono repo",
       "automerge": false
     }
   ],
