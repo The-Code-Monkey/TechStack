@@ -1,3 +1,5 @@
+import { ITheme, IThemeColorsType, ModeThemeType } from "@aw-web-design/components";
+
 import colors from "./colors";
 import variants from "./variants";
 import fonts from "./dist/fonts";
@@ -19,8 +21,8 @@ import maxWidths from "./dist/maxWidths";
 import panelSizes from "./dist/panelSizes";
 import table from "./dist/table";
 
-const theme = {
-  colors,
+const theme: ITheme<typeof variants> = {
+  colors: colors as IThemeColorsType & ModeThemeType,
   variants,
   fonts: fonts.fonts.family,
   ...borders,

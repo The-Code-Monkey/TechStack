@@ -30,9 +30,9 @@ const removeProperties = () => {
 const formattedTheme = {
   ...theme,
   colors: {
-    common: theme.colors.common,
-    modes: theme.colors.modes,
-    ...theme.colors.modes.light,
+    common: theme.colors?.common,
+    modes: theme.colors?.modes,
+    ...theme.colors?.modes.light,
   },
 };
 
@@ -49,12 +49,10 @@ export const mountWithTheme: (children: ReactNode) => ReactWrapper = (
   expect.addSnapshotSerializer(removeProperties());
 
   return mount(
-    <>
-      <ConfigContext.Provider value={config}>
-        <ThemeProvider theme={formattedTheme}>
-          <>{children}</>
-        </ThemeProvider>
-      </ConfigContext.Provider>
-    </>
+    <ConfigContext.Provider value={config}>
+      <ThemeProvider theme={formattedTheme}>
+        <>{children}</>
+      </ThemeProvider>
+    </ConfigContext.Provider>
   );
 };

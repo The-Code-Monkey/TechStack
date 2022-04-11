@@ -5,64 +5,71 @@ import { ITheme } from './types';
 
 const arrayMerge = (_destination: any, source: any) => source;
 
-export type ThemeType = {
-  colors: { mode: any; modes: Record<ThemeModeEnum, any> };
-};
-
-const getActiveMode = (
-  theme?: ThemeType,
-  parent?: ThemeType,
+const getActiveMode = <V extends {}>(
+  theme?: ITheme<V>,
+  parent?: ITheme<V>,
   mode?: ThemeModeEnum
-) => {
+): ThemeModeEnum => {
   if (mode) return mode;
-  if (theme && theme.colors && theme.colors.mode) return theme.colors.mode;
-  if (parent && parent.colors && parent.colors.mode) return parent.colors.mode;
+  if (theme?.colors?.mode) return theme.colors.mode;
+  if (parent?.colors?.mode) return parent.colors.mode;
 
   return ThemeModeEnum.LIGHT;
 };
 
-const applyMode = (theme?: ThemeType, mode?: ThemeModeEnum): ITheme => {
-  if (theme && theme.colors && theme.colors.modes) {
-    const colors = { ...theme.colors, mode };
+const applyMode = <V extends {}>(
+  theme?: ITheme<V>,
+  mode?: ThemeModeEnum
+): ITheme<V> => {
+  if (theme?.colors?.modes) {
+    const colors = { ...theme.colors };
+
+    if (mode) {
+      colors.mode = mode;
+    }
 
     if (mode && theme.colors.modes[mode]) {
       return {
         ...theme,
-        colors: deepMerge(colors, colors.modes[mode], {
+        colors: deepMerge<ITheme<V>['colors']>(colors, colors.modes[mode], {
           arrayMerge,
-        }) as unknown as ITheme['colors'],
+        }),
       };
     }
     if (theme.colors.modes[ThemeModeEnum.LIGHT]) {
       return {
         ...theme,
-        colors: deepMerge(colors, colors.modes[ThemeModeEnum.LIGHT], {
-          arrayMerge,
-        }) as unknown as ITheme['colors'],
+        colors: deepMerge<ITheme<V>['colors']>(
+          colors,
+          colors.modes[ThemeModeEnum.LIGHT],
+          {
+            arrayMerge,
+          }
+        ),
       };
     }
 
-    return { ...theme, colors: colors as unknown as ITheme['colors'] };
+    return { ...theme, colors };
   }
 
-  return theme as unknown as ITheme;
+  return theme as ITheme<V>;
 };
 
 const createTheme =
-  (theme?: ThemeType, mode?: ThemeModeEnum) =>
-  (parent?: any): ITheme => {
-    const activeMode = getActiveMode(theme, parent, mode);
-    const themeWithAppliedMode = applyMode(theme, activeMode);
-    const parentWithAppliedMode = applyMode(parent, activeMode);
+  <V extends {}>(theme?: ITheme<V>, mode?: ThemeModeEnum) =>
+  (parent?: any): ITheme<V> => {
+    const activeMode = getActiveMode<V>(theme, parent, mode);
+    const themeWithAppliedMode = applyMode<V>(theme, activeMode);
+    const parentWithAppliedMode = applyMode<V>(parent, activeMode);
 
     if (parentWithAppliedMode && themeWithAppliedMode)
-      return deepMerge(parentWithAppliedMode, themeWithAppliedMode, {
+      return deepMerge<ITheme<V>>(parentWithAppliedMode, themeWithAppliedMode, {
         arrayMerge,
-      }) as unknown as ITheme;
+      });
     if (themeWithAppliedMode) return themeWithAppliedMode;
     if (parentWithAppliedMode) return parentWithAppliedMode;
 
-    return {};
+    return {} as ITheme<V>;
   };
 
 export default createTheme;

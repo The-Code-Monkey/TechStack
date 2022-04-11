@@ -34,5 +34,5 @@
       "groupName": "@aw-web-design mono repo"
     }
   ],
-  "ignoreDeps": ["execa", "ora"]
+  "ignoreDeps": ["execa", "ora", "trim"]
 }

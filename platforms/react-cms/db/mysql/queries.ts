@@ -2,7 +2,10 @@ import { IncomingMessage } from "http";
 
 import fetchWithUrl from "./helpers";
 
-export const GetListData = async (req: IncomingMessage, ...queryParams: Array<string>): Promise<Array<never>> => {
+export const GetListData = async (
+  req: IncomingMessage,
+  ...queryParams: Array<string>
+): Promise<Array<never>> => {
   return new Promise((resolve) =>
     fetchWithUrl(req, `/api/db/mysql/list/${queryParams.join("/")}`)
       .then((res) => {
@@ -27,7 +30,11 @@ export const GetEntryData = async (
 
 export const ModifyEntry = async (
   data: Omit<RequestInit, "body"> & { body?: Record<string, any> },
-  ...queryParams: [string, "create" | "update" | "delete", ...Array<string | number>]
+  ...queryParams: [
+    string,
+    "create" | "update" | "delete",
+    ...Array<string | number>
+  ]
 ) => {
   return new Promise((resolve) =>
     fetch(`/api/db/mysql/list/${queryParams.join("/")}`, {

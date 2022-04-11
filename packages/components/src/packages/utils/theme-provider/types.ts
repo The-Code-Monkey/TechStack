@@ -1,7 +1,38 @@
-export interface ITheme {
-  colors?: {
-    common: Record<string, string>;
+import { StandardProperties } from 'csstype';
+
+import { ThemeModeEnum } from './enum';
+
+export type ColorType = Array<string> | Record<string, string>;
+
+export type IntentsType = {
+  info: ColorType;
+  success: ColorType;
+  warning: ColorType;
+  danger: ColorType;
+};
+
+export type ModeThemeType = {
+  mode: ThemeModeEnum;
+  text: string;
+  highlight: string;
+  highlights: ColorType;
+  primary: ColorType;
+  neutrals: ColorType;
+  intents: IntentsType;
+};
+
+export type IThemeColorsType = {
+  mode?: ThemeModeEnum;
+  common: Record<string, string | ColorType>;
+  modes: {
+    [x in ThemeModeEnum]: ModeThemeType;
   };
+};
+
+export interface ITheme<V extends {}> {
+  colors?: ModeThemeType & IThemeColorsType;
+  variants?: V;
+  fonts: Record<string, string>;
   table?: {
     [x in
       | 'th'
@@ -11,8 +42,12 @@ export interface ITheme {
       | 'thead'
       | 'tbody'
       | 'trHead'
-      | 'trBody']: {
-      [x: string]: Record<string, string>;
+      | 'trBody']?: {
+      [x in keyof StandardProperties]?: string;
     };
   };
+  borders: Record<string, string>;
+  sizes: Record<string, string>;
+  space: Record<string, string>;
+  [x: string]: any;
 }
