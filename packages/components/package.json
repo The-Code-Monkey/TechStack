@@ -103,7 +103,7 @@
     "@storybook/react": "6.4.21",
     "@tsconfig/create-react-app": "1.0.2",
     "@tsconfig/recommended": "1.0.1",
-    "@types/react": "18.0.0",
+    "@types/react": "18.0.1",
     "@types/enzyme": "3.10.12",
     "@types/react-dom": "18.0.0",
     "@types/react-table": "7.7.10",
