@@ -39,14 +39,12 @@
     }
   ],
   "devDependencies": {
-    "@release-it/conventional-changelog": "4.2.2",
     "@size-limit/file": "7.0.8",
     "@tsconfig/recommended": "1.0.1",
     "@types/fs-extra": "9.0.13",
     "@types/lodash": "4.14.181",
     "@types/lodash-es": "4.17.6",
     "@types/tinycolor2": "1.4.3",
-    "release-it": "14.14.1",
     "size-limit": "7.0.8",
     "ts-jest": "27.1.4",
     "tslib": "2.3.1",

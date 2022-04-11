@@ -139,23 +139,6 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release v${version}"
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "conventionalcommits",
-        "infile": "CHANGELOG.md"
-      }
-    },
-    "github": {
-      "release": true
-    },
-    "npm": {
-      "skipChecks": true
-    }
-  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,json,yml,yaml}": [
       "prettier -w"
