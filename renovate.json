@@ -13,7 +13,6 @@
     "node": ">= 14.0.0"
   },
   "rangeStrategy": "pin",
-  "rollbackPrs": false,
   "labels": ["dependencies"],
   "automerge": true,
   "vulnerabilityAlerts": {
@@ -32,6 +31,7 @@
     {
       "matchPackagePatterns": ["@aw-web-design/*"],
       "groupName": "@aw-web-design mono repo"
+      "automerge": false
     }
   ],
   "ignoreDeps": ["execa", "ora", "trim"]
