@@ -1,5 +1,4 @@
-import { IThemeColorsType, ThemeModeEnum } from "@aw-web-design/components";
-import { ModeThemeType } from "@aw-web-design/components/dist/packages/utils/theme-provider/types";
+import { IThemeColorsType, ModeThemeType, ThemeModeEnum } from "@aw-web-design/components";
 
 import common from "./dist/core";
 import neutrals from "./dist/neutrals";
