@@ -1,6 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint", "prettier", "react"],
+  "ignorePatterns": ["./types/theme.d.ts"],
   "extends": [
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",

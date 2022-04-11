@@ -1,3 +1,6 @@
+import { IThemeColorsType, ModeThemeType } from '../../../dist';
+import { ITheme } from '../utils';
+
 import colors from './colors';
 import borders from './dist/borders';
 import breakpoints from './dist/breakpoints';
@@ -18,8 +21,8 @@ import spacing from './dist/spacing';
 import time from './dist/time';
 import variants from './variants';
 
-const theme = {
-  colors,
+const theme: ITheme<typeof variants> = {
+  colors: colors as IThemeColorsType & ModeThemeType,
   variants,
   fonts: fonts.fonts.family,
   ...borders,

@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import React, { useCallback, useContext, useMemo } from 'react';
+import React, { FC, useCallback, useContext, useMemo } from 'react';
 import { Accessor, TableOptions, useTable } from 'react-table';
 import { ThemeContext } from 'styled-components';
 
@@ -13,11 +13,12 @@ import {
 } from './styled';
 
 export interface Props extends TableOptions<object> {
-  className: string;
+  className?: string;
   onRowClick?: (id: string | number) => void;
 }
 
-const Table = ({ columns, data, className, onRowClick }: Props) => {
+const Table: FC<Props> = ({ columns, data, className, onRowClick }: Props) => {
+  // @ts-ignore
   const theme = useContext(ThemeContext);
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({ columns, data });
@@ -25,7 +26,7 @@ const Table = ({ columns, data, className, onRowClick }: Props) => {
   const tableProps = useMemo(() => getTableProps(), [getTableProps]);
 
   const handleRowClick = useCallback(
-    (id) => {
+    (id: any) => {
       if (onRowClick) onRowClick(id);
     },
     [onRowClick]
