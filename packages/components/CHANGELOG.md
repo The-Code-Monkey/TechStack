@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.1](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.0.22...@aw-web-design/components@3.1.1) (2022-04-12)
+
+
+### Bug Fixes
+
+* add react-feather to tech stack & add table into theme object for theme ([2dcef36](https://github.com/The-Code-Monkey/TechStack/commit/2dcef36085a50844101235b01e27304833e01fd9))
+* issues with package ([0fdfa7a](https://github.com/The-Code-Monkey/TechStack/commit/0fdfa7a060ca2251131f52a7568048110b6c2b7f))
+* some more stuff ([810ee64](https://github.com/The-Code-Monkey/TechStack/commit/810ee649000e2c8452fa355656b44aa8cf8e734d))
+* some more type issues ([ea3ce0d](https://github.com/The-Code-Monkey/TechStack/commit/ea3ce0d7b81c46874869e238c79c25bdf1f45ae5))
+* start commit of react-feather to typescript ([e6ef491](https://github.com/The-Code-Monkey/TechStack/commit/e6ef491221840e70023a0475de1de813e42b5c2d))
+* update and push version of react-feather ([b7fd2d2](https://github.com/The-Code-Monkey/TechStack/commit/b7fd2d26aa8784ffe19d326087d55534b4b65b05))
+* update snapshots ([e452518](https://github.com/The-Code-Monkey/TechStack/commit/e452518e9171f39c045e49cf33769cf335da6aa0))
+
+
+
+
+
 ## [3.0.22](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.0.21...@aw-web-design/components@3.0.22) (2022-04-06)
 
 **Note:** Version bump only for package @aw-web-design/components

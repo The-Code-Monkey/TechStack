@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.1.1 (2022-04-12)
+
+
+### Bug Fixes
+
+* add react-feather to tech stack & add table into theme object for theme ([2dcef36](https://github.com/The-Code-Monkey/TechStack/commit/2dcef36085a50844101235b01e27304833e01fd9))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([af9433a](https://github.com/The-Code-Monkey/TechStack/commit/af9433a2389b7bac2c626dc67fab47bc9a1ffe7b))
+* fix issue with missing theme dist file ([125a39c](https://github.com/The-Code-Monkey/TechStack/commit/125a39c7518d2c55ff954f9ea88f7c5f490c4242))
+* issues with package ([0fdfa7a](https://github.com/The-Code-Monkey/TechStack/commit/0fdfa7a060ca2251131f52a7568048110b6c2b7f))
+* some more stuff ([810ee64](https://github.com/The-Code-Monkey/TechStack/commit/810ee649000e2c8452fa355656b44aa8cf8e734d))
+* some more type issues ([ea3ce0d](https://github.com/The-Code-Monkey/TechStack/commit/ea3ce0d7b81c46874869e238c79c25bdf1f45ae5))
+
+
+
+
+
 ## [3.0.6](https://github.com/The-Code-Monkey/TechStack/compare/react-cms@3.0.5...react-cms@3.0.6) (2022-04-05)
 
 

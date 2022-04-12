@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.1.1 (2022-04-12)
+
+
+### Bug Fixes
+
+* add react-feather to tech stack & add table into theme object for theme ([2dcef36](https://github.com/the-code-monkey/react-textfit/commit/2dcef36085a50844101235b01e27304833e01fd9))
+* some more stuff ([810ee64](https://github.com/the-code-monkey/react-textfit/commit/810ee649000e2c8452fa355656b44aa8cf8e734d))
+* start commit of react-feather to typescript ([e6ef491](https://github.com/the-code-monkey/react-textfit/commit/e6ef491221840e70023a0475de1de813e42b5c2d))
+
+
+
+
+
 ## 3.0.12 (2022-04-06)
 
 **Note:** Version bump only for package @aw-web-design/react-textfit
