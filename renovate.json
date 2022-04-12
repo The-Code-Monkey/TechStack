@@ -15,6 +15,10 @@
   "rangeStrategy": "pin",
   "labels": ["dependencies"],
   "automerge": true,
+  "rollbackPrs": false,
+  "rollback": {
+      "automerge": false
+  },
   "vulnerabilityAlerts": {
     "labels": ["security"]
   },
