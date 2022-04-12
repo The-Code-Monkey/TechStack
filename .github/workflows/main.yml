@@ -7,7 +7,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node: ['14.x', '16.x']
+        node: ['16.x']
         os: [ubuntu-latest]
 
     steps:
@@ -30,3 +30,19 @@ jobs:
         
       - name: Size
         run: yarn size
+        
+      - name: git config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        
+      - name: Changed
+        run: yarn lerna:changed
+        
+      - name: Version
+        if: github.ref == 'refs/heads/dev'
+        run: yarn lerna:version
+        
+      - name: Version
+        if: github.ref == 'refs/heads/feature/*'
+        run: yarn lerna:version
