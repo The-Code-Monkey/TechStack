@@ -17,6 +17,9 @@
   <a href="https://github.com/The-Code-Monkey/TechStack/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/The-Code-Monkey/TechStack" alt="contributors" />
   </a>
+  <a href="https://www.codefactor.io/repository/github/The-Code-Monkey/TechStack">
+    <img src="https://www.codefactor.io/repository/github/The-Code-Monkey/TechStack/badge" alt="CodeFactor" />
+  </a>
   <a href="">
     <img src="https://img.shields.io/github/last-commit/The-Code-Monkey/TechStack" alt="last update" />
   </a>
