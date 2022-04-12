@@ -8,7 +8,7 @@
     },
     "version": {
       "message": "chore(release): version",
-      "allowBranch": "master",
+      "allowBranch": ["master", "dev", "feature/*"],
       "conventionalCommits": true
     },
     "bootstrap": {
