@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.1](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.0.14...@aw-web-design/theme@3.1.1) (2022-04-12)
+
+
+### Bug Fixes
+
+* add react-feather to tech stack & add table into theme object for theme ([2dcef36](https://github.com/The-Code-Monkey/TechStack/commit/2dcef36085a50844101235b01e27304833e01fd9))
+
+
+
+
+
 ## [3.0.14](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.0.13...@aw-web-design/theme@3.0.14) (2022-04-06)
 
 **Note:** Version bump only for package @aw-web-design/theme

@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.1](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@3.0.12...@aw-web-design/tcm-cli@3.1.1) (2022-04-12)
+
+
+### Bug Fixes
+
+* add react-feather to tech stack & add table into theme object for theme ([2dcef36](https://github.com/The-Code-Monkey/TechStack/commit/2dcef36085a50844101235b01e27304833e01fd9))
+* **deps:** update dependency @rushstack/eslint-patch to v1.1.2 ([31435c3](https://github.com/The-Code-Monkey/TechStack/commit/31435c3fa1153c615fa69171890ea3a3ca86da8b))
+* **deps:** update dependency eslint-plugin-jest to v26.1.4 ([d863163](https://github.com/The-Code-Monkey/TechStack/commit/d863163b06eb60517498ca4cb0bed6cbf79a5943))
+* **deps:** update dependency eslint-plugin-testing-library to v5.3.0 ([bd3d6d4](https://github.com/The-Code-Monkey/TechStack/commit/bd3d6d453d999e964d4bd0658eedabbae5baded4))
+* **deps:** update dependency rollup-plugin-dts to v4.2.1 ([2dae5b8](https://github.com/The-Code-Monkey/TechStack/commit/2dae5b846adf50ef3dde50d93d4311d18a30f73c))
+* some more stuff ([810ee64](https://github.com/The-Code-Monkey/TechStack/commit/810ee649000e2c8452fa355656b44aa8cf8e734d))
+* some more type issues ([ea3ce0d](https://github.com/The-Code-Monkey/TechStack/commit/ea3ce0d7b81c46874869e238c79c25bdf1f45ae5))
+* start commit of react-feather to typescript ([e6ef491](https://github.com/The-Code-Monkey/TechStack/commit/e6ef491221840e70023a0475de1de813e42b5c2d))
+
+
+
+
+
 ## [3.0.12](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@3.0.11...@aw-web-design/tcm-cli@3.0.12) (2022-04-06)
 
 
