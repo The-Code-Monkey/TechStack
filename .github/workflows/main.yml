@@ -30,3 +30,9 @@ jobs:
         
       - name: Size
         run: yarn size
+        
+      - name: Changed
+        run: yarn lerna:changed
+        
+      - name: Version
+        run: yarn lerna:version
