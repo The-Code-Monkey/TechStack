@@ -23,7 +23,6 @@
     "lerna:link": "lerna link",
     "lerna:changed": "lerna changed",
     "lerna:version": "lerna version --conventional-commits --exact --yes",
-
     "lerna:publish": "yarn lerna:changed && lerna publish from-git --no-verify-access --yes",
     "lerna:storybook": "lerna run build-storybook -- -o build",
     "prepare": "husky install"
