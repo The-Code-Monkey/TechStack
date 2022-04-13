@@ -10,7 +10,7 @@ export interface ExtendedFlexboxProps<ThemeType extends Theme = RequiredTheme>
   direction?: FlexboxProps['flexDirection'];
 }
 
-const extendedConfig: SystemConfig = {
+const extendedConfig: SystemConfig<string> = {
   align: {
     property: 'alignItems',
   },

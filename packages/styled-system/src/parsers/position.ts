@@ -18,7 +18,7 @@ export interface PositionProps<ThemeType extends Theme = RequiredTheme> {
   left?: ResponsiveValue<Property.Left<TLengthStyledSystem>, ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   position: {
     property: 'position',
   },

@@ -15,7 +15,7 @@ export interface ExtendedGridProps<ThemeType extends Theme = RequiredTheme>
   area?: GridProps['gridArea'];
 }
 
-const extendedConfig: SystemConfig = {
+const extendedConfig: SystemConfig<string> = {
   row: {
     property: 'gridRow',
   },

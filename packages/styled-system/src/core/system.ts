@@ -7,11 +7,11 @@ import {
   StyleFn,
 } from './styleFunction';
 
-export interface SystemConfig {
-  [key: string]: boolean | CreateStyleFunctionArgs;
-}
+export type SystemConfig<T extends string> = {
+  [key in T]: boolean | CreateStyleFunctionArgs;
+};
 
-export function system(args: SystemConfig = {}): Parser {
+export function system(args: SystemConfig<string> = {}): Parser {
   const config: { [key: string]: StyleFn } = {};
 
   Object.keys(args).forEach((key) => {

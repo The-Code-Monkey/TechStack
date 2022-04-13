@@ -27,7 +27,7 @@ export interface TransitionProps<ThemeType extends Theme = RequiredTheme> {
   >;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   transition: {
     property: 'transition',
     scale: 'transition.transition',

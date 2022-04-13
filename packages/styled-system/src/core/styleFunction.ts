@@ -1,4 +1,4 @@
-import { Properties } from 'csstype';
+import { Properties, Pseudos } from 'csstype';
 
 import { Scale } from './types';
 import { get } from './util';
@@ -18,7 +18,7 @@ export interface StyleFn {
 }
 
 export interface CreateStyleFunctionArgs {
-  property?: keyof Properties;
+  property?: keyof Properties | `&${Pseudos}`;
   properties?: Array<keyof Properties>;
   scale?: string;
   transform?: (
@@ -49,6 +49,7 @@ export function createStyleFunction({
     }
 
     p.forEach((prop) => {
+      // @ts-ignore
       result[prop] = value;
     });
 

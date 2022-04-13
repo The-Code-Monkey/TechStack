@@ -125,7 +125,7 @@
     "@aw-web-design/react-feather": "3.1.5",
     "@aw-web-design/styled-system": "3.1.5",
     "@aw-web-design/tcm-cli": "3.1.5",
-    "@aw-web-design/theme": "3.1.5",
+    "@aw-web-design/theme": "3.1.13",
     "classnames": "2.3.1",
     "csstype": "3.0.11",
     "memoize-one": "6.0.0",

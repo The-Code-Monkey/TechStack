@@ -1,10 +1,10 @@
-import { IThemeColorsType, ModeThemeType } from '../../../dist';
-import { ITheme } from '../utils';
+import { ITheme, IThemeColorsType, ModeThemeType } from '../utils';
 
 import colors from './colors';
 import borders from './dist/borders';
 import breakpoints from './dist/breakpoints';
 import breakpointSizes from './dist/breakpointSizes';
+import defaultStyles from './dist/defaultStyles';
 import elevation from './dist/elevation';
 import fonts from './dist/fonts';
 import fontSizes from './dist/fontSizes';
@@ -41,6 +41,7 @@ const theme: ITheme<typeof variants> = {
   ...opacity,
   ...space,
   ...spacing,
+  ...defaultStyles,
 };
 
 export default theme;

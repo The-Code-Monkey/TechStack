@@ -43,7 +43,7 @@ export interface LayoutProps<ThemeType extends Theme = RequiredTheme> {
   overflowY?: ResponsiveValue<Property.OverflowY, ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   width: {
     property: 'width',
     scale: 'sizes',

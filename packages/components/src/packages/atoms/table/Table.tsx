@@ -3,6 +3,8 @@ import React, { FC, useCallback, useContext, useMemo } from 'react';
 import { Accessor, TableOptions, useTable } from 'react-table';
 import { ThemeContext } from 'styled-components';
 
+import { ITheme } from '../../utils';
+
 import {
   StyledTable,
   StyledTHead,
@@ -18,8 +20,7 @@ export interface Props extends TableOptions<object> {
 }
 
 const Table: FC<Props> = ({ columns, data, className, onRowClick }: Props) => {
-  // @ts-ignore
-  const theme = useContext(ThemeContext);
+  const theme = useContext<ITheme<unknown>>(ThemeContext);
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({ columns, data });
 
@@ -47,20 +48,20 @@ const Table: FC<Props> = ({ columns, data, className, onRowClick }: Props) => {
   return (
     <StyledTable
       {...tableProps}
-      {...theme.table?.table}
+      {...theme.defaultStyles.table}
       className={cn(className, tableProps.className)}
     >
-      <StyledTHead {...theme.table?.thead}>
+      <StyledTHead {...theme.defaultStyles.thead}>
         {headerGroups.map((headerGroup) => (
           <StyledTr
             {...headerGroup.getHeaderGroupProps()}
-            {...theme.table?.tr}
-            {...theme.table?.trHead}
+            {...theme.defaultStyles.tr}
+            {...theme.defaultStyles.trHead}
           >
             {headerGroup.headers.map((column, index) => (
               <StyledTh
                 {...column.getHeaderProps()}
-                {...theme.table?.th}
+                {...theme.defaultStyles.th}
                 onClick={() => handleColumnClick(columns[index].accessor)}
               >
                 {column.render('Header')}
@@ -69,19 +70,22 @@ const Table: FC<Props> = ({ columns, data, className, onRowClick }: Props) => {
           </StyledTr>
         ))}
       </StyledTHead>
-      <StyledTBody {...getTableBodyProps()} {...theme.table?.tbody}>
+      <StyledTBody {...getTableBodyProps()} {...theme.defaultStyles.tbody}>
         {rows.map((row) => {
           prepareRow(row);
           return (
             <StyledTr
               {...row.getRowProps()}
-              {...theme.table?.tr}
-              {...theme.table?.trBody}
+              {...theme.defaultStyles.tr}
+              {...theme.defaultStyles.trBody}
               onClick={() => handleRowClick(row.id)}
             >
               {row.cells.map((cell) => {
                 return (
-                  <StyledTd {...cell.getCellProps()} {...theme.table?.td}>
+                  <StyledTd
+                    {...cell.getCellProps()}
+                    {...theme.defaultStyles.td}
+                  >
                     {cell.render('Cell')}
                   </StyledTd>
                 );

@@ -31,7 +31,7 @@ export interface OtherProps<ThemeType extends Theme = RequiredTheme> {
   outlineColor?: ResponsiveValue<ThemeValue<'colors', ThemeType>, ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   appearance: {
     property: 'appearance',
   },

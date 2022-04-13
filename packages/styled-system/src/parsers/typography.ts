@@ -21,7 +21,7 @@ export interface TypographyProps<ThemeType extends Theme = RequiredTheme> {
   wordBreak?: ResponsiveValue<Property.WordBreak, ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   fontFamily: {
     property: 'fontFamily',
     scale: 'fonts',
