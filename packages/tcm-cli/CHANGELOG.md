@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.1.9 (2022-04-13)
+
+**Note:** Version bump only for package @aw-web-design/tcm-cli
+
+
+
+
+
 ## 3.1.8 (2022-04-12)
 
 **Note:** Version bump only for package @aw-web-design/tcm-cli
