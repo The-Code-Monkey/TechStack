@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.1.11 (2022-04-13)
+
+
+### Bug Fixes
+
+* update react-feather tcm cli dep ([9d604fa](https://github.com/The-Code-Monkey/TechStack/commit/9d604fa9053138cf856c8a3fa9858080dcd91208))
+
+
+
+
+
 ## 3.1.10 (2022-04-13)
 
 **Note:** Version bump only for package @aw-web-design/components
