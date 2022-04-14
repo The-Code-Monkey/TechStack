@@ -20,13 +20,6 @@
     "generate": "ts-node ./src/index.ts generate",
     "release": "yarn build && release-it --ci --npm.access=public"
   },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5",
-    "endOfLine": "auto"
-  },
   "name": "@aw-web-design/theme",
   "author": "The-Code-Monkey",
   "publishConfig": {

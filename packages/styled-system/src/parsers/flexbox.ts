@@ -32,7 +32,7 @@ export interface FlexboxProps<ThemeType extends Theme = RequiredTheme> {
   placeSelf?: ResponsiveValue<Property.PlaceSelf, ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   alignItems: {
     property: 'alignItems',
   },

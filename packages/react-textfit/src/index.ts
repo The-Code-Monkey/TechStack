@@ -1,3 +1,3 @@
-import Textfit from "./Textfit";
+import Textfit from './Textfit';
 export { Textfit };
 export default Textfit;

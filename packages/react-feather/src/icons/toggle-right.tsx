@@ -1,8 +1,9 @@
-import React, { ForwardedRef, forwardRef } from "react";
-import { IconProps } from "../types";
+import React, { ForwardedRef, forwardRef } from 'react';
+
+import { IconProps } from '../types';
 
 const ToggleRight = (
-  { color = "currentColor", size = 24, ...rest }: IconProps,
+  { color = 'currentColor', size = 24, ...rest }: IconProps,
   ref: ForwardedRef<SVGSVGElement>
 ) => {
   return (
@@ -25,6 +26,6 @@ const ToggleRight = (
   );
 };
 
-ToggleRight.displayName = "ToggleRight";
+ToggleRight.displayName = 'ToggleRight';
 
 export default forwardRef(ToggleRight);

@@ -13,7 +13,7 @@ export interface ColorProps<
   opacity?: ResponsiveValue<Property.Opacity, ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   backgroundColor: {
     property: 'backgroundColor',
     scale: 'colors',

@@ -12,7 +12,7 @@ exports[`<Input /> renders correctly 1`] = `
       type="text"
     >
       <input
-        className="sc-jSMfEi hHHIcy"
+        className="sc-jSMfEi beMVlz"
         name="test"
         onChange={[Function]}
         placeholder="Placeholder"

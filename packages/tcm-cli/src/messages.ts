@@ -1,4 +1,5 @@
 import chalk from 'chalk';
+
 import getInstallCmd from './getInstallCmd';
 import * as Output from './output';
 

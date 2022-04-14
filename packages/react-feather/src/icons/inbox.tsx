@@ -1,8 +1,9 @@
-import React, { ForwardedRef, forwardRef } from "react";
-import { IconProps } from "../types";
+import React, { ForwardedRef, forwardRef } from 'react';
+
+import { IconProps } from '../types';
 
 const Inbox = (
-  { color = "currentColor", size = 24, ...rest }: IconProps,
+  { color = 'currentColor', size = 24, ...rest }: IconProps,
   ref: ForwardedRef<SVGSVGElement>
 ) => {
   return (
@@ -25,6 +26,6 @@ const Inbox = (
   );
 };
 
-Inbox.displayName = "Inbox";
+Inbox.displayName = 'Inbox';
 
 export default forwardRef(Inbox);

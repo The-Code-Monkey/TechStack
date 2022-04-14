@@ -25,6 +25,7 @@ const Input = ({
   placeholder = 'Placeholder',
   ...rest
 }: Props) => {
+  // const theme = useContext<ITheme<unknown>>(ThemeContext);
   const [v, setValue] = useState<string | number | undefined>(value);
 
   const handleOnChange = useCallback(

@@ -1,4 +1,5 @@
 import { Property } from 'csstype';
+
 import { system, SystemConfig } from '../core';
 import {
   RequiredTheme,
@@ -18,7 +19,7 @@ export interface PositionProps<ThemeType extends Theme = RequiredTheme> {
   left?: ResponsiveValue<Property.Left<TLengthStyledSystem>, ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   position: {
     property: 'position',
   },

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledNav = styled.nav`
   border-right: ${(p) => p.theme.borders[1]} ${(p) => p.theme.colors.neutrals[0]};

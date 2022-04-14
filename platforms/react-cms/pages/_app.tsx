@@ -1,13 +1,13 @@
-import { useEffect, useState } from "react";
-import { AppProps } from "next/app";
-import { Session } from "next-auth";
-import { getSession, SessionProvider, signIn } from "next-auth/react";
-import { ConfigContext, ThemeModeEnum, ThemeProvider } from "@aw-web-design/components";
+import { useEffect, useState } from 'react';
+import { AppProps } from 'next/app';
+import { Session } from 'next-auth';
+import { getSession, SessionProvider, signIn } from 'next-auth/react';
+import { ConfigContext, ThemeModeEnum, ThemeProvider } from '@aw-web-design/components';
 
-import Nav from "../components/Nav";
-import Theme from "../styles/theme";
-import "../styles/globals.scss";
-import config from "../orchard.theme.config.json";
+import Nav from '../components/Nav';
+import Theme from '../styles/theme';
+import '../styles/globals.scss';
+import config from '../orchard.theme.config.json';
 
 interface Props extends AppProps {
   session: Session;

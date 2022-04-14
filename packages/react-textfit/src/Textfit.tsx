@@ -1,11 +1,12 @@
-import React from "react";
-import PropTypes from "prop-types";
-import shallowEqual from "./utils/shallowEqual";
-import series from "./utils/series";
-import whilst from "./utils/whilst";
-import throttle from "./utils/throttle";
-import uniqueId from "./utils/uniqueId";
-import { innerWidth, innerHeight } from "./utils/innerSize";
+import PropTypes from 'prop-types';
+import React from 'react';
+
+import { innerWidth, innerHeight } from './utils/innerSize';
+import series from './utils/series';
+import shallowEqual from './utils/shallowEqual';
+import throttle from './utils/throttle';
+import uniqueId from './utils/uniqueId';
+import whilst from './utils/whilst';
 
 function assertElementFitsWidth(el: any, width: any) {
   // -1: temporary bugfix, will be refactored soon
@@ -25,7 +26,7 @@ export default class TextFit extends React.Component {
     text: PropTypes.string,
     min: PropTypes.number,
     max: PropTypes.number,
-    mode: PropTypes.oneOf(["single", "multi"]),
+    mode: PropTypes.oneOf(['single', 'multi']),
     forceSingleModeWidth: PropTypes.bool,
     throttle: PropTypes.number,
     onReady: PropTypes.func,
@@ -34,7 +35,7 @@ export default class TextFit extends React.Component {
   static defaultProps = {
     min: 1,
     max: 100,
-    mode: "multi",
+    mode: 'multi',
     forceSingleModeWidth: true,
     throttle: 50,
     autoResize: true,
@@ -47,8 +48,8 @@ export default class TextFit extends React.Component {
 
   constructor(props: any) {
     super(props);
-    if ("perfectFit" in props) {
-      console.warn("TextFit property perfectFit has been removed.");
+    if ('perfectFit' in props) {
+      console.warn('TextFit property perfectFit has been removed.');
     }
 
     this.handleWindowResize = throttle(this.handleWindowResize, props.throttle);
@@ -63,7 +64,7 @@ export default class TextFit extends React.Component {
     // @ts-expect-error ts-migrate(2339) FIXME: Property 'autoResize' does not exist on type 'Read... Remove this comment to see the full error message
     const { autoResize } = this.props;
     if (autoResize) {
-      window.addEventListener("resize", this.handleWindowResize);
+      window.addEventListener('resize', this.handleWindowResize);
     }
     this.process();
   }
@@ -79,7 +80,7 @@ export default class TextFit extends React.Component {
     // @ts-expect-error ts-migrate(2339) FIXME: Property 'autoResize' does not exist on type 'Read... Remove this comment to see the full error message
     const { autoResize } = this.props;
     if (autoResize) {
-      window.removeEventListener("resize", this.handleWindowResize);
+      window.removeEventListener('resize', this.handleWindowResize);
     }
     // Setting a new pid will cancel all running processes
     this.pid = uniqueId();
@@ -100,14 +101,14 @@ export default class TextFit extends React.Component {
 
     if (originalHeight <= 0 || isNaN(originalHeight)) {
       console.warn(
-        "Can not process element without height. Make sure the element is displayed and has a static height."
+        'Can not process element without height. Make sure the element is displayed and has a static height.'
       );
       return;
     }
 
     if (originalWidth <= 0 || isNaN(originalWidth)) {
       console.warn(
-        "Can not process element without width. Make sure the element is displayed and has a static width."
+        'Can not process element without width. Make sure the element is displayed and has a static width.'
       );
       return;
     }
@@ -118,12 +119,12 @@ export default class TextFit extends React.Component {
     const shouldCancelProcess = () => pid !== this.pid;
 
     const testPrimary =
-      mode === "multi"
+      mode === 'multi'
         ? () => assertElementFitsHeight(wrapper, originalHeight)
         : () => assertElementFitsWidth(wrapper, originalWidth);
 
     const testSecondary =
-      mode === "multi"
+      mode === 'multi'
         ? () => assertElementFitsWidth(wrapper, originalWidth)
         : () => assertElementFitsHeight(wrapper, originalHeight);
 
@@ -158,7 +159,7 @@ export default class TextFit extends React.Component {
         // If mode is single and forceSingleModeWidth is true, skip this step
         // in order to not fit the elements height and decrease the width
         (stepCallback: any) => {
-          if (mode === "single" && forceSingleModeWidth) return stepCallback();
+          if (mode === 'single' && forceSingleModeWidth) return stepCallback();
           if (testSecondary()) return stepCallback();
           low = min;
           high = mid;
@@ -239,15 +240,15 @@ export default class TextFit extends React.Component {
     };
 
     const wrapperStyle = {
-      display: ready ? "block" : "inline-block",
+      display: ready ? 'block' : 'inline-block',
     };
     // @ts-expect-error ts-migrate(2339) FIXME: Property 'whiteSpace' does not exist on type '{ di... Remove this comment to see the full error message
-    if (mode === "single") wrapperStyle.whiteSpace = "nowrap";
+    if (mode === 'single') wrapperStyle.whiteSpace = 'nowrap';
 
     return (
       <div ref={(c) => (this._parent = c)} style={finalStyle} {...props}>
         <div ref={(c) => (this._child = c)} style={wrapperStyle}>
-          {text && typeof children === "function"
+          {text && typeof children === 'function'
             ? ready
               ? children(text)
               : text

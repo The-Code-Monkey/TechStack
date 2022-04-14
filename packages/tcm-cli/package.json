@@ -129,12 +129,6 @@
     "tiny-invariant": "1.2.0",
     "tiny-warning": "1.0.3"
   },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

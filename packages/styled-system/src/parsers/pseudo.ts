@@ -1,0 +1,48 @@
+import { system, SystemConfig } from '../core';
+import { pseudoSelectors } from '../pseudo';
+
+const pseudoConfig: SystemConfig<keyof typeof pseudoSelectors> = {
+  _hover: {
+    property: '&:hover',
+  },
+  _active: false,
+  _focus: false,
+  _highlighted: false,
+  _focusWithin: false,
+  _focusVisible: false,
+  _disabled: false,
+  _readOnly: false,
+  _before: false,
+  _after: false,
+  _empty: false,
+  _expanded: false,
+  _checked: false,
+  _grabbed: false,
+  _pressed: false,
+  _invalid: false,
+  _valid: false,
+  _loading: false,
+  _selected: false,
+  _hidden: false,
+  _autofill: false,
+  _even: false,
+  _odd: false,
+  _first: false,
+  _last: false,
+  _notFirst: false,
+  _notLast: false,
+  _visited: false,
+  _activeLink: false,
+  _indeterminate: false,
+  _groupHover: false,
+  _groupFocus: false,
+  _groupActive: false,
+  _groupDisabled: false,
+  _groupInvalid: false,
+  _groupChecked: false,
+  _placeholder: false,
+  _fullScreen: false,
+  _selection: false,
+};
+
+export const pseudo = system(pseudoConfig);

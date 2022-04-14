@@ -1,4 +1,5 @@
 import { Property } from 'csstype';
+
 import { system, SystemConfig } from '../core';
 import { RequiredTheme, ResponsiveValue, Theme, ThemeValue } from '../types';
 import { defaultTheme } from '../utils';
@@ -21,7 +22,7 @@ export interface TypographyProps<ThemeType extends Theme = RequiredTheme> {
   wordBreak?: ResponsiveValue<Property.WordBreak, ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   fontFamily: {
     property: 'fontFamily',
     scale: 'fonts',

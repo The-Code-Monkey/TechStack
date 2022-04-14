@@ -90,7 +90,7 @@ export interface BorderProps<ThemeType extends Theme = RequiredTheme> {
   borderY?: ResponsiveValue<Property.Border<TLengthStyledSystem>, ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   border: {
     property: 'border',
     scale: 'borders',

@@ -1,4 +1,5 @@
 import { Property } from 'csstype';
+
 import { system, SystemConfig } from '../core';
 import {
   RequiredTheme,
@@ -31,7 +32,7 @@ export interface OtherProps<ThemeType extends Theme = RequiredTheme> {
   outlineColor?: ResponsiveValue<ThemeValue<'colors', ThemeType>, ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   appearance: {
     property: 'appearance',
   },

@@ -54,23 +54,5 @@
     "process": "0.11.10",
     "prop-types": "15.8.1"
   },
-  "eslintConfig": {
-    "extends": [
-      "plugin:import/errors",
-      "plugin:import/warnings",
-      "plugin:import/typescript"
-    ],
-    "plugins": [
-      "import"
-    ],
-    "parserOptions": {
-      "sourceType": "module",
-      "ecmaVersion": "latest",
-      "ecmaFeatures": {
-        "jsx": true,
-        "modules": true
-      }
-    }
-  },
   "gitHead": "4eff72e16ff10a3811ffdb619debd8d94868067d"
 }

@@ -1,10 +1,10 @@
-import { ParsedUrlQuery } from "querystring";
+import { ParsedUrlQuery } from 'querystring';
 
-import { Table } from "@aw-web-design/components";
-import { NextPage } from "next";
-import { useRouter } from "next/router";
+import { Table } from '@aw-web-design/components';
+import { NextPage } from 'next';
+import { useRouter } from 'next/router';
 
-import { GetListData } from "../../db/mysql/queries";
+import { GetListData } from '../../db/mysql/queries';
 
 type ColumnType = {
   accessor: string;

@@ -38,7 +38,7 @@ export interface AnimationProps<ThemeType extends Theme = RequiredTheme> {
   animationPlayState?: ResponsiveValue<Property.AnimationPlayState, ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   animation: {
     property: 'animation',
     scale: 'animation.animation',

@@ -68,7 +68,7 @@ export interface MarginProps<
   me?: ResponsiveValue<TVal, ThemeType>;
 }
 
-const marginConfig: SystemConfig = {
+const marginConfig: SystemConfig<string> = {
   margin: {
     property: 'margin',
     scale: 'space',
@@ -201,7 +201,7 @@ export interface PaddingProps<
   pe?: ResponsiveValue<TVal, ThemeType>;
 }
 
-const paddingConfig: SystemConfig = {
+const paddingConfig: SystemConfig<string> = {
   padding: {
     property: 'padding',
     scale: 'space',

@@ -5,8 +5,8 @@ export function innerHeight(el: any) {
   if (!style) return el.clientHeight;
   return (
     el.clientHeight -
-    parseInt(style.getPropertyValue("padding-top"), 10) -
-    parseInt(style.getPropertyValue("padding-bottom"), 10)
+    parseInt(style.getPropertyValue('padding-top'), 10) -
+    parseInt(style.getPropertyValue('padding-bottom'), 10)
   );
 }
 
@@ -17,7 +17,7 @@ export function innerWidth(el: any) {
   if (!style) return el.clientWidth;
   return (
     el.clientWidth -
-    parseInt(style.getPropertyValue("padding-left"), 10) -
-    parseInt(style.getPropertyValue("padding-right"), 10)
+    parseInt(style.getPropertyValue('padding-left'), 10) -
+    parseInt(style.getPropertyValue('padding-right'), 10)
   );
 }

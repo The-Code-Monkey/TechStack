@@ -16,10 +16,7 @@
       ]
     }
   },
-  "workspaces": [
-    "packages/*",
-    "platforms/*"
-  ],
+  "useWorkspaces": true,
   "packages": [
     "packages/*"
   ],

@@ -78,11 +78,11 @@
           }
         },
         {
-          "destination": "table.ts",
+          "destination": "defaultStyles.ts",
           "format": "custom/nested/json",
           "filter": {
             "attributes": {
-              "category": "table"
+              "category": "defaultStyles"
             }
           }
         },
