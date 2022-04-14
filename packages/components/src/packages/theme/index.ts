@@ -4,7 +4,7 @@ import colors from './colors';
 import borders from './dist/borders';
 import breakpoints from './dist/breakpoints';
 import breakpointSizes from './dist/breakpointSizes';
-import defaultStyles from './dist/defaultStyles';
+// import defaultStyles from './dist/defaultStyles';
 import elevation from './dist/elevation';
 import fonts from './dist/fonts';
 import fontSizes from './dist/fontSizes';
@@ -41,7 +41,7 @@ const theme: ITheme<typeof variants> = {
   ...opacity,
   ...space,
   ...spacing,
-  ...defaultStyles,
+  // ...defaultStyles,
 };
 
 export default theme;
