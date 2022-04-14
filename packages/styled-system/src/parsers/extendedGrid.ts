@@ -1,5 +1,6 @@
 import { compose, system, SystemConfig } from '../core';
 import { RequiredTheme, Theme } from '../types';
+
 import { grid, GridProps } from './grid';
 
 export interface ExtendedGridProps<ThemeType extends Theme = RequiredTheme>
@@ -15,7 +16,7 @@ export interface ExtendedGridProps<ThemeType extends Theme = RequiredTheme>
   area?: GridProps['gridArea'];
 }
 
-const extendedConfig: SystemConfig = {
+const extendedConfig: SystemConfig<string> = {
   row: {
     property: 'gridRow',
   },

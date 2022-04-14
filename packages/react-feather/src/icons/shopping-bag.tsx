@@ -1,8 +1,9 @@
-import React, { ForwardedRef, forwardRef } from "react";
-import { IconProps } from "../types";
+import React, { ForwardedRef, forwardRef } from 'react';
+
+import { IconProps } from '../types';
 
 const ShoppingBag = (
-  { color = "currentColor", size = 24, ...rest }: IconProps,
+  { color = 'currentColor', size = 24, ...rest }: IconProps,
   ref: ForwardedRef<SVGSVGElement>
 ) => {
   return (
@@ -26,6 +27,6 @@ const ShoppingBag = (
   );
 };
 
-ShoppingBag.displayName = "ShoppingBag";
+ShoppingBag.displayName = 'ShoppingBag';
 
 export default forwardRef(ShoppingBag);

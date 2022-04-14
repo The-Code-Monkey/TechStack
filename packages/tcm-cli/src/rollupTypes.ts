@@ -1,10 +1,12 @@
 import path from 'path';
-import tcm from 'rollup-plugin-dts';
-import del from 'rollup-plugin-delete';
+
 import { OutputOptions, rollup, RollupOptions } from 'rollup';
+import del from 'rollup-plugin-delete';
+import tcm from 'rollup-plugin-dts';
+
+import { paths } from './constants';
 import { typescriptCompilerOptions } from './tsconfig';
 import { PackageJson } from './types';
-import { paths } from './constants';
 import { resolveApp } from './utils';
 
 function descendantOfDist(declarationDir: string): boolean {

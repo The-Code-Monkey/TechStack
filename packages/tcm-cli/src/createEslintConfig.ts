@@ -1,6 +1,8 @@
-import fs from 'fs-extra';
 import path from 'path';
+
 import { Linter } from 'eslint';
+import fs from 'fs-extra';
+
 import { PackageJson } from './types';
 import { getReactVersion } from './utils';
 interface CreateEslintConfigArgs {
@@ -23,7 +25,6 @@ export async function createEslintConfig({
     ],
     settings: {
       react: {
-        // Fix for https://github.com/jaredpalmer/tsdx/issues/279
         version: isReactLibrary ? 'detect' : '999.999.999',
       },
     },

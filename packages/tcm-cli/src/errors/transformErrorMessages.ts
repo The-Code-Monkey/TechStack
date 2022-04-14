@@ -7,10 +7,13 @@
  */
 
 import fs from 'fs';
-import { invertObject } from './invertObject';
-import { evalToString } from './evalToString';
+
 import { addDefault } from '@babel/helper-module-imports';
+
 import { paths } from '../constants';
+
+import { evalToString } from './evalToString';
+import { invertObject } from './invertObject';
 
 export default function transformErrorMessages(babel: any) {
   const t = babel.types;

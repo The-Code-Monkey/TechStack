@@ -1,21 +1,21 @@
-import { NextApiRequest, NextApiResponse } from "next";
+import { NextApiRequest, NextApiResponse } from 'next';
 
 const CRUD = async (req: NextApiRequest, res: NextApiResponse) => {
   switch (req.query.crud) {
-    case "create":
+    case 'create':
       res.status(200).send({
-        type: "CREATE",
+        type: 'CREATE',
         data: JSON.parse(req.body),
       });
       break;
-    case "delete":
+    case 'delete':
       res.status(200).send({
-        type: "DELETE",
+        type: 'DELETE',
       });
       break;
-    case "update":
+    case 'update':
       res.status(200).send({
-        type: "UPDATE",
+        type: 'UPDATE',
       });
       break;
     default:

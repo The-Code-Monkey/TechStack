@@ -1,4 +1,5 @@
 import { defaultBreakpoints } from '../utils';
+
 import { Scale } from './types';
 import { get, merge, sort } from './util';
 

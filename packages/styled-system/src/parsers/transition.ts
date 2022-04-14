@@ -1,4 +1,5 @@
 import { Property } from 'csstype';
+
 import { system, SystemConfig } from '../core';
 import {
   RequiredTheme,
@@ -27,7 +28,7 @@ export interface TransitionProps<ThemeType extends Theme = RequiredTheme> {
   >;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   transition: {
     property: 'transition',
     scale: 'transition.transition',

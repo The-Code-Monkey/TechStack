@@ -1,4 +1,5 @@
 import { isFunction, isObject } from '../utils';
+
 import { pseudoSelectors } from './selectors';
 
 /**

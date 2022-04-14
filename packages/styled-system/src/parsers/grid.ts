@@ -1,4 +1,5 @@
 import { Property } from 'csstype';
+
 import { system, SystemConfig } from '../core';
 import {
   RequiredTheme,
@@ -47,7 +48,7 @@ export interface GridProps<ThemeType extends Theme = RequiredTheme> {
   gridArea?: ResponsiveValue<Property.GridArea, ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   gridGap: {
     property: 'gridGap',
     scale: 'space',

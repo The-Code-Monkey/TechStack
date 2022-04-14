@@ -29,7 +29,7 @@ export type IThemeColorsType = {
   };
 };
 
-export interface ITheme<V extends {}> {
+export interface ITheme<V extends unknown> {
   colors?: ModeThemeType & IThemeColorsType;
   variants?: V;
   fonts: Record<string, string>;

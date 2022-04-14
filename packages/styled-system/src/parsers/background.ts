@@ -1,4 +1,5 @@
 import { Property } from 'csstype';
+
 import { system, SystemConfig } from '../core';
 import {
   RequiredTheme,
@@ -42,7 +43,7 @@ export interface BackgroundProps<ThemeType extends Theme = RequiredTheme> {
   bgAttachment?: ResponsiveValue<Property.BackgroundAttachment, ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   background: {
     property: 'background',
     scale: 'colors',

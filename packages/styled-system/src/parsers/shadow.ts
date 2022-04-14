@@ -1,4 +1,5 @@
 import { Property } from 'csstype';
+
 import { system, SystemConfig } from '../core';
 import { RequiredTheme, ResponsiveValue, Theme } from '../types';
 
@@ -7,7 +8,7 @@ export interface ShadowProps<ThemeType extends Theme = RequiredTheme> {
   textShadow?: ResponsiveValue<Property.TextShadow | (number & {}), ThemeType>;
 }
 
-const config: SystemConfig = {
+const config: SystemConfig<string> = {
   boxShadow: {
     property: 'boxShadow',
     scale: 'shadows',

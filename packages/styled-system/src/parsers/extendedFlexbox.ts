@@ -1,5 +1,6 @@
 import { compose, system, SystemConfig } from '../core';
 import { RequiredTheme, Theme } from '../types';
+
 import { flexbox, FlexboxProps } from './flexbox';
 
 export interface ExtendedFlexboxProps<ThemeType extends Theme = RequiredTheme>
@@ -10,7 +11,7 @@ export interface ExtendedFlexboxProps<ThemeType extends Theme = RequiredTheme>
   direction?: FlexboxProps['flexDirection'];
 }
 
-const extendedConfig: SystemConfig = {
+const extendedConfig: SystemConfig<string> = {
   align: {
     property: 'alignItems',
   },

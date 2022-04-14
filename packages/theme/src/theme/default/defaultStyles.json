@@ -1,0 +1,29 @@
+{
+  "defaultStyles": {
+    "input": {
+      "padding": {
+        "value": "{space.3.value}"
+      },
+      "borderRadius": {
+        "value": "{radii.2.value}"
+      },
+      "border": {
+        "value": "{borders.1.value} {color.common.black.value}"
+      },
+      "cursor": {
+        "value": "pointer"
+      },
+      "minHeight": {
+        "value": "{sizes.7.value}"
+      },
+      "width": {
+        "value": "{sizes.full.value}"
+      },
+      "_hover": {
+        "bg": {
+          "value": "blue"
+        }
+      }
+    }
+  }
+}

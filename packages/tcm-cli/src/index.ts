@@ -1,7 +1,17 @@
 #!/usr/bin/env node
 
-import sade from 'sade';
-import glob from 'tiny-glob/sync';
+import path from 'path';
+
+import asyncro from 'asyncro';
+import chalk from 'chalk';
+import { Input, Select } from 'enquirer';
+import { ESLint } from 'eslint';
+import execa from 'execa';
+import figlet from 'figlet';
+import * as fs from 'fs-extra';
+import * as jest from 'jest';
+import { concatAllArray } from 'jpjs';
+import ora from 'ora';
 import {
   rollup,
   watch,
@@ -10,33 +20,25 @@ import {
   RollupWatchOptions,
   WatcherOptions,
 } from 'rollup';
-import asyncro from 'asyncro';
-import chalk from 'chalk';
-import figlet from 'figlet';
-import * as fs from 'fs-extra';
-import * as jest from 'jest';
-import { ESLint } from 'eslint';
-import logError from './logError';
-import path from 'path';
-import execa from 'execa';
-import shell from 'shelljs';
-import ora from 'ora';
+import sade from 'sade';
 import semver from 'semver';
+import shell from 'shelljs';
+import sortPackageJson from 'sort-package-json';
+import glob from 'tiny-glob/sync';
+
 import { paths } from './constants';
-import * as Messages from './messages';
 import { createBuildConfigs } from './createBuildConfigs';
-import { createJestConfig, JestConfigOptions } from './createJestConfig';
 import { createEslintConfig } from './createEslintConfig';
-import {
-  resolveApp,
-  safePackageName,
-  clearConsole,
-  getNodeEngineRequirement,
-} from './utils';
-import { concatAllArray } from 'jpjs';
-import getInstallCmd from './getInstallCmd';
+import { createJestConfig, JestConfigOptions } from './createJestConfig';
+import { createProgressEstimator } from './createProgressEstimator';
+import * as deprecated from './deprecated';
 import getInstallArgs from './getInstallArgs';
-import { Input, Select } from 'enquirer';
+import getInstallCmd from './getInstallCmd';
+import logError from './logError';
+import * as Messages from './messages';
+import { rollupTypes } from './rollupTypes';
+import { templates } from './templates';
+import { composeDependencies, composePackageJson } from './templates/utils';
 import {
   PackageJson,
   WatchOpts,
@@ -44,12 +46,13 @@ import {
   ModuleFormat,
   NormalizedOpts,
 } from './types';
-import { createProgressEstimator } from './createProgressEstimator';
-import { templates } from './templates';
-import { composeDependencies, composePackageJson } from './templates/utils';
-import * as deprecated from './deprecated';
-import sortPackageJson from 'sort-package-json';
-import { rollupTypes } from './rollupTypes';
+import {
+  resolveApp,
+  safePackageName,
+  clearConsole,
+  getNodeEngineRequirement,
+} from './utils';
+
 const pkg = require('../package.json');
 
 const prog = sade('tcm');

@@ -1,24 +1,25 @@
-import { safeVariableName, external } from './utils';
-import { paths } from './constants';
-import { RollupOptions } from 'rollup';
-import { terser } from 'rollup-plugin-terser';
+import path from 'path';
+
 import { DEFAULT_EXTENSIONS as DEFAULT_BABEL_EXTENSIONS } from '@babel/core';
 import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
-import replace from '@rollup/plugin-replace';
 import resolve, {
   DEFAULTS as RESOLVE_DEFAULTS,
 } from '@rollup/plugin-node-resolve';
+import replace from '@rollup/plugin-replace';
+import { RollupOptions } from 'rollup';
 import sourceMaps from 'rollup-plugin-sourcemaps';
+import { terser } from 'rollup-plugin-terser';
 import typescript from 'rollup-plugin-typescript2';
 import ts from 'typescript';
-import path from 'path';
 
-import { extractErrors } from './errors/extractErrors';
 import { babelPluginTcm } from './babelPluginTcm';
-import { TcmOptions, PackageJson } from './types';
-import { typescriptCompilerOptions } from './tsconfig';
+import { paths } from './constants';
+import { extractErrors } from './errors/extractErrors';
 import { isTypesRollupEnabled } from './rollupTypes';
+import { typescriptCompilerOptions } from './tsconfig';
+import { TcmOptions, PackageJson } from './types';
+import { safeVariableName, external } from './utils';
 
 const errorCodeOpts = {
   errorMapFilePath: paths.appErrorsJson,

@@ -2,6 +2,7 @@ import { get } from '../core';
 import { pseudoSelectors } from '../pseudo/selectors';
 import { CSSObject, Theme } from '../types';
 import { defaultBreakpoints, defaultTheme, isFunction } from '../utils';
+
 import { getParserDicts } from './util';
 
 const { aliases, multiples, scales, transforms } = getParserDicts();
