@@ -3,11 +3,10 @@ import React, {
   ChangeEvent,
   HTMLInputTypeAttribute,
   useState,
-  useContext,
 } from 'react';
-import { ThemeContext } from 'styled-components';
+
 import { BoxProps } from '../../primatives';
-import { ITheme } from '../../utils';
+
 import { StyledInput } from './styled';
 
 export interface Props extends BoxProps {
@@ -26,7 +25,7 @@ const Input = ({
   placeholder = 'Placeholder',
   ...rest
 }: Props) => {
-  const theme = useContext<ITheme<unknown>>(ThemeContext);
+  // const theme = useContext<ITheme<unknown>>(ThemeContext);
   const [v, setValue] = useState<string | number | undefined>(value);
 
   const handleOnChange = useCallback(
@@ -44,7 +43,6 @@ const Input = ({
       value={v}
       type={type}
       onChange={handleOnChange}
-      {...theme.defaultStyles.input}
       {...rest}
     />
   );

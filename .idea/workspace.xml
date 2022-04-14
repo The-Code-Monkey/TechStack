@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lerna.json" beforeDir="false" afterPath="$PROJECT_DIR$/lerna.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/Table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/Table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/src/packages/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/theme/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/src/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +83,7 @@
       <workItem from="1649765757686" duration="222000" />
       <workItem from="1649832692743" duration="4862000" />
       <workItem from="1649862839505" duration="5034000" />
-      <workItem from="1649921870505" duration="3000000" />
+      <workItem from="1649921870505" duration="6224000" />
     </task>
     <servers />
   </component>

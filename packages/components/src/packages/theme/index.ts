@@ -1,4 +1,5 @@
 import { ITheme, IThemeColorsType, ModeThemeType } from '../utils';
+
 import colors from './colors';
 import borders from './dist/borders';
 import breakpoints from './dist/breakpoints';

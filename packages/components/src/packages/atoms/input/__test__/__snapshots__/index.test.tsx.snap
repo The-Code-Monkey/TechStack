@@ -6,30 +6,17 @@ exports[`<Input /> renders correctly 1`] = `
     name="test"
   >
     <styled.input
-      _hover={
-        Object {
-          "bg": "blue",
-        }
-      }
-      border="1px solid #000"
-      borderRadius="6px"
-      cursor="pointer"
-      minHeight="24px"
       name="test"
       onChange={[Function]}
-      padding="6px"
       placeholder="Placeholder"
       type="text"
-      width="100%"
     >
       <input
-        className="sc-jSMfEi eevSLp"
-        cursor="pointer"
+        className="sc-jSMfEi beMVlz"
         name="test"
         onChange={[Function]}
         placeholder="Placeholder"
         type="text"
-        width="100%"
       />
     </styled.input>
   </Input>

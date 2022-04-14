@@ -1,8 +1,7 @@
 import cn from 'classnames';
-import React, { FC, useCallback, useContext, useMemo } from 'react';
+import React, { FC, useCallback, useMemo } from 'react';
 import { Accessor, TableOptions, useTable } from 'react-table';
-import { ThemeContext } from 'styled-components';
-import { ITheme } from '../../utils';
+
 import {
   StyledTable,
   StyledTHead,
@@ -18,7 +17,7 @@ export interface Props extends TableOptions<object> {
 }
 
 const Table: FC<Props> = ({ columns, data, className, onRowClick }: Props) => {
-  const theme = useContext<ITheme<unknown>>(ThemeContext);
+  // const theme = useContext<ITheme<unknown>>(ThemeContext);
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({ columns, data });
 
@@ -46,20 +45,14 @@ const Table: FC<Props> = ({ columns, data, className, onRowClick }: Props) => {
   return (
     <StyledTable
       {...tableProps}
-      {...theme.defaultStyles.table}
       className={cn(className, tableProps.className)}
     >
-      <StyledTHead {...theme.defaultStyles.thead}>
+      <StyledTHead>
         {headerGroups.map((headerGroup) => (
-          <StyledTr
-            {...headerGroup.getHeaderGroupProps()}
-            {...theme.defaultStyles.tr}
-            {...theme.defaultStyles.trHead}
-          >
+          <StyledTr {...headerGroup.getHeaderGroupProps()}>
             {headerGroup.headers.map((column, index) => (
               <StyledTh
                 {...column.getHeaderProps()}
-                {...theme.defaultStyles.th}
                 onClick={() => handleColumnClick(columns[index].accessor)}
               >
                 {column.render('Header')}
@@ -68,22 +61,17 @@ const Table: FC<Props> = ({ columns, data, className, onRowClick }: Props) => {
           </StyledTr>
         ))}
       </StyledTHead>
-      <StyledTBody {...getTableBodyProps()} {...theme.defaultStyles.tbody}>
+      <StyledTBody {...getTableBodyProps()}>
         {rows.map((row) => {
           prepareRow(row);
           return (
             <StyledTr
               {...row.getRowProps()}
-              {...theme.defaultStyles.tr}
-              {...theme.defaultStyles.trBody}
               onClick={() => handleRowClick(row.id)}
             >
               {row.cells.map((cell) => {
                 return (
-                  <StyledTd
-                    {...cell.getCellProps()}
-                    {...theme.defaultStyles.td}
-                  >
+                  <StyledTd {...cell.getCellProps()}>
                     {cell.render('Cell')}
                   </StyledTd>
                 );
