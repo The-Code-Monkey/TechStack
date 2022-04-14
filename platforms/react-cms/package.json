@@ -29,7 +29,7 @@
     "@aw-web-design/tcm-cli": "3.1.5",
     "@next/eslint-plugin-next": "12.1.5",
     "@types/node": "17.0.22",
-    "@types/react": "18.0.4",
+    "@types/react": "18.0.5",
     "@typescript-eslint/eslint-plugin": "5.19.0",
     "@typescript-eslint/parser": "5.19.0",
     "autoprefixer": "10.4.4",
