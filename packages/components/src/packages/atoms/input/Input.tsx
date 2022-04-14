@@ -6,10 +6,8 @@ import React, {
   useContext,
 } from 'react';
 import { ThemeContext } from 'styled-components';
-
 import { BoxProps } from '../../primatives';
 import { ITheme } from '../../utils';
-
 import { StyledInput } from './styled';
 
 export interface Props extends BoxProps {

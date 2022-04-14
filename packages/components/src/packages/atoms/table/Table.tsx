@@ -2,9 +2,7 @@ import cn from 'classnames';
 import React, { FC, useCallback, useContext, useMemo } from 'react';
 import { Accessor, TableOptions, useTable } from 'react-table';
 import { ThemeContext } from 'styled-components';
-
 import { ITheme } from '../../utils';
-
 import {
   StyledTable,
   StyledTHead,
