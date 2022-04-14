@@ -32,14 +32,17 @@ export type ResponsiveValue<T, ThemeType extends Theme = RequiredTheme> =
   | Array<T | null>
   | { [key in (ThemeValue<'breakpoints', ThemeType> & string) | number]?: T };
 
-export type ThemeValue<K extends keyof ThemeType, ThemeType, TVal = any> =
-  ThemeType[K] extends TVal[]
-    ? number
-    : ThemeType[K] extends Record<infer E, TVal>
-    ? E
-    : ThemeType[K] extends ObjectOrArray<infer F>
-    ? F
-    : never;
+export type ThemeValue<
+  K extends keyof ThemeType,
+  ThemeType,
+  TVal = any
+> = ThemeType[K] extends TVal[]
+  ? number
+  : ThemeType[K] extends Record<infer E, TVal>
+  ? E
+  : ThemeType[K] extends ObjectOrArray<infer F>
+  ? F
+  : never;
 
 interface CSSProperties
   extends StandardProperties<number | string>,

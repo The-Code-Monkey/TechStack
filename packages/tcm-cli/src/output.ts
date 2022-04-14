@@ -1,9 +1,9 @@
-import color from 'colorette';
+import { red, green, gray, cyan, bold } from 'colorette';
 import ora from 'ora';
 
 // This was copied from Razzle. Lots of unused stuff.
 export const info = (msg: string) => {
-  console.log(`${color.gray('>')} ${msg}`);
+  console.log(`${gray('>')} ${msg}`);
 };
 
 export const error = (msg: string | Error) => {
@@ -11,15 +11,15 @@ export const error = (msg: string | Error) => {
     msg = msg.message;
   }
 
-  console.error(`${color.red('> Error!')} ${msg}`);
+  console.error(`${red('> Error!')} ${msg}`);
 };
 
 export const success = (msg: string) => {
-  console.log(`${color.green('> Success!')} ${msg}`);
+  console.log(`${green('> Success!')} ${msg}`);
 };
 
 export const wait = (msg: string) => {
-  const spinner = ora(color.green(msg));
+  const spinner = ora(green(msg));
   spinner.color = 'blue';
   spinner.start();
 
@@ -30,13 +30,13 @@ export const wait = (msg: string) => {
 };
 
 export const cmd = (cmd: string) => {
-  return color.bold(color.cyan(cmd));
+  return bold(cyan(cmd));
 };
 
 export const code = (cmd: string) => {
-  return `${color.gray('`')}${color.bold(cmd)}${color.gray('`')}`;
+  return `${gray('`')}${bold(cmd)}${gray('`')}`;
 };
 
 export const param = (param: string) => {
-  return color.bold(`${color.gray('{')}${color.bold(param)}${color.gray('}')}`);
+  return bold(`${gray('{')}${bold(param)}${gray('}')}`);
 };
