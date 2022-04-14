@@ -1,5 +1,6 @@
 import { compose, system, SystemConfig } from '../core';
 import { RequiredTheme, Theme } from '../types';
+
 import { flexbox, FlexboxProps } from './flexbox';
 
 export interface ExtendedFlexboxProps<ThemeType extends Theme = RequiredTheme>

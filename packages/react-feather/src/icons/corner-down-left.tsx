@@ -1,8 +1,9 @@
-import React, { ForwardedRef, forwardRef } from "react";
-import { IconProps } from "../types";
+import React, { ForwardedRef, forwardRef } from 'react';
+
+import { IconProps } from '../types';
 
 const CornerDownLeft = (
-  { color = "currentColor", size = 24, ...rest }: IconProps,
+  { color = 'currentColor', size = 24, ...rest }: IconProps,
   ref: ForwardedRef<SVGSVGElement>
 ) => {
   return (
@@ -25,6 +26,6 @@ const CornerDownLeft = (
   );
 };
 
-CornerDownLeft.displayName = "CornerDownLeft";
+CornerDownLeft.displayName = 'CornerDownLeft';
 
 export default forwardRef(CornerDownLeft);

@@ -1,4 +1,5 @@
 import ts, { CompilerOptions } from 'typescript';
+
 import { paths } from './constants';
 
 export function typescriptCompilerOptions(

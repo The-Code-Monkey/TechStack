@@ -1,4 +1,5 @@
 import { Property } from 'csstype';
+
 import { get, Scale, system, SystemConfig } from '../core';
 import {
   RequiredTheme,

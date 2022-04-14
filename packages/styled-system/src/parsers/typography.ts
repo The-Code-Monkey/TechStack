@@ -1,4 +1,5 @@
 import { Property } from 'csstype';
+
 import { system, SystemConfig } from '../core';
 import { RequiredTheme, ResponsiveValue, Theme, ThemeValue } from '../types';
 import { defaultTheme } from '../utils';

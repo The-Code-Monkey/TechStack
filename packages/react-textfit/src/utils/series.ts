@@ -9,7 +9,7 @@
  * @params {Function} callback(err, results) - An optional callback to run once all the functions have completed. This function gets a results array containing all the result arguments passed to the task callbacks.
  */
 
-import process from "process";
+import process from 'process';
 
 export default function series(tasks: any, cb: any) {
   const results: any = [];

@@ -3,20 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lerna.json" beforeDir="false" afterPath="$PROJECT_DIR$/lerna.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/Input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/Table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/Table.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/theme/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/styled-system/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/createEslintConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createEslintConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/templates/react-with-storybook/example/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/templates/react-with-storybook/example/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/templates/react/example/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/templates/react/example/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/theme/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/theme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/dev" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,7 +60,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -83,7 +93,7 @@
       <workItem from="1649765757686" duration="222000" />
       <workItem from="1649832692743" duration="4862000" />
       <workItem from="1649862839505" duration="5034000" />
-      <workItem from="1649921870505" duration="6224000" />
+      <workItem from="1649921870505" duration="6848000" />
     </task>
     <servers />
   </component>

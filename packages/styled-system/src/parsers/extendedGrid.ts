@@ -1,5 +1,6 @@
 import { compose, system, SystemConfig } from '../core';
 import { RequiredTheme, Theme } from '../types';
+
 import { grid, GridProps } from './grid';
 
 export interface ExtendedGridProps<ThemeType extends Theme = RequiredTheme>

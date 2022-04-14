@@ -1,5 +1,5 @@
-import ora from 'ora';
 import color from 'colorette';
+import ora from 'ora';
 
 // This was copied from Razzle. Lots of unused stuff.
 export const info = (msg: string) => {

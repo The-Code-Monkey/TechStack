@@ -1,8 +1,9 @@
-import React, { ForwardedRef, forwardRef } from "react";
-import { IconProps } from "../types";
+import React, { ForwardedRef, forwardRef } from 'react';
+
+import { IconProps } from '../types';
 
 const Maximize2 = (
-  { color = "currentColor", size = 24, ...rest }: IconProps,
+  { color = 'currentColor', size = 24, ...rest }: IconProps,
   ref: ForwardedRef<SVGSVGElement>
 ) => {
   return (
@@ -27,6 +28,6 @@ const Maximize2 = (
   );
 };
 
-Maximize2.displayName = "Maximize2";
+Maximize2.displayName = 'Maximize2';
 
 export default forwardRef(Maximize2);

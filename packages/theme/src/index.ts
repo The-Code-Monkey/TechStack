@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
+const path = require('path');
+
+const fs = require('fs-extra');
+const { template } = require('lodash');
 const sade = require('sade');
 const StyleDictionary = require('style-dictionary');
-const fs = require('fs-extra');
-const path = require('path');
-const { template } = require('lodash');
 const Color = require('tinycolor2');
 
 const Config = require('./config.json');

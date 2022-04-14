@@ -1,8 +1,9 @@
-import React, { ForwardedRef, forwardRef } from "react";
-import { IconProps } from "../types";
+import React, { ForwardedRef, forwardRef } from 'react';
+
+import { IconProps } from '../types';
 
 const LifeBuoy = (
-  { color = "currentColor", size = 24, ...rest }: IconProps,
+  { color = 'currentColor', size = 24, ...rest }: IconProps,
   ref: ForwardedRef<SVGSVGElement>
 ) => {
   return (
@@ -30,6 +31,6 @@ const LifeBuoy = (
   );
 };
 
-LifeBuoy.displayName = "LifeBuoy";
+LifeBuoy.displayName = 'LifeBuoy';
 
 export default forwardRef(LifeBuoy);
