@@ -1,12 +1,12 @@
-import { NextApiRequest, NextApiResponse } from "next";
+import { NextApiRequest, NextApiResponse } from 'next';
 
 const Entry = async (req: NextApiRequest, res: NextApiResponse) => {
   res.send({
     id: 1,
-    username: "test user",
-    firstName: "test",
-    lastName: "test",
-    email: "test@test.com",
+    username: 'test user',
+    firstName: 'test',
+    lastName: 'test',
+    email: 'test@test.com',
   });
 };
 

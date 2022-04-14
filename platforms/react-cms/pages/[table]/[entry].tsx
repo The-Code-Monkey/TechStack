@@ -1,10 +1,10 @@
-import { ParsedUrlQuery } from "querystring";
+import { ParsedUrlQuery } from 'querystring';
 
-import { NextPage } from "next";
-import { useForm } from "react-hook-form";
-import { Cell, Grid, Input } from "@aw-web-design/components";
+import { NextPage } from 'next';
+import { useForm } from 'react-hook-form';
+import { Cell, Grid, Input } from '@aw-web-design/components';
 
-import { GetEntryData, ModifyEntry } from "../../db/mysql/queries";
+import { GetEntryData, ModifyEntry } from '../../db/mysql/queries';
 
 interface Props {
   query: ParsedUrlQuery;
@@ -14,13 +14,13 @@ interface Props {
 const Entry: NextPage<Props> = ({ query }: Props) => {
   const { register, handleSubmit } = useForm();
 
-  const isCreate = query.create === "create";
+  const isCreate = query.create === 'create';
 
   const onSubmit = async (data) => {
     const res = await ModifyEntry(
       { body: data },
       `${query.table}`,
-      isCreate ? "create" : "update",
+      isCreate ? 'create' : 'update',
       isCreate ? 0 : `${query.entry}`
     );
 
@@ -28,13 +28,13 @@ const Entry: NextPage<Props> = ({ query }: Props) => {
   };
 
   return (
-    <form style={{ width: "100%" }} onSubmit={handleSubmit(onSubmit)}>
+    <form style={{ width: '100%' }} onSubmit={handleSubmit(onSubmit)}>
       <Grid p="3" columns={2} gap={5}>
         <Cell>
-          <Input w="full" {...register("firstName")} />
+          <Input w="full" {...register('firstName')} />
         </Cell>
         <Cell>
-          <Input w="full" {...register("firstName")} />
+          <Input w="full" {...register('firstName')} />
         </Cell>
       </Grid>
     </form>
@@ -42,8 +42,8 @@ const Entry: NextPage<Props> = ({ query }: Props) => {
 };
 
 Entry.getInitialProps = async ({ req, query }): Promise<Props> => {
-  if (query.entry !== "create") {
-    const data = await GetEntryData(req, `${query.table}`, "entry", `${query.entry}`);
+  if (query.entry !== 'create') {
+    const data = await GetEntryData(req, `${query.table}`, 'entry', `${query.entry}`);
 
     return {
       query,
