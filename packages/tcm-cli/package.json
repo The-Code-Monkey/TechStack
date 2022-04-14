@@ -107,7 +107,7 @@
     "@types/figlet": "1.5.4",
     "@types/fs-extra": "9.0.13",
     "@types/lodash": "4.14.181",
-    "@types/node": "16.11.26",
+    "@types/node": "16.11.27",
     "@types/react": "18.0.4",
     "@types/rollup-plugin-json": "3.0.3",
     "@types/semver": "7.3.9",
