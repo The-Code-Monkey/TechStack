@@ -50,4 +50,5 @@ export interface ITheme<V extends unknown> {
   sizes: Record<string, string>;
   space: Record<string, string>;
   [x: string]: any;
+  defaultStyles: Record<string, unknown>;
 }

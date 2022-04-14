@@ -9,7 +9,7 @@ import {
   flexbox,
   system,
   get,
-  // pseudo,
+  pseudo,
   getContrast,
 } from '@aw-web-design/styled-system';
 import styled from 'styled-components';
@@ -38,7 +38,7 @@ export const StyledBoxProps = compose(
   border,
   shadow,
   flexbox,
-  // pseudo,
+  pseudo,
   utilProps
 );
 

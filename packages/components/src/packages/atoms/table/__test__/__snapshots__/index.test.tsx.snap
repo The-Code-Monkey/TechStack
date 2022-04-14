@@ -8,11 +8,15 @@ exports[`<Table /> should render correctly 1`] = `
   >
     <styled.table
       className=""
+      height="100%"
       role="table"
+      width="100%"
     >
       <table
-        className="sc-jSMfEi egMCEo"
+        className="sc-jSMfEi eVsqtd"
+        height="100%"
         role="table"
+        width="100%"
       >
         <styled.thead>
           <thead

@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/story.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/components/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/components/Nav/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/components/Nav/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/components/Nav/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/components/Nav/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/components/Nav/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/[table]/[entry].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/[table]/[entry].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/[table]/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/[table]/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/api/auth/[...nextauth].ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/api/auth/[...nextauth].ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/api/db/mysql/list/[table]/[crud]/[entry].ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/api/db/mysql/list/[table]/[crud]/[entry].ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/api/db/mysql/list/[table]/entry/[entry].ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/api/db/mysql/list/[table]/entry/[entry].ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/api/db/mysql/list/[table]/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/api/db/mysql/list/[table]/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/Table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/Table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/box/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/primatives/box/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/theme/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/utils/theme-provider/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/utils/theme-provider/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/styles/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/styles/theme/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +54,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -93,6 +88,7 @@
       <workItem from="1649832692743" duration="4862000" />
       <workItem from="1649862839505" duration="5034000" />
       <workItem from="1649921870505" duration="9600000" />
+      <workItem from="1649948480904" duration="2529000" />
     </task>
     <servers />
   </component>
