@@ -13,21 +13,21 @@ exports[`<Table /> should render correctly 1`] = `
       width="100%"
     >
       <table
-        className="sc-jSMfEi eVsqtd"
+        className="sc-jSMfEi bOxdNw"
         height="100%"
         role="table"
         width="100%"
       >
         <styled.thead>
           <thead
-            className="sc-gKXOVf dgdQVN"
+            className="sc-gKXOVf dbCGwg"
           />
         </styled.thead>
         <styled.tbody
           role="rowgroup"
         >
           <tbody
-            className="sc-papXJ gvDnXh"
+            className="sc-papXJ ccFNYo"
             role="rowgroup"
           />
         </styled.tbody>

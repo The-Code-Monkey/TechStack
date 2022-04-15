@@ -47,7 +47,7 @@ exports[`<Grid /> renders correctly 1`] = `
           }
         >
           <div
-            className="sc-gsnTZi cZKnlT sc-jSMfEi eKAxMN"
+            className="sc-gsnTZi ekxMGu sc-jSMfEi eKAxMN"
             data-autoid="undefined_table"
           >
             <Cell>
@@ -72,7 +72,7 @@ exports[`<Grid /> renders correctly 1`] = `
                     gridRow="span 1"
                   >
                     <div
-                      className="sc-gsnTZi ecCQFQ sc-gKXOVf JDLEh"
+                      className="sc-gsnTZi kezyrN sc-gKXOVf JDLEh"
                       data-autoid="cell_1_cell"
                     >
                       Cell 1
@@ -103,7 +103,7 @@ exports[`<Grid /> renders correctly 1`] = `
                     gridRow="span 1"
                   >
                     <div
-                      className="sc-gsnTZi ecCQFQ sc-gKXOVf JDLEh"
+                      className="sc-gsnTZi kezyrN sc-gKXOVf JDLEh"
                       data-autoid="cell_2_cell"
                     >
                       Cell 2
@@ -134,7 +134,7 @@ exports[`<Grid /> renders correctly 1`] = `
                     gridRow="span 1"
                   >
                     <div
-                      className="sc-gsnTZi ecCQFQ sc-gKXOVf JDLEh"
+                      className="sc-gsnTZi kezyrN sc-gKXOVf JDLEh"
                       data-autoid="cell_3_cell"
                     >
                       Cell 3
@@ -165,7 +165,7 @@ exports[`<Grid /> renders correctly 1`] = `
                     gridRow="span 1"
                   >
                     <div
-                      className="sc-gsnTZi ecCQFQ sc-gKXOVf JDLEh"
+                      className="sc-gsnTZi kezyrN sc-gKXOVf JDLEh"
                       data-autoid="cell_4_cell"
                     >
                       Cell 4
@@ -196,7 +196,7 @@ exports[`<Grid /> renders correctly 1`] = `
                     gridRow="span 1"
                   >
                     <div
-                      className="sc-gsnTZi ecCQFQ sc-gKXOVf JDLEh"
+                      className="sc-gsnTZi kezyrN sc-gKXOVf JDLEh"
                       data-autoid="cell_5_cell"
                     >
                       Cell 5

@@ -1,4 +1,4 @@
-import { pseudoMixin } from '@aw-web-design/styled-system/src/pseudo/mixin';
+import { pseudoMixin } from '@aw-web-design/styled-system';
 import styled from 'styled-components';
 
 import { StyledBoxProps } from '../../primatives';

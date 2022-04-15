@@ -11,6 +11,7 @@ import {
   get,
   pseudo,
   getContrast,
+  pseudoMixin,
 } from '@aw-web-design/styled-system';
 import styled from 'styled-components';
 
@@ -47,5 +48,6 @@ export const StyledBox = styled.div.withConfig({
 })`
   display: block;
   box-sizing: border-box;
+  ${pseudoMixin}
   ${StyledBoxProps}
 `;

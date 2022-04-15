@@ -20,7 +20,7 @@ exports[`<Icon /> renders correctly 1`] = `
             data-autoid="test_icon"
           >
             <div
-              className="sc-gsnTZi cXXFdo sc-dkzDqf bQHrml"
+              className="sc-gsnTZi kJlumN sc-dkzDqf bQHrml"
               data-autoid="test_icon"
             >
               <ForwardRef(GitHub)>

@@ -108,7 +108,7 @@ exports[`<Button /> renders icon correctly 1`] = `
                       data-autoid="github_icon"
                     >
                       <div
-                        className="sc-gsnTZi cXXFdo sc-dkzDqf huekpF"
+                        className="sc-gsnTZi kJlumN sc-dkzDqf huekpF"
                         data-autoid="github_icon"
                       />
                     </styled.div>
@@ -216,7 +216,7 @@ exports[`<Button /> renders icon only correctly 1`] = `
                       data-autoid="github_icon"
                     >
                       <div
-                        className="sc-gsnTZi cXXFdo sc-dkzDqf bQHrml"
+                        className="sc-gsnTZi kJlumN sc-dkzDqf bQHrml"
                         data-autoid="github_icon"
                       />
                     </styled.div>
