@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/react-textfit",
-  "version": "3.1.22",
+  "version": "3.1.23",
   "description": "React component to fit headlines and paragraphs into any element",
   "main": "dist/index.js",
   "scripts": {
