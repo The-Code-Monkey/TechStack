@@ -1,5 +1,5 @@
 {
-  "version": "3.1.22",
+  "version": "3.1.23",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -76,7 +76,7 @@
   },
   "dependencies": {
     "@aw-web-design/react-feather": "3.1.18",
-    "@aw-web-design/styled-system": "3.1.22",
+    "@aw-web-design/styled-system": "3.1.23",
     "@aw-web-design/tcm-cli": "3.1.18",
     "@aw-web-design/theme": "3.1.18",
     "classnames": "2.3.1",
