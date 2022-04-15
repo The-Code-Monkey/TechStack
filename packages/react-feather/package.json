@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/react-feather",
-  "version": "3.1.24",
+  "version": "3.1.25",
   "description": "React component for Feather icons",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/The-Code-Monkey/TechStack#readme",
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.1.24",
+    "@aw-web-design/tcm-cli": "3.1.25",
     "@babel/cli": "7.17.6",
     "@babel/core": "7.17.9",
     "@babel/plugin-proposal-object-rest-spread": "7.17.3",

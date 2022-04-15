@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.1.21 (2022-04-15)
+
+
+### Bug Fixes
+
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo to v3.1.24 ([b3ea413](https://github.com/The-Code-Monkey/TechStack/commit/b3ea4138e4498f42a19d5e6f2f06528cf114259e))
+
+
+
+
+
 ## 3.1.20 (2022-04-15)
 
 **Note:** Version bump only for package react-cms
