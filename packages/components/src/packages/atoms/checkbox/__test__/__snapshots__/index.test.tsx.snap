@@ -68,7 +68,7 @@ exports[`<Checkbox /> renders correctly checked 1`] = `
             size={7}
           >
             <div
-              className="sc-gsnTZi knjsmK sc-hKMtZM"
+              className="sc-gsnTZi jOroSj sc-hKMtZM"
               cursor="pointer"
               data-autoid="checkbox"
               data-checked={true}
@@ -97,7 +97,7 @@ exports[`<Checkbox /> renders correctly checked 1`] = `
                         data-autoid="undefinedcheckbox_icon_icon"
                       >
                         <div
-                          className="sc-gsnTZi cXXFdo sc-dkzDqf Vwowz"
+                          className="sc-gsnTZi kJlumN sc-dkzDqf Vwowz"
                           data-autoid="undefinedcheckbox_icon_icon"
                         />
                       </styled.div>
@@ -206,7 +206,7 @@ exports[`<Checkbox /> renders correctly indeterminate 1`] = `
             size={7}
           >
             <div
-              className="sc-gsnTZi lkeFYh sc-hKMtZM"
+              className="sc-gsnTZi bMUfXo sc-hKMtZM"
               cursor="pointer"
               data-autoid="checkbox"
               data-indeterminate={true}
@@ -235,7 +235,7 @@ exports[`<Checkbox /> renders correctly indeterminate 1`] = `
                         data-autoid="undefinedcheckbox_icon_icon"
                       >
                         <div
-                          className="sc-gsnTZi cXXFdo sc-dkzDqf Vwowz"
+                          className="sc-gsnTZi kJlumN sc-dkzDqf Vwowz"
                           data-autoid="undefinedcheckbox_icon_icon"
                         />
                       </styled.div>
@@ -338,7 +338,7 @@ exports[`<Checkbox /> renders correctly no icon 1`] = `
             size={7}
           >
             <div
-              className="sc-gsnTZi lkeFYh sc-hKMtZM"
+              className="sc-gsnTZi bMUfXo sc-hKMtZM"
               cursor="pointer"
               data-autoid="checkbox"
               onClick={[Function]}
