@@ -11,7 +11,7 @@
     "platforms/*"
   ],
   "scripts": {
-    "preinstall": "git clean -xdf",
+    "clean": "git clean -xdf",
     "postinstall": "yarn build",
     "test": "lerna run test",
     "test:fix": "lerna run test -- -u",

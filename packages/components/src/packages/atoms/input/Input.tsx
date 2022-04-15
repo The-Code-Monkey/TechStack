@@ -1,11 +1,15 @@
+import { css } from '@aw-web-design/styled-system';
 import React, {
   useCallback,
   ChangeEvent,
   HTMLInputTypeAttribute,
   useState,
+  useContext,
 } from 'react';
+import { ThemeContext } from 'styled-components';
 
 import { BoxProps } from '../../primatives';
+import { ITheme } from '../../utils';
 
 import { StyledInput } from './styled';
 
@@ -25,7 +29,7 @@ const Input = ({
   placeholder = 'Placeholder',
   ...rest
 }: Props) => {
-  // const theme = useContext<ITheme<unknown>>(ThemeContext);
+  const theme = useContext<ITheme<unknown>>(ThemeContext);
   const [v, setValue] = useState<string | number | undefined>(value);
 
   const handleOnChange = useCallback(
@@ -36,6 +40,14 @@ const Input = ({
     [onChange]
   );
 
+  console.log(theme);
+
+  console.log(
+    css({
+      ...(theme.defaultStyles.input as object),
+    })()
+  );
+
   return (
     <StyledInput
       name={name}
@@ -43,6 +55,7 @@ const Input = ({
       value={v}
       type={type}
       onChange={handleOnChange}
+      {...theme.defaultStyles.input}
       {...rest}
     />
   );

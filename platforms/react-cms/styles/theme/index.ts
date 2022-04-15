@@ -19,7 +19,7 @@ import breakpoints from "./dist/breakpoints";
 import breakpointSizes from "./dist/breakpointSizes";
 import maxWidths from "./dist/maxWidths";
 import panelSizes from "./dist/panelSizes";
-import table from "./dist/table";
+import defaultStyles from "./dist/defaultStyles";
 
 const theme: ITheme<typeof variants> = {
   colors: colors as IThemeColorsType & ModeThemeType,
@@ -41,7 +41,7 @@ const theme: ITheme<typeof variants> = {
   ...opacity,
   ...space,
   ...spacing,
-  ...table,
+  ...defaultStyles,
 };
 
 export default theme;
