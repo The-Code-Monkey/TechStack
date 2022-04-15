@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.1.22 (2022-04-15)
+
+
+### Bug Fixes
+
+* broken package version for styled-system ([05f316a](https://github.com/The-Code-Monkey/TechStack/commit/05f316a4b172922ce5637c34a2a679058c3a3d3d))
+
+
+
+
+
 ## 3.1.21 (2022-04-15)
 
 **Note:** Version bump only for package @aw-web-design/react-textfit
