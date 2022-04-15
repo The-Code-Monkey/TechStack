@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.1.16 (2022-04-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rushstack/eslint-patch to v1.1.3 ([3caa807](https://github.com/The-Code-Monkey/TechStack/commit/3caa80743d9d7a2f9876fc547d8b45ef9f1f00ac))
+
+
+
+
+
 ## 3.1.15 (2022-04-15)
 
 **Note:** Version bump only for package react-cms
