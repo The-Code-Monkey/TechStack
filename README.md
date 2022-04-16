@@ -55,6 +55,7 @@
 
 - [About the Project](#star2-about-the-project)
   * [Packages within repo](#packages-within-repo)
+    - [React-Feather](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/react-feather)
   * [Tech Stack](#space_invader-tech-stack)
   * [Features](#dart-features)
   * [Color Reference](#art-color-reference)
