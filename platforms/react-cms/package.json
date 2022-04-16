@@ -15,7 +15,7 @@
     "@aw-web-design/styled-system": "3.1.24",
     "@aw-web-design/theme": "3.1.24",
     "deepmerge": "4.2.2",
-    "fs-extra": "10.0.1",
+    "fs-extra": "10.1.0",
     "next": "12.1.5",
     "next-absolute-url": "1.2.2",
     "next-auth": "4.3.2",
