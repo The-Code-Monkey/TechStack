@@ -87,7 +87,7 @@
 - TCM-CLI
 - Theme
 - Styled-System
-- React-Feather
+- [React-Feather](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/react-feather)
 - React-Textfit
 - Components
 
