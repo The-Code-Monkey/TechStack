@@ -70,7 +70,7 @@
     "eslint-plugin-testing-library": "5.3.1",
     "execa": "4.1.0",
     "figlet": "1.5.2",
-    "fs-extra": "10.0.1",
+    "fs-extra": "10.1.0",
     "jest": "27.5.1",
     "jest-watch-typeahead": "1.0.0",
     "jpjs": "1.2.1",
