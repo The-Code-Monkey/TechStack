@@ -54,7 +54,7 @@
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
-  * [Screenshots](#camera-screenshots)
+  * [Packages within repo](#packages-within-repo)
   * [Tech Stack](#space_invader-tech-stack)
   * [Features](#dart-features)
   * [Color Reference](#art-color-reference)
@@ -80,12 +80,15 @@
 ## :star2: About the Project
 
 
-<!-- Screenshots -->
-### :camera: Screenshots
+<!-- Packages within repo -->
+### Packages within repo
 
-<div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
-</div>
+- TCM-CLI
+- Theme
+- Styled-System
+- React-Feather
+- React-Textfit
+- Components
 
 
 <!-- TechStack -->
