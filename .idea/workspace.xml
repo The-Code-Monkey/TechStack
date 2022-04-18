@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/Accordion.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/story.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/styled.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/box/Box.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/primatives/box/Box.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/box/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/primatives/box/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/__test__/index.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/src/functions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/src/functions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/theme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -34,7 +34,7 @@ type ModesType = {
   };
 };
 
-type ColorsType = {
+export type ColorsType = {
   modes: ModesType;
 };
 

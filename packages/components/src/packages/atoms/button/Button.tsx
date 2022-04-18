@@ -1,13 +1,14 @@
 import React, { useMemo } from 'react';
 
-import { Icon, InteractableProps, Text } from '../../primatives';
+import { Icon, InteractableProps, Text, IconProps } from '../../primatives';
 
 import { StyledInteractable, iconOrientations, iconMargins } from './styled';
 
 export interface Props extends InteractableProps {
-  iconName?: string;
+  iconName?: IconProps["name"];
   iconPosition?: 'left' | 'top' | 'right' | 'bottom';
   variant?: string;
+  strong?: boolean;
 }
 
 const Button = ({
