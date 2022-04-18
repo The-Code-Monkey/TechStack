@@ -38,9 +38,11 @@
 </p>
    
 <h4>
-    <a href="https://github.com/The-Code-Monkey/TechStack/">View Demo</a>
+    <a href="https://tech-stack-components.vercel.app/">View Components Storybook</a>
   <span> · </span>
-    <a href="https://github.com/The-Code-Monkey/TechStack">Documentation</a>
+    <a href="https://tech-stack-react-cms.vercel.app/">View React CMS Demo</a>
+  <span> · </span>
+    <a href="https://github.com/The-Code-Monkey/TechStack">Documentation (not built yet)</a>
   <span> · </span>
     <a href="https://github.com/The-Code-Monkey/TechStack/issues/">Report Bug</a>
   <span> · </span>
@@ -55,8 +57,12 @@
 
 - [About the Project](#star2-about-the-project)
   * [Packages within repo](#packages-within-repo)
+    - [TCM-CLI](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/tcm-cli)
+    - [Theme](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/theme)
+    - [Styled-System](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/styled-system)
+    - [React-Textfit](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/react-textfit)
     - [React-Feather](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/react-feather)
-  * [Tech Stack](#space_invader-tech-stack)
+    - [Components](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/components)
   * [Features](#dart-features)
   * [Color Reference](#art-color-reference)
   * [Environment Variables](#key-environment-variables)
@@ -84,60 +90,12 @@
 <!-- Packages within repo -->
 ### Packages within repo
 
-- TCM-CLI
-- Theme
-- Styled-System
+- [TCM-CLI](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/tcm-cli)
+- [Theme](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/theme)
+- [Styled-System](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/styled-system)
+- [React-Textfit](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/react-textfit)
 - [React-Feather](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/react-feather)
-- React-Textfit
-- Components
-
-
-<!-- TechStack -->
-### :space_invader: Tech Stack
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://nextjs.org/">Next.js</a></li>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-    <li><a href="https://go.dev/">Golang</a></li>
-    <li><a href="https://nestjs.com/">Nest.js</a></li>
-    <li><a href="https://socket.io/">SocketIO</a></li>
-    <li><a href="https://www.prisma.io/">Prisma</a></li>    
-    <li><a href="https://www.apollographql.com/">Apollo</a></li>
-    <li><a href="https://graphql.org/">GraphQL</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.mysql.com/">MySQL</a></li>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-    <li><a href="https://redis.io/">Redis</a></li>
-    <li><a href="https://neo4j.com/">Neo4j</a></li>
-    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>DevOps</summary>
-  <ul>
-    <li><a href="https://www.docker.com/">Docker</a></li>
-    <li><a href="https://www.jenkins.io/">Jenkins</a></li>
-    <li><a href="https://circleci.com/">CircleCLI</a></li>
-  </ul>
-</details>
+- [Components](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/components)
 
 <!-- Features -->
 ### :dart: Features
