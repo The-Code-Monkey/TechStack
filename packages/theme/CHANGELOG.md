@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.36](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.1.35...@aw-web-design/theme@3.1.36) (2022-04-18)
+
+
+### Bug Fixes
+
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo to v3.1.34 ([ed4418c](https://github.com/The-Code-Monkey/TechStack/commit/ed4418c5effc80841afeb813ca0c47a53dc14b7f))
+
+
+
+
+
 ## 3.1.35 (2022-04-18)
 
 **Note:** Version bump only for package @aw-web-design/theme
