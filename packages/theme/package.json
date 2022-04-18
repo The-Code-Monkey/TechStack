@@ -1,5 +1,5 @@
 {
-  "version": "3.1.29",
+  "version": "3.1.34",
   "license": "MIT",
   "bin": {
     "orchard": "./dist/index.js"
@@ -44,8 +44,8 @@
     "typescript": "4.6.3"
   },
   "dependencies": {
-    "@aw-web-design/tcm-cli": "3.1.24",
-    "fs-extra": "10.0.1",
+    "@aw-web-design/tcm-cli": "3.1.29",
+    "fs-extra": "10.1.0",
     "lodash": "4.17.21",
     "lodash-es": "4.17.21",
     "sade": "1.8.1",
