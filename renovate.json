@@ -26,7 +26,8 @@
   "updateInternalDeps": true,
   "packageRules": [
     {
-      "matchBaseBranches": ["dev", "master"]
+      "matchBaseBranches": ["dev", "master"],
+      "enabled": true
     },
     {
       "matchPackagePatterns": ["@aw-web-design/*"],
