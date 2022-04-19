@@ -52,7 +52,7 @@ export const ButtonVariants = (theme: Theme) => {
   });
 };
 
-export const StyledInteractable = styled(Interactable)`
+export const StyledInteractable = styled(Interactable)<{ strong?: boolean }>`
   position: relative;
   display: inline-flex;
   overflow: hidden;
@@ -67,6 +67,7 @@ export const StyledInteractable = styled(Interactable)`
   outline: none;
   align-items: center;
   justify-content: center;
+  ${(p) => p.strong && 'font-weight: bold;'}
   &:disabled {
     pointer-events: none;
   }

@@ -1,3 +1,4 @@
+import * as IconTypes from '@aw-web-design/react-feather';
 import { HelpCircle } from '@aw-web-design/react-feather';
 import React, { useContext, Suspense, memo } from 'react';
 
@@ -8,7 +9,7 @@ import { SvgWrapper } from './styled';
 import { getIcon } from './utils';
 
 export interface Props extends Omit<BoxProps, 'children'> {
-  name: string;
+  name: keyof typeof IconTypes;
   noFill?: boolean;
 }
 
