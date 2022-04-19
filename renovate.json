@@ -15,7 +15,6 @@
   "automergeStrategy": "squash",
   "rangeStrategy": "pin",
   "labels": ["dependencies"],
-  "matchBaseBranches": ["dev", "master"],
   "automerge": true,
   "rollbackPrs": false,
   "rollback": {
@@ -26,6 +25,9 @@
   },
   "updateInternalDeps": true,
   "packageRules": [
+    {
+      "matchBaseBranches": ["dev", "master"]
+    },
     {
       "matchPackagePatterns": ["@aw-web-design/*"],
       "groupName": "@aw-web-design mono repo"
