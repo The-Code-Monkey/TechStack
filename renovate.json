@@ -27,10 +27,6 @@
   "updateInternalDeps": true,
   "packageRules": [
     {
-      "matchPackageNames": ["node"],
-      "enabled": false
-    },
-    {
       "matchPackagePatterns": ["@aw-web-design/*"],
       "groupName": "@aw-web-design mono repo"
     }
