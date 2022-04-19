@@ -12,6 +12,7 @@
   "constraints": {
     "node": ">= 14.0.0"
   },
+  "baseBranches": ["master", "dev"],
   "automergeStrategy": "squash",
   "rangeStrategy": "pin",
   "labels": ["dependencies"],
@@ -25,10 +26,6 @@
   },
   "updateInternalDeps": true,
   "packageRules": [
-    {
-      "matchBaseBranches": ["dev", "master"],
-      "enabled": true
-    },
     {
       "matchPackagePatterns": ["@aw-web-design/*"],
       "groupName": "@aw-web-design mono repo"
