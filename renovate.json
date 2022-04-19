@@ -14,6 +14,7 @@
   },
   "rangeStrategy": "pin",
   "labels": ["dependencies"],
+  "matchBaseBranches": ["dev", "master"],
   "automerge": true,
   "rollbackPrs": false,
   "rollback": {
@@ -25,10 +26,6 @@
   "updateInternalDeps": true,
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
-    },
-    {
       "matchPackageNames": ["node"],
       "enabled": false
     },
@@ -36,6 +33,5 @@
       "matchPackagePatterns": ["@aw-web-design/*"],
       "groupName": "@aw-web-design mono repo"
     }
-  ],
-  "ignoreDeps": ["execa", "ora", "trim"]
+  ]
 }

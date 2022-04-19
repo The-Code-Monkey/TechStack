@@ -1,4 +1,4 @@
-import Accordion, { Props as AccordionProps } from "./Accordion";
+import Accordion, { Props as AccordionProps } from './Accordion';
 
-export default  Accordion;
+export default Accordion;
 export { Accordion, AccordionProps };

@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import Accordion from "./";
+import Accordion from './';
 
 export default {
-    title: "Components / Molecules / Accordion",
-    component: Accordion
-}
+  title: 'Components / Molecules / Accordion',
+  component: Accordion,
+};
 
-export const story = () => <Accordion title="Title">This is a test</Accordion>
+export const story = () => <Accordion title="Title">This is a test</Accordion>;

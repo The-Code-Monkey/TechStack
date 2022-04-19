@@ -3,25 +3,25 @@
 exports[`<Icon /> renders correctly 1`] = `
 <Component>
   <Memo(Icon)
-    name="test"
+    name="GitHub"
   >
     <Suspense
       fallback={<ForwardRef(HelpCircle) />}
     >
       <Styled(Box)
-        autoid="test_icon"
+        autoid="github_icon"
       >
         <Box
-          autoid="test_icon"
+          autoid="github_icon"
           className="sc-dkzDqf bQHrml"
         >
           <styled.div
             className="sc-dkzDqf bQHrml"
-            data-autoid="test_icon"
+            data-autoid="github_icon"
           >
             <div
               className="sc-gsnTZi kJlumN sc-dkzDqf bQHrml"
-              data-autoid="test_icon"
+              data-autoid="github_icon"
             >
               <ForwardRef(GitHub)>
                 <svg

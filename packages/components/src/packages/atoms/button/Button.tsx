@@ -5,7 +5,7 @@ import { Icon, InteractableProps, Text, IconProps } from '../../primatives';
 import { StyledInteractable, iconOrientations, iconMargins } from './styled';
 
 export interface Props extends InteractableProps {
-  iconName?: IconProps["name"];
+  iconName?: IconProps['name'];
   iconPosition?: 'left' | 'top' | 'right' | 'bottom';
   variant?: string;
   strong?: boolean;

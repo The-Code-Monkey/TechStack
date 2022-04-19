@@ -11,7 +11,7 @@ import {
   get,
   pseudo,
   getContrast,
-  pseudoMixin
+  pseudoMixin,
 } from '@aw-web-design/styled-system';
 import styled from 'styled-components';
 
