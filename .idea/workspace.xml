@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/Accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/story.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/box/Box.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/primatives/box/Box.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/box/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/primatives/box/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renovate.json" beforeDir="false" afterPath="$PROJECT_DIR$/renovate.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
