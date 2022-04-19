@@ -29,7 +29,7 @@ export type IThemeColorsType = {
   };
 };
 
-export interface ITheme<V extends unknown> {
+export interface ITheme<V extends unknown = unknown> {
   colors?: ModeThemeType & IThemeColorsType;
   variants?: V;
   fonts: Record<string, string>;
@@ -50,5 +50,8 @@ export interface ITheme<V extends unknown> {
   sizes: Record<string, string>;
   space: Record<string, string>;
   [x: string]: any;
-  defaultStyles: Record<string, unknown>;
+  defaultStyles: Record<
+    string,
+    Record<string, string | Record<string, string>>
+  >;
 }

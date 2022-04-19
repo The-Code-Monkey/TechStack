@@ -87,22 +87,22 @@ describe('variant', () => {
         variants: {
           primary: {
             color: 'black',
-            bgColor: 'tomato',
+            bg: 'tomato',
           },
           secondary: {
             color: 'white',
-            bgColor: 'purple',
+            bg: 'purple',
           },
         },
       });
       const primary = comp({ variant: 'primary' });
       const secondary = comp({ variant: 'secondary' });
       expect(primary).toEqual({
-        color: 'black',
+        color: 'tomato',
         backgroundColor: 'tomato',
       });
       expect(secondary).toEqual({
-        color: 'white',
+        color: 'purple',
         backgroundColor: 'purple',
       });
     });
@@ -114,7 +114,7 @@ describe('variant', () => {
             p: 3,
             fontSize: 1,
             color: 'white',
-            bgColor: 'primary',
+            bg: 'primary',
           },
         },
       });
@@ -129,7 +129,7 @@ describe('variant', () => {
       expect(style).toEqual({
         padding: 16,
         fontSize: 14,
-        color: 'white',
+        color: '#07c',
         backgroundColor: '#07c',
       });
     });
@@ -226,13 +226,13 @@ describe('variant', () => {
           buttons: {
             primary: {
               color: 'black',
-              bgColor: 'cyan',
+              bg: 'cyan',
             },
           },
         },
       });
       expect(style).toEqual({
-        color: 'black',
+        color: 'cyan',
         backgroundColor: 'cyan',
       });
     });

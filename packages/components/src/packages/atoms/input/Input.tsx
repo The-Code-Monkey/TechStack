@@ -1,4 +1,3 @@
-import { css } from '@aw-web-design/styled-system';
 import React, {
   useCallback,
   ChangeEvent,
@@ -29,7 +28,7 @@ const Input = ({
   placeholder = 'Placeholder',
   ...rest
 }: Props) => {
-  const theme = useContext<ITheme<unknown>>(ThemeContext);
+  const theme = useContext<ITheme>(ThemeContext);
   const [v, setValue] = useState<string | number | undefined>(value);
 
   const handleOnChange = useCallback(
@@ -38,14 +37,6 @@ const Input = ({
       if (onChange) onChange(event);
     },
     [onChange]
-  );
-
-  console.log(theme);
-
-  console.log(
-    css({
-      ...(theme.defaultStyles.input as object),
-    })()
   );
 
   return (

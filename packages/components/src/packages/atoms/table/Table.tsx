@@ -20,7 +20,7 @@ export interface Props extends TableOptions<object> {
 }
 
 const Table: FC<Props> = ({ columns, data, className, onRowClick }: Props) => {
-  const theme = useContext<ITheme<unknown>>(ThemeContext);
+  const theme = useContext<ITheme>(ThemeContext);
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({ columns, data });
 

@@ -24,6 +24,24 @@
           "value": "blue"
         }
       }
+    },
+    "accordion": {
+      "accordion": {
+        "width": {
+          "value": "{sizes.full.value}"
+        }
+      },
+      "panel": {
+        "display": {
+          "value": "block"
+        },
+        "overflow": {
+          "value": "hidden"
+        },
+        "padding": {
+          "value": "{space.3.value} {space.4.value}"
+        }
+      }
     }
   }
 }

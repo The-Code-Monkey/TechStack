@@ -99,18 +99,19 @@ describe('css', () => {
         color: 'secondary',
       },
       _active: {
-        bgColor: 'primary',
+        bg: 'primary',
       },
     })({ theme });
 
     expect(result).toEqual({
-      color: 'black',
+      '&:active, &[data-active]': {
+        backgroundColor: 'tomato',
+        color: 'tomato',
+      },
       '&:hover, &[data-hover]': {
         color: 'cyan',
       },
-      '&:active, &[data-active]': {
-        backgroundColor: 'tomato',
-      },
+      color: 'black',
     });
   });
 
@@ -144,8 +145,7 @@ describe('css', () => {
       fontSize: 3,
       fontWeight: 'bold',
       color: 'primary',
-      bg: 'secondary',
-      bgColor: 'primary',
+      bg: 'primary',
       fontFamily: 'monospace',
       lineHeight: 'body',
     })({ theme });
@@ -158,9 +158,8 @@ describe('css', () => {
       padding: 16,
       paddingTop: 32,
       paddingBottom: 32,
-      color: 'tomato',
-      background: 'cyan',
       backgroundColor: 'tomato',
+      color: 'tomato',
       fontFamily: 'Menlo, monospace',
       fontSize: 24,
       fontWeight: 600,

@@ -28,7 +28,6 @@ export interface Props
   className?: string;
   cursor?: Property.Cursor;
   pointerEvents?: Property.PointerEvents;
-  bg?: ColorProps['bgColor'];
 }
 
 const Box = ({ children, as, autoid = 'box', ...rest }: Props) => (

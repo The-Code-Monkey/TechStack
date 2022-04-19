@@ -4,11 +4,11 @@ describe('color', () => {
   it('should return colors styles', () => {
     const style = color({
       color: 'gold',
-      bgColor: 'tomato',
+      bg: 'tomato',
     });
 
     expect(style).toEqual({
-      color: 'gold',
+      color: 'tomato',
       backgroundColor: 'tomato',
     });
   });

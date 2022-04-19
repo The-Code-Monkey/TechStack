@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@aw-web-design/components": "3.1.36",
-    "@aw-web-design/styled-system": "3.1.36",
+    "@aw-web-design/styled-system": "3.1.38",
     "@aw-web-design/theme": "3.1.36",
     "deepmerge": "4.2.2",
     "fs-extra": "10.1.0",
