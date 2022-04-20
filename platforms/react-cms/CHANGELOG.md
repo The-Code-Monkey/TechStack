@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.36](https://github.com/The-Code-Monkey/TechStack/compare/react-cms@3.1.35...react-cms@3.1.36) (2022-04-20)
+
+
+### Bug Fixes
+
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([2f06c1a](https://github.com/The-Code-Monkey/TechStack/commit/2f06c1a56c9efcab01707f080646c5284a01dd2b))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#235](https://github.com/The-Code-Monkey/TechStack/issues/235)) ([4faeb3b](https://github.com/The-Code-Monkey/TechStack/commit/4faeb3b4dca72f46e51fc6ba2c34cb5dd6ad914b))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo to v3.1.39 ([#243](https://github.com/The-Code-Monkey/TechStack/issues/243)) ([9ad2a0c](https://github.com/The-Code-Monkey/TechStack/commit/9ad2a0c679ee40a96e6d782bd7586e6f75e44ee8))
+* **deps:** update dependency next-auth to v4.3.3 ([2f3660a](https://github.com/The-Code-Monkey/TechStack/commit/2f3660acb923073be2521f1a59bebfce54cf72cc))
+
+
+
+
+
 ## [3.1.35](https://github.com/The-Code-Monkey/TechStack/compare/react-cms@3.1.34...react-cms@3.1.35) (2022-04-20)
 
 
