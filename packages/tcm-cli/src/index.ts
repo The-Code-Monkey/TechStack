@@ -6,7 +6,7 @@ import asyncro from 'asyncro';
 import chalk from 'chalk';
 import { Input, Select } from 'enquirer';
 import { ESLint } from 'eslint';
-import execa from 'execa';
+import * as execa from 'execa';
 import figlet from 'figlet';
 import * as fs from 'fs-extra';
 import * as jest from 'jest';
@@ -291,7 +291,7 @@ prog
     ).start();
     try {
       const cmd = await getInstallCmd();
-      await execa(cmd, getInstallArgs(cmd, dependencies));
+      await execa.execa(cmd, getInstallArgs(cmd, dependencies));
       installSpinner.succeed('Installed dependencies');
       console.log(await Messages.start(pkg));
     } catch (error) {
@@ -359,7 +359,7 @@ prog
       }
 
       const [exec, ...args] = command.split(' ');
-      return execa(exec, args, {
+      return execa.execa(exec, args, {
         stdio: 'inherit',
       });
     }
