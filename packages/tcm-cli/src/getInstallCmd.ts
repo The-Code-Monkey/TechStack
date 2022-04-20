@@ -1,4 +1,4 @@
-import execa from 'execa';
+import * as execa from 'execa';
 
 let cmd: InstallCommand;
 
@@ -10,7 +10,7 @@ export default async function getInstallCmd(): Promise<InstallCommand> {
   }
 
   try {
-    await execa('yarnpkg', ['--version']);
+    await execa.execa('yarnpkg', ['--version']);
     cmd = 'yarn';
   } catch (e) {
     cmd = 'npm';
