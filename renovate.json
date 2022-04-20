@@ -9,7 +9,6 @@
     "group:recommended",
     "workarounds:all"
   ],
-  "baseBranches": ["master", "dev"],
   "automergeStrategy": "squash",
   "rangeStrategy": "pin",
   "labels": ["dependencies"],
