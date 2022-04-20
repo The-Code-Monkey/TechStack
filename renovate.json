@@ -9,9 +9,6 @@
     "group:recommended",
     "workarounds:all"
   ],
-  "constraints": {
-    "node": ">= 14.0.0"
-  },
   "automergeStrategy": "squash",
   "rangeStrategy": "pin",
   "labels": ["dependencies"],
@@ -26,12 +23,12 @@
   "updateInternalDeps": true,
   "packageRules": [
     {
-      "matchBaseBranches": ["dev", "master"],
-      "enabled": true
-    },
-    {
       "matchPackagePatterns": ["@aw-web-design/*"],
       "groupName": "@aw-web-design mono repo"
+    },
+    {
+      "matchPackagePatterns": ["node"],
+      "enabled": false
     }
   ]
 }
