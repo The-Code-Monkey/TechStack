@@ -9,6 +9,7 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
+
 "@aw-web-design/components@3.1.39":
   version "3.1.39"
   resolved "https://registry.yarnpkg.com/@aw-web-design/components/-/components-3.1.39.tgz#17269088e4101da4185c9302664622880a7e5874"
@@ -90,8 +91,7 @@
     lodash.merge "4.6.2"
     ora "5.4.1"
     pascal-case "3.1.2"
-    postcss "8.4.12"
-    prettier "2.6.2"
+    postcss "8.4.12"    prettier "2.6.2"
     progress-estimator "0.3.0"
     regenerator-runtime "0.13.9"
     rollup "2.70.2"

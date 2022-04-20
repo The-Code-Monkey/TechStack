@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.39](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-textfit@3.1.38...@aw-web-design/react-textfit@3.1.39) (2022-04-20)
+
+
+### Bug Fixes
+
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#240](https://github.com/The-Code-Monkey/TechStack/issues/240)) ([d6a27d0](https://github.com/The-Code-Monkey/TechStack/commit/d6a27d0e41e5ac3caf5c652373bda5ceb056da26))
+
+
+
+
+
+## [3.1.38](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-textfit@3.1.37...@aw-web-design/react-textfit@3.1.38) (2022-04-19)
+
+**Note:** Version bump only for package @aw-web-design/react-textfit
+
+
+
+
+
 ## [3.1.37](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-textfit@3.1.24...@aw-web-design/react-textfit@3.1.37) (2022-04-18)
 
 **Note:** Version bump only for package @aw-web-design/react-textfit
