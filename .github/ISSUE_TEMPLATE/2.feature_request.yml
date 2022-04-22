@@ -14,12 +14,12 @@ body:
       description: What packages is the feature request for?
       multiple: false
       options:
-        - label: tcm-cli
-        - label: theme
-        - label: styled-system
-        - label: react-textfit
-        - label: react-feather
-        - label: components
+        - tcm-cli
+        - theme
+        - styled-system
+        - react-textfit
+        - react-feather
+        - components
     validations:
       required: true
   - type: textarea
