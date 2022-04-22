@@ -30,5 +30,6 @@
       "matchPackagePatterns": ["node"],
       "enabled": false
     }
-  ]
+  ],
+  "ignoreDeps": ["execa", "ora"]
 }
