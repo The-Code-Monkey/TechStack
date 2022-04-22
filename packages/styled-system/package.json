@@ -1,5 +1,5 @@
 {
-  "version": "3.1.41",
+  "version": "3.1.42",
   "license": "MIT",
   "name": "@aw-web-design/styled-system",
   "main": "dist/index.js",
@@ -39,7 +39,7 @@
     "typescript": "4.6.3"
   },
   "dependencies": {
-    "@aw-web-design/tcm-cli": "3.1.39",
+    "@aw-web-design/tcm-cli": "3.1.40",
     "@emotion/is-prop-valid": "1.1.2",
     "@emotion/memoize": "0.7.5",
     "csstype": "3.0.11"
