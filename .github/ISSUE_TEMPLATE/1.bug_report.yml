@@ -18,12 +18,12 @@ body:
       description: What packages of our software are you running?
       multiple: true
       options:
-        - label: tcm-cli
-        - label: theme
-        - label: styled-system
-        - label: react-textfit
-        - label: react-feather
-        - label: components
+        - tcm-cli
+        - theme
+        - styled-system
+        - react-textfit
+        - react-feather
+        - components
     validations:
       required: true
   - type: input
