@@ -9,10 +9,14 @@ body:
     attributes:
       label: Package Name
       description: The name of the package
+    validations:
+      required: true
   - type: input
     attributes:
       label: Package Link
       description: A direct link to either the npm page or the github source.
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Describe alternatives you've considered
