@@ -1,6 +1,10 @@
 name: Bug Report
 description: Create a bug report for a package in TechStack
 labels: 'template: bug'
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - The-Code-Monkey
 body:
   - type: markdown
     attributes:
