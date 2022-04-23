@@ -1,6 +1,10 @@
 name: Package Request
 description: Create a package request 
 labels: 'template: story'
+title: "[Package]: "
+labels: ["package", "triage"]
+assignees:
+  - The-Code-Monkey
 body:
   - type: markdown
     attributes:
