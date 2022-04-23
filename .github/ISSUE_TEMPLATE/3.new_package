@@ -5,17 +5,14 @@ body:
   - type: markdown
     attributes:
       value: Thanks for taking the time to file a package request! Please fill out this form as completely as possible.
-      
   - type: input
     attributes:
       label: Package Name
       description: The name of the package
-      
   - type: input
     attributes:
       label: Package Link
       description: A direct link to either the npm page or the github source.
-
   - type: textarea
     attributes:
       label: Describe alternatives you've considered
