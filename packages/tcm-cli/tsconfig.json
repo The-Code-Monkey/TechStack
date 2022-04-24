@@ -2,15 +2,15 @@
   "include": ["src/**/*"],
   "exclude": ["src/template/**/*"],
   "compilerOptions": {
+    "module": "ES2020",
+    "moduleResolution": "Node",
     "allowJs": true,
     "jsx": "react",
     "importHelpers": true,
     "outDir": "dist",
     "esModuleInterop": true,
-    "module": "commonjs",
     "rootDir": "src",
     "strict": true,
-    "target": "es2017",
     "declaration": true,
     "noUnusedLocals": true,
     "skipLibCheck": true
