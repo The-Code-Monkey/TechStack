@@ -1,16 +1,16 @@
 import * as fs from 'fs-extra';
 import { RollupOptions } from 'rollup';
 
-import { paths } from './constants';
-import { createRollupConfig } from './createRollupConfig';
-import logError from './logError';
+import { paths } from './constants.js';
+import { createRollupConfig } from './createRollupConfig.js';
+import logError from './logError.js';
 import {
   TcmOptions,
   TcmOptionsInput,
   NormalizedOpts,
   PackageJson,
-} from './types';
-import { interopRequireDefault } from './utils';
+} from './types.js';
+import { interopRequireDefault } from './utils.js';
 
 // check for custom tcm.config.js
 let tcmBuildConfig = {
