@@ -1,6 +1,6 @@
 import * as fs from 'fs-extra';
 
-import { paths } from './constants';
+import { paths } from './constants.js';
 
 /*
   This was originally needed because the default
