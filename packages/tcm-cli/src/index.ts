@@ -24,7 +24,7 @@ import sade from 'sade';
 import semver from 'semver';
 import shell from 'shelljs';
 import sortPackageJson from 'sort-package-json';
-import glob from 'tiny-glob/sync';
+import glob from 'tiny-glob';
 
 import { paths } from './constants';
 import { createBuildConfigs } from './createBuildConfigs';
