@@ -1,6 +1,6 @@
 import fs from 'fs-extra';
 
-import { paths } from './constants';
+import { paths } from './constants.js';
 
 const progressEstimator = require('progress-estimator');
 
