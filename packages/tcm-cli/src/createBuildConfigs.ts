@@ -19,7 +19,7 @@ let tcmBuildConfig = {
   },
 };
 
-if (fs.existsSync(paths.appConfigTs)) {
+if (fs.pathExistsSync(paths.appConfigTs)) {
   try {
     require('ts-node').register({
       compilerOptions: {
@@ -31,7 +31,7 @@ if (fs.existsSync(paths.appConfigTs)) {
     logError(error);
     process.exit(1);
   }
-} else if (fs.existsSync(paths.appConfigJs)) {
+} else if (fs.pathExistsSync(paths.appConfigJs)) {
   tcmBuildConfig = require(paths.appConfigJs);
 }
 
