@@ -26,32 +26,32 @@ import shell from 'shelljs';
 import sortPackageJson from 'sort-package-json';
 import glob from 'tiny-glob';
 
-import { paths } from './constants';
-import { createBuildConfigs } from './createBuildConfigs';
-import { createEslintConfig } from './createEslintConfig';
-import { createJestConfig, JestConfigOptions } from './createJestConfig';
-import { createProgressEstimator } from './createProgressEstimator';
-import * as deprecated from './deprecated';
-import getInstallArgs from './getInstallArgs';
-import getInstallCmd from './getInstallCmd';
-import logError from './logError';
-import * as Messages from './messages';
-import { rollupTypes } from './rollupTypes';
-import { templates } from './templates';
-import { composeDependencies, composePackageJson } from './templates/utils';
+import { paths } from './constants.js';
+import { createBuildConfigs } from './createBuildConfigs.js';
+import { createEslintConfig } from './createEslintConfig.js';
+import { createJestConfig, JestConfigOptions } from './createJestConfig.js';
+import { createProgressEstimator } from './createProgressEstimator.js';
+import * as deprecated from './deprecated.js';
+import getInstallArgs from './getInstallArgs.js';
+import getInstallCmd from './getInstallCmd.js';
+import logError from './logError.js';
+import * as Messages from './messages.js';
+import { rollupTypes } from './rollupTypes.js';
+import { templates } from './templates.js';
+import { composeDependencies, composePackageJson } from './templates/utils.js';
 import {
   PackageJson,
   WatchOpts,
   BuildOpts,
   ModuleFormat,
   NormalizedOpts,
-} from './types';
+} from './types.js';
 import {
   resolveApp,
   safePackageName,
   clearConsole,
   getNodeEngineRequirement,
-} from './utils';
+} from './utils.js';
 
 const pkg = require('../package.json');
 
@@ -708,4 +708,4 @@ prog
 prog.parse(process.argv);
 
 export { RollupOptions } from 'rollup';
-export { TcmOptions } from './types';
+export { TcmOptions } from './types.js';
