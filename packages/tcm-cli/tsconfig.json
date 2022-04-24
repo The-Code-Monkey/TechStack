@@ -2,7 +2,7 @@
   "include": ["src/**/*"],
   "exclude": ["src/template/**/*"],
   "compilerOptions": {
-    "module": "ES2020",
+    "module": "nodenext",
     "moduleResolution": "Node",
     "allowJs": true,
     "jsx": "react",
