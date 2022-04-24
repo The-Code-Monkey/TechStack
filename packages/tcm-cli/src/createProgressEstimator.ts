@@ -1,8 +1,7 @@
 import fs from 'fs-extra';
+import progressEstimator from 'progress-estimator';
 
 import { paths } from './constants.js';
-
-const progressEstimator = require('progress-estimator');
 
 export async function createProgressEstimator() {
   await fs.ensureDir(paths.progressEstimatorCache);
