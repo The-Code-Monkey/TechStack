@@ -1,9 +1,10 @@
 import chalk from 'chalk';
+import fs from 'fs-extra';
 
 import getInstallCmd from './getInstallCmd.js';
 import * as Output from './output.js';
 
-import pkg from '../package.json';
+const pkg = JSON.parse(await fs.readFile('../package.json'));
 
 // This was copied from Razzle. Lots of unused stuff.
 const program = {
