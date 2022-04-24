@@ -1,4 +1,4 @@
-import { InstallCommand } from './getInstallCmd';
+import { InstallCommand } from './getInstallCmd.js';
 
 export default function getInstallArgs(
   cmd: InstallCommand,
