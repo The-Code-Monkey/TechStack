@@ -1,4 +1,4 @@
-import { Template } from './template';
+import { Template } from './template.js';
 
 const basicTemplate: Template = {
   name: 'basic',
