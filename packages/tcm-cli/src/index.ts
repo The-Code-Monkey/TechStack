@@ -37,8 +37,8 @@ import getInstallCmd from './getInstallCmd.js';
 import logError from './logError.js';
 import * as Messages from './messages.js';
 import { rollupTypes } from './rollupTypes.js';
-import { templates } from './templates.js';
-import { composeDependencies, composePackageJson } from './templates/utils.js';
+import { templates } from './templates/index.js';
+import { composeDependencies, composePackageJson } from './templates/utils/index.js';
 import {
   PackageJson,
   WatchOpts,
