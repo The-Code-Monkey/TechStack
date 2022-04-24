@@ -3,7 +3,7 @@ import path from 'path';
 import camelCase from 'camelcase';
 import fs from 'fs-extra';
 
-import { PackageJson } from './types';
+import { PackageJson } from './types.js';
 
 // Remove the package name scope if it exists
 export const removeScope = (name: string) => name.replace(/^@.*\//, '');
