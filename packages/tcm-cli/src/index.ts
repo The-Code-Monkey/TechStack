@@ -64,13 +64,13 @@ try {
   appPackageJson = fs.readJSONSync(paths.appPackageJson);
 } catch (e) {}
 
-export const isDir = (name: string) =>
+const isDir = (name: string) =>
   fs
     .stat(name)
     .then((stats) => stats.isDirectory())
     .catch(() => false);
 
-export const isFile = (name: string) =>
+const isFile = (name: string) =>
   fs
     .stat(name)
     .then((stats) => stats.isFile())
@@ -707,6 +707,3 @@ prog
   );
 
 prog.parse(process.argv);
-
-export { RollupOptions } from 'rollup';
-export { TcmOptions } from './types.js';

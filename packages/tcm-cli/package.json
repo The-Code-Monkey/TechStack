@@ -22,10 +22,10 @@
   "exports": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc -p ./tsconfig.json",
     "lint": "yarn build && yarn lint:post-build",
     "lint:post-build": "node dist/index.js lint ./",
-    "start": "tsc -p tsconfig.json --watch",
+    "start": "tsc -p ./tsconfig.json --watch",
     "deduplicate": "yarn dedupe",
     "deduplicate:check": "yarn dedupe -c",
     "doctoc": "doctoc README.md"
