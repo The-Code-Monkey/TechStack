@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="" />
+    <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/createRollupConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createRollupConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/errors/extractErrors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/getInstallArgs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/getInstallArgs.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/templates/react-with-storybook/example/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/templates/react-with-storybook/example/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/templates/react-with-storybook/test/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/templates/react-with-storybook/test/index.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/templates/react/example/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/templates/react/example/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/templates/react/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/templates/react/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/templates/react/test/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/templates/react/test/index.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +108,7 @@
       <workItem from="1649956197478" duration="205000" />
       <workItem from="1649956405592" duration="475000" />
       <workItem from="1650560715314" duration="4374000" />
-      <workItem from="1650873826977" duration="2341000" />
+      <workItem from="1650873826977" duration="6962000" />
     </task>
     <servers />
   </component>

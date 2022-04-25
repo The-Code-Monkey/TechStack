@@ -4,8 +4,8 @@ import path from 'path';
 
 import asyncro from 'asyncro';
 import chalk from 'chalk';
-import enquirer from 'enquirer';
-const { Input, Select } = enquirer;
+// @ts-ignore
+import { Input, Select } from 'enquirer';
 import { ESLint } from 'eslint';
 import execa from 'execa';
 import figlet from 'figlet';

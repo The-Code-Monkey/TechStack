@@ -15,29 +15,16 @@ import ts from 'typescript';
 
 import { babelPluginTcm } from './babelPluginTcm.js';
 import { paths } from './constants.js';
-import { extractErrors } from './errors/extractErrors.js';
 import { isTypesRollupEnabled } from './rollupTypes.js';
 import { typescriptCompilerOptions } from './tsconfig.js';
 import { TcmOptions, PackageJson } from './types.js';
 import { safeVariableName, external } from './utils.js';
-
-const errorCodeOpts = {
-  errorMapFilePath: paths.appErrorsJson,
-};
-
-// shebang cache map thing because the transform only gets run once
-let shebang: any = {};
 
 export async function createRollupConfig(
   appPackageJson: PackageJson,
   opts: TcmOptions,
   outputNum: number
 ): Promise<RollupOptions> {
-  const findAndRecordErrorCodes = await extractErrors({
-    ...errorCodeOpts,
-    ...opts,
-  });
-
   const shouldMinify =
     opts.minify !== undefined ? opts.minify : opts.env === 'production';
 
@@ -111,12 +98,6 @@ export async function createRollupConfig(
       exports: 'named',
     },
     plugins: [
-      !!opts.extractErrors && {
-        async transform(source: any) {
-          await findAndRecordErrorCodes(source);
-          return source;
-        },
-      },
       resolve({
         mainFields: [
           'module',
@@ -134,26 +115,6 @@ export async function createRollupConfig(
             : /\/regenerator-runtime\//,
       }),
       json(),
-      {
-        // Custom plugin that removes shebang from code because newer
-        // versions of bublé bundle their own private version of `acorn`
-        // and I don't know a way to patch in the option `allowHashBang`
-        // to acorn. Taken from microbundle.
-        // See: https://github.com/Rich-Harris/buble/pull/165
-        transform(code: string) {
-          let reg = /^#!(.*)/;
-          let match = code.match(reg);
-
-          shebang[opts.name] = match ? '#!' + match[1] : '';
-
-          code = code.replace(reg, '');
-
-          return {
-            code,
-            map: null,
-          };
-        },
-      },
       typescript({
         typescript: ts,
         tsconfig: opts.tsconfig,
@@ -193,12 +154,6 @@ export async function createRollupConfig(
       babelPluginTcm({
         exclude: 'node_modules/**',
         extensions: [...DEFAULT_BABEL_EXTENSIONS, 'ts', 'tsx'],
-        passPerPreset: true,
-        custom: {
-          targets: opts.target === 'node' ? { node: '10' } : undefined,
-          extractErrors: opts.extractErrors,
-          format: opts.format,
-        },
         babelHelpers: 'bundled',
       }),
       opts.env !== undefined &&
@@ -216,8 +171,7 @@ export async function createRollupConfig(
             passes: 10,
           },
           ecma: 5,
-          toplevel: opts.format === 'cjs',
-          warnings: true,
+          toplevel: opts.format === 'cjs'
         }),
     ],
   };

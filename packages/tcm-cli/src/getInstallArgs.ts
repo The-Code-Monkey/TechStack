@@ -1,9 +1,9 @@
 import { InstallCommand } from './getInstallCmd.js';
 
-export default function getInstallArgs(
+const getInstallArgs = (
   cmd: InstallCommand,
   packages: string[]
-) {
+) => {
   switch (cmd) {
     case 'npm':
       return ['install', ...packages, '--save-dev'];
@@ -11,3 +11,5 @@ export default function getInstallArgs(
       return ['add', ...packages, '--dev'];
   }
 }
+
+export default getInstallArgs;
