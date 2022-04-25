@@ -1,9 +1,10 @@
+import { readFile } from 'fs/promises';
+
 import chalk from 'chalk';
 
 import getInstallCmd from './getInstallCmd.js';
 import * as Output from './output.js';
 
-import { readFile } from 'fs/promises';
 const pkgFn = async () => JSON.parse(
     await readFile('../package.json', 'utf-8')
 );
