@@ -1,17 +1,21 @@
 import chalk from 'chalk';
-import fs from 'fs-extra';
 
 import getInstallCmd from './getInstallCmd.js';
 import * as Output from './output.js';
 
-const pkg = JSON.parse(await fs.readFile('../package.json'));
+import { readFile } from 'fs/promises';
+const pkgFn = async () => JSON.parse(
+    await readFile('../package.json', 'utf-8')
+);
 
 // This was copied from Razzle. Lots of unused stuff.
 const program = {
   name: 'tcm',
 };
 
-export const help = function () {
+
+export const help = async function () {
+  const pkg = await pkgFn();
   return `
     Only ${chalk.green('<project-directory>')} is required.
     If you have any problems, do not hesitate to file an issue:
@@ -65,6 +69,7 @@ Creating ${chalk.bold(chalk.green(projectName))}...
 };
 
 export const start = async function (projectName: string) {
+  const pkg = await pkgFn();
   const cmd = await getInstallCmd();
 
   const commands = {

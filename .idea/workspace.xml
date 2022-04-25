@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/messages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/messages.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +99,8 @@
       <workItem from="1649956174450" duration="22000" />
       <workItem from="1649956197478" duration="205000" />
       <workItem from="1649956405592" duration="475000" />
-      <workItem from="1650560715314" duration="3565000" />
+      <workItem from="1650560715314" duration="4374000" />
+      <workItem from="1650873826977" duration="2080000" />
     </task>
     <servers />
   </component>

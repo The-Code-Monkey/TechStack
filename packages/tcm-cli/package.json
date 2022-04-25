@@ -12,6 +12,9 @@
     "bundle",
     "rollup"
   ],
+  "bugs": {
+    "url": "https://github.com/The-Code-Monkey/TechStack/issues"
+  },
   "bin": {
     "tcm": "./dist/index.js"
   },
@@ -98,7 +101,7 @@
     "ts-node": "10.7.0",
     "tslib": "2.4.0",
     "type-fest": "2.12.2",
-    "typescript": "4.6.3"
+    "typescript": "next"
   },
   "devDependencies": {
     "@commitlint/cli": "16.2.3",
