@@ -53,6 +53,6 @@
     "uppercamelcase": "3.0.0"
   },
   "peerDependencies": {
-    "react": "18.0.0"
+    "react": "18.1.0"
   }
 }
