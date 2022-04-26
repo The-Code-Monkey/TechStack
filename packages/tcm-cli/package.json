@@ -71,7 +71,7 @@
     "execa": "4.1.0",
     "figlet": "1.5.2",
     "fs-extra": "10.1.0",
-    "jest": "27.5.1",
+    "jest": "28.0.0",
     "jest-watch-typeahead": "1.1.0",
     "jpjs": "1.2.1",
     "lodash.merge": "4.6.2",
