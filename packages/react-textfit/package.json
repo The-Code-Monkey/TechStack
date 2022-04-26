@@ -40,15 +40,15 @@
     "eslint-plugin-react": "7.29.4",
     "expect": "28.0.1",
     "mocha": "9.2.2",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
     "rimraf": "3.0.2",
     "webpack": "5.72.0",
     "webpack-dev-server": "4.8.1"
   },
   "peerDependencies": {
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
   },
   "dependencies": {
     "process": "0.11.10",
