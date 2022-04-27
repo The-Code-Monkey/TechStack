@@ -61,7 +61,7 @@
     "@types/react-table": "7.7.11",
     "@types/styled-components": "5.1.25",
     "@wojtekmaj/enzyme-adapter-react-17": "0.6.7",
-    "babel-jest": "28.0.1",
+    "babel-jest": "28.0.2",
     "babel-loader": "8.2.5",
     "babel-plugin-module-resolver": "4.1.0",
     "enzyme": "3.11.0",
