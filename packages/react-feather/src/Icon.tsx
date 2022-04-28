@@ -1,6 +1,6 @@
 import React, { Suspense, memo } from 'react';
-import { default as HelpCircle } from './help-circle';
 
+import { default as HelpCircle } from './help-circle';
 import { IconProps } from './types';
 
 export interface Props extends IconProps {
