@@ -11,7 +11,7 @@
     "platforms/*"
   ],
   "scripts": {
-    "clean": "git clean -xdf",
+    "clean": "git clean -xdf && rm -rf yarn.lock",
     "postinstall": "yarn build",
     "test": "lerna run test",
     "test:fix": "lerna run test -- -u",

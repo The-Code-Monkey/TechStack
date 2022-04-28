@@ -3,7 +3,7 @@ import addons from "@storybook/addons";
 import { ThemeProvider } from "styled-components";
 
 import { ConfigContext } from "../src";
-import modeTheme from "../src/packages/theme";
+import modeTheme from "../src/theme";
 import config from "../orchard.theme.config.json";
 
 const channel = addons.getChannel();
