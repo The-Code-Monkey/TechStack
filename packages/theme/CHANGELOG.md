@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.43](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.1.42...@aw-web-design/theme@3.1.43) (2022-04-28)
+
+**Note:** Version bump only for package @aw-web-design/theme
+
+
+
+
+
 ## [3.1.42](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.1.41...@aw-web-design/theme@3.1.42) (2022-04-22)
 
 

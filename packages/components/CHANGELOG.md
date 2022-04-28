@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.1.42...@aw-web-design/components@3.2.0) (2022-04-28)
+
+
+### Bug Fixes
+
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([3f4e63a](https://github.com/The-Code-Monkey/TechStack/commit/3f4e63ac39940ad04dcc22a9043cb3b292932031))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([e600e01](https://github.com/The-Code-Monkey/TechStack/commit/e600e01bca39b943cd7117d55e4bbaa06491ab6b))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#264](https://github.com/The-Code-Monkey/TechStack/issues/264)) ([a507d5a](https://github.com/The-Code-Monkey/TechStack/commit/a507d5a3e769e53d99409dde475d0b0ae9bbb7b8))
+
+
+### Features
+
+* start to make theme optional on components ([bdec113](https://github.com/The-Code-Monkey/TechStack/commit/bdec1132a5e09f9a655f9a70a5208425e4389588))
+
+
+### Reverts
+
+* Revert "chore(deps): update jest monorepo to v28 (major) (#273)" (#297) ([12abb03](https://github.com/The-Code-Monkey/TechStack/commit/12abb038ff46339e82af24a3e811457a3a69ce9d)), closes [#273](https://github.com/The-Code-Monkey/TechStack/issues/273) [#297](https://github.com/The-Code-Monkey/TechStack/issues/297)
+* Revert "chore(deps): update jest monorepo to v28.0.1 (#280)" (#296) ([b23a57d](https://github.com/The-Code-Monkey/TechStack/commit/b23a57d57381e4277c1f13117404843f73ceb106)), closes [#280](https://github.com/The-Code-Monkey/TechStack/issues/280) [#296](https://github.com/The-Code-Monkey/TechStack/issues/296)
+* Revert "chore(deps): update jest monorepo to v28.0.2 (#285)" (#295) ([75fa93b](https://github.com/The-Code-Monkey/TechStack/commit/75fa93b06480830a63f2e5946e2fb5a48eb70096)), closes [#285](https://github.com/The-Code-Monkey/TechStack/issues/285) [#295](https://github.com/The-Code-Monkey/TechStack/issues/295)
+
+
+
+
+
 ## [3.1.42](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.1.41...@aw-web-design/components@3.1.42) (2022-04-22)
 
 

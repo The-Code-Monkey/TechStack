@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.41](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@3.1.40...@aw-web-design/tcm-cli@3.1.41) (2022-04-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rollup/plugin-commonjs to v22 ([#270](https://github.com/The-Code-Monkey/TechStack/issues/270)) ([942caaa](https://github.com/The-Code-Monkey/TechStack/commit/942caaa717e0d74f296259e2d4e87231bdc1dd75))
+* **deps:** update dependency @rollup/plugin-commonjs to v22 ([#293](https://github.com/The-Code-Monkey/TechStack/issues/293)) ([5ca0767](https://github.com/The-Code-Monkey/TechStack/commit/5ca07671db7ea602e7e841f43496a5d4b60f14ff))
+* **deps:** update dependency eslint to v8.14.0 ([#286](https://github.com/The-Code-Monkey/TechStack/issues/286)) ([d58742c](https://github.com/The-Code-Monkey/TechStack/commit/d58742c609845bfbda1126749578f0744577d644))
+* **deps:** update dependency eslint-plugin-jest to v26.1.5 ([f7a07ff](https://github.com/The-Code-Monkey/TechStack/commit/f7a07ffbd9584413a42b516b06d5358e8fd20b3d))
+* **deps:** update dependency eslint-plugin-jest to v26.1.5 ([#289](https://github.com/The-Code-Monkey/TechStack/issues/289)) ([96b86fe](https://github.com/The-Code-Monkey/TechStack/commit/96b86fe6e1aa21fbd1bfa9ce0c7319449ed6d88d))
+* **deps:** update dependency jest-watch-typeahead to v1.1.0 ([b7f834d](https://github.com/The-Code-Monkey/TechStack/commit/b7f834d3bf267fcaa003cf0eb4eed953cecc08d1))
+
+
+### Reverts
+
+* Revert "chore(deps): update jest monorepo to v28 (major) (#273)" (#297) ([12abb03](https://github.com/The-Code-Monkey/TechStack/commit/12abb038ff46339e82af24a3e811457a3a69ce9d)), closes [#273](https://github.com/The-Code-Monkey/TechStack/issues/273) [#297](https://github.com/The-Code-Monkey/TechStack/issues/297)
+* Revert "chore(deps): update jest monorepo to v28.0.1 (#280)" (#296) ([b23a57d](https://github.com/The-Code-Monkey/TechStack/commit/b23a57d57381e4277c1f13117404843f73ceb106)), closes [#280](https://github.com/The-Code-Monkey/TechStack/issues/280) [#296](https://github.com/The-Code-Monkey/TechStack/issues/296)
+* Revert "chore(deps): update jest monorepo to v28.0.2 (#285)" (#295) ([75fa93b](https://github.com/The-Code-Monkey/TechStack/commit/75fa93b06480830a63f2e5946e2fb5a48eb70096)), closes [#285](https://github.com/The-Code-Monkey/TechStack/issues/285) [#295](https://github.com/The-Code-Monkey/TechStack/issues/295)
+
+
+
+
+
 ## [3.1.40](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@3.1.39...@aw-web-design/tcm-cli@3.1.40) (2022-04-22)
 
 **Note:** Version bump only for package @aw-web-design/tcm-cli
