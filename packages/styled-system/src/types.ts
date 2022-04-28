@@ -21,7 +21,13 @@ export interface Theme<TLength = TLengthStyledSystem> {
   radii?: ObjectOrArray<Property.BorderRadius<TLength>>;
   shadows?: ObjectOrArray<Property.BoxShadow>;
   zIndices?: ObjectOrArray<Property.ZIndex>;
-  variants?: Record<string, Record<string, string | Record<string, string>>>;
+  variants?: Record<
+    string,
+    | Record<string, string | Record<string, string>>
+    | ((
+        theme: Omit<Theme, 'variants'>
+      ) => Record<string, string | Record<string, string>>)
+  >;
 }
 
 export type RequiredTheme = Required<Theme>;
