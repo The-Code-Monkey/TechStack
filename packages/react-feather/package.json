@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "lint": "tcm lint",
-    "build": "tcm build"
+    "build": "tcm build",
+    "test": "tcm test"
   },
   "publishConfig": {
     "access": "public"
