@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
-import { IconProps } from '../types';
+import { IconProps } from '../types.js';
 
 const Package = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -30,4 +30,4 @@ const Package = (
 
 Package.displayName = 'Package';
 
-export default forwardRef(Package);
+export default React.forwardRef(Package);
