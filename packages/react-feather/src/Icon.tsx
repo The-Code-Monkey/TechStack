@@ -7,10 +7,10 @@ export interface Props extends IconProps {
   name: string;
 }
 
-const getIcon = async (name) => await import(`./icons/${name}`);
+const getIcon = async (name: string) => await import(`./icons/${name}`);
 
-const Icon = async ({ name, ...rest }: Props) => {
-  const Element = await getIcon(name);
+const Icon = ({ name, ...rest }: Props) => {
+  const Element = getIcon(name);
 
   return (
     <Suspense fallback={<HelpCircle {...rest} />}>
