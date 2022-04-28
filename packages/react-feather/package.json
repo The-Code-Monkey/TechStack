@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "lint": "tcm lint",
-    "build": "tcm build",
+    "build": "tcm build --format esm",
     "test": "tcm test"
   },
   "publishConfig": {
