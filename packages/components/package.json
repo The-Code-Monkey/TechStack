@@ -75,10 +75,10 @@
     "typescript": "4.6.3"
   },
   "dependencies": {
-    "@aw-web-design/react-feather": "3.1.42",
-    "@aw-web-design/styled-system": "3.1.42",
-    "@aw-web-design/tcm-cli": "3.1.40",
-    "@aw-web-design/theme": "3.1.42",
+    "@aw-web-design/react-feather": "3.1.43",
+    "@aw-web-design/styled-system": "3.2.0",
+    "@aw-web-design/tcm-cli": "3.1.41",
+    "@aw-web-design/theme": "3.1.43",
     "classnames": "2.3.1",
     "csstype": "3.0.11",
     "memoize-one": "6.0.0",
