@@ -25,7 +25,7 @@ describe('useWhyChange', () => {
 
     expect(asFragment()).toMatchSnapshot();
 
-    await screen.findByText("hi");
+    await screen.findByText('hi');
 
     expect(asFragment()).toMatchSnapshot();
   });
