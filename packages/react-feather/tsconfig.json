@@ -3,6 +3,7 @@
   "compilerOptions": {
     "module": "ESNext",
     "target": "ESNext",
+    "moduleResolution": "Node",
     "allowJs": true,
     "jsx": "react",
     "importHelpers": true,

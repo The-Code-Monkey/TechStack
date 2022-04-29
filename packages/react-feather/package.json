@@ -37,6 +37,7 @@
   },
   "homepage": "https://github.com/The-Code-Monkey/TechStack#readme",
   "devDependencies": {
+    "@testing-library/react": "13.1.1",
     "@aw-web-design/tcm-cli": "3.1.41",
     "@babel/cli": "7.17.6",
     "@babel/core": "7.17.9",
@@ -46,6 +47,8 @@
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-env": "1.7.0",
     "concurrently": "7.1.0",
+    "enzyme": "3.11.0",
+    "enzyme-to-json": "3.6.2",
     "eslint": "8.14.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-plugin-import": "2.26.0",
@@ -58,5 +61,8 @@
   },
   "peerDependencies": {
     "react": "18.1.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   }
 }

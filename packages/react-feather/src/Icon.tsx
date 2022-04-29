@@ -1,4 +1,4 @@
-import React, { Suspense, memo } from 'react';
+import * as React from 'react';
 
 import { default as HelpCircle } from './icons/help-circle';
 import { IconProps } from './types';
@@ -7,14 +7,15 @@ export interface Props extends IconProps {
   name: string;
 }
 
-const getIcon = async (name: string) => await import(`./icons/${name}`);
+const { lazy, Suspense, memo } = React;
 
-const Icon = ({ name, ...rest }: Props) => {
-  const Element = getIcon(name);
+const El = ({name }) => <>{lazy(async () => await import(`./icons/${name}`).then(res => res))}</>;
+
+export const Icon = ({ name, ...rest }: Props) => {
 
   return (
     <Suspense fallback={<HelpCircle {...rest} />}>
-      <Element {...rest} />
+      <El name={name} />
     </Suspense>
   );
 };

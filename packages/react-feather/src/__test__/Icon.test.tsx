@@ -1,12 +1,12 @@
-import { mount } from 'enzyme';
-import toJson from 'enzyme-to-json';
-import React from 'react';
 
-import Icon from '../Icon';
+import * as React from 'react';
+import { render } from "@testing-library/react";
+
+import {Icon} from '../Icon';
 
 describe('<Icon />', () => {
   it('renders correctly', () => {
-    const wrapper = mount(<Icon name="check" />);
-    expect(toJson(wrapper)).toMatchSnapshot();
+    const wrapper = render(<Icon name="check" />);
+    expect(wrapper).toMatchSnapshot();
   });
 });
