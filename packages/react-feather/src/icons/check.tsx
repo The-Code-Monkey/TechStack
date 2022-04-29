@@ -1,9 +1,10 @@
 import * as React from 'react';
+
 import { IconProps } from '../types';
 
 const Check = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: React.React.ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -18,8 +19,8 @@ const Check = (
       strokeLinecap="round"
       strokeLinejoin="round"
       {...rest}
-      data-name="check-icon"
     >
+      <title>check-icon</title>
       <polyline points="20 6 9 17 4 12" />
     </svg>
   );
@@ -27,4 +28,4 @@ const Check = (
 
 Check.displayName = 'Check';
 
-export default React.React.forwardRef(Check);
+export default React.forwardRef(Check);

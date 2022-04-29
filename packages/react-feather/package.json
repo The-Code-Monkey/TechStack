@@ -4,7 +4,7 @@
   "description": "React component for Feather icons",
   "type": "module",
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/react-feather.esm.js"
   },
   "typings": "dist/index.d.ts",
   "files": [
@@ -60,7 +60,7 @@
     "uppercamelcase": "3.0.0"
   },
   "dependencies": {
-    "react-lazy-named": "1.2.2"
+    "@aw-web-design/react-lazy-named": "1.0.0"
   },
   "peerDependencies": {
     "react": "18.1.0"
