@@ -59,6 +59,9 @@
     "rollup-plugin-babel": "4.4.0",
     "uppercamelcase": "3.0.0"
   },
+  "dependencies": {
+    "react-lazy-named": "1.2.2"
+  },
   "peerDependencies": {
     "react": "18.1.0"
   },

@@ -1,12 +1,13 @@
-
-import { render } from "@testing-library/react";
+import {render} from '@testing-library/react';
 import * as React from 'react';
 
-import {Icon} from '../Icon';
+import { Icon } from '../Icon';
 
 describe('<Icon />', () => {
-  it('renders correctly', () => {
-    const wrapper = render(<Icon name="check" />);
-    expect(wrapper).toMatchSnapshot();
+  it('renders correctly', async () => {
+    const {
+      asFragment
+    } = render(<Icon name="check"/>);
+    expect(asFragment()).toMatchSnapshot();
   });
 });
