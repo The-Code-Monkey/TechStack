@@ -1,7 +1,7 @@
 import { PackageJson } from 'type-fest';
 
-import reactTemplate from './react';
-import { Template } from './template';
+import reactTemplate from './react.js';
+import { Template } from './template.js';
 
 const storybookTemplate: Template = {
   dependencies: [

@@ -4,7 +4,8 @@ import path from 'path';
 
 import asyncro from 'asyncro';
 import chalk from 'chalk';
-import { Input, Select } from 'enquirer';
+import enquirer from 'enquirer';
+const { Input, Select } = enquirer;
 import { ESLint } from 'eslint';
 import execa from 'execa';
 import figlet from 'figlet';
@@ -24,34 +25,34 @@ import sade from 'sade';
 import semver from 'semver';
 import shell from 'shelljs';
 import sortPackageJson from 'sort-package-json';
-import glob from 'tiny-glob/sync';
+import glob from 'tiny-glob/sync.js';
 
-import { paths } from './constants';
-import { createBuildConfigs } from './createBuildConfigs';
-import { createEslintConfig } from './createEslintConfig';
-import { createJestConfig, JestConfigOptions } from './createJestConfig';
-import { createProgressEstimator } from './createProgressEstimator';
-import * as deprecated from './deprecated';
-import getInstallArgs from './getInstallArgs';
-import getInstallCmd from './getInstallCmd';
-import logError from './logError';
-import * as Messages from './messages';
-import { rollupTypes } from './rollupTypes';
-import { templates } from './templates';
-import { composeDependencies, composePackageJson } from './templates/utils';
+import { paths } from './constants.js';
+import { createBuildConfigs } from './createBuildConfigs.js';
+import { createEslintConfig } from './createEslintConfig.js';
+import { createJestConfig, JestConfigOptions } from './createJestConfig.js';
+import { createProgressEstimator } from './createProgressEstimator.js';
+import * as deprecated from './deprecated.js';
+import getInstallArgs from './getInstallArgs.js';
+import getInstallCmd from './getInstallCmd.js';
+import logError from './logError.js';
+import * as Messages from './messages.js';
+import { rollupTypes } from './rollupTypes.js';
+import { templates } from './templates/index.js';
+import { composeDependencies, composePackageJson } from './templates/utils/index.js';
 import {
   PackageJson,
   WatchOpts,
   BuildOpts,
   ModuleFormat,
   NormalizedOpts,
-} from './types';
+} from './types.js';
 import {
   resolveApp,
   safePackageName,
   clearConsole,
   getNodeEngineRequirement,
-} from './utils';
+} from './utils.js';
 
 const pkg = require('../package.json');
 
@@ -136,170 +137,170 @@ function getNamesAndFiles(
   return { names, files };
 }
 
-prog
-  .version(pkg.version)
-  .command('create <pkg>')
-  .describe('Create a new package with TCM')
-  .example('create mypackage')
-  .option(
-    '--template',
-    `Specify a template. Allowed choices: [${Object.keys(templates).join(
-      ', '
-    )}]`
-  )
-  .example('create --template react mypackage')
-  .option('--husky', 'Should husky be added to the generated project?', true)
-  .example('create --husky mypackage')
-  .example('create --no-husky mypackage')
-  .example('create --husky false mypackage')
-  .action(async (pkg: string, opts: any) => {
-    console.log(
-      chalk.cyan(figlet.textSync('TCM', { horizontalLayout: 'full' }))
-    );
-    const bootSpinner = ora(`Creating ${chalk.bold.green(pkg)}...`);
-    let template;
-    // Helper fn to prompt the user for a different
-    // folder name if one already exists
-    async function getProjectPath(projectPath: string): Promise<string> {
-      const exists = await fs.pathExists(projectPath);
-      if (!exists) {
-        return projectPath;
-      }
-
-      bootSpinner.fail(`Failed to create ${chalk.bold.red(pkg)}`);
-      const prompt = new Input({
-        message: `A folder named ${chalk.bold.red(
-          pkg
-        )} already exists! ${chalk.bold('Choose a different name')}`,
-        initial: pkg + '-1',
-        result: (v: string) => v.trim(),
-      });
-
-      pkg = await prompt.run();
-      projectPath = (await fs.realpath(process.cwd())) + '/' + pkg;
-      bootSpinner.start(`Creating ${chalk.bold.green(pkg)}...`);
-      return await getProjectPath(projectPath); // recursion!
-    }
-
-    try {
-      // get the project path
-      const realPath = await fs.realpath(process.cwd());
-      let projectPath = await getProjectPath(realPath + '/' + pkg);
-
-      const prompt = new Select({
-        message: 'Choose a template',
-        choices: Object.keys(templates),
-      });
-
-      if (opts.template) {
-        template = opts.template.trim();
-        if (!prompt.choices.includes(template)) {
-          bootSpinner.fail(`Invalid template ${chalk.bold.red(template)}`);
-          template = await prompt.run();
-        }
-      } else {
-        template = await prompt.run();
-      }
-
-      bootSpinner.start();
-      // copy the template
-      await fs.copy(
-        path.resolve(__dirname, `../templates/${template}`),
-        projectPath,
-        {
-          overwrite: true,
-        }
-      );
-      // fix dotfiles
-      const dotfiles = ['gitignore', 'gitattributes'];
-      for (const dotfile of dotfiles) {
-        await fs.move(
-          path.resolve(projectPath, `./${dotfile}`),
-          path.resolve(projectPath, `./.${dotfile}`)
+  prog
+      .version(pkg.version)
+      .command('create <pkg>')
+      .describe('Create a new package with TCM')
+      .example('create mypackage')
+      .option(
+          '--template',
+          `Specify a template. Allowed choices: [${Object.keys(templates).join(
+              ', '
+          )}]`
+      )
+      .example('create --template react mypackage')
+      .option('--husky', 'Should husky be added to the generated project?', true)
+      .example('create --husky mypackage')
+      .example('create --no-husky mypackage')
+      .example('create --husky false mypackage')
+      .action(async (pkg: string, opts: any) => {
+        console.log(
+            chalk.cyan(figlet.textSync('TCM', {horizontalLayout: 'full'}))
         );
-      }
+        const bootSpinner = ora(`Creating ${chalk.bold.green(pkg)}...`);
+        let template;
+        // Helper fn to prompt the user for a different
+        // folder name if one already exists
+        async function getProjectPath(projectPath: string): Promise<string> {
+          const exists = await fs.pathExists(projectPath);
+          if (!exists) {
+            return projectPath;
+          }
 
-      // update license year and author
-      let license: string = await fs.readFile(
-        path.resolve(projectPath, 'LICENSE'),
-        { encoding: 'utf-8' }
-      );
+          bootSpinner.fail(`Failed to create ${chalk.bold.red(pkg)}`);
+          const prompt = new Input({
+            message: `A folder named ${chalk.bold.red(
+                pkg
+            )} already exists! ${chalk.bold('Choose a different name')}`,
+            initial: pkg + '-1',
+            result: (v: string) => v.trim(),
+          });
 
-      license = license.replace(/<year>/, `${new Date().getFullYear()}`);
+          pkg = await prompt.run();
+          projectPath = (await fs.realpath(process.cwd())) + '/' + pkg;
+          bootSpinner.start(`Creating ${chalk.bold.green(pkg)}...`);
+          return await getProjectPath(projectPath); // recursion!
+        }
 
-      // attempt to automatically derive author name
-      let author = getAuthorName();
+        try {
+          // get the project path
+          const realPath = await fs.realpath(process.cwd());
+          let projectPath = await getProjectPath(realPath + '/' + pkg);
 
-      if (!author) {
-        bootSpinner.stop();
-        const licenseInput = new Input({
-          name: 'author',
-          message: 'Who is the package author?',
+          const prompt = new Select({
+            message: 'Choose a template',
+            choices: Object.keys(templates),
+          });
+
+          if (opts.template) {
+            template = opts.template.trim();
+            if (!prompt.choices.includes(template)) {
+              bootSpinner.fail(`Invalid template ${chalk.bold.red(template)}`);
+              template = await prompt.run();
+            }
+          } else {
+            template = await prompt.run();
+          }
+
+          bootSpinner.start();
+          // copy the template
+          await fs.copy(
+              path.resolve(__dirname, `../templates/${template}`),
+              projectPath,
+              {
+                overwrite: true,
+              }
+          );
+          // fix dotfiles
+          const dotfiles = ['gitignore', 'gitattributes'];
+          for (const dotfile of dotfiles) {
+            await fs.move(
+                path.resolve(projectPath, `./${dotfile}`),
+                path.resolve(projectPath, `./.${dotfile}`)
+            );
+          }
+
+          // update license year and author
+          let license: string = await fs.readFile(
+              path.resolve(projectPath, 'LICENSE'),
+              {encoding: 'utf-8'}
+          );
+
+          license = license.replace(/<year>/, `${new Date().getFullYear()}`);
+
+          // attempt to automatically derive author name
+          let author = getAuthorName();
+
+          if (!author) {
+            bootSpinner.stop();
+            const licenseInput = new Input({
+              name: 'author',
+              message: 'Who is the package author?',
+            });
+            author = await licenseInput.run();
+            setAuthorName(author);
+            bootSpinner.start();
+          }
+
+          license = license.replace(/<author>/, author.trim());
+
+          await fs.writeFile(path.resolve(projectPath, 'LICENSE'), license, {
+            encoding: 'utf-8',
+          });
+
+          const templateConfig = templates[template as keyof typeof templates];
+          const generatePackageJson = composePackageJson(templateConfig);
+
+          // Install deps
+          process.chdir(projectPath);
+          const safeName = safePackageName(pkg);
+          const pkgJson = generatePackageJson({
+            name: safeName,
+            author,
+            includeHuskyConfig: !!opts.husky,
+          });
+
+          const nodeVersionReq = getNodeEngineRequirement(pkgJson);
+          if (
+              nodeVersionReq &&
+              !semver.satisfies(process.version, nodeVersionReq)
+          ) {
+            bootSpinner.fail(Messages.incorrectNodeVersion(nodeVersionReq));
+            process.exit(1);
+          }
+          const pkgContent = sortPackageJson(JSON.stringify(pkgJson, null, 2));
+          await fs.outputFile(
+              path.resolve(projectPath, 'package.json'),
+              pkgContent
+          );
+          bootSpinner.succeed(`Created ${chalk.bold.green(pkg)}`);
+          await Messages.start(pkg);
+        } catch (error) {
+          bootSpinner.fail(`Failed to create ${chalk.bold.red(pkg)}`);
+          logError(error);
+          process.exit(1);
+        }
+
+        const templateConfig = templates[template as keyof typeof templates];
+        const generateDependencies = composeDependencies(templateConfig);
+        const dependencies = generateDependencies({
+          includeHusky: !!opts.husky,
         });
-        author = await licenseInput.run();
-        setAuthorName(author);
-        bootSpinner.start();
-      }
 
-      license = license.replace(/<author>/, author.trim());
-
-      await fs.writeFile(path.resolve(projectPath, 'LICENSE'), license, {
-        encoding: 'utf-8',
+        const installSpinner = ora(
+            Messages.installing(dependencies.sort())
+        ).start();
+        try {
+          const cmd = await getInstallCmd();
+          await execa(cmd, getInstallArgs(cmd, dependencies));
+          installSpinner.succeed('Installed dependencies');
+          console.log(await Messages.start(pkg));
+        } catch (error) {
+          installSpinner.fail('Failed to install dependencies');
+          logError(error);
+          process.exit(1);
+        }
       });
-
-      const templateConfig = templates[template as keyof typeof templates];
-      const generatePackageJson = composePackageJson(templateConfig);
-
-      // Install deps
-      process.chdir(projectPath);
-      const safeName = safePackageName(pkg);
-      const pkgJson = generatePackageJson({
-        name: safeName,
-        author,
-        includeHuskyConfig: !!opts.husky,
-      });
-
-      const nodeVersionReq = getNodeEngineRequirement(pkgJson);
-      if (
-        nodeVersionReq &&
-        !semver.satisfies(process.version, nodeVersionReq)
-      ) {
-        bootSpinner.fail(Messages.incorrectNodeVersion(nodeVersionReq));
-        process.exit(1);
-      }
-      const pkgContent = sortPackageJson(JSON.stringify(pkgJson, null, 2));
-      await fs.outputFile(
-        path.resolve(projectPath, 'package.json'),
-        pkgContent
-      );
-      bootSpinner.succeed(`Created ${chalk.bold.green(pkg)}`);
-      await Messages.start(pkg);
-    } catch (error) {
-      bootSpinner.fail(`Failed to create ${chalk.bold.red(pkg)}`);
-      logError(error);
-      process.exit(1);
-    }
-
-    const templateConfig = templates[template as keyof typeof templates];
-    const generateDependencies = composeDependencies(templateConfig);
-    const dependencies = generateDependencies({
-      includeHusky: !!opts.husky,
-    });
-
-    const installSpinner = ora(
-      Messages.installing(dependencies.sort())
-    ).start();
-    try {
-      const cmd = await getInstallCmd();
-      await execa(cmd, getInstallArgs(cmd, dependencies));
-      installSpinner.succeed('Installed dependencies');
-      console.log(await Messages.start(pkg));
-    } catch (error) {
-      installSpinner.fail('Failed to install dependencies');
-      logError(error);
-      process.exit(1);
-    }
-  });
 
 prog
   .command('watch')

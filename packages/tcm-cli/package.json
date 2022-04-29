@@ -15,6 +15,7 @@
   "bin": {
     "tcm": "./dist/index.js"
   },
+  "type": "module",
   "typings": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json",

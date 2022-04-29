@@ -3,8 +3,8 @@ import path from 'path';
 import { Linter } from 'eslint';
 import fs from 'fs-extra';
 
-import { PackageJson } from './types';
-import { getReactVersion } from './utils';
+import { PackageJson } from './types.js';
+import { getReactVersion } from './utils.js';
 interface CreateEslintConfigArgs {
   pkg: PackageJson;
   rootDir: string;
