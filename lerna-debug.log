@@ -1,0 +1,1072 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   'conventional-commits': true,
+0 silly argv   conventionalCommits: true,
+0 silly argv   exact: true,
+0 silly argv   yes: true,
+0 silly argv   y: true,
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '/Users/iv0706/code/TechStack/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/iv0706/code/TechStack
+3 info versioning independent
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch feature/react-feather-to-esm
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream feature/react-feather-to-esm is behind origin/feature/react-feather-to-esm by 0 commit(s) and ahead by 1
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "@aw-web-design/components@3.1.36-102-g862807a" => {"lastTagName":"@aw-web-design/components@3.1.36","lastVersion":"3.1.36","refCount":"102","sha":"862807a","isDirty":false}
+14 info Looking for changed packages since @aw-web-design/components@3.1.36
+15 silly checking diff packages/components
+16 silly found diff in packages/components/.storybook/ThemedWrapper.tsx
+16 silly found diff in packages/components/.storybook/main.js
+16 silly found diff in packages/components/CHANGELOG.md
+16 silly found diff in packages/components/orchard.theme.config.json
+16 silly found diff in packages/components/package.json
+16 silly found diff in packages/components/src/atoms/button/Button.tsx
+16 silly found diff in packages/components/src/atoms/button/__test__/__snapshots__/index.test.tsx.snap
+16 silly found diff in packages/components/src/atoms/button/__test__/index.test.tsx
+16 silly found diff in packages/components/src/atoms/button/index.ts
+16 silly found diff in packages/components/src/atoms/button/story.tsx
+16 silly found diff in packages/components/src/atoms/button/styled.ts
+16 silly found diff in packages/components/src/atoms/checkbox/Checkbox.tsx
+16 silly found diff in packages/components/src/atoms/checkbox/__test__/__snapshots__/index.test.tsx.snap
+16 silly found diff in packages/components/src/atoms/checkbox/__test__/index.test.tsx
+16 silly found diff in packages/components/src/atoms/checkbox/index.ts
+16 silly found diff in packages/components/src/atoms/checkbox/story.tsx
+16 silly found diff in packages/components/src/atoms/checkbox/styled.ts
+16 silly found diff in packages/components/src/atoms/divider/__test__/__snapshots__/index.test.tsx.snap
+16 silly found diff in packages/components/src/atoms/divider/__test__/index.test.tsx
+16 silly found diff in packages/components/src/atoms/divider/divider.tsx
+16 silly found diff in packages/components/src/atoms/divider/index.ts
+16 silly found diff in packages/components/src/atoms/divider/story.tsx
+16 silly found diff in packages/components/src/atoms/divider/styled.ts
+16 silly found diff in packages/components/src/atoms/grid/Cell.tsx
+16 silly found diff in packages/components/src/atoms/grid/Grid.tsx
+16 silly found diff in packages/components/src/atoms/grid/__test__/__snapshots__/index.test.tsx.snap
+16 silly found diff in packages/components/src/atoms/grid/__test__/index.test.tsx
+16 silly found diff in packages/components/src/atoms/grid/index.ts
+16 silly found diff in packages/components/src/atoms/grid/story.tsx
+16 silly found diff in packages/components/src/atoms/grid/styled.ts
+16 silly found diff in packages/components/src/atoms/grid/utils.ts
+16 silly found diff in packages/components/src/atoms/index.ts
+16 silly found diff in packages/components/src/atoms/input/Input.tsx
+16 silly found diff in packages/components/src/atoms/input/__test__/__snapshots__/index.test.tsx.snap
+16 silly found diff in packages/components/src/atoms/input/__test__/index.test.tsx
+16 silly found diff in packages/components/src/atoms/input/index.ts
+16 silly found diff in packages/components/src/atoms/input/story.tsx
+16 silly found diff in packages/components/src/atoms/input/styled.ts
+16 silly found diff in packages/components/src/atoms/table/Table.tsx
+16 silly found diff in packages/components/src/atoms/table/__test__/__snapshots__/index.test.tsx.snap
+16 silly found diff in packages/components/src/atoms/table/__test__/index.test.tsx
+16 silly found diff in packages/components/src/atoms/table/index.ts
+16 silly found diff in packages/components/src/atoms/table/story.tsx
+16 silly found diff in packages/components/src/atoms/table/styled.ts
+16 silly found diff in packages/components/src/index.ts
+16 silly found diff in packages/components/src/molecules/accordion/Accordion.tsx
+16 silly found diff in packages/components/src/molecules/accordion/index.ts
+16 silly found diff in packages/components/src/molecules/accordion/story.tsx
+16 silly found diff in packages/components/src/molecules/accordion/styled.ts
+16 silly found diff in packages/components/src/molecules/buttonGroup/ButtonGroup.tsx
+16 silly found diff in packages/components/src/molecules/buttonGroup/index.ts
+16 silly found diff in packages/components/src/molecules/buttonGroup/story.tsx
+16 silly found diff in packages/components/src/molecules/buttonGroup/styled.ts
+16 silly found diff in packages/components/src/molecules/index.ts
+16 silly found diff in packages/components/src/primatives/box/Box.tsx
+16 silly found diff in packages/components/src/primatives/box/index.tsx
+16 silly found diff in packages/components/src/primatives/box/styled.ts
+16 silly found diff in packages/components/src/primatives/icon/Icon.tsx
+16 silly found diff in packages/components/src/primatives/icon/__mocks__/utils.ts
+16 silly found diff in packages/components/src/primatives/icon/__test__/__snapshots__/index.test.tsx.snap
+16 silly found diff in packages/components/src/primatives/icon/__test__/index.test.tsx
+16 silly found diff in packages/components/src/primatives/icon/index.ts
+16 silly found diff in packages/components/src/primatives/icon/story.tsx
+16 silly found diff in packages/components/src/primatives/icon/styled.ts
+16 silly found diff in packages/components/src/primatives/icon/utils.ts
+16 silly found diff in packages/components/src/primatives/index.ts
+16 silly found diff in packages/components/src/primatives/interactable/Interactable.tsx
+16 silly found diff in packages/components/src/primatives/interactable/index.ts
+16 silly found diff in packages/components/src/primatives/interactable/styled.ts
+16 silly found diff in packages/components/src/primatives/text/Text.tsx
+16 silly found diff in packages/components/src/primatives/text/index.ts
+16 silly found diff in packages/components/src/primatives/text/styled.ts
+16 silly found diff in packages/components/src/test-tools/index.tsx
+16 silly found diff in packages/components/src/theme/.gitignore
+16 silly found diff in packages/components/src/theme/colors.ts
+16 silly found diff in packages/components/src/theme/index.ts
+16 silly found diff in packages/components/src/theme/types.ts
+16 silly found diff in packages/components/src/theme/variants.ts
+16 silly found diff in packages/components/src/utils/automation.ts
+16 silly found diff in packages/components/src/utils/context/config.tsx
+16 silly found diff in packages/components/src/utils/index.ts
+16 silly found diff in packages/components/src/utils/shouldForwardProp.ts
+16 silly found diff in packages/components/src/utils/theme-provider/create-theme.ts
+16 silly found diff in packages/components/src/utils/theme-provider/enum.ts
+16 silly found diff in packages/components/src/utils/theme-provider/index.ts
+16 silly found diff in packages/components/src/utils/theme-provider/styled.ts
+16 silly found diff in packages/components/src/utils/theme-provider/theme-provider.tsx
+16 silly found diff in packages/components/src/utils/theme-provider/types.ts
+17 verbose filtered diff [
+17 verbose filtered diff   'packages/components/.storybook/ThemedWrapper.tsx',
+17 verbose filtered diff   'packages/components/.storybook/main.js',
+17 verbose filtered diff   'packages/components/CHANGELOG.md',
+17 verbose filtered diff   'packages/components/orchard.theme.config.json',
+17 verbose filtered diff   'packages/components/package.json',
+17 verbose filtered diff   'packages/components/src/atoms/button/Button.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/button/__test__/__snapshots__/index.test.tsx.snap',
+17 verbose filtered diff   'packages/components/src/atoms/button/__test__/index.test.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/button/index.ts',
+17 verbose filtered diff   'packages/components/src/atoms/button/story.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/button/styled.ts',
+17 verbose filtered diff   'packages/components/src/atoms/checkbox/Checkbox.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/checkbox/__test__/__snapshots__/index.test.tsx.snap',
+17 verbose filtered diff   'packages/components/src/atoms/checkbox/__test__/index.test.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/checkbox/index.ts',
+17 verbose filtered diff   'packages/components/src/atoms/checkbox/story.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/checkbox/styled.ts',
+17 verbose filtered diff   'packages/components/src/atoms/divider/__test__/__snapshots__/index.test.tsx.snap',
+17 verbose filtered diff   'packages/components/src/atoms/divider/__test__/index.test.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/divider/divider.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/divider/index.ts',
+17 verbose filtered diff   'packages/components/src/atoms/divider/story.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/divider/styled.ts',
+17 verbose filtered diff   'packages/components/src/atoms/grid/Cell.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/grid/Grid.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/grid/__test__/__snapshots__/index.test.tsx.snap',
+17 verbose filtered diff   'packages/components/src/atoms/grid/__test__/index.test.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/grid/index.ts',
+17 verbose filtered diff   'packages/components/src/atoms/grid/story.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/grid/styled.ts',
+17 verbose filtered diff   'packages/components/src/atoms/grid/utils.ts',
+17 verbose filtered diff   'packages/components/src/atoms/index.ts',
+17 verbose filtered diff   'packages/components/src/atoms/input/Input.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/input/__test__/__snapshots__/index.test.tsx.snap',
+17 verbose filtered diff   'packages/components/src/atoms/input/__test__/index.test.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/input/index.ts',
+17 verbose filtered diff   'packages/components/src/atoms/input/story.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/input/styled.ts',
+17 verbose filtered diff   'packages/components/src/atoms/table/Table.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/table/__test__/__snapshots__/index.test.tsx.snap',
+17 verbose filtered diff   'packages/components/src/atoms/table/__test__/index.test.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/table/index.ts',
+17 verbose filtered diff   'packages/components/src/atoms/table/story.tsx',
+17 verbose filtered diff   'packages/components/src/atoms/table/styled.ts',
+17 verbose filtered diff   'packages/components/src/index.ts',
+17 verbose filtered diff   'packages/components/src/molecules/accordion/Accordion.tsx',
+17 verbose filtered diff   'packages/components/src/molecules/accordion/index.ts',
+17 verbose filtered diff   'packages/components/src/molecules/accordion/story.tsx',
+17 verbose filtered diff   'packages/components/src/molecules/accordion/styled.ts',
+17 verbose filtered diff   'packages/components/src/molecules/buttonGroup/ButtonGroup.tsx',
+17 verbose filtered diff   'packages/components/src/molecules/buttonGroup/index.ts',
+17 verbose filtered diff   'packages/components/src/molecules/buttonGroup/story.tsx',
+17 verbose filtered diff   'packages/components/src/molecules/buttonGroup/styled.ts',
+17 verbose filtered diff   'packages/components/src/molecules/index.ts',
+17 verbose filtered diff   'packages/components/src/primatives/box/Box.tsx',
+17 verbose filtered diff   'packages/components/src/primatives/box/index.tsx',
+17 verbose filtered diff   'packages/components/src/primatives/box/styled.ts',
+17 verbose filtered diff   'packages/components/src/primatives/icon/Icon.tsx',
+17 verbose filtered diff   'packages/components/src/primatives/icon/__mocks__/utils.ts',
+17 verbose filtered diff   'packages/components/src/primatives/icon/__test__/__snapshots__/index.test.tsx.snap',
+17 verbose filtered diff   'packages/components/src/primatives/icon/__test__/index.test.tsx',
+17 verbose filtered diff   'packages/components/src/primatives/icon/index.ts',
+17 verbose filtered diff   'packages/components/src/primatives/icon/story.tsx',
+17 verbose filtered diff   'packages/components/src/primatives/icon/styled.ts',
+17 verbose filtered diff   'packages/components/src/primatives/icon/utils.ts',
+17 verbose filtered diff   'packages/components/src/primatives/index.ts',
+17 verbose filtered diff   'packages/components/src/primatives/interactable/Interactable.tsx',
+17 verbose filtered diff   'packages/components/src/primatives/interactable/index.ts',
+17 verbose filtered diff   'packages/components/src/primatives/interactable/styled.ts',
+17 verbose filtered diff   'packages/components/src/primatives/text/Text.tsx',
+17 verbose filtered diff   'packages/components/src/primatives/text/index.ts',
+17 verbose filtered diff   'packages/components/src/primatives/text/styled.ts',
+17 verbose filtered diff   'packages/components/src/test-tools/index.tsx',
+17 verbose filtered diff   'packages/components/src/theme/.gitignore',
+17 verbose filtered diff   'packages/components/src/theme/colors.ts',
+17 verbose filtered diff   'packages/components/src/theme/index.ts',
+17 verbose filtered diff   'packages/components/src/theme/types.ts',
+17 verbose filtered diff   'packages/components/src/theme/variants.ts',
+17 verbose filtered diff   'packages/components/src/utils/automation.ts',
+17 verbose filtered diff   'packages/components/src/utils/context/config.tsx',
+17 verbose filtered diff   'packages/components/src/utils/index.ts',
+17 verbose filtered diff   'packages/components/src/utils/shouldForwardProp.ts',
+17 verbose filtered diff   'packages/components/src/utils/theme-provider/create-theme.ts',
+17 verbose filtered diff   'packages/components/src/utils/theme-provider/enum.ts',
+17 verbose filtered diff   'packages/components/src/utils/theme-provider/index.ts',
+17 verbose filtered diff   'packages/components/src/utils/theme-provider/styled.ts',
+17 verbose filtered diff   'packages/components/src/utils/theme-provider/theme-provider.tsx',
+17 verbose filtered diff   'packages/components/src/utils/theme-provider/types.ts'
+17 verbose filtered diff ]
+18 silly checking diff packages/react-feather
+19 silly found diff in packages/react-feather/CHANGELOG.md
+19 silly found diff in packages/react-feather/package.json
+19 silly found diff in packages/react-feather/src/Icon.tsx
+19 silly found diff in packages/react-feather/src/__test__/Icon.test.tsx
+19 silly found diff in packages/react-feather/src/__test__/__snapshots__/Icon.test.tsx.snap
+19 silly found diff in packages/react-feather/src/icons/activity.tsx
+19 silly found diff in packages/react-feather/src/icons/airplay.tsx
+19 silly found diff in packages/react-feather/src/icons/alert-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/alert-octagon.tsx
+19 silly found diff in packages/react-feather/src/icons/alert-triangle.tsx
+19 silly found diff in packages/react-feather/src/icons/align-center.tsx
+19 silly found diff in packages/react-feather/src/icons/align-justify.tsx
+19 silly found diff in packages/react-feather/src/icons/align-left.tsx
+19 silly found diff in packages/react-feather/src/icons/align-right.tsx
+19 silly found diff in packages/react-feather/src/icons/anchor.tsx
+19 silly found diff in packages/react-feather/src/icons/aperture.tsx
+19 silly found diff in packages/react-feather/src/icons/archive.tsx
+19 silly found diff in packages/react-feather/src/icons/arrow-down-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/arrow-down-left.tsx
+19 silly found diff in packages/react-feather/src/icons/arrow-down-right.tsx
+19 silly found diff in packages/react-feather/src/icons/arrow-down.tsx
+19 silly found diff in packages/react-feather/src/icons/arrow-left-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/arrow-left.tsx
+19 silly found diff in packages/react-feather/src/icons/arrow-right-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/arrow-right.tsx
+19 silly found diff in packages/react-feather/src/icons/arrow-up-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/arrow-up-left.tsx
+19 silly found diff in packages/react-feather/src/icons/arrow-up-right.tsx
+19 silly found diff in packages/react-feather/src/icons/arrow-up.tsx
+19 silly found diff in packages/react-feather/src/icons/at-sign.tsx
+19 silly found diff in packages/react-feather/src/icons/award.tsx
+19 silly found diff in packages/react-feather/src/icons/bar-chart-2.tsx
+19 silly found diff in packages/react-feather/src/icons/bar-chart.tsx
+19 silly found diff in packages/react-feather/src/icons/battery-charging.tsx
+19 silly found diff in packages/react-feather/src/icons/battery.tsx
+19 silly found diff in packages/react-feather/src/icons/bell-off.tsx
+19 silly found diff in packages/react-feather/src/icons/bell.tsx
+19 silly found diff in packages/react-feather/src/icons/bluetooth.tsx
+19 silly found diff in packages/react-feather/src/icons/bold.tsx
+19 silly found diff in packages/react-feather/src/icons/book-open.tsx
+19 silly found diff in packages/react-feather/src/icons/book.tsx
+19 silly found diff in packages/react-feather/src/icons/bookmark.tsx
+19 silly found diff in packages/react-feather/src/icons/box.tsx
+19 silly found diff in packages/react-feather/src/icons/briefcase.tsx
+19 silly found diff in packages/react-feather/src/icons/calendar.tsx
+19 silly found diff in packages/react-feather/src/icons/camera-off.tsx
+19 silly found diff in packages/react-feather/src/icons/camera.tsx
+19 silly found diff in packages/react-feather/src/icons/cast.tsx
+19 silly found diff in packages/react-feather/src/icons/check-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/check-square.tsx
+19 silly found diff in packages/react-feather/src/icons/check.tsx
+19 silly found diff in packages/react-feather/src/icons/chevron-down.tsx
+19 silly found diff in packages/react-feather/src/icons/chevron-left.tsx
+19 silly found diff in packages/react-feather/src/icons/chevron-right.tsx
+19 silly found diff in packages/react-feather/src/icons/chevron-up.tsx
+19 silly found diff in packages/react-feather/src/icons/chevrons-down.tsx
+19 silly found diff in packages/react-feather/src/icons/chevrons-left.tsx
+19 silly found diff in packages/react-feather/src/icons/chevrons-right.tsx
+19 silly found diff in packages/react-feather/src/icons/chevrons-up.tsx
+19 silly found diff in packages/react-feather/src/icons/chrome.tsx
+19 silly found diff in packages/react-feather/src/icons/circle.tsx
+19 silly found diff in packages/react-feather/src/icons/clipboard.tsx
+19 silly found diff in packages/react-feather/src/icons/clock.tsx
+19 silly found diff in packages/react-feather/src/icons/cloud-drizzle.tsx
+19 silly found diff in packages/react-feather/src/icons/cloud-lightning.tsx
+19 silly found diff in packages/react-feather/src/icons/cloud-off.tsx
+19 silly found diff in packages/react-feather/src/icons/cloud-rain.tsx
+19 silly found diff in packages/react-feather/src/icons/cloud-snow.tsx
+19 silly found diff in packages/react-feather/src/icons/cloud.tsx
+19 silly found diff in packages/react-feather/src/icons/code.tsx
+19 silly found diff in packages/react-feather/src/icons/codepen.tsx
+19 silly found diff in packages/react-feather/src/icons/codesandbox.tsx
+19 silly found diff in packages/react-feather/src/icons/coffee.tsx
+19 silly found diff in packages/react-feather/src/icons/columns.tsx
+19 silly found diff in packages/react-feather/src/icons/command.tsx
+19 silly found diff in packages/react-feather/src/icons/compass.tsx
+19 silly found diff in packages/react-feather/src/icons/copy.tsx
+19 silly found diff in packages/react-feather/src/icons/corner-down-left.tsx
+19 silly found diff in packages/react-feather/src/icons/corner-down-right.tsx
+19 silly found diff in packages/react-feather/src/icons/corner-left-down.tsx
+19 silly found diff in packages/react-feather/src/icons/corner-left-up.tsx
+19 silly found diff in packages/react-feather/src/icons/corner-right-down.tsx
+19 silly found diff in packages/react-feather/src/icons/corner-right-up.tsx
+19 silly found diff in packages/react-feather/src/icons/corner-up-left.tsx
+19 silly found diff in packages/react-feather/src/icons/corner-up-right.tsx
+19 silly found diff in packages/react-feather/src/icons/cpu.tsx
+19 silly found diff in packages/react-feather/src/icons/credit-card.tsx
+19 silly found diff in packages/react-feather/src/icons/crop.tsx
+19 silly found diff in packages/react-feather/src/icons/crosshair.tsx
+19 silly found diff in packages/react-feather/src/icons/database.tsx
+19 silly found diff in packages/react-feather/src/icons/delete.tsx
+19 silly found diff in packages/react-feather/src/icons/disc.tsx
+19 silly found diff in packages/react-feather/src/icons/divide-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/divide-square.tsx
+19 silly found diff in packages/react-feather/src/icons/divide.tsx
+19 silly found diff in packages/react-feather/src/icons/dollar-sign.tsx
+19 silly found diff in packages/react-feather/src/icons/download-cloud.tsx
+19 silly found diff in packages/react-feather/src/icons/download.tsx
+19 silly found diff in packages/react-feather/src/icons/dribbble.tsx
+19 silly found diff in packages/react-feather/src/icons/droplet.tsx
+19 silly found diff in packages/react-feather/src/icons/edit-2.tsx
+19 silly found diff in packages/react-feather/src/icons/edit-3.tsx
+19 silly found diff in packages/react-feather/src/icons/edit.tsx
+19 silly found diff in packages/react-feather/src/icons/external-link.tsx
+19 silly found diff in packages/react-feather/src/icons/eye-off.tsx
+19 silly found diff in packages/react-feather/src/icons/eye.tsx
+19 silly found diff in packages/react-feather/src/icons/facebook.tsx
+19 silly found diff in packages/react-feather/src/icons/fast-forward.tsx
+19 silly found diff in packages/react-feather/src/icons/feather.tsx
+19 silly found diff in packages/react-feather/src/icons/figma.tsx
+19 silly found diff in packages/react-feather/src/icons/file-minus.tsx
+19 silly found diff in packages/react-feather/src/icons/file-plus.tsx
+19 silly found diff in packages/react-feather/src/icons/file-text.tsx
+19 silly found diff in packages/react-feather/src/icons/file.tsx
+19 silly found diff in packages/react-feather/src/icons/film.tsx
+19 silly found diff in packages/react-feather/src/icons/filter.tsx
+19 silly found diff in packages/react-feather/src/icons/flag.tsx
+19 silly found diff in packages/react-feather/src/icons/folder-minus.tsx
+19 silly found diff in packages/react-feather/src/icons/folder-plus.tsx
+19 silly found diff in packages/react-feather/src/icons/folder.tsx
+19 silly found diff in packages/react-feather/src/icons/framer.tsx
+19 silly found diff in packages/react-feather/src/icons/frown.tsx
+19 silly found diff in packages/react-feather/src/icons/gift.tsx
+19 silly found diff in packages/react-feather/src/icons/git-branch.tsx
+19 silly found diff in packages/react-feather/src/icons/git-commit.tsx
+19 silly found diff in packages/react-feather/src/icons/git-merge.tsx
+19 silly found diff in packages/react-feather/src/icons/git-pull-request.tsx
+19 silly found diff in packages/react-feather/src/icons/github.tsx
+19 silly found diff in packages/react-feather/src/icons/gitlab.tsx
+19 silly found diff in packages/react-feather/src/icons/globe.tsx
+19 silly found diff in packages/react-feather/src/icons/grid.tsx
+19 silly found diff in packages/react-feather/src/icons/hard-drive.tsx
+19 silly found diff in packages/react-feather/src/icons/hash.tsx
+19 silly found diff in packages/react-feather/src/icons/headphones.tsx
+19 silly found diff in packages/react-feather/src/icons/heart.tsx
+19 silly found diff in packages/react-feather/src/icons/help-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/hexagon.tsx
+19 silly found diff in packages/react-feather/src/icons/home.tsx
+19 silly found diff in packages/react-feather/src/icons/image.tsx
+19 silly found diff in packages/react-feather/src/icons/inbox.tsx
+19 silly found diff in packages/react-feather/src/icons/index.ts
+19 silly found diff in packages/react-feather/src/icons/info.tsx
+19 silly found diff in packages/react-feather/src/icons/instagram.tsx
+19 silly found diff in packages/react-feather/src/icons/italic.tsx
+19 silly found diff in packages/react-feather/src/icons/key.tsx
+19 silly found diff in packages/react-feather/src/icons/layers.tsx
+19 silly found diff in packages/react-feather/src/icons/layout.tsx
+19 silly found diff in packages/react-feather/src/icons/life-buoy.tsx
+19 silly found diff in packages/react-feather/src/icons/link-2.tsx
+19 silly found diff in packages/react-feather/src/icons/link.tsx
+19 silly found diff in packages/react-feather/src/icons/linkedin.tsx
+19 silly found diff in packages/react-feather/src/icons/list.tsx
+19 silly found diff in packages/react-feather/src/icons/loader.tsx
+19 silly found diff in packages/react-feather/src/icons/lock.tsx
+19 silly found diff in packages/react-feather/src/icons/log-in.tsx
+19 silly found diff in packages/react-feather/src/icons/log-out.tsx
+19 silly found diff in packages/react-feather/src/icons/mail.tsx
+19 silly found diff in packages/react-feather/src/icons/map-pin.tsx
+19 silly found diff in packages/react-feather/src/icons/map.tsx
+19 silly found diff in packages/react-feather/src/icons/maximize-2.tsx
+19 silly found diff in packages/react-feather/src/icons/maximize.tsx
+19 silly found diff in packages/react-feather/src/icons/meh.tsx
+19 silly found diff in packages/react-feather/src/icons/menu.tsx
+19 silly found diff in packages/react-feather/src/icons/message-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/message-square.tsx
+19 silly found diff in packages/react-feather/src/icons/mic-off.tsx
+19 silly found diff in packages/react-feather/src/icons/mic.tsx
+19 silly found diff in packages/react-feather/src/icons/minimize-2.tsx
+19 silly found diff in packages/react-feather/src/icons/minimize.tsx
+19 silly found diff in packages/react-feather/src/icons/minus-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/minus-square.tsx
+19 silly found diff in packages/react-feather/src/icons/minus.tsx
+19 silly found diff in packages/react-feather/src/icons/monitor.tsx
+19 silly found diff in packages/react-feather/src/icons/moon.tsx
+19 silly found diff in packages/react-feather/src/icons/more-horizontal.tsx
+19 silly found diff in packages/react-feather/src/icons/more-vertical.tsx
+19 silly found diff in packages/react-feather/src/icons/mouse-pointer.tsx
+19 silly found diff in packages/react-feather/src/icons/move.tsx
+19 silly found diff in packages/react-feather/src/icons/music.tsx
+19 silly found diff in packages/react-feather/src/icons/navigation-2.tsx
+19 silly found diff in packages/react-feather/src/icons/navigation.tsx
+19 silly found diff in packages/react-feather/src/icons/octagon.tsx
+19 silly found diff in packages/react-feather/src/icons/package.tsx
+19 silly found diff in packages/react-feather/src/icons/paperclip.tsx
+19 silly found diff in packages/react-feather/src/icons/pause-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/pause.tsx
+19 silly found diff in packages/react-feather/src/icons/pen-tool.tsx
+19 silly found diff in packages/react-feather/src/icons/percent.tsx
+19 silly found diff in packages/react-feather/src/icons/phone-call.tsx
+19 silly found diff in packages/react-feather/src/icons/phone-forwarded.tsx
+19 silly found diff in packages/react-feather/src/icons/phone-incoming.tsx
+19 silly found diff in packages/react-feather/src/icons/phone-missed.tsx
+19 silly found diff in packages/react-feather/src/icons/phone-off.tsx
+19 silly found diff in packages/react-feather/src/icons/phone-outgoing.tsx
+19 silly found diff in packages/react-feather/src/icons/phone.tsx
+19 silly found diff in packages/react-feather/src/icons/pie-chart.tsx
+19 silly found diff in packages/react-feather/src/icons/play-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/play.tsx
+19 silly found diff in packages/react-feather/src/icons/plus-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/plus-square.tsx
+19 silly found diff in packages/react-feather/src/icons/plus.tsx
+19 silly found diff in packages/react-feather/src/icons/pocket.tsx
+19 silly found diff in packages/react-feather/src/icons/power.tsx
+19 silly found diff in packages/react-feather/src/icons/printer.tsx
+19 silly found diff in packages/react-feather/src/icons/radio.tsx
+19 silly found diff in packages/react-feather/src/icons/refresh-ccw.tsx
+19 silly found diff in packages/react-feather/src/icons/refresh-cw.tsx
+19 silly found diff in packages/react-feather/src/icons/repeat.tsx
+19 silly found diff in packages/react-feather/src/icons/rewind.tsx
+19 silly found diff in packages/react-feather/src/icons/rotate-ccw.tsx
+19 silly found diff in packages/react-feather/src/icons/rotate-cw.tsx
+19 silly found diff in packages/react-feather/src/icons/rss.tsx
+19 silly found diff in packages/react-feather/src/icons/save.tsx
+19 silly found diff in packages/react-feather/src/icons/scissors.tsx
+19 silly found diff in packages/react-feather/src/icons/search.tsx
+19 silly found diff in packages/react-feather/src/icons/send.tsx
+19 silly found diff in packages/react-feather/src/icons/server.tsx
+19 silly found diff in packages/react-feather/src/icons/settings.tsx
+19 silly found diff in packages/react-feather/src/icons/share-2.tsx
+19 silly found diff in packages/react-feather/src/icons/share.tsx
+19 silly found diff in packages/react-feather/src/icons/shield-off.tsx
+19 silly found diff in packages/react-feather/src/icons/shield.tsx
+19 silly found diff in packages/react-feather/src/icons/shopping-bag.tsx
+19 silly found diff in packages/react-feather/src/icons/shopping-cart.tsx
+19 silly found diff in packages/react-feather/src/icons/shuffle.tsx
+19 silly found diff in packages/react-feather/src/icons/sidebar.tsx
+19 silly found diff in packages/react-feather/src/icons/skip-back.tsx
+19 silly found diff in packages/react-feather/src/icons/skip-forward.tsx
+19 silly found diff in packages/react-feather/src/icons/slack.tsx
+19 silly found diff in packages/react-feather/src/icons/slash.tsx
+19 silly found diff in packages/react-feather/src/icons/sliders.tsx
+19 silly found diff in packages/react-feather/src/icons/smartphone.tsx
+19 silly found diff in packages/react-feather/src/icons/smile.tsx
+19 silly found diff in packages/react-feather/src/icons/speaker.tsx
+19 silly found diff in packages/react-feather/src/icons/square.tsx
+19 silly found diff in packages/react-feather/src/icons/star.tsx
+19 silly found diff in packages/react-feather/src/icons/stop-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/sun.tsx
+19 silly found diff in packages/react-feather/src/icons/sunrise.tsx
+19 silly found diff in packages/react-feather/src/icons/sunset.tsx
+19 silly found diff in packages/react-feather/src/icons/tablet.tsx
+19 silly found diff in packages/react-feather/src/icons/tag.tsx
+19 silly found diff in packages/react-feather/src/icons/target.tsx
+19 silly found diff in packages/react-feather/src/icons/terminal.tsx
+19 silly found diff in packages/react-feather/src/icons/thermometer.tsx
+19 silly found diff in packages/react-feather/src/icons/thumbs-down.tsx
+19 silly found diff in packages/react-feather/src/icons/thumbs-up.tsx
+19 silly found diff in packages/react-feather/src/icons/toggle-left.tsx
+19 silly found diff in packages/react-feather/src/icons/toggle-right.tsx
+19 silly found diff in packages/react-feather/src/icons/tool.tsx
+19 silly found diff in packages/react-feather/src/icons/trash-2.tsx
+19 silly found diff in packages/react-feather/src/icons/trash.tsx
+19 silly found diff in packages/react-feather/src/icons/trello.tsx
+19 silly found diff in packages/react-feather/src/icons/trending-down.tsx
+19 silly found diff in packages/react-feather/src/icons/trending-up.tsx
+19 silly found diff in packages/react-feather/src/icons/triangle.tsx
+19 silly found diff in packages/react-feather/src/icons/truck.tsx
+19 silly found diff in packages/react-feather/src/icons/tv.tsx
+19 silly found diff in packages/react-feather/src/icons/twitch.tsx
+19 silly found diff in packages/react-feather/src/icons/twitter.tsx
+19 silly found diff in packages/react-feather/src/icons/type.tsx
+19 silly found diff in packages/react-feather/src/icons/umbrella.tsx
+19 silly found diff in packages/react-feather/src/icons/underline.tsx
+19 silly found diff in packages/react-feather/src/icons/unlock.tsx
+19 silly found diff in packages/react-feather/src/icons/upload-cloud.tsx
+19 silly found diff in packages/react-feather/src/icons/upload.tsx
+19 silly found diff in packages/react-feather/src/icons/user-check.tsx
+19 silly found diff in packages/react-feather/src/icons/user-minus.tsx
+19 silly found diff in packages/react-feather/src/icons/user-plus.tsx
+19 silly found diff in packages/react-feather/src/icons/user-x.tsx
+19 silly found diff in packages/react-feather/src/icons/user.tsx
+19 silly found diff in packages/react-feather/src/icons/users.tsx
+19 silly found diff in packages/react-feather/src/icons/video-off.tsx
+19 silly found diff in packages/react-feather/src/icons/video.tsx
+19 silly found diff in packages/react-feather/src/icons/voicemail.tsx
+19 silly found diff in packages/react-feather/src/icons/volume-1.tsx
+19 silly found diff in packages/react-feather/src/icons/volume-2.tsx
+19 silly found diff in packages/react-feather/src/icons/volume-x.tsx
+19 silly found diff in packages/react-feather/src/icons/volume.tsx
+19 silly found diff in packages/react-feather/src/icons/watch.tsx
+19 silly found diff in packages/react-feather/src/icons/wifi-off.tsx
+19 silly found diff in packages/react-feather/src/icons/wifi.tsx
+19 silly found diff in packages/react-feather/src/icons/wind.tsx
+19 silly found diff in packages/react-feather/src/icons/x-circle.tsx
+19 silly found diff in packages/react-feather/src/icons/x-octagon.tsx
+19 silly found diff in packages/react-feather/src/icons/x-square.tsx
+19 silly found diff in packages/react-feather/src/icons/x.tsx
+19 silly found diff in packages/react-feather/src/icons/youtube.tsx
+19 silly found diff in packages/react-feather/src/icons/zap-off.tsx
+19 silly found diff in packages/react-feather/src/icons/zap.tsx
+19 silly found diff in packages/react-feather/src/icons/zoom-in.tsx
+19 silly found diff in packages/react-feather/src/icons/zoom-out.tsx
+19 silly found diff in packages/react-feather/src/index.ts
+19 silly found diff in packages/react-feather/tsconfig.json
+20 verbose filtered diff [
+20 verbose filtered diff   'packages/react-feather/CHANGELOG.md',
+20 verbose filtered diff   'packages/react-feather/package.json',
+20 verbose filtered diff   'packages/react-feather/src/Icon.tsx',
+20 verbose filtered diff   'packages/react-feather/src/__test__/Icon.test.tsx',
+20 verbose filtered diff   'packages/react-feather/src/__test__/__snapshots__/Icon.test.tsx.snap',
+20 verbose filtered diff   'packages/react-feather/src/icons/activity.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/airplay.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/alert-circle.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/alert-octagon.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/alert-triangle.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/align-center.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/align-justify.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/align-left.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/align-right.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/anchor.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/aperture.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/archive.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/arrow-down-circle.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/arrow-down-left.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/arrow-down-right.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/arrow-down.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/arrow-left-circle.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/arrow-left.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/arrow-right-circle.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/arrow-right.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/arrow-up-circle.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/arrow-up-left.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/arrow-up-right.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/arrow-up.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/at-sign.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/award.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/bar-chart-2.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/bar-chart.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/battery-charging.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/battery.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/bell-off.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/bell.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/bluetooth.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/bold.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/book-open.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/book.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/bookmark.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/box.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/briefcase.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/calendar.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/camera-off.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/camera.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/cast.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/check-circle.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/check-square.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/check.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/chevron-down.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/chevron-left.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/chevron-right.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/chevron-up.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/chevrons-down.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/chevrons-left.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/chevrons-right.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/chevrons-up.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/chrome.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/circle.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/clipboard.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/clock.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/cloud-drizzle.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/cloud-lightning.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/cloud-off.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/cloud-rain.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/cloud-snow.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/cloud.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/code.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/codepen.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/codesandbox.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/coffee.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/columns.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/command.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/compass.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/copy.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/corner-down-left.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/corner-down-right.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/corner-left-down.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/corner-left-up.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/corner-right-down.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/corner-right-up.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/corner-up-left.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/corner-up-right.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/cpu.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/credit-card.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/crop.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/crosshair.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/database.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/delete.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/disc.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/divide-circle.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/divide-square.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/divide.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/dollar-sign.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/download-cloud.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/download.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/dribbble.tsx',
+20 verbose filtered diff   'packages/react-feather/src/icons/droplet.tsx',
+20 verbose filtered diff   ... 194 more items
+20 verbose filtered diff ]
+21 silly checking diff packages/react-lazy-named
+22 silly found diff in packages/react-lazy-named/.gitignore
+22 silly found diff in packages/react-lazy-named/LICENSE
+22 silly found diff in packages/react-lazy-named/README.md
+22 silly found diff in packages/react-lazy-named/package.json
+22 silly found diff in packages/react-lazy-named/src/__snapshots__/index.spec.tsx.snap
+22 silly found diff in packages/react-lazy-named/src/index.spec.tsx
+22 silly found diff in packages/react-lazy-named/src/index.ts
+22 silly found diff in packages/react-lazy-named/tsconfig.json
+23 verbose filtered diff [
+23 verbose filtered diff   'packages/react-lazy-named/.gitignore',
+23 verbose filtered diff   'packages/react-lazy-named/LICENSE',
+23 verbose filtered diff   'packages/react-lazy-named/README.md',
+23 verbose filtered diff   'packages/react-lazy-named/package.json',
+23 verbose filtered diff   'packages/react-lazy-named/src/__snapshots__/index.spec.tsx.snap',
+23 verbose filtered diff   'packages/react-lazy-named/src/index.spec.tsx',
+23 verbose filtered diff   'packages/react-lazy-named/src/index.ts',
+23 verbose filtered diff   'packages/react-lazy-named/tsconfig.json'
+23 verbose filtered diff ]
+24 silly checking diff packages/react-textfit
+25 silly found diff in packages/react-textfit/CHANGELOG.md
+25 silly found diff in packages/react-textfit/package.json
+26 verbose filtered diff [
+26 verbose filtered diff   'packages/react-textfit/CHANGELOG.md',
+26 verbose filtered diff   'packages/react-textfit/package.json'
+26 verbose filtered diff ]
+27 silly checking diff packages/styled-system
+28 silly found diff in packages/styled-system/CHANGELOG.md
+28 silly found diff in packages/styled-system/package.json
+28 silly found diff in packages/styled-system/src/functions.ts
+28 silly found diff in packages/styled-system/src/types.ts
+29 verbose filtered diff [
+29 verbose filtered diff   'packages/styled-system/CHANGELOG.md',
+29 verbose filtered diff   'packages/styled-system/package.json',
+29 verbose filtered diff   'packages/styled-system/src/functions.ts',
+29 verbose filtered diff   'packages/styled-system/src/types.ts'
+29 verbose filtered diff ]
+30 silly checking diff packages/tcm-cli
+31 silly found diff in packages/tcm-cli/CHANGELOG.md
+31 silly found diff in packages/tcm-cli/conf/eslint-config-react-app/package.json
+31 silly found diff in packages/tcm-cli/docs/package.json
+31 silly found diff in packages/tcm-cli/docs/yarn.lock
+31 silly found diff in packages/tcm-cli/package.json
+31 silly found diff in packages/tcm-cli/templates/react-with-storybook/example/package.json
+31 silly found diff in packages/tcm-cli/templates/react/example/package.json
+32 verbose filtered diff [
+32 verbose filtered diff   'packages/tcm-cli/CHANGELOG.md',
+32 verbose filtered diff   'packages/tcm-cli/conf/eslint-config-react-app/package.json',
+32 verbose filtered diff   'packages/tcm-cli/docs/package.json',
+32 verbose filtered diff   'packages/tcm-cli/docs/yarn.lock',
+32 verbose filtered diff   'packages/tcm-cli/package.json',
+32 verbose filtered diff   'packages/tcm-cli/templates/react-with-storybook/example/package.json',
+32 verbose filtered diff   'packages/tcm-cli/templates/react/example/package.json'
+32 verbose filtered diff ]
+33 silly checking diff packages/theme
+34 silly found diff in packages/theme/CHANGELOG.md
+34 silly found diff in packages/theme/package.json
+35 verbose filtered diff [ 'packages/theme/CHANGELOG.md', 'packages/theme/package.json' ]
+36 silly checking diff platforms/react-cms
+37 silly found diff in platforms/react-cms/CHANGELOG.md
+37 silly found diff in platforms/react-cms/package.json
+38 verbose filtered diff [
+38 verbose filtered diff   'platforms/react-cms/CHANGELOG.md',
+38 verbose filtered diff   'platforms/react-cms/package.json'
+38 verbose filtered diff ]
+39 verbose updated @aw-web-design/components
+40 verbose updated @aw-web-design/react-feather
+41 verbose updated @aw-web-design/react-lazy-named
+42 verbose updated @aw-web-design/react-textfit
+43 verbose updated @aw-web-design/styled-system
+44 verbose updated @aw-web-design/tcm-cli
+45 verbose updated @aw-web-design/theme
+46 verbose updated react-cms
+47 verbose git-describe undefined => "@aw-web-design/components@3.1.36-102-g862807a"
+48 silly git-describe parsed => {"lastTagName":"@aw-web-design/components@3.1.36","lastVersion":"3.1.36","refCount":"102","sha":"862807a","isDirty":false}
+49 silly independent for @aw-web-design/components at /Users/iv0706/code/TechStack/packages/components
+50 verbose getChangelogConfig using preset "conventional-changelog-angular"
+51 silly npa Result {
+51 silly npa   type: 'tag',
+51 silly npa   registry: true,
+51 silly npa   where: undefined,
+51 silly npa   raw: 'conventional-changelog-angular',
+51 silly npa   name: 'conventional-changelog-angular',
+51 silly npa   escapedName: 'conventional-changelog-angular',
+51 silly npa   scope: undefined,
+51 silly npa   rawSpec: '',
+51 silly npa   saveSpec: null,
+51 silly npa   fetchSpec: 'latest',
+51 silly npa   gitRange: undefined,
+51 silly npa   gitCommittish: undefined,
+51 silly npa   hosted: undefined
+51 silly npa }
+52 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+53 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+54 verbose independent increment 3.1.42 by minor
+55 silly independent for @aw-web-design/react-feather at /Users/iv0706/code/TechStack/packages/react-feather
+56 verbose independent increment 3.1.42 by patch
+57 silly independent for @aw-web-design/react-lazy-named at /Users/iv0706/code/TechStack/packages/react-lazy-named
+58 verbose independent increment 1.0.1 by patch
+59 silly independent for @aw-web-design/react-textfit at /Users/iv0706/code/TechStack/packages/react-textfit
+60 verbose independent increment 3.1.42 by patch
+61 silly independent for @aw-web-design/styled-system at /Users/iv0706/code/TechStack/packages/styled-system
+62 verbose independent increment 3.1.42 by minor
+63 silly independent for @aw-web-design/tcm-cli at /Users/iv0706/code/TechStack/packages/tcm-cli
+64 verbose independent increment 3.1.40 by patch
+65 silly independent for @aw-web-design/theme at /Users/iv0706/code/TechStack/packages/theme
+66 verbose independent increment 3.1.42 by patch
+67 silly independent for react-cms at /Users/iv0706/code/TechStack/platforms/react-cms
+68 verbose independent increment 3.1.38 by patch
+69 info auto-confirmed
+70 info execute Skipping releases
+71 silly lifecycle No script for "preversion" in "aw-web-design", continuing
+72 silly lifecycle No script for "preversion" in "@aw-web-design/components", continuing
+73 silly lifecycle No script for "preversion" in "@aw-web-design/react-lazy-named", continuing
+74 silly lifecycle No script for "preversion" in "@aw-web-design/react-textfit", continuing
+75 silly lifecycle No script for "preversion" in "@aw-web-design/styled-system", continuing
+76 silly lifecycle No script for "preversion" in "@aw-web-design/tcm-cli", continuing
+77 silly lifecycle No script for "preversion" in "@aw-web-design/theme", continuing
+78 silly lifecycle No script for "preversion" in "react-cms", continuing
+79 silly lifecycle No script for "version" in "@aw-web-design/tcm-cli", continuing
+80 silly independent for @aw-web-design/tcm-cli at /Users/iv0706/code/TechStack/packages/tcm-cli
+81 silly lifecycle No script for "version" in "@aw-web-design/styled-system", continuing
+82 silly independent for @aw-web-design/styled-system at /Users/iv0706/code/TechStack/packages/styled-system
+83 silly lifecycle No script for "version" in "@aw-web-design/react-lazy-named", continuing
+84 silly independent for @aw-web-design/react-lazy-named at /Users/iv0706/code/TechStack/packages/react-lazy-named
+85 silly lifecycle No script for "version" in "@aw-web-design/react-textfit", continuing
+86 silly independent for @aw-web-design/react-textfit at /Users/iv0706/code/TechStack/packages/react-textfit
+87 silly lifecycle No script for "version" in "@aw-web-design/components", continuing
+88 silly independent for @aw-web-design/components at /Users/iv0706/code/TechStack/packages/components
+89 silly lifecycle No script for "version" in "@aw-web-design/theme", continuing
+90 silly independent for @aw-web-design/theme at /Users/iv0706/code/TechStack/packages/theme
+91 silly lifecycle No script for "version" in "react-cms", continuing
+92 silly independent for react-cms at /Users/iv0706/code/TechStack/platforms/react-cms
+93 silly independent writing new entry: "# [3.2.0](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/styled-system@3.1.42...@aw-web-design/styled-system@3.2.0) (2022-04-29)\n\n\n### Bug Fixes\n\n* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))\n\n\n### Features\n\n* start to make theme optional on components ([bdec113](https://github.com/The-Code-Monkey/TechStack/commit/bdec1132a5e09f9a655f9a70a5208425e4389588))\n\n\n\n"
+94 silly independent writing new entry: "## [3.1.41](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@3.1.40...@aw-web-design/tcm-cli@3.1.41) (2022-04-29)\n\n\n### Bug Fixes\n\n* **deps:** update dependency @rollup/plugin-commonjs to v22 ([#270](https://github.com/The-Code-Monkey/TechStack/issues/270)) ([942caaa](https://github.com/The-Code-Monkey/TechStack/commit/942caaa717e0d74f296259e2d4e87231bdc1dd75))\n* **deps:** update dependency @rollup/plugin-commonjs to v22 ([#293](https://github.com/The-Code-Monkey/TechStack/issues/293)) ([5ca0767](https://github.com/The-Code-Monkey/TechStack/commit/5ca07671db7ea602e7e841f43496a5d4b60f14ff))\n* **deps:** update dependency eslint to v8.14.0 ([#286](https://github.com/The-Code-Monkey/TechStack/issues/286)) ([d58742c](https://github.com/The-Code-Monkey/TechStack/commit/d58742c609845bfbda1126749578f0744577d644))\n* **deps:** update dependency eslint-plugin-jest to v26.1.5 ([f7a07ff](https://github.com/The-Code-Monkey/TechStack/commit/f7a07ffbd9584413a42b516b06d5358e8fd20b3d))\n* **deps:** update dependency eslint-plugin-jest to v26.1.5 ([#289](https://github.com/The-Code-Monkey/TechStack/issues/289)) ([96b86fe](https://github.com/The-Code-Monkey/TechStack/commit/96b86fe6e1aa21fbd1bfa9ce0c7319449ed6d88d))\n* **deps:** update dependency jest-watch-typeahead to v1.1.0 ([b7f834d](https://github.com/The-Code-Monkey/TechStack/commit/b7f834d3bf267fcaa003cf0eb4eed953cecc08d1))\n\n\n### Reverts\n\n* Revert \"chore(deps): update jest monorepo to v28 (major) (#273)\" (#297) ([12abb03](https://github.com/The-Code-Monkey/TechStack/commit/12abb038ff46339e82af24a3e811457a3a69ce9d)), closes [#273](https://github.com/The-Code-Monkey/TechStack/issues/273) [#297](https://github.com/The-Code-Monkey/TechStack/issues/297)\n* Revert \"chore(deps): update jest monorepo to v28.0.1 (#280)\" (#296) ([b23a57d](https://github.com/The-Code-Monkey/TechStack/commit/b23a57d57381e4277c1f13117404843f73ceb106)), closes [#280](https://github.com/The-Code-Monkey/TechStack/issues/280) [#296](https://github.com/The-Code-Monkey/TechStack/issues/296)\n* Revert \"chore(deps): update jest monorepo to v28.0.2 (#285)\" (#295) ([75fa93b](https://github.com/The-Code-Monkey/TechStack/commit/75fa93b06480830a63f2e5946e2fb5a48eb70096)), closes [#285](https://github.com/The-Code-Monkey/TechStack/issues/285) [#295](https://github.com/The-Code-Monkey/TechStack/issues/295)\n\n\n\n"
+95 verbose independent wrote /Users/iv0706/code/TechStack/packages/styled-system/CHANGELOG.md
+96 verbose independent wrote /Users/iv0706/code/TechStack/packages/tcm-cli/CHANGELOG.md
+97 silly independent writing new entry: "## [3.1.43](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-textfit@3.1.42...@aw-web-design/react-textfit@3.1.43) (2022-04-29)\n\n\n### Bug Fixes\n\n* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#264](https://github.com/The-Code-Monkey/TechStack/issues/264)) ([a507d5a](https://github.com/The-Code-Monkey/TechStack/commit/a507d5a3e769e53d99409dde475d0b0ae9bbb7b8))\n* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))\n* **deps:** update dependency eslint to v8.14.0 ([#286](https://github.com/The-Code-Monkey/TechStack/issues/286)) ([d58742c](https://github.com/The-Code-Monkey/TechStack/commit/d58742c609845bfbda1126749578f0744577d644))\n\n\n### Reverts\n\n* Revert \"chore(deps): update jest monorepo to v28 (major) (#273)\" (#297) ([12abb03](https://github.com/The-Code-Monkey/TechStack/commit/12abb038ff46339e82af24a3e811457a3a69ce9d)), closes [#273](https://github.com/The-Code-Monkey/TechStack/issues/273) [#297](https://github.com/The-Code-Monkey/TechStack/issues/297)\n* Revert \"chore(deps): update jest monorepo to v28.0.1 (#280)\" (#296) ([b23a57d](https://github.com/The-Code-Monkey/TechStack/commit/b23a57d57381e4277c1f13117404843f73ceb106)), closes [#280](https://github.com/The-Code-Monkey/TechStack/issues/280) [#296](https://github.com/The-Code-Monkey/TechStack/issues/296)\n* Revert \"chore(deps): update jest monorepo to v28.0.2 (#285)\" (#295) ([75fa93b](https://github.com/The-Code-Monkey/TechStack/commit/75fa93b06480830a63f2e5946e2fb5a48eb70096)), closes [#285](https://github.com/The-Code-Monkey/TechStack/issues/285) [#295](https://github.com/The-Code-Monkey/TechStack/issues/295)\n\n\n\n"
+98 silly independent writing new entry: "## [3.1.43](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.1.42...@aw-web-design/theme@3.1.43) (2022-04-29)\n\n\n### Bug Fixes\n\n* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))\n\n\n\n"
+99 verbose independent wrote /Users/iv0706/code/TechStack/packages/react-textfit/CHANGELOG.md
+100 verbose independent wrote /Users/iv0706/code/TechStack/packages/theme/CHANGELOG.md
+101 silly independent writing new entry: "## [3.1.39](https://github.com/The-Code-Monkey/TechStack/compare/react-cms@3.1.38...react-cms@3.1.39) (2022-04-29)\n\n\n### Bug Fixes\n\n* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#264](https://github.com/The-Code-Monkey/TechStack/issues/264)) ([a507d5a](https://github.com/The-Code-Monkey/TechStack/commit/a507d5a3e769e53d99409dde475d0b0ae9bbb7b8))\n* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))\n* **deps:** update dependency next-auth to v4.3.4 ([#298](https://github.com/The-Code-Monkey/TechStack/issues/298)) ([99090b0](https://github.com/The-Code-Monkey/TechStack/commit/99090b07d1da36c8abf13dcede261db67c8913b7))\n\n\n\n"
+102 verbose independent wrote /Users/iv0706/code/TechStack/platforms/react-cms/CHANGELOG.md
+103 silly independent writing new entry: "# [3.2.0](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.1.42...@aw-web-design/components@3.2.0) (2022-04-29)\n\n\n### Bug Fixes\n\n* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#264](https://github.com/The-Code-Monkey/TechStack/issues/264)) ([a507d5a](https://github.com/The-Code-Monkey/TechStack/commit/a507d5a3e769e53d99409dde475d0b0ae9bbb7b8))\n* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))\n\n\n### Features\n\n* start to make theme optional on components ([bdec113](https://github.com/The-Code-Monkey/TechStack/commit/bdec1132a5e09f9a655f9a70a5208425e4389588))\n\n\n### Reverts\n\n* Revert \"chore(deps): update jest monorepo to v28 (major) (#273)\" (#297) ([12abb03](https://github.com/The-Code-Monkey/TechStack/commit/12abb038ff46339e82af24a3e811457a3a69ce9d)), closes [#273](https://github.com/The-Code-Monkey/TechStack/issues/273) [#297](https://github.com/The-Code-Monkey/TechStack/issues/297)\n* Revert \"chore(deps): update jest monorepo to v28.0.1 (#280)\" (#296) ([b23a57d](https://github.com/The-Code-Monkey/TechStack/commit/b23a57d57381e4277c1f13117404843f73ceb106)), closes [#280](https://github.com/The-Code-Monkey/TechStack/issues/280) [#296](https://github.com/The-Code-Monkey/TechStack/issues/296)\n* Revert \"chore(deps): update jest monorepo to v28.0.2 (#285)\" (#295) ([75fa93b](https://github.com/The-Code-Monkey/TechStack/commit/75fa93b06480830a63f2e5946e2fb5a48eb70096)), closes [#285](https://github.com/The-Code-Monkey/TechStack/issues/285) [#295](https://github.com/The-Code-Monkey/TechStack/issues/295)\n\n\n\n"
+104 verbose independent wrote /Users/iv0706/code/TechStack/packages/components/CHANGELOG.md
+105 silly independent writing new entry: "## 1.0.2 (2022-04-29)\n\n\n### Bug Fixes\n\n* add new package react-lazy-named ([023fec6](https://github.com/grgur/react-lazy-named/commit/023fec68ac232c5cef4784a146c969d3034f937e))\n* some stuff is flakey ([d58d418](https://github.com/grgur/react-lazy-named/commit/d58d418a0b3b409ad92cd64412392f746d7ecd67))\n\n\n\n"
+106 verbose independent wrote /Users/iv0706/code/TechStack/packages/react-lazy-named/CHANGELOG.md
+107 silly lifecycle No script for "preversion" in "@aw-web-design/react-feather", continuing
+108 silly lifecycle No script for "version" in "@aw-web-design/react-feather", continuing
+109 silly independent for @aw-web-design/react-feather at /Users/iv0706/code/TechStack/packages/react-feather
+110 silly independent writing new entry: "## [3.1.43](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-feather@3.1.42...@aw-web-design/react-feather@3.1.43) (2022-04-29)\n\n\n### Bug Fixes\n\n* add * as react to all icons ([caa037a](https://github.com/The-Code-Monkey/TechStack/commit/caa037a13093c7eb4ad524992b7c70f2257d82c6))\n* add new package react-lazy-named ([023fec6](https://github.com/The-Code-Monkey/TechStack/commit/023fec68ac232c5cef4784a146c969d3034f937e))\n* at least it spits out the error now ([084d1aa](https://github.com/The-Code-Monkey/TechStack/commit/084d1aa06e232dd8b7373ff068c9969330e372fb))\n* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#264](https://github.com/The-Code-Monkey/TechStack/issues/264)) ([a507d5a](https://github.com/The-Code-Monkey/TechStack/commit/a507d5a3e769e53d99409dde475d0b0ae9bbb7b8))\n* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))\n* **deps:** update dependency eslint to v8.14.0 ([#286](https://github.com/The-Code-Monkey/TechStack/issues/286)) ([d58742c](https://github.com/The-Code-Monkey/TechStack/commit/d58742c609845bfbda1126749578f0744577d644))\n* some stuff is flakey ([d58d418](https://github.com/The-Code-Monkey/TechStack/commit/d58d418a0b3b409ad92cd64412392f746d7ecd67))\n\n\n\n"
+111 verbose independent wrote /Users/iv0706/code/TechStack/packages/react-feather/CHANGELOG.md
+112 silly lifecycle No script for "version" in "aw-web-design", continuing
+113 silly gitAdd [
+113 silly gitAdd   'packages/tcm-cli/package.json',
+113 silly gitAdd   'packages/styled-system/package.json',
+113 silly gitAdd   'packages/react-lazy-named/package.json',
+113 silly gitAdd   'packages/react-textfit/package.json',
+113 silly gitAdd   'packages/components/package.json',
+113 silly gitAdd   'packages/theme/package.json',
+113 silly gitAdd   'platforms/react-cms/package.json',
+113 silly gitAdd   'packages/styled-system/CHANGELOG.md',
+113 silly gitAdd   'packages/tcm-cli/CHANGELOG.md',
+113 silly gitAdd   'packages/react-textfit/CHANGELOG.md',
+113 silly gitAdd   'packages/theme/CHANGELOG.md',
+113 silly gitAdd   'platforms/react-cms/CHANGELOG.md',
+113 silly gitAdd   'packages/components/CHANGELOG.md',
+113 silly gitAdd   'packages/react-lazy-named/CHANGELOG.md',
+113 silly gitAdd   'packages/react-feather/package.json',
+113 silly gitAdd   'packages/react-feather/CHANGELOG.md'
+113 silly gitAdd ]
+114 silly gitCommit chore(release): version
+114 silly gitCommit
+114 silly gitCommit  - @aw-web-design/components@3.2.0
+114 silly gitCommit  - @aw-web-design/react-feather@3.1.43
+114 silly gitCommit  - @aw-web-design/react-lazy-named@1.0.2
+114 silly gitCommit  - @aw-web-design/react-textfit@3.1.43
+114 silly gitCommit  - @aw-web-design/styled-system@3.2.0
+114 silly gitCommit  - @aw-web-design/tcm-cli@3.1.41
+114 silly gitCommit  - @aw-web-design/theme@3.1.43
+114 silly gitCommit  - react-cms@3.1.39
+115 verbose git [
+115 verbose git   'commit',
+115 verbose git   '-F',
+115 verbose git   '/private/var/folders/j7/s6hh0hh55zs8s45mr197bdfc0000gn/T/797df8e4-f9d1-4897-8203-5853f4944776/lerna-commit.txt'
+115 verbose git ]
+116 error Error: Command failed with exit code 1: git commit -F /private/var/folders/j7/s6hh0hh55zs8s45mr197bdfc0000gn/T/797df8e4-f9d1-4897-8203-5853f4944776/lerna-commit.txt
+116 error $ lerna run lint && yarn lint:cms
+116 error lerna notice cli v4.0.0
+116 error lerna info versioning independent
+116 error lerna info Executing command in 8 packages: "yarn run lint"
+116 error lerna info run Ran npm script 'lint' in '@aw-web-design/tcm-cli' in 60.5s:
+116 error $ yarn build && yarn lint:post-build
+116 error $ tsc -p tsconfig.json
+116 error $ node dist/index.js lint ./
+116 error
+116 error lerna info run Ran npm script 'lint' in '@aw-web-design/theme' in 5.0s:
+116 error $ tcm lint
+116 error Defaulting to "tcm lint src"
+116 error You can override this in the package.json scripts, like "lint": "tcm lint src otherDir"
+116 error
+116 error lerna info run Ran npm script 'lint' in '@aw-web-design/react-lazy-named' in 5.2s:
+116 error $ tcm lint
+116 error Defaulting to "tcm lint src"
+116 error You can override this in the package.json scripts, like "lint": "tcm lint src otherDir"
+116 error
+116 error lerna info run Ran npm script 'lint' in '@aw-web-design/react-textfit' in 5.2s:
+116 error $ tcm lint
+116 error Defaulting to "tcm lint src"
+116 error You can override this in the package.json scripts, like "lint": "tcm lint src otherDir"
+116 error
+116 error lerna info run Ran npm script 'lint' in '@aw-web-design/styled-system' in 6.9s:
+116 error $ tcm lint
+116 error Defaulting to "tcm lint src"
+116 error You can override this in the package.json scripts, like "lint": "tcm lint src otherDir"
+116 error
+116 error lerna info run Ran npm script 'lint' in '@aw-web-design/react-feather' in 10.5s:
+116 error $ tcm lint
+116 error Defaulting to "tcm lint src"
+116 error You can override this in the package.json scripts, like "lint": "tcm lint src otherDir"
+116 error
+116 error lerna info run Ran npm script 'lint' in '@aw-web-design/components' in 6.8s:
+116 error $ yarn build:tokens && tcm lint
+116 error $ orchard generate
+116 error Using default theme
+116 error /Users/iv0706/code/TechStack/packages/components/node_modules/@aw-web-design/theme/dist/theme/default/**/*.json
+116 error
+116 error PASSTHROUGH_JS
+116 error ✔︎ theme-dist/core.ts
+116 error
+116 error JS
+116 error ⚠️ theme-dist/dark-mode.ts
+116 error While building dark-mode.ts, token collisions were found; output may be unexpected.
+116 error     Output name 0 was generated by:
+116 error         color.modes.dark.highlights.0   #009fe3
+116 error         color.modes.dark.primary.0   #5a90b1
+116 error     Output name 1 was generated by:
+116 error         color.modes.dark.highlights.1   #018ECB
+116 error         color.modes.dark.primary.1   #6b9bb9
+116 error     Output name 2 was generated by:
+116 error         color.modes.dark.highlights.2   #006A99
+116 error         color.modes.dark.primary.2   #5485a3
+116 error     Output name 3 was generated by:
+116 error         color.modes.dark.highlights.3   #213740
+116 error         color.modes.dark.primary.3   #4c758d
+116 error     Output name 4 was generated by:
+116 error         color.modes.dark.highlights.4   #0E2934
+116 error         color.modes.dark.primary.4   #2d383f
+116 error This many-to-one issue is usually caused by some combination of:
+116 error     * conflicting or similar paths/names in property definitions
+116 error     * platform transforms/transformGroups affecting names, especially when removing specificity
+116 error     * overly inclusive file filters
+116 error ⚠️ theme-dist/light-mode.ts
+116 error While building light-mode.ts, token collisions were found; output may be unexpected.
+116 error     Output name 0 was generated by:
+116 error         color.modes.light.highlights.0   #009fe3
+116 error         color.modes.light.primary.0   #5a90b1
+116 error     Output name 1 was generated by:
+116 error         color.modes.light.highlights.1   #018ECB
+116 error         color.modes.light.primary.1   #5485a3
+116 error     Output name 2 was generated by:
+116 error         color.modes.light.highlights.2   #006A99
+116 error         color.modes.light.primary.2   #6b9bb9
+116 error     Output name 3 was generated by:
+116 error         color.modes.light.highlights.3   #213740
+116 error         color.modes.light.primary.3   #83acc5
+116 error     Output name 4 was generated by:
+116 error         color.modes.light.highlights.4   #0E2934
+116 error         color.modes.light.primary.4   #dee9ef
+116 error This many-to-one issue is usually caused by some combination of:
+116 error     * conflicting or similar paths/names in property definitions
+116 error     * platform transforms/transformGroups affecting names, especially when removing specificity
+116 error     * overly inclusive file filters
+116 error ✔︎ theme-dist/intents.ts
+116 error ✔︎ theme-dist/neutrals.ts
+116 error ✔︎ theme-dist/fonts.ts
+116 error ✔︎ theme-dist/elevation.ts
+116 error ⚠️ theme-dist/defaultStyles.ts
+116 error While building defaultStyles.ts, token collisions were found; output may be unexpected.
+116 error     Output name width was generated by:
+116 error         defaultStyles.input.width   100%
+116 error         defaultStyles.table.width   100%
+116 error This many-to-one issue is usually caused by some combination of:
+116 error     * conflicting or similar paths/names in property definitions
+116 error     * platform transforms/transformGroups affecting names, especially when removing specificity
+116 error     * overly inclusive file filters
+116 error ✔︎ theme-dist/shadows.ts
+116 error ⚠️ theme-dist/time.ts
+116 error While building time.ts, token collisions were found; output may be unexpected.
+116 error     Output name 0 was generated by:
+116 error         time.transition.0   0
+116 error         time.delay.0   0
+116 error         time.duration.0   0
+116 error     Output name 1 was generated by:
+116 error         time.transition.1   120ms
+116 error         time.delay.1   50ms
+116 error         time.duration.1   1000ms
+116 error     Output name 2 was generated by:
+116 error         time.transition.2   250ms
+116 error         time.delay.2   100ms
+116 error         time.duration.2   2000ms
+116 error     Output name 3 was generated by:
+116 error         time.transition.3   400ms
+116 error         time.delay.3   200ms
+116 error         time.duration.3   4000ms
+116 error     Output name default was generated by:
+116 error         time.transition.default   250ms
+116 error         time.delay.default   100ms
+116 error         time.duration.default   2000ms
+116 error This many-to-one issue is usually caused by some combination of:
+116 error     * conflicting or similar paths/names in property definitions
+116 error     * platform transforms/transformGroups affecting names, especially when removing specificity
+116 error     * overly inclusive file filters
+116 error ✔︎ theme-dist/sizes.ts
+116 error ⚠️ theme-dist/panelSizes.ts
+116 error While building panelSizes.ts, token collisions were found; output may be unexpected.
+116 error     Output name md was generated by:
+116 error         panelSizes.width.md   200px
+116 error         panelSizes.height.md   160px
+116 error     Output name lg was generated by:
+116 error         panelSizes.width.lg   20rem
+116 error         panelSizes.height.lg   240px
+116 error     Output name xl was generated by:
+116 error         panelSizes.width.xl   28rem
+116 error         panelSizes.height.xl   28rem
+116 error This many-to-one issue is usually caused by some combination of:
+116 error     * conflicting or similar paths/names in property definitions
+116 error     * platform transforms/transformGroups affecting names, especially when removing specificity
+116 error     * overly inclusive file filters
+116 error ✔︎ theme-dist/fontSizes.ts
+116 error ✔︎ theme-dist/fontWeights.ts
+116 error ✔︎ theme-dist/radii.ts
+116 error ✔︎ theme-dist/opacity.ts
+116 error ✔︎ theme-dist/space.ts
+116 error ✔︎ theme-dist/spacing.ts
+116 error ✔︎ theme-dist/borders.ts
+116 error ✔︎ theme-dist/lineHeights.ts
+116 error ✔︎ theme-dist/breakpoints.ts
+116 error ✔︎ theme-dist/breakpointSizes.ts
+116 error ✔︎ theme-dist/maxWidths.ts
+116 error /Users/iv0706/code/TechStack/packages/components/orchard.theme.config.json true
+116 error Defaulting to "tcm lint src"
+116 error You can override this in the package.json scripts, like "lint": "tcm lint src otherDir"
+116 error
+116 error lerna info run Ran npm script 'lint' in 'react-cms' in 3.4s:
+116 error $ next lint
+116 error info  - Loaded env from /Users/iv0706/code/TechStack/platforms/react-cms/.env.production
+116 error info  - Loaded env from /Users/iv0706/code/TechStack/platforms/react-cms/.env
+116 error ✔ No ESLint warnings or errors
+116 error lerna success run Ran npm script 'lint' in 8 packages in 86.4s:
+116 error lerna success - @aw-web-design/components
+116 error lerna success - @aw-web-design/react-feather
+116 error lerna success - @aw-web-design/react-lazy-named
+116 error lerna success - @aw-web-design/react-textfit
+116 error lerna success - @aw-web-design/styled-system
+116 error lerna success - @aw-web-design/tcm-cli
+116 error lerna success - @aw-web-design/theme
+116 error lerna success - react-cms
+116 error $ cd platforms/react-cms && yarn lint
+116 error $ next lint
+116 error info  - Loaded env from /Users/iv0706/code/TechStack/platforms/react-cms/.env.production
+116 error info  - Loaded env from /Users/iv0706/code/TechStack/platforms/react-cms/.env
+116 error ✔ No ESLint warnings or errors
+116 error $ cd platforms/react-cms && yarn lint
+116 error $ next lint
+116 error info  - Loaded env from /Users/iv0706/code/TechStack/platforms/react-cms/.env.production
+116 error info  - Loaded env from /Users/iv0706/code/TechStack/platforms/react-cms/.env
+116 error ✔ No ESLint warnings or errors
+116 error $ lerna run test
+116 error lerna notice cli v4.0.0
+116 error lerna info versioning independent
+116 error lerna info Executing command in 4 packages: "yarn run test"
+116 error lerna info run Ran npm script 'test' in '@aw-web-design/styled-system' in 16.7s:
+116 error $ tcm test
+116 error lerna info run Ran npm script 'test' in '@aw-web-design/react-lazy-named' in 17.1s:
+116 error $ tcm test
+116 error lerna ERR! yarn run test exited 1 in '@aw-web-design/react-feather'
+116 error lerna ERR! yarn run test stdout:
+116 error $ tcm test
+116 error   console.error
+116 error     Warning: A suspended resource finished loading inside a test, but the event was not wrapped in act(...).
+116 error
+116 error     When testing, code that resolves suspended data should be wrapped into act(...):
+116 error
+116 error     act(() => {
+116 error       /* finish loading suspended data */
+116 error     });
+116 error     /* assert on the output */
+116 error
+116 error     This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+116 error
+116 error       at printWarning (../../node_modules/react-dom/cjs/react-dom.development.js:86:30)
+116 error       at error (../../node_modules/react-dom/cjs/react-dom.development.js:60:7)
+116 error       at warnIfSuspenseResolutionNotWrappedWithActDEV (../../node_modules/react-dom/cjs/react-dom.development.js:27558:7)
+116 error       at pingSuspendedRoot (../../node_modules/react-dom/cjs/react-dom.development.js:27142:3)
+116 error
+116 error info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+116 error lerna ERR! yarn run test stderr:
+116 error FAIL src/__test__/Icon.test.tsx
+116 error   <Icon />
+116 error     ✕ renders correctly (73 ms)
+116 error
+116 error   ● <Icon /> › renders correctly
+116 error
+116 error     TestingLibraryElementError: Unable to find an element with the title: check-icon.
+116 error
+116 error     Ignored nodes: comments, <script />, <style />
+116 error     [36m<body>[39m
+116 error       [36m<div>[39m
+116 error         [36m<svg[39m
+116 error           [33mdata-name[39m=[32m"fallback-icon"[39m
+116 error           [33mfill[39m=[32m"none"[39m
+116 error           [33mheight[39m=[32m"24"[39m
+116 error           [33mstroke[39m=[32m"currentColor"[39m
+116 error           [33mstroke-linecap[39m=[32m"round"[39m
+116 error           [33mstroke-linejoin[39m=[32m"round"[39m
+116 error           [33mstroke-width[39m=[32m"2"[39m
+116 error           [33mviewBox[39m=[32m"0 0 24 24"[39m
+116 error           [33mwidth[39m=[32m"24"[39m
+116 error           [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+116 error         [36m>[39m
+116 error           [36m<circle[39m
+116 error             [33mcx[39m=[32m"12"[39m
+116 error             [33mcy[39m=[32m"12"[39m
+116 error             [33mr[39m=[32m"10"[39m
+116 error           [36m/>[39m
+116 error           [36m<path[39m
+116 error             [33md[39m=[32m"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"[39m
+116 error           [36m/>[39m
+116 error           [36m<line[39m
+116 error             [33mx1[39m=[32m"12"[39m
+116 error             [33mx2[39m=[32m"12.01"[39m
+116 error             [33my1[39m=[32m"17"[39m
+116 error             [33my2[39m=[32m"17"[39m
+116 error           [36m/>[39m
+116 error         [36m</svg>[39m
+116 error       [36m</div>[39m
+116 error     [36m</body>[39m
+116 error
+116 error       10 |     expect(asFragment()).toMatchSnapshot();
+116 error       11 |
+116 error     > 12 |     await screen.getByTitle('check-icon');
+116 error          |                  ^
+116 error       13 |
+116 error       14 |     expect(asFragment()).toMatchSnapshot();
+116 error       15 |   });
+116 error
+116 error       at Object.getElementError (../../node_modules/@testing-library/dom/dist/config.js:38:19)
+116 error       at ../../node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+116 error       at ../../node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+116 error       at ../../node_modules/@testing-library/dom/dist/query-helpers.js:111:19
+116 error       at Object.<anonymous> (src/__test__/Icon.test.tsx:12:18)
+116 error       at TestScheduler.scheduleTests (../../node_modules/@jest/core/build/TestScheduler.js:333:13)
+116 error       at runJest (../../node_modules/@jest/core/build/runJest.js:404:19)
+116 error       at _run10000 (../../node_modules/@jest/core/build/cli/index.js:320:7)
+116 error       at runCLI (../../node_modules/@jest/core/build/cli/index.js:173:3)
+116 error
+116 error Test Suites: 1 failed, 1 total
+116 error Tests:       1 failed, 1 total
+116 error Snapshots:   1 passed, 1 total
+116 error Time:        2.985 s, estimated 4 s
+116 error Ran all test suites.
+116 error error Command failed with exit code 1.
+116 error lerna ERR! yarn run test exited 1 in '@aw-web-design/react-feather'
+116 error error Command failed with exit code 1.
+116 error info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+116 error husky - pre-commit hook exited with code 1 (error)
+116 error     at makeError (/Users/iv0706/code/TechStack/node_modules/execa/lib/error.js:60:11)
+116 error     at handlePromise (/Users/iv0706/code/TechStack/node_modules/execa/index.js:118:26)
+116 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+116 error     at async Promise.all (index 0)

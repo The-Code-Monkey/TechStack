@@ -1,5 +1,5 @@
-import Icon from './Icon.js';
+import Icon from './Icon';
 
-export * from './icons/index.js';
+export * from './icons';
 
 export default Icon;

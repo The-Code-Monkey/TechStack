@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/styled-system@3.1.42...@aw-web-design/styled-system@3.2.0) (2022-04-29)
+
+
+### Bug Fixes
+
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))
+
+
+### Features
+
+* start to make theme optional on components ([bdec113](https://github.com/The-Code-Monkey/TechStack/commit/bdec1132a5e09f9a655f9a70a5208425e4389588))
+
+
+
+
+
 ## [3.1.42](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/styled-system@3.1.41...@aw-web-design/styled-system@3.1.42) (2022-04-22)
 
 

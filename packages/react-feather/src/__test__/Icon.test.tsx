@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, waitFor, screen } from '@testing-library/react';
 import * as React from 'react';
 
 import Icon from '../Icon';
@@ -9,7 +9,7 @@ describe('<Icon />', () => {
 
     expect(asFragment()).toMatchSnapshot();
 
-    await screen.getByTitle('check-icon');
+    await waitFor(() => expect(screen.getByTitle('check-icon')));
 
     expect(asFragment()).toMatchSnapshot();
   });

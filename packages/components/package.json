@@ -1,8 +1,11 @@
 {
-  "version": "3.1.42",
+  "version": "3.2.0",
   "license": "MIT",
-  "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "files": [
     "dist",
     "src"
@@ -27,11 +30,7 @@
     "release": "yarn lint && yarn build && release-it --ci --npm.access=public"
   },
   "jest": {
-    "testEnvironment": "jsdom",
-    "preset": "ts-jest",
-    "setupFiles": [
-      "<rootDir>/setupTests.js"
-    ]
+    "testEnvironment": "jsdom"
   },
   "name": "@aw-web-design/components",
   "author": "The-Code-Monkey",

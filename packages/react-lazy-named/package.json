@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/react-lazy-named",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React lazy() with named imports - exports support",
   "author": "Grgur Grisogono <grgur@grgur.com>",
   "user": "grgur",
@@ -39,8 +39,8 @@
     "rerender"
   ],
   "devDependencies": {
-    "@testing-library/react": "13.1.1",
-    "@aw-web-design/tcm-cli": "3.1.41"
+    "@aw-web-design/tcm-cli": "3.1.41",
+    "@testing-library/react": "13.1.1"
   },
   "peerDependencies": {
     "react": "18.1.0"
