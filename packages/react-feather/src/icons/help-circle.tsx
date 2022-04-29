@@ -3,7 +3,7 @@ import { IconProps } from '../types';
 
 const HelpCircle = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: React.ForwardedRef<SVGSVGElement>
+  ref: React.React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -28,4 +28,4 @@ const HelpCircle = (
 
 HelpCircle.displayName = 'HelpCircle';
 
-export default React.forwardRef(HelpCircle);
+export default React.React.forwardRef(HelpCircle);

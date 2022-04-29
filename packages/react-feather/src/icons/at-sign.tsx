@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const AtSign = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -28,4 +28,4 @@ const AtSign = (
 
 AtSign.displayName = 'AtSign';
 
-export default forwardRef(AtSign);
+export default React.forwardRef(AtSign);

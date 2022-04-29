@@ -4,7 +4,7 @@ import { IconProps } from '../types.js';
 
 const Package = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: React.ForwardedRef<SVGSVGElement>
+  ref: React.React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -30,4 +30,4 @@ const Package = (
 
 Package.displayName = 'Package';
 
-export default React.forwardRef(Package);
+export default React.React.forwardRef(Package);

@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const Activity = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<any>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -27,4 +27,4 @@ const Activity = (
 
 Activity.displayName = 'Activity';
 
-export default forwardRef(Activity);
+export default React.forwardRef(Activity);

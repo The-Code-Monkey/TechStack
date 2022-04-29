@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const Sliders = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -35,4 +35,4 @@ const Sliders = (
 
 Sliders.displayName = 'Sliders';
 
-export default forwardRef(Sliders);
+export default React.forwardRef(Sliders);

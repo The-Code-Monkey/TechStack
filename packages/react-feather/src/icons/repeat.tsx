@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const Repeat = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -30,4 +30,4 @@ const Repeat = (
 
 Repeat.displayName = 'Repeat';
 
-export default forwardRef(Repeat);
+export default React.forwardRef(Repeat);

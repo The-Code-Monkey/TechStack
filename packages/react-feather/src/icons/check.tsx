@@ -3,7 +3,7 @@ import { IconProps } from '../types';
 
 const Check = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: React.ForwardedRef<SVGSVGElement>
+  ref: React.React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -27,4 +27,4 @@ const Check = (
 
 Check.displayName = 'Check';
 
-export default React.forwardRef(Check);
+export default React.React.forwardRef(Check);

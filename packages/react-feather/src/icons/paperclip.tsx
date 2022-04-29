@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const Paperclip = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -27,4 +27,4 @@ const Paperclip = (
 
 Paperclip.displayName = 'Paperclip';
 
-export default forwardRef(Paperclip);
+export default React.forwardRef(Paperclip);

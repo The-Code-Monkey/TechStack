@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const XCircle = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -29,4 +29,4 @@ const XCircle = (
 
 XCircle.displayName = 'XCircle';
 
-export default forwardRef(XCircle);
+export default React.forwardRef(XCircle);

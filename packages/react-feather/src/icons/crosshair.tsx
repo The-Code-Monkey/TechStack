@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const Crosshair = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -31,4 +31,4 @@ const Crosshair = (
 
 Crosshair.displayName = 'Crosshair';
 
-export default forwardRef(Crosshair);
+export default React.forwardRef(Crosshair);

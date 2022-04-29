@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const WifiOff = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -33,4 +33,4 @@ const WifiOff = (
 
 WifiOff.displayName = 'WifiOff';
 
-export default forwardRef(WifiOff);
+export default React.forwardRef(WifiOff);

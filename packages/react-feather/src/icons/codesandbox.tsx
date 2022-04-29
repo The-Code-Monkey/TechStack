@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const Codesandbox = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -32,4 +32,4 @@ const Codesandbox = (
 
 Codesandbox.displayName = 'Codesandbox';
 
-export default forwardRef(Codesandbox);
+export default React.forwardRef(Codesandbox);

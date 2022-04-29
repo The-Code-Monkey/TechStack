@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const AlertTriangle = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -29,4 +29,4 @@ const AlertTriangle = (
 
 AlertTriangle.displayName = 'AlertTriangle';
 
-export default forwardRef(AlertTriangle);
+export default React.forwardRef(AlertTriangle);

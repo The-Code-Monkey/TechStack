@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const ThumbsUp = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -27,4 +27,4 @@ const ThumbsUp = (
 
 ThumbsUp.displayName = 'ThumbsUp';
 
-export default forwardRef(ThumbsUp);
+export default React.forwardRef(ThumbsUp);

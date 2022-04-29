@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const LifeBuoy = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -33,4 +33,4 @@ const LifeBuoy = (
 
 LifeBuoy.displayName = 'LifeBuoy';
 
-export default forwardRef(LifeBuoy);
+export default React.forwardRef(LifeBuoy);

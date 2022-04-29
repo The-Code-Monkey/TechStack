@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const CornerRightUp = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -28,4 +28,4 @@ const CornerRightUp = (
 
 CornerRightUp.displayName = 'CornerRightUp';
 
-export default forwardRef(CornerRightUp);
+export default React.forwardRef(CornerRightUp);

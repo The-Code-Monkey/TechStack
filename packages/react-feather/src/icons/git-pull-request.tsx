@@ -1,10 +1,10 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const GitPullRequest = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
@@ -30,4 +30,4 @@ const GitPullRequest = (
 
 GitPullRequest.displayName = 'GitPullRequest';
 
-export default forwardRef(GitPullRequest);
+export default React.forwardRef(GitPullRequest);

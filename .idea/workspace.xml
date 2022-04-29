@@ -2,95 +2,294 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/components/src/molecules/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/.storybook/ThemedWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/.storybook/ThemedWrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/.storybook/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/orchard.theme.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/orchard.theme.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/button/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/checkbox/Checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/Checkbox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/checkbox/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/checkbox/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/checkbox/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/checkbox/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/checkbox/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/divider/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/divider/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/divider/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/divider/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/divider/divider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/divider/divider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/divider/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/divider/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/divider/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/divider/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/divider/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/divider/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/grid/Cell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/Cell.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/grid/Grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/Grid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/grid/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/grid/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/grid/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/grid/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/grid/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/grid/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/input/Input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/input/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/input/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/input/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/input/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/input/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/input/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/Table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/table/Table.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/table/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/table/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/table/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/table/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/atoms/table/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/table/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/accordion/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/accordion/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/molecules/accordion/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/accordion/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/molecules/buttonGroup/ButtonGroup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/buttonGroup/ButtonGroup.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/molecules/buttonGroup/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/buttonGroup/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/molecules/buttonGroup/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/buttonGroup/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/molecules/buttonGroup/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/buttonGroup/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/box/Box.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/box/Box.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/box/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/box/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/box/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/box/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/Icon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/__mocks__/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/__mocks__/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/icon/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/interactable/Interactable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/interactable/Interactable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/interactable/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/interactable/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/interactable/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/interactable/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/text/Text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/text/Text.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/text/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/text/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/primatives/text/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/text/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/test-tools/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/test-tools/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/theme/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/theme/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/theme/colors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/theme/colors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/theme/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/theme/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/theme/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/theme/variants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/theme/variants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/utils/automation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/automation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/utils/context/config.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/context/config.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/utils/shouldForwardProp.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/shouldForwardProp.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/utils/theme-provider/create-theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/create-theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/utils/theme-provider/enum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/enum.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/utils/theme-provider/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/utils/theme-provider/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/utils/theme-provider/theme-provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/theme-provider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/packages/utils/theme-provider/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/styled-system/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/activity.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/activity.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/airplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/airplay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/alert-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/alert-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/alert-octagon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/alert-octagon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/alert-triangle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/alert-triangle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/align-center.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/align-center.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/align-justify.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/align-justify.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/align-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/align-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/align-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/align-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/anchor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/anchor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/aperture.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/aperture.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/archive.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/archive.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-down-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-down-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-down-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-down-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-down-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-down-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-down.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-down.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-left-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-left-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-right-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-right-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-up-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-up-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-up-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-up-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-up-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-up-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/arrow-up.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/at-sign.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/at-sign.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/award.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/award.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/bar-chart-2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/bar-chart-2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/bar-chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/bar-chart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/battery-charging.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/battery-charging.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/battery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/battery.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/bell-off.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/bell-off.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/bell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/bell.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/bluetooth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/bluetooth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/bold.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/bold.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/book-open.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/book-open.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/book.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/book.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/bookmark.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/bookmark.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/box.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/box.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/briefcase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/briefcase.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/calendar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/calendar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/camera-off.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/camera-off.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/camera.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/camera.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/cast.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/cast.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/check-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/check-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/check-square.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/check-square.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/check.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/check.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/chevron-down.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/chevron-down.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/chevron-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/chevron-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/chevron-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/chevron-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/chevron-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/chevron-up.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/chevrons-down.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/chevrons-down.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/chevrons-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/chevrons-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/chevrons-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/chevrons-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/chevrons-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/chevrons-up.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/chrome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/chrome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/clipboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/clipboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/clock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/cloud-drizzle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/cloud-drizzle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/cloud-lightning.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/cloud-lightning.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/cloud-off.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/cloud-off.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/cloud-rain.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/cloud-rain.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/cloud-snow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/cloud-snow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/cloud.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/cloud.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/code.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/code.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/codepen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/codepen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/codesandbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/codesandbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/coffee.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/coffee.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/columns.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/columns.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/command.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/command.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/compass.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/compass.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/copy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/copy.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-down-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-down-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-down-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-down-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-left-down.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-left-down.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-left-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-left-up.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-right-down.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-right-down.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-right-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-right-up.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-up-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-up-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-up-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/corner-up-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/cpu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/cpu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/credit-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/credit-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/crop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/crop.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/crosshair.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/crosshair.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/database.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/database.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/delete.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/delete.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/disc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/disc.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/divide-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/divide-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/divide-square.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/divide-square.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/divide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/divide.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/dollar-sign.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/dollar-sign.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/download-cloud.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/download-cloud.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/download.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/download.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/dribbble.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/dribbble.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/droplet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/droplet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/edit-2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/edit-2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/edit-3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/edit-3.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/edit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/edit.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/external-link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/external-link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/eye-off.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/eye-off.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/eye.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/eye.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/facebook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/facebook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/fast-forward.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/fast-forward.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/feather.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/feather.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/figma.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/figma.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/file-minus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/file-minus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/file-plus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/file-plus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/file-text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/file-text.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/file.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/file.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/film.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/film.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/filter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/filter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/flag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/flag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/folder-minus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/folder-minus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/folder-plus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/folder-plus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/folder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/folder.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/framer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/framer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/frown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/frown.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/gift.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/gift.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/git-branch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/git-branch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/git-commit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/git-commit.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/git-merge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/git-merge.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/git-pull-request.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/git-pull-request.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/github.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/github.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/gitlab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/gitlab.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/globe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/globe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/grid.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/hard-drive.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/hard-drive.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/hash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/hash.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/headphones.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/headphones.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/heart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/heart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/help-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/help-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/hexagon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/hexagon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/image.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/inbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/inbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/info.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/info.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/instagram.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/instagram.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/italic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/italic.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/key.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/key.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/layers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/layers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/life-buoy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/life-buoy.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/link-2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/link-2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/linkedin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/linkedin.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/loader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/loader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/lock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/lock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/log-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/log-in.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/log-out.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/log-out.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/mail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/mail.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/map-pin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/map-pin.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/map.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/maximize-2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/maximize-2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/maximize.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/maximize.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/meh.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/meh.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/message-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/message-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/message-square.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/message-square.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/mic-off.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/mic-off.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/mic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/mic.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/minimize-2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/minimize-2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/minimize.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/minimize.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/minus-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/minus-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/minus-square.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/minus-square.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/minus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/minus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/monitor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/monitor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/moon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/moon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/more-horizontal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/more-horizontal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/more-vertical.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/more-vertical.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/mouse-pointer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/mouse-pointer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/move.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/move.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/music.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/music.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/navigation-2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/navigation-2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/octagon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/octagon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/package.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/package.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/paperclip.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/paperclip.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/pause-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/pause-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/pause.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/pause.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/pen-tool.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/pen-tool.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/percent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/percent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/phone-call.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/phone-call.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/phone-forwarded.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/phone-forwarded.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/phone-incoming.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/phone-incoming.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/phone-missed.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/phone-missed.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/phone-off.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/phone-off.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/phone-outgoing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/phone-outgoing.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/phone.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/phone.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/pie-chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/pie-chart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/play-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/play-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/play.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/play.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/plus-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/plus-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/plus-square.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/plus-square.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/plus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/plus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/pocket.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/pocket.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/power.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/power.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/printer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/printer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/radio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/radio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/refresh-ccw.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/refresh-ccw.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/refresh-cw.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/refresh-cw.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/repeat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/repeat.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/rewind.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/rewind.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/rotate-ccw.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/rotate-ccw.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/rotate-cw.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/rotate-cw.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/rss.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/rss.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/save.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/save.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/scissors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/scissors.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/send.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/send.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/server.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/server.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/settings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/settings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/share-2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/share-2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/share.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/share.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/shield-off.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/shield-off.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/shield.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/shield.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/shopping-bag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/shopping-bag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/shopping-cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/shopping-cart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/shuffle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/shuffle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/skip-back.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/skip-back.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/skip-forward.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/skip-forward.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/slack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/slack.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/slash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/slash.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/sliders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/sliders.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/smartphone.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/smartphone.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/smile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/smile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/speaker.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/speaker.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/square.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/square.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/star.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/star.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/stop-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/stop-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/sun.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/sun.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/sunrise.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/sunrise.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/sunset.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/sunset.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/tablet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/tablet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/tag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/tag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/target.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/target.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/terminal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/terminal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/thermometer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/thermometer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/thumbs-down.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/thumbs-down.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/thumbs-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/thumbs-up.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/toggle-left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/toggle-left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/toggle-right.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/toggle-right.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/tool.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/tool.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/trash-2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/trash-2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/trash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/trash.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/trello.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/trello.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/trending-down.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/trending-down.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/trending-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/trending-up.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/triangle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/triangle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/truck.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/truck.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/tv.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/tv.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/twitch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/twitch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/twitter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/twitter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/type.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/type.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/umbrella.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/umbrella.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/underline.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/underline.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/unlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/unlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/upload-cloud.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/upload-cloud.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/upload.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/upload.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/user-check.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/user-check.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/user-minus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/user-minus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/user-plus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/user-plus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/user-x.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/user-x.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/user.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/user.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/users.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/video-off.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/video-off.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/video.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/video.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/voicemail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/voicemail.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/volume-1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/volume-1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/volume-2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/volume-2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/volume-x.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/volume-x.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/volume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/volume.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/watch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/watch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/wifi-off.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/wifi-off.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/wifi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/wifi.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/wind.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/wind.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/x-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/x-circle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/x-octagon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/x-octagon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/x-square.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/x-square.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/x.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/x.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/youtube.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/youtube.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/zap-off.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/zap-off.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/zap.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/zap.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/zoom-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/zoom-in.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/zoom-out.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/zoom-out.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,6 +343,7 @@
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
@@ -157,6 +357,26 @@
       <recent name="$PROJECT_DIR$/packages/components/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;Icon /&gt;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/packages/react-feather" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/packages/react-feather/src/__test__/Icon.test.tsx" />
+      <test-names>
+        <test-name value="&lt;Icon /&gt;" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.&lt;Icon /&gt;" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -186,6 +406,7 @@
       <workItem from="1649956197478" duration="205000" />
       <workItem from="1649956405592" duration="475000" />
       <workItem from="1650560715314" duration="3565000" />
+      <workItem from="1651216145601" duration="4387000" />
     </task>
     <servers />
   </component>
