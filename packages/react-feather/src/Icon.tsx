@@ -1,4 +1,5 @@
 import * as React from 'react';
+
 import { default as HelpCircle } from './icons/help-circle';
 import { IconProps } from './types';
 
