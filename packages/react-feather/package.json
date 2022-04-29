@@ -60,7 +60,7 @@
     "uppercamelcase": "3.0.0"
   },
   "dependencies": {
-    "@aw-web-design/react-lazy-named": "1.0.0"
+    "@aw-web-design/react-lazy-named": "1.0.1"
   },
   "peerDependencies": {
     "react": "18.1.0"

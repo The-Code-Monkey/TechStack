@@ -1,19 +1,19 @@
 {
   "name": "@aw-web-design/react-lazy-named",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React lazy() with named imports - exports support",
   "author": "Grgur Grisogono <grgur@grgur.com>",
   "user": "grgur",
   "license": "MIT",
   "type": "module",
   "exports": {
-    ".": "./dist/react-lazy-named.esm.js"
+    ".": "./dist/index.js"
   },
   "typings": "dist/index.d.ts",
   "scripts": {
     "lint": "tcm lint",
     "lint:fix": "yarn lint --fix",
-    "build": "tcm build --format esm",
+    "build": "tcm build",
     "test": "tcm test"
   },
   "publishConfig": {
@@ -46,7 +46,8 @@
     "react": "18.1.0"
   },
   "dependencies": {
-    "lodash": "^4.4.2"
+    "lodash": "4.17.21",
+    "lodash-es": "4.17.21"
   },
   "jest": {
     "testEnvironment": "jsdom"

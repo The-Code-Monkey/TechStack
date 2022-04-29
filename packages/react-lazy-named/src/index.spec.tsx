@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import * as React from 'react';
 
 import lazy from './index';
@@ -25,7 +25,7 @@ describe('useWhyChange', () => {
 
     expect(asFragment()).toMatchSnapshot();
 
-    await new Promise((r) => setTimeout(r, 30));
+    await screen.findByText("hi");
 
     expect(asFragment()).toMatchSnapshot();
   });

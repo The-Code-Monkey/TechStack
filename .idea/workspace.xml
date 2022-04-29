@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-feather/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-feather/src/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/Icon.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-feather/src/__test__/Icon.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/__test__/Icon.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/check.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/check.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/help-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/help-circle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/package.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/package.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/__test__/__snapshots__/Icon.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/__test__/__snapshots__/Icon.test.tsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-lazy-named/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-lazy-named/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-lazy-named/src/index.spec.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-lazy-named/src/index.spec.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +128,7 @@
       <workItem from="1649956405592" duration="475000" />
       <workItem from="1650560715314" duration="3565000" />
       <workItem from="1651216145601" duration="4718000" />
-      <workItem from="1651226383269" duration="5661000" />
+      <workItem from="1651226383269" duration="7606000" />
     </task>
     <servers />
   </component>

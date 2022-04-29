@@ -11,7 +11,7 @@ export interface Props extends IconProps {
 const { Suspense, memo } = React;
 
 export const getIcon = (name: string) => {
-  return lazy(() => import(`./icons/index`), name);
+  return lazy(() => import(`./icons/${name}`));
 };
 
 export const Icon = ({ name, ...rest }: Props) => {
@@ -19,7 +19,7 @@ export const Icon = ({ name, ...rest }: Props) => {
 
   return (
     <Suspense fallback={<HelpCircle {...rest} data-name="fallback-icon" />}>
-      <Element />
+      <Element data-name={name} {...rest} />
     </Suspense>
   );
 };
