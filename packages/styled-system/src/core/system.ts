@@ -14,7 +14,7 @@ export type SystemConfig<T extends string> = {
 export function system(args: SystemConfig<string> = {}): Parser {
   const config: { [key: string]: StyleFn } = {};
 
-  Object.keys(args).forEach((key) => {
+  Object.keys(args).forEach(key => {
     const argConfig = args[key];
 
     if (argConfig === false) {

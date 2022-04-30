@@ -17,9 +17,9 @@ const removeProperties = () => {
       val &&
       typeof val === 'object' &&
       'props' in val &&
-      Object.keys(val.props).some((prop) => keys.some((key) => key === prop)),
+      Object.keys(val.props).some(prop => keys.some(key => key === prop)),
     print: (val: any, serialize: any) => {
-      keys.forEach((key) => {
+      keys.forEach(key => {
         delete val.props[key];
       });
       return serialize(val);

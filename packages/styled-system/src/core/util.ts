@@ -21,7 +21,7 @@ export function get<T = any>(
 export function merge(a: Record<string, unknown>, b: Record<string, unknown>) {
   const result = { ...a, ...b };
 
-  Object.keys(result).forEach((key) => {
+  Object.keys(result).forEach(key => {
     if (!a[key] || typeof b[key] !== 'object') {
       return;
     }
@@ -39,7 +39,7 @@ export function sort(obj: Record<string, unknown>) {
     .sort((a, b) =>
       a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
     )
-    .forEach((key) => {
+    .forEach(key => {
       result[key] = obj[key];
     });
 

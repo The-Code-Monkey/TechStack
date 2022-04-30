@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+import { createRequire } from 'module';
 import path from 'path';
 
 import asyncro from 'asyncro';
@@ -10,7 +10,8 @@ import { ESLint } from 'eslint';
 import execa from 'execa';
 import figlet from 'figlet';
 import fs from 'fs-extra';
-import * as jest from 'jest';
+import jest from 'jest';
+const { run: jestRun } = jest;
 import { concatAllArray } from 'jpjs';
 import ora from 'ora';
 import {
@@ -26,6 +27,8 @@ import semver from 'semver';
 import shell from 'shelljs';
 import sortPackageJson from 'sort-package-json';
 import glob from 'tiny-glob/sync.js';
+
+const require = createRequire(import.meta.url);
 
 import { paths } from './constants.js';
 import { createBuildConfigs } from './createBuildConfigs.js';
@@ -613,7 +616,7 @@ prog
     );
 
     const [, ...argsToPassToJestCli] = argv;
-    jest.run(argsToPassToJestCli);
+    jestRun(argsToPassToJestCli);
   });
 
 prog

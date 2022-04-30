@@ -16,17 +16,17 @@ export default function throttle(func: any, wait: any) {
 
   function call() {
     timeoutID = 0;
-    last = +new Date();
+    last = +new Date().getMilliseconds();
     rtn = func.apply(ctx, args);
     ctx = null;
     args = null;
   }
 
-  return function throttled(this: any) {
-    ctx = this;
+  return function throttled(context: any) {
+    ctx = context;
+    // eslint-disable-next-line
     args = arguments;
-    // @ts-expect-error ts-migrate(2362) FIXME: The left-hand side of an arithmetic operation must... Remove this comment to see the full error message
-    const delta = new Date() - last;
+    const delta = new Date().getMilliseconds() - last;
     if (!timeoutID) {
       if (delta >= wait) call();
       else timeoutID = setTimeout(call, wait - delta);

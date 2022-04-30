@@ -1,14 +1,13 @@
 {
   "name": "@aw-web-design/react-lazy-named",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "React lazy() with named imports - exports support",
   "author": "Grgur Grisogono <grgur@grgur.com>",
   "user": "grgur",
   "license": "MIT",
   "type": "module",
-  "exports": {
-    ".": "./dist/index.js"
-  },
+  "module": "./dist/react-lazy-named.esm.js",
+  "main": "./dist/react-lazy-named.esm.js",
   "typings": "dist/index.d.ts",
   "scripts": {
     "lint": "tcm lint",
@@ -39,7 +38,7 @@
     "rerender"
   ],
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.1.43",
+    "@aw-web-design/tcm-cli": "3.1.45",
     "@testing-library/react": "13.1.1"
   },
   "peerDependencies": {

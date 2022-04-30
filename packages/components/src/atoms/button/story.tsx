@@ -9,25 +9,25 @@ export default {
 
 export const Default = () => <Button>Default Button</Button>;
 
-export const Primary = () => <Button variant="primary">Primary Button</Button>;
+export const Primary = () => <Button variant='primary'>Primary Button</Button>;
 
 export const Secondary = () => (
-  <Button variant="secondary">Secondary Button</Button>
+  <Button variant='secondary'>Secondary Button</Button>
 );
 
 export const IconButtons = () => (
   <>
-    <Button iconName="GitHub">left</Button>
-    <Button iconName="GitHub" iconPosition="top">
+    <Button iconName='GitHub'>left</Button>
+    <Button iconName='GitHub' iconPosition='top'>
       top
     </Button>
-    <Button iconName="GitHub" iconPosition="right">
+    <Button iconName='GitHub' iconPosition='right'>
       right
     </Button>
-    <Button iconName="GitHub" iconPosition="bottom">
+    <Button iconName='GitHub' iconPosition='bottom'>
       bottom
     </Button>
   </>
 );
 
-export const IconOnly = () => <Button iconName="GitHub" />;
+export const IconOnly = () => <Button iconName='GitHub' />;

@@ -4,8 +4,7 @@
   "typings": "dist/index.d.ts",
   "type": "module",
   "exports": {
-    "import": "./dist/components.esm.js",
-    "require": "./dist/index.js"
+    "import": "./dist/components.esm.js"
   },
   "files": [
     "dist",
@@ -21,7 +20,7 @@
     "start": "tcm watch",
     "build": "yarn build:tokens && tcm build",
     "build:tokens": "orchard generate",
-    "test": "yarn build:tokens && tcm test --passWithNoTests",
+    "test": "yarn build:tokens && cross-env NODE_OPTIONS=--experimental-vm-modules tcm test",
     "lint": "yarn build:tokens && tcm lint",
     "prepare": "tcm build",
     "size": "size-limit",
@@ -31,7 +30,9 @@
     "release": "yarn lint && yarn build && release-it --ci --npm.access=public"
   },
   "jest": {
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jsdom",
+    "transform": {},
+    "extensionsToTreatAsEsm": [".ts", ".tsx"]
   },
   "name": "@aw-web-design/components",
   "author": "The-Code-Monkey",
@@ -47,6 +48,7 @@
     }
   ],
   "devDependencies": {
+    "cross-env": "7.0.3",
     "@babel/core": "7.17.9",
     "@size-limit/file": "7.0.8",
     "@storybook/addon-essentials": "6.4.22",
@@ -75,9 +77,9 @@
     "typescript": "4.6.3"
   },
   "dependencies": {
-    "@aw-web-design/react-feather": "3.1.43",
+    "@aw-web-design/react-feather": "3.1.45",
     "@aw-web-design/styled-system": "3.2.0",
-    "@aw-web-design/tcm-cli": "3.1.43",
+    "@aw-web-design/tcm-cli": "3.1.45",
     "@aw-web-design/theme": "3.1.43",
     "classnames": "2.3.1",
     "csstype": "3.0.11",

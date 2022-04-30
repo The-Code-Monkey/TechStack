@@ -8,7 +8,7 @@ jest.mock('../utils');
 
 describe('<Icon />', () => {
   it('renders correctly', () => {
-    const wrapper = mountWithTheme(<Icon name="GitHub" />);
+    const wrapper = mountWithTheme(<Icon name='GitHub' />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 });

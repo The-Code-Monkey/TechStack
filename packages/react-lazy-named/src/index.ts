@@ -17,10 +17,10 @@ import * as React from 'react';
 
 const Lazy = (
   thenable: () => Promise<{ [name: string]: any }>,
-  name: string = 'default'
+  name = 'default'
 ): React.LazyExoticComponent<React.ComponentType<any>> =>
   React.lazy(() =>
-    thenable().then((mod) => ({
+    thenable().then(mod => ({
       default: get(mod, name, 'ERROR EXPORT NOT FOUND'),
     }))
   );

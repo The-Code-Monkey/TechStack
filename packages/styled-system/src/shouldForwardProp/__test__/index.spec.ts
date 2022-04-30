@@ -8,7 +8,7 @@ describe('shouldForwardProp', () => {
 
   it.each(allProps)(
     `it should return false for Styled System '%s' prop`,
-    (prop) => {
+    prop => {
       const should = shouldForwardProp(prop);
       expect(should).toBe(false);
     }

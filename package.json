@@ -7,15 +7,14 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*",
-    "platforms/*"
+    "packages/*"
   ],
   "scripts": {
     "clean": "git clean -xdf && rm -rf yarn.lock && yarn",
     "postinstall": "yarn build",
     "test": "lerna run test",
     "test:fix": "lerna run test -- -u",
-    "lint": "lerna run lint && yarn lint:cms",
+    "lint": "lerna run lint",
     "lint:fix": "lerna run lint -- --fix",
     "lint:cms": "cd platforms/react-cms && yarn lint",
     "size": "lerna run size",

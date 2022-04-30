@@ -7,4 +7,4 @@ export default {
   component: Accordion,
 };
 
-export const story = () => <Accordion title="Title">This is a test</Accordion>;
+export const story = () => <Accordion title='Title'>This is a test</Accordion>;

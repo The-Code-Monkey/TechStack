@@ -1,11 +1,10 @@
 {
   "name": "@aw-web-design/react-feather",
-  "version": "3.1.43",
+  "version": "3.1.45",
   "description": "React component for Feather icons",
   "type": "module",
-  "exports": {
-    ".": "./dist/react-feather.esm.js"
-  },
+  "module": "./dist/react-feather.esm.js",
+  "main": "./dist/react-feather.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -37,7 +36,7 @@
   },
   "homepage": "https://github.com/The-Code-Monkey/TechStack#readme",
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.1.43",
+    "@aw-web-design/tcm-cli": "3.1.45",
     "@babel/cli": "7.17.6",
     "@babel/core": "7.17.9",
     "@babel/plugin-proposal-object-rest-spread": "7.17.3",
@@ -60,7 +59,7 @@
     "uppercamelcase": "3.0.0"
   },
   "dependencies": {
-    "@aw-web-design/react-lazy-named": "1.0.1"
+    "@aw-web-design/react-lazy-named": "1.0.5"
   },
   "peerDependencies": {
     "react": "18.1.0"

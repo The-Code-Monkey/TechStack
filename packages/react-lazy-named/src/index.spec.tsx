@@ -18,8 +18,8 @@ describe('useWhyChange', () => {
     const LazyText = await lazy(() => fakeImport(Text), 'test');
 
     const { asFragment } = render(
-      <Suspense fallback={<Text text="Loading..." />}>
-        <LazyText text="hi" />
+      <Suspense fallback={<Text text='Loading...' />}>
+        <LazyText text='hi' />
       </Suspense>
     );
 
