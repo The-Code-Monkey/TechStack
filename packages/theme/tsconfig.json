@@ -1,21 +1,17 @@
 {
-  "include": ["src/**/*"],
+  "include": ["src", "types"],
   "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
     "allowJs": true,
     "jsx": "react",
     "importHelpers": true,
-    "esModuleInterop": true,
     "outDir": "dist",
-    "declaration": false,
-    "module": "commonjs",
     "rootDir": "src",
-    "strict": true,
+    "declaration": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
-    "target": "es2017",
-    "resolveJsonModule": true,
-  },
+    "allowSyntheticDefaultImports": true
+  }
 }

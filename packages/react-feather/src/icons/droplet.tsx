@@ -1,30 +1,30 @@
-import React, { ForwardedRef, forwardRef } from 'react';
+import * as React from 'react';
 
 import { IconProps } from '../types';
 
 const Droplet = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
-  ref: ForwardedRef<SVGSVGElement>
+  ref: React.ForwardedRef<SVGSVGElement>
 ) => {
   return (
     <svg
       ref={ref}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns='http://www.w3.org/2000/svg'
       width={size}
       height={size}
-      viewBox="0 0 24 24"
-      fill="none"
+      viewBox='0 0 24 24'
+      fill='none'
       stroke={color}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth='2'
+      strokeLinecap='round'
+      strokeLinejoin='round'
       {...rest}
     >
-      <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+      <path d='M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z' />
     </svg>
   );
 };
 
 Droplet.displayName = 'Droplet';
 
-export default forwardRef(Droplet);
+export default React.forwardRef(Droplet);

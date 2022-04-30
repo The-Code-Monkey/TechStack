@@ -14,9 +14,9 @@ export interface Theme<TLength = TLengthStyledSystem> {
   fontWeights?: ObjectOrArray<Property.FontWeight>;
   lineHeights?: ObjectOrArray<Property.LineHeight<TLength>>;
   letterSpacings?: ObjectOrArray<Property.LetterSpacing<TLength>>;
-  sizes?: ObjectOrArray<Property.Height<{}> | Property.Width<{}>>;
-  borders?: ObjectOrArray<Property.Border<{}>>;
-  borderStyles?: ObjectOrArray<Property.Border<{}>>;
+  sizes?: ObjectOrArray<Property.Height<TLength> | Property.Width<TLength>>;
+  borders?: ObjectOrArray<Property.Border<TLength>>;
+  borderStyles?: ObjectOrArray<Property.Border<TLength>>;
   borderWidths?: ObjectOrArray<Property.BorderWidth<TLength>>;
   radii?: ObjectOrArray<Property.BorderRadius<TLength>>;
   shadows?: ObjectOrArray<Property.BoxShadow>;
@@ -38,17 +38,14 @@ export type ResponsiveValue<T, ThemeType extends Theme = RequiredTheme> =
   | Array<T | null>
   | { [key in (ThemeValue<'breakpoints', ThemeType> & string) | number]?: T };
 
-export type ThemeValue<
-  K extends keyof ThemeType,
-  ThemeType,
-  TVal = any
-> = ThemeType[K] extends TVal[]
-  ? number
-  : ThemeType[K] extends Record<infer E, TVal>
-  ? E
-  : ThemeType[K] extends ObjectOrArray<infer F>
-  ? F
-  : never;
+export type ThemeValue<K extends keyof ThemeType, ThemeType, TVal = any> =
+  ThemeType[K] extends TVal[]
+    ? number
+    : ThemeType[K] extends Record<infer E, TVal>
+    ? E
+    : ThemeType[K] extends ObjectOrArray<infer F>
+    ? F
+    : never;
 
 interface CSSProperties
   extends StandardProperties<number | string>,

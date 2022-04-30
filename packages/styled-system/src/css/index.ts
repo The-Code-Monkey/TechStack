@@ -16,7 +16,7 @@ function responsive(styles: any = {}) {
       ...breakpoints.map((n: any) => `@media screen and (min-width: ${n})`),
     ];
 
-    Object.keys(styles).forEach((key) => {
+    Object.keys(styles).forEach(key => {
       const value = isFunction(styles[key]) ? styles[key](theme) : styles[key];
 
       if (value === null) {
@@ -59,7 +59,7 @@ export function css(args?: any) {
     const obj = typeof args === 'function' ? args(theme) : args;
     const styles = responsive(obj)(theme);
 
-    Object.keys(styles).forEach((key) => {
+    Object.keys(styles).forEach(key => {
       const x = styles[key];
       const val = isFunction(x) ? x(theme) : x;
 

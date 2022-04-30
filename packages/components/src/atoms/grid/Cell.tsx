@@ -38,7 +38,7 @@ const Cell = ({
       gridColumn={getGridColumnMemo}
       gridRow={getGridRowMemo}
       gridArea={cellArea}
-      display="flex"
+      display='flex'
       {...rest}
     >
       {children}

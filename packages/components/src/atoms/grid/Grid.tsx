@@ -22,7 +22,7 @@ const Grid = ({ children, autoid, columns, rows, areas, ...rest }: Props) => {
       gridTemplateColumns={getTemplateColumnsMemo}
       gridTemplateRows={getTemplateRowsMemo}
       gridTemplateAreas={areas}
-      display="grid"
+      display='grid'
       {...rest}
     >
       {children}

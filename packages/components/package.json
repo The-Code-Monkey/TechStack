@@ -1,8 +1,11 @@
 {
-  "version": "3.1.42",
+  "version": "3.2.1",
   "license": "MIT",
-  "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    "import": "./dist/components.esm.js"
+  },
   "files": [
     "dist",
     "src"
@@ -15,11 +18,11 @@
   },
   "scripts": {
     "start": "tcm watch",
-    "build": "yarn build:tokens && tcm build",
+    "build": "yarn build:tokens && tcm build --format esm",
     "build:tokens": "orchard generate",
-    "test": "yarn build:tokens && tcm test --passWithNoTests",
+    "test": "yarn build:tokens && cross-env NODE_OPTIONS=--experimental-vm-modules tcm test",
     "lint": "yarn build:tokens && tcm lint",
-    "prepare": "tcm build",
+    "prepare": "tcm build --format esm",
     "size": "size-limit",
     "analyze": "size-limit --why",
     "storybook": "yarn build:tokens && start-storybook -p 6006",
@@ -28,10 +31,8 @@
   },
   "jest": {
     "testEnvironment": "jsdom",
-    "preset": "ts-jest",
-    "setupFiles": [
-      "<rootDir>/setupTests.js"
-    ]
+    "transform": {},
+    "extensionsToTreatAsEsm": [".ts", ".tsx"]
   },
   "name": "@aw-web-design/components",
   "author": "The-Code-Monkey",
@@ -47,6 +48,7 @@
     }
   ],
   "devDependencies": {
+    "cross-env": "7.0.3",
     "@babel/core": "7.17.9",
     "@size-limit/file": "7.0.8",
     "@storybook/addon-essentials": "6.4.22",
@@ -70,14 +72,14 @@
     "eslint-plugin-prettier": "4.0.0",
     "react-is": "18.1.0",
     "size-limit": "7.0.8",
-    "ts-jest": "27.1.4",
+    "ts-jest": "28.0.0-next.3",
     "tslib": "2.4.0",
     "typescript": "4.6.3"
   },
   "dependencies": {
-    "@aw-web-design/react-feather": "3.1.43",
+    "@aw-web-design/react-feather": "3.1.45",
     "@aw-web-design/styled-system": "3.2.0",
-    "@aw-web-design/tcm-cli": "3.1.41",
+    "@aw-web-design/tcm-cli": "3.1.46",
     "@aw-web-design/theme": "3.1.43",
     "classnames": "2.3.1",
     "csstype": "3.0.11",

@@ -13,16 +13,13 @@ interface Props<V> {
   direction?: 'row' | 'column';
 }
 
-export const ThemeProvider = <V extends {}>({
+export const ThemeProvider = <V extends object>({
   children,
   theme,
   mode,
   direction = 'column',
 }: Props<V>) => (
-  <>
-    {/*// @ts-ignore*/}
-    <StyledThemeProvider theme={createTheme(theme, mode)}>
-      <StyledDiv direction={direction}>{children}</StyledDiv>
-    </StyledThemeProvider>
-  </>
+  <StyledThemeProvider theme={createTheme(theme, mode)}>
+    <StyledDiv direction={direction}>{children}</StyledDiv>
+  </StyledThemeProvider>
 );

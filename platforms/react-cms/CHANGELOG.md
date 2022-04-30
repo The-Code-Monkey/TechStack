@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.39](https://github.com/The-Code-Monkey/TechStack/compare/react-cms@3.1.38...react-cms@3.1.39) (2022-04-29)
+
+
+### Bug Fixes
+
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#264](https://github.com/The-Code-Monkey/TechStack/issues/264)) ([a507d5a](https://github.com/The-Code-Monkey/TechStack/commit/a507d5a3e769e53d99409dde475d0b0ae9bbb7b8))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))
+* **deps:** update dependency next-auth to v4.3.4 ([#298](https://github.com/The-Code-Monkey/TechStack/issues/298)) ([99090b0](https://github.com/The-Code-Monkey/TechStack/commit/99090b07d1da36c8abf13dcede261db67c8913b7))
+
+
+
+
+
 ## [3.1.38](https://github.com/The-Code-Monkey/TechStack/compare/react-cms@3.1.37...react-cms@3.1.38) (2022-04-22)
 
 **Note:** Version bump only for package react-cms

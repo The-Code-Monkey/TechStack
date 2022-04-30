@@ -60,8 +60,8 @@ export interface TcmOptions extends SharedOpts {
 export interface PackageJson {
   name: string;
   source?: string;
-  jest?: any;
-  eslint?: any;
+  jest?: Record<string, string>;
+  eslint?: Record<string, string>;
   dependencies?: { [packageName: string]: string };
   devDependencies?: { [packageName: string]: string };
   engines?: {

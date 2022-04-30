@@ -1,4 +1,4 @@
-import memoize from 'memoize-one';
+import memo from 'memoize-one';
 
 const forwardPropHelper =
   (styledProps: Array<string>) =>
@@ -9,4 +9,4 @@ const forwardPropHelper =
     return defaultValidatorFn(prop) && !regex.test(prop);
   };
 
-export const shouldForwardProp = memoize(forwardPropHelper);
+export const shouldForwardProp = memo(forwardPropHelper);

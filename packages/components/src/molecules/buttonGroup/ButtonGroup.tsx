@@ -11,13 +11,13 @@ export interface Props extends ButtonProps {
 const ButtonGroup = ({ children, ...rest }: Props) => {
   return (
     <StyledBox
-      display="inline-flex"
-      flexDir="row"
-      borderRadius="2"
-      overflow="hidden"
+      display='inline-flex'
+      flexDir='row'
+      borderRadius='2'
+      overflow='hidden'
     >
-      {children.map((child) => (
-        <Button {...child.props} {...rest}>
+      {children.map((child, index) => (
+        <Button key={index} {...child.props} {...rest}>
           {child.props.children}
         </Button>
       ))}

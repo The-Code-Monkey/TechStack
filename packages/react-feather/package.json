@@ -1,8 +1,10 @@
 {
   "name": "@aw-web-design/react-feather",
-  "version": "3.1.42",
+  "version": "3.1.45",
   "description": "React component for Feather icons",
-  "main": "dist/index.js",
+  "type": "module",
+  "module": "./dist/react-feather.esm.js",
+  "main": "./dist/react-feather.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -10,8 +12,8 @@
   ],
   "scripts": {
     "lint": "tcm lint",
-    "build": "tcm build",
-    "test": "tcm test"
+    "build": "tcm build --format esm",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules tcm test"
   },
   "publishConfig": {
     "access": "public"
@@ -34,24 +36,11 @@
   },
   "homepage": "https://github.com/The-Code-Monkey/TechStack#readme",
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.1.41",
-    "@babel/cli": "7.17.6",
-    "@babel/core": "7.17.9",
-    "@babel/plugin-proposal-object-rest-spread": "7.17.3",
-    "@babel/preset-env": "7.16.11",
-    "@babel/preset-react": "7.16.7",
-    "babel-plugin-transform-object-rest-spread": "6.26.0",
-    "babel-preset-env": "1.7.0",
-    "concurrently": "7.1.0",
-    "eslint": "8.14.0",
-    "eslint-config-airbnb": "19.0.4",
-    "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-react": "7.29.4",
-    "prettier-eslint": "14.0.2",
-    "rollup": "2.70.2",
-    "rollup-plugin-babel": "4.4.0",
-    "uppercamelcase": "3.0.0"
+    "cross-env": "7.0.3",
+    "@aw-web-design/tcm-cli": "3.1.46"
+  },
+  "dependencies": {
+    "@aw-web-design/react-lazy-named": "1.0.5"
   },
   "peerDependencies": {
     "react": "18.1.0"

@@ -1,10 +1,10 @@
 {
   "name": "@aw-web-design/react-textfit",
-  "version": "3.1.42",
+  "version": "3.1.43",
   "description": "React component to fit headlines and paragraphs into any element",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tcm build",
+    "build": "tcm build --format esm",
     "lint": "tcm lint"
   },
   "publishConfig": {
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/The-Code-Monkey/TechStack",
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.1.41",
+    "@aw-web-design/tcm-cli": "3.1.46",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",

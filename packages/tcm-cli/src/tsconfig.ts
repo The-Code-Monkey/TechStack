@@ -1,6 +1,6 @@
 import ts, { CompilerOptions } from 'typescript';
 
-import { paths } from './constants';
+import { paths } from './constants.js';
 
 export function typescriptCompilerOptions(
   tsconfig: string | undefined

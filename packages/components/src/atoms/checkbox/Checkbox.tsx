@@ -30,15 +30,15 @@ const Checkbox = ({
 
   return (
     <Interactable
-      display="flex"
+      display='flex'
       size={7}
-      alignItems="center"
-      justifyContent="center"
-      cursor="pointer"
-      bgColor="neutrals.0"
-      border="1"
-      borderRadius="1"
-      borderColor="neutrals.10"
+      alignItems='center'
+      justifyContent='center'
+      cursor='pointer'
+      bgColor='neutrals.0'
+      border='1'
+      borderRadius='1'
+      borderColor='neutrals.10'
       autoid={autoid ? generateAutomationId(`${autoid}_checkbox`) : 'checkbox'}
       data-checked={checked}
       data-indeterminate={indeterminate}
@@ -52,7 +52,7 @@ const Checkbox = ({
           autoid={`${autoid && `${autoid}_`}checkbox_icon`}
           name={indeterminate ? 'Minus' : 'Check'}
           noFill
-          size="full"
+          size='full'
         />
       )}
     </Interactable>

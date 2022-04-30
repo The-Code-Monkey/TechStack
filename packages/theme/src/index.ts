@@ -13,7 +13,7 @@ const Config = require('./config.json');
 const configFileNames = ['orchard.theme.config.json'];
 
 const resolveConfig = () =>
-  new Promise((resolve) => {
+  new Promise(resolve => {
     for (let i = 0; i < configFileNames.length; i++) {
       fs.exists(`${process.cwd()}/${configFileNames[i]}`, (exists: boolean) => {
         console.log(`${process.cwd()}/${configFileNames[i]}`, exists);
@@ -82,7 +82,7 @@ export default tokens;
 
     return `const tokens = ${JSON.stringify(
       {
-        breakpoints: Object.keys(minified).map((key) => minified[key]),
+        breakpoints: Object.keys(minified).map(key => minified[key]),
       },
       null,
       2
@@ -173,7 +173,7 @@ StyleDictionary.registerTransform({
       100,
     ];
 
-    percentages.forEach((mixPercentage) => {
+    percentages.forEach(mixPercentage => {
       paletteLight.push(
         Color.mix(colorLight, colorBase, mixPercentage).toHexString()
       );

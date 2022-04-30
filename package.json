@@ -1,21 +1,20 @@
 {
   "name": "aw-web-design",
-  "description": "A collection of self built packages for web development",
+  "description": "A collection of self built packages plus some forks for web development",
   "version": "1.0.0",
   "main": "index.js",
   "author": "The-Code-Monkey",
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*",
-    "platforms/*"
+    "packages/*"
   ],
   "scripts": {
-    "clean": "git clean -xdf && rm -rf yarn.lock",
+    "clean": "git clean -xdf && rm -rf yarn.lock && yarn",
     "postinstall": "yarn build",
     "test": "lerna run test",
     "test:fix": "lerna run test -- -u",
-    "lint": "lerna run lint && yarn lint:cms",
+    "lint": "lerna run lint",
     "lint:fix": "lerna run lint -- --fix",
     "lint:cms": "cd platforms/react-cms && yarn lint",
     "size": "lerna run size",

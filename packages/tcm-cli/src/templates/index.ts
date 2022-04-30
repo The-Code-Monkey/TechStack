@@ -1,6 +1,6 @@
-import basicTemplate from './basic';
-import reactTemplate from './react';
-import storybookTemplate from './react-with-storybook';
+import basicTemplate from './basic.js';
+import storybookTemplate from './react-with-storybook.js';
+import reactTemplate from './react.js';
 
 export const templates = {
   basic: basicTemplate,

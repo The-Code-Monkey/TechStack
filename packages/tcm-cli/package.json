@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/tcm-cli",
-  "version": "3.1.40",
+  "version": "3.1.47",
   "description": "Zero-config TypeScript package development",
   "license": "MIT",
   "repository": {
@@ -15,11 +15,13 @@
   "bin": {
     "tcm": "./dist/index.js"
   },
+  "type": "module",
   "typings": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.json && yarn post:build",
     "lint": "yarn build && yarn lint:post-build",
     "lint:post-build": "node dist/index.js lint ./",
+    "post:build": "node dist/index.js test",
     "start": "tsc -p tsconfig.json --watch",
     "deduplicate": "yarn dedupe",
     "deduplicate:check": "yarn dedupe -c",
@@ -28,7 +30,7 @@
   "files": [
     "dist",
     "templates",
-    "conf"
+    "src/conf"
   ],
   "engines": {
     "node": ">=14.0.0"
@@ -59,19 +61,22 @@
     "confusing-browser-globals": "1.0.11",
     "enquirer": "2.3.6",
     "eslint": "8.14.0",
-    "eslint-config-prettier": "8.5.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-flowtype": "8.0.3",
-    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "26.1.5",
-    "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.29.4",
-    "eslint-plugin-react-hooks": "4.5.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-no-restricted-imports": "^0.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-testing-library": "5.3.1",
     "execa": "4.1.0",
     "figlet": "1.5.2",
     "fs-extra": "10.1.0",
     "jest": "28.0.3",
+    "jest-environment-jsdom": "28.0.2",
     "jest-watch-typeahead": "1.1.0",
     "jpjs": "1.2.1",
     "lodash.merge": "4.6.2",
@@ -92,7 +97,7 @@
     "shelljs": "0.8.5",
     "sort-package-json": "1.55.0",
     "tiny-glob": "0.2.9",
-    "ts-jest": "27.1.4",
+    "ts-jest": "28.0.0-next.3",
     "ts-node": "10.7.0",
     "tslib": "2.4.0",
     "type-fest": "2.12.2",
