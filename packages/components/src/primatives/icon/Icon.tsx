@@ -1,5 +1,4 @@
 import FeatherIcon from '@aw-web-design/react-feather';
-
 import * as React from 'react';
 const { memo } = React;
 
