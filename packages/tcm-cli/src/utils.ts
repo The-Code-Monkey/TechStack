@@ -54,6 +54,6 @@ export function getNodeEngineRequirement({ engines }: PackageJson) {
 }
 
 // copied from https://github.com/facebook/jest/blob/5b14366bf3726d48c67b1c6609764556052d909f/packages/jest-util/src/interopRequireDefault.ts#L10
-export function interopRequireDefault(obj: any): any {
+export function interopRequireDefault(obj: Record<string, string>): unknown {
   return obj && obj.__esModule ? obj : { default: obj };
 }

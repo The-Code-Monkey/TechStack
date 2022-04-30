@@ -1,10 +1,11 @@
 {
-  "version": "3.2.0",
+  "version": "3.2.1",
   "license": "MIT",
   "typings": "dist/index.d.ts",
   "type": "module",
   "exports": {
-    ".": "./dist/index.js"
+    "import": "./dist/components.esm.js",
+    "require": "./dist/index.js"
   },
   "files": [
     "dist",
@@ -76,7 +77,7 @@
   "dependencies": {
     "@aw-web-design/react-feather": "3.1.43",
     "@aw-web-design/styled-system": "3.2.0",
-    "@aw-web-design/tcm-cli": "3.1.41",
+    "@aw-web-design/tcm-cli": "3.1.43",
     "@aw-web-design/theme": "3.1.43",
     "classnames": "2.3.1",
     "csstype": "3.0.11",

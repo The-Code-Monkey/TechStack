@@ -13,7 +13,7 @@ import {
 import { interopRequireDefault } from './utils.js';
 
 // check for custom tcm.config.js
-let tcmBuildConfig = {
+let tcmBuildConfig: unknown = {
   rollup(config: RollupOptions, _options: TcmOptions): RollupOptions {
     return config;
   },
@@ -26,7 +26,9 @@ if (fs.pathExistsSync(paths.appConfigTs)) {
         module: 'CommonJS',
       },
     });
-    tcmBuildConfig = interopRequireDefault(require(paths.appConfigTs)).default;
+    tcmBuildConfig = (
+      interopRequireDefault(require(paths.appConfigTs)) as { default: unknown }
+    ).default;
   } catch (error) {
     logError(error);
     process.exit(1);
@@ -52,7 +54,11 @@ export async function createBuildConfigs(
     allInputs.map(async (options: TcmOptions, index: number) => {
       // pass the full rollup config to tcm-cli.config.js override
       const config = await createRollupConfig(appPackageJson, options, index);
-      return tcmBuildConfig.rollup(config, options);
+      return (
+        tcmBuildConfig as {
+          rollup: (config: RollupOptions, options: TcmOptions) => RollupOptions;
+        }
+      ).rollup(config, options);
     })
   );
 }

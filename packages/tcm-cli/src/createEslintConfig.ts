@@ -1,35 +1,101 @@
 import path from 'path';
 
-import { Linter } from 'eslint';
 import fs from 'fs-extra';
 
 import { PackageJson } from './types.js';
-import { getReactVersion } from './utils.js';
 interface CreateEslintConfigArgs {
   pkg: PackageJson;
   rootDir: string;
   writeFile: boolean;
 }
+
 export async function createEslintConfig({
-  pkg,
   rootDir,
   writeFile,
-}: CreateEslintConfigArgs): Promise<Linter.Config | void> {
-  const isReactLibrary = Boolean(getReactVersion(pkg));
-
+}: CreateEslintConfigArgs): Promise<object | void> {
   const config = {
+    env: {
+      browser: true,
+      es6: true,
+    },
+    parser: '@typescript-eslint/parser',
     extends: [
-      path.join(__dirname, '../conf/eslint-config-react-app/index.js'),
-      'prettier',
+      'plugin:@typescript-eslint/recommended',
+      'plugin:react/recommended',
       'plugin:prettier/recommended',
+      'prettier',
     ],
+    plugins: ['@typescript-eslint', 'prettier', 'react'],
     settings: {
       react: {
-        version: isReactLibrary ? 'detect' : '999.999.999',
+        version: 'detect',
+      },
+      'import/resolver': {
+        node: {
+          extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        },
       },
     },
+    parserOptions: {
+      ecmaVersion: 2020,
+      sourceType: 'module',
+      allowImportExportEverywhere: true,
+      ecmaFeatures: {
+        jsx: true,
+      },
+    },
+    rules: {
+      'no-use-before-define': 'off',
+      '@typescript-eslint/no-use-before-define': ['warn'],
+      '@typescript-eslint/no-var-requires': 0,
+      '@typescript-eslint/no-empty-function': 'warn',
+      'import/no-unresolved': 2,
+      'import/order': [
+        'warn',
+        {
+          groups: [
+            'builtin',
+            'external',
+            'internal',
+            'parent',
+            'sibling',
+            'index',
+            'object',
+          ],
+          pathGroups: [
+            {
+              pattern: './*.scss',
+              group: 'unknown',
+              position: 'after',
+            },
+          ],
+          'newlines-between': 'always',
+        },
+      ],
+      'no-unused-vars': 'off',
+      '@typescript-eslint/no-unused-vars': [
+        'warn',
+        {
+          vars: 'all',
+          args: 'after-used',
+        },
+      ],
+      'prettier/prettier': [
+        'error',
+        {
+          printWidth: 80,
+          trailingComma: 'es5',
+          semi: true,
+          jsxSingleQuote: true,
+          singleQuote: true,
+          useTabs: false,
+          'react/no-typos': false,
+          bracketSpacing: true,
+          arrowParens: 'avoid',
+        },
+      ],
+    },
   };
-
   if (!writeFile) {
     return config;
   }
@@ -37,7 +103,7 @@ export async function createEslintConfig({
   const file = path.join(rootDir, '.eslintrc.js');
   // if the path is an abs path(e.g. "/Users/user/my-project/.eslintrc.js"),
   // need to convert a rel path to app root.
-  config.extends = config.extends.map((it) =>
+  config.extends = config.extends.map(it =>
     /^\//u.test(it) ? path.relative(rootDir, it) : it
   );
   try {

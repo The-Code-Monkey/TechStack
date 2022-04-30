@@ -4,8 +4,7 @@ interface Template {
   dependencies: string[];
   name: string;
   packageJson: PackageJson & {
-    husky?: any;
-    prettier?: any;
-    jest?: any;
+    prettier?: Record<string, string | boolean | number>;
+    jest?: Record<string, string>;
   };
 }

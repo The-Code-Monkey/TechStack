@@ -9,7 +9,7 @@ const { Input, Select } = enquirer;
 import { ESLint } from 'eslint';
 import execa from 'execa';
 import figlet from 'figlet';
-import * as fs from 'fs-extra';
+import fs from 'fs-extra';
 import * as jest from 'jest';
 import { concatAllArray } from 'jpjs';
 import ora from 'ora';
@@ -35,11 +35,15 @@ import { createProgressEstimator } from './createProgressEstimator.js';
 import * as deprecated from './deprecated.js';
 import getInstallArgs from './getInstallArgs.js';
 import getInstallCmd from './getInstallCmd.js';
+import pkg from './getPkgJson.js';
 import logError from './logError.js';
 import * as Messages from './messages.js';
 import { rollupTypes } from './rollupTypes.js';
 import { templates } from './templates/index.js';
-import { composeDependencies, composePackageJson } from './templates/utils/index.js';
+import {
+  composeDependencies,
+  composePackageJson,
+} from './templates/utils/index.js';
 import {
   PackageJson,
   WatchOpts,
@@ -54,8 +58,6 @@ import {
   getNodeEngineRequirement,
 } from './utils.js';
 
-const pkg = require('../package.json');
-
 const prog = sade('tcm');
 
 let appPackageJson: PackageJson;
@@ -64,16 +66,49 @@ try {
   appPackageJson = fs.readJSONSync(paths.appPackageJson);
 } catch (e) {}
 
+function setAuthorName(author: string) {
+  shell.exec(`npm config set init-author-name "${author}"`, { silent: true });
+}
+
+function getAuthorName() {
+  let author = '';
+
+  author = shell
+    .exec('npm config get init-author-name', { silent: true })
+    .stdout.trim();
+  if (author) return author;
+
+  author = shell
+    .exec('git config --global user.name', { silent: true })
+    .stdout.trim();
+  if (author) {
+    setAuthorName(author);
+    return author;
+  }
+
+  author = shell
+    .exec('npm config get init-author-email', { silent: true })
+    .stdout.trim();
+  if (author) return author;
+
+  author = shell
+    .exec('git config --global user.email', { silent: true })
+    .stdout.trim();
+  if (author) return author;
+
+  return author;
+}
+
 export const isDir = (name: string) =>
   fs
     .stat(name)
-    .then((stats) => stats.isDirectory())
+    .then(stats => stats.isDirectory())
     .catch(() => false);
 
 export const isFile = (name: string) =>
   fs
     .stat(name)
-    .then((stats) => stats.isFile())
+    .then(stats => stats.isFile())
     .catch(() => false);
 
 async function jsOrTs(filename: string) {
@@ -93,14 +128,14 @@ async function getInputs(
   source?: string
 ): Promise<string[]> {
   return concatAllArray(
-    ([] as any[])
+    []
       .concat(
         entries && entries.length
           ? entries
           : (source && resolveApp(source)) ||
               ((await isDir(resolveApp('src'))) && (await jsOrTs('src/index')))
       )
-      .map((file) => glob(file))
+      .map(file => glob(file))
   );
 }
 
@@ -118,7 +153,7 @@ function getNamesAndFiles(
   // if multiple entries, each entry should retain its filename
   const names: string[] = [];
   const files: string[] = [];
-  inputs.forEach((input) => {
+  inputs.forEach(input => {
     // remove leading src/ directory
     let filename = input;
     const srcVars = ['src/', './src/'];
@@ -137,170 +172,206 @@ function getNamesAndFiles(
   return { names, files };
 }
 
-  prog
-      .version(pkg.version)
-      .command('create <pkg>')
-      .describe('Create a new package with TCM')
-      .example('create mypackage')
-      .option(
-          '--template',
-          `Specify a template. Allowed choices: [${Object.keys(templates).join(
-              ', '
-          )}]`
-      )
-      .example('create --template react mypackage')
-      .option('--husky', 'Should husky be added to the generated project?', true)
-      .example('create --husky mypackage')
-      .example('create --no-husky mypackage')
-      .example('create --husky false mypackage')
-      .action(async (pkg: string, opts: any) => {
-        console.log(
-            chalk.cyan(figlet.textSync('TCM', {horizontalLayout: 'full'}))
-        );
-        const bootSpinner = ora(`Creating ${chalk.bold.green(pkg)}...`);
-        let template;
-        // Helper fn to prompt the user for a different
-        // folder name if one already exists
-        async function getProjectPath(projectPath: string): Promise<string> {
-          const exists = await fs.pathExists(projectPath);
-          if (!exists) {
-            return projectPath;
-          }
+async function normalizeOpts(opts: WatchOpts): Promise<NormalizedOpts> {
+  const inputs = await getInputs(opts.entry, appPackageJson.source);
+  const { names, files } = getNamesAndFiles(inputs, opts.name);
 
-          bootSpinner.fail(`Failed to create ${chalk.bold.red(pkg)}`);
-          const prompt = new Input({
-            message: `A folder named ${chalk.bold.red(
-                pkg
-            )} already exists! ${chalk.bold('Choose a different name')}`,
-            initial: pkg + '-1',
-            result: (v: string) => v.trim(),
-          });
+  return {
+    ...opts,
+    name: names,
+    input: inputs,
+    format: opts.format.split(',').map((format: string) => {
+      if (format === 'es') {
+        return 'esm';
+      }
+      return format;
+    }) as [ModuleFormat, ...ModuleFormat[]],
+    output: {
+      file: files,
+    },
+  };
+}
 
-          pkg = await prompt.run();
-          projectPath = (await fs.realpath(process.cwd())) + '/' + pkg;
-          bootSpinner.start(`Creating ${chalk.bold.green(pkg)}...`);
-          return await getProjectPath(projectPath); // recursion!
-        }
+async function cleanDistFolder() {
+  await fs.remove(paths.appDist);
+}
 
-        try {
-          // get the project path
-          const realPath = await fs.realpath(process.cwd());
-          let projectPath = await getProjectPath(realPath + '/' + pkg);
+function writeCjsEntryFile(file: string, numEntries: number) {
+  const baseLine = `module.exports = require('./${file}`;
+  const contents = `
+'use strict'
 
-          const prompt = new Select({
-            message: 'Choose a template',
-            choices: Object.keys(templates),
-          });
+if (process.env.NODE_ENV === 'production') {
+  ${baseLine}.cjs.production.min.js')
+} else {
+  ${baseLine}.cjs.development.js')
+}
+`;
+  const filename = numEntries === 1 ? 'index.js' : `${file}.js`;
+  return fs.outputFile(path.join(paths.appDist, filename), contents);
+}
 
-          if (opts.template) {
-            template = opts.template.trim();
-            if (!prompt.choices.includes(template)) {
-              bootSpinner.fail(`Invalid template ${chalk.bold.red(template)}`);
-              template = await prompt.run();
-            }
-          } else {
-            template = await prompt.run();
-          }
+prog
+  .version(pkg.version)
+  .command('create <pkg>')
+  .describe('Create a new package with TCM')
+  .example('create mypackage')
+  .option(
+    '--template',
+    `Specify a template. Allowed choices: [${Object.keys(templates).join(
+      ', '
+    )}]`
+  )
+  .example('create --template react mypackage')
+  .option('--husky', 'Should husky be added to the generated project?', true)
+  .example('create --husky mypackage')
+  .example('create --no-husky mypackage')
+  .example('create --husky false mypackage')
+  .action(async (pkg: string, opts: { template: string }) => {
+    console.log(
+      chalk.cyan(figlet.textSync('TCM', { horizontalLayout: 'full' }))
+    );
+    const bootSpinner = ora(`Creating ${chalk.bold.green(pkg)}...`);
+    let template;
+    // Helper fn to prompt the user for a different
+    // folder name if one already exists
+    async function getProjectPath(projectPath: string): Promise<string> {
+      const exists = await fs.pathExists(projectPath);
+      if (!exists) {
+        return projectPath;
+      }
 
-          bootSpinner.start();
-          // copy the template
-          await fs.copy(
-              path.resolve(__dirname, `../templates/${template}`),
-              projectPath,
-              {
-                overwrite: true,
-              }
-          );
-          // fix dotfiles
-          const dotfiles = ['gitignore', 'gitattributes'];
-          for (const dotfile of dotfiles) {
-            await fs.move(
-                path.resolve(projectPath, `./${dotfile}`),
-                path.resolve(projectPath, `./.${dotfile}`)
-            );
-          }
-
-          // update license year and author
-          let license: string = await fs.readFile(
-              path.resolve(projectPath, 'LICENSE'),
-              {encoding: 'utf-8'}
-          );
-
-          license = license.replace(/<year>/, `${new Date().getFullYear()}`);
-
-          // attempt to automatically derive author name
-          let author = getAuthorName();
-
-          if (!author) {
-            bootSpinner.stop();
-            const licenseInput = new Input({
-              name: 'author',
-              message: 'Who is the package author?',
-            });
-            author = await licenseInput.run();
-            setAuthorName(author);
-            bootSpinner.start();
-          }
-
-          license = license.replace(/<author>/, author.trim());
-
-          await fs.writeFile(path.resolve(projectPath, 'LICENSE'), license, {
-            encoding: 'utf-8',
-          });
-
-          const templateConfig = templates[template as keyof typeof templates];
-          const generatePackageJson = composePackageJson(templateConfig);
-
-          // Install deps
-          process.chdir(projectPath);
-          const safeName = safePackageName(pkg);
-          const pkgJson = generatePackageJson({
-            name: safeName,
-            author,
-            includeHuskyConfig: !!opts.husky,
-          });
-
-          const nodeVersionReq = getNodeEngineRequirement(pkgJson);
-          if (
-              nodeVersionReq &&
-              !semver.satisfies(process.version, nodeVersionReq)
-          ) {
-            bootSpinner.fail(Messages.incorrectNodeVersion(nodeVersionReq));
-            process.exit(1);
-          }
-          const pkgContent = sortPackageJson(JSON.stringify(pkgJson, null, 2));
-          await fs.outputFile(
-              path.resolve(projectPath, 'package.json'),
-              pkgContent
-          );
-          bootSpinner.succeed(`Created ${chalk.bold.green(pkg)}`);
-          await Messages.start(pkg);
-        } catch (error) {
-          bootSpinner.fail(`Failed to create ${chalk.bold.red(pkg)}`);
-          logError(error);
-          process.exit(1);
-        }
-
-        const templateConfig = templates[template as keyof typeof templates];
-        const generateDependencies = composeDependencies(templateConfig);
-        const dependencies = generateDependencies({
-          includeHusky: !!opts.husky,
-        });
-
-        const installSpinner = ora(
-            Messages.installing(dependencies.sort())
-        ).start();
-        try {
-          const cmd = await getInstallCmd();
-          await execa(cmd, getInstallArgs(cmd, dependencies));
-          installSpinner.succeed('Installed dependencies');
-          console.log(await Messages.start(pkg));
-        } catch (error) {
-          installSpinner.fail('Failed to install dependencies');
-          logError(error);
-          process.exit(1);
-        }
+      bootSpinner.fail(`Failed to create ${chalk.bold.red(pkg)}`);
+      const prompt = new Input({
+        message: `A folder named ${chalk.bold.red(
+          pkg
+        )} already exists! ${chalk.bold('Choose a different name')}`,
+        initial: pkg + '-1',
+        result: (v: string) => v.trim(),
       });
+
+      pkg = await prompt.run();
+      projectPath = (await fs.realpath(process.cwd())) + '/' + pkg;
+      bootSpinner.start(`Creating ${chalk.bold.green(pkg)}...`);
+      return await getProjectPath(projectPath); // recursion!
+    }
+
+    try {
+      // get the project path
+      const realPath = await fs.realpath(process.cwd());
+      const projectPath = await getProjectPath(realPath + '/' + pkg);
+
+      const prompt = new Select({
+        message: 'Choose a template',
+        choices: Object.keys(templates),
+      });
+
+      if (opts.template) {
+        template = opts.template.trim();
+        if (!prompt.choices.includes(template)) {
+          bootSpinner.fail(`Invalid template ${chalk.bold.red(template)}`);
+          template = await prompt.run();
+        }
+      } else {
+        template = await prompt.run();
+      }
+
+      bootSpinner.start();
+      // copy the template
+      await fs.copy(
+        path.resolve(__dirname, `../templates/${template}`),
+        projectPath,
+        {
+          overwrite: true,
+        }
+      );
+      // fix dotfiles
+      const dotfiles = ['gitignore', 'gitattributes'];
+      for (const dotfile of dotfiles) {
+        await fs.move(
+          path.resolve(projectPath, `./${dotfile}`),
+          path.resolve(projectPath, `./.${dotfile}`)
+        );
+      }
+
+      // update license year and author
+      let license: string = await fs.readFile(
+        path.resolve(projectPath, 'LICENSE'),
+        { encoding: 'utf-8' }
+      );
+
+      license = license.replace(/<year>/, `${new Date().getFullYear()}`);
+
+      // attempt to automatically derive author name
+      let author = getAuthorName();
+
+      if (!author) {
+        bootSpinner.stop();
+        const licenseInput = new Input({
+          name: 'author',
+          message: 'Who is the package author?',
+        });
+        author = await licenseInput.run();
+        setAuthorName(author);
+        bootSpinner.start();
+      }
+
+      license = license.replace(/<author>/, author.trim());
+
+      await fs.writeFile(path.resolve(projectPath, 'LICENSE'), license, {
+        encoding: 'utf-8',
+      });
+
+      const templateConfig = templates[template as keyof typeof templates];
+      const generatePackageJson = composePackageJson(templateConfig);
+
+      // Install deps
+      process.chdir(projectPath);
+      const safeName = safePackageName(pkg);
+      const pkgJson = generatePackageJson({
+        name: safeName,
+        author,
+      });
+
+      const nodeVersionReq = getNodeEngineRequirement(pkgJson);
+      if (
+        nodeVersionReq &&
+        !semver.satisfies(process.version, nodeVersionReq)
+      ) {
+        bootSpinner.fail(Messages.incorrectNodeVersion(nodeVersionReq));
+        process.exit(1);
+      }
+      const pkgContent = sortPackageJson(JSON.stringify(pkgJson, null, 2));
+      await fs.outputFile(
+        path.resolve(projectPath, 'package.json'),
+        pkgContent
+      );
+      bootSpinner.succeed(`Created ${chalk.bold.green(pkg)}`);
+      await Messages.start(pkg);
+    } catch (error) {
+      bootSpinner.fail(`Failed to create ${chalk.bold.red(pkg)}`);
+      logError(error);
+      process.exit(1);
+    }
+
+    const templateConfig = templates[template as keyof typeof templates];
+    const generateDependencies = composeDependencies(templateConfig);
+    const dependencies = generateDependencies();
+
+    const installSpinner = ora(
+      Messages.installing(dependencies.sort())
+    ).start();
+    try {
+      const cmd = await getInstallCmd();
+      await execa(cmd, getInstallArgs(cmd, dependencies));
+      installSpinner.succeed('Installed dependencies');
+      console.log(await Messages.start(pkg));
+    } catch (error) {
+      installSpinner.fail('Failed to install dependencies');
+      logError(error);
+      process.exit(1);
+    }
+  });
 
 prog
   .command('watch')
@@ -342,9 +413,7 @@ prog
     }
     if (opts.format.includes('cjs')) {
       await Promise.all(
-        opts.output.file.map((file) =>
-          writeCjsEntryFile(file, opts.input.length)
-        )
+        opts.output.file.map(file => writeCjsEntryFile(file, opts.input.length))
       );
     }
 
@@ -374,7 +443,7 @@ prog
 
     const spinner = ora().start();
     watch(
-      (buildConfigs as RollupWatchOptions[]).map((inputOptions) => ({
+      (buildConfigs as RollupWatchOptions[]).map(inputOptions => ({
         watch: {
           silent: true,
           include: ['src/**'],
@@ -382,7 +451,7 @@ prog
         } as WatcherOptions,
         ...inputOptions,
       }))
-    ).on('event', async (event) => {
+    ).on('event', async event => {
       // clear previous onSuccess/onFailure hook processes so they don't pile up
       await killHooks();
 
@@ -455,7 +524,7 @@ prog
     const logger = await createProgressEstimator();
     if (opts.format.includes('cjs')) {
       const promise = Promise.all(
-        opts.output.file.map((file) =>
+        opts.output.file.map(file =>
           writeCjsEntryFile(file, opts.input.length).catch(logError)
         )
       );
@@ -466,11 +535,11 @@ prog
         .map(
           buildConfigs,
           async (inputOptions: RollupOptions & { output: OutputOptions }) => {
-            let bundle = await rollup(inputOptions);
+            const bundle = await rollup(inputOptions);
             await bundle.write(inputOptions.output);
           }
         )
-        .catch((e: any) => {
+        .catch(e => {
           throw e;
         })
         .then(async () => {
@@ -489,78 +558,6 @@ prog
     }
   });
 
-async function normalizeOpts(opts: WatchOpts): Promise<NormalizedOpts> {
-  const inputs = await getInputs(opts.entry, appPackageJson.source);
-  const { names, files } = getNamesAndFiles(inputs, opts.name);
-
-  return {
-    ...opts,
-    name: names,
-    input: inputs,
-    format: opts.format.split(',').map((format: string) => {
-      if (format === 'es') {
-        return 'esm';
-      }
-      return format;
-    }) as [ModuleFormat, ...ModuleFormat[]],
-    output: {
-      file: files,
-    },
-  };
-}
-
-async function cleanDistFolder() {
-  await fs.remove(paths.appDist);
-}
-
-function writeCjsEntryFile(file: string, numEntries: number) {
-  const baseLine = `module.exports = require('./${file}`;
-  const contents = `
-'use strict'
-
-if (process.env.NODE_ENV === 'production') {
-  ${baseLine}.cjs.production.min.js')
-} else {
-  ${baseLine}.cjs.development.js')
-}
-`;
-  const filename = numEntries === 1 ? 'index.js' : `${file}.js`;
-  return fs.outputFile(path.join(paths.appDist, filename), contents);
-}
-
-function getAuthorName() {
-  let author = '';
-
-  author = shell
-    .exec('npm config get init-author-name', { silent: true })
-    .stdout.trim();
-  if (author) return author;
-
-  author = shell
-    .exec('git config --global user.name', { silent: true })
-    .stdout.trim();
-  if (author) {
-    setAuthorName(author);
-    return author;
-  }
-
-  author = shell
-    .exec('npm config get init-author-email', { silent: true })
-    .stdout.trim();
-  if (author) return author;
-
-  author = shell
-    .exec('git config --global user.email', { silent: true })
-    .stdout.trim();
-  if (author) return author;
-
-  return author;
-}
-
-function setAuthorName(author: string) {
-  shell.exec(`npm config set init-author-name "${author}"`, { silent: true });
-}
-
 prog
   .command('test')
   .describe('Run jest test runner. Passes through all flags directly to Jest')
@@ -571,14 +568,14 @@ prog
     // Makes the script crash on unhandled rejections instead of silently
     // ignoring them. In the future, promise rejections that are not handled will
     // terminate the Node.js process with a non-zero exit code.
-    process.on('unhandledRejection', (err) => {
+    process.on('unhandledRejection', err => {
       throw err;
     });
 
     const argv = process.argv.slice(2);
     let jestConfig: JestConfigOptions = {
       ...createJestConfig(
-        (relativePath) => path.resolve(__dirname, '..', relativePath),
+        relativePath => path.resolve(__dirname, '..', relativePath),
         opts.config ? path.dirname(opts.config) : paths.appRoot
       ),
       ...appPackageJson.jest,
@@ -601,7 +598,7 @@ prog
       } else {
         // case of "--config=path", only one arg to delete
         const configRegex = /--config=.+/;
-        configIndex = argv.findIndex((arg) => arg.match(configRegex));
+        configIndex = argv.findIndex(arg => arg.match(configRegex));
         if (configIndex !== -1) {
           argv.splice(configIndex, 1);
         }
@@ -689,7 +686,7 @@ prog
         }
         let errorCount = 0;
         let warningCount = 0;
-        results.forEach((result) => {
+        results.forEach(result => {
           errorCount += result.errorCount;
           warningCount += result.warningCount;
         });

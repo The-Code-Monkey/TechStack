@@ -26,7 +26,7 @@ const errorCodeOpts = {
 };
 
 // shebang cache map thing because the transform only gets run once
-let shebang: any = {};
+const shebang: any = {};
 
 export async function createRollupConfig(
   appPackageJson: PackageJson,
@@ -141,8 +141,8 @@ export async function createRollupConfig(
         // to acorn. Taken from microbundle.
         // See: https://github.com/Rich-Harris/buble/pull/165
         transform(code: string) {
-          let reg = /^#!(.*)/;
-          let match = code.match(reg);
+          const reg = /^#!(.*)/;
+          const match = code.match(reg);
 
           shebang[opts.name] = match ? '#!' + match[1] : '';
 

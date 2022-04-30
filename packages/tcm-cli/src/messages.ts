@@ -1,10 +1,8 @@
 import chalk from 'chalk';
 
 import getInstallCmd from './getInstallCmd.js';
+import pkg from './getPkgJson.js';
 import * as Output from './output.js';
-
-// using import will report: 'rootDir' is expected to contain all source files.
-const pkg = require('../package.json');
 
 // This was copied from Razzle. Lots of unused stuff.
 const program = {
