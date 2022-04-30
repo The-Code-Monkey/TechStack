@@ -1,15 +1,17 @@
 #!/usr/bin/env node
-
+import { createRequire } from 'module';
 import path from 'path';
 
 import asyncro from 'asyncro';
 import chalk from 'chalk';
-import { Input, Select } from 'enquirer';
+import enquirer from 'enquirer';
+const { Input, Select } = enquirer;
 import { ESLint } from 'eslint';
 import execa from 'execa';
 import figlet from 'figlet';
-import * as fs from 'fs-extra';
-import * as jest from 'jest';
+import fs from 'fs-extra';
+import jest from 'jest';
+const { run: jestRun } = jest;
 import { concatAllArray } from 'jpjs';
 import ora from 'ora';
 import {
@@ -24,36 +26,40 @@ import sade from 'sade';
 import semver from 'semver';
 import shell from 'shelljs';
 import sortPackageJson from 'sort-package-json';
-import glob from 'tiny-glob/sync';
+import glob from 'tiny-glob/sync.js';
 
-import { paths } from './constants';
-import { createBuildConfigs } from './createBuildConfigs';
-import { createEslintConfig } from './createEslintConfig';
-import { createJestConfig, JestConfigOptions } from './createJestConfig';
-import { createProgressEstimator } from './createProgressEstimator';
-import * as deprecated from './deprecated';
-import getInstallArgs from './getInstallArgs';
-import getInstallCmd from './getInstallCmd';
-import logError from './logError';
-import * as Messages from './messages';
-import { rollupTypes } from './rollupTypes';
-import { templates } from './templates';
-import { composeDependencies, composePackageJson } from './templates/utils';
+const require = createRequire(import.meta.url);
+
+import { paths } from './constants.js';
+import { createBuildConfigs } from './createBuildConfigs.js';
+import { createEslintConfig } from './createEslintConfig.js';
+import { createJestConfig, JestConfigOptions } from './createJestConfig.js';
+import { createProgressEstimator } from './createProgressEstimator.js';
+import * as deprecated from './deprecated.js';
+import getInstallArgs from './getInstallArgs.js';
+import getInstallCmd from './getInstallCmd.js';
+import pkg from './getPkgJson.js';
+import logError from './logError.js';
+import * as Messages from './messages.js';
+import { rollupTypes } from './rollupTypes.js';
+import { templates } from './templates/index.js';
+import {
+  composeDependencies,
+  composePackageJson,
+} from './templates/utils/index.js';
 import {
   PackageJson,
   WatchOpts,
   BuildOpts,
   ModuleFormat,
   NormalizedOpts,
-} from './types';
+} from './types.js';
 import {
   resolveApp,
   safePackageName,
   clearConsole,
   getNodeEngineRequirement,
-} from './utils';
-
-const pkg = require('../package.json');
+} from './utils.js';
 
 const prog = sade('tcm');
 
@@ -63,16 +69,49 @@ try {
   appPackageJson = fs.readJSONSync(paths.appPackageJson);
 } catch (e) {}
 
+function setAuthorName(author: string) {
+  shell.exec(`npm config set init-author-name "${author}"`, { silent: true });
+}
+
+function getAuthorName() {
+  let author = '';
+
+  author = shell
+    .exec('npm config get init-author-name', { silent: true })
+    .stdout.trim();
+  if (author) return author;
+
+  author = shell
+    .exec('git config --global user.name', { silent: true })
+    .stdout.trim();
+  if (author) {
+    setAuthorName(author);
+    return author;
+  }
+
+  author = shell
+    .exec('npm config get init-author-email', { silent: true })
+    .stdout.trim();
+  if (author) return author;
+
+  author = shell
+    .exec('git config --global user.email', { silent: true })
+    .stdout.trim();
+  if (author) return author;
+
+  return author;
+}
+
 export const isDir = (name: string) =>
   fs
     .stat(name)
-    .then((stats) => stats.isDirectory())
+    .then(stats => stats.isDirectory())
     .catch(() => false);
 
 export const isFile = (name: string) =>
   fs
     .stat(name)
-    .then((stats) => stats.isFile())
+    .then(stats => stats.isFile())
     .catch(() => false);
 
 async function jsOrTs(filename: string) {
@@ -92,14 +131,14 @@ async function getInputs(
   source?: string
 ): Promise<string[]> {
   return concatAllArray(
-    ([] as any[])
+    []
       .concat(
         entries && entries.length
           ? entries
           : (source && resolveApp(source)) ||
               ((await isDir(resolveApp('src'))) && (await jsOrTs('src/index')))
       )
-      .map((file) => glob(file))
+      .map(file => glob(file))
   );
 }
 
@@ -117,7 +156,7 @@ function getNamesAndFiles(
   // if multiple entries, each entry should retain its filename
   const names: string[] = [];
   const files: string[] = [];
-  inputs.forEach((input) => {
+  inputs.forEach(input => {
     // remove leading src/ directory
     let filename = input;
     const srcVars = ['src/', './src/'];
@@ -136,6 +175,45 @@ function getNamesAndFiles(
   return { names, files };
 }
 
+async function normalizeOpts(opts: WatchOpts): Promise<NormalizedOpts> {
+  const inputs = await getInputs(opts.entry, appPackageJson.source);
+  const { names, files } = getNamesAndFiles(inputs, opts.name);
+
+  return {
+    ...opts,
+    name: names,
+    input: inputs,
+    format: opts.format.split(',').map((format: string) => {
+      if (format === 'es') {
+        return 'esm';
+      }
+      return format;
+    }) as [ModuleFormat, ...ModuleFormat[]],
+    output: {
+      file: files,
+    },
+  };
+}
+
+async function cleanDistFolder() {
+  await fs.remove(paths.appDist);
+}
+
+function writeCjsEntryFile(file: string, numEntries: number) {
+  const baseLine = `module.exports = require('./${file}`;
+  const contents = `
+'use strict'
+
+if (process.env.NODE_ENV === 'production') {
+  ${baseLine}.cjs.production.min.js')
+} else {
+  ${baseLine}.cjs.development.js')
+}
+`;
+  const filename = numEntries === 1 ? 'index.js' : `${file}.js`;
+  return fs.outputFile(path.join(paths.appDist, filename), contents);
+}
+
 prog
   .version(pkg.version)
   .command('create <pkg>')
@@ -152,7 +230,7 @@ prog
   .example('create --husky mypackage')
   .example('create --no-husky mypackage')
   .example('create --husky false mypackage')
-  .action(async (pkg: string, opts: any) => {
+  .action(async (pkg: string, opts: { template: string }) => {
     console.log(
       chalk.cyan(figlet.textSync('TCM', { horizontalLayout: 'full' }))
     );
@@ -184,7 +262,7 @@ prog
     try {
       // get the project path
       const realPath = await fs.realpath(process.cwd());
-      let projectPath = await getProjectPath(realPath + '/' + pkg);
+      const projectPath = await getProjectPath(realPath + '/' + pkg);
 
       const prompt = new Select({
         message: 'Choose a template',
@@ -256,7 +334,6 @@ prog
       const pkgJson = generatePackageJson({
         name: safeName,
         author,
-        includeHuskyConfig: !!opts.husky,
       });
 
       const nodeVersionReq = getNodeEngineRequirement(pkgJson);
@@ -282,9 +359,7 @@ prog
 
     const templateConfig = templates[template as keyof typeof templates];
     const generateDependencies = composeDependencies(templateConfig);
-    const dependencies = generateDependencies({
-      includeHusky: !!opts.husky,
-    });
+    const dependencies = generateDependencies();
 
     const installSpinner = ora(
       Messages.installing(dependencies.sort())
@@ -341,9 +416,7 @@ prog
     }
     if (opts.format.includes('cjs')) {
       await Promise.all(
-        opts.output.file.map((file) =>
-          writeCjsEntryFile(file, opts.input.length)
-        )
+        opts.output.file.map(file => writeCjsEntryFile(file, opts.input.length))
       );
     }
 
@@ -373,7 +446,7 @@ prog
 
     const spinner = ora().start();
     watch(
-      (buildConfigs as RollupWatchOptions[]).map((inputOptions) => ({
+      (buildConfigs as RollupWatchOptions[]).map(inputOptions => ({
         watch: {
           silent: true,
           include: ['src/**'],
@@ -381,7 +454,7 @@ prog
         } as WatcherOptions,
         ...inputOptions,
       }))
-    ).on('event', async (event) => {
+    ).on('event', async event => {
       // clear previous onSuccess/onFailure hook processes so they don't pile up
       await killHooks();
 
@@ -454,7 +527,7 @@ prog
     const logger = await createProgressEstimator();
     if (opts.format.includes('cjs')) {
       const promise = Promise.all(
-        opts.output.file.map((file) =>
+        opts.output.file.map(file =>
           writeCjsEntryFile(file, opts.input.length).catch(logError)
         )
       );
@@ -465,11 +538,11 @@ prog
         .map(
           buildConfigs,
           async (inputOptions: RollupOptions & { output: OutputOptions }) => {
-            let bundle = await rollup(inputOptions);
+            const bundle = await rollup(inputOptions);
             await bundle.write(inputOptions.output);
           }
         )
-        .catch((e: any) => {
+        .catch(e => {
           throw e;
         })
         .then(async () => {
@@ -488,78 +561,6 @@ prog
     }
   });
 
-async function normalizeOpts(opts: WatchOpts): Promise<NormalizedOpts> {
-  const inputs = await getInputs(opts.entry, appPackageJson.source);
-  const { names, files } = getNamesAndFiles(inputs, opts.name);
-
-  return {
-    ...opts,
-    name: names,
-    input: inputs,
-    format: opts.format.split(',').map((format: string) => {
-      if (format === 'es') {
-        return 'esm';
-      }
-      return format;
-    }) as [ModuleFormat, ...ModuleFormat[]],
-    output: {
-      file: files,
-    },
-  };
-}
-
-async function cleanDistFolder() {
-  await fs.remove(paths.appDist);
-}
-
-function writeCjsEntryFile(file: string, numEntries: number) {
-  const baseLine = `module.exports = require('./${file}`;
-  const contents = `
-'use strict'
-
-if (process.env.NODE_ENV === 'production') {
-  ${baseLine}.cjs.production.min.js')
-} else {
-  ${baseLine}.cjs.development.js')
-}
-`;
-  const filename = numEntries === 1 ? 'index.js' : `${file}.js`;
-  return fs.outputFile(path.join(paths.appDist, filename), contents);
-}
-
-function getAuthorName() {
-  let author = '';
-
-  author = shell
-    .exec('npm config get init-author-name', { silent: true })
-    .stdout.trim();
-  if (author) return author;
-
-  author = shell
-    .exec('git config --global user.name', { silent: true })
-    .stdout.trim();
-  if (author) {
-    setAuthorName(author);
-    return author;
-  }
-
-  author = shell
-    .exec('npm config get init-author-email', { silent: true })
-    .stdout.trim();
-  if (author) return author;
-
-  author = shell
-    .exec('git config --global user.email', { silent: true })
-    .stdout.trim();
-  if (author) return author;
-
-  return author;
-}
-
-function setAuthorName(author: string) {
-  shell.exec(`npm config set init-author-name "${author}"`, { silent: true });
-}
-
 prog
   .command('test')
   .describe('Run jest test runner. Passes through all flags directly to Jest')
@@ -570,14 +571,14 @@ prog
     // Makes the script crash on unhandled rejections instead of silently
     // ignoring them. In the future, promise rejections that are not handled will
     // terminate the Node.js process with a non-zero exit code.
-    process.on('unhandledRejection', (err) => {
+    process.on('unhandledRejection', err => {
       throw err;
     });
 
     const argv = process.argv.slice(2);
     let jestConfig: JestConfigOptions = {
       ...createJestConfig(
-        (relativePath) => path.resolve(__dirname, '..', relativePath),
+        relativePath => path.resolve(__dirname, '..', relativePath),
         opts.config ? path.dirname(opts.config) : paths.appRoot
       ),
       ...appPackageJson.jest,
@@ -600,7 +601,7 @@ prog
       } else {
         // case of "--config=path", only one arg to delete
         const configRegex = /--config=.+/;
-        configIndex = argv.findIndex((arg) => arg.match(configRegex));
+        configIndex = argv.findIndex(arg => arg.match(configRegex));
         if (configIndex !== -1) {
           argv.splice(configIndex, 1);
         }
@@ -615,7 +616,7 @@ prog
     );
 
     const [, ...argsToPassToJestCli] = argv;
-    jest.run(argsToPassToJestCli);
+    jestRun(argsToPassToJestCli);
   });
 
 prog
@@ -688,7 +689,7 @@ prog
         }
         let errorCount = 0;
         let warningCount = 0;
-        results.forEach((result) => {
+        results.forEach(result => {
           errorCount += result.errorCount;
           warningCount += result.warningCount;
         });

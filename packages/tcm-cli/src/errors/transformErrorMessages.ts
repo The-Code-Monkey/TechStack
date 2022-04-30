@@ -15,14 +15,40 @@ import { paths } from '../constants';
 import { evalToString } from './evalToString';
 import { invertObject } from './invertObject';
 
-export default function transformErrorMessages(babel: any) {
+export default function transformErrorMessages(babel: {
+  types: {
+    identifier: (x: string) => string;
+    templateElement: ({}) => string;
+    throwStatement: (x: string) => string;
+    callExpression: (x: string, y: Array<string>) => string;
+    templateLiteral: (x: Array<string>, y: Array<string>) => string;
+    ifStatement: (x: string, y: string, z?: string) => string;
+    unaryExpression: (x: string, y: string) => string;
+    blockStatement: (x: Array<string>) => string;
+    numericLiteral: (x: string) => string;
+  };
+}) {
   const t = babel.types;
 
   const DEV_EXPRESSION = t.identifier('__DEV__');
 
   return {
     visitor: {
-      CallExpression(path: any, file: any) {
+      CallExpression(
+        path: {
+          addComment: (x: string, y: string) => void;
+          replaceWith: (x: string) => void;
+          get: (x: string) => {
+            isIdentifier: ({ name: string }: Record<string, string>) => boolean;
+          };
+          node: { noMinify: string; arguments: Array<string> };
+        },
+        file: {
+          opts: {
+            noMinify: boolean;
+          };
+        }
+      ) {
         const node = path.node;
         const noMinify = file.opts.noMinify;
         if (path.get('callee').isIdentifier({ name: 'invariant' })) {
@@ -48,8 +74,8 @@ export default function transformErrorMessages(babel: any) {
           const errorMsgExpressions = Array.from(node.arguments.slice(2));
           const errorMsgQuasis = errorMsgLiteral
             .split('%s')
-            .map((raw: any) =>
-              t.templateElement({ raw, cooked: String.raw({ raw } as any) })
+            .map((raw: string) =>
+              t.templateElement({ raw, cooked: String.raw({ raw }) })
             );
 
           // Import ReactError
@@ -115,7 +141,7 @@ export default function transformErrorMessages(babel: any) {
             );
             return;
           }
-          prodErrorId = parseInt(prodErrorId, 10);
+          prodErrorId = parseInt(prodErrorId as string, 10);
 
           // Import ReactErrorProd
           const reactErrorProdIdentfier = addDefault(
@@ -130,7 +156,7 @@ export default function transformErrorMessages(babel: any) {
           //   throw ReactErrorProd(ERR_CODE, adj, noun);
           const prodThrow = t.throwStatement(
             t.callExpression(reactErrorProdIdentfier, [
-              t.numericLiteral(prodErrorId),
+              t.numericLiteral(prodErrorId as unknown as string),
               ...errorMsgExpressions,
             ])
           );

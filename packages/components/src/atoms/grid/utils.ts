@@ -14,7 +14,7 @@ export const getTemplate = (
   template: GridProps['gridTemplateColumns'] | GridProps['gridTemplateRows']
 ): GetTemplateReturnType => {
   if (Array.isArray(template)) {
-    return template.map((value) =>
+    return template.map(value =>
       typeof value === 'number' ? `repeat(${template},1fr)` : value
     );
   }

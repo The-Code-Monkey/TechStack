@@ -1,6 +1,10 @@
+import { createRequire } from 'module';
+
 import { createConfigItem } from '@babel/core';
 import { createBabelInputPluginFactory } from '@rollup/plugin-babel';
 import merge from 'lodash.merge';
+
+const require = createRequire(import.meta.url);
 
 export const isTruthy = (obj?: any) => {
   if (!obj) {
@@ -16,10 +20,10 @@ const replacements = [{ original: 'lodash(?!/fp)', replacement: 'lodash-es' }];
 export const mergeConfigItems = (type: any, ...configItemsToMerge: any[]) => {
   const mergedItems: any[] = [];
 
-  configItemsToMerge.forEach((configItemToMerge) => {
+  configItemsToMerge.forEach(configItemToMerge => {
     configItemToMerge.forEach((item: any) => {
       const itemToMergeWithIndex = mergedItems.findIndex(
-        (mergedItem) => mergedItem.file.resolved === item.file.resolved
+        mergedItem => mergedItem.file.resolved === item.file.resolved
       );
 
       if (itemToMergeWithIndex === -1) {

@@ -3,12 +3,11 @@ import { Template } from '../template';
 interface ProjectArgs {
   name: string;
   author: string;
-  includeHuskyConfig: boolean;
 }
 export const composePackageJson =
   (template: Template) =>
-  ({ name, author, includeHuskyConfig }: ProjectArgs) => {
-    const pkgJson = {
+  ({ name, author }: ProjectArgs) => {
+    return {
       ...template.packageJson,
       name,
       author,
@@ -24,19 +23,8 @@ export const composePackageJson =
         },
       ],
     };
-    if (!includeHuskyConfig) {
-      delete pkgJson.husky;
-    }
-    return pkgJson;
   };
 
-interface DependencyArgs {
-  includeHusky: boolean;
-}
-export const composeDependencies =
-  (template: Template) =>
-  ({ includeHusky }: DependencyArgs) => {
-    return template.dependencies.filter(
-      (dep) => dep !== 'husky' || includeHusky
-    );
-  };
+export const composeDependencies = (template: Template) => () => {
+  return template.dependencies;
+};

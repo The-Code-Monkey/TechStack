@@ -4,10 +4,10 @@ import { OutputOptions, rollup, RollupOptions } from 'rollup';
 import del from 'rollup-plugin-delete';
 import tcm from 'rollup-plugin-dts';
 
-import { paths } from './constants';
-import { typescriptCompilerOptions } from './tsconfig';
-import { PackageJson } from './types';
-import { resolveApp } from './utils';
+import { paths } from './constants.js';
+import { typescriptCompilerOptions } from './tsconfig.js';
+import { PackageJson } from './types.js';
+import { resolveApp } from './utils.js';
 
 function descendantOfDist(declarationDir: string): boolean {
   const relative = path.relative(paths.appDist, resolveApp(declarationDir));

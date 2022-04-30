@@ -9,7 +9,7 @@ export default {
 
 export const Story = () => (
   <div>
-    <Icon name="GitHub" />
-    <Icon name="GitHub" color="red" />
+    <Icon name='GitHub' />
+    <Icon name='GitHub' color='red' />
   </div>
 );

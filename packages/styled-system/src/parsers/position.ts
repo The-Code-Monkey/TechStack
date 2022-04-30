@@ -12,7 +12,7 @@ import { defaultTheme } from '../utils';
 export interface PositionProps<ThemeType extends Theme = RequiredTheme> {
   position?: ResponsiveValue<Property.Position, ThemeType>;
   pos?: ResponsiveValue<Property.Position, ThemeType>;
-  zIndex?: ResponsiveValue<Property.ZIndex | (string & {}), ThemeType>;
+  zIndex?: ResponsiveValue<Property.ZIndex, ThemeType>;
   top?: ResponsiveValue<Property.Top<TLengthStyledSystem>, ThemeType>;
   right?: ResponsiveValue<Property.Right<TLengthStyledSystem>, ThemeType>;
   bottom?: ResponsiveValue<Property.Bottom<TLengthStyledSystem>, ThemeType>;

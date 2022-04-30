@@ -28,9 +28,9 @@ const Button = ({
   return (
     <StyledInteractable
       className={className}
-      forwardedAs="button"
+      forwardedAs='button'
       autoid={`${autoid || children}_button`}
-      typography="button"
+      typography='button'
       variant={variant}
       {...rest}
       {...iconOrientations[iconPosition]}

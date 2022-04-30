@@ -13,20 +13,20 @@ import { terser } from 'rollup-plugin-terser';
 import typescript from 'rollup-plugin-typescript2';
 import ts from 'typescript';
 
-import { babelPluginTcm } from './babelPluginTcm';
-import { paths } from './constants';
-import { extractErrors } from './errors/extractErrors';
-import { isTypesRollupEnabled } from './rollupTypes';
-import { typescriptCompilerOptions } from './tsconfig';
-import { TcmOptions, PackageJson } from './types';
-import { safeVariableName, external } from './utils';
+import { babelPluginTcm } from './babelPluginTcm.js';
+import { paths } from './constants.js';
+import { extractErrors } from './errors/extractErrors.js';
+import { isTypesRollupEnabled } from './rollupTypes.js';
+import { typescriptCompilerOptions } from './tsconfig.js';
+import { TcmOptions, PackageJson } from './types.js';
+import { safeVariableName, external } from './utils.js';
 
 const errorCodeOpts = {
   errorMapFilePath: paths.appErrorsJson,
 };
 
 // shebang cache map thing because the transform only gets run once
-let shebang: any = {};
+const shebang: any = {};
 
 export async function createRollupConfig(
   appPackageJson: PackageJson,
@@ -141,8 +141,8 @@ export async function createRollupConfig(
         // to acorn. Taken from microbundle.
         // See: https://github.com/Rich-Harris/buble/pull/165
         transform(code: string) {
-          let reg = /^#!(.*)/;
-          let match = code.match(reg);
+          const reg = /^#!(.*)/;
+          const match = code.match(reg);
 
           shebang[opts.name] = match ? '#!' + match[1] : '';
 

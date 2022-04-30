@@ -1,37 +1,39 @@
-import * as fs from 'fs-extra';
+import fs from 'fs-extra';
 import { RollupOptions } from 'rollup';
 
-import { paths } from './constants';
-import { createRollupConfig } from './createRollupConfig';
-import logError from './logError';
+import { paths } from './constants.js';
+import { createRollupConfig } from './createRollupConfig.js';
+import logError from './logError.js';
 import {
   TcmOptions,
   TcmOptionsInput,
   NormalizedOpts,
   PackageJson,
-} from './types';
-import { interopRequireDefault } from './utils';
+} from './types.js';
+import { interopRequireDefault } from './utils.js';
 
 // check for custom tcm.config.js
-let tcmBuildConfig = {
+let tcmBuildConfig: unknown = {
   rollup(config: RollupOptions, _options: TcmOptions): RollupOptions {
     return config;
   },
 };
 
-if (fs.existsSync(paths.appConfigTs)) {
+if (fs.pathExistsSync(paths.appConfigTs)) {
   try {
     require('ts-node').register({
       compilerOptions: {
         module: 'CommonJS',
       },
     });
-    tcmBuildConfig = interopRequireDefault(require(paths.appConfigTs)).default;
+    tcmBuildConfig = (
+      interopRequireDefault(require(paths.appConfigTs)) as { default: unknown }
+    ).default;
   } catch (error) {
     logError(error);
     process.exit(1);
   }
-} else if (fs.existsSync(paths.appConfigJs)) {
+} else if (fs.pathExistsSync(paths.appConfigJs)) {
   tcmBuildConfig = require(paths.appConfigJs);
 }
 
@@ -52,7 +54,11 @@ export async function createBuildConfigs(
     allInputs.map(async (options: TcmOptions, index: number) => {
       // pass the full rollup config to tcm-cli.config.js override
       const config = await createRollupConfig(appPackageJson, options, index);
-      return tcmBuildConfig.rollup(config, options);
+      return (
+        tcmBuildConfig as {
+          rollup: (config: RollupOptions, options: TcmOptions) => RollupOptions;
+        }
+      ).rollup(config, options);
     })
   );
 }

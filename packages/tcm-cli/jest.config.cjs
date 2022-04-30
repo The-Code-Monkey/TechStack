@@ -1,5 +1,5 @@
 module.exports = {
-  testEnvironment: 'node',
+  testEnvironment: 'jsdom',
   testMatch: ['<rootDir>/**/*(*.)@(test).[tj]s?(x)'],
   testPathIgnorePatterns: [
     '/node_modules/', // default
