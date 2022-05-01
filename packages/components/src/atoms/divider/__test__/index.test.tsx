@@ -6,8 +6,8 @@ import Divider from '../index';
 
 describe('<Divider />', () => {
   it('renders correctly', () => {
-    const wrapper = mountWithTheme(<Divider />);
+    const { asFragment } = mountWithTheme(<Divider />);
 
-    expect(toJson(wrapper)).toMatchSnapshot();
+    expect(asFragment()).toMatchSnapshot();
   });
 });

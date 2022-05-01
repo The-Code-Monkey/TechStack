@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { IconProps } from '../types.js';
+import { IconProps } from '../types';
 
 const Package = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,

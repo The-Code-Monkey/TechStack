@@ -6,24 +6,24 @@ import Checkbox from '../index';
 
 describe('<Checkbox />', () => {
   it('renders correctly no icon', () => {
-    const wrapper = mountWithTheme(<Checkbox />);
-    expect(toJson(wrapper)).toMatchSnapshot();
+    const { asFragment } = mountWithTheme(<Checkbox />);
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it('renders correctly checked', () => {
-    const wrapper = mountWithTheme(<Checkbox checked />);
-    expect(toJson(wrapper)).toMatchSnapshot();
+    const { asFragment } = mountWithTheme(<Checkbox checked />);
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it('renders correctly indeterminate', () => {
-    const wrapper = mountWithTheme(<Checkbox indeterminate />);
-    expect(toJson(wrapper)).toMatchSnapshot();
+    const { asFragment } = mountWithTheme(<Checkbox indeterminate />);
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it('calls onClick function', () => {
     const handleClick = jest.fn();
 
-    const wrapper = mountWithTheme(<Checkbox onClick={handleClick} />);
+    const { asFragment } = mountWithTheme(<Checkbox onClick={handleClick} />);
 
     wrapper.find('div').simulate('click');
 

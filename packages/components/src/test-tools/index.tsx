@@ -1,4 +1,4 @@
-import { mount, shallow, ShallowWrapper, ReactWrapper } from 'enzyme';
+import { render } from "@testing-library/react";
 import React, { ReactNode } from 'react';
 import { ThemeProvider } from 'styled-components';
 
@@ -36,19 +36,12 @@ const formattedTheme = {
   },
 };
 
-export const shallowWithTheme: (children: ReactNode) => ShallowWrapper = (
-  children: ReactNode
-) =>
-  shallow(<ThemeProvider theme={formattedTheme}>{children}</ThemeProvider>)
-    .dive()
-    .shallow();
-
-export const mountWithTheme: (children: ReactNode) => ReactWrapper = (
+export const mountWithTheme = (
   children: ReactNode
 ) => {
   expect.addSnapshotSerializer(removeProperties());
 
-  return mount(
+  return render(
     <ConfigContext.Provider value={config}>
       <ThemeProvider theme={formattedTheme}>
         <>{children}</>

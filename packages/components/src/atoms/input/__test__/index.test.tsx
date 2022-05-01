@@ -6,8 +6,8 @@ import Input from '../index';
 
 describe('<Input />', () => {
   it('renders correctly', () => {
-    const wrapper = mountWithTheme(<Input name='test' />);
+    const { asFragment } = mountWithTheme(<Input name='test' />);
 
-    expect(toJson(wrapper)).toMatchSnapshot();
+    expect(asFragment()).toMatchSnapshot();
   });
 });

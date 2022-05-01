@@ -6,7 +6,7 @@ import Grid, { Cell } from '../index';
 
 describe('<Grid />', () => {
   it('renders correctly', () => {
-    const wrapper = mountWithTheme(
+    const { asFragment } = mountWithTheme(
       <Grid columns={['auto', '1fr 1fr', '1fr 1fr 2fr']}>
         <Cell>Cell 1</Cell>
         <Cell>Cell 2</Cell>
@@ -16,6 +16,6 @@ describe('<Grid />', () => {
       </Grid>
     );
 
-    expect(toJson(wrapper)).toMatchSnapshot();
+    expect(asFragment()).toMatchSnapshot();
   });
 });

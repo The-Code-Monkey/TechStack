@@ -10,6 +10,7 @@ export function createJestConfig(
     transform: {
       '^.+\\.tsx?$': 'ts-jest/legacy',
       '^.+\\.ts?$': 'ts-jest/legacy',
+      '^.+\\.mts?$': 'ts-jest/legacy',
     },
     testEnvironment: 'jsdom',
     testEnvironmentOptions: {
@@ -17,7 +18,16 @@ export function createJestConfig(
     },
     extensionsToTreatAsEsm: ['.ts', '.tsx', '.mts'],
     transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$'],
-    moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node', 'mts'],
+    moduleFileExtensions: [
+      'ts',
+      'tsx',
+      'js',
+      'jsx',
+      'json',
+      'node',
+      'mts',
+      'mjs',
+    ],
     collectCoverageFrom: ['src/**/*.{ts,tsx,js,jsx,mts}'],
     testMatch: ['<rootDir>/**/*.(spec|test).{ts,tsx,js,jsx,mts}'],
     rootDir,
@@ -25,5 +35,11 @@ export function createJestConfig(
       'jest-watch-typeahead/filename',
       'jest-watch-typeahead/testname',
     ],
+    preset: 'ts-jest/presets/default-esm',
+    globals: {
+      'ts-jest': {
+        useESM: true,
+      },
+    },
   };
 }
