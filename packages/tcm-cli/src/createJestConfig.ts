@@ -8,7 +8,8 @@ export function createJestConfig(
 ): JestConfigOptions {
   return {
     transform: {
-      '^.+\\.(tsx|mts)?$': 'ts-jest/legacy',
+      '^.+\\.tsx?$': 'ts-jest/legacy',
+      '^.+\\.mts?$': 'ts-jest/legacy',
     },
     testEnvironment: 'jsdom',
     testEnvironmentOptions: {
