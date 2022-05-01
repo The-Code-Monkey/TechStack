@@ -1,7 +1,7 @@
 import { render, waitFor, screen } from '@testing-library/react';
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
 describe('<Icon />', () => {
   it('renders correctly', async () => {
