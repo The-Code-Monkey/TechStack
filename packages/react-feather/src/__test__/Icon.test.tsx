@@ -1,3 +1,4 @@
+import jest from 'jest';
 import { render, waitFor, screen } from '@testing-library/react';
 import React from 'react';
 
