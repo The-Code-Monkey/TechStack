@@ -10,26 +10,28 @@ describe('<Button />', () => {
   });
 
   it('renders primary correctly', () => {
-    const {asFragment} = mountWithTheme(<Button variant='primary'>Primary</Button>);
+    const { asFragment } = mountWithTheme(
+      <Button variant='primary'>Primary</Button>
+    );
     expect(asFragment()).toMatchSnapshot();
   });
 
   it('renders secondary correctly', () => {
-    const {asFragment} = mountWithTheme(
+    const { asFragment } = mountWithTheme(
       <Button variant='secondary'>Secondary</Button>
     );
     expect(asFragment()).toMatchSnapshot();
   });
 
   it('renders icon correctly', () => {
-    const {asFragment} = mountWithTheme(
+    const { asFragment } = mountWithTheme(
       <Button iconName='GitHub'>Secondary</Button>
     );
     expect(asFragment()).toMatchSnapshot();
   });
 
   it('renders icon only correctly', () => {
-    const { asFragment} = mountWithTheme(<Button iconName='GitHub' />);
+    const { asFragment } = mountWithTheme(<Button iconName='GitHub' />);
     expect(asFragment()).toMatchSnapshot();
   });
 });
