@@ -1,6 +1,4 @@
-import jest from "jest";
-
-import { sum } from '../src/index.js';
+import { sum } from '../src';
 
 describe('sum', () => {
   it('adds two numbers together', () => {
