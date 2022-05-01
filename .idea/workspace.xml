@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lerna-debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-feather/src/__test__/__snapshots__/Icon.test.tsx.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-lazy-named/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-lazy-named/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-lazy-named/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-lazy-named/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-lazy-named/src/__snapshots__/index.spec.tsx.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-lazy-named/src/index.spec.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-lazy-named/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-lazy-named/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/tcm-cli/src/getPkgJson.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/babel.config.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/button/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/__test__/index.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/button/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/story.tsx" afterDir="false" />
@@ -34,6 +50,7 @@
       <change beforePath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/theme-provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/theme-provider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-feather/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-feather/src/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/Icon.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-feather/src/__test__/Icon.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/__test__/Icon.test.tsx" afterDir="false" />
@@ -323,12 +340,15 @@
       <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/zap.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/zap.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/zoom-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/zoom-in.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/zoom-out.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/zoom-out.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-lazy-named/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-lazy-named/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-lazy-named/src/index.spec.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-lazy-named/src/index.spec.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-lazy-named/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-lazy-named/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-textfit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-textfit/src/Textfit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/src/Textfit.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-textfit/src/utils/throttle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/src/utils/throttle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/styled-system/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/styled-system/src/core/__test__/parser.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/src/core/__test__/parser.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/styled-system/src/core/compose.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/src/core/compose.ts" afterDir="false" />
@@ -346,15 +366,57 @@
       <change beforePath="$PROJECT_DIR$/packages/styled-system/src/shouldForwardProp/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/src/shouldForwardProp/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/styled-system/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/src/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/styled-system/src/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/src/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/tcm-cli/commitlint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/commitlint.config.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/conf/eslint-config-react-app/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-lazy-named/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/conf/eslint-config-react-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/conf/eslint-config-react-app/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/conf/eslint-config-react-app/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/conf/eslint-config-react-app/jest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/conf/eslint-config-react-app/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/tcm-cli/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/jest.config.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/tcm-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/babelPluginTcm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/babelPluginTcm.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/createBuildConfigs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createBuildConfigs.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/createEslintConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createEslintConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/createJestConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createJestConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/createProgressEstimator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createProgressEstimator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/createRollupConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createRollupConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/deprecated.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/deprecated.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/errors/extractErrors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/errors/extractErrors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/errors/invertObject.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/errors/invertObject.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/errors/transformErrorMessages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/errors/transformErrorMessages.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/messages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/messages.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/rollupTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/rollupTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/templates/basic.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/templates/basic.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/templates/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/templates/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/templates/react-with-storybook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/templates/react-with-storybook.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/templates/react.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/templates/react.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/templates/template.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/templates/template.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/templates/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/templates/utils/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/tsconfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/tsconfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/templates/basic/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/templates/basic/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/templates/react-with-storybook/stories/Thing.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/templates/react-with-storybook/stories/Thing.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/tcm-cli/templates/react-with-storybook/test/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/templates/react-with-storybook/test/index.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/templates/react-with-storybook/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/templates/react-with-storybook/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/tcm-cli/templates/react/test/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/templates/react/test/index.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/templates/react/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/templates/react/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/theme/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/theme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/theme/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/theme/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/next.config.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/react-cms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/postcss.config.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

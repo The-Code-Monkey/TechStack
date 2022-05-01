@@ -1,8 +1,8 @@
 import lazy from '@aw-web-design/react-lazy-named';
 import * as React from 'react';
 
-import { default as HelpCircle } from './icons/help-circle';
-import { IconProps } from './types';
+import { default as HelpCircle } from './icons/help-circle.js';
+import { IconProps } from './types.js';
 
 export interface Props extends IconProps {
   name: string;
@@ -11,7 +11,7 @@ export interface Props extends IconProps {
 const { Suspense, memo } = React;
 
 export const getIcon = (name: string) => {
-  return lazy(() => import(`./icons/${name}`));
+  return lazy(() => import(`./icons/${name}.js`));
 };
 
 export const Icon = ({ name, ...rest }: Props) => {

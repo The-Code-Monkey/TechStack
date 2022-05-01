@@ -6,22 +6,23 @@ export function createJestConfig(
   _: (relativePath: string) => void,
   rootDir: string
 ): JestConfigOptions {
-  const config: JestConfigOptions = {
+  return {
     transform: {
-      '.(ts|tsx)$': 'ts-jest/dist',
-      '.(js|jsx)$': 'babel-jest', // jest's default
+      '^.+\\.tsx?$': 'ts-jest/legacy',
     },
+    testEnvironment: 'jsdom',
+    testEnvironmentOptions: {
+      url: 'http://localhost',
+    },
+    extensionsToTreatAsEsm: ['.ts', '.tsx'],
     transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$'],
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
     collectCoverageFrom: ['src/**/*.{ts,tsx,js,jsx}'],
     testMatch: ['<rootDir>/**/*.(spec|test).{ts,tsx,js,jsx}'],
-    testURL: 'http://localhost',
     rootDir,
     watchPlugins: [
       'jest-watch-typeahead/filename',
       'jest-watch-typeahead/testname',
     ],
   };
-
-  return config;
 }

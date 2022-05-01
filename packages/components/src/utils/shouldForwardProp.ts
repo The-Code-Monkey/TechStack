@@ -1,5 +1,4 @@
-import memo from "memoize-one";
-
+import memo from 'memoize-one';
 
 const forwardPropHelper =
   (styledProps: Array<string>) =>

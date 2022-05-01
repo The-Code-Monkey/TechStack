@@ -12,7 +12,7 @@
   "scripts": {
     "lint": "tcm lint",
     "lint:fix": "yarn lint --fix",
-    "build": "tcm build",
+    "build": "tcm build --format esm",
     "test": "tcm test"
   },
   "publishConfig": {
@@ -38,7 +38,7 @@
     "rerender"
   ],
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.1.45",
+    "@aw-web-design/tcm-cli": "3.1.46",
     "@testing-library/react": "13.1.1"
   },
   "peerDependencies": {
@@ -47,8 +47,5 @@
   "dependencies": {
     "lodash": "4.17.21",
     "lodash-es": "4.17.21"
-  },
-  "jest": {
-    "testEnvironment": "jsdom"
   }
 }

@@ -5,7 +5,7 @@ import { shouldForwardProp } from '../../utils';
 import { Box, StyledBoxProps } from '../box';
 
 export const SvgWrapper = styled(Box).withConfig({
-  shouldForwardProp: shouldForwardProp()([
+  shouldForwardProp: shouldForwardProp([
     ...StyledBoxProps.propNames,
     'noFill',
     'cursor',

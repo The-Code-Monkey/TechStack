@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/tcm-cli",
-  "version": "3.1.45",
+  "version": "3.1.47",
   "description": "Zero-config TypeScript package development",
   "license": "MIT",
   "repository": {
@@ -75,7 +75,8 @@
     "execa": "4.1.0",
     "figlet": "1.5.2",
     "fs-extra": "10.1.0",
-    "jest": "27.5.1",
+    "jest": "28.0.3",
+    "jest-environment-jsdom": "28.0.2",
     "jest-watch-typeahead": "1.1.0",
     "jpjs": "1.2.1",
     "lodash.merge": "4.6.2",
@@ -96,7 +97,7 @@
     "shelljs": "0.8.5",
     "sort-package-json": "1.55.0",
     "tiny-glob": "0.2.9",
-    "ts-jest": "27.1.4",
+    "ts-jest": "28.0.0-next.3",
     "ts-node": "10.7.0",
     "tslib": "2.4.0",
     "type-fest": "2.12.2",

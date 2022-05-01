@@ -16,12 +16,12 @@ const Icon = ({ autoid, name, ...rest }: Props) => {
   // const config = useContext(ConfigContext);
 
   return (
-      <SvgWrapper
-        autoid={`${generateAutomationId(autoid ?? name)}_icon`}
-        {...rest}
-      >
-       <FeatherIcon name={name} />
-      </SvgWrapper>
+    <SvgWrapper
+      autoid={`${generateAutomationId(autoid ?? name)}_icon`}
+      {...rest}
+    >
+      <FeatherIcon name={name} />
+    </SvgWrapper>
   );
 };
 
