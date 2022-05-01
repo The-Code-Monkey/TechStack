@@ -95,7 +95,7 @@
     "sade": "1.8.1",
     "semver": "7.3.7",
     "shelljs": "0.8.5",
-    "sort-package-json": "1.55.0",
+    "sort-package-json": "1.56.0",
     "tiny-glob": "0.2.9",
     "ts-jest": "28.0.0-next.3",
     "ts-node": "10.7.0",
