@@ -1,5 +1,5 @@
 import { render, waitFor, screen } from '@testing-library/react';
-import * as React from 'react';
+import React from 'react';
 
 import Icon from '../Icon.js';
 
