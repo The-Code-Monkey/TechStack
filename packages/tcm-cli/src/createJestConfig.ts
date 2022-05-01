@@ -9,7 +9,7 @@ export function createJestConfig(
   return {
     transform: {
       '^.+\\.tsx?$': 'ts-jest/legacy',
-      '^.+\\.mts?$': 'ts-jest/legacy',
+      '^.+\\.ts?$': 'ts-jest/legacy',
     },
     testEnvironment: 'jsdom',
     testEnvironmentOptions: {
