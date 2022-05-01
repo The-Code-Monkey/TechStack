@@ -8,17 +8,17 @@ export function createJestConfig(
 ): JestConfigOptions {
   return {
     transform: {
-      '^.+\\.tsx?$': 'ts-jest/legacy',
+      '^.+\\.(tsx|mts)?$': 'ts-jest/legacy',
     },
     testEnvironment: 'jsdom',
     testEnvironmentOptions: {
       url: 'http://localhost',
     },
-    extensionsToTreatAsEsm: ['.ts', '.tsx'],
+    extensionsToTreatAsEsm: ['.ts', '.tsx', '.mts'],
     transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$'],
-    moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-    collectCoverageFrom: ['src/**/*.{ts,tsx,js,jsx}'],
-    testMatch: ['<rootDir>/**/*.(spec|test).{ts,tsx,js,jsx}'],
+    moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node', 'mts'],
+    collectCoverageFrom: ['src/**/*.{ts,tsx,js,jsx,mts}'],
+    testMatch: ['<rootDir>/**/*.(spec|test).{ts,tsx,js,jsx,mts}'],
     rootDir,
     watchPlugins: [
       'jest-watch-typeahead/filename',
