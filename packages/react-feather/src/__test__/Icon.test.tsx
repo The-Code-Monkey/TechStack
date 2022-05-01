@@ -1,5 +1,5 @@
-import jest from 'jest';
 import { render, waitFor, screen } from '@testing-library/react';
+import jest from 'jest';
 import React from 'react';
 
 import { Icon } from '../Icon';
