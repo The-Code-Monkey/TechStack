@@ -74,7 +74,7 @@
     "size-limit": "7.0.8",
     "ts-jest": "28.0.0-next.3",
     "tslib": "2.4.0",
-    "typescript": "4.6.3"
+    "typescript": "4.6.4"
   },
   "dependencies": {
     "@aw-web-design/react-feather": "3.1.45",
