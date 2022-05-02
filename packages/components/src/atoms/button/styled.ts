@@ -1,5 +1,5 @@
 import { variant, Theme } from '@aw-web-design/styled-system';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 import { Interactable, StyledBoxProps } from '../../primatives';
 
@@ -76,12 +76,10 @@ export const StyledInteractable = styled(Interactable)<{ strong?: boolean }>`
   &:focus {
     outline: none;
   }
-  ${p => css`
-    ${variant({
-      prop: 'typography',
-      scale: 'typography.type',
-    })}
-    ${ButtonVariants(p.theme)}
-  `}
+  ${variant({
+    prop: 'typography',
+    scale: 'typography.type',
+  })}
+  ${p => ButtonVariants(p.theme)}
   ${StyledBoxProps}
 `;
