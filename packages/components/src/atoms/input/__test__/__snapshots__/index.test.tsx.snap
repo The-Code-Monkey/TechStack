@@ -1,37 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Input /> renders correctly 1`] = `
-<Component>
-  <Input
+<DocumentFragment>
+  <input
+    class="sc-chmotB eTfPSN"
+    cursor="pointer"
     name="test"
-  >
-    <styled.input
-      _hover={
-        Object {
-          "bg": "blue",
-        }
-      }
-      border="1px solid #000"
-      borderRadius="6px"
-      cursor="pointer"
-      minHeight="24px"
-      name="test"
-      onChange={[Function]}
-      padding="6px"
-      placeholder="Placeholder"
-      type="text"
-      width="100%"
-    >
-      <input
-        className="sc-jSMfEi gwwwUP"
-        cursor="pointer"
-        name="test"
-        onChange={[Function]}
-        placeholder="Placeholder"
-        type="text"
-        width="100%"
-      />
-    </styled.input>
-  </Input>
-</Component>
+    placeholder="Placeholder"
+    type="text"
+    value=""
+    width="100%"
+  />
+</DocumentFragment>
 `;

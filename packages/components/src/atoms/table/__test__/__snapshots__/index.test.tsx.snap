@@ -1,38 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Table /> should render correctly 1`] = `
-<Component>
-  <Table
-    columns={Array []}
-    data={Array []}
+<DocumentFragment>
+  <table
+    class="sc-chmotB gMfFWe"
+    height="100%"
+    role="table"
+    width="100%"
   >
-    <styled.table
-      className=""
-      height="100%"
-      role="table"
-      width="100%"
-    >
-      <table
-        className="sc-jSMfEi bOxdNw"
-        height="100%"
-        role="table"
-        width="100%"
-      >
-        <styled.thead>
-          <thead
-            className="sc-gKXOVf dbCGwg"
-          />
-        </styled.thead>
-        <styled.tbody
-          role="rowgroup"
-        >
-          <tbody
-            className="sc-papXJ ccFNYo"
-            role="rowgroup"
-          />
-        </styled.tbody>
-      </table>
-    </styled.table>
-  </Table>
-</Component>
+    <thead
+      class="sc-hfIyFQ ierOqB"
+    />
+    <tbody
+      class="sc-bCYoOG dCJLhr"
+      role="rowgroup"
+    />
+  </table>
+</DocumentFragment>
 `;

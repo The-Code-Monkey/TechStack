@@ -1,6 +1,4 @@
-const path = require("path");
-
-module.exports = {
+const config = {
   stories: ['../src/@(atoms|molecules|organisms|primatives)/**/story.@(ts|tsx)'],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
   // https://storybook.js.org/docs/react/configure/typescript#mainjs-configuration
@@ -8,3 +6,5 @@ module.exports = {
     check: true, // type-check stories during Storybook build
   }
 };
+
+export default config;

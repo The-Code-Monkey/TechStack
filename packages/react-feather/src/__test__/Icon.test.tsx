@@ -9,7 +9,9 @@ describe('<Icon />', () => {
 
     expect(asFragment()).toMatchSnapshot();
 
-    await waitFor(() => expect(screen.getByTitle('check-icon')));
+    await waitFor(() => expect(screen.getByTitle('check-icon')), {
+      timeout: 2000
+    });
 
     expect(asFragment()).toMatchSnapshot();
   });

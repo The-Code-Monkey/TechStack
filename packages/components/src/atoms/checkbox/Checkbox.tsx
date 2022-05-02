@@ -50,7 +50,7 @@ const Checkbox = ({
       {(indeterminate || checked) && (
         <Icon
           autoid={`${autoid && `${autoid}_`}checkbox_icon`}
-          name={indeterminate ? 'Minus' : 'Check'}
+          name={indeterminate ? 'minus' : 'check'}
           noFill
           size='full'
         />
