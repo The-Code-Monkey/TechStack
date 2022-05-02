@@ -1,14 +1,15 @@
 /* eslint-disable no-console */
 import Benchmark from 'benchmark';
-import memoizeOne from '../dist/memoize-one.esm.js';
-import { memoize as lodash } from 'lodash';
 import fastMemoize from 'fast-memoize';
-import mem from 'mem';
-import ora from 'ora';
-import moize from 'moize';
-import memoizee from 'memoizee';
-import { green, bold } from 'nanocolors';
+import { memoize as lodash } from 'lodash';
 import { markdownTable } from 'markdown-table';
+import mem from 'mem';
+import memoizee from 'memoizee';
+import moize from 'moize';
+import { green, bold } from 'nanocolors';
+import ora from 'ora';
+
+import memoizeOne from '../dist/memoize-one.esm.js';
 
 const libraries = [
   {
