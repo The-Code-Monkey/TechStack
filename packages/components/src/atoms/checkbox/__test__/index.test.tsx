@@ -1,4 +1,4 @@
-import toJson from 'enzyme-to-json';
+import { fireEvent, screen } from '@testing-library/react';
 import React from 'react';
 
 import { mountWithTheme } from '../../../test-tools';
@@ -23,9 +23,11 @@ describe('<Checkbox />', () => {
   it('calls onClick function', () => {
     const handleClick = jest.fn();
 
-    const { asFragment } = mountWithTheme(<Checkbox onClick={handleClick} />);
+    const { getByTitle } = mountWithTheme(<Checkbox onClick={handleClick} />);
 
-    wrapper.find('div').simulate('click');
+    expect(async () => await getByTitle('minus-icon'));
+
+    fireEvent.click(screen.getByTitle('minus-icon'));
 
     expect(handleClick).toHaveBeenCalled();
   });

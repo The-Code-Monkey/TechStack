@@ -117,7 +117,7 @@ memoizedAdd(NaN);
 You can also pass in a custom function for checking the equality of two sets of arguments
 
 ```js
-const memoized = memoizeOne(fn, isEqual);
+const memoized = index(fn, isEqual);
 ```
 
 An equality function should return `true` if the arguments are equal. If `true` is returned then the wrapped function will not be called.
@@ -385,10 +385,10 @@ const canThrow = (name: string) => {
   if (name === 'throw') {
     throw new Error(name);
   }
-  return { name };
+  return {name};
 };
 
-const memoized = memoizeOne(canThrow);
+const memoized = index(canThrow);
 
 const value1 = memoized('Alex');
 // result function called: console.log => 'called'

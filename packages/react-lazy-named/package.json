@@ -6,8 +6,10 @@
   "user": "grgur",
   "license": "MIT",
   "type": "module",
-  "module": "./dist/react-lazy-named.esm.js",
-  "main": "./dist/react-lazy-named.esm.js",
+  "exports": {
+    "require": "./dist/react-lazy-named.cjs.js",
+    "import": "./dist/react-lazy-named.esm.js"
+  },
   "typings": "dist/index.d.ts",
   "scripts": {
     "lint": "tcm lint",
@@ -38,7 +40,7 @@
     "rerender"
   ],
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.2.3",
+    "@aw-web-design/tcm-cli": "3.2.5",
     "@testing-library/react": "13.1.1"
   },
   "peerDependencies": {

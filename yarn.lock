@@ -10,11 +10,6 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@aw-web-design/memoize@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@aw-web-design/memoize/-/memoize-1.0.0.tgz#9e1c13acad6cdd88b037b005a0dbc0a43a0ab36e"
-  integrity sha512-g1xq9ImqT1zjw8ffUr3nqLVCBdgkoDLlBYuuMnCvLQonZM7bl8EG92uP8+3ncraDiXLQ0vnxcdfj4CphMx8kPg==
-
 "@aw-web-design/react-feather@3.1.45":
   version "3.1.45"
   resolved "https://registry.yarnpkg.com/@aw-web-design/react-feather/-/react-feather-3.1.45.tgz#5d87aaf9610272bc755843c0a558f7424587b70b"

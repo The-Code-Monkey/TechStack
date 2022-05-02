@@ -3,13 +3,15 @@
   "version": "1.0.1",
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
-  "module": "./dist/memoize.esm.js",
-  "main": "./dist/memoize.esm.js",
+  "exports": {
+    "require": "./dist/memoize.cjs.js",
+    "import": "./dist/memoize.esm.js"
+  },
   "typings": "dist/index.d.ts",
   "scripts": {
     "test": "tcm test",
     "lint": "tcm lint",
-    "build": "tcm build --format esm"
+    "build": "tcm build"
   },
   "files": [
     "dist",
@@ -29,7 +31,7 @@
     "url": "https://github.com/alexreardon/memoize-one/issues"
   },
   "dependencies": {
-    "@aw-web-design/tcm-cli": "3.2.3"
+    "@aw-web-design/tcm-cli": "3.2.5"
   },
   "devDependencies": {
     "lodash": "4.17.21",

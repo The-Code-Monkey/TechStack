@@ -2,9 +2,8 @@
 import { expectTypeOf } from 'expect-type';
 import { isEqual } from 'lodash';
 
-import memoize from '../src/memoize-one';
-
-import type { EqualityFn, MemoizedFn } from './../src/memoize-one';
+import memoize from '../src';
+import type { EqualityFn, MemoizedFn } from '../src';
 
 it('should maintain the types of the original function', () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars

@@ -1,26 +1,7 @@
 import areInputsEqual from './are-inputs-equal';
+import type { EqualityFn, MemoizedFn, Cache } from './types';
 
-export type EqualityFn<TFunc extends (...args: any[]) => any> = (
-  newArgs: Parameters<TFunc>,
-  lastArgs: Parameters<TFunc>
-) => boolean;
-
-export type MemoizedFn<TFunc extends (this: any, ...args: any[]) => any> = {
-  clear: () => void;
-  (
-    this: ThisParameterType<TFunc>,
-    ...args: Parameters<TFunc>
-  ): ReturnType<TFunc>;
-};
-
-// internal type
-type Cache<TFunc extends (this: any, ...args: any[]) => any> = {
-  lastThis: ThisParameterType<TFunc>;
-  lastArgs: Parameters<TFunc>;
-  lastResult: ReturnType<TFunc>;
-};
-
-function memoizeOne<TFunc extends (this: any, ...newArgs: any[]) => any>(
+function index<TFunc extends (this: any, ...newArgs: any[]) => any>(
   resultFn: TFunc,
   isEqual: EqualityFn<TFunc> = areInputsEqual
 ): MemoizedFn<TFunc> {
@@ -56,4 +37,5 @@ function memoizeOne<TFunc extends (this: any, ...newArgs: any[]) => any>(
   return memoized;
 }
 
-export default memoizeOne;
+export { EqualityFn, MemoizedFn };
+export default index;

@@ -1,9 +1,11 @@
 {
-  "version": "3.2.1",
+  "version": "3.2.2",
   "license": "MIT",
   "name": "@aw-web-design/styled-system",
-  "module": "./dist/styled-system.esm.js",
-  "main": "./dist/styled-system.esm.js",
+  "exports": {
+    "require": "./dist/styled-system.cjs.js",
+    "import": "./dist/styled-system.esm.js"
+  },
   "types": "./dist/index.d.ts",
   "type": "module",
   "files": [
@@ -15,10 +17,9 @@
   },
   "scripts": {
     "start": "tcm watch",
-    "build": "tcm build --format esm",
+    "build": "tcm build",
     "test": "tcm test",
     "lint": "tcm lint",
-    "prepare": "tcm build --format esm",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
@@ -40,8 +41,8 @@
     "typescript": "4.6.4"
   },
   "dependencies": {
-    "@aw-web-design/tcm-cli": "3.2.3",
-    "@aw-web-design/memoize": "1.0.0",
+    "@aw-web-design/tcm-cli": "3.2.5",
+    "@aw-web-design/memoize": "1.0.1",
     "@emotion/is-prop-valid": "1.1.2",
     "csstype": "3.0.11"
   },

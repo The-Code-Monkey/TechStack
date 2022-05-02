@@ -6,7 +6,6 @@ import json from '@rollup/plugin-json';
 import resolve, {
   DEFAULTS as RESOLVE_DEFAULTS,
 } from '@rollup/plugin-node-resolve';
-import replace from '@rollup/plugin-replace';
 import { RollupOptions } from 'rollup';
 import sourceMaps from 'rollup-plugin-sourcemaps';
 import { terser } from 'rollup-plugin-terser';
@@ -38,10 +37,9 @@ export async function createRollupConfig(
     ...opts,
   });
 
-  const shouldMinify =
-    opts.minify !== undefined ? opts.minify : opts.env === 'production';
+  const shouldMinify = opts.minify;
 
-  const outputSuffix = [opts.format, opts.env, shouldMinify ? 'min' : '', 'js']
+  const outputSuffix = [opts.format, shouldMinify ? 'min' : '', 'js']
     .filter(Boolean)
     .join('.');
   let entryFileNames = `[name].${outputSuffix}`;
@@ -128,10 +126,7 @@ export async function createRollupConfig(
       // all bundled external modules need to be converted from CJS to ESM
       commonjs({
         // use a regex to make sure to include eventual hoisted packages
-        include:
-          opts.format === 'umd'
-            ? /\/node_modules\//
-            : /\/regenerator-runtime\//,
+        include: /\/regenerator-runtime\//,
       }),
       json(),
       {
@@ -201,11 +196,6 @@ export async function createRollupConfig(
         },
         babelHelpers: 'bundled',
       }),
-      opts.env !== undefined &&
-        replace({
-          'process.env.NODE_ENV': JSON.stringify(opts.env),
-          preventAssignment: true,
-        }),
       sourceMaps(),
       shouldMinify &&
         terser({
@@ -216,7 +206,7 @@ export async function createRollupConfig(
             passes: 10,
           },
           ecma: 5,
-          toplevel: opts.format === 'cjs',
+          toplevel: false,
           warnings: true,
         }),
     ],

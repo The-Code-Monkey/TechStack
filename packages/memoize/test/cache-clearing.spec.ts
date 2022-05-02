@@ -1,4 +1,4 @@
-import memoize from '../src/memoize-one';
+import memoize from '../src';
 
 it('should enable cache clearing', () => {
   const underlyingFn = jest.fn(function add(a: number, b: number) {

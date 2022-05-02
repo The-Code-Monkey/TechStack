@@ -38,10 +38,6 @@ export async function extractErrors(opts: any) {
     );
   }
 
-  if (!opts.name || !('name' in opts)) {
-    throw new Error('Missing options. Ensure you pass --name flag to tcm');
-  }
-
   const errorMapFilePath = opts.errorMapFilePath;
   let existingErrorMap: any;
   try {

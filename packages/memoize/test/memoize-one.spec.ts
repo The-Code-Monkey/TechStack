@@ -1,6 +1,6 @@
 import { isEqual } from 'lodash';
 
-import memoize, { EqualityFn } from '../src/memoize-one';
+import memoize, { EqualityFn } from '../src';
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 type HasA = {

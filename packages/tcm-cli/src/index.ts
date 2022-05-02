@@ -47,13 +47,7 @@ import {
   composeDependencies,
   composePackageJson,
 } from './templates/utils/index.js';
-import {
-  PackageJson,
-  WatchOpts,
-  BuildOpts,
-  ModuleFormat,
-  NormalizedOpts,
-} from './types.js';
+import { PackageJson, WatchOpts, BuildOpts, NormalizedOpts, ModuleFormat } from './types.js';
 import {
   resolveApp,
   safePackageName,
@@ -142,7 +136,10 @@ async function getInputs(
   );
 }
 
-function getNamesAndFiles(inputs: string[]): { names: string[]; files: string[] } {
+function getNamesAndFiles(inputs: string[]): {
+  names: string[];
+  files: string[];
+} {
   if (inputs.length === 1) {
     const singleName = appPackageJson.name;
     return {
@@ -520,14 +517,6 @@ prog
       await cleanDistFolder();
     }
     const logger = await createProgressEstimator();
-    if (opts.format.includes('cjs')) {
-      const promise = Promise.all(
-        opts.output.file.map(file =>
-          writeCjsEntryFile(file, opts.input.length).catch(logError)
-        )
-      );
-      logger(promise, 'Creating entry file');
-    }
     try {
       const promise = asyncro
         .map(

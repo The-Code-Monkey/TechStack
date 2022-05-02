@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/tcm-cli",
-  "version": "3.2.3",
+  "version": "3.2.5",
   "description": "Zero-config TypeScript package development",
   "license": "MIT",
   "repository": {
@@ -20,7 +20,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "lint": "node dist/index.js lint ./",
-    "test": "yarn lint && node dist/index.js build --format esm && node dist/tcm-cli.esm.js test && tsc -p tsconfig.json",
+    "test": "node dist/index.js test",
     "start": "tsc -p tsconfig.json --watch",
     "deduplicate": "yarn dedupe",
     "deduplicate:check": "yarn dedupe -c",
