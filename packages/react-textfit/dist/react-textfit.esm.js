@@ -1,6 +1,7 @@
+import process from 'process';
+
 import PropTypes from 'prop-types';
 import React from 'react';
-import process from 'process';
 
 function _extends() {
   _extends = Object.assign || function (target) {
