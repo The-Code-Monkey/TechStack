@@ -3,7 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-lazy-named/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-lazy-named/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/examples/simple/components/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/examples/simple/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/examples/simple/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/examples/simple/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/examples/simple/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/examples/simple/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/examples/simple/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/src/shouldForwardProp/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/src/shouldForwardProp/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/createJestConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createJestConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

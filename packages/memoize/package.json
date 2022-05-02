@@ -1,0 +1,47 @@
+{
+  "name": "@aw-web-design/memoize",
+  "version": "1.0.0",
+  "description": "A memoization library which only remembers the latest invocation",
+  "author": "Alex Reardon <alexreardon@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "memoize",
+    "memoization",
+    "cache",
+    "performance"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexreardon/memoize-one.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexreardon/memoize-one/issues"
+  },
+  "types": "dist/memoize-one.d.ts",
+  "module": "dist/memoize-one.esm.js",
+  "sideEffects": false,
+  "files": [
+    "/dist",
+    "/src"
+  ],
+  "size-limit": [
+    {
+      "path": "dist/memoize-one.esm.js",
+      "limit": "246B"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@aw-web-design/tcm-cli": "3.1.50",
+    "lodash": "4.17.21",
+    "expect-type": "0.13.0"
+  },
+  "scripts": {
+    "test": "tcm test",
+    "build": "tcm build --format esm",
+    "lint": "tcm lint",
+    "perf": "yarn ts-node ./benchmarks/shallow-equal.ts",
+    "perf:library-comparison": "yarn build && node ./benchmarks/library-comparison.js",
+    "prepublishOnly": "yarn build"
+  }
+}

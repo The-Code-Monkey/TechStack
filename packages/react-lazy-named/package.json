@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/react-lazy-named",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "React lazy() with named imports - exports support",
   "author": "Grgur Grisogono <grgur@grgur.com>",
   "user": "grgur",

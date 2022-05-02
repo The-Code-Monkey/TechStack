@@ -7,11 +7,7 @@ export function createJestConfig(
   rootDir: string
 ): JestConfigOptions {
   return {
-    transform: {
-      '^.+\\.tsx?$': 'ts-jest/legacy',
-      '^.+\\.ts?$': 'ts-jest/legacy',
-      '^.+\\.mts?$': 'ts-jest/legacy',
-    },
+    transform: {},
     testEnvironment: 'jsdom',
     testEnvironmentOptions: {
       url: 'http://localhost',
