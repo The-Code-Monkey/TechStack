@@ -38,7 +38,7 @@
     "rerender"
   ],
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.2.0",
+    "@aw-web-design/tcm-cli": "3.2.3",
     "@testing-library/react": "13.1.1"
   },
   "peerDependencies": {

@@ -38,7 +38,7 @@
   "homepage": "https://github.com/The-Code-Monkey/TechStack#readme",
   "devDependencies": {
     "cross-env": "7.0.3",
-    "@aw-web-design/tcm-cli": "3.2.0"
+    "@aw-web-design/tcm-cli": "3.2.3"
   },
   "dependencies": {
     "@aw-web-design/react-lazy-named": "1.0.5"

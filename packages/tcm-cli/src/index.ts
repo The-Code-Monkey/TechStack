@@ -142,12 +142,9 @@ async function getInputs(
   );
 }
 
-function getNamesAndFiles(
-  inputs: string[],
-  name?: string
-): { names: string[]; files: string[] } {
+function getNamesAndFiles(inputs: string[]): { names: string[]; files: string[] } {
   if (inputs.length === 1) {
-    const singleName = name || appPackageJson.name;
+    const singleName = appPackageJson.name;
     return {
       names: [singleName],
       files: [safePackageName(singleName)],
@@ -177,7 +174,7 @@ function getNamesAndFiles(
 
 async function normalizeOpts(opts: WatchOpts): Promise<NormalizedOpts> {
   const inputs = await getInputs(opts.entry, appPackageJson.source);
-  const { names, files } = getNamesAndFiles(inputs, opts.name);
+  const { names, files } = getNamesAndFiles(inputs);
 
   return {
     ...opts,
@@ -499,8 +496,6 @@ prog
   .example('build --entry src/foo.tsx')
   .option('--target', 'Specify your target environment', 'browser')
   .example('build --target node')
-  .option('--name', 'Specify name exposed in UMD builds')
-  .example('build --name Foo')
   .option('--format', 'Specify module format(s)', 'cjs,esm')
   .example('build --format cjs,esm')
   .option('--noClean', "Don't clean the dist folder")

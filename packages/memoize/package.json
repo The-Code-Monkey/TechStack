@@ -28,8 +28,10 @@
   "bugs": {
     "url": "https://github.com/alexreardon/memoize-one/issues"
   },
+  "dependencies": {
+    "@aw-web-design/tcm-cli": "3.2.3"
+  },
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.2.0",
     "lodash": "4.17.21",
     "expect-type": "0.13.0",
     "benchmark": "2.1.4",

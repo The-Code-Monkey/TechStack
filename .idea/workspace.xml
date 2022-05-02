@@ -12,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/packages/tcm-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/theme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
