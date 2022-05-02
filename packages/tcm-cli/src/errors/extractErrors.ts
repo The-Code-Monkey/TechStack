@@ -32,6 +32,8 @@ const babelParserOptions: ParserOptions = {
 } as ParserOptions; // workaround for trailingFunctionCommas syntax
 
 export async function extractErrors(opts: any) {
+  console.log(opts);
+
   if (!opts || !('errorMapFilePath' in opts)) {
     throw new Error(
       'Missing options. Ensure you pass an object with `errorMapFilePath`.'

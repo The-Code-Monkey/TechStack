@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import Benchmark from 'benchmark';
 import memoizeOne from '../dist/memoize-one.esm.js';
-import lodash from 'lodash.memoize';
+import { memoize as lodash } from 'lodash';
 import fastMemoize from 'fast-memoize';
 import mem from 'mem';
 import ora from 'ora';

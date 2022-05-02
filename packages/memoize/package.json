@@ -1,9 +1,20 @@
 {
   "name": "@aw-web-design/memoize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A memoization library which only remembers the latest invocation",
-  "author": "Alex Reardon <alexreardon@gmail.com>",
-  "license": "MIT",
+  "type": "module",
+  "module": "./dist/memoize.esm.js",
+  "main": "./dist/memoize.esm.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "tcm test",
+    "lint": "tcm lint",
+    "build": "tcm build --format esm"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
   "keywords": [
     "memoize",
     "memoization",
@@ -17,31 +28,18 @@
   "bugs": {
     "url": "https://github.com/alexreardon/memoize-one/issues"
   },
-  "types": "dist/memoize-one.d.ts",
-  "module": "dist/memoize-one.esm.js",
-  "sideEffects": false,
-  "files": [
-    "/dist",
-    "/src"
-  ],
-  "size-limit": [
-    {
-      "path": "dist/memoize-one.esm.js",
-      "limit": "246B"
-    }
-  ],
-  "dependencies": {},
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.1.50",
+    "@aw-web-design/tcm-cli": "3.1.52",
     "lodash": "4.17.21",
-    "expect-type": "0.13.0"
-  },
-  "scripts": {
-    "test": "tcm test",
-    "build": "tcm build --format esm",
-    "lint": "tcm lint",
-    "perf": "yarn ts-node ./benchmarks/shallow-equal.ts",
-    "perf:library-comparison": "yarn build && node ./benchmarks/library-comparison.js",
-    "prepublishOnly": "yarn build"
+    "expect-type": "0.13.0",
+    "benchmark": "2.1.4",
+    "fast-memoize": "2.5.2",
+    "mem": "9.0.2",
+    "ora": "6.1.0",
+    "moize": "6.1.1",
+    "memoizee": "0.4.15",
+    "nanocolors": "0.2.13",
+    "markdown-table": "3.0.2",
+    "cross-env": "7.0.3"
   }
 }

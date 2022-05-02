@@ -12,6 +12,7 @@
     "declaration": true,
     "noUnusedLocals": true,
     "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   }
 }
