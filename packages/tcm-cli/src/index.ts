@@ -47,7 +47,13 @@ import {
   composeDependencies,
   composePackageJson,
 } from './templates/utils/index.js';
-import { PackageJson, WatchOpts, BuildOpts, NormalizedOpts, ModuleFormat } from './types.js';
+import {
+  PackageJson,
+  WatchOpts,
+  BuildOpts,
+  NormalizedOpts,
+  ModuleFormat,
+} from './types.js';
 import {
   resolveApp,
   safePackageName,
