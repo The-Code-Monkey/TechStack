@@ -3,29 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/babel.config.cjs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/button/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/divider/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/divider/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/grid/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/input/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/input/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/table/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/table/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/test-tools/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/test-tools/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/Icon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/__test__/Icon.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/__test__/Icon.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/help-circle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/help-circle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/package.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/package.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-lazy-named/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-lazy-named/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-textfit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/styled-system/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/createJestConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createJestConfig.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/theme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/src/shouldForwardProp/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/src/shouldForwardProp/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,6 +135,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/packages/components/src/test-tools/index.cjs" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
