@@ -205,9 +205,9 @@ function writeCjsEntryFile(file: string, numEntries: number) {
 'use strict'
 
 if (process.env.NODE_ENV === 'production') {
-  ${baseLine}.cjs.production.min.js')
+  ${baseLine}.cjs.production.min.cjs')
 } else {
-  ${baseLine}.cjs.development.js')
+  ${baseLine}.cjs.development.cjs')
 }
 `;
   const filename = numEntries === 1 ? 'index.js' : `${file}.js`;
