@@ -3,9 +3,9 @@
   "license": "MIT",
   "typings": "dist/index.d.ts",
   "type": "module",
-  "exports": {
-    "import": "./dist/components.esm.js"
-  },
+  "module": "./dist/components.esm.js",
+  "main": "./dist/components.esm.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist",
     "src"
@@ -31,12 +31,7 @@
   },
   "name": "@aw-web-design/components",
   "author": "The-Code-Monkey",
-  "module": "dist/components.esm.js",
   "size-limit": [
-    {
-      "path": "dist/components.cjs.production.min.js",
-      "limit": "10 KB"
-    },
     {
       "path": "dist/components.esm.js",
       "limit": "10 KB"
