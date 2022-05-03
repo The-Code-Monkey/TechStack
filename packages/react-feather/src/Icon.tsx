@@ -15,13 +15,13 @@ export const getIcon = (name: IconTypes) => {
   return lazy(() => import(`./icons/${name}`));
 };
 
-export const Icon = ({name, ...rest}: Props) => {
+export const Icon = ({ name, ...rest }: Props) => {
   const Element = getIcon(name);
 
   return (
-      <Suspense fallback={<HelpCircle {...rest} data-name='fallback-icon'/>}>
-        <Element data-name={name} {...rest} />
-      </Suspense>
+    <Suspense fallback={<HelpCircle {...rest} data-name='fallback-icon' />}>
+      <Element data-name={name} {...rest} />
+    </Suspense>
   );
 };
 

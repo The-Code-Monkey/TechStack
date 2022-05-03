@@ -20,10 +20,6 @@ import shell from 'shelljs';
 import sortPackageJson from 'sort-package-json';
 import glob from 'tiny-glob/sync.js';
 
-import {
-  default as DynamicImport
-} from "@rtvision/esbuild-dynamic-import";
-
 const require = createRequire(import.meta.url);
 
 import { paths } from './constants.js';
@@ -42,7 +38,13 @@ import {
   composeDependencies,
   composePackageJson,
 } from './templates/utils/index.js';
-import { PackageJson, WatchOpts, BuildOpts, NormalizedOpts, ModuleFormat } from './types.js';
+import {
+  PackageJson,
+  WatchOpts,
+  BuildOpts,
+  NormalizedOpts,
+  ModuleFormat,
+} from './types.js';
 import {
   resolveApp,
   safePackageName,
