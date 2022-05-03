@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/The-Code-Monkey/TechStack",
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.2.5",
+    "@aw-web-design/tcm-cli": "3.2.6",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",
