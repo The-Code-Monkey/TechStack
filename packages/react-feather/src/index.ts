@@ -1,5 +1,7 @@
 import Icon from './Icon';
+import type IconTypes from "./iconTypes";
 
-export * from './icons';
+import HelpCircle from './icons/help-circle';
+export { IconTypes, HelpCircle };
 
 export default Icon;

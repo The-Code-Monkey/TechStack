@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/components/setup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-feather/generate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createEsbuildConfig.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/.storybook/main.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/.storybook/preview.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/button/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/Checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/Checkbox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/divider/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/divider/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/grid/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/input/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/input/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/table/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/table/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/utils.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/utils/shouldForwardProp.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/shouldForwardProp.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/Icon.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-feather/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-feather/src/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/Icon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/__test__/Icon.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/__test__/Icon.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/icons/minus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/icons/minus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/createBuildConfigs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createBuildConfigs.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/createRollupConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createRollupConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/rollupTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/rollupTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

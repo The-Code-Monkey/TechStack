@@ -2,19 +2,20 @@ import fs from 'fs-extra';
 import { RollupOptions } from 'rollup';
 
 import { paths } from './constants.js';
-import { createRollupConfig } from './createRollupConfig.js';
+// import { createRollupConfig } from './createRollupConfig.js';
+import createEsbuildConfig from "./createEsbuildConfig.js";
 import logError from './logError.js';
 import {
   TcmOptions,
-  TcmOptionsInput,
   NormalizedOpts,
   PackageJson,
 } from './types.js';
 import { interopRequireDefault } from './utils.js';
+import {BuildOptions} from "esbuild";
 
 // check for custom tcm.config.js
 let tcmBuildConfig: unknown = {
-  rollup(config: RollupOptions, _options: TcmOptions): RollupOptions {
+  build(config: RollupOptions, _options: TcmOptions): RollupOptions {
     return config;
   },
 };
@@ -40,9 +41,9 @@ if (fs.pathExistsSync(paths.appConfigTs)) {
 export async function createBuildConfigs(
   opts: NormalizedOpts,
   appPackageJson: PackageJson
-): Promise<Array<RollupOptions>> {
+): Promise<Array<BuildOptions>> {
   const allInputs = createAllFormats(opts).map(
-    (options: TcmOptions, index: number) => ({
+    (options: NormalizedOpts, index: number) => ({
       ...options,
       // We want to know if this is the first run for each entryfile
       // for certain plugins (e.g. css)
@@ -51,27 +52,23 @@ export async function createBuildConfigs(
   );
 
   return await Promise.all(
-    allInputs.map(async (options: TcmOptions, index: number) => {
+    allInputs.map(async (options: NormalizedOpts, index: number) => {
       // pass the full rollup config to tcm-cli.config.js override
-      const config = await createRollupConfig(appPackageJson, options, index);
+      const config = await createEsbuildConfig(appPackageJson, options, index);
+
+      console.log(config);
       return (
         tcmBuildConfig as {
-          rollup: (config: RollupOptions, options: TcmOptions) => RollupOptions;
+          build: (config: BuildOptions, options: NormalizedOpts) => BuildOptions;
         }
-      ).rollup(config, options);
+      ).build(config, options);
     })
   );
 }
 
-function createAllFormats(opts: NormalizedOpts): [TcmOptions, ...TcmOptions[]] {
-  const sharedOpts: Omit<TcmOptions, 'format' | 'env'> = {
+function createAllFormats(opts: NormalizedOpts): [NormalizedOpts, ...NormalizedOpts[]] {
+  const sharedOpts: NormalizedOpts = {
     ...opts,
-    // for multi-entry, we use an input object to specify where to put each
-    // file instead of output.file
-    input: opts.input.reduce((dict: TcmOptionsInput, input, index) => {
-      dict[`${opts.output.file[index]}`] = input;
-      return dict;
-    }, {}),
     // multiple UMD names aren't currently supported for multi-entry
     // (can't code-split UMD anyway)
     name: Array.isArray(opts.name) ? opts.name[0] : opts.name,
@@ -109,5 +106,5 @@ function createAllFormats(opts: NormalizedOpts): [TcmOptions, ...TcmOptions[]] {
       format: 'system',
       env: 'production',
     },
-  ].filter(Boolean) as [TcmOptions, ...TcmOptions[]];
+  ].filter(Boolean) as [NormalizedOpts, ...NormalizedOpts[]];
 }

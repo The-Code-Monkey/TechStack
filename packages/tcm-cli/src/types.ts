@@ -27,10 +27,10 @@ export interface WatchOpts extends BuildOpts {
 }
 
 export interface NormalizedOpts
-  extends Omit<WatchOpts, 'name' | 'input' | 'format'> {
+  extends Omit<WatchOpts, 'name' | 'input' | 'format'>, Omit<TcmOptions, "name" | "input" | "format" | "target"> {
   name: string | string[];
   input: string[];
-  format: [ModuleFormat, ...ModuleFormat[]];
+  format: [ModuleFormat, ...ModuleFormat[]] | ModuleFormat;
   output: {
     file: string[];
   };
@@ -42,7 +42,7 @@ export interface TcmOptions extends SharedOpts {
   // Name of package
   name: string;
   // path to file
-  input: string | TcmOptionsInput;
+  input: string[] | string;
   // Module format
   format: 'esm';
   // Is minifying?

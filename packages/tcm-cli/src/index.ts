@@ -14,19 +14,15 @@ import jest from 'jest';
 const { run: jestRun } = jest;
 import { concatAllArray } from 'jpjs';
 import ora from 'ora';
-import {
-  rollup,
-  watch,
-  RollupOptions,
-  OutputOptions,
-  RollupWatchOptions,
-  WatcherOptions,
-} from 'rollup';
 import sade from 'sade';
 import semver from 'semver';
 import shell from 'shelljs';
 import sortPackageJson from 'sort-package-json';
 import glob from 'tiny-glob/sync.js';
+
+import {
+  default as DynamicImport
+} from "@rtvision/esbuild-dynamic-import";
 
 const require = createRequire(import.meta.url);
 
@@ -41,7 +37,6 @@ import getInstallCmd from './getInstallCmd.js';
 import pkg from './getPkgJson.js';
 import logError from './logError.js';
 import * as Messages from './messages.js';
-import { rollupTypes } from './rollupTypes.js';
 import { templates } from './templates/index.js';
 import {
   composeDependencies,
@@ -51,9 +46,10 @@ import { PackageJson, WatchOpts, BuildOpts, NormalizedOpts, ModuleFormat } from 
 import {
   resolveApp,
   safePackageName,
-  clearConsole,
+  // clearConsole,
   getNodeEngineRequirement,
 } from './utils.js';
+import esbuild, {BuildOptions} from "esbuild";
 
 const prog = sade('tcm');
 
@@ -173,6 +169,8 @@ async function normalizeOpts(opts: WatchOpts): Promise<NormalizedOpts> {
   const inputs = await getInputs(opts.entry, appPackageJson.source);
   const { names, files } = getNamesAndFiles(inputs);
 
+  console.log(inputs);
+
   return {
     ...opts,
     name: names,
@@ -189,24 +187,24 @@ async function normalizeOpts(opts: WatchOpts): Promise<NormalizedOpts> {
   };
 }
 
-async function cleanDistFolder() {
-  await fs.remove(paths.appDist);
-}
+// async function cleanDistFolder() {
+//   await fs.remove(paths.appDist);
+// }
 
-function writeCjsEntryFile(file: string, numEntries: number) {
-  const baseLine = `module.exports = require('./${file}`;
-  const contents = `
-'use strict'
-
-if (process.env.NODE_ENV === 'production') {
-  ${baseLine}.cjs.production.min.cjs')
-} else {
-  ${baseLine}.cjs.development.cjs')
-}
-`;
-  const filename = numEntries === 1 ? 'index.js' : `${file}.js`;
-  return fs.outputFile(path.join(paths.appDist, filename), contents);
-}
+// function writeCjsEntryFile(file: string, numEntries: number) {
+//   const baseLine = `module.exports = require('./${file}`;
+//   const contents = `
+// 'use strict'
+//
+// if (process.env.NODE_ENV === 'production') {
+//   ${baseLine}.cjs.production.min.cjs')
+// } else {
+//   ${baseLine}.cjs.development.cjs')
+// }
+// `;
+//   const filename = numEntries === 1 ? 'index.js' : `${file}.js`;
+//   return fs.outputFile(path.join(paths.appDist, filename), contents);
+// }
 
 prog
   .version(pkg.version)
@@ -371,122 +369,6 @@ prog
   });
 
 prog
-  .command('watch')
-  .describe('Rebuilds on any change')
-  .option('--entry, -i', 'Entry module')
-  .example('watch --entry src/foo.tsx')
-  .option('--target', 'Specify your target environment', 'browser')
-  .example('watch --target node')
-  .option('--name', 'Specify name exposed in UMD builds')
-  .example('watch --name Foo')
-  .option('--format', 'Specify module format(s)', 'cjs,esm')
-  .example('watch --format cjs,esm')
-  .option(
-    '--verbose',
-    'Keep outdated console output in watch mode instead of clearing the screen'
-  )
-  .example('watch --verbose')
-  .option('--noClean', "Don't clean the dist folder")
-  .example('watch --noClean')
-  .option('--tsconfig', 'Specify custom tsconfig path')
-  .example('watch --tsconfig ./tsconfig.foo.json')
-  .option('--onFirstSuccess', 'Run a command on the first successful build')
-  .example('watch --onFirstSuccess "echo The first successful build!"')
-  .option('--onSuccess', 'Run a command on a successful build')
-  .example('watch --onSuccess "echo Successful build!"')
-  .option('--onFailure', 'Run a command on a failed build')
-  .example('watch --onFailure "The build failed!"')
-  .option('--transpileOnly', 'Skip type checking')
-  .example('watch --transpileOnly')
-  .option('--extractErrors', 'Extract invariant errors to ./errors/codes.json.')
-  .example('watch --extractErrors')
-  .option('--rollupTypes', 'Enable types rollup')
-  .example('watch --rollupTypes')
-  .action(async (dirtyOpts: WatchOpts) => {
-    const opts = await normalizeOpts(dirtyOpts);
-    const buildConfigs = await createBuildConfigs(opts, appPackageJson);
-    if (!opts.noClean) {
-      await cleanDistFolder();
-    }
-    if (opts.format.includes('cjs')) {
-      await Promise.all(
-        opts.output.file.map(file => writeCjsEntryFile(file, opts.input.length))
-      );
-    }
-
-    type Killer = execa.ExecaChildProcess | null;
-
-    let firstTime = true;
-    let successKiller: Killer = null;
-    let failureKiller: Killer = null;
-
-    function run(command?: string) {
-      if (!command) {
-        return null;
-      }
-
-      const [exec, ...args] = command.split(' ');
-      return execa(exec, args, {
-        stdio: 'inherit',
-      });
-    }
-
-    function killHooks() {
-      return Promise.all([
-        successKiller ? successKiller.kill('SIGTERM') : null,
-        failureKiller ? failureKiller.kill('SIGTERM') : null,
-      ]);
-    }
-
-    const spinner = ora().start();
-    watch(
-      (buildConfigs as RollupWatchOptions[]).map(inputOptions => ({
-        watch: {
-          silent: true,
-          include: ['src/**'],
-          exclude: ['node_modules/**'],
-        } as WatcherOptions,
-        ...inputOptions,
-      }))
-    ).on('event', async event => {
-      // clear previous onSuccess/onFailure hook processes so they don't pile up
-      await killHooks();
-
-      if (event.code === 'START') {
-        if (!opts.verbose) {
-          clearConsole();
-        }
-        spinner.start(chalk.bold.cyan('Compiling modules...'));
-      }
-      if (event.code === 'ERROR') {
-        spinner.fail(chalk.bold.red('Failed to compile'));
-        logError(event.error);
-        failureKiller = run(opts.onFailure);
-      }
-      if (event.code === 'END') {
-        spinner.succeed(chalk.bold.green('Compiled successfully'));
-        console.log(`
-  ${chalk.dim('Watching for changes')}
-`);
-        if (opts.rollupTypes) {
-          await rollupTypes(opts.tsconfig, appPackageJson);
-        }
-
-        try {
-          await deprecated.moveTypes();
-
-          if (firstTime && opts.onFirstSuccess) {
-            firstTime = false;
-            run(opts.onFirstSuccess);
-          } else {
-            successKiller = run(opts.onSuccess);
-          }
-        } catch (_error) {}
-      }
-    });
-  });
-
-prog
   .command('build')
   .describe('Build your project once and exit')
   .option('--entry, -i', 'Entry module')
@@ -513,26 +395,34 @@ prog
   .action(async (dirtyOpts: BuildOpts) => {
     const opts = await normalizeOpts(dirtyOpts);
     const buildConfigs = await createBuildConfigs(opts, appPackageJson);
-    if (!opts.noClean) {
-      await cleanDistFolder();
-    }
+
+    console.log(buildConfigs);
+    // if (!opts.noClean) {
+    //   await cleanDistFolder();
+    // }
     const logger = await createProgressEstimator();
     try {
       const promise = asyncro
         .map(
           buildConfigs,
-          async (inputOptions: RollupOptions & { output: OutputOptions }) => {
-            const bundle = await rollup(inputOptions);
-            await bundle.write(inputOptions.output);
+          async (inputOptions: BuildOptions) => {
+            const result = esbuild.buildSync({
+              ...inputOptions,
+              plugins: [
+
+              ]
+            });
+            console.log("Result", result)
+            // bundle.outputFiles(inputOptions.output);
           }
         )
         .catch(e => {
           throw e;
         })
         .then(async () => {
-          if (opts.rollupTypes) {
-            await rollupTypes(opts.tsconfig, appPackageJson);
-          }
+          // if (opts.rollupTypes) {
+          //   await rollupTypes(opts.tsconfig, appPackageJson);
+          // }
         })
         .then(async () => {
           await deprecated.moveTypes();

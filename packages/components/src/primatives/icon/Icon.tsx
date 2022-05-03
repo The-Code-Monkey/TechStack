@@ -1,4 +1,4 @@
-import FeatherIcon from '@aw-web-design/react-feather';
+import FeatherIcon, {IconTypes} from '@aw-web-design/react-feather';
 import * as React from 'react';
 const { memo } = React;
 
@@ -8,7 +8,7 @@ import { BoxProps } from '../box';
 import { SvgWrapper } from './styled';
 
 export interface Props extends Omit<BoxProps, 'children'> {
-  name: string;
+  name: IconTypes;
   noFill?: boolean;
 }
 
