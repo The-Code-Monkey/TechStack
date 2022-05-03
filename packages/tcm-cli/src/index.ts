@@ -6,6 +6,7 @@ import asyncro from 'asyncro';
 import chalk from 'chalk';
 import enquirer from 'enquirer';
 const { Input, Select } = enquirer;
+import esbuild, {BuildOptions} from "esbuild";
 import { ESLint } from 'eslint';
 import execa from 'execa';
 import figlet from 'figlet';
@@ -51,7 +52,6 @@ import {
   // clearConsole,
   getNodeEngineRequirement,
 } from './utils.js';
-import esbuild, {BuildOptions} from "esbuild";
 
 const prog = sade('tcm');
 

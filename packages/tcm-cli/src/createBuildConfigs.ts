@@ -1,3 +1,4 @@
+import {BuildOptions} from "esbuild";
 import fs from 'fs-extra';
 import { RollupOptions } from 'rollup';
 
@@ -11,7 +12,6 @@ import {
   PackageJson,
 } from './types.js';
 import { interopRequireDefault } from './utils.js';
-import {BuildOptions} from "esbuild";
 
 // check for custom tcm.config.js
 let tcmBuildConfig: unknown = {
