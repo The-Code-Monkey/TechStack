@@ -4,8 +4,7 @@
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
   "exports": {
-    "require": "./dist/memoize.cjs.js",
-    "import": "./dist/memoize.esm.js"
+    "import": "./dist/index.js"
   },
   "typings": "dist/index.d.ts",
   "scripts": {
@@ -31,7 +30,7 @@
     "url": "https://github.com/alexreardon/memoize-one/issues"
   },
   "dependencies": {
-    "@aw-web-design/tcm-cli": "3.2.5"
+    "@aw-web-design/tcm-cli": "3.2.6"
   },
   "devDependencies": {
     "lodash": "4.17.21",

@@ -1,4 +1,6 @@
-import { allProps, shouldForwardProp, sfp } from '..';
+import { jest } from "@jest/globals";
+
+import { allProps, shouldForwardProp, sfp } from '../';
 
 describe('shouldForwardProp', () => {
   it('should return true for valid HTML attributes', () => {

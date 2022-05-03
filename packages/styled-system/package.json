@@ -3,8 +3,7 @@
   "license": "MIT",
   "name": "@aw-web-design/styled-system",
   "exports": {
-    "require": "./dist/styled-system.cjs.js",
-    "import": "./dist/styled-system.esm.js"
+    "import": "./dist/index.js"
   },
   "types": "./dist/index.d.ts",
   "type": "module",
@@ -26,11 +25,7 @@
   "author": "The-Code-Monkey",
   "size-limit": [
     {
-      "path": "dist/styled-system.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/styled-system.esm.js",
+      "path": "dist/index.js",
       "limit": "10 KB"
     }
   ],
@@ -41,7 +36,7 @@
     "typescript": "4.6.4"
   },
   "dependencies": {
-    "@aw-web-design/tcm-cli": "3.2.5",
+    "@aw-web-design/tcm-cli": "3.2.6",
     "@aw-web-design/memoize": "1.0.1",
     "@emotion/is-prop-valid": "1.1.2",
     "csstype": "3.0.11"

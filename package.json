@@ -21,7 +21,7 @@
     "install:cms": "cd platforms/react-cms && yarn",
     "build:cms": "cd platforms/react-cms && yarn build",
     "build:tcm": "cd packages/tcm-cli && yarn build",
-    "build": "yarn build:tcm && yarn lerna:link && lerna run build --scope @aw-web-design/react-feather --stream",
+    "build": "yarn build:tcm && yarn lerna:link && lerna run build --stream",
     "lerna:link": "lerna link",
     "lerna:changed": "lerna changed",
     "lerna:version": "lerna version --conventional-commits --exact --yes",

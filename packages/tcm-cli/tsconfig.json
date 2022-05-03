@@ -1,5 +1,6 @@
 {
   "include": ["src", "types"],
+"exclude": ["src/**/__test__/*.test.ts*x"],
   "compilerOptions": {
     "module": "ESNext",
     "target": "ESNext",
@@ -14,6 +15,5 @@
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
-    "esModuleInterop": true
   }
 }

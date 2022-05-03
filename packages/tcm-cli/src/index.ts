@@ -2,7 +2,6 @@
 import { createRequire } from 'module';
 import path from 'path';
 
-import asyncro from 'asyncro';
 import chalk from 'chalk';
 import enquirer from 'enquirer';
 const { Input, Select } = enquirer;
@@ -23,11 +22,9 @@ import glob from 'tiny-glob/sync.js';
 const require = createRequire(import.meta.url);
 
 import { paths } from './constants.js';
-import { createBuildConfigs } from './createBuildConfigs.js';
 import { createEslintConfig } from './createEslintConfig.js';
 import { createJestConfig, JestConfigOptions } from './createJestConfig.js';
 import { createProgressEstimator } from './createProgressEstimator.js';
-import * as deprecated from './deprecated.js';
 import getInstallArgs from './getInstallArgs.js';
 import getInstallCmd from './getInstallCmd.js';
 import pkg from './getPkgJson.js';
@@ -48,10 +45,8 @@ import {
 import {
   resolveApp,
   safePackageName,
-  // clearConsole,
   getNodeEngineRequirement,
 } from './utils.js';
-import esbuild, {BuildOptions} from "esbuild";
 
 const prog = sade('tcm');
 
@@ -167,7 +162,10 @@ function getNamesAndFiles(inputs: string[]): {
   return { names, files };
 }
 
-async function normalizeOpts(opts: WatchOpts): Promise<NormalizedOpts> {
+async function normalizeOpts(
+  opts: WatchOpts,
+  tcmOptions: any = {}
+): Promise<NormalizedOpts> {
   const inputs = await getInputs(opts.entry, appPackageJson.source);
   const { names, files } = getNamesAndFiles(inputs);
 
@@ -175,6 +173,7 @@ async function normalizeOpts(opts: WatchOpts): Promise<NormalizedOpts> {
 
   return {
     ...opts,
+    ...tcmOptions,
     name: names,
     input: inputs,
     format: opts.format.split(',').map((format: string) => {
@@ -189,9 +188,9 @@ async function normalizeOpts(opts: WatchOpts): Promise<NormalizedOpts> {
   };
 }
 
-// async function cleanDistFolder() {
-//   await fs.remove(paths.appDist);
-// }
+async function cleanDistFolder() {
+  await fs.remove(paths.appDist);
+}
 
 // function writeCjsEntryFile(file: string, numEntries: number) {
 //   const baseLine = `module.exports = require('./${file}`;
@@ -377,7 +376,7 @@ prog
   .example('build --entry src/foo.tsx')
   .option('--target', 'Specify your target environment', 'browser')
   .example('build --target node')
-  .option('--format', 'Specify module format(s)', 'cjs,esm')
+  .option('--format', 'Specify module format(s)', 'esm')
   .example('build --format cjs,esm')
   .option('--noClean', "Don't clean the dist folder")
   .example('build --noClean')
@@ -396,39 +395,16 @@ prog
   )
   .action(async (dirtyOpts: BuildOpts) => {
     const opts = await normalizeOpts(dirtyOpts);
-    const buildConfigs = await createBuildConfigs(opts, appPackageJson);
 
-    console.log(buildConfigs);
-    // if (!opts.noClean) {
-    //   await cleanDistFolder();
-    // }
+    console.log(opts);
+
+    await cleanDistFolder();
     const logger = await createProgressEstimator();
     try {
-      const promise = asyncro
-        .map(
-          buildConfigs,
-          async (inputOptions: BuildOptions) => {
-            const result = esbuild.buildSync({
-              ...inputOptions,
-              plugins: [
-
-              ]
-            });
-            console.log("Result", result)
-            // bundle.outputFiles(inputOptions.output);
-          }
-        )
-        .catch(e => {
-          throw e;
-        })
-        .then(async () => {
-          // if (opts.rollupTypes) {
-          //   await rollupTypes(opts.tsconfig, appPackageJson);
-          // }
-        })
-        .then(async () => {
-          await deprecated.moveTypes();
-        });
+      const promise = new Promise<void>(resolve => {
+        shell.exec(`tsc -p ${paths.tsconfigJson}`);
+        resolve();
+      });
       logger(promise, 'Building modules');
       await promise;
     } catch (error) {
@@ -584,5 +560,4 @@ prog
 
 prog.parse(process.argv);
 
-export { RollupOptions } from 'rollup';
 export { TcmOptions } from './types';

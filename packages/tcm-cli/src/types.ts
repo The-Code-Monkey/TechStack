@@ -11,7 +11,7 @@ export type ModuleFormat = 'cjs' | 'umd' | 'esm' | 'system';
 
 export interface BuildOpts extends SharedOpts {
   name?: string;
-  entry?: string | string[];
+  entry?: string[];
   format: 'esm';
   target: 'browser';
   noClean?: boolean;
@@ -27,7 +27,8 @@ export interface WatchOpts extends BuildOpts {
 }
 
 export interface NormalizedOpts
-  extends Omit<WatchOpts, 'name' | 'input' | 'format'>, Omit<TcmOptions, "name" | "input" | "format" | "target"> {
+  extends Omit<WatchOpts, 'name' | 'input' | 'format'>,
+    Omit<TcmOptions, 'name' | 'input' | 'format' | 'target'> {
   name: string | string[];
   input: string[];
   format: [ModuleFormat, ...ModuleFormat[]] | ModuleFormat;

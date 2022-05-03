@@ -1,5 +1,11 @@
 {
   "include": ["src", "types"],
+  "exclude": [
+    "src/**/*.spec.tsx",
+    "src/**/*.test.tsx",
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts"
+  ],
   "compilerOptions": {
     "module": "ESNext",
     "target": "ESNext",
@@ -7,8 +13,8 @@
     "allowJs": true,
     "jsx": "react",
     "importHelpers": true,
-    "outDir": "dist",
-    "rootDir": "src",
+    "outDir": "./dist",
+    "rootDir": "./src",
     "declaration": true,
     "noUnusedLocals": true,
     "skipLibCheck": true,

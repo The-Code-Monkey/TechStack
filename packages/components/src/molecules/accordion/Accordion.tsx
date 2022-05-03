@@ -28,7 +28,7 @@ const Accordion: FC<PropsWithChildren<Props>> = ({
         h='12'
         w='full'
         strong
-        iconName='Plus'
+        iconName='plus'
         justifyContent='flex-start'
         className='accordion'
         onClick={() => setIsOpen(prevState => !prevState)}

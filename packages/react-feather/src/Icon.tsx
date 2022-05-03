@@ -2,8 +2,8 @@ import * as React from 'react';
 const { lazy } = React;
 
 import { default as HelpCircle } from './icons/help-circle';
+import IconTypes from './iconTypes';
 import { IconProps } from './types';
-import IconTypes from "./iconTypes";
 
 export interface Props extends IconProps {
   name: IconTypes;
