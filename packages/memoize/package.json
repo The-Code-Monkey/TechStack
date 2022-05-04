@@ -30,7 +30,7 @@
     "url": "https://github.com/alexreardon/memoize-one/issues"
   },
   "dependencies": {
-    "@aw-web-design/tcm-cli": "3.2.6"
+    "@aw-web-design/tcm-cli": "3.2.7"
   },
   "devDependencies": {
     "lodash": "4.17.21",

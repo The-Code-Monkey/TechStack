@@ -9,7 +9,7 @@ import { ESLint } from 'eslint';
 import execa from 'execa';
 import figlet from 'figlet';
 import fs from 'fs-extra';
-import jest from 'jest';
+import * as jest from 'jest';
 const { run: jestRun } = jest;
 import { concatAllArray } from 'jpjs';
 import ora from 'ora';

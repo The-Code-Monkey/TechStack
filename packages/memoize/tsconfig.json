@@ -13,7 +13,7 @@
     "allowJs": true,
     "jsx": "react",
     "importHelpers": true,
-    "outDir": "dist/esm",
+    "outDir": "./dist/esm",
     "rootDir": "src",
     "declaration": true,
     "noUnusedLocals": true,
