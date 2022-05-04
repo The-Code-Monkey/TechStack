@@ -403,7 +403,7 @@ prog
     try {
       const promise = new Promise<void>(resolve => {
         shell.exec(`tsc -p ${paths.tsconfigJson}`);
-        shell.exec(`tsc -p tsconfig.cjs.json`);
+        shell.exec(`tsc -p ${paths.tsconfigCjs}`);
         resolve();
       });
       logger(promise, 'Building modules');
