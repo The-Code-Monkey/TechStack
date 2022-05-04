@@ -23,7 +23,7 @@ const require = createRequire(import.meta.url);
 
 import { paths } from './constants.js';
 import { createEslintConfig } from './createEslintConfig.js';
-import { createJestConfig, JestConfigOptions } from './createJestConfig.js';
+import { createJestConfig } from './createJestConfig.js';
 import { createProgressEstimator } from './createProgressEstimator.js';
 import getInstallArgs from './getInstallArgs.js';
 import getInstallCmd from './getInstallCmd.js';
@@ -427,7 +427,7 @@ prog
     });
 
     const argv = process.argv.slice(2);
-    let jestConfig: JestConfigOptions = {
+    let jestConfig = {
       ...createJestConfig(
         relativePath => path.resolve(__dirname, '..', relativePath),
         opts.config ? path.dirname(opts.config) : paths.appRoot
@@ -439,7 +439,7 @@ prog
     const defaultPathExists = await fs.pathExists(paths.jestConfig);
     if (opts.config || defaultPathExists) {
       const jestConfigPath = resolveApp(opts.config || paths.jestConfig);
-      const jestConfigContents: JestConfigOptions = require(jestConfigPath);
+      const jestConfigContents = require(jestConfigPath);
       jestConfig = { ...jestConfig, ...jestConfigContents };
     }
 

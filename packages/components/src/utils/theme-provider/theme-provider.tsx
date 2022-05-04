@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { ThemeProvider as StyledThemeProvider } from 'styled-components';
 
 import createTheme from './create-theme';

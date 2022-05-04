@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { ThemeProvider } from 'styled-components';
 
 import theme from '../theme';

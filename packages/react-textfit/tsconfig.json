@@ -10,6 +10,8 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "./dist/esm",
-    "declarationDir": "dist/types"
+    "declarationDir": "dist/types",
+    "jsx": "react-jsx",
+    "lib": ["dom"]
   }
 }

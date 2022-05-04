@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { generateAutomationId } from '../../utils';
 
 import { StyledText } from './styled';

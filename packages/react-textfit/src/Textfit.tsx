@@ -145,8 +145,7 @@ export default class TextFit extends React.Component {
             () => low <= high,
             (whilstCallback: any) => {
               if (shouldCancelProcess()) return whilstCallback(true);
-              // @ts-expect-error ts-migrate(2345) FIXME: Argument of type 'number' is not assignable to par... Remove this comment to see the full error message
-              mid = parseInt((low + high) / 2, 10);
+              mid = parseInt(String((low + high) / 2), 10);
               this.setState({ fontSize: mid }, () => {
                 if (shouldCancelProcess()) return whilstCallback(true);
                 if (testPrimary()) low = mid + 1;
@@ -169,8 +168,7 @@ export default class TextFit extends React.Component {
             () => low < high,
             (whilstCallback: any) => {
               if (shouldCancelProcess()) return whilstCallback(true);
-              // @ts-expect-error ts-migrate(2345) FIXME: Argument of type 'number' is not assignable to par... Remove this comment to see the full error message
-              mid = parseInt((low + high) / 2, 10);
+              mid = parseInt(String((low + high) / 2), 10);
               this.setState({ fontSize: mid }, () => {
                 if (pid !== this.pid) return whilstCallback(true);
                 if (testSecondary()) low = mid + 1;

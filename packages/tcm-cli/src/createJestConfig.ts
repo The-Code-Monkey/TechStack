@@ -1,11 +1,7 @@
-import { Config } from '@jest/types';
-
-export type JestConfigOptions = Partial<Config.InitialOptions>;
-
 export function createJestConfig(
   _: (relativePath: string) => void,
   rootDir: string
-): JestConfigOptions {
+) {
   return {
     transform: {},
     testEnvironment: 'jsdom',

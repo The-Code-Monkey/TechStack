@@ -73,7 +73,6 @@
     "shelljs": "0.8.5",
     "sort-package-json": "1.57.0",
     "tiny-glob": "0.2.9",
-    "glob": "8.0.1",
     "ts-jest": "28.0.1",
     "ts-node": "10.7.0",
     "tslib": "2.4.0",

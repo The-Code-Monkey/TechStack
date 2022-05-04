@@ -1,4 +1,6 @@
-import React, { useMemo } from 'react';
+import * as React from 'react';
+
+const { useMemo } = React;
 
 import { Icon, InteractableProps, Text, IconProps } from '../../primatives';
 

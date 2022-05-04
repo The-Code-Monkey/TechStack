@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Interactable, Icon } from '../../primatives';
 import { generateAutomationId } from '../../utils';
 

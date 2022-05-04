@@ -1,4 +1,4 @@
-import React, { FC, PropsWithChildren, ReactNode, useState } from 'react';
+import { FC, PropsWithChildren, ReactNode, useState } from 'react';
 
 import { Button } from '../../atoms';
 import { Box } from '../../primatives';

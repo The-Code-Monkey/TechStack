@@ -11,6 +11,7 @@
     "rootDir": "src",
     "outDir": "./dist/cjs",
     "declarationDir": "dist/types",
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "lib": ["dom"]
   }
 }

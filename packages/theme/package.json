@@ -1,8 +1,8 @@
 {
-  "version": "3.1.43",
+  "version": "3.2.0",
   "license": "MIT",
   "bin": {
-    "orchard": "./dist/index.js"
+    "orchard": "./dist/esm/index.js"
   },
   "files": [
     "dist",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json && yarn copy",
-    "copy": "cp ./src/config.json ./dist/config.json && cp -r ./src/templates ./dist && cp -r ./src/theme ./dist && cp ./orchard.theme.config.json ./dist",
+    "copy": "cp ./src/config.json ./dist/esm/config.json && cp -r ./src/templates ./dist/esm && cp -r ./src/theme ./dist/esm && cp ./orchard.theme.config.json ./dist/esm",
     "lint": "tcm lint",
     "prepare": "yarn build",
     "size": "size-limit",
