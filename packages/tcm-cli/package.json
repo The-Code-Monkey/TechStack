@@ -70,7 +70,7 @@
     "sade": "1.8.1",
     "semver": "7.3.7",
     "shelljs": "0.8.5",
-    "sort-package-json": "1.55.0",
+    "sort-package-json": "1.57.0",
     "tiny-glob": "0.2.9",
     "glob": "8.0.1",
     "ts-jest": "28.0.1",
