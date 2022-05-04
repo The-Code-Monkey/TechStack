@@ -10,24 +10,6 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@aw-web-design/components@3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@aw-web-design/components/-/components-3.4.0.tgz#23a32ea6202905c7378e9b9daa47f93afd2899a6"
-  integrity sha512-Rmz9QIjgYq+0pqv6RDGrZOgCIpRZC8socS+vn0SdwnBkvqwy2NInyXRQx6+5VNsaPv3RpIP71/uHM345LUvP1Q==
-  dependencies:
-    "@aw-web-design/memoize" "1.0.3"
-    "@aw-web-design/react-feather" "3.2.1"
-    "@aw-web-design/styled-system" "3.3.0"
-    "@aw-web-design/tcm-cli" "3.2.8"
-    "@aw-web-design/theme" "3.2.1"
-    classnames "2.3.1"
-    csstype "3.0.11"
-    react "18.1.0"
-    react-dom "18.1.0"
-    react-lazy-named "1.2.2"
-    react-table "7.7.0"
-    styled-components "6.0.0-alpha.5"
-
 "@babel/cli@^7.15.7":
   version "7.17.10"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.17.10.tgz#5ea0bf6298bb78f3b59c7c06954f9bd1c79d5943"
@@ -13052,10 +13034,10 @@ next-absolute-url@1.2.2:
   resolved "https://registry.yarnpkg.com/next-absolute-url/-/next-absolute-url-1.2.2.tgz#9aba5adcee8effcffd63271d99e13213ad04c23b"
   integrity sha512-Z2+LZXQTthhw2je9u4eq8QWXxXd57a6b54x9exBfQX4Dct6YxaMjcXZWNLHd9AOlCue84EsMpdSGP7wACqUnPg==
 
-next-auth@4.3.4:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-4.3.4.tgz#7b241e34e1f68632768cef8ee289e33256cb2b19"
-  integrity sha512-8dGkNicbxY2BYsJq4uOJIEsGt39wXj5AViTBsVfbRQqtAFmZmXYHutf90VBmobm8rT2+Xl60HDUTkuVVK+x+xw==
+next-auth@4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-4.3.1.tgz#94520592d1d1851eb66ca3ad2758637e1df950e1"
+  integrity sha512-DBYEPBLq5naIqh/1i2zEHljcA1OXXecKW3NRU1W4s6R3UX3RdLZ2lWlqgBHUiZQ1zdNikFM/bYQxVGyG7bx8oA==
   dependencies:
     "@babel/runtime" "^7.16.3"
     "@panva/hkdf" "^1.0.1"

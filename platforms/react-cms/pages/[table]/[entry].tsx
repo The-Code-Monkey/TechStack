@@ -1,6 +1,6 @@
 import { ParsedUrlQuery } from 'querystring';
 
-import { Cell, Grid, Input } from '@aw-web-design/components';
+// import { Cell, Grid, Input } from '@aw-web-design/components';
 import { NextPage } from 'next';
 import { useForm } from 'react-hook-form';
 
@@ -29,14 +29,14 @@ const Entry: NextPage<Props> = ({ query }: Props) => {
 
   return (
     <form style={{ width: '100%' }} onSubmit={handleSubmit(onSubmit)}>
-      <Grid p='3' columns={2} gap={5}>
-        <Cell>
-          <Input w='full' {...register('firstName')} />
-        </Cell>
-        <Cell>
-          <Input w='full' {...register('firstName')} />
-        </Cell>
-      </Grid>
+      {/*<Grid p='3' columns={2} gap={5}>*/}
+      {/*  <Cell>*/}
+      {/*    <Input w='full' {...register('firstName')} />*/}
+      {/*  </Cell>*/}
+      {/*  <Cell>*/}
+      {/*    <Input w='full' {...register('firstName')} />*/}
+      {/*  </Cell>*/}
+      {/*</Grid>*/}
     </form>
   );
 };

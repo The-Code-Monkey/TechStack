@@ -1,6 +1,6 @@
 import { ParsedUrlQuery } from 'querystring';
 
-import { Table } from '@aw-web-design/components';
+// import { Table } from '@aw-web-design/components';
 import { NextPage } from 'next';
 import { useRouter } from 'next/router';
 
@@ -25,14 +25,15 @@ const List: NextPage<Props> = ({ data, query, columns }: Props) => {
     console.log(id, query);
   };
 
-  return (
-    <Table
-      data={data}
-      className={`${query.table}_table`}
-      columns={columns}
-      onRowClick={handleRowClick}
-    />
-  );
+  return null;
+  // return (
+  //   <Table
+  //     data={data}
+  //     className={`${query.table}_table`}
+  //     columns={columns}
+  //     onRowClick={handleRowClick}
+  //   />
+  // );
 };
 
 List.getInitialProps = async ({ req, query }): Promise<Props> => {

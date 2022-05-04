@@ -1,8 +1,8 @@
-import {
-  ConfigContext,
-  ThemeModeEnum,
-  ThemeProvider,
-} from '@aw-web-design/components';
+// import {
+//   ConfigContext,
+//   ThemeModeEnum,
+//   ThemeProvider,
+// } from '@aw-web-design/components';
 import { Session } from 'next-auth';
 import { getSession, SessionProvider, signIn } from 'next-auth/react';
 import { AppProps } from 'next/app';
@@ -30,17 +30,17 @@ const App = ({ Component, pageProps, session }: Props) => {
 
   if (!loggedIn) return null;
 
+  console.log("HERE");
+
   return (
-    <ConfigContext.Provider value={config}>
-      <ThemeProvider theme={Theme} mode={ThemeModeEnum.DARK} direction='row'>
+    // <ConfigContext.Provider value={config}>
+    //    <ThemeProvider theme={Theme} mode={ThemeModeEnum.DARK} direction='row'>
         <SessionProvider session={session}>
           <Nav />
-          {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
-          {/*// @ts-ignore*/}
           <Component {...pageProps} />
         </SessionProvider>
-      </ThemeProvider>
-    </ConfigContext.Provider>
+       // </ThemeProvider>
+     // </ConfigContext.Provider>
   );
 };
 

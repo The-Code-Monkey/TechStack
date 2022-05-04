@@ -7,8 +7,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*",
-    "platforms/*"
+    "packages/*"
   ],
   "scripts": {
     "clean": "git clean -xdf && rm -rf yarn.lock && yarn",

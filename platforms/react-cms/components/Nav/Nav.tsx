@@ -1,4 +1,4 @@
-import { Text, ConfigContext, Context, Box } from '@aw-web-design/components';
+// import { Text, ConfigContext, Context, Box } from '@aw-web-design/components';
 import { signOut } from 'next-auth/react';
 import Link from 'next/link';
 import React, { useContext } from 'react';
@@ -6,20 +6,20 @@ import React, { useContext } from 'react';
 import { SignoutLi, StyledNav, StyledUl } from './styled';
 
 const Nav = () => {
-  const config = useContext<Context>(ConfigContext);
+  // const config = useContext<Context>(ConfigContext);
 
   return (
     <StyledNav>
       <StyledUl>
-        <Box
-          as='li'
-          p='4'
-          bgColor='neutrals.4'
-          borderBottom='1'
-          borderBottomColor='neutrals.0'
-        >
-          <Text>{config.title ?? 'React CMS'}</Text>
-        </Box>
+        {/*<Box*/}
+        {/*  as='li'*/}
+        {/*  p='4'*/}
+        {/*  bgColor='neutrals.4'*/}
+        {/*  borderBottom='1'*/}
+        {/*  borderBottomColor='neutrals.0'*/}
+        {/*>*/}
+        {/*  <Text>{config.title ?? 'React CMS'}</Text>*/}
+        {/*</Box>*/}
         <li>
           <Link href={'/'}>
             <a>Home</a>
