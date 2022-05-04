@@ -397,12 +397,13 @@ prog
     const opts = await normalizeOpts(dirtyOpts);
 
     console.log(opts);
-
+    
     await cleanDistFolder();
     const logger = await createProgressEstimator();
     try {
       const promise = new Promise<void>(resolve => {
         shell.exec(`tsc -p ${paths.tsconfigJson}`);
+        shell.exec(`tsc -p tsconfig.cjs.json`);
         resolve();
       });
       logger(promise, 'Building modules');

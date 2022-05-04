@@ -65,6 +65,7 @@
     "pascal-case": "3.1.2",
     "postcss": "8.4.13",
     "prettier": "2.6.2",
+    "jest-environment-jsdom": "28.0.2",
     "progress-estimator": "0.3.0",
     "regenerator-runtime": "0.13.9",
     "sade": "1.8.1",
