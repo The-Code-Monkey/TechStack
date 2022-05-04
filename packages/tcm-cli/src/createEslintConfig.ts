@@ -3,6 +3,7 @@ import path from 'path';
 import fs from 'fs-extra';
 
 import { PackageJson } from './types.js';
+
 interface CreateEslintConfigArgs {
   pkg: PackageJson;
   rootDir: string;
@@ -22,7 +23,6 @@ export async function createEslintConfig({
     extends: [
       'plugin:@typescript-eslint/recommended',
       'plugin:react/recommended',
-      'plugin:prettier/recommended',
       'prettier',
     ],
     plugins: ['@typescript-eslint', 'prettier', 'react'],
@@ -45,7 +45,7 @@ export async function createEslintConfig({
       },
     },
     rules: {
-      'no-use-before-define': 'off',
+      'react/react-in-jsx-scope': 'off',
       '@typescript-eslint/no-use-before-define': ['warn'],
       '@typescript-eslint/no-var-requires': 0,
       '@typescript-eslint/no-empty-function': 'warn',
@@ -72,7 +72,6 @@ export async function createEslintConfig({
           'newlines-between': 'always',
         },
       ],
-      'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': [
         'warn',
         {

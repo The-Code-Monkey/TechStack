@@ -1,4 +1,5 @@
-import FeatherIcon, { type IconTypes } from '@aw-web-design/react-feather';
+import FeatherIcon from '@aw-web-design/react-feather';
+import type { IconTypes } from '@aw-web-design/react-feather';
 import * as React from 'react';
 const { memo } = React;
 

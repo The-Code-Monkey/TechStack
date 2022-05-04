@@ -1,5 +1,3 @@
-
-
 import { Button } from '../../atoms';
 
 import ButtonGroup from './index';

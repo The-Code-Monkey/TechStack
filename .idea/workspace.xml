@@ -4,43 +4,25 @@
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/button/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/Checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/Checkbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/button/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/__test__/index.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/__test__/index.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/divider/divider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/divider/divider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/divider/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/divider/__test__/index.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/divider/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/divider/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/grid/Cell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/Cell.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/grid/Grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/Grid.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/grid/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/__test__/index.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/grid/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/input/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/input/__test__/index.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/input/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/input/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/table/Table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/table/Table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/table/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/table/__test__/index.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/table/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/table/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/molecules/accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/accordion/Accordion.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/src/molecules/accordion/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/accordion/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/molecules/buttonGroup/ButtonGroup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/buttonGroup/ButtonGroup.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/src/molecules/buttonGroup/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/buttonGroup/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/box/Box.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/box/Box.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/__test__/index.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/interactable/Interactable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/interactable/Interactable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/text/Text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/text/Text.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/test-tools/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/test-tools/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/theme-provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/theme-provider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/tsconfig.cjs.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/tsconfig.cjs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/react-feather/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/tsconfig.cjs.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/tsconfig.cjs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-textfit/src/Textfit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/src/Textfit.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-textfit/tsconfig.cjs.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/tsconfig.cjs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-textfit/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/createJestConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createJestConfig.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/theme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/src/__test__/Icon.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/src/__test__/Icon.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/createEslintConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/createEslintConfig.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

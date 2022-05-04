@@ -1,4 +1,3 @@
-
 import Divider from './index';
 
 export default {

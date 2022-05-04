@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { mountWithTheme } from '../../../test-tools';
 import Divider from '../index';
 

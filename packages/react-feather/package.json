@@ -14,11 +14,10 @@
     "src"
   ],
   "scripts": {
-    "clear": "tcm test --clearCache",
     "lint": "tcm lint",
     "prebuild": "node generate.js",
     "build": "tcm build",
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules tcm test --no-cache"
+    "test": "tcm test"
   },
   "publishConfig": {
     "access": "public"

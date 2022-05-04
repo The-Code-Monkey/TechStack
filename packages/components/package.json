@@ -22,7 +22,7 @@
     "start": "tcm watch",
     "build": "yarn build:tokens && tcm build ",
     "build:tokens": "orchard generate",
-    "test": "yarn build:tokens && cross-env NODE_OPTIONS=--experimental-vm-modules tcm test --no-cache",
+    "test": "yarn build:tokens && tcm test",
     "lint": "yarn build:tokens && tcm lint",
     "size": "size-limit",
     "analyze": "size-limit --why",

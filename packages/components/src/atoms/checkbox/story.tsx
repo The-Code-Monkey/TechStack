@@ -1,4 +1,3 @@
-
 import Checkbox from './index';
 
 export default {

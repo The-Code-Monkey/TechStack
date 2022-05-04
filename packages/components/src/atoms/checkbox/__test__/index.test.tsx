@@ -1,5 +1,4 @@
 import { waitFor, screen } from '@testing-library/react';
-import * as React from 'react';
 
 import { mountWithTheme } from '../../../test-tools';
 import Checkbox from '../index';
