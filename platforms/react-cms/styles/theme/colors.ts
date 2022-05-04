@@ -1,10 +1,14 @@
-import { IThemeColorsType, ModeThemeType, ThemeModeEnum } from "@aw-web-design/components";
+import {
+  IThemeColorsType,
+  ModeThemeType,
+  ThemeModeEnum,
+} from '@aw-web-design/components';
 
-import common from "./dist/core";
-import neutrals from "./dist/neutrals";
-import intents from "./dist/intents";
-import darkMode from "./dist/dark-mode";
-import lightMode from "./dist/light-mode";
+import common from './dist/core';
+import darkMode from './dist/dark-mode';
+import intents from './dist/intents';
+import lightMode from './dist/light-mode';
+import neutrals from './dist/neutrals';
 
 const dark: ModeThemeType = {
   mode: ThemeModeEnum.DARK,

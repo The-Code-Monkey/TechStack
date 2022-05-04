@@ -1,8 +1,8 @@
 import { ParsedUrlQuery } from 'querystring';
 
+// import { Cell, Grid, Input } from '@aw-web-design/components';
 import { NextPage } from 'next';
 import { useForm } from 'react-hook-form';
-import { Cell, Grid, Input } from '@aw-web-design/components';
 
 import { GetEntryData, ModifyEntry } from '../../db/mysql/queries';
 
@@ -16,7 +16,7 @@ const Entry: NextPage<Props> = ({ query }: Props) => {
 
   const isCreate = query.create === 'create';
 
-  const onSubmit = async (data) => {
+  const onSubmit = async data => {
     const res = await ModifyEntry(
       { body: data },
       `${query.table}`,
@@ -29,21 +29,26 @@ const Entry: NextPage<Props> = ({ query }: Props) => {
 
   return (
     <form style={{ width: '100%' }} onSubmit={handleSubmit(onSubmit)}>
-      <Grid p="3" columns={2} gap={5}>
-        <Cell>
-          <Input w="full" {...register('firstName')} />
-        </Cell>
-        <Cell>
-          <Input w="full" {...register('firstName')} />
-        </Cell>
-      </Grid>
+      {/*<Grid p='3' columns={2} gap={5}>*/}
+      {/*  <Cell>*/}
+      {/*    <Input w='full' {...register('firstName')} />*/}
+      {/*  </Cell>*/}
+      {/*  <Cell>*/}
+      {/*    <Input w='full' {...register('firstName')} />*/}
+      {/*  </Cell>*/}
+      {/*</Grid>*/}
     </form>
   );
 };
 
 Entry.getInitialProps = async ({ req, query }): Promise<Props> => {
   if (query.entry !== 'create') {
-    const data = await GetEntryData(req, `${query.table}`, 'entry', `${query.entry}`);
+    const data = await GetEntryData(
+      req,
+      `${query.table}`,
+      'entry',
+      `${query.entry}`
+    );
 
     return {
       query,

@@ -3,6 +3,8 @@
   "version": "1.0.3",
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
   "exports": {
     "import": "./dist/esm/index.js",
     "require": "./dist/cjs/index.js",

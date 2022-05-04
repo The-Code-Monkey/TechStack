@@ -57,15 +57,7 @@ export default NextAuth({
   ],
   callbacks: {
     async signIn() {
-      const isAllowedToSignIn = true;
-      if (isAllowedToSignIn) {
-        return true;
-      } else {
-        // Return false to display a default error message
-        return false;
-        // Or you can return a URL to redirect to:
-        // return '/unauthorized'
-      }
+      return true;
     },
     async session({ session, token }) {
       // Send properties to the client, like an access_token from a provider.

@@ -1,6 +1,6 @@
-import { IncomingMessage } from "http";
+import { IncomingMessage } from 'http';
 
-import absoluteUrl from "next-absolute-url";
+import absoluteUrl from 'next-absolute-url';
 
 const fetchWithUrl = (
   req: IncomingMessage,
