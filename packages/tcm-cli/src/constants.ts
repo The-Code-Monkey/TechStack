@@ -3,6 +3,7 @@ import { resolveApp } from './utils.js';
 export const paths = {
   appPackageJson: resolveApp('package.json'),
   tsconfigJson: resolveApp('tsconfig.json'),
+  tsconfigCjs: resolveApp('tsconfig.cjs.json'),
   testsSetup: resolveApp('test/setupTests.ts'),
   appRoot: resolveApp('.'),
   appSrc: resolveApp('src'),
