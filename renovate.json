@@ -13,7 +13,6 @@
   "rangeStrategy": "pin",
   "labels": ["dependencies"],
   "automerge": true,
-  "bumpVersion": "patch",
   "rollbackPrs": false,
   "rollback": {
       "automerge": false
