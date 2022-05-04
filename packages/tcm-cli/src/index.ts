@@ -397,7 +397,7 @@ prog
     const opts = await normalizeOpts(dirtyOpts);
 
     console.log(opts);
-    
+
     await cleanDistFolder();
     const logger = await createProgressEstimator();
     try {
