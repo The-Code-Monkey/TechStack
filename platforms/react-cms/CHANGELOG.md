@@ -3,7 +3,8 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [3.1.39](https://github.com/The-Code-Monkey/TechStack/compare/react-cms@3.1.38...react-cms@3.1.39) (2022-04-29)
+## [3.1.39](https://github.com/The-Code-Monkey/TechStack/compare/react-cms@3.1.38...react-cms@3.1.39) (2022-04-28)
+
 
 
 ### Bug Fixes

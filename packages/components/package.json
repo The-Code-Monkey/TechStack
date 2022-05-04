@@ -1,5 +1,5 @@
 {
-  "version": "3.2.1",
+  "version": "3.3.0",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -43,21 +43,23 @@
     }
   ],
   "jest": {
-    "setupFiles": ["./setup.ts"]
+    "setupFiles": [
+      "./setup.ts"
+    ]
   },
   "devDependencies": {
-    "@testing-library/react": "13.2.0",
-    "cross-env": "7.0.3",
     "@size-limit/file": "7.0.8",
     "@storybook/addon-essentials": "6.5.0-beta.5",
     "@storybook/addon-links": "6.5.0-beta.4",
     "@storybook/addons": "6.5.0-beta.5",
     "@storybook/react": "6.5.0-beta.4",
+    "@testing-library/react": "13.2.0",
     "@tsconfig/create-react-app": "1.0.2",
     "@tsconfig/recommended": "1.0.1",
     "@types/react": "18.0.8",
     "@types/react-dom": "18.0.3",
     "@types/react-table": "7.7.11",
+    "cross-env": "7.0.3",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-prettier": "4.0.0",
     "react-is": "18.1.0",
@@ -66,13 +68,13 @@
     "typescript": "4.6.4"
   },
   "dependencies": {
+    "@aw-web-design/memoize": "1.0.3",
     "@aw-web-design/react-feather": "3.2.1",
     "@aw-web-design/styled-system": "3.3.0",
     "@aw-web-design/tcm-cli": "3.2.8",
     "@aw-web-design/theme": "3.2.1",
     "classnames": "2.3.1",
     "csstype": "3.0.11",
-    "@aw-web-design/memoize": "1.0.3",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-lazy-named": "1.2.2",

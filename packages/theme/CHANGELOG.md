@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.1](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.1.43...@aw-web-design/theme@3.2.1) (2022-05-04)
+
+
+### Bug Fixes
+
+* all packages build again ([fc0259f](https://github.com/The-Code-Monkey/TechStack/commit/fc0259f259edf0a2b672415c85e900b2ecf7dae4))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#321](https://github.com/The-Code-Monkey/TechStack/issues/321)) ([db10faa](https://github.com/The-Code-Monkey/TechStack/commit/db10faae96723db157adefc7a32e1a43f8dd3a21))
+* issues with imports not working fixed ([490bcef](https://github.com/The-Code-Monkey/TechStack/commit/490bceffa2dc7ce7d16a9e5fb61a4c02c893a59a))
+* some issues with esm ([5c343ea](https://github.com/The-Code-Monkey/TechStack/commit/5c343eadda936439148331fd5196e230b3b5e381))
+* update size limit dir ([dbb5a16](https://github.com/The-Code-Monkey/TechStack/commit/dbb5a1644c7b0ea5153806689bc7c0d3cbec8fc7))
+* update tcm ([9c00675](https://github.com/The-Code-Monkey/TechStack/commit/9c006752cfaf8882ad8524ff76f75132afc5ec99))
+* update tcm cli ([3eb7450](https://github.com/The-Code-Monkey/TechStack/commit/3eb7450a1cfc11b52de3a60b244ab13c87e0dcfe))
+* update tcm cli to fix stuff ([0d9f1e1](https://github.com/The-Code-Monkey/TechStack/commit/0d9f1e1cb556d4c18cde17579fdd5902b2334d9e))
+
+
+
+
+
 ## [3.1.43](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.1.42...@aw-web-design/theme@3.1.43) (2022-04-29)
 
 
