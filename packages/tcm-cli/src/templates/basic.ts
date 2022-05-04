@@ -1,4 +1,4 @@
-import { Template } from './template';
+import type { Template } from './template.js';
 
 const basicTemplate: Template = {
   name: 'basic',
@@ -33,23 +33,6 @@ const basicTemplate: Template = {
       analyze: 'size-limit --why',
     },
     peerDependencies: {},
-    /*
-    'size-limit': [
-      {
-        path: `dist/${safeName}.cjs.production.min.js`,
-        limit: '10 KB',
-      },
-      {
-        path: `dist/${safeName}.esm.js`,
-        limit: '10 KB',
-      },
-    ],
-    */
-    husky: {
-      hooks: {
-        'pre-commit': 'tcm lint',
-      },
-    },
     prettier: {
       printWidth: 80,
       semi: true,

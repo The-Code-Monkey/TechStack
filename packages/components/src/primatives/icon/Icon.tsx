@@ -1,31 +1,26 @@
-import * as IconTypes from '@aw-web-design/react-feather';
-import { HelpCircle } from '@aw-web-design/react-feather';
-import React, { useContext, Suspense, memo } from 'react';
+import FeatherIcon from '@aw-web-design/react-feather';
+import type { IconTypes } from '@aw-web-design/react-feather';
+import * as React from 'react';
+const { memo } = React;
 
-import { generateAutomationId, ConfigContext } from '../../utils';
+import { generateAutomationId } from '../../utils';
 import { BoxProps } from '../box';
 
 import { SvgWrapper } from './styled';
-import { getIcon } from './utils';
 
 export interface Props extends Omit<BoxProps, 'children'> {
-  name: keyof typeof IconTypes;
+  name: IconTypes;
   noFill?: boolean;
 }
 
 const Icon = ({ autoid, name, ...rest }: Props) => {
-  const config = useContext(ConfigContext);
-  const Element = getIcon(config, name);
-
   return (
-    <Suspense fallback={<HelpCircle />}>
-      <SvgWrapper
-        autoid={`${generateAutomationId(autoid ?? name)}_icon`}
-        {...rest}
-      >
-        <Element />
-      </SvgWrapper>
-    </Suspense>
+    <SvgWrapper
+      autoid={`${generateAutomationId(autoid ?? name)}_icon`}
+      {...rest}
+    >
+      <FeatherIcon name={name} />
+    </SvgWrapper>
   );
 };
 

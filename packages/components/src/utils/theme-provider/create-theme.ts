@@ -5,7 +5,7 @@ import { ITheme } from './types';
 
 const arrayMerge = (_destination: any, source: any) => source;
 
-const getActiveMode = <V extends {}>(
+const getActiveMode = <V extends object>(
   theme?: ITheme<V>,
   parent?: ITheme<V>,
   mode?: ThemeModeEnum
@@ -17,7 +17,7 @@ const getActiveMode = <V extends {}>(
   return ThemeModeEnum.LIGHT;
 };
 
-const applyMode = <V extends {}>(
+const applyMode = <V extends object>(
   theme?: ITheme<V>,
   mode?: ThemeModeEnum
 ): ITheme<V> => {
@@ -56,7 +56,7 @@ const applyMode = <V extends {}>(
 };
 
 const createTheme =
-  <V extends {}>(theme?: ITheme<V>, mode?: ThemeModeEnum) =>
+  <V extends object>(theme?: ITheme<V>, mode?: ThemeModeEnum) =>
   (parent?: any): ITheme<V> => {
     const activeMode = getActiveMode<V>(theme, parent, mode);
     const themeWithAppliedMode = applyMode<V>(theme, activeMode);

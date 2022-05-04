@@ -8,7 +8,7 @@ import {
   FlexboxProps,
 } from '@aw-web-design/styled-system';
 import { Property } from 'csstype';
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 
 import { generateAutomationId } from '../../utils';
 

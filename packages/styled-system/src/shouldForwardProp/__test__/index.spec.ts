@@ -1,4 +1,4 @@
-import { allProps, shouldForwardProp, sfp } from '..';
+import { allProps, shouldForwardProp, sfp } from '../';
 
 describe('shouldForwardProp', () => {
   it('should return true for valid HTML attributes', () => {
@@ -8,7 +8,7 @@ describe('shouldForwardProp', () => {
 
   it.each(allProps)(
     `it should return false for Styled System '%s' prop`,
-    (prop) => {
+    prop => {
       const should = shouldForwardProp(prop);
       expect(should).toBe(false);
     }

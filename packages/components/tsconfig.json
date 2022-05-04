@@ -1,23 +1,18 @@
 {
+  "extends": "../../tsconfig.esm.base.json",
   "include": ["src", "types"],
+  "exclude": [
+    "src/**/*.spec.tsx",
+    "src/**/*.test.tsx",
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts",
+    "src/**/story.tsx"
+  ],
   "compilerOptions": {
-    "module": "esnext",
-    "lib": ["dom", "esnext"],
-    "importHelpers": true,
-    "declaration": true,
-    "sourceMap": true,
-    "rootDir": "./src",
-    "strict": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "moduleResolution": "node",
-    "jsx": "react",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "baseUrl": "./src"
+    "rootDir": "src",
+    "outDir": "./dist/esm",
+    "declarationDir": "dist/types",
+    "jsx": "react-jsx",
+    "lib": ["dom"]
   }
 }

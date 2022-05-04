@@ -30,6 +30,9 @@ export default class TextFit extends React.Component {
     forceSingleModeWidth: PropTypes.bool,
     throttle: PropTypes.number,
     onReady: PropTypes.func,
+    autoResize: PropTypes.bool,
+    style: PropTypes.object,
+    forceWidth: PropTypes.bool,
   };
 
   static defaultProps = {
@@ -61,8 +64,7 @@ export default class TextFit extends React.Component {
   };
 
   componentDidMount() {
-    // @ts-expect-error ts-migrate(2339) FIXME: Property 'autoResize' does not exist on type 'Read... Remove this comment to see the full error message
-    const { autoResize } = this.props;
+    const { autoResize }: Readonly<{ autoResize?: boolean }> = this.props;
     if (autoResize) {
       window.addEventListener('resize', this.handleWindowResize);
     }
@@ -86,7 +88,7 @@ export default class TextFit extends React.Component {
     this.pid = uniqueId();
   }
 
-  handleWindowResize = () => {
+  handleWindowResize: (context: any) => any = () => {
     this.process();
   };
 
@@ -143,8 +145,7 @@ export default class TextFit extends React.Component {
             () => low <= high,
             (whilstCallback: any) => {
               if (shouldCancelProcess()) return whilstCallback(true);
-              // @ts-expect-error ts-migrate(2345) FIXME: Argument of type 'number' is not assignable to par... Remove this comment to see the full error message
-              mid = parseInt((low + high) / 2, 10);
+              mid = parseInt(String((low + high) / 2), 10);
               this.setState({ fontSize: mid }, () => {
                 if (shouldCancelProcess()) return whilstCallback(true);
                 if (testPrimary()) low = mid + 1;
@@ -167,8 +168,7 @@ export default class TextFit extends React.Component {
             () => low < high,
             (whilstCallback: any) => {
               if (shouldCancelProcess()) return whilstCallback(true);
-              // @ts-expect-error ts-migrate(2345) FIXME: Argument of type 'number' is not assignable to par... Remove this comment to see the full error message
-              mid = parseInt((low + high) / 2, 10);
+              mid = parseInt(String((low + high) / 2), 10);
               this.setState({ fontSize: mid }, () => {
                 if (pid !== this.pid) return whilstCallback(true);
                 if (testSecondary()) low = mid + 1;
@@ -207,32 +207,19 @@ export default class TextFit extends React.Component {
 
   render() {
     const {
-      // @ts-expect-error ts-migrate(2339) FIXME: Property 'children' does not exist on type 'Readon... Remove this comment to see the full error message
       children,
-      // @ts-expect-error ts-migrate(2339) FIXME: Property 'text' does not exist on type 'Readonly<{... Remove this comment to see the full error message
       text,
-      // @ts-expect-error ts-migrate(2339) FIXME: Property 'style' does not exist on type 'Readonly<... Remove this comment to see the full error message
       style,
-      // @ts-expect-error ts-migrate(2339) FIXME: Property 'min' does not exist on type 'Readonly<{}... Remove this comment to see the full error message
       min,
-      // @ts-expect-error ts-migrate(2339) FIXME: Property 'max' does not exist on type 'Readonly<{}... Remove this comment to see the full error message
       max,
-      // @ts-expect-error ts-migrate(2339) FIXME: Property 'mode' does not exist on type 'Readonly<{... Remove this comment to see the full error message
       mode,
-      // @ts-expect-error ts-migrate(2339) FIXME: Property 'forceWidth' does not exist on type 'Read... Remove this comment to see the full error message
       forceWidth,
-      // @ts-expect-error ts-migrate(2339) FIXME: Property 'forceSingleModeWidth' does not exist on ... Remove this comment to see the full error message
       forceSingleModeWidth,
-      /* eslint-disable no-shadow */
-      // @ts-expect-error ts-migrate(2339) FIXME: Property 'throttle' does not exist on type 'Readon... Remove this comment to see the full error message
       throttle,
-      /* eslint-enable no-shadow */
-      // @ts-expect-error ts-migrate(2339) FIXME: Property 'autoResize' does not exist on type 'Read... Remove this comment to see the full error message
       autoResize,
-      // @ts-expect-error ts-migrate(2339) FIXME: Property 'onReady' does not exist on type 'Readonl... Remove this comment to see the full error message
       onReady,
       ...props
-    } = this.props;
+    }: any = this.props;
     const { fontSize, ready } = this.state;
     const finalStyle = {
       ...style,
@@ -246,8 +233,8 @@ export default class TextFit extends React.Component {
     if (mode === 'single') wrapperStyle.whiteSpace = 'nowrap';
 
     return (
-      <div ref={(c) => (this._parent = c)} style={finalStyle} {...props}>
-        <div ref={(c) => (this._child = c)} style={wrapperStyle}>
+      <div ref={c => (this._parent = c)} style={finalStyle} {...props}>
+        <div ref={c => (this._child = c)} style={wrapperStyle}>
           {text && typeof children === 'function'
             ? ready
               ? children(text)

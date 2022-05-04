@@ -1,18 +1,19 @@
 {
-  "include": ["src/**/*"],
-  "exclude": ["src/template/**/*"],
+  "include": ["src", "types"],
+"exclude": ["src/**/__test__/*.test.ts*x"],
   "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
     "allowJs": true,
     "jsx": "react",
     "importHelpers": true,
     "outDir": "dist",
-    "esModuleInterop": true,
-    "module": "commonjs",
     "rootDir": "src",
-    "strict": true,
-    "target": "es2017",
     "declaration": true,
     "noUnusedLocals": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
   }
 }

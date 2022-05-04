@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Accordion from './index';
 
 export default {
@@ -7,4 +5,4 @@ export default {
   component: Accordion,
 };
 
-export const story = () => <Accordion title="Title">This is a test</Accordion>;
+export const story = () => <Accordion title='Title'>This is a test</Accordion>;

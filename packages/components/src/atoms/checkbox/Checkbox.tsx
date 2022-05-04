@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Interactable, Icon } from '../../primatives';
 import { generateAutomationId } from '../../utils';
 
@@ -30,15 +28,15 @@ const Checkbox = ({
 
   return (
     <Interactable
-      display="flex"
+      display='flex'
       size={7}
-      alignItems="center"
-      justifyContent="center"
-      cursor="pointer"
-      bgColor="neutrals.0"
-      border="1"
-      borderRadius="1"
-      borderColor="neutrals.10"
+      alignItems='center'
+      justifyContent='center'
+      cursor='pointer'
+      bgColor='neutrals.0'
+      border='1'
+      borderRadius='1'
+      borderColor='neutrals.10'
       autoid={autoid ? generateAutomationId(`${autoid}_checkbox`) : 'checkbox'}
       data-checked={checked}
       data-indeterminate={indeterminate}
@@ -50,9 +48,9 @@ const Checkbox = ({
       {(indeterminate || checked) && (
         <Icon
           autoid={`${autoid && `${autoid}_`}checkbox_icon`}
-          name={indeterminate ? 'Minus' : 'Check'}
+          name={indeterminate ? 'minus' : 'check'}
           noFill
-          size="full"
+          size='full'
         />
       )}
     </Interactable>

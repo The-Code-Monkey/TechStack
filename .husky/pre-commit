@@ -3,6 +3,8 @@
 
 yarn lint
 
-yarn lint:cms
+#yarn lint:cms
 
 yarn test
+
+yarn size

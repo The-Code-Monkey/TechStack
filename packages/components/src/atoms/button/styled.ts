@@ -1,5 +1,5 @@
 import { variant, Theme } from '@aw-web-design/styled-system';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 import { Interactable, StyledBoxProps } from '../../primatives';
 
@@ -42,11 +42,13 @@ export const iconOrientations = {
 export const ButtonVariants = (theme: Theme) => {
   if (typeof theme.variants?.buttons === 'function') {
     return variant({
+      // eslint-disable-next-line
       // @ts-ignore
       variants: theme.variants?.buttons(theme),
     });
   }
   return variant({
+    // eslint-disable-next-line
     // @ts-ignore
     variants: theme.variants?.buttons,
   });
@@ -56,30 +58,28 @@ export const StyledInteractable = styled(Interactable)<{ strong?: boolean }>`
   position: relative;
   display: inline-flex;
   overflow: hidden;
-  min-height: ${(p) => p.theme.sizes[8]};
+  min-height: ${p => p.theme.sizes[8]};
   -webkit-font-smoothing: antialiased;
-  padding: ${(p) => p.theme.space[3]} ${(p) => p.theme.space[4]};
+  padding: ${p => p.theme.space[3]} ${p => p.theme.space[4]};
   cursor: pointer;
   user-select: none;
   text-align: center;
   border: none;
-  border-radius: ${(p) => p.theme.radii[1]};
+  border-radius: ${p => p.theme.radii[1]};
   outline: none;
   align-items: center;
   justify-content: center;
-  ${(p) => p.strong && 'font-weight: bold;'}
+  ${p => p.strong && 'font-weight: bold;'}
   &:disabled {
     pointer-events: none;
   }
   &:focus {
     outline: none;
   }
-  ${(p) => css`
-    ${variant({
-      prop: 'typography',
-      scale: 'typography.type',
-    })}
-    ${ButtonVariants(p.theme)}
-  `}
+  ${variant({
+    prop: 'typography',
+    scale: 'typography.type',
+  })}
+  ${p => ButtonVariants(p.theme)}
   ${StyledBoxProps}
 `;

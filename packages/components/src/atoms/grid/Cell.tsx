@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 
 import { BoxProps } from '../../primatives';
 
@@ -38,7 +38,7 @@ const Cell = ({
       gridColumn={getGridColumnMemo}
       gridRow={getGridRowMemo}
       gridArea={cellArea}
-      display="flex"
+      display='flex'
       {...rest}
     >
       {children}

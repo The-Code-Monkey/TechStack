@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { BoxProps } from '../box';
 
 import { StyledInteractable } from './styled';

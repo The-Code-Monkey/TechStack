@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Grid, { Cell } from './index';
 
 export default {

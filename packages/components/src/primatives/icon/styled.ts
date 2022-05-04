@@ -14,7 +14,7 @@ export const SvgWrapper = styled(Box).withConfig({
   pointer-events: none;
 
   svg {
-    ${(p) => !p.noFill && 'fill: currentColor;'}
+    ${p => !p.noFill && 'fill: currentColor;'}
     pointer-events: none;
 
     ${IntentVariants}

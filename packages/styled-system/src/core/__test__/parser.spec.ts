@@ -38,7 +38,7 @@ describe('parser', () => {
   });
 
   it('should support fns', () => {
-    const fontSize = jest.fn().mockImplementation((props) => props.colors.red);
+    const fontSize = jest.fn().mockImplementation(props => props.colors.red);
 
     const styles = parser({ theme, fontSize });
 

@@ -1,4 +1,4 @@
-import React, { FC, PropsWithChildren, ReactNode, useState } from 'react';
+import { FC, PropsWithChildren, ReactNode, useState } from 'react';
 
 import { Button } from '../../atoms';
 import { Box } from '../../primatives';
@@ -24,18 +24,18 @@ const Accordion: FC<PropsWithChildren<Props>> = ({
   return (
     <StyledAccordion open={isOpen} max={maxHeight} time={time}>
       <Button
-        bg="neutrals.4"
-        h="12"
-        w="full"
+        bg='neutrals.4'
+        h='12'
+        w='full'
         strong
-        iconName="Plus"
-        justifyContent="flex-start"
-        className="accordion"
-        onClick={() => setIsOpen((prevState) => !prevState)}
+        iconName='plus'
+        justifyContent='flex-start'
+        className='accordion'
+        onClick={() => setIsOpen(prevState => !prevState)}
       >
         {title}
       </Button>
-      <Box className="panel">
+      <Box className='panel'>
         <p>{children}</p>
       </Box>
     </StyledAccordion>

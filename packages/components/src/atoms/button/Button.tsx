@@ -1,4 +1,6 @@
-import React, { useMemo } from 'react';
+import * as React from 'react';
+
+const { useMemo } = React;
 
 import { Icon, InteractableProps, Text, IconProps } from '../../primatives';
 
@@ -28,9 +30,9 @@ const Button = ({
   return (
     <StyledInteractable
       className={className}
-      forwardedAs="button"
+      forwardedAs='button'
       autoid={`${autoid || children}_button`}
-      typography="button"
+      typography='button'
       variant={variant}
       {...rest}
       {...iconOrientations[iconPosition]}

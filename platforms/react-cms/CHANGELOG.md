@@ -6,15 +6,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ## [3.1.39](https://github.com/The-Code-Monkey/TechStack/compare/react-cms@3.1.38...react-cms@3.1.39) (2022-04-28)
 
 
+
 ### Bug Fixes
 
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([3f4e63a](https://github.com/The-Code-Monkey/TechStack/commit/3f4e63ac39940ad04dcc22a9043cb3b292932031))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([e600e01](https://github.com/The-Code-Monkey/TechStack/commit/e600e01bca39b943cd7117d55e4bbaa06491ab6b))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([2f06c1a](https://github.com/The-Code-Monkey/TechStack/commit/2f06c1a56c9efcab01707f080646c5284a01dd2b))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#235](https://github.com/The-Code-Monkey/TechStack/issues/235)) ([4faeb3b](https://github.com/The-Code-Monkey/TechStack/commit/4faeb3b4dca72f46e51fc6ba2c34cb5dd6ad914b))
 * **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#264](https://github.com/The-Code-Monkey/TechStack/issues/264)) ([a507d5a](https://github.com/The-Code-Monkey/TechStack/commit/a507d5a3e769e53d99409dde475d0b0ae9bbb7b8))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo to v3.1.39 ([#243](https://github.com/The-Code-Monkey/TechStack/issues/243)) ([9ad2a0c](https://github.com/The-Code-Monkey/TechStack/commit/9ad2a0c679ee40a96e6d782bd7586e6f75e44ee8))
-* **deps:** update dependency next-auth to v4.3.3 ([2f3660a](https://github.com/The-Code-Monkey/TechStack/commit/2f3660acb923073be2521f1a59bebfce54cf72cc))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))
 * **deps:** update dependency next-auth to v4.3.4 ([#298](https://github.com/The-Code-Monkey/TechStack/issues/298)) ([99090b0](https://github.com/The-Code-Monkey/TechStack/commit/99090b07d1da36c8abf13dcede261db67c8913b7))
 
 

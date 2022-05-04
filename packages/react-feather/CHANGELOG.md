@@ -3,15 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [3.1.43](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-feather@3.1.42...@aw-web-design/react-feather@3.1.43) (2022-04-28)
+## [3.1.43](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-feather@3.1.42...@aw-web-design/react-feather@3.1.43) (2022-04-29)
 
 
 ### Bug Fixes
 
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([3f4e63a](https://github.com/The-Code-Monkey/TechStack/commit/3f4e63ac39940ad04dcc22a9043cb3b292932031))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([e600e01](https://github.com/The-Code-Monkey/TechStack/commit/e600e01bca39b943cd7117d55e4bbaa06491ab6b))
+* add * as react to all icons ([caa037a](https://github.com/The-Code-Monkey/TechStack/commit/caa037a13093c7eb4ad524992b7c70f2257d82c6))
+* add new package react-lazy-named ([023fec6](https://github.com/The-Code-Monkey/TechStack/commit/023fec68ac232c5cef4784a146c969d3034f937e))
+* at least it spits out the error now ([084d1aa](https://github.com/The-Code-Monkey/TechStack/commit/084d1aa06e232dd8b7373ff068c9969330e372fb))
 * **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#264](https://github.com/The-Code-Monkey/TechStack/issues/264)) ([a507d5a](https://github.com/The-Code-Monkey/TechStack/commit/a507d5a3e769e53d99409dde475d0b0ae9bbb7b8))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))
 * **deps:** update dependency eslint to v8.14.0 ([#286](https://github.com/The-Code-Monkey/TechStack/issues/286)) ([d58742c](https://github.com/The-Code-Monkey/TechStack/commit/d58742c609845bfbda1126749578f0744577d644))
+* some stuff is flakey ([d58d418](https://github.com/The-Code-Monkey/TechStack/commit/d58d418a0b3b409ad92cd64412392f746d7ecd67))
 
 
 

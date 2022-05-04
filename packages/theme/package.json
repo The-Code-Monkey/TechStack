@@ -1,8 +1,8 @@
 {
-  "version": "3.1.43",
+  "version": "3.2.0",
   "license": "MIT",
   "bin": {
-    "orchard": "./dist/index.js"
+    "orchard": "./dist/esm/index.js"
   },
   "files": [
     "dist",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json && yarn copy",
-    "copy": "cp ./src/config.json ./dist/config.json && cp -r ./src/templates ./dist && cp -r ./src/theme ./dist && cp ./orchard.theme.config.json ./dist",
+    "copy": "cp ./src/config.json ./dist/esm/config.json && cp -r ./src/templates ./dist/esm && cp -r ./src/theme ./dist/esm && cp ./orchard.theme.config.json ./dist/esm",
     "lint": "tcm lint",
     "prepare": "yarn build",
     "size": "size-limit",
@@ -27,7 +27,7 @@
   },
   "size-limit": [
     {
-      "path": "dist/index.js",
+      "path": "dist/esm/index.js",
       "limit": "2 KB"
     }
   ],
@@ -39,12 +39,12 @@
     "@types/lodash-es": "4.17.6",
     "@types/tinycolor2": "1.4.3",
     "size-limit": "7.0.8",
-    "ts-jest": "27.1.4",
+    "ts-jest": "28.0.1",
     "tslib": "2.4.0",
-    "typescript": "4.6.3"
+    "typescript": "4.6.4"
   },
   "dependencies": {
-    "@aw-web-design/tcm-cli": "3.1.41",
+    "@aw-web-design/tcm-cli": "3.2.7",
     "fs-extra": "10.1.0",
     "lodash": "4.17.21",
     "lodash-es": "4.17.21",

@@ -33,7 +33,7 @@ type OptionalRecord<K extends keyof any, T> = {
   [P in K]?: T;
 };
 
-export interface ITheme<V extends unknown> {
+export interface ITheme<V> {
   colors?: ModeThemeType & IThemeColorsType;
   variants?: V;
   fonts: Record<string, string>;

@@ -1,13 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Divider /> renders correctly 1`] = `
-<Component>
-  <Divider>
-    <styled.hr>
-      <hr
-        className="sc-jSMfEi egMCEo"
-      />
-    </styled.hr>
-  </Divider>
-</Component>
+<DocumentFragment>
+  <hr
+    class="sc-chmotB fZdRci"
+  />
+</DocumentFragment>
 `;

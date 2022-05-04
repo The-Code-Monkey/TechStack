@@ -10,11 +10,11 @@ import traverse from '@babel/traverse';
 import fs from 'fs-extra';
 import { pascalCase } from 'pascal-case';
 
-import { paths } from '../constants';
-import { safeVariableName } from '../utils';
+import { paths } from '../constants.js';
+import { safeVariableName } from '../utils.js';
 
-import { evalToString } from './evalToString';
-import { invertObject } from './invertObject';
+import { evalToString } from './evalToString.js';
+import { invertObject } from './invertObject.js';
 
 const babelParserOptions: ParserOptions = {
   sourceType: 'module',
@@ -36,10 +36,6 @@ export async function extractErrors(opts: any) {
     throw new Error(
       'Missing options. Ensure you pass an object with `errorMapFilePath`.'
     );
-  }
-
-  if (!opts.name || !('name' in opts)) {
-    throw new Error('Missing options. Ensure you pass --name flag to tcm');
   }
 
   const errorMapFilePath = opts.errorMapFilePath;

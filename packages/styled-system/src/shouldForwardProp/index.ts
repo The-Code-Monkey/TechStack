@@ -1,5 +1,5 @@
+import memoize from '@aw-web-design/memoize';
 import isPropValid from '@emotion/is-prop-valid';
-import memoize from '@emotion/memoize';
 
 import { compose } from '../core';
 import { animation } from '../parsers/animation';
@@ -51,7 +51,7 @@ export const allProps: string[] = [
  */
 export function createShouldForwardProp(props: string[]) {
   const regex = new RegExp(`^(${props.join('|')})$`);
-  return memoize((prop) => isPropValid(prop) && !regex.test(prop));
+  return memoize(prop => isPropValid(prop) && !regex.test(prop));
 }
 
 /**

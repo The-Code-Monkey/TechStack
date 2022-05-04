@@ -1,5 +1,5 @@
 import { GridProps } from '@aw-web-design/styled-system';
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 
 import { BoxProps } from '../../primatives';
 
@@ -22,7 +22,7 @@ const Grid = ({ children, autoid, columns, rows, areas, ...rest }: Props) => {
       gridTemplateColumns={getTemplateColumnsMemo}
       gridTemplateRows={getTemplateRowsMemo}
       gridTemplateAreas={areas}
-      display="grid"
+      display='grid'
       {...rest}
     >
       {children}

@@ -1,36 +1,35 @@
-import toJson from 'enzyme-to-json';
-import React from 'react';
-
 import { mountWithTheme } from '../../../test-tools';
 import Button from '../index';
 
 describe('<Button />', () => {
   it('renders default correctly', () => {
-    const wrapper = mountWithTheme(<Button>Default</Button>);
-    expect(toJson(wrapper)).toMatchSnapshot();
+    const { asFragment } = mountWithTheme(<Button>Default</Button>);
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it('renders primary correctly', () => {
-    const wrapper = mountWithTheme(<Button variant="primary">Primary</Button>);
-    expect(toJson(wrapper)).toMatchSnapshot();
+    const { asFragment } = mountWithTheme(
+      <Button variant='primary'>Primary</Button>
+    );
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it('renders secondary correctly', () => {
-    const wrapper = mountWithTheme(
-      <Button variant="secondary">Secondary</Button>
+    const { asFragment } = mountWithTheme(
+      <Button variant='secondary'>Secondary</Button>
     );
-    expect(toJson(wrapper)).toMatchSnapshot();
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it('renders icon correctly', () => {
-    const wrapper = mountWithTheme(
-      <Button iconName="GitHub">Secondary</Button>
+    const { asFragment } = mountWithTheme(
+      <Button iconName='github'>Secondary</Button>
     );
-    expect(toJson(wrapper)).toMatchSnapshot();
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it('renders icon only correctly', () => {
-    const wrapper = mountWithTheme(<Button iconName="GitHub" />);
-    expect(toJson(wrapper)).toMatchSnapshot();
+    const { asFragment } = mountWithTheme(<Button iconName='github' />);
+    expect(asFragment()).toMatchSnapshot();
   });
 });

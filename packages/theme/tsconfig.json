@@ -1,21 +1,15 @@
 {
-  "include": ["src/**/*"],
+  "extends": "../../tsconfig.esm.base.json",
+  "include": ["src", "types"],
+  "exclude": [
+    "src/**/*.spec.tsx",
+    "src/**/*.test.tsx",
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts"
+  ],
   "compilerOptions": {
-    "allowJs": true,
-    "jsx": "react",
-    "importHelpers": true,
-    "esModuleInterop": true,
-    "outDir": "dist",
-    "declaration": false,
-    "module": "commonjs",
     "rootDir": "src",
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "skipLibCheck": true,
-    "target": "es2017",
-    "resolveJsonModule": true,
-  },
+    "outDir": "./dist/esm",
+    "declarationDir": "dist/types"
+  }
 }

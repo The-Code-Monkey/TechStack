@@ -1,6 +1,7 @@
 {
-  "extends": "@tsconfig/recommended/tsconfig.json",
+  "extends": "../../tsconfig.json",
   "include": ["src", "types"],
+"exclude": ["src/**/__test__/*.test.ts*x"],
   "compilerOptions": {
     "module": "esnext",
   }

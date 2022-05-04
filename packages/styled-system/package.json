@@ -1,9 +1,14 @@
 {
-  "version": "3.2.0",
+  "version": "3.2.2",
   "license": "MIT",
   "name": "@aw-web-design/styled-system",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js",
+    "default": "./dist/esm/index.js"
+  },
+  "typings": "dist/types/index.d.ts",
+  "type": "module",
   "files": [
     "dist",
     "src"
@@ -16,19 +21,17 @@
     "build": "tcm build",
     "test": "tcm test",
     "lint": "tcm lint",
-    "prepare": "tcm build",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
   "author": "The-Code-Monkey",
-  "module": "dist/styled-system.esm.js",
   "size-limit": [
     {
-      "path": "dist/styled-system.cjs.production.min.js",
+      "path": "dist/esm/index.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/styled-system.esm.js",
+      "path": "dist/cjs/index.js",
       "limit": "10 KB"
     }
   ],
@@ -36,12 +39,12 @@
     "@size-limit/file": "7.0.8",
     "size-limit": "7.0.8",
     "tslib": "2.4.0",
-    "typescript": "4.6.3"
+    "typescript": "4.6.4"
   },
   "dependencies": {
-    "@aw-web-design/tcm-cli": "3.1.41",
+    "@aw-web-design/tcm-cli": "3.2.7",
+    "@aw-web-design/memoize": "1.0.2",
     "@emotion/is-prop-valid": "1.1.2",
-    "@emotion/memoize": "0.7.5",
     "csstype": "3.0.11"
   },
   "gitHead": "25f6ba2d98aa011acb349bb3f16320be8bccafc0"

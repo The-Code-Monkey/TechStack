@@ -11,8 +11,8 @@ export type ModuleFormat = 'cjs' | 'umd' | 'esm' | 'system';
 
 export interface BuildOpts extends SharedOpts {
   name?: string;
-  entry?: string | string[];
-  format: 'cjs,esm';
+  entry?: string[];
+  format: 'esm';
   target: 'browser';
   noClean?: boolean;
   rollupTypes?: boolean;
@@ -27,10 +27,11 @@ export interface WatchOpts extends BuildOpts {
 }
 
 export interface NormalizedOpts
-  extends Omit<WatchOpts, 'name' | 'input' | 'format'> {
+  extends Omit<WatchOpts, 'name' | 'input' | 'format'>,
+    Omit<TcmOptions, 'name' | 'input' | 'format' | 'target'> {
   name: string | string[];
   input: string[];
-  format: [ModuleFormat, ...ModuleFormat[]];
+  format: [ModuleFormat, ...ModuleFormat[]] | ModuleFormat;
   output: {
     file: string[];
   };
@@ -42,11 +43,9 @@ export interface TcmOptions extends SharedOpts {
   // Name of package
   name: string;
   // path to file
-  input: string | TcmOptionsInput;
-  // Environment
-  env: 'development' | 'production';
+  input: string[] | string;
   // Module format
-  format: ModuleFormat;
+  format: 'esm';
   // Is minifying?
   minify?: boolean;
   // Is this the very first rollup config (and thus should one-off metadata be extracted)?
@@ -60,8 +59,8 @@ export interface TcmOptions extends SharedOpts {
 export interface PackageJson {
   name: string;
   source?: string;
-  jest?: any;
-  eslint?: any;
+  jest?: Record<string, string>;
+  eslint?: Record<string, string>;
   dependencies?: { [packageName: string]: string };
   devDependencies?: { [packageName: string]: string };
   engines?: {

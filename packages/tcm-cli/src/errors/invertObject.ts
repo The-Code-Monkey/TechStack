@@ -14,7 +14,7 @@
  *   { 0: 'MUCH ERROR', 1: 'SUCH WRONG' }
  */
 
-type Dict = { [key: string]: any };
+type Dict = { [key: string]: number | string };
 
 export function invertObject(targetObj: Dict) {
   const result: Dict = {};
