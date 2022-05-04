@@ -1,7 +1,7 @@
-import React, { useContext } from 'react';
-import Link from 'next/link';
-import { signOut } from 'next-auth/react';
 import { Text, ConfigContext, Context, Box } from '@aw-web-design/components';
+import { signOut } from 'next-auth/react';
+import Link from 'next/link';
+import React, { useContext } from 'react';
 
 import { SignoutLi, StyledNav, StyledUl } from './styled';
 
@@ -11,7 +11,13 @@ const Nav = () => {
   return (
     <StyledNav>
       <StyledUl>
-        <Box as="li" p="4" bgColor="neutrals.4" borderBottom="1" borderBottomColor="neutrals.0">
+        <Box
+          as='li'
+          p='4'
+          bgColor='neutrals.4'
+          borderBottom='1'
+          borderBottomColor='neutrals.0'
+        >
           <Text>{config.title ?? 'React CMS'}</Text>
         </Box>
         <li>
@@ -24,7 +30,7 @@ const Nav = () => {
             <a>Users</a>
           </Link>
         </li>
-        <SignoutLi className="logout" onClick={() => signOut()}>
+        <SignoutLi className='logout' onClick={() => signOut()}>
           Sign out
         </SignoutLi>
       </StyledUl>

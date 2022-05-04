@@ -3,15 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/.storybook/main.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/.storybook/main.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/.storybook/preview.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/.storybook/preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lerna.json" beforeDir="false" afterPath="$PROJECT_DIR$/lerna.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/memoize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/memoize/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-lazy-named/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-lazy-named/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-textfit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/styled-system/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/components/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/components/Nav/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/components/Nav/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/components/Nav/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/db/mysql/helpers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/db/mysql/helpers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/db/mysql/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/db/mysql/queries.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/next.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/next.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/[table]/[entry].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/[table]/[entry].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/[table]/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/[table]/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/styles/theme/colors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/styles/theme/colors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/styles/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/styles/theme/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/styles/theme/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/styles/theme/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/styles/theme/variants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/styles/theme/variants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/react-cms/types/theme.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/types/theme.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +84,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

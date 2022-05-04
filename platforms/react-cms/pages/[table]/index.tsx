@@ -20,12 +20,19 @@ interface Props {
 const List: NextPage<Props> = ({ data, query, columns }: Props) => {
   const router = useRouter();
 
-  const handleRowClick = (id) => {
+  const handleRowClick = id => {
     router.push(`/${query.table}/${parseInt(id, 10) + 1}`);
     console.log(id, query);
   };
 
-  return <Table data={data} className={`${query.table}_table`} columns={columns} onRowClick={handleRowClick} />;
+  return (
+    <Table
+      data={data}
+      className={`${query.table}_table`}
+      columns={columns}
+      onRowClick={handleRowClick}
+    />
+  );
 };
 
 List.getInitialProps = async ({ req, query }): Promise<Props> => {
@@ -34,7 +41,7 @@ List.getInitialProps = async ({ req, query }): Promise<Props> => {
   return {
     query,
     data,
-    columns: Object.keys(data[0]).map((key) => ({ accessor: key, Header: key })),
+    columns: Object.keys(data[0]).map(key => ({ accessor: key, Header: key })),
   };
 };
 

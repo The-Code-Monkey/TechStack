@@ -1,34 +1,30 @@
 {
+  "extends": "../../tsconfig.esm.base.json",
+  "include": [
+    "src",
+    "types"
+  ],
+  "exclude": [
+    "src/**/*.spec.tsx",
+    "src/**/*.test.tsx",
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts"
+  ],
   "compilerOptions": {
-    "typeRoots": [
-      "./node_modules/@types",
-      "./types"
-    ],
-    "target": "ES2021",
+    "rootDir": "src",
+    "outDir": "./dist/esm",
+    "declarationDir": "dist/types",
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
-    "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve"
-  },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  }
 }

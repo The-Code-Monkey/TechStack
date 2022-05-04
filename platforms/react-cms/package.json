@@ -8,7 +8,7 @@
     "build": "yarn build:tokens && next build",
     "build:tokens": "orchard generate",
     "start": "yarn build:tokens && next start",
-    "lint": "next lint",
+    "lint": "tcm lint components pages db styles types",
     "prettier": "prettier --write **/*.{ts,tsx}"
   },
   "dependencies": {

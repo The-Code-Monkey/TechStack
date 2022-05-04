@@ -1,13 +1,17 @@
-import { useEffect, useState } from 'react';
-import { AppProps } from 'next/app';
+import {
+  ConfigContext,
+  ThemeModeEnum,
+  ThemeProvider,
+} from '@aw-web-design/components';
 import { Session } from 'next-auth';
 import { getSession, SessionProvider, signIn } from 'next-auth/react';
-import { ConfigContext, ThemeModeEnum, ThemeProvider } from '@aw-web-design/components';
+import { AppProps } from 'next/app';
+import { useEffect, useState } from 'react';
 
 import Nav from '../components/Nav';
+import config from '../orchard.theme.config.json';
 import Theme from '../styles/theme';
 import '../styles/globals.scss';
-import config from '../orchard.theme.config.json';
 
 interface Props extends AppProps {
   session: Session;
@@ -28,7 +32,7 @@ const App = ({ Component, pageProps, session }: Props) => {
 
   return (
     <ConfigContext.Provider value={config}>
-      <ThemeProvider theme={Theme} mode={ThemeModeEnum.DARK} direction="row">
+      <ThemeProvider theme={Theme} mode={ThemeModeEnum.DARK} direction='row'>
         <SessionProvider session={session}>
           <Nav />
           {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}

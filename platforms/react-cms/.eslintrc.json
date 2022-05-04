@@ -6,33 +6,9 @@
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
-    "plugin:prettier/recommended",
     "prettier"
   ],
   "rules": {
-    "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/no-explicit-any": "error",
-    "prettier/prettier": ["error", {
-      "printWidth": 120,
-      "semi": true,
-      "trailingComma": "es5",
-      "endOfLine": "auto"
-    }],
-    "react/react-in-jsx-scope": "off",
-    "import/order": [
-      "error",
-      {
-        "groups": [
-          "builtin",
-          "external",
-          "internal",
-          "parent",
-          "sibling",
-          "index",
-          "object"
-        ],
-        "newlines-between": "always"
-      }
-    ]
+    "react/react-in-jsx-scope": ["off"]
   }
 }
