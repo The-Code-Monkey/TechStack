@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.7 (2022-05-04)
+
+
+### Bug Fixes
+
+* create memoize ([d6a6911](https://github.com/grgur/react-lazy-named/commit/d6a6911a7ee5cc8e5ba80201d52af0bfd330b465))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#321](https://github.com/grgur/react-lazy-named/issues/321)) ([db10faa](https://github.com/grgur/react-lazy-named/commit/db10faae96723db157adefc7a32e1a43f8dd3a21))
+* issues with imports not working fixed ([490bcef](https://github.com/grgur/react-lazy-named/commit/490bceffa2dc7ce7d16a9e5fb61a4c02c893a59a))
+* some issues with esm ([5c343ea](https://github.com/grgur/react-lazy-named/commit/5c343eadda936439148331fd5196e230b3b5e381))
+* update tcm ([9c00675](https://github.com/grgur/react-lazy-named/commit/9c006752cfaf8882ad8524ff76f75132afc5ec99))
+* update tcm cli ([3eb7450](https://github.com/grgur/react-lazy-named/commit/3eb7450a1cfc11b52de3a60b244ab13c87e0dcfe))
+* update tcm cli to fix stuff ([0d9f1e1](https://github.com/grgur/react-lazy-named/commit/0d9f1e1cb556d4c18cde17579fdd5902b2334d9e))
+
+
+
+
+
 ## 1.0.2 (2022-04-29)
 
 

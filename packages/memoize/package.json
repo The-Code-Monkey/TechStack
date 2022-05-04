@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/memoize",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
   "exports": {
@@ -32,19 +32,19 @@
     "url": "https://github.com/alexreardon/memoize-one/issues"
   },
   "dependencies": {
-    "@aw-web-design/tcm-cli": "3.2.7"
+    "@aw-web-design/tcm-cli": "3.2.8"
   },
   "devDependencies": {
-    "lodash": "4.17.21",
-    "expect-type": "0.13.0",
     "benchmark": "2.1.4",
+    "cross-env": "7.0.3",
+    "expect-type": "0.13.0",
     "fast-memoize": "2.5.2",
-    "mem": "9.0.2",
-    "ora": "6.1.0",
-    "moize": "6.1.1",
-    "memoizee": "0.4.15",
-    "nanocolors": "0.2.13",
+    "lodash": "4.17.21",
     "markdown-table": "3.0.2",
-    "cross-env": "7.0.3"
+    "mem": "9.0.2",
+    "memoizee": "0.4.15",
+    "moize": "6.1.1",
+    "nanocolors": "0.2.13",
+    "ora": "6.1.0"
   }
 }

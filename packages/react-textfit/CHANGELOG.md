@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.45](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-textfit@3.1.43...@aw-web-design/react-textfit@3.1.45) (2022-05-04)
+
+
+### Bug Fixes
+
+* all packages build again ([fc0259f](https://github.com/The-Code-Monkey/TechStack/commit/fc0259f259edf0a2b672415c85e900b2ecf7dae4))
+* create memoize ([d6a6911](https://github.com/The-Code-Monkey/TechStack/commit/d6a6911a7ee5cc8e5ba80201d52af0bfd330b465))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([3f4e63a](https://github.com/The-Code-Monkey/TechStack/commit/3f4e63ac39940ad04dcc22a9043cb3b292932031))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([e600e01](https://github.com/The-Code-Monkey/TechStack/commit/e600e01bca39b943cd7117d55e4bbaa06491ab6b))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#264](https://github.com/The-Code-Monkey/TechStack/issues/264)) ([a507d5a](https://github.com/The-Code-Monkey/TechStack/commit/a507d5a3e769e53d99409dde475d0b0ae9bbb7b8))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#321](https://github.com/The-Code-Monkey/TechStack/issues/321)) ([db10faa](https://github.com/The-Code-Monkey/TechStack/commit/db10faae96723db157adefc7a32e1a43f8dd3a21))
+* **deps:** update dependency eslint to v8.14.0 ([#286](https://github.com/The-Code-Monkey/TechStack/issues/286)) ([d58742c](https://github.com/The-Code-Monkey/TechStack/commit/d58742c609845bfbda1126749578f0744577d644))
+* issues with imports not working fixed ([490bcef](https://github.com/The-Code-Monkey/TechStack/commit/490bceffa2dc7ce7d16a9e5fb61a4c02c893a59a))
+* some issues with esm ([5c343ea](https://github.com/The-Code-Monkey/TechStack/commit/5c343eadda936439148331fd5196e230b3b5e381))
+* update tcm ([9c00675](https://github.com/The-Code-Monkey/TechStack/commit/9c006752cfaf8882ad8524ff76f75132afc5ec99))
+* update tcm cli ([3eb7450](https://github.com/The-Code-Monkey/TechStack/commit/3eb7450a1cfc11b52de3a60b244ab13c87e0dcfe))
+* update tcm cli to fix stuff ([0d9f1e1](https://github.com/The-Code-Monkey/TechStack/commit/0d9f1e1cb556d4c18cde17579fdd5902b2334d9e))
+
+
+### Reverts
+
+* Revert "chore(deps): update jest monorepo to v28 (major) (#273)" (#297) ([12abb03](https://github.com/The-Code-Monkey/TechStack/commit/12abb038ff46339e82af24a3e811457a3a69ce9d)), closes [#273](https://github.com/The-Code-Monkey/TechStack/issues/273) [#297](https://github.com/The-Code-Monkey/TechStack/issues/297)
+* Revert "chore(deps): update jest monorepo to v28.0.1 (#280)" (#296) ([b23a57d](https://github.com/The-Code-Monkey/TechStack/commit/b23a57d57381e4277c1f13117404843f73ceb106)), closes [#280](https://github.com/The-Code-Monkey/TechStack/issues/280) [#296](https://github.com/The-Code-Monkey/TechStack/issues/296)
+* Revert "chore(deps): update jest monorepo to v28.0.2 (#285)" (#295) ([75fa93b](https://github.com/The-Code-Monkey/TechStack/commit/75fa93b06480830a63f2e5946e2fb5a48eb70096)), closes [#285](https://github.com/The-Code-Monkey/TechStack/issues/285) [#295](https://github.com/The-Code-Monkey/TechStack/issues/295)
+
+
+
+
+
 ## [3.1.43](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-textfit@3.1.42...@aw-web-design/react-textfit@3.1.43) (2022-04-29)
 
 
