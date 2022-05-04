@@ -1,11 +1,13 @@
 {
   "version": "3.2.1",
   "license": "MIT",
-  "typings": "dist/index.d.ts",
   "type": "module",
-  "module": "./dist/components.esm.js",
-  "main": "./dist/components.esm.js",
-  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js",
+    "default": "./dist/esm/index.js"
+  },
+  "typings": "dist/types/index.d.ts",
   "files": [
     "dist",
     "src"
@@ -18,7 +20,7 @@
   },
   "scripts": {
     "start": "tcm watch",
-    "build": "yarn build:tokens && tcm build --format esm",
+    "build": "yarn build:tokens && tcm build ",
     "build:tokens": "orchard generate",
     "test": "yarn build:tokens && cross-env NODE_OPTIONS=--experimental-vm-modules tcm test --no-cache",
     "lint": "yarn build:tokens && tcm lint",
@@ -32,7 +34,11 @@
   "author": "The-Code-Monkey",
   "size-limit": [
     {
-      "path": "dist/components.esm.js",
+      "path": "dist/esm/index.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/cjs/index.js",
       "limit": "10 KB"
     }
   ],
@@ -60,13 +66,13 @@
     "typescript": "4.6.4"
   },
   "dependencies": {
-    "@aw-web-design/react-feather": "3.1.46",
+    "@aw-web-design/react-feather": "3.1.47",
     "@aw-web-design/styled-system": "3.2.2",
-    "@aw-web-design/tcm-cli": "3.2.6",
+    "@aw-web-design/tcm-cli": "3.2.7",
     "@aw-web-design/theme": "3.1.43",
     "classnames": "2.3.1",
     "csstype": "3.0.11",
-    "@aw-web-design/memoize": "1.0.1",
+    "@aw-web-design/memoize": "1.0.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-lazy-named": "1.2.2",

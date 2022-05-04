@@ -1,12 +1,14 @@
 {
   "name": "@aw-web-design/memoize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
   "exports": {
-    "import": "./dist/index.js"
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js",
+    "default": "./dist/esm/index.js"
   },
-  "typings": "dist/index.d.ts",
+  "typings": "dist/types/index.d.ts",
   "scripts": {
     "test": "tcm test",
     "lint": "tcm lint",

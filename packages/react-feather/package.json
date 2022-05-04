@@ -4,10 +4,11 @@
   "description": "React component for Feather icons",
   "type": "module",
   "exports": {
-    "require": "./dist/react-feather.cjs.js",
-    "import": "./dist/react-feather.esm.js"
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js",
+    "default": "./dist/esm/index.js"
   },
-  "typings": "dist/index.d.ts",
+  "typings": "dist/types/index.d.ts",
   "files": [
     "dist",
     "src"
@@ -41,7 +42,7 @@
   "homepage": "https://github.com/The-Code-Monkey/TechStack#readme",
   "devDependencies": {
     "cross-env": "7.0.3",
-    "@aw-web-design/tcm-cli": "3.2.6",
+    "@aw-web-design/tcm-cli": "3.2.7",
     "fs-extra": "10.1.0",
     "typescript": "4.6.4"
   },

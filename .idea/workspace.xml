@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/components/tsconfig.cjs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-feather/tsconfig.cjs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-lazy-named/tsconfig.cjs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-textfit/tsconfig.cjs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/styled-system/tsconfig.cjs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.cjs.base.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.esm.base.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primatives/icon/story.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/memoize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/memoize/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/memoize/tsconfig.cjs.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/memoize/tsconfig.cjs.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/memoize/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/memoize/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-lazy-named/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-lazy-named/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-lazy-named/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-lazy-named/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/theme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/theme/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +82,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.14.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.32" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/tcm-cli/node_modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/theme" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -71,8 +93,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/packages/tcm-cli/node_modules" />
+      <recent name="$PROJECT_DIR$/packages/theme" />
+      <recent name="$PROJECT_DIR$/packages/styled-system" />
       <recent name="$PROJECT_DIR$/packages/react-textfit" />
+      <recent name="$PROJECT_DIR$/packages/react-lazy-named" />
       <recent name="$PROJECT_DIR$/packages/react-feather" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -154,6 +178,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/packages/memoize/src/are-inputs-equal.d.ts" />
+        <option value="$PROJECT_DIR$/packages/memoize/src/index.js" />
+        <option value="$PROJECT_DIR$/packages/memoize/src/types.d.ts" />
+        <option value="$PROJECT_DIR$/packages/memoize/src/types.js" />
+        <option value="$PROJECT_DIR$/packages/memoize/src/are-inputs-equal.js" />
+        <option value="$PROJECT_DIR$/packages/memoize/src/index.d.ts" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from "react";
 
 import Icon from './Icon';
 
@@ -9,7 +9,7 @@ export default {
 
 export const Story = () => (
   <div>
-    <Icon name='GitHub' />
-    <Icon name='GitHub' color='red' />
+    <Icon name='github' />
+    <Icon name='github' color='red' />
   </div>
 );

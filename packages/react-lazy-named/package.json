@@ -7,14 +7,15 @@
   "license": "MIT",
   "type": "module",
   "exports": {
-    "require": "./dist/react-lazy-named.cjs.js",
-    "import": "./dist/react-lazy-named.esm.js"
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js",
+    "default": "./dist/esm/index.js"
   },
-  "typings": "dist/index.d.ts",
+  "typings": "dist/types/index.d.ts",
   "scripts": {
     "lint": "tcm lint",
     "lint:fix": "yarn lint --fix",
-    "build": "tcm build --format esm",
+    "build": "tcm build ",
     "test": "tcm test"
   },
   "publishConfig": {
@@ -40,7 +41,7 @@
     "rerender"
   ],
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.2.6",
+    "@aw-web-design/tcm-cli": "3.2.7",
     "@testing-library/react": "13.2.0"
   },
   "peerDependencies": {

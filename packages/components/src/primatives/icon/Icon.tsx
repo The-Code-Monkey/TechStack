@@ -1,4 +1,4 @@
-import FeatherIcon, { IconTypes } from '@aw-web-design/react-feather';
+import FeatherIcon, { type IconTypes } from '@aw-web-design/react-feather';
 import * as React from 'react';
 const { memo } = React;
 
@@ -13,8 +13,6 @@ export interface Props extends Omit<BoxProps, 'children'> {
 }
 
 const Icon = ({ autoid, name, ...rest }: Props) => {
-  // const config = useContext(ConfigContext);
-
   return (
     <SvgWrapper
       autoid={`${generateAutomationId(autoid ?? name)}_icon`}

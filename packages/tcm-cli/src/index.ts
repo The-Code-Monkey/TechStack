@@ -9,7 +9,7 @@ import { ESLint } from 'eslint';
 import execa from 'execa';
 import figlet from 'figlet';
 import fs from 'fs-extra';
-import * as jest from 'jest';
+import jest from 'jest';
 const { run: jestRun } = jest;
 import { concatAllArray } from 'jpjs';
 import ora from 'ora';
@@ -168,8 +168,6 @@ async function normalizeOpts(
 ): Promise<NormalizedOpts> {
   const inputs = await getInputs(opts.entry, appPackageJson.source);
   const { names, files } = getNamesAndFiles(inputs);
-
-  console.log(inputs);
 
   return {
     ...opts,
@@ -376,7 +374,7 @@ prog
   .example('build --entry src/foo.tsx')
   .option('--target', 'Specify your target environment', 'browser')
   .example('build --target node')
-  .option('--format', 'Specify module format(s)', 'esm')
+  .option('--format', 'Specify module format(s)', 'esm,cjs')
   .example('build --format cjs,esm')
   .option('--noClean', "Don't clean the dist folder")
   .example('build --noClean')
@@ -396,14 +394,14 @@ prog
   .action(async (dirtyOpts: BuildOpts) => {
     const opts = await normalizeOpts(dirtyOpts);
 
-    console.log(opts);
-
     await cleanDistFolder();
     const logger = await createProgressEstimator();
     try {
       const promise = new Promise<void>(resolve => {
         shell.exec(`tsc -p ${paths.tsconfigJson}`);
-        shell.exec(`tsc -p ${paths.tsconfigCjs}`);
+        if (opts.format.includes('cjs')) {
+          shell.exec(`tsc -p ${paths.tsconfigCjs}`);
+        }
         resolve();
       });
       logger(promise, 'Building modules');

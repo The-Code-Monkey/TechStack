@@ -4,10 +4,11 @@
   "description": "React component to fit headlines and paragraphs into any element",
   "main": "dist/index.js",
   "exports": {
-    "require": "./dist/react-textfit.cjs.js",
-    "import": "./dist/react-textfit.esm.js"
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js",
+    "default": "./dist/esm/index.js"
   },
-  "types": "./dist/index.d.ts",
+  "typings": "dist/types/index.d.ts",
   "scripts": {
     "build": "tcm build",
     "lint": "tcm lint"
@@ -32,7 +33,7 @@
   },
   "homepage": "https://github.com/The-Code-Monkey/TechStack",
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.2.6",
+    "@aw-web-design/tcm-cli": "3.2.7",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",
