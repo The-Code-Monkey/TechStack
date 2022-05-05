@@ -44,7 +44,7 @@
     "typescript": "4.6.4"
   },
   "dependencies": {
-    "@aw-web-design/memoize": "1.0.3",
+    "@aw-web-design/memoize": "1.0.4",
     "@aw-web-design/tcm-cli": "3.2.8",
     "@emotion/is-prop-valid": "1.1.2",
     "csstype": "3.0.11"

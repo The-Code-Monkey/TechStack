@@ -12,8 +12,8 @@
     "prettier": "prettier --write **/*.{ts,tsx}"
   },
   "dependencies": {
-    "@aw-web-design/components": "3.4.0",
-    "@aw-web-design/styled-system": "3.3.0",
+    "@aw-web-design/components": "3.5.0",
+    "@aw-web-design/styled-system": "3.3.1",
     "@aw-web-design/theme": "3.2.1",
     "deepmerge": "4.2.2",
     "fs-extra": "10.1.0",
