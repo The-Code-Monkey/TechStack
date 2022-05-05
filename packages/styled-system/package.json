@@ -46,6 +46,7 @@
     }
   ],
   "devDependencies": {
+    "@aw-web-design/tcm-cli": "3.2.8",
     "@size-limit/file": "7.0.8",
     "size-limit": "7.0.8",
     "tslib": "2.4.0",
@@ -53,7 +54,6 @@
   },
   "dependencies": {
     "@aw-web-design/memoize": "4.1.0",
-    "@aw-web-design/tcm-cli": "3.2.8",
     "@emotion/is-prop-valid": "1.1.2",
     "csstype": "3.0.11"
   },
