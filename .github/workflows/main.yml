@@ -30,7 +30,7 @@ jobs:
 
       - name: Install deps
         uses: bahmutov/npm-install@v1
-        
+
       - name: Build
         run: yarn build
 
@@ -50,7 +50,3 @@ jobs:
 
       - name: Changed
         run: yarn lerna:changed
-
-      - name: Version
-        if: github.ref == 'ref/head/dev'
-        run: yarn lerna:version
