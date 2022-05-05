@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lerna.json" beforeDir="false" afterPath="$PROJECT_DIR$/lerna.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/components/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/components/Nav/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/[table]/[entry].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/[table]/[entry].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/[table]/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/[table]/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/react-cms/pages/api/auth/[...nextauth].ts" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/react-cms/pages/api/auth/[...nextauth].ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +38,6 @@
     <dismissed value="$PROJECT_DIR$/packages/styled-system/package.json" />
     <dismissed value="$PROJECT_DIR$/packages/tcm-cli/package.json" />
     <dismissed value="$PROJECT_DIR$/packages/theme/package.json" />
-    <dismissed value="$PROJECT_DIR$/platforms/react-cms/package.json" />
   </component>
   <component name="ProjectId" id="27NNrCIoxtRye0KzmXav9PSXzAE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -156,6 +146,7 @@
       <workItem from="1651253531049" duration="1225000" />
       <workItem from="1651303793218" duration="5290000" />
       <workItem from="1651583818096" duration="9586000" />
+      <workItem from="1651748809083" duration="2085000" />
     </task>
     <servers />
   </component>

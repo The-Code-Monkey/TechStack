@@ -26,12 +26,13 @@
     "cache",
     "performance"
   ],
+  "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/memoize/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexreardon/memoize-one.git"
+    "url": "https://github.com/The-Code-Monkey/TechStack.git"
   },
   "bugs": {
-    "url": "https://github.com/alexreardon/memoize-one/issues"
+    "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
   "dependencies": {
     "@aw-web-design/tcm-cli": "3.2.8"

@@ -34,6 +34,14 @@
   },
   "name": "@aw-web-design/components",
   "author": "The-Code-Monkey",
+  "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/components/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Code-Monkey/TechStack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/The-Code-Monkey/TechStack/issues"
+  },
   "size-limit": [
     {
       "path": "dist/esm/index.js",

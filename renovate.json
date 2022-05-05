@@ -9,7 +9,7 @@
     "group:recommended",
     "workarounds:all"
   ],
-  "automergeStrategy": "squash",
+  "bumpVersion": "patch",
   "rangeStrategy": "pin",
   "labels": ["dependencies"],
   "automerge": true,
@@ -20,16 +20,11 @@
   "vulnerabilityAlerts": {
     "labels": ["security"]
   },
-  "updateInternalDeps": true,
   "packageRules": [
     {
-      "matchPackagePatterns": ["@aw-web-design/*"],
-      "groupName": "@aw-web-design mono repo"
-    },
-    {
-      "matchPackagePatterns": ["node"],
-      "enabled": false
+      "matchPackageNames": ["node"],
+      "allowedVersions": "< 17.0.0"
     }
   ],
-  "ignoreDeps": ["execa", "ora"]
+  "updateInternalDeps": true
 }

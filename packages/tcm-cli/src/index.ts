@@ -6,7 +6,7 @@ import chalk from 'chalk';
 import enquirer from 'enquirer';
 const { Input, Select } = enquirer;
 import { ESLint } from 'eslint';
-import execa from 'execa';
+import * as execa from 'execa';
 import figlet from 'figlet';
 import fs from 'fs-extra';
 import jest from 'jest';
@@ -357,7 +357,7 @@ prog
     ).start();
     try {
       const cmd = await getInstallCmd();
-      await execa(cmd, getInstallArgs(cmd, dependencies));
+      await execa.execa(cmd, getInstallArgs(cmd, dependencies));
       installSpinner.succeed('Installed dependencies');
       console.log(await Messages.start(pkg));
     } catch (error) {
