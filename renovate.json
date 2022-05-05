@@ -9,6 +9,7 @@
     "group:recommended",
     "workarounds:all"
   ],
+  "ignoreUnstable": false,
   "automergeStrategy": "squash",
   "rangeStrategy": "pin",
   "labels": ["dependencies"],
