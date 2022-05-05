@@ -21,16 +21,5 @@
   "vulnerabilityAlerts": {
     "labels": ["security"]
   },
-  "updateInternalDeps": true,
-  "packageRules": [
-    {
-      "matchPackagePatterns": ["@aw-web-design/*"],
-      "groupName": "@aw-web-design mono repo"
-    },
-    {
-      "matchPackagePatterns": ["node"],
-      "enabled": false
-    }
-  ],
-  "ignoreDeps": ["execa", "ora"]
+  "updateInternalDeps": true
 }
