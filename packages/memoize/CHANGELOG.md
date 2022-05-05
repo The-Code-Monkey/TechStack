@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/alexreardon/memoize-one/compare/@aw-web-design/memoize@1.0.3...@aw-web-design/memoize@1.0.4) (2022-05-04)
+
+
+### Bug Fixes
+
+* make storybook work ([155a7ee](https://github.com/alexreardon/memoize-one/commit/155a7ee5c2630f68e4a9b0455a2640e5b4c89796))
+
+
+
+
+
 ## 1.0.3 (2022-05-04)
 
 

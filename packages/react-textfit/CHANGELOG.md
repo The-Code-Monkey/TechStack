@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.46](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-textfit@3.1.45...@aw-web-design/react-textfit@3.1.46) (2022-05-04)
+
+
+### Bug Fixes
+
+* make storybook work ([155a7ee](https://github.com/The-Code-Monkey/TechStack/commit/155a7ee5c2630f68e4a9b0455a2640e5b4c89796))
+
+
+
+
+
 ## [3.1.45](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-textfit@3.1.43...@aw-web-design/react-textfit@3.1.45) (2022-05-04)
 
 
