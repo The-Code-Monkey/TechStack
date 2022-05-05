@@ -1,5 +1,5 @@
 {
-  "version": "3.3.1",
+  "version": "3.3.2",
   "license": "MIT",
   "name": "@aw-web-design/styled-system",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/styled-system/README.md",
@@ -24,7 +24,7 @@
     "src"
   ],
   "engines": {
-    "node": ">=12"
+    "node": "18.1.0"
   },
   "scripts": {
     "start": "tcm watch",
