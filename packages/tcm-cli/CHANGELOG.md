@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.1.0 (2022-05-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v6 ([ee6eb0d](https://github.com/The-Code-Monkey/TechStack/commit/ee6eb0d812db21f318d3c71f0c07875c12d50919))
+* **deps:** update dependency ora to v6 ([2cc2b87](https://github.com/The-Code-Monkey/TechStack/commit/2cc2b879817c1a35d507b5087c5c873cbe8b0ca7))
+* update engines ([7e84677](https://github.com/The-Code-Monkey/TechStack/commit/7e84677e288ec5b59c27d17e7c89d687cbaabc50))
+
+
+
+
+
 ## [3.2.8](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@3.1.41...@aw-web-design/tcm-cli@3.2.8) (2022-05-04)
 
 

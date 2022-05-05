@@ -1,5 +1,5 @@
 {
-  "version": "3.3.1",
+  "version": "4.1.0",
   "license": "MIT",
   "name": "@aw-web-design/styled-system",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/styled-system/README.md",
@@ -52,7 +52,7 @@
     "typescript": "4.6.4"
   },
   "dependencies": {
-    "@aw-web-design/memoize": "1.0.4",
+    "@aw-web-design/memoize": "4.1.0",
     "@aw-web-design/tcm-cli": "3.2.8",
     "@emotion/is-prop-valid": "1.1.2",
     "csstype": "3.0.11"

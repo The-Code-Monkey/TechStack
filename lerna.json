@@ -7,7 +7,11 @@
     },
     "version": {
       "message": "chore(release): version",
-      "allowBranch": ["master", "dev", "feature/*"],
+      "allowBranch": [
+        "master",
+        "dev",
+        "feature/*"
+      ],
       "conventionalCommits": true
     },
     "bootstrap": {
@@ -20,5 +24,5 @@
   "packages": [
     "packages/*"
   ],
-  "version": "4.0.0"
+  "version": "4.1.0"
 }
