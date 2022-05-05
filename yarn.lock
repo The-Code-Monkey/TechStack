@@ -10,6 +10,21 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@aw-web-design/react-feather@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@aw-web-design/react-feather/-/react-feather-3.2.2.tgz#f686ecdb61bb0f111beb4c769203b74466e0bafe"
+  integrity sha512-odVyc0yiLqQYPulmy8M3773lDokJ0LkaFmbGiSg3Ix2gb9YjAZHnqtPYGzY/4yr60fboF4t2EvsVcKfNS0QVfA==
+  dependencies:
+    "@aw-web-design/react-lazy-named" "1.0.8"
+
+"@aw-web-design/react-lazy-named@1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@aw-web-design/react-lazy-named/-/react-lazy-named-1.0.8.tgz#d967a3632fb5360f28e633b37ed61eaae60c3510"
+  integrity sha512-Npc099CWLoelyEYXT5G0fpg17LxI30IKIbKmPY+WQ6zS+3+Rv1ERVEyPQPAk4Xya/Tu2W3+WKe6Y0iSgn9h08w==
+  dependencies:
+    lodash "4.17.21"
+    lodash-es "4.17.21"
+
 "@babel/cli@^7.15.7":
   version "7.17.10"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.17.10.tgz#5ea0bf6298bb78f3b59c7c06954f9bd1c79d5943"
