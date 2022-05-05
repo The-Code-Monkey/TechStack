@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/tcm-cli",
-  "version": "3.2.8",
+  "version": "3.2.9",
   "description": "Zero-config TypeScript package development",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/tcm-cli/README.md",
   "repository": {
@@ -60,7 +60,7 @@
     "eslint-plugin-react": "7.29.4",
     "eslint-plugin-react-hooks": "4.5.0",
     "eslint-plugin-testing-library": "5.3.1",
-    "execa": "4.1.0",
+    "execa": "6.1.0",
     "figlet": "1.5.2",
     "fs-extra": "10.1.0",
     "jest": "28.0.3",
