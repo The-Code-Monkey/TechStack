@@ -52,4 +52,5 @@ jobs:
         run: yarn lerna:changed
 
       - name: Version
+        if: github.ref == 'ref/head/dev'
         run: yarn lerna:version
