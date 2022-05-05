@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.8](https://github.com/grgur/react-lazy-named/compare/@aw-web-design/react-lazy-named@1.0.7...@aw-web-design/react-lazy-named@1.0.8) (2022-05-04)
+
+
+### Bug Fixes
+
+* make storybook work ([155a7ee](https://github.com/grgur/react-lazy-named/commit/155a7ee5c2630f68e4a9b0455a2640e5b4c89796))
+
+
+
+
+
 ## 1.0.7 (2022-05-04)
 
 
