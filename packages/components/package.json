@@ -1,5 +1,5 @@
 {
-  "version": "3.4.1",
+  "version": "3.4.2",
   "license": "MIT",
   "type": "module",
   "main": "./dist/cjs/index.js",
@@ -71,7 +71,7 @@
     "esm": "3.2.25"
   },
   "dependencies": {
-    "@aw-web-design/memoize": "1.0.3",
+    "@aw-web-design/memoize": "1.0.4",
     "@aw-web-design/react-feather": "3.2.2",
     "@aw-web-design/styled-system": "3.3.1",
     "@aw-web-design/tcm-cli": "3.2.8",

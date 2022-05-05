@@ -10,6 +10,13 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@aw-web-design/memoize@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@aw-web-design/memoize/-/memoize-1.0.4.tgz#3a624f98ccf182717c66b325a17832f8ff21033a"
+  integrity sha512-6ZlfWwd13GfgIOWl0i5Uta4D2XB/TnX4oiYeeSFcvMVs3dgjJzkQqtIdASK5ts0WV8bsvVNPl9t9W+WXItvzfA==
+  dependencies:
+    "@aw-web-design/tcm-cli" "3.2.8"
+
 "@aw-web-design/react-feather@3.2.2":
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/@aw-web-design/react-feather/-/react-feather-3.2.2.tgz#f686ecdb61bb0f111beb4c769203b74466e0bafe"
@@ -24,6 +31,16 @@
   dependencies:
     lodash "4.17.21"
     lodash-es "4.17.21"
+
+"@aw-web-design/styled-system@3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@aw-web-design/styled-system/-/styled-system-3.3.1.tgz#f0dac5ad4420d7b3633d23526750eacd620cf59f"
+  integrity sha512-UVs4sl7rNgFiyIuhMVer5g7tWfF737WSDKEShJYYAEaYvtA4s8K0R2KA9Zw4KilNxU54mtJ3PnWv/1yO69dvgg==
+  dependencies:
+    "@aw-web-design/memoize" "1.0.4"
+    "@aw-web-design/tcm-cli" "3.2.8"
+    "@emotion/is-prop-valid" "1.1.2"
+    csstype "3.0.11"
 
 "@babel/cli@^7.15.7":
   version "7.17.10"
