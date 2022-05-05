@@ -20,5 +20,10 @@
   "vulnerabilityAlerts": {
     "labels": ["security"]
   },
+  "force": {
+    "constraints": {
+      "node": "< 17.0.0"
+    }
+  },
   "updateInternalDeps": true
 }
