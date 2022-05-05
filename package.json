@@ -10,8 +10,7 @@
     "packages/*"
   ],
   "scripts": {
-    "clean": "git clean -xdf && rm -rf yarn.lock && yarn",
-    "postinstall": "yarn build",
+    "clean": "git clean -xdf",
     "test": "lerna run test --stream",
     "test:fix": "lerna run test --stream -- -u",
     "lint": "lerna run lint --stream",
@@ -26,7 +25,7 @@
     "lerna:changed": "lerna changed",
     "lerna:version": "lerna version --conventional-commits --exact --yes",
     "lerna:publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --no-verify-access --yes",
-    "lerna:storybook": "lerna run build-storybook -- -o build",
+    "lerna:storybook": "lerna run build-storybook --stream -- -o build",
     "prepare": "husky install"
   },
   "devDependencies": {
