@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/x-default-browser/tsconfig.cjs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/x-default-browser/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/memoize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/memoize/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-feather/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-lazy-named/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-lazy-named/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-textfit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/styled-system/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/tcm-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tcm-cli/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/theme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renovate.json" beforeDir="false" afterPath="$PROJECT_DIR$/renovate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +58,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.14.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.32" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/theme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/x-default-browser" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -75,13 +69,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/x-default-browser" />
       <recent name="$PROJECT_DIR$/packages/theme" />
       <recent name="$PROJECT_DIR$/packages/styled-system" />
       <recent name="$PROJECT_DIR$/packages/react-textfit" />
       <recent name="$PROJECT_DIR$/packages/react-lazy-named" />
-      <recent name="$PROJECT_DIR$/packages/react-feather" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/x-default-browser/src" />
       <recent name="$PROJECT_DIR$/packages/tcm-cli/src" />
       <recent name="$PROJECT_DIR$/packages/components/src" />
       <recent name="$PROJECT_DIR$" />
@@ -155,7 +150,8 @@
       <workItem from="1651253531049" duration="1225000" />
       <workItem from="1651303793218" duration="5290000" />
       <workItem from="1651583818096" duration="9586000" />
-      <workItem from="1651748809083" duration="2731000" />
+      <workItem from="1651748809083" duration="2760000" />
+      <workItem from="1651769630026" duration="1358000" />
     </task>
     <servers />
   </component>

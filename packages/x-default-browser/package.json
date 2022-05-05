@@ -1,0 +1,48 @@
+{
+  "name": "@aw-web-design/x-default-browser",
+  "version": "1.0.0",
+  "description": "Detect default web browser of the current user, cross-platform (Win/Lin/Mac)",
+  "license": "MIT",
+  "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/x-default-browser/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Code-Monkey/TechStack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/The-Code-Monkey/TechStack/issues"
+  },
+  "type": "module",
+  "bin": "./dist/esm/bin/x-default-browser.js",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js",
+    "default": "./dist/esm/index.js"
+  },
+  "typings": "dist/types/index.d.ts",
+  "scripts": {
+    "mocha": "mocha",
+    "test": "npm run lint && npm run mocha",
+    "lint": "tcm lint src src/bin",
+    "build": "tcm build "
+  },
+  "engines": {
+    "node": ">=14.0.0 <17.0.0"
+  },
+  "keywords": [
+    "windows",
+    "ubuntu",
+    "linux",
+    "default",
+    "browser"
+  ],
+  "optionalDependencies": {
+    "default-browser-id": "3.0.0"
+  },
+  "devDependencies": {
+    "@aw-web-design/tcm-cli": "4.1.0",
+    "mocha": "10.0.0",
+    "rewire": "6.0.0"
+  }
+}
