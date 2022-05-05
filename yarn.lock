@@ -10,6 +10,21 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@aw-web-design/react-feather@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@aw-web-design/react-feather/-/react-feather-3.2.2.tgz#f686ecdb61bb0f111beb4c769203b74466e0bafe"
+  integrity sha512-odVyc0yiLqQYPulmy8M3773lDokJ0LkaFmbGiSg3Ix2gb9YjAZHnqtPYGzY/4yr60fboF4t2EvsVcKfNS0QVfA==
+  dependencies:
+    "@aw-web-design/react-lazy-named" "1.0.8"
+
+"@aw-web-design/react-lazy-named@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@aw-web-design/react-lazy-named/-/react-lazy-named-4.1.0.tgz#9f6029ba7d405a5d8985549b972da2d4e6b1dfc7"
+  integrity sha512-BoJgXNW1h+i8cwW/dspCffksNNtNHjmpKJwHe4+F7IJBXQZSUX9kuwlCa+Qc9psGDIIxYkk23nSSbcQxKwvDiQ==
+  dependencies:
+    lodash "4.17.21"
+    lodash-es "4.17.21"
+
 "@aw-web-design/tcm-cli@3.2.8":
   version "3.2.8"
   resolved "https://registry.yarnpkg.com/@aw-web-design/tcm-cli/-/tcm-cli-3.2.8.tgz#ddfc460311f130ce725a6a28cf2143236ac21c8f"
