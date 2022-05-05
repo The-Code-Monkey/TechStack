@@ -1,5 +1,14 @@
 name: CI
-on: [push]
+on:
+  push:
+    branches:
+      - dev
+      - feature/*
+  pull_request:
+    branches:
+      - dev
+      - feature/*
+
 jobs:
   build:
     name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
@@ -27,14 +36,17 @@ jobs:
 
       - name: Test
         run: yarn test
-        
+
       - name: Size
         run: yarn size
-        
+
       - name: git config
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-        
+
       - name: Changed
         run: yarn lerna:changed
+
+      - name: Version
+        run: yarn lerna:version
