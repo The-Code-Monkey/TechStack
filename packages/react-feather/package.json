@@ -24,10 +24,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/The-Code-Monkey/TechStack.git"
-  },
   "keywords": [
     "react",
     "icons",
@@ -37,10 +33,14 @@
     "design"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/react-feather/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Code-Monkey/TechStack.git"
+  },
   "bugs": {
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
-  "homepage": "https://github.com/The-Code-Monkey/TechStack#readme",
   "devDependencies": {
     "@aw-web-design/tcm-cli": "3.2.8",
     "cross-env": "7.0.3",

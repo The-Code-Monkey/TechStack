@@ -21,7 +21,16 @@
     "release": "yarn build && release-it --ci --npm.access=public"
   },
   "name": "@aw-web-design/theme",
+  "description": "A practical theme generator built from the ground up",
   "author": "The-Code-Monkey",
+  "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/theme/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Code-Monkey/TechStack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/The-Code-Monkey/TechStack/issues"
+  },
   "publishConfig": {
     "access": "public"
   },

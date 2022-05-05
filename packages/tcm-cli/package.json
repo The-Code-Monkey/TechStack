@@ -2,10 +2,15 @@
   "name": "@aw-web-design/tcm-cli",
   "version": "3.2.8",
   "description": "Zero-config TypeScript package development",
-  "license": "MIT",
+  "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/tcm-cli/README.md",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/The-Code-Monkey/TechStack.git"
   },
+  "bugs": {
+    "url": "https://github.com/The-Code-Monkey/TechStack/issues"
+  },
+  "license": "MIT",
   "keywords": [
     "react",
     "typescript",

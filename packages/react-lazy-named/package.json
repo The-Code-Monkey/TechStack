@@ -2,8 +2,14 @@
   "name": "@aw-web-design/react-lazy-named",
   "version": "1.0.7",
   "description": "React lazy() with named imports - exports support",
-  "author": "Grgur Grisogono <grgur@grgur.com>",
-  "user": "grgur",
+  "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/react-lazy-named/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Code-Monkey/TechStack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/The-Code-Monkey/TechStack/issues"
+  },
   "license": "MIT",
   "type": "module",
   "main": "./dist/cjs/index.js",
@@ -26,13 +32,6 @@
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/grgur/react-lazy-named.git"
-  },
-  "bugs": {
-    "url": "https://github.com/grgur/react-lazy-named/issues"
-  },
   "keywords": [
     "react-lazy-named",
     "react",

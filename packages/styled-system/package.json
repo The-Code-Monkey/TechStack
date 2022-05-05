@@ -2,6 +2,14 @@
   "version": "3.3.1",
   "license": "MIT",
   "name": "@aw-web-design/styled-system",
+  "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/styled-system/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Code-Monkey/TechStack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/The-Code-Monkey/TechStack/issues"
+  },
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "exports": {
