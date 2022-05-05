@@ -20,10 +20,11 @@
   "vulnerabilityAlerts": {
     "labels": ["security"]
   },
-  "force": {
-    "constraints": {
-      "node": "< 17.0.0"
+  "packageRules": [
+    {
+      "matchPackageNames": ["node"],
+      "allowedVersions": "< 17.0.0"
     }
-  },
+  ],
   "updateInternalDeps": true
 }
