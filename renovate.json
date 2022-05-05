@@ -10,7 +10,6 @@
     "workarounds:all"
   ],
   "bumpVersion": "patch",
-  "automergeStrategy": "squash",
   "rangeStrategy": "pin",
   "labels": ["dependencies"],
   "automerge": true,
