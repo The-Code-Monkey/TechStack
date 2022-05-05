@@ -9,6 +9,7 @@
     "group:recommended",
     "workarounds:all"
   ],
+  "bumpVersion": "patch",
   "automergeStrategy": "squash",
   "rangeStrategy": "pin",
   "labels": ["dependencies"],
