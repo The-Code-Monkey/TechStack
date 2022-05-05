@@ -32,10 +32,6 @@
     "husky": "7.0.4",
     "lerna": "4.0.0"
   },
-  "resolutions": {
-    "trim": "1.0.1",
-    "braces": "3.0.2"
-  },
   "prettier": {
     "printWidth": 80,
     "semi": true,
