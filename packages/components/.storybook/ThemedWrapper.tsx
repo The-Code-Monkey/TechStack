@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import addons from "@storybook/addons";
 import { ThemeProvider } from "styled-components";
 
