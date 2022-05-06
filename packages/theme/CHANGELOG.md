@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.2](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.2.1...@aw-web-design/theme@4.1.2) (2022-05-06)
+
+
+### Bug Fixes
+
+* update tcm cli ([185888c](https://github.com/The-Code-Monkey/TechStack/commit/185888cc6c05592e5949362d58a63565c8772a11))
+
+
+
+
+
 ## [4.1.1](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/theme@3.2.1...@aw-web-design/theme@4.1.1) (2022-05-05)
 
 
