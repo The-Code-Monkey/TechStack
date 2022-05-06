@@ -38,7 +38,7 @@
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.2.8",
+    "@aw-web-design/tcm-cli": "4.1.0",
     "benchmark": "2.1.4",
     "cross-env": "7.0.3",
     "expect-type": "0.13.0",

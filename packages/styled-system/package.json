@@ -46,7 +46,7 @@
     }
   ],
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.2.8",
+    "@aw-web-design/tcm-cli": "4.1.0",
     "@size-limit/file": "7.0.8",
     "size-limit": "7.0.8",
     "tslib": "2.4.0",
