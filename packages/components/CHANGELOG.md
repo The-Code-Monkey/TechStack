@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.2](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.5.0...@aw-web-design/components@4.1.2) (2022-05-06)
+
+
+### Bug Fixes
+
+* add publish config ([30b2a8f](https://github.com/The-Code-Monkey/TechStack/commit/30b2a8fcc02b5298f92024478c3652f02e6e15d2))
+
+
+
+# 4.1.0 (2022-05-05)
+
+
+
+
+
 ## [4.1.1](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@3.5.0...@aw-web-design/components@4.1.1) (2022-05-05)
 
 
