@@ -3,12 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/bin/x-default-browser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/bin/x-default-browser.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/common-name.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/common-name.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/tsconfig.cjs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/bin/x-default-browser.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/common-name.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-linux.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-mac.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-stub.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows10.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/test/ubuntu1404.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/test/win10.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/test/win7.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/test/winxp.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +71,7 @@
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.14.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="16.11.32" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.33" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/x-default-browser" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -156,7 +167,8 @@
       <workItem from="1651748809083" duration="2760000" />
       <workItem from="1651769630026" duration="6060000" />
       <workItem from="1651829813509" duration="372000" />
-      <workItem from="1651840044544" duration="1123000" />
+      <workItem from="1651840044544" duration="2094000" />
+      <workItem from="1651842989793" duration="1389000" />
     </task>
     <servers />
   </component>
@@ -174,6 +186,10 @@
         <option value="$PROJECT_DIR$/packages/x-default-browser/test/win10.js" />
         <option value="$PROJECT_DIR$/packages/x-default-browser/test/winxp.js" />
         <option value="$PROJECT_DIR$/packages/x-default-browser/src/bin/x-default-browser.js" />
+        <option value="$PROJECT_DIR$/packages/x-default-browser/test/winxp.d.ts" />
+        <option value="$PROJECT_DIR$/packages/x-default-browser/test/win10.js" />
+        <option value="$PROJECT_DIR$/packages/x-default-browser/test/win10.d.ts" />
+        <option value="$PROJECT_DIR$/packages/x-default-browser/test/winxp.js" />
       </list>
     </option>
   </component>
