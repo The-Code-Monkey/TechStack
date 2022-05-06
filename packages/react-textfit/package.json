@@ -37,7 +37,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "3.2.8",
+    "@aw-web-design/tcm-cli": "4.1.0",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",

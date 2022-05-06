@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/bin/x-default-browser.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/common-name.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-linux.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-mac.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-stub.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows10.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/test/ubuntu1404.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/test/win10.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/test/win7.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/test/winxp.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,8 +22,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/packages/components/package.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/packages/components/package.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
