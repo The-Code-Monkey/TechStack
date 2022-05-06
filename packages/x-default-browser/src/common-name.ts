@@ -1,4 +1,4 @@
-const getCommonName = out =>
+const getCommonName = (out: { isIE: boolean; isSafari: boolean; isFirefox: boolean; isChrome: boolean; isChromium: boolean; isOpera: boolean; identity?: string; isBlink?: boolean; isWebkit?: boolean; commonName?: string; isEdge?: boolean; }) =>
   out.isEdge
     ? 'edge'
     : out.isIE

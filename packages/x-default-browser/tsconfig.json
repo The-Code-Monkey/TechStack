@@ -1,15 +1,47 @@
 {
-  "extends": "../../tsconfig.esm.base.json",
-  "include": ["src", "types"],
-  "exclude": [
-    "src/**/*.spec.tsx",
-    "src/**/*.test.tsx",
-    "src/**/*.spec.ts",
-    "src/**/*.test.ts"
-  ],
+  "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "./dist/esm",
-    "declarationDir": "dist/types"
+    "outDir": "./dist",
+    "declarationDir": "./dist/types",
+    "baseUrl": ".",
+    "incremental": false,
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "module": "CommonJS",
+    "skipLibCheck": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "target": "ES2015",
+    "types": [
+      "jest"
+    ],
+    "lib": [
+      "es2019",
+      "dom",
+      "ESNext"
+    ]
+  },
+  "exclude": [
+    "**/dist",
+    "node_modules",
+    "**/node_modules",
+    "**/*.spec.ts",
+    "**/__tests__",
+    "**/*.test.ts",
+    "**/FlowType*",
+    "**/setup-jest.ts"
+  ],
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "compilerOptions": {
+      "types": [
+        "node"
+      ]
+    }
   }
 }

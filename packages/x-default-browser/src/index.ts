@@ -1,23 +1,23 @@
 import os from 'os';
 
-const detectOs = async () => {
+const detectOs = () => {
   let detect;
 
   if (os.platform() == 'win32') {
     if (os.release().indexOf('10.') === 0) {
-      detect = import('./detect-windows10');
+      detect = require('./detect-windows10');
     } else {
-      detect = import('./detect-windows');
+      detect = require('./detect-windows');
     }
   } else if (os.platform() == 'darwin') {
-    detect = import('./detect-mac');
+    detect = require('./detect-mac');
   } else if (os.platform() == 'linux' || os.platform() == 'freebsd') {
-    detect = import('./detect-linux');
+    detect = require('./detect-linux');
   } else {
-    detect = import('./detect-stub');
+    detect = require('./detect-stub');
   }
 
-  return await detect;
+  return detect;
 };
 
 export default detectOs();

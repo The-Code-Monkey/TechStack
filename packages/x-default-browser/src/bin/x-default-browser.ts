@@ -1,6 +1,6 @@
 import detect from '../index';
 
-(await detect)((err, res) => {
+detect((err, res) => {
   if (err) {
     process.stderr.write(err);
     process.exit(1);

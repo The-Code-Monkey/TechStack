@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/bin/x-default-browser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/bin/x-default-browser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/common-name.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/common-name.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/tsconfig.cjs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,12 +154,28 @@
       <workItem from="1651303793218" duration="5290000" />
       <workItem from="1651583818096" duration="9586000" />
       <workItem from="1651748809083" duration="2760000" />
-      <workItem from="1651769630026" duration="5690000" />
+      <workItem from="1651769630026" duration="6060000" />
+      <workItem from="1651829813509" duration="372000" />
+      <workItem from="1651840044544" duration="1123000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows10.js" />
+        <option value="$PROJECT_DIR$/packages/x-default-browser/src/common-name.js" />
+        <option value="$PROJECT_DIR$/packages/x-default-browser/src/detect-mac.js" />
+        <option value="$PROJECT_DIR$/packages/x-default-browser/src/index.js" />
+        <option value="$PROJECT_DIR$/packages/x-default-browser/src/detect-stub.js" />
+        <option value="$PROJECT_DIR$/packages/x-default-browser/src/detect-linux.js" />
+        <option value="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows.js" />
+        <option value="$PROJECT_DIR$/packages/x-default-browser/test/win10.js" />
+        <option value="$PROJECT_DIR$/packages/x-default-browser/test/winxp.js" />
+        <option value="$PROJECT_DIR$/packages/x-default-browser/src/bin/x-default-browser.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
