@@ -1,10 +1,10 @@
-import detect from "../index";
+import detect from '../index';
 
 (await detect)((err, res) => {
-    if (err) {
-        process.stderr.write(err);
-        process.exit(1);
-    }
+  if (err) {
+    process.stderr.write(err);
+    process.exit(1);
+  }
 
-    process.stdout.write(res.commonName + '\r\n');
+  process.stdout.write(res.commonName + '\r\n');
 });

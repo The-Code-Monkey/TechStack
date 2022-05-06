@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/x-default-browser/tsconfig.cjs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/x-default-browser/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/x-default-browser/test/ubuntu1404.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/x-default-browser/test/win10.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/x-default-browser/test/win7.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/x-default-browser/test/winxp.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/bin/x-default-browser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/bin/x-default-browser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/common-name.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/common-name.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-linux.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/detect-linux.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-mac.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/detect-mac.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-stub.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/detect-stub.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows10.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows10.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/test/ubuntu1404.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/test/win10.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/test/win7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/test/winxp.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +170,7 @@
       <workItem from="1651303793218" duration="5290000" />
       <workItem from="1651583818096" duration="9586000" />
       <workItem from="1651748809083" duration="2760000" />
-      <workItem from="1651769630026" duration="1358000" />
+      <workItem from="1651769630026" duration="4799000" />
     </task>
     <servers />
   </component>
