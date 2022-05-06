@@ -61,6 +61,18 @@
     type-fest "2.12.2"
     typescript "4.6.4"
 
+"@aw-web-design/theme@4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@aw-web-design/theme/-/theme-4.1.2.tgz#00e96b146251e9dbfcc2a71835bb3f1f3b7d03df"
+  integrity sha512-2BJi0k4kXfdCx1/ScoGp4+hbhgNyvHV0fg+z7LavmsJbmXD2i7FXFRP/dReJRyGi4hzLpyOQqi81cPV9ZiDYFw==
+  dependencies:
+    fs-extra "10.1.0"
+    lodash "4.17.21"
+    lodash-es "4.17.21"
+    sade "1.8.1"
+    style-dictionary "3.7.0"
+    tinycolor2 "1.4.2"
+
 "@babel/cli@^7.15.7":
   version "7.17.10"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.17.10.tgz#5ea0bf6298bb78f3b59c7c06954f9bd1c79d5943"
