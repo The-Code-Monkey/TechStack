@@ -1,20 +1,20 @@
-import reqwire from "rewire";
+import reqwire from 'rewire';
 
 const detect = reqwire('../src/detect-windows.ts');
 
-var execResponse = {
+const execResponse = {
   code: 0,
   stdout: '',
   stderr: '',
 };
 
-var execStub = function (cmd, cb) {
+const execStub = function (cmd, cb) {
   cb(execResponse.code, execResponse.stdout, execResponse.stderr);
 };
 
-jest.mock("child_process", () => ({
-  exec: execStub
-}))
+jest.mock('child_process', () => ({
+  exec: execStub,
+}));
 
 describe('Windows 7 tests', function () {
   beforeEach(function () {
