@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/.storybook/ThemedWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/.storybook/ThemedWrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,7 @@
       <workItem from="1651303793218" duration="5290000" />
       <workItem from="1651583818096" duration="9586000" />
       <workItem from="1651748809083" duration="2760000" />
-      <workItem from="1651769630026" duration="5427000" />
+      <workItem from="1651769630026" duration="5575000" />
     </task>
     <servers />
   </component>
