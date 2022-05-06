@@ -10,13 +10,6 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@aw-web-design/react-feather@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@aw-web-design/react-feather/-/react-feather-4.1.0.tgz#efa6f38e86d3cbd63ec3090bf879b779a6da59c0"
-  integrity sha512-ZBZqF9ZOfE1nkwA/wzCfL6BoBveNodIS5JwstGVkprFky2zBgkjEeAiHdlqenP3UZud9qjxZgHzoN92RWgeD3w==
-  dependencies:
-    "@aw-web-design/react-lazy-named" "4.1.0"
-
 "@aw-web-design/react-lazy-named@4.1.1":
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/@aw-web-design/react-lazy-named/-/react-lazy-named-4.1.1.tgz#59de60f586cac546730639ef350a68aa8c6a1b95"
