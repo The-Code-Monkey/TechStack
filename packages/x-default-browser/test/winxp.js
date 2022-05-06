@@ -1,4 +1,5 @@
 var assert = require('assert')
+
 var detect = require('rewire')('../lib/detect-windows');
 
 var execResponse = {
