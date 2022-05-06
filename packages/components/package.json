@@ -1,5 +1,5 @@
 {
-  "version": "4.1.5",
+  "version": "4.1.6",
   "license": "MIT",
   "type": "module",
   "main": "./dist/cjs/index.js",
@@ -67,7 +67,7 @@
     "@testing-library/react": "13.2.0",
     "@tsconfig/create-react-app": "1.0.2",
     "@tsconfig/recommended": "1.0.1",
-    "@types/react": "18.0.8",
+    "@types/react": "18.0.9",
     "@types/react-dom": "18.0.3",
     "@types/react-table": "7.7.11",
     "cross-env": "7.0.3",
