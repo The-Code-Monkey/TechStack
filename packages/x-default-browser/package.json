@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/x-default-browser",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Detect default web browser of the current user, cross-platform (Win/Lin/Mac)",
   "license": "MIT",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/x-default-browser/README.md",
