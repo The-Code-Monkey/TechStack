@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.7](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.4...@aw-web-design/components@4.1.7) (2022-05-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @aw-web-design/react-feather to v4.1.1 ([4deaf7f](https://github.com/The-Code-Monkey/TechStack/commit/4deaf7fe774fba6b1556ad3042e76a17e1d593d1))
+* **deps:** update dependency @aw-web-design/theme to v4.1.2 ([6e042da](https://github.com/The-Code-Monkey/TechStack/commit/6e042da971223edbacf29236b4f535d638b054b5))
+* update tcm cli ([185888c](https://github.com/The-Code-Monkey/TechStack/commit/185888cc6c05592e5949362d58a63565c8772a11))
+
+
+
+
+
 ## [4.1.4](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.2...@aw-web-design/components@4.1.4) (2022-05-06)
 
 
