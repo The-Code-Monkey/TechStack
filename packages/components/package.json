@@ -1,5 +1,5 @@
 {
-  "version": "4.1.6",
+  "version": "4.1.7",
   "license": "MIT",
   "type": "module",
   "main": "./dist/cjs/index.js",
@@ -58,7 +58,7 @@
     ]
   },
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.0",
+    "@aw-web-design/tcm-cli": "4.1.2",
     "@size-limit/file": "7.0.8",
     "@storybook/addon-essentials": "6.4.22",
     "@storybook/addon-links": "6.4.22",

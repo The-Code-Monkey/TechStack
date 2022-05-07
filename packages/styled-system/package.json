@@ -1,5 +1,5 @@
 {
-  "version": "4.1.1",
+  "version": "4.1.2",
   "license": "MIT",
   "name": "@aw-web-design/styled-system",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/styled-system/README.md",
@@ -46,7 +46,7 @@
     }
   ],
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.0",
+    "@aw-web-design/tcm-cli": "4.1.2",
     "@size-limit/file": "7.0.8",
     "size-limit": "7.0.8",
     "tslib": "2.4.0",
