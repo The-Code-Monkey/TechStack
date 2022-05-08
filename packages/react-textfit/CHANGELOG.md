@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.4](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-textfit@4.1.3...@aw-web-design/react-textfit@4.1.4) (2022-05-08)
+
+**Note:** Version bump only for package @aw-web-design/react-textfit
+
+
+
+
+
 ## [4.1.3](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-textfit@4.1.2...@aw-web-design/react-textfit@4.1.3) (2022-05-07)
 
 
