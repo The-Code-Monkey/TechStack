@@ -1,10 +1,5 @@
-import React from "react";
-import { addDecorator } from "@storybook/react";
+const addDecorator = require("@storybook/react").addDecorator;
 
-import ThemedWrapper from "./ThemedWrapper";
-
-export const parameters = {
-  actions: { argTypesRegex: '^on.*' },
-};
+const ThemedWrapper = require("./ThemedWrapper");
 
 addDecorator(renderStory => <ThemedWrapper>{renderStory()}</ThemedWrapper>);
