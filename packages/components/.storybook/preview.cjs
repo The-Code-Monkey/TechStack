@@ -1,5 +1,9 @@
-const addDecorator = require("@storybook/react").addDecorator;
+import ThemedWrapper from "./ThemedWrapper";
 
-const ThemedWrapper = require("./ThemedWrapper");
-
-addDecorator(renderStory => <ThemedWrapper>{renderStory()}</ThemedWrapper>);
+export const decorators = [
+  (Story) => (
+    <ThemedWrapper>
+      <Story />
+    </ThemedWrapper>
+  ),
+];
