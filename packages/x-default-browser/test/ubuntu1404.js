@@ -1,6 +1,6 @@
 var assert = require('assert')
 
-var detect = require('rewire')('../lib/detect-linux');
+var detect = require('rewire')('../src/detect-linux');
 
 var execResponse = {
     code: 0,
