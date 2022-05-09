@@ -30,7 +30,8 @@
     "analyze": "size-limit --why",
     "storybook": "yarn build:tokens && start-storybook -p 6006",
     "build-storybook": "yarn build:tokens && build-storybook",
-    "release": "yarn lint && yarn build && release-it --ci --npm.access=public"
+    "release": "yarn lint && yarn build && release-it --ci --npm.access=public",
+    "chromatic": "npx chromatic --project-token=5080aeeba9f5"
   },
   "name": "@aw-web-design/components",
   "author": "The-Code-Monkey",
@@ -70,6 +71,7 @@
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.3",
     "@types/react-table": "7.7.11",
+    "chromatic": "^6.5.4",
     "cross-env": "7.0.3",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-prettier": "4.0.0",
