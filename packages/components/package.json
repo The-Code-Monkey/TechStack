@@ -92,9 +92,7 @@
     "react-dom": "18.1.0",
     "react-lazy-named": "1.2.2",
     "react-table": "7.7.0",
-    "styled-components": "6.0.0-alpha.5",
-    "react-i18next": "11.16.9",
-    "i18next": "21.8.0"
+    "styled-components": "6.0.0-alpha.5"
   },
   "gitHead": "25f6ba2d98aa011acb349bb3f16320be8bccafc0"
 }

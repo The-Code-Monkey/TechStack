@@ -1,7 +1,7 @@
 import { GridProps } from '@aw-web-design/styled-system';
 import { useMemo } from 'react';
 
-import { BoxProps } from '../../primal';
+import { BoxProps } from '../../primatives';
 
 import { StyledGrid } from './styled';
 import { getTemplate } from './utils';

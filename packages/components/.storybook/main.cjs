@@ -1,7 +1,7 @@
 const webpack = require("webpack");
 
 module.exports = {
-  stories: ['../src/@(atoms|molecules|organisms|primal)/**/story.@(ts|tsx)'],
+  stories: ['../src/@(atoms|molecules|organisms|primatives)/**/story.@(ts|tsx)'],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
   // https://storybook.js.org/docs/react/configure/typescript#mainjs-configuration
   typescript: {

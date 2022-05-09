@@ -1,5 +1,4 @@
 {
   "outputDir": "/src/",
-  "iconDir": "feather",
-  "dblClickDelay": 500
+  "iconDir": "feather"
 }
