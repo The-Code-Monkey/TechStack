@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/storybook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,6 +154,9 @@
       <workItem from="1651829813509" duration="372000" />
       <workItem from="1651840044544" duration="2094000" />
       <workItem from="1651842989793" duration="1389000" />
+      <workItem from="1651854846329" duration="1126000" />
+      <workItem from="1652089722598" duration="408000" />
+      <workItem from="1652092234694" duration="150000" />
     </task>
     <servers />
   </component>
@@ -159,19 +164,7 @@
     <option name="version" value="3" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows10.js" />
-        <option value="$PROJECT_DIR$/packages/x-default-browser/src/common-name.js" />
-        <option value="$PROJECT_DIR$/packages/x-default-browser/src/detect-mac.js" />
-        <option value="$PROJECT_DIR$/packages/x-default-browser/src/index.js" />
-        <option value="$PROJECT_DIR$/packages/x-default-browser/src/detect-stub.js" />
-        <option value="$PROJECT_DIR$/packages/x-default-browser/src/detect-linux.js" />
-        <option value="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows.js" />
         <option value="$PROJECT_DIR$/packages/x-default-browser/test/win10.js" />
-        <option value="$PROJECT_DIR$/packages/x-default-browser/test/winxp.js" />
-        <option value="$PROJECT_DIR$/packages/x-default-browser/src/bin/x-default-browser.js" />
-        <option value="$PROJECT_DIR$/packages/x-default-browser/test/winxp.d.ts" />
-        <option value="$PROJECT_DIR$/packages/x-default-browser/test/win10.js" />
-        <option value="$PROJECT_DIR$/packages/x-default-browser/test/win10.d.ts" />
         <option value="$PROJECT_DIR$/packages/x-default-browser/test/winxp.js" />
       </list>
     </option>
