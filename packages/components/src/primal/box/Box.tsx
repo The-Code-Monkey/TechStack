@@ -9,6 +9,7 @@ import {
 } from '@aw-web-design/styled-system';
 import { Property } from 'csstype';
 import { ReactNode } from 'react';
+import { KnownWebTarget } from 'styled-components/dist/types';
 
 import { generateAutomationId } from '../../utils';
 
@@ -23,7 +24,7 @@ export interface Props
     ShadowProps,
     FlexboxProps {
   children?: ReactNode;
-  as?: any;
+  as?: KnownWebTarget;
   autoid?: string;
   className?: string;
   cursor?: Property.Cursor;

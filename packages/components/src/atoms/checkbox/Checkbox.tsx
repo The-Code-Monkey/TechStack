@@ -1,4 +1,4 @@
-import { Interactable, Icon } from '../../primatives';
+import { Interactable, Icon } from '../../primal';
 import { generateAutomationId } from '../../utils';
 
 import { disabledStyles, checkedStyles } from './styled';
