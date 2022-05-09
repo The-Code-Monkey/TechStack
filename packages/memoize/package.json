@@ -21,7 +21,7 @@
     "src"
   ],
   "engines": {
-    "node": ">=14.0.0 <17.0.0"
+    "node": "16.15.0"
   },
   "keywords": [
     "memoize",
