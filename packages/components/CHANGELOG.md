@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.13](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.12...@aw-web-design/components@4.1.13) (2022-05-09)
+
+
+### Bug Fixes
+
+* issue with styled components and storybook on build ([24a00d7](https://github.com/The-Code-Monkey/TechStack/commit/24a00d7abd2b7b8556d7cbecebde863488bf1688))
+
+
+
+
+
 ## [4.1.12](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.11...@aw-web-design/components@4.1.12) (2022-05-09)
 
 **Note:** Version bump only for package @aw-web-design/components
