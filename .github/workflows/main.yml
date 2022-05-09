@@ -40,6 +40,9 @@ jobs:
       - name: Test
         run: yarn test
 
+      - name: Chromatic
+        run: cd packages && cd components && yarn chromatic
+
       - name: Size
         run: yarn size
 
