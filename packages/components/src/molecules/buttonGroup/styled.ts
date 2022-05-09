@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { Box } from '../../primatives';
+import { Box } from '../../primal';
 
 export const StyledBox = styled(Box)`
   button {
