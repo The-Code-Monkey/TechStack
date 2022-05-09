@@ -1,7 +1,7 @@
 import { pseudoMixin } from '@aw-web-design/styled-system';
 import styled from 'styled-components';
 
-import { StyledBoxProps } from '../../primatives';
+import { StyledBoxProps } from '../../primal';
 
 export const StyledTable = styled.table`
   ${pseudoMixin}

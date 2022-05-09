@@ -2,7 +2,7 @@ import * as React from 'react';
 
 const { useMemo } = React;
 
-import { Icon, InteractableProps, Text, IconProps } from '../../primatives';
+import { Icon, InteractableProps, Text, IconProps } from '../../primal';
 
 import { StyledInteractable, iconOrientations, iconMargins } from './styled';
 

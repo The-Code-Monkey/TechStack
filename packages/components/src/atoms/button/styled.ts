@@ -1,7 +1,7 @@
 import { variant, Theme } from '@aw-web-design/styled-system';
 import styled from 'styled-components';
 
-import { Interactable, StyledBoxProps } from '../../primatives';
+import { Interactable, StyledBoxProps } from '../../primal';
 
 export const iconMargins = {
   left: {

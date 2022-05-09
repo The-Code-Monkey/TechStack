@@ -3,7 +3,7 @@ import deepMerge from 'deepmerge';
 import { ThemeModeEnum } from './enum';
 import { ITheme } from './types';
 
-const arrayMerge = (_destination: any, source: any) => source;
+const arrayMerge = (_destination: unknown[], source: unknown[]) => source;
 
 const getActiveMode = <V extends object>(
   theme?: ITheme<V>,
@@ -57,7 +57,7 @@ const applyMode = <V extends object>(
 
 const createTheme =
   <V extends object>(theme?: ITheme<V>, mode?: ThemeModeEnum) =>
-  (parent?: any): ITheme<V> => {
+  (parent): ITheme<V> => {
     const activeMode = getActiveMode<V>(theme, parent, mode);
     const themeWithAppliedMode = applyMode<V>(theme, activeMode);
     const parentWithAppliedMode = applyMode<V>(parent, activeMode);
