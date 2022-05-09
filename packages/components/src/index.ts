@@ -1,4 +1,4 @@
-export * from './primal';
+export * from './primatives';
 export * from './molecules';
 export * from './atoms';
 export * from './utils';

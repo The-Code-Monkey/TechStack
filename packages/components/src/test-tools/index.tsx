@@ -10,21 +10,19 @@ const config = {
   iconDir: 'feather',
 };
 
-type SnapshotSerializerPlugin = import('pretty-format').Plugin;
-
-const removeProperties = (): SnapshotSerializerPlugin => {
+const removeProperties = () => {
   const keys = ['theme', 'styledTheme'];
   return {
-    test: (val: { props: unknown }) =>
+    test: (val: any) =>
       val &&
       typeof val === 'object' &&
       'props' in val &&
       Object.keys(val.props).some(prop => keys.some(key => key === prop)),
-    serialize: (val, config, indentation, depth, refs, printer) => {
+    print: (val: any, serialize: any) => {
       keys.forEach(key => {
         delete val.props[key];
       });
-      return printer(val, config, indentation, depth, refs);
+      return serialize(val);
     },
   };
 };

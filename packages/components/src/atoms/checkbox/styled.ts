@@ -1,4 +1,4 @@
-import { BoxProps } from '../../primal';
+import { BoxProps } from '../../primatives';
 
 export const disabledStyles: BoxProps = {
   bgColor: 'highlights.0',
