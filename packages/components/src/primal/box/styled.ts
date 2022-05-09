@@ -12,6 +12,7 @@ import {
   pseudo,
   getContrast,
   pseudoMixin,
+  ColorsType,
 } from '@aw-web-design/styled-system';
 import styled from 'styled-components';
 
@@ -27,7 +28,8 @@ const utilProps = system({
   bg: {
     property: 'color',
     scale: 'colors',
-    transform: (scale, n) => getContrast(get(scale, n, n), scale as any),
+    transform: (scale, n) =>
+      getContrast(get(scale, n, n), scale as unknown as ColorsType),
   },
 });
 
@@ -44,7 +46,7 @@ export const StyledBoxProps = compose(
 );
 
 export const StyledBox = styled.div.withConfig({
-  shouldForwardProp: shouldForwardProp(StyledBoxProps.propNames) as any,
+  shouldForwardProp: shouldForwardProp(StyledBoxProps.propNames),
 })`
   display: block;
   box-sizing: border-box;

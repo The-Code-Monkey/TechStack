@@ -25,7 +25,7 @@ const Table: FC<Props> = ({ columns, data, className, onRowClick }: Props) => {
   const tableProps = useMemo(() => getTableProps(), [getTableProps]);
 
   const handleRowClick = useCallback(
-    (id: any) => {
+    (id: number | string) => {
       if (onRowClick) onRowClick(id);
     },
     [onRowClick]

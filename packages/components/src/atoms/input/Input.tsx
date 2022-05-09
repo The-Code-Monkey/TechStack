@@ -7,7 +7,7 @@ import {
 } from 'react';
 import { ThemeContext, DefaultTheme } from 'styled-components';
 
-import { BoxProps } from '../../primatives';
+import { BoxProps } from '../../primal';
 
 import { StyledInput } from './styled';
 

@@ -1365,7 +1365,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * start to add button ([83057c1](https://github.com/The-Code-Monkey/Components/commit/83057c10415386a40075a053f78e0f03818d21dc))
 * start to build checkbox ([c847136](https://github.com/The-Code-Monkey/Components/commit/c8471365620f1a80447589c7282a8ba483a4dd90))
 * start to build out the input component ([9934e20](https://github.com/The-Code-Monkey/Components/commit/9934e20298a78b5521295dc67f71c52e82e952e6))
-* tweak some primatives ([d131a57](https://github.com/The-Code-Monkey/Components/commit/d131a5739cac349bd826a74916805c0dde77e3d4))
+* tweak some primal ([d131a57](https://github.com/The-Code-Monkey/Components/commit/d131a5739cac349bd826a74916805c0dde77e3d4))
 * update styled system to ts ([c87ce2a](https://github.com/The-Code-Monkey/Components/commit/c87ce2a018bec46870b8154f1c982d272771312d))
 
 

@@ -1,7 +1,7 @@
 import { grid } from '@aw-web-design/styled-system';
 import styled from 'styled-components';
 
-import { Box } from '../../primatives';
+import { Box } from '../../primal';
 
 export const StyledGrid = styled(Box)`
   ${grid}
