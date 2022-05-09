@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/memoize",
-  "version": "4.1.4",
+  "version": "4.1.5",
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
   "main": "./dist/cjs/index.js",
