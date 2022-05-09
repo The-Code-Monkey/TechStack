@@ -31,7 +31,7 @@
     "storybook": "yarn build:tokens && start-storybook -p 6006",
     "build-storybook": "yarn build:tokens && build-storybook",
     "release": "yarn lint && yarn build && release-it --ci --npm.access=public",
-    "chromatic": "npx chromatic --project-token=5080aeeba9f5"
+    "chromatic": "npx chromatic"
   },
   "name": "@aw-web-design/components",
   "author": "The-Code-Monkey",
