@@ -1,6 +1,6 @@
 var assert = require('assert')
 
-var detect = require('rewire')('../lib/detect-windows10');
+var detect = require('rewire')('../src/detect-windows10');
 
 var execResponse = {
     code: 0,
