@@ -91,6 +91,7 @@ export async function createEslintConfig({
           'react/no-typos': false,
           bracketSpacing: true,
           arrowParens: 'avoid',
+          endOfLine: 'auto',
         },
       ],
     },
