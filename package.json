@@ -26,7 +26,7 @@
     "lerna:changed": "lerna changed",
     "lerna:version": "lerna version --conventional-commits --exact --yes",
     "lerna:publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --no-verify-access --yes",
-    "lerna:storybook": "lerna run build-storybook --stream -- -o build",
+    "build-storybook": "lerna run build-storybook --stream -- -o build",
     "prepare": "husky install"
   },
   "devDependencies": {
