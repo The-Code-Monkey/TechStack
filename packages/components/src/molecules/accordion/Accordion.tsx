@@ -1,7 +1,7 @@
 import { FC, PropsWithChildren, ReactNode, useState } from 'react';
 
 import { Button } from '../../atoms';
-import { Box } from '../../primal';
+import { Box } from '../../primatives';
 
 import { StyledAccordion } from './styled';
 

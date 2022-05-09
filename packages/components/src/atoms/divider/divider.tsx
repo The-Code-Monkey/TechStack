@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { BoxProps } from '../../primal';
+import { BoxProps } from '../../primatives';
 
 import { StyledHr } from './styled';
 

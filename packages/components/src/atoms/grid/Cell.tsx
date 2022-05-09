@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { BoxProps } from '../../primal';
+import { BoxProps } from '../../primatives';
 
 import { StyledCell } from './styled';
 import { getGrid } from './utils';

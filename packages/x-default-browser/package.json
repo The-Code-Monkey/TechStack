@@ -14,8 +14,9 @@
   "bin": "bin/x-default-browser.js",
   "main": "index.js",
   "scripts": {
-    "lint": "tcm lint src bin",
-    "test": "mocha"
+    "lint": "jshint index.js lib bin",
+    "mocha": "mocha",
+    "test": "npm run lint && npm run mocha"
   },
   "keywords": [
     "windows",
@@ -24,11 +25,9 @@
     "default",
     "browser"
   ],
-  "dependencies": {
-    "default-browser-id": "3.0.0"
-  },
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.5",
+    "default-browser-id": "3.0.0",
+    "jshint": "2.13.4",
     "mocha": "10.0.0",
     "rewire": "6.0.0"
   }

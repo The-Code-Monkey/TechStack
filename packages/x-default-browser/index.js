@@ -11,7 +11,7 @@ if (os.platform() == 'win32') {
 } else if (os.platform() == 'linux' || os.platform() == 'freebsd') {
     detect = require('./src/detect-linux');
 } else {
-    detect = require('./src/detect-stub');
+    detect = require('./lib/detect-stub');
 }
 
 module.exports = detect;

@@ -29,7 +29,7 @@ export type IThemeColorsType = {
   };
 };
 
-type OptionalRecord<K extends string, T> = {
+type OptionalRecord<K extends keyof any, T> = {
   [P in K]?: T;
 };
 
@@ -53,6 +53,6 @@ export interface ITheme<V> {
   borders: Record<string, string>;
   sizes: Record<string, string>;
   space: Record<string, string>;
-  [x: string]: unknown;
+  [x: string]: any;
   defaultStyles?: OptionalRecord<string, unknown>;
 }
