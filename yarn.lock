@@ -30,15 +30,6 @@
     lodash "4.17.21"
     lodash-es "4.17.21"
 
-"@aw-web-design/styled-system@4.1.4":
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/@aw-web-design/styled-system/-/styled-system-4.1.4.tgz#0a744c5de5257b8e932016c06e9af1ba5b38dd07"
-  integrity sha512-bLC5kK47Mg1YoMG+7EumoS5Ksk38ObAmL64C+wh893S7mGr0QgihcReJxwZP2e2oUiQd9EOSzwy9PTlaPAvzdw==
-  dependencies:
-    "@aw-web-design/memoize" "4.1.4"
-    "@emotion/is-prop-valid" "1.1.2"
-    csstype "3.0.11"
-
 "@aw-web-design/theme@4.1.4":
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/@aw-web-design/theme/-/theme-4.1.4.tgz#e522991cc99cff1535fa9857b70834e69bb34d2a"
