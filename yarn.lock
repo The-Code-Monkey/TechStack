@@ -39,18 +39,6 @@
     "@emotion/is-prop-valid" "1.1.2"
     csstype "3.0.11"
 
-"@aw-web-design/theme@4.1.4":
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/@aw-web-design/theme/-/theme-4.1.4.tgz#e522991cc99cff1535fa9857b70834e69bb34d2a"
-  integrity sha512-jP03olp+7aoeA3s3Ra21XVlYQNeOtVeQEM6vj2UfhG4kpjwUBIxWRfmiLsgAsQdmncVZAlLkzOho4pRsvGtNvg==
-  dependencies:
-    fs-extra "10.1.0"
-    lodash "4.17.21"
-    lodash-es "4.17.21"
-    sade "1.8.1"
-    style-dictionary "3.7.0"
-    tinycolor2 "1.4.2"
-
 "@babel/cli@^7.15.7":
   version "7.17.10"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.17.10.tgz#5ea0bf6298bb78f3b59c7c06954f9bd1c79d5943"
