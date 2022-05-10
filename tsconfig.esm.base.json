@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "ESNext",
-    "target": "ESNext",
+    "target": "es2019",
     "moduleResolution": "Node",
     "allowJs": true,
     "jsx": "react",
