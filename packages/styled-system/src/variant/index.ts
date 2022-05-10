@@ -1,6 +1,6 @@
 import { get, createParser } from '../core';
 import { css } from '../css';
-import { CSSObject } from '../types';
+import { CSSObject, Scale, Theme } from '../types';
 
 interface Props {
   scale?: string;
@@ -16,16 +16,16 @@ export const variant = ({
   key,
 }: Props) => {
   let sx: {
-    (value: string | number, scale: any, props: { theme: any }): CSSObject;
-    scale?: any;
-    defaults?: any;
+    (value: string | number, scale: Scale, props: { theme: Theme }): CSSObject;
+    scale?: Scale | string;
+    defaults?: object;
   };
 
   if (Object.keys(variants).length) {
-    sx = (value: string | number, scale: any, props: { theme: any }) =>
+    sx = (value: string | number, scale: Scale, props: { theme: Theme }) =>
       css(get(scale, value, null))(props.theme);
   } else {
-    sx = (value: string | number, scale: any) => get(scale, value, null);
+    sx = (value: string | number, scale: Scale) => get(scale, value, null);
   }
   sx.scale = scale || key;
   sx.defaults = variants;

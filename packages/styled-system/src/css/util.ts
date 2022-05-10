@@ -12,6 +12,7 @@ import { shadow } from '../parsers/shadow';
 import { space } from '../parsers/space';
 import { transition } from '../parsers/transition';
 import { typography } from '../parsers/typography';
+import { Scale } from '../types';
 
 const all = compose(
   animation,
@@ -33,7 +34,15 @@ export function getParserDicts() {
   const aliases: Record<string, string> = {};
   const multiples: Record<string, Array<string>> = {};
   const scales: Record<string, string> = {};
-  const transforms: Record<string, any> = {};
+  const transforms: Record<
+    string,
+    (
+      scale: Scale,
+      path: string | number,
+      fallback?: string | number,
+      props?: unknown
+    ) => unknown
+  > = {};
 
   all.propNames.forEach(propName => {
     const config: StyleFn = all.config[propName];

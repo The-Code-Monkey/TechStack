@@ -1,6 +1,7 @@
 import { Properties, Pseudos } from 'csstype';
 
-import { Scale } from './types';
+import { Scale } from '../types';
+
 import { get } from './util';
 
 export interface StyleFn {
@@ -19,7 +20,7 @@ export interface StyleFn {
 
 export interface CreateStyleFunctionArgs {
   property?: keyof Properties | `&${Pseudos}`;
-  properties?: Array<keyof Properties>;
+  properties?: Array<keyof Properties> | Array<string>;
   scale?: string;
   transform?: (
     scale: Scale | undefined,
@@ -55,8 +56,8 @@ export function createStyleFunction({
     return result;
   };
 
-  styleFn.properties = properties;
-  styleFn.property = property;
+  styleFn.properties = properties as Array<string>;
+  styleFn.property = property as string;
   styleFn.scale = scale;
   styleFn.transform = transform.name !== 'get' ? transform : undefined;
   styleFn.defaults = defaultScale;

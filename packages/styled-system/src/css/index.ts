@@ -1,19 +1,25 @@
 import { get } from '../core';
-import { pseudoSelectors } from '../pseudo/selectors';
 import { CSSObject, Theme } from '../types';
-import { defaultBreakpoints, defaultTheme, isFunction } from '../utils';
+import {
+  defaultBreakpoints,
+  defaultTheme,
+  isFunction,
+  pseudoSelectors,
+} from '../utils';
 
 import { getParserDicts } from './util';
 
 const { aliases, multiples, scales, transforms } = getParserDicts();
 
-function responsive(styles: any = {}) {
-  return (theme: any) => {
-    const result: any = {};
+function responsive(styles: object = {}) {
+  return (theme: Theme) => {
+    const result: object = {};
     const breakpoints = get(theme, 'breakpoints', defaultBreakpoints);
     const mediaQueries = [
       null,
-      ...breakpoints.map((n: any) => `@media screen and (min-width: ${n})`),
+      ...breakpoints.map(
+        (n: string | number) => `@media screen and (min-width: ${n})`
+      ),
     ];
 
     Object.keys(styles).forEach(key => {
@@ -50,23 +56,24 @@ function responsive(styles: any = {}) {
   };
 }
 
-export function css(args?: any) {
+export function css(args?: ((a: Theme) => object) | object) {
   return (props?: Theme | { theme: Theme }): CSSObject => {
-    const theme = { ...defaultTheme, ...((props as any)?.theme || props) };
+    const propsTheme = ((props ?? { theme: props }) as { theme: Theme }).theme;
 
-    const result: any = {};
+    const theme = { ...defaultTheme, ...propsTheme };
+
+    const result: CSSObject = {};
 
     const obj = typeof args === 'function' ? args(theme) : args;
     const styles = responsive(obj)(theme);
 
     Object.keys(styles).forEach(key => {
-      const x = styles[key];
+      const x: string | ((x: Theme) => string) = styles[key];
       const val = isFunction(x) ? x(theme) : x;
 
       if (val && typeof val === 'object') {
         if (Object.keys(pseudoSelectors).includes(key)) {
-          result[pseudoSelectors[key as keyof typeof pseudoSelectors]] =
-            css(val)(theme);
+          result[pseudoSelectors[key]] = css(val)(theme);
           return;
         }
 

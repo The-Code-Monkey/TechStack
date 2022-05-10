@@ -1,8 +1,14 @@
-import { compose, get, Scale, system, SystemConfig } from '../core';
-import { RequiredTheme, ResponsiveValue, Theme, ThemeValue } from '../types';
+import { compose, get, system, SystemConfig } from '../core';
+import {
+  RequiredTheme,
+  ResponsiveValue,
+  Theme,
+  ThemeValue,
+  Scale,
+} from '../types';
 import { defaultTheme, isNumber } from '../utils';
 
-export function getMargin(scale?: Scale, n?: any) {
+export function getMargin(scale?: Scale, n?: number | string) {
   if (!isNumber(n)) {
     return get(scale, n, n);
   }

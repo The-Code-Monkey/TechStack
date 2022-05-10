@@ -1,16 +1,17 @@
 import { Property } from 'csstype';
 
-import { get, Scale, system, SystemConfig } from '../core';
+import { get, system, SystemConfig } from '../core';
 import {
   RequiredTheme,
   ResponsiveValue,
   Theme,
   TLengthStyledSystem,
+  Scale,
 } from '../types';
 import { isNumber } from '../utils';
 
-function getWidth(scale?: Scale, n?: any) {
-  return get(scale, n, !isNumber(n) || n > 1 ? n : `${n * 100}%`);
+function getWidth(scale?: Scale, n?: string | number) {
+  return get(scale, n, !isNumber(n) || n > 1 ? n : `${(n as number) * 100}%`);
 }
 
 export interface LayoutProps<ThemeType extends Theme = RequiredTheme> {
