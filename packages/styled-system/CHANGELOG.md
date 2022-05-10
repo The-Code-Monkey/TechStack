@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.7](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/styled-system@4.1.6...@aw-web-design/styled-system@4.1.7) (2022-05-10)
+
+
+### Bug Fixes
+
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([b754489](https://github.com/The-Code-Monkey/TechStack/commit/b754489c05c400a5828c7f42fb884e80cc9b9471))
+
+
+
+
+
 ## 4.1.6 (2022-05-10)
 
 
