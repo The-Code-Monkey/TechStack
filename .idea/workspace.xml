@@ -2,66 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fa41a-62a8-4e84-8670-d5c9700aa9a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/components/.storybook/i18n.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/components/src/primal/box/story.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/components/src/primal/interactable/story.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/components/src/primal/interactable/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/components/src/primal/text/Text.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/components/src/primal/text/story.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/.storybook/main.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/.storybook/main.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/.storybook/preview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/orchard.theme.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/orchard.theme.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/button/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/button/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/Checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/Checkbox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/checkbox/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/divider/divider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/divider/divider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/divider/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/divider/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/grid/Cell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/Cell.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/grid/Grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/Grid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/grid/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/grid/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/input/Input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/input/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/input/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/table/Table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/table/Table.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/atoms/table/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/atoms/table/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/molecules/accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/molecules/accordion/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/accordion/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/molecules/buttonGroup/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/molecules/buttonGroup/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/box/Box.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/box/Box.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/box/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/box/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/box/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/box/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/icon/Icon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/__mocks__/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/icon/__mocks__/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/__test__/__snapshots__/index.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/icon/__test__/__snapshots__/index.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/__test__/index.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/icon/__test__/index.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/icon/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/icon/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/icon/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/icon/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/interactable/Interactable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/interactable/Interactable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/interactable/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/interactable/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/interactable/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/interactable/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/text/Text.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/text/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/text/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/primatives/text/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primal/text/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/test-tools/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/test-tools/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/utils/context/config.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/context/config.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/create-theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/create-theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/utils/theme-provider/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/bin/x-default-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/bin/x-default-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/lib/common-name.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/common-name.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/lib/detect-linux.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/detect-linux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/lib/detect-mac.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/detect-mac.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/lib/detect-stub.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/detect-stub.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/lib/detect-windows.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/x-default-browser/lib/detect-windows10.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/src/detect-windows10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-feather/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-feather/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-lazy-named/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-lazy-named/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-textfit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-textfit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/styled-system/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/styled-system/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/theme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/x-default-browser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/x-default-browser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +166,7 @@
       <workItem from="1652089722598" duration="408000" />
       <workItem from="1652092234694" duration="297000" />
       <workItem from="1652102577974" duration="912000" />
-      <workItem from="1652109435406" duration="4830000" />
+      <workItem from="1652109435406" duration="5419000" />
     </task>
     <servers />
   </component>
