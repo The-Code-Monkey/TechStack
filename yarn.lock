@@ -15,13 +15,6 @@
   resolved "https://registry.yarnpkg.com/@aw-web-design/memoize/-/memoize-4.1.4.tgz#7bfe874e99a942fe3e2748c2a73f624f2ac29370"
   integrity sha512-Q079Qacp0MC6tURjSMHIP14CM29xWXHHaMlDS2gIxxKZwt3Cx+qQiqY2U/sDrtH0U6s0qJC2Vmgqhlll/RwLlw==
 
-"@aw-web-design/react-feather@4.1.3":
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/@aw-web-design/react-feather/-/react-feather-4.1.3.tgz#98ad3dddf6774dc18fd68a55af8fa98310a29460"
-  integrity sha512-bMgXR/FdUIdC0piE15OHYXog9HfUz4NZI+dYJwfpsxQk6dYsQqnztDh2MeqWyhgbx85yicuEGX6ziLRGvt/MeQ==
-  dependencies:
-    "@aw-web-design/react-lazy-named" "4.1.3"
-
 "@aw-web-design/react-lazy-named@4.1.3":
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/@aw-web-design/react-lazy-named/-/react-lazy-named-4.1.3.tgz#a8551c9c63acfd050146f26cfd887d437de0cd92"
