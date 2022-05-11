@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.19](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.18...@aw-web-design/components@4.1.19) (2022-05-11)
+
+**Note:** Version bump only for package @aw-web-design/components
+
+
+
+
+
 ## 4.1.18 (2022-05-10)
 
 **Note:** Version bump only for package @aw-web-design/components

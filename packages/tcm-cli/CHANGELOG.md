@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.10](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.9...@aw-web-design/tcm-cli@4.1.10) (2022-05-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-testing-library to v5.5.0 ([8917051](https://github.com/The-Code-Monkey/TechStack/commit/8917051f3ea69f25df860794059ad506f13ad0dc))
+
+
+
+
+
 ## 4.1.9 (2022-05-10)
 
 **Note:** Version bump only for package @aw-web-design/tcm-cli
