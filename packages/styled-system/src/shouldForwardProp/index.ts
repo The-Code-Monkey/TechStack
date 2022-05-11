@@ -17,7 +17,7 @@ import { shadow } from '../parsers/shadow';
 import { space } from '../parsers/space';
 import { transition } from '../parsers/transition';
 import { typography } from '../parsers/typography';
-import { pseudoSelectors } from '../pseudo';
+import { pseudoSelectors } from '../utils';
 
 const all = compose(
   animation,

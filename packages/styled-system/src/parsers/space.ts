@@ -8,7 +8,7 @@ import {
 } from '../types';
 import { defaultTheme, isNumber } from '../utils';
 
-export function getMargin(scale?: Scale, n?: number | string) {
+export function getMargin(scale?: Scale, n?: number) {
   if (!isNumber(n)) {
     return get(scale, n, n);
   }

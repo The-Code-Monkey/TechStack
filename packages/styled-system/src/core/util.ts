@@ -1,11 +1,11 @@
-export function get<T = any>(
-  obj: any,
+export function get<T = string | number>(
+  obj: object,
   path: string | number,
-  fallback?: any
+  fallback?: T
 ): T {
   const key = typeof path === 'string' ? path.split('.') : [path];
 
-  let result: any = obj;
+  let result: object = obj;
 
   for (let i = 0; i < key.length; i += 1) {
     if (!result) {
@@ -15,10 +15,13 @@ export function get<T = any>(
     result = result[key[i]];
   }
 
-  return result === undefined ? fallback : result;
+  return (result === undefined ? fallback : result) as T;
 }
 
-export function merge(a: Record<string, unknown>, b: Record<string, unknown>) {
+export function merge(
+  a: Record<string, string | number | object>,
+  b: Record<string, string | number | object>
+) {
   const result = { ...a, ...b };
 
   Object.keys(result).forEach(key => {
@@ -33,7 +36,7 @@ export function merge(a: Record<string, unknown>, b: Record<string, unknown>) {
 }
 
 export function sort(obj: Record<string, unknown>) {
-  const result: any = {};
+  const result: object = {};
 
   Object.keys(obj)
     .sort((a, b) =>

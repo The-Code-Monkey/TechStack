@@ -4,6 +4,7 @@ import {
   defaultBreakpoints,
   defaultTheme,
   isFunction,
+  isTheme,
   pseudoSelectors,
 } from '../utils';
 
@@ -58,9 +59,14 @@ function responsive(styles: object = {}) {
 
 export function css(args?: ((a: Theme) => object) | object) {
   return (props?: Theme | { theme: Theme }): CSSObject => {
-    const propsTheme = ((props ?? { theme: props }) as { theme: Theme }).theme;
+    // const propsTheme = ((props ?? { theme: props }) as { theme: Theme }).theme;
+    let theme: Theme = { ...defaultTheme };
 
-    const theme = { ...defaultTheme, ...propsTheme };
+    if (isTheme(props)) {
+      theme = { ...theme, ...props.theme };
+    } else {
+      theme = { ...theme, ...props };
+    }
 
     const result: CSSObject = {};
 
@@ -69,11 +75,13 @@ export function css(args?: ((a: Theme) => object) | object) {
 
     Object.keys(styles).forEach(key => {
       const x: string | ((x: Theme) => string) = styles[key];
-      const val = isFunction(x) ? x(theme) : x;
+      const val: string | number | object | unknown = isFunction(x)
+        ? x(theme)
+        : x;
 
       if (val && typeof val === 'object') {
         if (Object.keys(pseudoSelectors).includes(key)) {
-          result[pseudoSelectors[key]] = css(val)(theme);
+          result[pseudoSelectors[key].join(', ')] = css(val)(theme);
           return;
         }
 
@@ -95,7 +103,7 @@ export function css(args?: ((a: Theme) => object) | object) {
         const n = transform(scale, abs, abs);
         value = typeof n === 'string' ? `-${n}` : n * -1;
       } else {
-        value = transform(scale, val, val);
+        value = transform(scale, val as string, val);
       }
 
       if (multiples[prop as keyof typeof multiples]) {

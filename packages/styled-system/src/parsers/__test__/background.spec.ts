@@ -1,4 +1,4 @@
-import { background, BackgroundProps } from '../background';
+import { background } from '../background';
 
 describe('background', () => {
   it('should return background styles', () => {
@@ -10,7 +10,7 @@ describe('background', () => {
       backgroundPosition: 'center',
       backgroundRepeat: 'repeat',
       backgroundAttachment: 'fixed',
-    } as BackgroundProps);
+    });
 
     expect(style).toEqual({
       background: 'url(kitten.gif)',
@@ -32,7 +32,7 @@ describe('background', () => {
       bgPosition: 'center',
       bgRepeat: 'repeat',
       bgAttachment: 'fixed',
-    } as BackgroundProps);
+    });
 
     expect(style).toEqual({
       background: 'url(kitten.gif)',

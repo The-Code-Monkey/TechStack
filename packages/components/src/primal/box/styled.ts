@@ -11,7 +11,6 @@ import {
   get,
   pseudo,
   getContrast,
-  pseudoMixin,
   ColorsType,
 } from '@aw-web-design/styled-system';
 import styled from 'styled-components';
@@ -29,7 +28,7 @@ const utilProps = system({
     property: 'color',
     scale: 'colors',
     transform: (scale, n) =>
-      getContrast(get(scale, n, n), scale as unknown as ColorsType),
+      getContrast(get(scale, n, `${n}`), scale as ColorsType),
   },
 });
 
@@ -50,6 +49,5 @@ export const StyledBox = styled.div.withConfig({
 })`
   display: block;
   box-sizing: border-box;
-  ${pseudoMixin}
   ${StyledBoxProps}
 `;

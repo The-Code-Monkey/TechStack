@@ -1,3 +1,5 @@
+import { Theme } from './types';
+
 export function isNumber(n: number | string | object) {
   return typeof n === 'number' && !isNaN(n);
 }
@@ -17,6 +19,10 @@ export function isFunction(
   value: string | number | object | (() => unknown)
 ): value is () => unknown {
   return typeof value === 'function';
+}
+
+export function isTheme(value): value is { theme: Theme } {
+  return value?.theme;
 }
 
 export const defaultBreakpoints = [40, 52, 64].map(n => `${n}em`);

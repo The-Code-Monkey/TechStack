@@ -323,7 +323,7 @@ describe('system', () => {
         property: 'margin',
         transform: (_scale, n, _fallback, props) => {
           const v = typeof n === 'number' ? n : parseInt(n, 10);
-          const m = props.multiply || 1;
+          const m = (props.multiply as number) || 1;
           return m * v;
         },
       },

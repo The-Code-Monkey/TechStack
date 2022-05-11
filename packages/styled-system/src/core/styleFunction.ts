@@ -4,17 +4,18 @@ import { Scale } from '../types';
 
 import { get } from './util';
 
+type TransformType = (
+  scale: Scale | undefined,
+  path: string | number,
+  fallback?: string | number,
+  props?: Record<string, string | number | boolean>
+) => string | number;
+
 export interface StyleFn {
-  (value: any, scale: Scale | undefined, props: any): any;
-  properties?: string[];
-  property?: string;
+  property?: keyof Properties | `&${Pseudos}`;
+  properties?: Array<keyof Properties> | Array<string>;
   scale?: string;
-  transform?: (
-    scale: Scale | undefined,
-    path: string | number,
-    fallback?: any,
-    props?: any
-  ) => any;
+  transform?: TransformType;
   defaults?: Scale;
 }
 
@@ -22,12 +23,7 @@ export interface CreateStyleFunctionArgs {
   property?: keyof Properties | `&${Pseudos}`;
   properties?: Array<keyof Properties> | Array<string>;
   scale?: string;
-  transform?: (
-    scale: Scale | undefined,
-    path: string | number,
-    fallback?: any,
-    props?: any
-  ) => any;
+  transform?: TransformType;
   defaultScale?: Scale;
 }
 
@@ -40,8 +36,8 @@ export function createStyleFunction({
 }: CreateStyleFunctionArgs): StyleFn {
   const p = properties || (property ? [property] : []);
 
-  const styleFn: StyleFn = (_value, _scale, _props) => {
-    const result: { [key in keyof Properties]: any } = {};
+  const styleFn = (_value, _scale, _props) => {
+    const result: { [key in keyof Properties]: string } = {};
 
     const value = transform(_scale, _value, _value, _props);
 
@@ -56,8 +52,8 @@ export function createStyleFunction({
     return result;
   };
 
-  styleFn.properties = properties as Array<string>;
-  styleFn.property = property as string;
+  styleFn.properties = properties;
+  styleFn.property = property;
   styleFn.scale = scale;
   styleFn.transform = transform.name !== 'get' ? transform : undefined;
   styleFn.defaults = defaultScale;
