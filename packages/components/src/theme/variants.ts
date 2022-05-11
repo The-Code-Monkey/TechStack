@@ -70,7 +70,7 @@ const variants = {
   },
   buttons: (theme: Theme) => ({
     default: {
-      bg: 'neutrals.4',
+      bg: 'white',
       _hover: {
         bg: 'neutrals.6',
         _disabled: {
@@ -80,7 +80,7 @@ const variants = {
     },
     primary: {
       color: getContrast(get(theme.colors, 'primary.2', 'background')),
-      bg: 'primary.2',
+      bg: 'black',
       _hover: {
         bg: 'primary.1',
         _disabled: {
