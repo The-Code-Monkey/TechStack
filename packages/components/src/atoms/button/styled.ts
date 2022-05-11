@@ -70,9 +70,6 @@ export const StyledInteractable = styled(Interactable)<{ strong?: boolean }>`
   align-items: center;
   justify-content: center;
   ${p => p.strong && 'font-weight: bold;'}
-  &:disabled {
-    pointer-events: none;
-  }
   &:focus {
     outline: none;
   }

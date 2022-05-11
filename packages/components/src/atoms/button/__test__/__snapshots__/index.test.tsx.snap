@@ -3,7 +3,7 @@
 exports[`<Button /> renders default correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-ibERUn sc-chmotB iSYwQP"
+    class="sc-ibERUn sc-chmotB igobcS"
     data-autoid="Default_button"
   >
     <span
@@ -19,11 +19,11 @@ exports[`<Button /> renders default correctly 1`] = `
 exports[`<Button /> renders icon correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-ibERUn sc-chmotB iSYwQP"
+    class="sc-ibERUn sc-chmotB igobcS"
     data-autoid="Secondary_button"
   >
     <div
-      class="sc-bscPHp cUnMdB sc-gqyZTE dsqBnA"
+      class="sc-bscPHp gqgVuA sc-gqyZTE dsqBnA"
       data-autoid="github_icon"
     >
       <svg
@@ -67,11 +67,11 @@ exports[`<Button /> renders icon correctly 1`] = `
 exports[`<Button /> renders icon only correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-ibERUn sc-chmotB iSYwQP"
+    class="sc-ibERUn sc-chmotB igobcS"
     data-autoid="_button"
   >
     <div
-      class="sc-bscPHp cUnMdB sc-gqyZTE kmoqFI"
+      class="sc-bscPHp gqgVuA sc-gqyZTE kmoqFI"
       data-autoid="github_icon"
     >
       <svg
@@ -113,7 +113,7 @@ exports[`<Button /> renders icon only correctly 1`] = `
 exports[`<Button /> renders primary correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-ibERUn sc-chmotB hdOLUU"
+    class="sc-ibERUn sc-chmotB dPQWXQ"
     data-autoid="Primary_button"
   >
     <span
@@ -129,7 +129,7 @@ exports[`<Button /> renders primary correctly 1`] = `
 exports[`<Button /> renders secondary correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-ibERUn sc-chmotB vcMJf"
+    class="sc-ibERUn sc-chmotB hgUdmP"
     data-autoid="Secondary_button"
   >
     <span

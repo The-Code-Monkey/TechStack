@@ -9,7 +9,7 @@ type TransformType = (
   path: string | number,
   fallback?: string | number,
   props?: Record<string, string | number | boolean>
-) => string | number;
+) => string | number | Array<string | number>;
 
 export interface StyleFn {
   property?: keyof Properties | `&${Pseudos}`;
@@ -45,9 +45,15 @@ export function createStyleFunction({
       return undefined;
     }
 
-    p.forEach(prop => {
-      result[prop] = value;
-    });
+    if (Array.isArray(value) && properties.length > 1) {
+      p.forEach((prop, index) => {
+        result[prop] = value[index];
+      });
+    } else {
+      p.forEach(prop => {
+        result[prop] = value;
+      });
+    }
 
     return result;
   };

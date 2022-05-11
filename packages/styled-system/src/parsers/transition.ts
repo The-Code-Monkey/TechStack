@@ -1,30 +1,17 @@
 import { Property } from 'csstype';
 
 import { system, SystemConfig } from '../core';
-import {
-  RequiredTheme,
-  ResponsiveValue,
-  Theme,
-  TLengthStyledSystem,
-} from '../types';
+import { ResponsiveValue, TLengthStyledSystem } from '../types';
 
-export interface TransitionProps<ThemeType extends Theme = RequiredTheme> {
-  transition?: ResponsiveValue<
-    Property.Transition<TLengthStyledSystem>,
-    ThemeType
-  >;
-  transitionProperty?: ResponsiveValue<Property.TransitionProperty, ThemeType>;
+export interface TransitionProps {
+  transition?: ResponsiveValue<Property.Transition<TLengthStyledSystem>>;
+  transitionProperty?: ResponsiveValue<Property.TransitionProperty>;
   transitionDuration?: ResponsiveValue<
-    Property.TransitionDuration<TLengthStyledSystem>,
-    ThemeType
+    Property.TransitionDuration<TLengthStyledSystem>
   >;
-  transitionTiming?: ResponsiveValue<
-    Property.TransitionTimingFunction,
-    ThemeType
-  >;
+  transitionTiming?: ResponsiveValue<Property.TransitionTimingFunction>;
   transitionDelay?: ResponsiveValue<
-    Property.TransitionDelay<TLengthStyledSystem>,
-    ThemeType
+    Property.TransitionDelay<TLengthStyledSystem>
   >;
 }
 

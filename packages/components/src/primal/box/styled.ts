@@ -9,7 +9,6 @@ import {
   flexbox,
   system,
   get,
-  pseudo,
   getContrast,
   ColorsType,
 } from '@aw-web-design/styled-system';
@@ -25,10 +24,14 @@ const utilProps = system({
     property: 'pointerEvents',
   },
   bg: {
-    property: 'color',
+    properties: ['color', 'backgroundColor'],
     scale: 'colors',
-    transform: (scale, n) =>
-      getContrast(get(scale, n, `${n}`), scale as ColorsType),
+    transform: (scale, n) => {
+      console.log(scale, n);
+      console.log(get(scale, n));
+
+      return [getContrast(get(scale, n, `${n}`), scale as ColorsType), n];
+    },
   },
 });
 
@@ -40,7 +43,6 @@ export const StyledBoxProps = compose(
   border,
   shadow,
   flexbox,
-  pseudo,
   utilProps
 );
 

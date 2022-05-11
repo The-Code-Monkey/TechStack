@@ -1,10 +1,8 @@
-import { pseudoMixin } from '@aw-web-design/styled-system';
 import styled from 'styled-components';
 
 import { StyledBoxProps } from '../../primal';
 
-export const StyledInput = styled('input')`
-  ${pseudoMixin}
+export const StyledInput = styled.input`
   ${StyledBoxProps}
 
   &::-webkit-calendar-picker-indicator {
