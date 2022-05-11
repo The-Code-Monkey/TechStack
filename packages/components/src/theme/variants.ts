@@ -70,7 +70,7 @@ const variants = {
   },
   buttons: (theme: Theme) => ({
     default: {
-      bg: 'black',
+      bg: 'neutrals.4',
       _hover: {
         bg: 'neutrals.6',
         _disabled: {
