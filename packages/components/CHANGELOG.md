@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.23](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.22...@aw-web-design/components@4.1.23) (2022-05-12)
+
+
+### Bug Fixes
+
+* loads of changes to types and functions ([d45cd23](https://github.com/The-Code-Monkey/TechStack/commit/d45cd23a826ee46939dd92ca81770b70a1e3a985))
+* update a load of stuff ([56bb576](https://github.com/The-Code-Monkey/TechStack/commit/56bb5764633af9eda7889541548c588cdaa43b9d))
+
+
+
+
+
 ## [4.1.22](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.21...@aw-web-design/components@4.1.22) (2022-05-12)
 
 **Note:** Version bump only for package @aw-web-design/components

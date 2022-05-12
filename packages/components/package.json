@@ -1,5 +1,5 @@
 {
-  "version": "4.1.22",
+  "version": "4.1.23",
   "license": "MIT",
   "type": "module",
   "main": "./dist/cjs/index.js",
@@ -84,7 +84,7 @@
   "dependencies": {
     "@aw-web-design/memoize": "4.1.10",
     "@aw-web-design/react-feather": "4.1.10",
-    "@aw-web-design/styled-system": "4.1.11",
+    "@aw-web-design/styled-system": "4.1.12",
     "@aw-web-design/theme": "4.1.10",
     "classnames": "2.3.1",
     "csstype": "3.0.11",

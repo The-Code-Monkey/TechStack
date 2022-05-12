@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.12](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/styled-system@4.1.11...@aw-web-design/styled-system@4.1.12) (2022-05-12)
+
+
+### Bug Fixes
+
+* loads of changes to types and functions ([d45cd23](https://github.com/The-Code-Monkey/TechStack/commit/d45cd23a826ee46939dd92ca81770b70a1e3a985))
+* remove some anys ([a2efbb2](https://github.com/The-Code-Monkey/TechStack/commit/a2efbb24dd0a4aac870c7d3fc535bc4a1d9890c8))
+* update a load of stuff ([56bb576](https://github.com/The-Code-Monkey/TechStack/commit/56bb5764633af9eda7889541548c588cdaa43b9d))
+
+
+
+
+
 ## 4.1.11 (2022-05-12)
 
 **Note:** Version bump only for package @aw-web-design/styled-system
