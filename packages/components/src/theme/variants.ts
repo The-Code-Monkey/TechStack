@@ -1,5 +1,3 @@
-import { get, Theme, getContrast } from '@aw-web-design/styled-system';
-
 const variants = {
   intents: {
     info: {
@@ -68,49 +66,53 @@ const variants = {
       },
     },
   },
-  buttons: (theme: Theme) => ({
+  buttons: {
     default: {
       bg: 'neutrals.4',
+      _hover: {
+        bg: 'neutrals.6',
+        _disabled: {
+          bg: 'neutrals.2',
+        },
+      },
     },
     primary: {
-      color: getContrast(get(theme.colors, 'primary.2', 'background')),
       bg: 'primary.2',
-      '&:hover': {
+      _hover: {
         bg: 'primary.1',
-        '&:disabled': {
+        _disabled: {
           bg: 'primary.0',
         },
       },
-      '&:active': {
+      _active: {
         bg: 'primary.2',
-        '&:disabled': {
+        _disabled: {
           bg: 'primary.0',
         },
       },
-      '&::before': {
+      _before: {
         bg: 'primary.1',
       },
     },
     secondary: {
-      color: getContrast(get(theme.colors, 'highlights.0', 'background')),
       bg: 'highlights.0',
-      '&:hover': {
+      _hover: {
         bg: 'highlights.2',
-        '&:disabled': {
+        _disabled: {
           bg: 'highlights.0',
         },
       },
-      '&:active': {
+      _active: {
         bg: 'highlights.2',
-        '&:disabled': {
+        _disabled: {
           bg: 'highlights.0',
         },
       },
-      '&::before': {
+      _before: {
         bg: 'primary.1',
       },
     },
-  }),
+  },
 };
 
 export default variants;

@@ -6,7 +6,6 @@ export {
   CreateStyleFunctionArgs,
   get,
   Parser,
-  Scale,
   StyleFn,
   system,
   SystemConfig,
@@ -34,9 +33,8 @@ export { shadow, ShadowProps } from './parsers/shadow';
 export { space, SpaceProps } from './parsers/space';
 export { transition, TransitionProps } from './parsers/transition';
 export { typography, TypographyProps } from './parsers/typography';
-export { pseudo } from './parsers/pseudo';
+export { pseudo, PseudoProps } from './parsers/pseudo';
 // pseudo props and mixin
-export { pseudoMixin, PseudoProps } from './pseudo';
 
 // styled-system shouldForwardProp
 export {

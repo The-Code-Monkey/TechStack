@@ -39,7 +39,5 @@ export function system(args: SystemConfig<string> = {}): Parser {
     config[key] = createStyleFunction(argConfig);
   });
 
-  const parser = createParser(config);
-
-  return parser;
+  return createParser(config);
 }

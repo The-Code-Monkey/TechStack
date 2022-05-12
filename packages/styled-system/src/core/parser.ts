@@ -1,7 +1,10 @@
+import { AllProps } from '../css/util';
+import { Scale } from '../types';
 import { defaultBreakpoints } from '../utils';
 
-import { Scale } from './types';
 import { get, merge, sort } from './util';
+
+type SxType = (a: string | number | object, b: Scale, c: unknown) => object;
 
 function createMediaQuery(n: string) {
   return `@media screen and (min-width: ${n})`;
@@ -9,12 +12,12 @@ function createMediaQuery(n: string) {
 
 function parseResponsiveStyles(
   mediaQueries: Array<string | null>,
-  sx: any,
+  sx: SxType,
   scale: Scale,
-  raw: Array<any>,
-  props: any
-) {
-  let styles: any = {};
+  raw: Array<string | number>,
+  props: unknown
+): Record<string, string | number> {
+  let styles: Record<string, string | number> = {};
 
   raw.slice(0, mediaQueries.length).forEach((value, i) => {
     const media = mediaQueries[i];
@@ -23,7 +26,10 @@ function parseResponsiveStyles(
     if (!media) {
       styles = { ...styles, ...style };
     } else {
-      styles = { ...styles, [media]: { ...styles[media], ...style } };
+      styles = {
+        ...styles,
+        [media]: { ...(styles as object)[media], ...style },
+      };
     }
   });
 
@@ -32,15 +38,15 @@ function parseResponsiveStyles(
 
 function parseResponsiveObject(
   breakpoints: Array<string>,
-  sx: any,
+  sx: SxType,
   scale: Scale,
-  raw: Record<string, unknown>,
-  props: any
-) {
-  let styles: any = {};
+  raw: object,
+  props: unknown
+): Record<string, string | number> {
+  let styles: Record<string, string | number> = {};
 
   Object.keys(raw).forEach(key => {
-    const breakpoint = breakpoints[key as unknown as number]; // FIXME?
+    const breakpoint = breakpoints[key];
     const value = raw[key];
     const style = sx(value, scale, props);
 
@@ -48,7 +54,10 @@ function parseResponsiveObject(
       styles = { ...styles, ...style };
     } else {
       const media = createMediaQuery(breakpoint);
-      styles = { ...styles, ...{ [media]: { ...styles[media], ...style } } };
+      styles = {
+        ...styles,
+        ...{ [media]: { ...(styles as object)[media], ...style } },
+      };
     }
   });
 
@@ -60,18 +69,19 @@ export interface ParserCache {
   media?: Array<null | string>;
 }
 
-export interface Parser {
-  (props: any): any;
-  config: any;
-  propNames: Array<string>;
+export type Parser = {
+  [x in keyof AllProps]: (a: object) => object;
+} & {
   cache: ParserCache;
-  [key: string]: any;
-}
+  propNames: string[];
+  config: object;
+  (props: any): any;
+};
 
-export function createParser(config: any) {
+export function createParser(config: object) {
   const cache: ParserCache = {};
 
-  const parser: Parser = (props: any) => {
+  const parser: Parser = props => {
     let styles = {};
     let shouldSort = false;
     const isCacheDisabled = props.theme?.disableStyledSystemCache;

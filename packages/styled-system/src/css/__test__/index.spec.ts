@@ -1,4 +1,5 @@
 import { css } from '..';
+import { Theme } from '../../types';
 
 describe('css', () => {
   const theme = {
@@ -144,7 +145,7 @@ describe('css', () => {
       fontSize: 3,
       fontWeight: 'bold',
       color: 'primary',
-      bg: 'secondary',
+      background: 'secondary',
       bgColor: 'primary',
       fontFamily: 'monospace',
       lineHeight: 'body',
@@ -182,7 +183,7 @@ describe('css', () => {
   });
 
   test('works with functional arguments', () => {
-    const result = css((t: any) => ({
+    const result = css((t: Theme & { colors: { primary: 'tomato' } }) => ({
       color: t.colors.primary,
     }))(theme);
     expect(result).toEqual({
@@ -192,7 +193,7 @@ describe('css', () => {
 
   test('supports functional values', () => {
     const result = css({
-      color: (t: any) => t.colors.primary,
+      color: (t: Theme & { colors: { primary: 'tomato' } }) => t.colors.primary,
     })(theme);
     expect(result).toEqual({
       color: 'tomato',
@@ -278,7 +279,9 @@ describe('css', () => {
 
   test('functional values can return responsive arrays', () => {
     const result = css({
-      color: (t: any) => [t.colors.primary, t.colors.secondary],
+      color: (
+        t: Theme & { colors: { primary: 'tomato'; secondary: 'cyan' } }
+      ) => [t.colors.primary, t.colors.secondary],
     })(theme);
     expect(result).toEqual({
       '@media screen and (min-width: 40em)': {

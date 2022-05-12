@@ -37,12 +37,12 @@ describe('util', () => {
     });
 
     it('should handle undefined values', () => {
-      const a = get({}, undefined as unknown as string);
+      const a = get({}, undefined);
       expect(a).toBe(undefined);
     });
 
     it('should handle null values', () => {
-      const a = get({}, null as unknown as string);
+      const a = get({}, null);
       expect(a).toBe(undefined);
     });
 

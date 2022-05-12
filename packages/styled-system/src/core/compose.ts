@@ -8,10 +8,8 @@ export const compose = (...parsers: Parser[]) => {
       return;
     }
 
-    config = { ...config, ...parser.config };
+    config = { ...config, ...(parser as { config: object }).config };
   });
 
-  const parser = createParser(config);
-
-  return parser;
+  return createParser(config);
 };

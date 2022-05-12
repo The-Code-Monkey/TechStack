@@ -15,7 +15,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "tcm lint src bin",
-    "test": "mocha"
+    "mocha": "mocha"
   },
   "keywords": [
     "windows",

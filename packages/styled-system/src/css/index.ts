@@ -1,19 +1,26 @@
 import { get } from '../core';
-import { pseudoSelectors } from '../pseudo/selectors';
 import { CSSObject, Theme } from '../types';
-import { defaultBreakpoints, defaultTheme, isFunction } from '../utils';
+import {
+  defaultBreakpoints,
+  defaultTheme,
+  isFunction,
+  isTheme,
+  pseudoSelectors,
+} from '../utils';
 
 import { getParserDicts } from './util';
 
 const { aliases, multiples, scales, transforms } = getParserDicts();
 
-function responsive(styles: any = {}) {
-  return (theme: any) => {
-    const result: any = {};
+function responsive(styles: object = {}) {
+  return (theme: Theme) => {
+    const result: object = {};
     const breakpoints = get(theme, 'breakpoints', defaultBreakpoints);
     const mediaQueries = [
       null,
-      ...breakpoints.map((n: any) => `@media screen and (min-width: ${n})`),
+      ...breakpoints.map(
+        (n: string | number) => `@media screen and (min-width: ${n})`
+      ),
     ];
 
     Object.keys(styles).forEach(key => {
@@ -50,23 +57,31 @@ function responsive(styles: any = {}) {
   };
 }
 
-export function css(args?: any) {
+export function css(args?: ((a: Theme) => object) | object) {
   return (props?: Theme | { theme: Theme }): CSSObject => {
-    const theme = { ...defaultTheme, ...((props as any)?.theme || props) };
+    // const propsTheme = ((props ?? { theme: props }) as { theme: Theme }).theme;
+    let theme: Theme = { ...defaultTheme };
 
-    const result: any = {};
+    if (isTheme(props)) {
+      theme = { ...theme, ...props.theme };
+    } else {
+      theme = { ...theme, ...props };
+    }
+
+    const result: CSSObject = {};
 
     const obj = typeof args === 'function' ? args(theme) : args;
     const styles = responsive(obj)(theme);
 
     Object.keys(styles).forEach(key => {
-      const x = styles[key];
-      const val = isFunction(x) ? x(theme) : x;
+      const x: string | ((x: Theme) => string) = styles[key];
+      const val: string | number | object | unknown = isFunction(x)
+        ? x(theme)
+        : x;
 
       if (val && typeof val === 'object') {
         if (Object.keys(pseudoSelectors).includes(key)) {
-          result[pseudoSelectors[key as keyof typeof pseudoSelectors]] =
-            css(val)(theme);
+          result[pseudoSelectors[key].join(', ')] = css(val)(theme);
           return;
         }
 
@@ -78,6 +93,7 @@ export function css(args?: any) {
       const scaleName = get(scales, prop);
       const scale = get(theme, scaleName, get(theme, prop, {}));
       const transform = get(transforms, prop, get);
+
       let value;
 
       // when the val is a number and less than 0, resolve it from the theme
@@ -88,20 +104,24 @@ export function css(args?: any) {
         const n = transform(scale, abs, abs);
         value = typeof n === 'string' ? `-${n}` : n * -1;
       } else {
-        value = transform(scale, val, val);
+        value = transform(scale, val as string, val);
       }
 
       if (multiples[prop as keyof typeof multiples]) {
         const dirs = multiples[prop as keyof typeof multiples];
 
         for (let i = 0; i < Object.keys(dirs).length; i += 1) {
-          result[dirs[i]] = value;
+          if (Array.isArray(value)) {
+            result[dirs[i]] = value[i];
+          } else {
+            result[dirs[i]] = value;
+          }
         }
 
         return;
+      } else {
+        result[prop] = value;
       }
-
-      result[prop] = value;
     });
 
     return result;

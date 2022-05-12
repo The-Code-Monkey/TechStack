@@ -1,15 +1,21 @@
-import { compose, get, Scale, system, SystemConfig } from '../core';
-import { RequiredTheme, ResponsiveValue, Theme, ThemeValue } from '../types';
+import { compose, get, system, SystemConfig } from '../core';
+import {
+  RequiredTheme,
+  ResponsiveValue,
+  Theme,
+  ThemeValue,
+  Scale,
+} from '../types';
 import { defaultTheme, isNumber } from '../utils';
 
-export function getMargin(scale?: Scale, n?: any) {
+export function getMargin(scale?: Scale, n?: number) {
   if (!isNumber(n)) {
     return get(scale, n, n);
   }
 
   const isNegative = n < 0;
   const absolute = Math.abs(n);
-  const value = get(scale, absolute, absolute);
+  const value = get(scale, absolute, absolute) as number;
 
   if (!isNumber(value)) {
     return isNegative ? `-${value}` : value;

@@ -7,6 +7,7 @@ import { StyledInteractable } from './styled';
 import { delay, cancellablePromise } from './utils';
 
 export interface Props extends BoxProps {
+  disabled?: boolean;
   onClick?: (event: MouseEvent) => void;
   onDoubleClick?: (event: MouseEvent) => void;
 }
@@ -17,6 +18,7 @@ const Interactable = ({
   autoid = '',
   onClick,
   onDoubleClick,
+  disabled,
   ...rest
 }: Props) => {
   const { dblClickDelay } = useContext(ConfigContext);
@@ -65,6 +67,7 @@ const Interactable = ({
       onClick={handleOnClick}
       onDoubleClick={handleOnDoubleClick}
       data-autoid={autoid}
+      disabled={disabled}
       {...rest}
     >
       {children}
