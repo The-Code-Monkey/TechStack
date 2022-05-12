@@ -8,9 +8,6 @@ import {
   shadow,
   flexbox,
   system,
-  get,
-  getContrast,
-  ColorsType,
 } from '@aw-web-design/styled-system';
 import styled from 'styled-components';
 
@@ -22,16 +19,6 @@ const utilProps = system({
   },
   pointerEvents: {
     property: 'pointerEvents',
-  },
-  bg: {
-    properties: ['color', 'backgroundColor'],
-    scale: 'colors',
-    transform: (scale, n) => {
-      console.log(scale, n);
-      console.log(get(scale, n));
-
-      return [getContrast(get(scale, n, `${n}`), scale as ColorsType), n];
-    },
   },
 });
 

@@ -1,5 +1,3 @@
-import { get, Theme, getContrast } from '@aw-web-design/styled-system';
-
 const variants = {
   intents: {
     info: {
@@ -68,9 +66,9 @@ const variants = {
       },
     },
   },
-  buttons: (theme: Theme) => ({
+  buttons: {
     default: {
-      bg: 'white',
+      bg: 'neutrals.4',
       _hover: {
         bg: 'neutrals.6',
         _disabled: {
@@ -79,8 +77,7 @@ const variants = {
       },
     },
     primary: {
-      color: getContrast(get(theme.colors, 'primary.2', 'background')),
-      bg: 'black',
+      bg: 'primary.2',
       _hover: {
         bg: 'primary.1',
         _disabled: {
@@ -98,7 +95,6 @@ const variants = {
       },
     },
     secondary: {
-      color: getContrast(get(theme.colors, 'highlights.0', 'background')),
       bg: 'highlights.0',
       _hover: {
         bg: 'highlights.2',
@@ -116,7 +112,7 @@ const variants = {
         bg: 'primary.1',
       },
     },
-  }),
+  },
 };
 
 export default variants;

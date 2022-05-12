@@ -75,12 +75,6 @@ export type Parser = {
   cache: ParserCache;
   propNames: string[];
   config: object;
-  // (
-  //   props: Partial<{
-  //     theme?: Theme & { [x: string]: string | number | object | boolean };
-  //     [x: string]: string | number | object;
-  //   }>
-  // ): unknown;
   (props: any): any;
 };
 

@@ -15,7 +15,7 @@ export function getMargin(scale?: Scale, n?: number) {
 
   const isNegative = n < 0;
   const absolute = Math.abs(n);
-  const value = get(scale, absolute, absolute);
+  const value = get(scale, absolute, absolute) as number;
 
   if (!isNumber(value)) {
     return isNegative ? `-${value}` : value;

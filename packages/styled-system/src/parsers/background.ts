@@ -13,7 +13,6 @@ export interface BackgroundProps<ThemeType extends Theme = RequiredTheme> {
     Property.Background<TLengthStyledSystem>,
     ThemeType
   >;
-  bg?: ResponsiveValue<Property.Background<TLengthStyledSystem>, ThemeType>;
   backgroundImage?: ResponsiveValue<Property.BackgroundImage, ThemeType>;
   bgImage?: ResponsiveValue<Property.BackgroundImage, ThemeType>;
   backgroundClip?: ResponsiveValue<Property.BackgroundClip, ThemeType>;
@@ -68,7 +67,6 @@ const config: SystemConfig<string> = {
   },
 };
 
-config.bg = config.background;
 config.bgImage = config.backgroundImage;
 config.bgClip = config.backgroundClip;
 config.bgSize = config.backgroundSize;

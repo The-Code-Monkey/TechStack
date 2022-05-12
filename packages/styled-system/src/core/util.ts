@@ -1,7 +1,7 @@
 export function get<T = string | number>(
   obj: object,
   path: string | number,
-  fallback?: T
+  fallback?: string | number | T
 ): T {
   const key = typeof path === 'string' ? path.split('.') : [path];
 
@@ -15,7 +15,7 @@ export function get<T = string | number>(
     result = result[key[i]];
   }
 
-  return (result === undefined ? fallback : result) as T;
+  return (result === undefined ? fallback : result) as unknown as T;
 }
 
 export function merge(

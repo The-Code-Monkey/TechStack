@@ -25,7 +25,7 @@ describe('background', () => {
 
   it('should return shorthand background styles', () => {
     const style = background({
-      bg: 'url(kitten.gif)',
+      background: 'url(kitten.gif)',
       bgImage: 'linear-gradient(45deg, black, transparent)',
       bgClip: 'text',
       bgSize: 'cover',

@@ -1,8 +1,8 @@
 import { variant, TextVariants } from '../';
 import { system, compose } from '../../core';
+import { color } from '../../parsers/color';
 
 const fontSize = system({ fontSize: true });
-const color = system({ color: true });
 
 describe('variant', () => {
   it('returns style objects from theme', () => {
@@ -55,11 +55,10 @@ describe('variant', () => {
         },
       },
       variant: 'primary',
-      color: '#111',
     });
     expect(result).toEqual({
       fontSize: '32px',
-      color: '#111',
+      color: '#fff',
     });
   });
 
@@ -82,28 +81,26 @@ describe('variant', () => {
   });
 
   describe('component variant', () => {
-    it('returns a variant defined inline', () => {
+    it('returns a variant defined inline and contrastTransform works', () => {
       const comp = variant({
         variants: {
           primary: {
-            color: 'black',
-            bgColor: 'tomato',
+            bg: '#fff',
           },
           secondary: {
-            color: 'white',
-            bgColor: 'purple',
+            bg: '#000',
           },
         },
       });
       const primary = comp({ variant: 'primary' });
       const secondary = comp({ variant: 'secondary' });
       expect(primary).toEqual({
-        color: 'black',
-        backgroundColor: 'tomato',
+        color: '#000',
+        backgroundColor: '#fff',
       });
       expect(secondary).toEqual({
-        color: 'white',
-        backgroundColor: 'purple',
+        color: '#FFF',
+        backgroundColor: '#000',
       });
     });
 

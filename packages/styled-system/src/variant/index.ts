@@ -23,9 +23,10 @@ export const variant = ({
 
   if (Object.keys(variants).length) {
     sx = (value: string | number, scale: Scale, props: { theme: Theme }) =>
-      css(get(scale, value, null))(props.theme);
+      css(get(scale, value, null) as object)(props.theme);
   } else {
-    sx = (value: string | number, scale: Scale) => get(scale, value, null);
+    sx = (value: string | number, scale: Scale) =>
+      get(scale, value, null) as CSSObject;
   }
   sx.scale = scale || key;
   sx.defaults = variants;

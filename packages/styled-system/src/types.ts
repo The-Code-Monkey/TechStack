@@ -40,11 +40,7 @@ export type ResponsiveValue<T, ThemeType extends Theme = RequiredTheme> =
   | Array<T | null>
   | { [key in (ThemeValue<'breakpoints', ThemeType> & string) | number]?: T };
 
-export type ThemeValue<
-  K extends keyof ThemeType,
-  ThemeType,
-  TVal = string | number
-> =
+export type ThemeValue<K extends keyof ThemeType, ThemeType> =
   | Array<keyof ThemeType[K]>
   | {
       [k: string]: keyof ThemeType[K];

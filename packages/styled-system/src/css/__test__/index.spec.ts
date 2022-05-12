@@ -145,7 +145,7 @@ describe('css', () => {
       fontSize: 3,
       fontWeight: 'bold',
       color: 'primary',
-      bg: 'secondary',
+      background: 'secondary',
       bgColor: 'primary',
       fontFamily: 'monospace',
       lineHeight: 'body',

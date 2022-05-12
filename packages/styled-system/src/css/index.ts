@@ -93,6 +93,7 @@ export function css(args?: ((a: Theme) => object) | object) {
       const scaleName = get(scales, prop);
       const scale = get(theme, scaleName, get(theme, prop, {}));
       const transform = get(transforms, prop, get);
+
       let value;
 
       // when the val is a number and less than 0, resolve it from the theme
@@ -110,13 +111,17 @@ export function css(args?: ((a: Theme) => object) | object) {
         const dirs = multiples[prop as keyof typeof multiples];
 
         for (let i = 0; i < Object.keys(dirs).length; i += 1) {
-          result[dirs[i]] = value;
+          if (Array.isArray(value)) {
+            result[dirs[i]] = value[i];
+          } else {
+            result[dirs[i]] = value;
+          }
         }
 
         return;
+      } else {
+        result[prop] = value;
       }
-
-      result[prop] = value;
     });
 
     return result;

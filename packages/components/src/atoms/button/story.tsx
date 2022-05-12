@@ -5,7 +5,7 @@ export default {
   component: Button,
 };
 
-export const Default = () => <Button bg='neutrals.20'>Default Button</Button>;
+export const Default = () => <Button>Default Button</Button>;
 
 export const Primary = () => <Button variant='primary'>Primary Button</Button>;
 

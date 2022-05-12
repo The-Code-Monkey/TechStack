@@ -1,4 +1,5 @@
 import { system } from '..';
+import { contrastTransform } from '../../functions';
 
 describe('system', () => {
   it('should return a parser', () => {
@@ -334,5 +335,34 @@ describe('system', () => {
 
     expect(a).toEqual({ margin: 8 });
     expect(b).toEqual({ margin: 24 });
+  });
+
+  it('should transform multiple values', () => {
+    const parser = system({
+      bg: {
+        properties: ['color', 'backgroundColor'],
+        scale: 'colors',
+        transform: contrastTransform,
+      },
+    });
+
+    const a = parser({
+      theme: {
+        colors: {
+          text: 'orange',
+          modes: {
+            light: {
+              text: 'black',
+            },
+            dark: {
+              text: 'white',
+            },
+          },
+        },
+      },
+      bg: '#ff00ff',
+    });
+
+    expect(a).toEqual({ color: 'black', backgroundColor: '#ff00ff' });
   });
 });

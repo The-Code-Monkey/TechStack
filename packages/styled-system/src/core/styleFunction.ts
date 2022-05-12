@@ -2,14 +2,15 @@ import { Properties, Pseudos } from 'csstype';
 
 import { Scale } from '../types';
 
+import { ObjectOrArray } from './types';
 import { get } from './util';
 
 type TransformType = (
   scale: Scale | undefined,
   path: string | number,
-  fallback?: string | number,
+  fallback?: string | number | ObjectOrArray<string | number> | null,
   props?: Record<string, string | number | boolean>
-) => string | number | Array<string | number>;
+) => ObjectOrArray<string | number> | string | number;
 
 export interface StyleFn {
   property?: keyof Properties | `&${Pseudos}`;
