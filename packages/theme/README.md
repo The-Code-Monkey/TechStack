@@ -3,8 +3,6 @@
  <p>A practical theme generator built from the ground up, designed to be used alongside (@aw-web-design/styled-system & @aw-web-design/components) but this is not required</p>
 </div>
 
-[![Theme](https://circleci.com/gh/The-Code-Monkey/Theme/tree/master.svg?style=shield&circle-token=22e572410091d1a78fa01e2d2f2c7fc563602644)](https://app.circleci.com/pipelines/github/The-Code-Monkey/Theme)
-
 ## Installation
 
 To install theme on your repo there are two things needed and one optional.
