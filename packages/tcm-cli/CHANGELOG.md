@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.16](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.15...@aw-web-design/tcm-cli@4.1.16) (2022-05-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jest to v26.2.2 ([3fc5b88](https://github.com/The-Code-Monkey/TechStack/commit/3fc5b88bf6dff3abec74320c5262936b2857e429))
+
+
+
+
+
 ## [4.1.15](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.14...@aw-web-design/tcm-cli@4.1.15) (2022-05-14)
 
 
