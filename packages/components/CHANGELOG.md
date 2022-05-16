@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.33](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.32...@aw-web-design/components@4.1.33) (2022-05-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency csstype to v3.1.0 ([a497f06](https://github.com/The-Code-Monkey/TechStack/commit/a497f06253b0c67125082f56542ad21849f0344b))
+
+
+
+
+
 ## [4.1.32](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.31...@aw-web-design/components@4.1.32) (2022-05-16)
 
 **Note:** Version bump only for package @aw-web-design/components
