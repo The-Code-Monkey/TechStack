@@ -14,7 +14,7 @@ describe('<Avatar />', () => {
 
   it('renders img correctly', () => {
     const { asFragment } = mountWithTheme(
-      <Avatar url='https://raw.githubusercontent.com/The-Code-Monkey/TechStack/feat/417-components-add-avatar/logo.png' />
+      <Avatar url='https://picsum.photos/id/237/200' />
     );
     expect(asFragment()).toMatchSnapshot();
   });

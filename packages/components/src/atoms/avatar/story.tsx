@@ -19,7 +19,7 @@ Children.args = {
 export const Img = Template.bind({});
 
 Img.args = {
-  url: 'https://picsum.photos/200',
+  url: 'https://picsum.photos/id/237/200',
 };
 
 export const Icon = Template.bind({});

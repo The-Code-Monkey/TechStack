@@ -50,7 +50,7 @@ exports[`<Avatar /> renders img correctly 1`] = `
   >
     <img
       height="64px"
-      src="https://raw.githubusercontent.com/The-Code-Monkey/TechStack/feat/417-components-add-avatar/logo.png"
+      src="https://picsum.photos/id/237/200"
       width="64px"
     />
   </div>
