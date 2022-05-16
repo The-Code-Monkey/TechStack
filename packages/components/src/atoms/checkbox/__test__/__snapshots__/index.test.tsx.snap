@@ -3,7 +3,7 @@
 exports[`<Checkbox /> renders correctly checked 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bscPHp cKainq sc-ibERUn"
+    class="sc-bscPHp jVQjEm sc-ibERUn"
     cursor="pointer"
     data-autoid="checkbox"
     data-checked="true"
@@ -39,7 +39,7 @@ exports[`<Checkbox /> renders correctly checked 1`] = `
 exports[`<Checkbox /> renders correctly no icon 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bscPHp fzNXSF sc-ibERUn"
+    class="sc-bscPHp gPrQht sc-ibERUn"
     cursor="pointer"
     data-autoid="checkbox"
   />

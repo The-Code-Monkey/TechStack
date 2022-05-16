@@ -7,7 +7,7 @@ exports[`<Button /> renders default correctly 1`] = `
     data-autoid="Default_button"
   >
     <span
-      class="sc-bKFsHG iSgAzn"
+      class="sc-bKFsHG gTLBQW"
       data-autoid=""
     >
       Default
@@ -55,7 +55,7 @@ exports[`<Button /> renders icon correctly 1`] = `
       </svg>
     </div>
     <span
-      class="sc-bKFsHG iSgAzn"
+      class="sc-bKFsHG gTLBQW"
       data-autoid=""
     >
       Secondary
@@ -103,7 +103,7 @@ exports[`<Button /> renders icon only correctly 1`] = `
       </svg>
     </div>
     <span
-      class="sc-bKFsHG iSgAzn"
+      class="sc-bKFsHG gTLBQW"
       data-autoid=""
     />
   </button>
@@ -117,7 +117,7 @@ exports[`<Button /> renders primary correctly 1`] = `
     data-autoid="Primary_button"
   >
     <span
-      class="sc-bKFsHG iSgAzn"
+      class="sc-bKFsHG gTLBQW"
       data-autoid=""
     >
       Primary
@@ -133,7 +133,7 @@ exports[`<Button /> renders secondary correctly 1`] = `
     data-autoid="Secondary_button"
   >
     <span
-      class="sc-bKFsHG iSgAzn"
+      class="sc-bKFsHG gTLBQW"
       data-autoid=""
     >
       Secondary

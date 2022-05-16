@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Avatar /> renders icon correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bscPHp hEFKjM"
+    data-autoid="box"
+  >
+    <div
+      class="sc-bscPHp gqgVuA sc-gqyZTE kmoqFI"
+      data-autoid="github_icon"
+    >
+      <svg
+        data-name="fallback-icon"
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="12"
+          cy="12"
+          r="10"
+        />
+        <path
+          d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"
+        />
+        <line
+          x1="12"
+          x2="12.01"
+          y1="17"
+          y2="17"
+        />
+      </svg>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Avatar /> renders img correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bscPHp hEFKjM"
+    data-autoid="box"
+  >
+    <img
+      height="64px"
+      src="https://raw.githubusercontent.com/The-Code-Monkey/TechStack/feat/417-components-add-avatar/logo.png"
+      width="64px"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Avatar /> renders text correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bscPHp hEFKjM"
+    data-autoid="box"
+  >
+    <span
+      class="sc-bKFsHG cMnIBd"
+      data-autoid=""
+    >
+      TT
+    </span>
+  </div>
+</DocumentFragment>
+`;
