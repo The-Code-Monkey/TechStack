@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.35](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.34...@aw-web-design/components@4.1.35) (2022-05-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-table to v7.8.0 ([#434](https://github.com/The-Code-Monkey/TechStack/issues/434)) ([abf59ca](https://github.com/The-Code-Monkey/TechStack/commit/abf59ca9fc07a4a818e3fc86b898e76403b57914))
+
+
+
+
+
 ## [4.1.34](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.33...@aw-web-design/components@4.1.34) (2022-05-16)
 
 **Note:** Version bump only for package @aw-web-design/components
