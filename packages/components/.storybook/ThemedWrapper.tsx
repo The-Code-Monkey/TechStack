@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {useEffect, useMemo, useState} from "react";
 import addons from "@storybook/addons";
 import { ThemeProvider } from "styled-components";
 
@@ -8,26 +8,28 @@ import config from "../orchard.theme.config.json";
 
 const channel = addons.getChannel();
 
-function ThemedWrapper(props) {
+function ThemedWrapper({ context, children }) {
     const [isDark, setDark] = useState(false);
 
     useEffect(() => {
-        channel.on("DARK_MODE", setDark);
-    }, [channel, setDark]);
+        setDark(context?.globals?.backgrounds?.value === "#333333");
+    }, [context, setDark])
 
-    const theme = {
+    const theme = useMemo(() =>({
         ...modeTheme,
         colors: {
             common: modeTheme.colors.common,
             modes: modeTheme.colors.modes,
             ...modeTheme.colors.modes[isDark ? "dark" : "light"]
        }
-    }
+    }), [isDark]);
+
+    console.log(context?.globals?.backgrounds?.value);
 
     return (
         <ConfigContext.Provider value={config}>
             <ThemeProvider theme={theme}>
-                {props.children}
+                {children}
             </ThemeProvider>
         </ConfigContext.Provider>
     )
