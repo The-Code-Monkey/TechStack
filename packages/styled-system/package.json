@@ -55,7 +55,7 @@
   "dependencies": {
     "@aw-web-design/memoize": "4.1.16",
     "@emotion/is-prop-valid": "1.1.2",
-    "csstype": "3.0.11"
+    "csstype": "3.1.0"
   },
   "gitHead": "25f6ba2d98aa011acb349bb3f16320be8bccafc0"
 }
