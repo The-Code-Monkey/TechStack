@@ -41,7 +41,7 @@
     <a href="https://dev--6278c83eb59351004aa9a718.chromatic.com">View Components Storybook</a>
   <span> · </span>
 <!--     <a href="https://tech-stack-react-cms.vercel.app/">View React CMS Demo</a> -->
-  <span> · </span>
+<!--   <span> · </span> -->
     <a href="https://github.com/The-Code-Monkey/TechStack">Documentation (not built yet)</a>
   <span> · </span>
     <a href="https://github.com/The-Code-Monkey/TechStack/issues/">Report Bug</a>
