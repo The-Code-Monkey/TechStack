@@ -1,7 +1,7 @@
-var defaultBrowserMac = require('default-browser-id');
+import defaultBrowserMac from 'default-browser-id';
 
-module.exports = function (callback) {
-  defaultBrowserMac(function (err, browserId) {
+module.exports = function async (callback) {
+  await defaultBrowserMac(function (err, browserId) {
     if (err) {
       callback('Unable to retrieve default browser: ' + err);
       return;
