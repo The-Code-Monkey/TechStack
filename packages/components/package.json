@@ -59,7 +59,7 @@
     ]
   },
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.28",
+    "@aw-web-design/tcm-cli": "4.1.27",
     "@size-limit/file": "7.0.8",
     "@storybook/addon-essentials": "6.5.4",
     "@storybook/addon-links": "6.5.4",
