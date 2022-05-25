@@ -1,7 +1,7 @@
 {
   "name": "@aw-web-design/virtualization",
   "author": "The-Code-Monkey",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "💀🚟 Dead-simple responsive virtualization library",
   "license": "MIT",
   "type": "module",
@@ -40,7 +40,7 @@
     "react": ">=16.0.0"
   },
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.31",
+    "@aw-web-design/tcm-cli": "4.1.32",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
