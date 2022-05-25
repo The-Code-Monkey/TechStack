@@ -59,7 +59,7 @@
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.30.0",
     "eslint-plugin-react-hooks": "4.5.0",
-    "eslint-plugin-testing-library": "5.5.0",
+    "eslint-plugin-testing-library": "5.5.1",
     "execa": "6.1.0",
     "figlet": "1.5.2",
     "fs-extra": "10.1.0",
