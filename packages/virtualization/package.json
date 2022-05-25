@@ -1,0 +1,52 @@
+{
+  "name": "@aw-web-design/virtualization",
+  "author": "The-Code-Monkey",
+  "version": "0.0.1",
+  "description": "💀🚟 Dead-simple responsive virtualization library",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js",
+    "default": "./dist/esm/index.js"
+  },
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": "16.15.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/virtualization/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Code-Monkey/TechStack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/The-Code-Monkey/TechStack/issues"
+  },
+  "scripts": {
+    "build": "tcm build",
+    "lint": "tcm lint",
+    "test": "tcm test"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@aw-web-design/tcm-cli": "4.1.31",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {
+    "@juggle/resize-observer": "^3.3.1",
+    "nanobounce": "^1.1.0",
+    "react-use-measure": "^2.1.1"
+  }
+}
