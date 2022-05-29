@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/memoize",
-  "version": "4.1.34",
+  "version": "4.1.35",
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
   "main": "./dist/cjs/index.js",
@@ -38,7 +38,7 @@
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.35",
+    "@aw-web-design/tcm-cli": "4.1.36",
     "benchmark": "2.1.4",
     "cross-env": "7.0.3",
     "expect-type": "0.13.0",
