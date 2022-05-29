@@ -88,7 +88,7 @@
     "@aw-web-design/theme": "4.1.35",
     "classnames": "2.3.1",
     "csstype": "3.1.0",
-    "i18next": "21.8.4",
+    "i18next": "21.8.5",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-i18next": "11.16.9",
