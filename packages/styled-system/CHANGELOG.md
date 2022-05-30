@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.40 (2022-05-30)
+
+**Note:** Version bump only for package @aw-web-design/styled-system
+
+
+
+
+
 ## [4.1.39](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/styled-system@4.1.38...@aw-web-design/styled-system@4.1.39) (2022-05-30)
 
 **Note:** Version bump only for package @aw-web-design/styled-system
