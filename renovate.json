@@ -23,7 +23,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["node"],
-      "enable": false
+      "enabled": false
     },
     {
       "matchPackagePatterns": ["@aw-web-design/*"],
