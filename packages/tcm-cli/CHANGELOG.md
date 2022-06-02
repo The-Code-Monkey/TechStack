@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.46](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.45...@aw-web-design/tcm-cli@4.1.46) (2022-06-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/jest to v27.5.2 ([4bdf23e](https://github.com/The-Code-Monkey/TechStack/commit/4bdf23e2a4b7cd51b4752d2db424d6ea3de0e605))
+
+
+
+
+
 ## [4.1.45](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.44...@aw-web-design/tcm-cli@4.1.45) (2022-06-01)
 
 **Note:** Version bump only for package @aw-web-design/tcm-cli
