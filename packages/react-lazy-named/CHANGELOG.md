@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.47](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-lazy-named@4.1.46...@aw-web-design/react-lazy-named@4.1.47) (2022-06-02)
+
+**Note:** Version bump only for package @aw-web-design/react-lazy-named
+
+
+
+
+
 ## [4.1.46](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-lazy-named@4.1.45...@aw-web-design/react-lazy-named@4.1.46) (2022-06-02)
 
 **Note:** Version bump only for package @aw-web-design/react-lazy-named
