@@ -9,7 +9,7 @@
     "src"
   ],
   "engines": {
-    "node": "16.15.0"
+    "node": ">=16"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json && yarn copy",
