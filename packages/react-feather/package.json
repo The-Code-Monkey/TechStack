@@ -22,7 +22,7 @@
     "test": "tcm test"
   },
   "engines": {
-    "node": "16.15.0"
+    "node": ">=16"
   },
   "publishConfig": {
     "access": "public"
