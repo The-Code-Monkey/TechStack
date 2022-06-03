@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.50 (2022-06-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency colorette to v2.0.17 ([4eaa354](https://github.com/The-Code-Monkey/TechStack/commit/4eaa354d404752ad542dfd3d3a73351195186caf))
+
+
+
+
+
 ## 4.1.49 (2022-06-03)
 
 **Note:** Version bump only for package @aw-web-design/tcm-cli
