@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.52](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.51...@aw-web-design/tcm-cli@4.1.52) (2022-06-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.17.0 ([#496](https://github.com/The-Code-Monkey/TechStack/issues/496)) ([ad82f58](https://github.com/The-Code-Monkey/TechStack/commit/ad82f58adad54716ee74c15ae3e249b78185a204))
+* **deps:** update dependency ts-node to v10.8.1 ([#495](https://github.com/The-Code-Monkey/TechStack/issues/495)) ([127e764](https://github.com/The-Code-Monkey/TechStack/commit/127e764f92011cdc6fc396982eec7509a386874a))
+
+
+
+
+
 ## [4.1.51](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.50...@aw-web-design/tcm-cli@4.1.51) (2022-06-04)
 
 **Note:** Version bump only for package @aw-web-design/tcm-cli
