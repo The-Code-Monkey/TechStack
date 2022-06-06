@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.56](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.55...@aw-web-design/tcm-cli@4.1.56) (2022-06-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency camelcase to v7 ([#503](https://github.com/The-Code-Monkey/TechStack/issues/503)) ([28438e7](https://github.com/The-Code-Monkey/TechStack/commit/28438e7fdecbe28ad095f960f0c32a1ce3cbda62))
+* **deps:** update dependency eslint-plugin-jest to v26.5.3 ([#502](https://github.com/The-Code-Monkey/TechStack/issues/502)) ([c2b42c9](https://github.com/The-Code-Monkey/TechStack/commit/c2b42c9ca7b7316281107bba60d17e956e895b78))
+
+
+
+
+
 ## [4.1.55](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.54...@aw-web-design/tcm-cli@4.1.55) (2022-06-06)
 
 **Note:** Version bump only for package @aw-web-design/tcm-cli

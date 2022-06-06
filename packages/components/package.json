@@ -1,5 +1,5 @@
 {
-  "version": "4.1.82",
+  "version": "4.1.83",
   "license": "MIT",
   "type": "module",
   "main": "./dist/cjs/index.js",
@@ -59,7 +59,7 @@
     ]
   },
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.55",
+    "@aw-web-design/tcm-cli": "4.1.56",
     "@size-limit/file": "7.0.8",
     "@storybook/addon-essentials": "6.5.7",
     "@storybook/addon-links": "6.5.7",
@@ -82,10 +82,10 @@
     "typescript": "4.7.3"
   },
   "dependencies": {
-    "@aw-web-design/memoize": "4.1.54",
-    "@aw-web-design/react-feather": "4.1.55",
-    "@aw-web-design/styled-system": "4.1.57",
-    "@aw-web-design/theme": "4.1.55",
+    "@aw-web-design/memoize": "4.1.55",
+    "@aw-web-design/react-feather": "4.1.56",
+    "@aw-web-design/styled-system": "4.1.58",
+    "@aw-web-design/theme": "4.1.56",
     "classnames": "2.3.1",
     "csstype": "3.1.0",
     "i18next": "21.8.8",
