@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.57 (2022-06-07)
+
+**Note:** Version bump only for package @aw-web-design/x-default-browser
+
+
+
+
+
 ## 1.4.56 (2022-06-07)
 
 **Note:** Version bump only for package @aw-web-design/x-default-browser
