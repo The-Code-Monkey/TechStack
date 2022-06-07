@@ -1,6 +1,6 @@
 {
 	"name": "@aw-web-design/font-picker-react",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Font selector component for Google Fonts",
 	"type": "module",
 	"main": "./dist/cjs/index.js",
@@ -35,7 +35,7 @@
 	},
 	"devDependencies": {
 		"@aw-web-design/tcm-cli": "4.1.57",
-		"react": "^16.13.1",
-		"@storybook/react": "^5.3.18"
+		"@storybook/react": "^5.3.18",
+		"react": "^16.13.1"
 	}
 }
