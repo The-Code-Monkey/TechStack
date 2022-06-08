@@ -1,5 +1,5 @@
 {
-  "version": "4.1.88",
+  "version": "4.1.89",
   "license": "MIT",
   "type": "module",
   "main": "./dist/cjs/index.js",
@@ -82,7 +82,7 @@
   },
   "dependencies": {
     "@aw-web-design/memoize": "4.1.58",
-    "@aw-web-design/react-feather": "4.1.59",
+    "@aw-web-design/react-feather": "4.1.60",
     "@aw-web-design/styled-system": "4.1.61",
     "@aw-web-design/theme": "4.1.60",
     "classnames": "2.3.1",
@@ -94,9 +94,9 @@
     "styled-components": "6.0.0-alpha.5"
   },
   "peerDependencies": {
+    "@types/react": "^17.0.0",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "@types/react": "^17.0.0"
+    "react-dom": "^17.0.0"
   },
   "gitHead": "25f6ba2d98aa011acb349bb3f16320be8bccafc0"
 }

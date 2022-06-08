@@ -1,6 +1,6 @@
 {
 	"name": "@aw-web-design/font-picker-react",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "Font selector component for Google Fonts",
 	"type": "module",
 	"main": "./dist/cjs/index.js",
@@ -30,9 +30,9 @@
 		"@samuelmeuli/font-manager": "^1.4.0"
 	},
 	"peerDependencies": {
-	        "react": "^17.0.0",
-	        "react-dom": "^17.0.0",
-	        "@types/react": "^17.0.0"
+		"@types/react": "^17.0.0",
+		"react": "^17.0.0",
+		"react-dom": "^17.0.0"
 	},
 	"devDependencies": {
 		"@aw-web-design/tcm-cli": "4.1.59",
