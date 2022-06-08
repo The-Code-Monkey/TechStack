@@ -54,6 +54,6 @@
     "@aw-web-design/react-lazy-named": "4.1.58"
   },
   "peerDependencies": {
-    "react": "18.1.0"
-  }
+    "react": "^17.0.0"
+  },
 }
