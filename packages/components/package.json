@@ -95,8 +95,8 @@
   },
   "peerDependencies": {
     "@types/react": "^17.0.0 || ^18.0.0",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
   },
   "gitHead": "25f6ba2d98aa011acb349bb3f16320be8bccafc0"
 }
