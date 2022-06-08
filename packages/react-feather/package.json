@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/react-feather",
-  "version": "4.1.60",
+  "version": "4.1.61",
   "description": "React component for Feather icons",
   "type": "module",
   "main": "./dist/cjs/index.js",
@@ -51,7 +51,7 @@
     "typescript": "4.7.3"
   },
   "dependencies": {
-    "@aw-web-design/react-lazy-named": "4.1.59"
+    "@aw-web-design/react-lazy-named": "4.1.60"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0"
