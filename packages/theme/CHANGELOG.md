@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.60 (2022-06-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency style-dictionary to v3.7.1 ([#511](https://github.com/The-Code-Monkey/TechStack/issues/511)) ([4a14915](https://github.com/The-Code-Monkey/TechStack/commit/4a149155a09235087e020a7c21ae103ba3d049f2))
+
+
+
+
+
 ## 4.1.59 (2022-06-07)
 
 **Note:** Version bump only for package @aw-web-design/theme
