@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.64 (2022-06-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @emotion/is-prop-valid to v1.1.3 ([1f1f991](https://github.com/The-Code-Monkey/TechStack/commit/1f1f9911d0261720c03e784b337b9d4f4453bfb1))
+
+
+
+
+
 ## [4.1.63](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/styled-system@4.1.62...@aw-web-design/styled-system@4.1.63) (2022-06-09)
 
 **Note:** Version bump only for package @aw-web-design/styled-system
