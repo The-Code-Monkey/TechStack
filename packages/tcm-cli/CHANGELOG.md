@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.64](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.63...@aw-web-design/tcm-cli@4.1.64) (2022-06-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency colorette to v2.0.18 ([#526](https://github.com/The-Code-Monkey/TechStack/issues/526)) ([aa8b296](https://github.com/The-Code-Monkey/TechStack/commit/aa8b2966935bdcd235acf5c9afadef0935bb8263))
+* **deps:** update dependency prettier to v2.7.0 ([#527](https://github.com/The-Code-Monkey/TechStack/issues/527)) ([6aaeb08](https://github.com/The-Code-Monkey/TechStack/commit/6aaeb088ed34c4df0acfd4c7a5a1592684b83786))
+
+
+
+
+
 ## [4.1.63](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.62...@aw-web-design/tcm-cli@4.1.63) (2022-06-14)
 
 **Note:** Version bump only for package @aw-web-design/tcm-cli
