@@ -45,7 +45,7 @@
     "@typescript-eslint/parser": "5.27.1",
     "asyncro": "3.0.0",
     "camelcase": "7.0.0",
-    "colorette": "2.0.17",
+    "colorette": "2.0.18",
     "confusing-browser-globals": "1.0.11",
     "enquirer": "2.3.6",
     "eslint": "8.17.0",
