@@ -37,6 +37,6 @@
 	"devDependencies": {
 		"@aw-web-design/tcm-cli": "4.1.66",
 		"@storybook/react": "6.5.9",
-		"react": "18.1.0"
+		"react": "18.2.0"
 	}
 }
