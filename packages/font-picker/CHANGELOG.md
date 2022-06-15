@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.16](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/font-picker-react@0.1.15...@aw-web-design/font-picker-react@0.1.16) (2022-06-15)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo ([#530](https://github.com/The-Code-Monkey/TechStack/issues/530)) ([d2eb5a1](https://github.com/The-Code-Monkey/TechStack/commit/d2eb5a1d2c1eb9b666f4e6b3fc344bd61532c31e))
+
+
+
+
+
 ## 0.1.15 (2022-06-15)
 
 **Note:** Version bump only for package @aw-web-design/font-picker-react
