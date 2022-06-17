@@ -1,5 +1,5 @@
 {
-  "version": "4.1.74",
+  "version": "4.1.75",
   "license": "MIT",
   "name": "@aw-web-design/styled-system",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/styled-system/README.md",
@@ -46,14 +46,14 @@
     }
   ],
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.71",
+    "@aw-web-design/tcm-cli": "4.1.72",
     "@size-limit/file": "7.0.8",
     "size-limit": "7.0.8",
     "tslib": "2.4.0",
     "typescript": "4.7.3"
   },
   "dependencies": {
-    "@aw-web-design/memoize": "4.1.70",
+    "@aw-web-design/memoize": "4.1.71",
     "@emotion/is-prop-valid": "1.1.3",
     "csstype": "3.1.0"
   },
