@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/react-textfit",
-  "version": "4.1.78",
+  "version": "4.1.79",
   "description": "React component to fit headlines and paragraphs into any element",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/react-textfit/README.md",
   "repository": {
@@ -37,7 +37,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.73",
+    "@aw-web-design/tcm-cli": "4.1.74",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",
