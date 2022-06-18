@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.76 (2022-06-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.18.0 ([#544](https://github.com/The-Code-Monkey/TechStack/issues/544)) ([2b99202](https://github.com/The-Code-Monkey/TechStack/commit/2b99202b064d65df10e70e28f2b0f35894fa059a))
+
+
+
+
+
 ## [4.1.75](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.74...@aw-web-design/tcm-cli@4.1.75) (2022-06-18)
 
 **Note:** Version bump only for package @aw-web-design/tcm-cli
