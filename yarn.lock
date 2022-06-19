@@ -7050,10 +7050,10 @@ chownr@^2.0.0:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
 
-chromatic@6.6.2:
-  version "6.6.2"
-  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-6.6.2.tgz#174142a730db714caad6b86b4a3b8418b1007a56"
-  integrity sha512-qRcmjL3DZhI3dGrDuvd4abYEZ1I5y0ePNgfP4KZd9v8XWDX0X3P0/xzHhAtEC6BshunZFMksj2kXDNh8uCyq2g==
+chromatic@6.6.3:
+  version "6.6.3"
+  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-6.6.3.tgz#8e66f39b42f64debbe05fdee21ea5bb5fd8c3f94"
+  integrity sha512-6FS39fAZnQL2A+bECyU469Qo4Th9EYpQ2ciIX/y1Qj+BRQib0N99hab34teYf2bVCD4+WuGMMTdUbt3rp3qcQw==
   dependencies:
     "@types/webpack-env" "^1.17.0"
 
