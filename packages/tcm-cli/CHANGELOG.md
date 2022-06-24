@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.80](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.79...@aw-web-design/tcm-cli@4.1.80) (2022-06-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency type-fest to v2.14.0 ([e7a2cba](https://github.com/The-Code-Monkey/TechStack/commit/e7a2cbaa1f599137c56fc85adb620c12667ed9c6))
+
+
+
+
+
 ## [4.1.79](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.78...@aw-web-design/tcm-cli@4.1.79) (2022-06-24)
 
 
