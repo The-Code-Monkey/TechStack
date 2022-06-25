@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.82](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.81...@aw-web-design/tcm-cli@4.1.82) (2022-06-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.6.0 ([7d28af0](https://github.com/The-Code-Monkey/TechStack/commit/7d28af0be8986172f76310b62f12f1a8b446d675))
+
+
+
+
+
 ## [4.1.81](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.80...@aw-web-design/tcm-cli@4.1.81) (2022-06-25)
 
 **Note:** Version bump only for package @aw-web-design/tcm-cli
