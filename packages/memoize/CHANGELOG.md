@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.83](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.82...@aw-web-design/memoize@4.1.83) (2022-06-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ora to v6.1.1 ([2e992d1](https://github.com/The-Code-Monkey/TechStack/commit/2e992d1e689fd7c3855654d4e3009993fb20ed36))
+
+
+
+
+
 ## [4.1.82](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.81...@aw-web-design/memoize@4.1.82) (2022-06-25)
 
 **Note:** Version bump only for package @aw-web-design/memoize
