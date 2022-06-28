@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.85 (2022-06-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ora to v6.1.2 ([de9105f](https://github.com/The-Code-Monkey/TechStack/commit/de9105ff0895069ac18165bfa5e5cdd1a45e1b89))
+
+
+
+
+
 ## [4.1.84](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.83...@aw-web-design/tcm-cli@4.1.84) (2022-06-26)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/react-feather",
-  "version": "4.1.86",
+  "version": "4.1.87",
   "description": "React component for Feather icons",
   "type": "module",
   "main": "./dist/cjs/index.js",
@@ -45,13 +45,13 @@
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.84",
+    "@aw-web-design/tcm-cli": "4.1.85",
     "cross-env": "7.0.3",
     "fs-extra": "10.1.0",
     "typescript": "4.7.4"
   },
   "dependencies": {
-    "@aw-web-design/react-lazy-named": "4.1.85"
+    "@aw-web-design/react-lazy-named": "4.1.86"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0"
