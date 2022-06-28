@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.85](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.84...@aw-web-design/memoize@4.1.85) (2022-06-28)
+
+**Note:** Version bump only for package @aw-web-design/memoize
+
+
+
+
+
 ## 4.1.84 (2022-06-28)
 
 
