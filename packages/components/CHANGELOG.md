@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.129](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.128...@aw-web-design/components@4.1.129) (2022-06-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-prettier to v4.1.0 ([2113cde](https://github.com/The-Code-Monkey/TechStack/commit/2113cde0442bddd0ae1dc8d38a3707395ad726df))
+
+
+
+
+
 ## [4.1.128](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.127...@aw-web-design/components@4.1.128) (2022-06-28)
 
 **Note:** Version bump only for package @aw-web-design/components
