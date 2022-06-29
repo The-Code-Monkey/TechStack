@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.89](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.88...@aw-web-design/tcm-cli@4.1.89) (2022-06-29)
+
+
+### Bug Fixes
+
+* **deps:** update jest monorepo to v28.1.2 ([69ba598](https://github.com/The-Code-Monkey/TechStack/commit/69ba59852339885f87cc2270bce30694251fb6a1))
+
+
+
+
+
 ## [4.1.88](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.87...@aw-web-design/tcm-cli@4.1.88) (2022-06-29)
 
 
