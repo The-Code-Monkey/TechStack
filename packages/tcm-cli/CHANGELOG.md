@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.90 (2022-06-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-prettier to v4.2.1 ([#567](https://github.com/The-Code-Monkey/TechStack/issues/567)) ([5dcc0f7](https://github.com/The-Code-Monkey/TechStack/commit/5dcc0f79e7e2dc52248f242c8afe62c4455d5850))
+
+
+
+
+
 ## [4.1.89](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.88...@aw-web-design/tcm-cli@4.1.89) (2022-06-29)
 
 
