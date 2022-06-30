@@ -73,7 +73,7 @@
     "chromatic": "6.6.4",
     "cross-env": "7.0.3",
     "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-prettier": "4.1.0",
+    "eslint-plugin-prettier": "4.2.1",
     "esm": "3.2.25",
     "react-is": "18.2.0",
     "size-limit": "7.0.8",
