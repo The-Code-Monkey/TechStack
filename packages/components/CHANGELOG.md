@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.137](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.136...@aw-web-design/components@4.1.137) (2022-07-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency i18next to v21.8.13 ([dcc25ce](https://github.com/The-Code-Monkey/TechStack/commit/dcc25ce817123a27826806f3376208431d17226f))
+
+
+
+
+
 ## [4.1.136](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.135...@aw-web-design/components@4.1.136) (2022-07-10)
 
 **Note:** Version bump only for package @aw-web-design/components
