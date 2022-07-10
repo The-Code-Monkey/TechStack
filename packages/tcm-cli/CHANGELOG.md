@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.97](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.96...@aw-web-design/tcm-cli@4.1.97) (2022-07-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.19.0 ([#570](https://github.com/The-Code-Monkey/TechStack/issues/570)) ([ecee938](https://github.com/The-Code-Monkey/TechStack/commit/ecee93816f9b607f1b9504158a521961f758c580))
+* **deps:** update dependency jest-watch-typeahead to v2 ([#582](https://github.com/The-Code-Monkey/TechStack/issues/582)) ([462b065](https://github.com/The-Code-Monkey/TechStack/commit/462b06589555edd926f9ab9a1b134c73179b3633))
+* **deps:** update dependency type-fest to v2.16.0 ([#569](https://github.com/The-Code-Monkey/TechStack/issues/569)) ([c1774eb](https://github.com/The-Code-Monkey/TechStack/commit/c1774ebb4e5cfe1226423efc2b5e077062551be3))
+
+
+
+
+
 ## 4.1.96 (2022-07-10)
 
 
