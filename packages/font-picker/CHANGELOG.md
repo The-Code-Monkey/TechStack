@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.48](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/font-picker-react@0.1.47...@aw-web-design/font-picker-react@0.1.48) (2022-07-13)
+
+**Note:** Version bump only for package @aw-web-design/font-picker-react
+
+
+
+
+
 ## [0.1.47](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/font-picker-react@0.1.46...@aw-web-design/font-picker-react@0.1.47) (2022-07-12)
 
 **Note:** Version bump only for package @aw-web-design/font-picker-react
