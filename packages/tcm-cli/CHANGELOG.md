@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.102 (2022-07-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ts-node to v10.9.1 ([#589](https://github.com/The-Code-Monkey/TechStack/issues/589)) ([8f074e9](https://github.com/The-Code-Monkey/TechStack/commit/8f074e94fa723ff831d6bd6884f789a39900e02b))
+
+
+
+
+
 ## 4.1.101 (2022-07-14)
 
 **Note:** Version bump only for package @aw-web-design/tcm-cli
