@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@rollup/plugin-babel": "5.3.1",
-    "@types/jest": "28.1.5",
+    "@types/jest": "28.1.6",
     "@typescript-eslint/eslint-plugin": "5.30.6",
     "@typescript-eslint/parser": "5.30.6",
     "asyncro": "3.0.0",
