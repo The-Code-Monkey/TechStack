@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.114](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-textfit@4.1.113...@aw-web-design/react-textfit@4.1.114) (2022-07-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.20.0 ([2c564c9](https://github.com/The-Code-Monkey/TechStack/commit/2c564c9c51751b5cef749fe64431c0d8c9a331e0))
+
+
+
+
+
 ## [4.1.113](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-textfit@4.1.112...@aw-web-design/react-textfit@4.1.113) (2022-07-16)
 
 **Note:** Version bump only for package @aw-web-design/react-textfit
