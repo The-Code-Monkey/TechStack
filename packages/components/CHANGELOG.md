@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.161](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.160...@aw-web-design/components@4.1.161) (2022-07-26)
+
+
+### Bug Fixes
+
+* add missing dep deep merge ([1bc13b8](https://github.com/The-Code-Monkey/TechStack/commit/1bc13b8bf20fe96e8db1630bd1772939079892bf))
+
+
+
+
+
 ## [4.1.160](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.159...@aw-web-design/components@4.1.160) (2022-07-26)
 
 
