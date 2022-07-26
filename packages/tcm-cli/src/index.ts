@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { createRequire } from 'module';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
 import chalk from 'chalk';
 import enquirer from 'enquirer';
@@ -49,6 +50,10 @@ import {
 } from './utils.js';
 
 const prog = sade('tcm');
+
+const __filename = fileURLToPath(import.meta.url);
+
+const __dirname = path.dirname(__filename);
 
 let appPackageJson: PackageJson;
 
