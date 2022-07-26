@@ -13,16 +13,16 @@
   "engines": {
     "node": ">=16"
   },
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/react-textfit.esm.js",
   "exports": {
-    "import": "./dist/esm/index.js",
-    "require": "./dist/cjs/index.js",
-    "default": "./dist/esm/index.js"
+    "import": "./dist/react-textfit.esm.js",
+    "require": "./dist/react-textfix.cjs.production.min.js",
+    "default": "./dist/react-textfit.esm.js"
   },
   "typings": "dist/types/index.d.ts",
   "scripts": {
-    "build": "tcm build",
+    "build": "dts build",
     "lint": "tcm lint"
   },
   "publishConfig": {
@@ -37,6 +37,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "dts-cli": "1.5.2",
     "@aw-web-design/tcm-cli": "4.1.114",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",

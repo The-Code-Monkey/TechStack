@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "tcm watch",
-    "build": "yarn build:tokens && tcm build ",
+    "build": "yarn build:tokens && dts build",
     "build:tokens": "orchard generate",
     "test": "yarn build:tokens && tcm test",
     "lint": "yarn build:tokens && tcm lint",
@@ -45,11 +45,11 @@
   },
   "size-limit": [
     {
-      "path": "dist/esm/index.js",
+      "path": "dist/index.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/cjs/index.js",
+      "path": "dist/components.esm.js",
       "limit": "10 KB"
     }
   ],
@@ -59,6 +59,7 @@
     ]
   },
   "devDependencies": {
+    "dts-cli": "1.5.2",
     "@aw-web-design/tcm-cli": "4.1.114",
     "@size-limit/file": "7.0.8",
     "@storybook/addon-essentials": "6.5.9",

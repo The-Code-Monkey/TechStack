@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import * as React from 'react';
 
-import lazy from './index';
+import lazy from './';
 
 const { Suspense } = React;
 
