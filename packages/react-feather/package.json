@@ -18,8 +18,7 @@
   "scripts": {
     "lint": "tcm lint",
     "prebuild": "node generate.js",
-    "build": "tcm build",
-    "test": "tcm test"
+    "build": "tcm build"
   },
   "engines": {
     "node": ">=16"

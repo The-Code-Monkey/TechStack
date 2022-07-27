@@ -13,7 +13,6 @@ exports[`<Checkbox /> renders correctly checked 1`] = `
       data-autoid="undefinedcheckbox_icon_icon"
     >
       <svg
-        data-name="check"
         fill="none"
         height="24"
         stroke="currentColor"
