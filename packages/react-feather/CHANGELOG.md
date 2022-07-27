@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.119](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-feather@4.1.118...@aw-web-design/react-feather@4.1.119) (2022-07-27)
+
+
+### Bug Fixes
+
+* remove icon component from react-feather ([29dc317](https://github.com/The-Code-Monkey/TechStack/commit/29dc317656e0d745c4616cc1bb869d9cafc6aee0))
+
+
+
+
+
 ## [4.1.118](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-feather@4.1.117...@aw-web-design/react-feather@4.1.118) (2022-07-26)
 
 **Note:** Version bump only for package @aw-web-design/react-feather
