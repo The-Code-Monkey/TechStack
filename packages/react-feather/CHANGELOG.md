@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.122 (2022-07-29)
+
+**Note:** Version bump only for package @aw-web-design/react-feather
+
+
+
+
+
 ## 4.1.121 (2022-07-28)
 
 **Note:** Version bump only for package @aw-web-design/react-feather
