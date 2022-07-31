@@ -1,6 +1,6 @@
 {
   "name": "@aw-web-design/memoize",
-  "version": "4.1.120",
+  "version": "4.1.121",
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
   "module": "./dist/memoize.esm.js",
@@ -38,7 +38,7 @@
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.121",
+    "@aw-web-design/tcm-cli": "4.1.122",
     "benchmark": "2.1.4",
     "cross-env": "7.0.3",
     "dts-cli": "1.5.2",
