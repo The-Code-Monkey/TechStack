@@ -1,5 +1,5 @@
 {
-  "version": "4.1.176",
+  "version": "4.1.177",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -85,8 +85,8 @@
     "@aw-web-design/memoize": "4.1.121",
     "@aw-web-design/react-feather": "4.1.126",
     "@aw-web-design/react-lazy-named": "4.1.123",
-    "@aw-web-design/styled-system": "4.1.127",
-    "@aw-web-design/theme": "4.1.124",
+    "@aw-web-design/styled-system": "4.1.128",
+    "@aw-web-design/theme": "4.1.125",
     "classnames": "2.3.1",
     "csstype": "3.1.0",
     "deepmerge": "4.2.2",
