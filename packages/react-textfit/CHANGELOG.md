@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.130 (2022-08-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.21.0 ([3fa3614](https://github.com/The-Code-Monkey/TechStack/commit/3fa36142c3debd5d462b65aa3495e2be5a079df6))
+
+
+
+
+
 ## 4.1.129 (2022-07-31)
 
 **Note:** Version bump only for package @aw-web-design/react-textfit

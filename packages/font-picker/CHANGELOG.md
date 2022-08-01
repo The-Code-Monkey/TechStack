@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.72 (2022-08-01)
+
+**Note:** Version bump only for package @aw-web-design/font-picker-react
+
+
+
+
+
 ## 0.1.71 (2022-07-31)
 
 **Note:** Version bump only for package @aw-web-design/font-picker-react
