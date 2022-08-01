@@ -49,7 +49,7 @@
     "@aw-web-design/tcm-cli": "4.1.122",
     "@size-limit/file": "8.0.0",
     "dts-cli": "1.5.2",
-    "size-limit": "7.0.8",
+    "size-limit": "8.0.0",
     "tslib": "2.4.0",
     "typescript": "4.7.4"
   },
