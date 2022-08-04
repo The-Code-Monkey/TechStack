@@ -1,6 +1,6 @@
 {
 	"name": "@aw-web-design/font-picker-react",
-	"version": "0.1.73",
+	"version": "0.1.74",
 	"description": "Font selector component for Google Fonts",
 	"type": "module",
 	"module": "./dist/font-picker-react.esm.js",
