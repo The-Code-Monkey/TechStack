@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.126 (2022-08-05)
+
+**Note:** Version bump only for package @aw-web-design/react-lazy-named
+
+
+
+
+
 ## 4.1.125 (2022-08-02)
 
 **Note:** Version bump only for package @aw-web-design/react-lazy-named
