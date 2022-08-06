@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.126](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/tcm-cli@4.1.125...@aw-web-design/tcm-cli@4.1.126) (2022-08-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.16 ([#626](https://github.com/The-Code-Monkey/TechStack/issues/626)) ([36c3db1](https://github.com/The-Code-Monkey/TechStack/commit/36c3db1035b888221aa108ca34bb451ac11dbb4d))
+
+
+
+
+
 ## 4.1.125 (2022-08-05)
 
 **Note:** Version bump only for package @aw-web-design/tcm-cli

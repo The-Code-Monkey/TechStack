@@ -1,5 +1,5 @@
 {
-  "version": "4.1.128",
+  "version": "4.1.129",
   "license": "MIT",
   "bin": {
     "orchard": "./dist/esm/index.js"
@@ -41,7 +41,7 @@
     }
   ],
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.125",
+    "@aw-web-design/tcm-cli": "4.1.126",
     "@size-limit/file": "8.0.0",
     "@tsconfig/recommended": "1.0.1",
     "@types/fs-extra": "9.0.13",
