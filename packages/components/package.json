@@ -94,7 +94,7 @@
     "react-i18next": "11.18.3",
     "react-lazy-named": "1.2.2",
     "react-table": "7.8.0",
-    "styled-components": "6.0.0-alpha.5"
+    "styled-components": "6.0.0-alpha.7"
   },
   "peerDependencies": {
     "@types/react": "^17.0.0 || ^18.0.0",
