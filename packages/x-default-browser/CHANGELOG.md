@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.125](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.4.124...@aw-web-design/x-default-browser@1.4.125) (2022-08-07)
+
+**Note:** Version bump only for package @aw-web-design/x-default-browser
+
+
+
+
+
 ## [1.4.124](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.4.123...@aw-web-design/x-default-browser@1.4.124) (2022-08-06)
 
 **Note:** Version bump only for package @aw-web-design/x-default-browser
