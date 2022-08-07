@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.132](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-feather@4.1.131...@aw-web-design/react-feather@4.1.132) (2022-08-07)
+
+**Note:** Version bump only for package @aw-web-design/react-feather
+
+
+
+
+
 ## [4.1.131](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-feather@4.1.130...@aw-web-design/react-feather@4.1.131) (2022-08-07)
 
 **Note:** Version bump only for package @aw-web-design/react-feather
