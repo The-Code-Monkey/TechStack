@@ -17,7 +17,8 @@
       "automerge": false
   },
   "vulnerabilityAlerts": {
-    "labels": ["security"]
+    "labels": ["security"],
+    "enabled": true
   },
   "packageRules": [
     {
