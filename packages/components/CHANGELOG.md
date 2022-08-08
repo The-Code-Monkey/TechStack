@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.186](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.185...@aw-web-design/components@4.1.186) (2022-08-08)
+
+
+### Bug Fixes
+
+* rollback styled-components to v5 ([4269891](https://github.com/The-Code-Monkey/TechStack/commit/426989129f55fc6dee056a8d82dcfa92d88bbc83))
+
+
+
+
+
 ## [4.1.185](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/components@4.1.184...@aw-web-design/components@4.1.185) (2022-08-07)
 
 **Note:** Version bump only for package @aw-web-design/components

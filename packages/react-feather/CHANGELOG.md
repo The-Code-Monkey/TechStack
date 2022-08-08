@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.133](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-feather@4.1.132...@aw-web-design/react-feather@4.1.133) (2022-08-08)
+
+
+### Bug Fixes
+
+* rollback styled-components to v5 ([4269891](https://github.com/The-Code-Monkey/TechStack/commit/426989129f55fc6dee056a8d82dcfa92d88bbc83))
+
+
+
+
+
 ## [4.1.132](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/react-feather@4.1.131...@aw-web-design/react-feather@4.1.132) (2022-08-07)
 
 **Note:** Version bump only for package @aw-web-design/react-feather
