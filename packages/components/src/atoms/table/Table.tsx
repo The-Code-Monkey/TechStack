@@ -1,7 +1,9 @@
 import cn from 'classnames';
 import { FC, useCallback, useContext, useMemo } from 'react';
 import { Accessor, TableOptions, useTable } from 'react-table';
-import { ThemeContext, DefaultTheme } from 'styled-components';
+import { ThemeContext } from 'styled-components';
+
+import { DefaultThemeWithDefaultStyles } from '../../utils';
 
 import {
   StyledTable,
@@ -18,7 +20,7 @@ export interface Props extends TableOptions<object> {
 }
 
 const Table: FC<Props> = ({ columns, data, className, onRowClick }: Props) => {
-  const theme = useContext<DefaultTheme>(ThemeContext);
+  const theme = useContext<DefaultThemeWithDefaultStyles>(ThemeContext);
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({ columns, data });
 

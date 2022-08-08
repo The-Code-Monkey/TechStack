@@ -1,17 +1,18 @@
 import { helpcircle as DefaultIcon } from '@aw-web-design/react-feather';
 import type { IconTypes } from '@aw-web-design/react-feather';
-import { IconProps } from '@aw-web-design/react-feather/dist/types/types';
 import * as React from 'react';
 const { memo, Suspense, lazy } = React;
 
+import { SizesType } from '../../theme/types';
 import { generateAutomationId } from '../../utils';
 
 import { SvgWrapper } from './styled';
 
-export interface Props extends IconProps {
+export interface Props {
   autoid?: string;
   name: IconTypes;
   noFill?: boolean;
+  size?: keyof SizesType;
 }
 
 export const getIcon = (name: IconTypes) => {

@@ -1,6 +1,7 @@
 import { IntentVariants } from '@aw-web-design/styled-system';
 import styled from 'styled-components';
 
+import { SizesType } from '../../theme/types';
 import { shouldForwardProp } from '../../utils';
 import { Box, StyledBoxProps } from '../box';
 
@@ -10,7 +11,7 @@ export const SvgWrapper = styled(Box).withConfig({
     'noFill',
     'cursor',
   ]) as () => boolean,
-})<{ noFill?: boolean }>`
+})<{ noFill?: boolean; size?: keyof SizesType }>`
   pointer-events: none;
 
   svg {
