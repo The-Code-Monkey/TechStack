@@ -27,3 +27,15 @@ export const Icon = Template.bind({});
 Icon.args = {
   iconName: 'github',
 };
+
+export const ImgAndChildren = Template.bind({});
+
+ImgAndChildren.args = {
+  url: 'https://picsum.photos/id/237/200',
+  children: 'Test Name',
+  size: 18,
+  color: 'white',
+  typography: {
+    fontSize: '10rem',
+  },
+};

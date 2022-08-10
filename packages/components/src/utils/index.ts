@@ -6,5 +6,5 @@ export * from './shouldForwardProp';
 export * from './theme-provider';
 
 export type DefaultThemeWithDefaultStyles = DefaultTheme & {
-  defaultStyles?: Record<string, any>;
+  defaultStyles?: Record<string, Record<string, unknown>>;
 };

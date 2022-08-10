@@ -21,9 +21,11 @@ export const Avatar = ({
   typography,
   ...rest
 }: Props) => {
-  const { space } = useContext(ThemeContext);
+  const { sizes } = useContext(ThemeContext);
 
-  const memoSize = useMemo(() => get(space, size, size), [size, space]);
+  const memoSize = useMemo(() => get(sizes, size, '100%'), [size, sizes]);
+
+  console.log(memoSize);
 
   return (
     <Box
@@ -39,14 +41,22 @@ export const Avatar = ({
       {...rest}
     >
       {iconName && <Icon name={iconName} />}
-      {url && <img src={url} width={memoSize} height={memoSize} />}
+      {url && <img src={url} style={{ width: memoSize, height: memoSize }} />}
       {children && (
-        <Text textAlign='center' {...typography}>
-          {children
-            .split(/\s/g)
-            .map(s => s.substr(0, 1).toUpperCase())
-            .join('')}
-        </Text>
+        <Box
+          zIndex='99'
+          position='absolute'
+          display='flex'
+          justifyContent='center'
+          alignItems='center'
+        >
+          <Text textAlign='center' {...typography}>
+            {children
+              .split(/\s/g)
+              .map(s => s.substr(0, 1).toUpperCase())
+              .join('')}
+          </Text>
+        </Box>
       )}
     </Box>
   );

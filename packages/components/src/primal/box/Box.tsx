@@ -8,7 +8,7 @@ import {
   FlexboxProps,
 } from '@aw-web-design/styled-system';
 import { Property } from 'csstype';
-import { ReactNode } from 'react';
+import { ElementType, ReactNode } from 'react';
 
 import { generateAutomationId } from '../../utils';
 
@@ -23,7 +23,7 @@ export interface Props
     ShadowProps,
     FlexboxProps {
   children?: ReactNode;
-  as?: any;
+  as?: ElementType;
   autoid?: string;
   className?: string;
   cursor?: Property.Cursor;
