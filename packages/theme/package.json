@@ -15,6 +15,7 @@
     "build": "tsc -p tsconfig.json && yarn copy",
     "copy": "cp ./src/config.json ./dist/esm/config.json && cp -r ./src/templates ./dist/esm && cp -r ./src/theme ./dist/esm && cp ./orchard.theme.config.json ./dist/esm",
     "lint": "tcm lint",
+    "test": "yarn generate && yarn generate -b partial",
     "prepare": "yarn build",
     "size": "size-limit",
     "generate": "ts-node ./src/index.ts generate",
@@ -42,7 +43,7 @@
   ],
   "devDependencies": {
     "@size-limit/file": "8.0.0",
-    "@techstack/tcm-cli": "0.0.1",
+    "@techstack/tcm-cli": "0.1.0",
     "@tsconfig/recommended": "1.0.1",
     "@types/fs-extra": "9.0.13",
     "@types/lodash": "4.14.182",

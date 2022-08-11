@@ -1,0 +1,20 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [0.1.0](https://github.com/The-Code-Monkey/TechStack/compare/v4.1.0...v0.1.0) (2022-08-11)
+
+
+### Bug Fixes
+
+* add publish config ([30b2a8f](https://github.com/The-Code-Monkey/TechStack/commit/30b2a8fcc02b5298f92024478c3652f02e6e15d2))
+* bump tcm cli ([0771246](https://github.com/The-Code-Monkey/TechStack/commit/07712465e0786403b873a21d8220ecf71af2afaf))
+* linting ([6e535e2](https://github.com/The-Code-Monkey/TechStack/commit/6e535e21bcd5f317914b42ddbfa3ccd4fb7fda65))
+* update a load of stuff ([56bb576](https://github.com/The-Code-Monkey/TechStack/commit/56bb5764633af9eda7889541548c588cdaa43b9d))
+
+
+### Features
+
+* add x-default-browser ([077fe59](https://github.com/The-Code-Monkey/TechStack/commit/077fe59adf3b8faef6e2cd0facea4625d279386e))
+* move to techstack org version 0.0.1 ([37abb9c](https://github.com/The-Code-Monkey/TechStack/commit/37abb9c124c58bcfc91cff1de96f6f6eded13c28))
