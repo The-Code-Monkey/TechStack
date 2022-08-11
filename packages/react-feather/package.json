@@ -44,7 +44,7 @@
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
   "devDependencies": {
-    "@techstack/tcm-cli": "^0.1.2",
+    "@techstack/tcm-cli": "0.1.2",
     "cross-env": "7.0.3",
     "dts-cli": "1.5.2",
     "fs-extra": "10.1.0",
