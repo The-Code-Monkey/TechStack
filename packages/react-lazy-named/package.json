@@ -56,5 +56,6 @@
   "dependencies": {
     "lodash": "4.17.21",
     "lodash-es": "4.17.21"
-  }
+  },
+  "gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"
 }

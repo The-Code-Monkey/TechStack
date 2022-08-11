@@ -26,6 +26,9 @@
   "engines": {
     "node": ">=16"
   },
+  "publishConfig":{
+    "access": "public"
+  },
   "scripts": {
     "start": "tcm watch",
     "build": "dts build",
@@ -58,5 +61,5 @@
     "@techstack/memoize": "^0.1.1",
     "csstype": "3.1.0"
   },
-  "gitHead": "25f6ba2d98aa011acb349bb3f16320be8bccafc0"
+  "gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"
 }

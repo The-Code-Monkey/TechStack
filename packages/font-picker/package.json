@@ -39,5 +39,6 @@
 		"@techstack/tcm-cli": "^0.1.1",
 		"dts-cli": "1.5.2",
 		"react": "18.2.0"
-	}
+	},
+	"gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"
 }

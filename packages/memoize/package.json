@@ -37,6 +37,9 @@
   "bugs": {
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@techstack/tcm-cli": "^0.1.1",
     "benchmark": "2.1.4",
@@ -52,5 +55,6 @@
     "moize": "6.1.1",
     "nanocolors": "0.2.13",
     "ora": "6.1.2"
-  }
+  },
+  "gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"
 }
