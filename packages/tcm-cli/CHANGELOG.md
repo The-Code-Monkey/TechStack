@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.1.0 (2022-08-11)
+
+
+### Bug Fixes
+
+* allow partial themes ([5ffd74f](https://github.com/The-Code-Monkey/TechStack/commit/5ffd74f3800a05b1dfdd1807790b2a14c57c2de2))
+* **deps:** update dependency eslint-plugin-jest to v26.8.1 ([69f3c91](https://github.com/The-Code-Monkey/TechStack/commit/69f3c9151008a1bb7fc08e742a0a0921b7d9c6a7))
+* **deps:** update dependency eslint-plugin-jest to v26.8.2 ([7162cbf](https://github.com/The-Code-Monkey/TechStack/commit/7162cbf94f4ae0eb1f859318544c526670a213e5))
+
+
+### Features
+
+* move to techstack org version 0.0.1 ([37abb9c](https://github.com/The-Code-Monkey/TechStack/commit/37abb9c124c58bcfc91cff1de96f6f6eded13c28))
+
+
+
+
+
 # [0.1.0](https://github.com/The-Code-Monkey/TechStack/compare/v4.1.0...v0.1.0) (2022-08-11)
 
 
