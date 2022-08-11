@@ -1459,7 +1459,7 @@ buble@0.19.6:
     magic-string "^0.25.1"
     minimist "^1.2.0"
     os-homedir "^1.0.1"
-    regexpu-core "^4.2.0"
+    regexpu-core "^0.0.1"
     vlq "^1.0.0"
 
 call-bind@^1.0.0, call-bind@^1.0.2:
@@ -3186,7 +3186,7 @@ regexp.prototype.flags@^1.3.1:
     call-bind "^1.0.2"
     define-properties "^1.1.3"
 
-regexpu-core@^4.2.0, regexpu-core@^4.5.4:
+regexpu-core@^0.0.1, regexpu-core@^4.5.4:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/regexpu-core/-/regexpu-core-4.8.0.tgz#e5605ba361b67b1718478501327502f4479a98f0"
   integrity sha512-1F6bYsoYiz6is+oz70NWur2Vlh9KWtswuRuzJOfeYUrfPX2o8n74AnUVaOGDbUqVGO9fNHu48/pjJO4sNVwsOg==
