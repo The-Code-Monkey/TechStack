@@ -47,7 +47,7 @@
   ],
   "devDependencies": {
     "@size-limit/file": "8.0.0",
-    "@techstack/tcm-cli": "0.1.0",
+    "@techstack/tcm-cli": "0.0.1",
     "dts-cli": "1.5.2",
     "size-limit": "8.0.0",
     "tslib": "2.4.0",
@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "@emotion/is-prop-valid": "1.2.0",
-    "@techstack/memoize": "0.1.0",
+    "@techstack/memoize": "0.0.1",
     "csstype": "3.1.0"
   },
   "gitHead": "25f6ba2d98aa011acb349bb3f16320be8bccafc0"
