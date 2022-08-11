@@ -1,6 +1,6 @@
 <div align="center">
- <h1>@aw-web-design / Theme</h1>
- <p>A practical theme generator built from the ground up, designed to be used alongside (@aw-web-design/styled-system & @aw-web-design/components) but this is not required</p>
+ <h1>@techstack / Theme</h1>
+ <p>A practical theme generator built from the ground up, designed to be used alongside (@techstack/styled-system & @techstack/components) but this is not required</p>
 </div>
 
 ## Installation
@@ -8,7 +8,7 @@
 To install theme on your repo there are two things needed and one optional.
 
 
-1. install via package manager `yarn add @aw-web-design/theme`
+1. install via package manager `yarn add @techstack/theme`
 
 
 2. add this command to your package.json `orchard.generate`
@@ -21,7 +21,7 @@ To install theme on your repo there are two things needed and one optional.
 
    - outputDir is where the outputted theme will be put relative to the command ran. e.g. process.cwd()
 
-   - iconDir is for use with @aw-web-design/components and tells it which icon library to use, currently only feather icons is supported.
+   - iconDir is for use with @techstack/components and tells it which icon library to use, currently only feather icons is supported.
 
    - more options will be added in the future. 
 

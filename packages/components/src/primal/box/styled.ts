@@ -8,7 +8,7 @@ import {
   shadow,
   flexbox,
   system,
-} from '@aw-web-design/styled-system';
+} from '@techstack/styled-system';
 import styled from 'styled-components';
 
 import { shouldForwardProp } from '../../utils';

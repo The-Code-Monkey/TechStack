@@ -20,7 +20,7 @@
     "generate": "ts-node ./src/index.ts generate",
     "release": "yarn build && release-it --ci --npm.access=public"
   },
-  "name": "@aw-web-design/theme",
+  "name": "@techstack/theme",
   "description": "A practical theme generator built from the ground up",
   "author": "The-Code-Monkey",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/theme/README.md",
@@ -41,7 +41,7 @@
     }
   ],
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.128",
+    "@techstack/tcm-cli": "4.1.128",
     "@size-limit/file": "8.0.0",
     "@tsconfig/recommended": "1.0.1",
     "@types/fs-extra": "9.0.13",

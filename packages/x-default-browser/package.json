@@ -1,5 +1,5 @@
 {
-  "name": "@aw-web-design/x-default-browser",
+  "name": "@techstack/x-default-browser",
   "version": "1.4.126",
   "description": "Detect default web browser of the current user, cross-platform (Win/Lin/Mac)",
   "license": "MIT",
@@ -28,7 +28,7 @@
     "default-browser-id": "3.0.0"
   },
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.128",
+    "@techstack/tcm-cli": "4.1.128",
     "mocha": "10.0.0",
     "rewire": "6.0.0"
   }

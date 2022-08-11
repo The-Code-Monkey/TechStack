@@ -12,19 +12,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * build esm and cjs with tcm ([73d8e90](https://github.com/The-Code-Monkey/TechStack/commit/73d8e908a09ca30c9b277b8a9e8cd0515d480334))
 * create memoize ([d6a6911](https://github.com/The-Code-Monkey/TechStack/commit/d6a6911a7ee5cc8e5ba80201d52af0bfd330b465))
 * **deps:** pin dependencies ([#329](https://github.com/The-Code-Monkey/TechStack/issues/329)) ([3a7c834](https://github.com/The-Code-Monkey/TechStack/commit/3a7c8341d18edf5ddbf431f8b64843f6f53f60c3))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([84fe458](https://github.com/The-Code-Monkey/TechStack/commit/84fe4588fe15e10498a0fdca7cdf51b161a4a359))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([3f4e63a](https://github.com/The-Code-Monkey/TechStack/commit/3f4e63ac39940ad04dcc22a9043cb3b292932031))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([e600e01](https://github.com/The-Code-Monkey/TechStack/commit/e600e01bca39b943cd7117d55e4bbaa06491ab6b))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([2f06c1a](https://github.com/The-Code-Monkey/TechStack/commit/2f06c1a56c9efcab01707f080646c5284a01dd2b))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#235](https://github.com/The-Code-Monkey/TechStack/issues/235)) ([4faeb3b](https://github.com/The-Code-Monkey/TechStack/commit/4faeb3b4dca72f46e51fc6ba2c34cb5dd6ad914b))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#264](https://github.com/The-Code-Monkey/TechStack/issues/264)) ([a507d5a](https://github.com/The-Code-Monkey/TechStack/commit/a507d5a3e769e53d99409dde475d0b0ae9bbb7b8))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#321](https://github.com/The-Code-Monkey/TechStack/issues/321)) ([db10faa](https://github.com/The-Code-Monkey/TechStack/commit/db10faae96723db157adefc7a32e1a43f8dd3a21))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo to v3.1.39 ([#243](https://github.com/The-Code-Monkey/TechStack/issues/243)) ([9ad2a0c](https://github.com/The-Code-Monkey/TechStack/commit/9ad2a0c679ee40a96e6d782bd7586e6f75e44ee8))
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([84fe458](https://github.com/The-Code-Monkey/TechStack/commit/84fe4588fe15e10498a0fdca7cdf51b161a4a359))
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([3f4e63a](https://github.com/The-Code-Monkey/TechStack/commit/3f4e63ac39940ad04dcc22a9043cb3b292932031))
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([e600e01](https://github.com/The-Code-Monkey/TechStack/commit/e600e01bca39b943cd7117d55e4bbaa06491ab6b))
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([2f06c1a](https://github.com/The-Code-Monkey/TechStack/commit/2f06c1a56c9efcab01707f080646c5284a01dd2b))
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([#235](https://github.com/The-Code-Monkey/TechStack/issues/235)) ([4faeb3b](https://github.com/The-Code-Monkey/TechStack/commit/4faeb3b4dca72f46e51fc6ba2c34cb5dd6ad914b))
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([#264](https://github.com/The-Code-Monkey/TechStack/issues/264)) ([a507d5a](https://github.com/The-Code-Monkey/TechStack/commit/a507d5a3e769e53d99409dde475d0b0ae9bbb7b8))
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([#321](https://github.com/The-Code-Monkey/TechStack/issues/321)) ([db10faa](https://github.com/The-Code-Monkey/TechStack/commit/db10faae96723db157adefc7a32e1a43f8dd3a21))
+* **deps:** update [@techstack](https://github.com/techstack) mono repo to v3.1.39 ([#243](https://github.com/The-Code-Monkey/TechStack/issues/243)) ([9ad2a0c](https://github.com/The-Code-Monkey/TechStack/commit/9ad2a0c679ee40a96e6d782bd7586e6f75e44ee8))
 * **deps:** update babel monorepo to v7.17.10 ([#310](https://github.com/The-Code-Monkey/TechStack/issues/310)) ([555f5a2](https://github.com/The-Code-Monkey/TechStack/commit/555f5a23a9b82f1d35acee6698af8d9bdcfd59af))
-* **deps:** update dependency @aw-web-design/components to v3.2.1 ([#313](https://github.com/The-Code-Monkey/TechStack/issues/313)) ([cf6801f](https://github.com/The-Code-Monkey/TechStack/commit/cf6801f42b9f304cb338dd7b0f036562574fdaf2))
-* **deps:** update dependency @aw-web-design/components to v3.4.0 ([f98f489](https://github.com/The-Code-Monkey/TechStack/commit/f98f489df43cd58bce6d1465f355cc0817eeecf8))
-* **deps:** update dependency @aw-web-design/react-feather to v3.2.2 ([9746ca8](https://github.com/The-Code-Monkey/TechStack/commit/9746ca8542e3d2d1b3d4eced594b72861cdd8523))
+* **deps:** update dependency @techstack/components to v3.2.1 ([#313](https://github.com/The-Code-Monkey/TechStack/issues/313)) ([cf6801f](https://github.com/The-Code-Monkey/TechStack/commit/cf6801f42b9f304cb338dd7b0f036562574fdaf2))
+* **deps:** update dependency @techstack/components to v3.4.0 ([f98f489](https://github.com/The-Code-Monkey/TechStack/commit/f98f489df43cd58bce6d1465f355cc0817eeecf8))
+* **deps:** update dependency @techstack/react-feather to v3.2.2 ([9746ca8](https://github.com/The-Code-Monkey/TechStack/commit/9746ca8542e3d2d1b3d4eced594b72861cdd8523))
 * **deps:** update dependency @rollup/plugin-commonjs to v22 ([#270](https://github.com/The-Code-Monkey/TechStack/issues/270)) ([942caaa](https://github.com/The-Code-Monkey/TechStack/commit/942caaa717e0d74f296259e2d4e87231bdc1dd75))
 * **deps:** update dependency @rollup/plugin-commonjs to v22 ([#293](https://github.com/The-Code-Monkey/TechStack/issues/293)) ([5ca0767](https://github.com/The-Code-Monkey/TechStack/commit/5ca07671db7ea602e7e841f43496a5d4b60f14ff))
 * **deps:** update dependency @types/jest to v27.5.0 ([#334](https://github.com/The-Code-Monkey/TechStack/issues/334)) ([5beac3d](https://github.com/The-Code-Monkey/TechStack/commit/5beac3d39d1d36159661236e95515bbbb37fe9e0))
@@ -79,7 +79,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 3.0.3 (2022-04-05)
 
-**Note:** Version bump only for package aw-web-design
+**Note:** Version bump only for package techstack
 
 
 
@@ -120,7 +120,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 2.0.9 (2022-04-04)
 
-**Note:** Version bump only for package aw-web-design
+**Note:** Version bump only for package techstack
 
 
 
@@ -128,7 +128,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 2.0.8 (2022-04-04)
 
-**Note:** Version bump only for package aw-web-design
+**Note:** Version bump only for package techstack
 
 
 
@@ -147,7 +147,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 2.0.6 (2022-04-04)
 
-**Note:** Version bump only for package aw-web-design
+**Note:** Version bump only for package techstack
 
 
 
@@ -155,7 +155,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 2.0.5 (2022-04-04)
 
-**Note:** Version bump only for package aw-web-design
+**Note:** Version bump only for package techstack
 
 
 
@@ -163,7 +163,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 2.0.4 (2022-04-04)
 
-**Note:** Version bump only for package aw-web-design
+**Note:** Version bump only for package techstack
 
 
 
@@ -171,7 +171,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 2.0.3 (2022-04-04)
 
-**Note:** Version bump only for package aw-web-design
+**Note:** Version bump only for package techstack
 
 
 
@@ -179,7 +179,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 2.0.2 (2022-04-04)
 
-**Note:** Version bump only for package aw-web-design
+**Note:** Version bump only for package techstack
 
 
 
@@ -187,4 +187,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 2.0.1 (2022-04-04)
 
-**Note:** Version bump only for package aw-web-design
+**Note:** Version bump only for package techstack

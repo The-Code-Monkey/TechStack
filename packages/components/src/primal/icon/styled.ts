@@ -1,4 +1,4 @@
-import { IntentVariants } from '@aw-web-design/styled-system';
+import { IntentVariants } from '@techstack/styled-system';
 import styled from 'styled-components';
 
 import { SizesType } from '../../theme/types';

@@ -1,4 +1,4 @@
-import { TypographyProps } from '@aw-web-design/styled-system';
+import { TypographyProps } from '@techstack/styled-system';
 import { useTranslation } from 'react-i18next';
 
 import { generateAutomationId } from '../../utils';

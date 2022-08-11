@@ -1,5 +1,5 @@
-import { helpcircle as DefaultIcon } from '@aw-web-design/react-feather';
-import type { IconTypes } from '@aw-web-design/react-feather';
+import { helpcircle as DefaultIcon } from '@techstack/react-feather';
+import type { IconTypes } from '@techstack/react-feather';
 import * as React from 'react';
 const { memo, Suspense, lazy } = React;
 
@@ -17,7 +17,7 @@ export interface Props {
 
 export const getIcon = (name: IconTypes) => {
   return lazy(() =>
-    import(`@aw-web-design/react-feather`).then(module => ({
+    import(`@techstack/react-feather`).then(module => ({
       default: module[name],
     }))
   );

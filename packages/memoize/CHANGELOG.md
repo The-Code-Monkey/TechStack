@@ -3,25 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [4.1.127](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.126...@aw-web-design/memoize@4.1.127) (2022-08-07)
+## [4.1.127](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.126...@techstack/memoize@4.1.127) (2022-08-07)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.126](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.125...@aw-web-design/memoize@4.1.126) (2022-08-07)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.125](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.124...@aw-web-design/memoize@4.1.125) (2022-08-06)
+## [4.1.126](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.125...@techstack/memoize@4.1.126) (2022-08-07)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.125](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.124...@techstack/memoize@4.1.125) (2022-08-06)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -29,7 +29,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.124 (2022-08-05)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -37,7 +37,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.123 (2022-08-02)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -45,7 +45,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.122 (2022-08-01)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -53,15 +53,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.121 (2022-07-31)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.120](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.119...@aw-web-design/memoize@4.1.120) (2022-07-31)
+## [4.1.120](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.119...@techstack/memoize@4.1.120) (2022-07-31)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -69,15 +69,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.119 (2022-07-31)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.118](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.117...@aw-web-design/memoize@4.1.118) (2022-07-30)
+## [4.1.118](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.117...@techstack/memoize@4.1.118) (2022-07-30)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -85,7 +85,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.117 (2022-07-29)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -93,31 +93,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.116 (2022-07-28)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.115](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.114...@aw-web-design/memoize@4.1.115) (2022-07-26)
+## [4.1.115](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.114...@techstack/memoize@4.1.115) (2022-07-26)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.114](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.113...@aw-web-design/memoize@4.1.114) (2022-07-26)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.113](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.112...@aw-web-design/memoize@4.1.113) (2022-07-26)
+## [4.1.114](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.113...@techstack/memoize@4.1.114) (2022-07-26)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.113](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.112...@techstack/memoize@4.1.113) (2022-07-26)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -125,87 +125,87 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.112 (2022-07-25)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.111](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.110...@aw-web-design/memoize@4.1.111) (2022-07-22)
+## [4.1.111](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.110...@techstack/memoize@4.1.111) (2022-07-22)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.110](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.109...@aw-web-design/memoize@4.1.110) (2022-07-22)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.109](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.108...@aw-web-design/memoize@4.1.109) (2022-07-20)
+## [4.1.110](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.109...@techstack/memoize@4.1.110) (2022-07-22)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.108](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.107...@aw-web-design/memoize@4.1.108) (2022-07-18)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.107](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.106...@aw-web-design/memoize@4.1.107) (2022-07-17)
+## [4.1.109](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.108...@techstack/memoize@4.1.109) (2022-07-20)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.106](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.105...@aw-web-design/memoize@4.1.106) (2022-07-16)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.105](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.104...@aw-web-design/memoize@4.1.105) (2022-07-16)
+## [4.1.108](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.107...@techstack/memoize@4.1.108) (2022-07-18)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.104](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.103...@aw-web-design/memoize@4.1.104) (2022-07-16)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.103](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.102...@aw-web-design/memoize@4.1.103) (2022-07-15)
+## [4.1.107](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.106...@techstack/memoize@4.1.107) (2022-07-17)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
+**Note:** Version bump only for package @techstack/memoize
 
 
 
-## [4.1.102](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.101...@aw-web-design/memoize@4.1.102) (2022-07-14)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+
+## [4.1.106](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.105...@techstack/memoize@4.1.106) (2022-07-16)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.105](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.104...@techstack/memoize@4.1.105) (2022-07-16)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.104](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.103...@techstack/memoize@4.1.104) (2022-07-16)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.103](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.102...@techstack/memoize@4.1.103) (2022-07-15)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.102](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.101...@techstack/memoize@4.1.102) (2022-07-14)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -213,7 +213,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.101 (2022-07-14)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -221,39 +221,39 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.100 (2022-07-14)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.99](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.98...@aw-web-design/memoize@4.1.99) (2022-07-13)
+## [4.1.99](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.98...@techstack/memoize@4.1.99) (2022-07-13)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.98](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.97...@aw-web-design/memoize@4.1.98) (2022-07-13)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.97](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.96...@aw-web-design/memoize@4.1.97) (2022-07-12)
+## [4.1.98](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.97...@techstack/memoize@4.1.98) (2022-07-13)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
+**Note:** Version bump only for package @techstack/memoize
 
 
 
-## [4.1.96](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.95...@aw-web-design/memoize@4.1.96) (2022-07-10)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+
+## [4.1.97](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.96...@techstack/memoize@4.1.97) (2022-07-12)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.96](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.95...@techstack/memoize@4.1.96) (2022-07-10)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -261,47 +261,47 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.95 (2022-07-10)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.94](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.93...@aw-web-design/memoize@4.1.94) (2022-07-10)
+## [4.1.94](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.93...@techstack/memoize@4.1.94) (2022-07-10)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.93](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.92...@aw-web-design/memoize@4.1.93) (2022-07-10)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.92](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.91...@aw-web-design/memoize@4.1.92) (2022-07-10)
+## [4.1.93](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.92...@techstack/memoize@4.1.93) (2022-07-10)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.91](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.90...@aw-web-design/memoize@4.1.91) (2022-07-09)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.90](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.89...@aw-web-design/memoize@4.1.90) (2022-07-09)
+## [4.1.92](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.91...@techstack/memoize@4.1.92) (2022-07-10)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.91](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.90...@techstack/memoize@4.1.91) (2022-07-09)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.90](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.89...@techstack/memoize@4.1.90) (2022-07-09)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -309,39 +309,39 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.89 (2022-06-30)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.88](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.87...@aw-web-design/memoize@4.1.88) (2022-06-29)
+## [4.1.88](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.87...@techstack/memoize@4.1.88) (2022-06-29)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.87](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.86...@aw-web-design/memoize@4.1.87) (2022-06-29)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.86](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.85...@aw-web-design/memoize@4.1.86) (2022-06-28)
+## [4.1.87](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.86...@techstack/memoize@4.1.87) (2022-06-29)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
+**Note:** Version bump only for package @techstack/memoize
 
 
 
-## [4.1.85](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.84...@aw-web-design/memoize@4.1.85) (2022-06-28)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+
+## [4.1.86](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.85...@techstack/memoize@4.1.86) (2022-06-28)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.85](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.84...@techstack/memoize@4.1.85) (2022-06-28)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -358,7 +358,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [4.1.83](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.82...@aw-web-design/memoize@4.1.83) (2022-06-26)
+## [4.1.83](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.82...@techstack/memoize@4.1.83) (2022-06-26)
 
 
 ### Bug Fixes
@@ -369,49 +369,49 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [4.1.82](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.81...@aw-web-design/memoize@4.1.82) (2022-06-25)
+## [4.1.82](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.81...@techstack/memoize@4.1.82) (2022-06-25)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.81](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.80...@aw-web-design/memoize@4.1.81) (2022-06-25)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.80](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.79...@aw-web-design/memoize@4.1.80) (2022-06-25)
+## [4.1.81](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.80...@techstack/memoize@4.1.81) (2022-06-25)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.79](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.78...@aw-web-design/memoize@4.1.79) (2022-06-24)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.78](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.77...@aw-web-design/memoize@4.1.78) (2022-06-24)
+## [4.1.80](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.79...@techstack/memoize@4.1.80) (2022-06-25)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
+**Note:** Version bump only for package @techstack/memoize
 
 
 
-## [4.1.77](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.76...@aw-web-design/memoize@4.1.77) (2022-06-22)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+
+## [4.1.79](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.78...@techstack/memoize@4.1.79) (2022-06-24)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.78](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.77...@techstack/memoize@4.1.78) (2022-06-24)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.77](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.76...@techstack/memoize@4.1.77) (2022-06-22)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -419,7 +419,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.76 (2022-06-20)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -427,79 +427,79 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.75 (2022-06-18)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.74](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.73...@aw-web-design/memoize@4.1.74) (2022-06-18)
+## [4.1.74](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.73...@techstack/memoize@4.1.74) (2022-06-18)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.73](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.72...@aw-web-design/memoize@4.1.73) (2022-06-17)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.72](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.71...@aw-web-design/memoize@4.1.72) (2022-06-17)
+## [4.1.73](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.72...@techstack/memoize@4.1.73) (2022-06-17)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.71](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.70...@aw-web-design/memoize@4.1.71) (2022-06-17)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.70](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.69...@aw-web-design/memoize@4.1.70) (2022-06-16)
+## [4.1.72](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.71...@techstack/memoize@4.1.72) (2022-06-17)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.69](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.68...@aw-web-design/memoize@4.1.69) (2022-06-16)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.68](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.67...@aw-web-design/memoize@4.1.68) (2022-06-16)
+## [4.1.71](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.70...@techstack/memoize@4.1.71) (2022-06-17)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.67](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.66...@aw-web-design/memoize@4.1.67) (2022-06-15)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.66](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.65...@aw-web-design/memoize@4.1.66) (2022-06-15)
+## [4.1.70](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.69...@techstack/memoize@4.1.70) (2022-06-16)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.69](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.68...@techstack/memoize@4.1.69) (2022-06-16)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.68](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.67...@techstack/memoize@4.1.68) (2022-06-16)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.67](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.66...@techstack/memoize@4.1.67) (2022-06-15)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.66](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.65...@techstack/memoize@4.1.66) (2022-06-15)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -507,31 +507,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.65 (2022-06-15)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.64](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.63...@aw-web-design/memoize@4.1.64) (2022-06-14)
+## [4.1.64](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.63...@techstack/memoize@4.1.64) (2022-06-14)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.63](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.62...@aw-web-design/memoize@4.1.63) (2022-06-14)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.62](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.61...@aw-web-design/memoize@4.1.62) (2022-06-14)
+## [4.1.63](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.62...@techstack/memoize@4.1.63) (2022-06-14)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.62](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.61...@techstack/memoize@4.1.62) (2022-06-14)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -539,15 +539,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.61 (2022-06-13)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.60](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.59...@aw-web-design/memoize@4.1.60) (2022-06-09)
+## [4.1.60](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.59...@techstack/memoize@4.1.60) (2022-06-09)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -555,7 +555,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.59 (2022-06-08)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -563,7 +563,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.58 (2022-06-07)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -571,63 +571,63 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.57 (2022-06-07)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.56](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.55...@aw-web-design/memoize@4.1.56) (2022-06-06)
+## [4.1.56](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.55...@techstack/memoize@4.1.56) (2022-06-06)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.55](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.54...@aw-web-design/memoize@4.1.55) (2022-06-06)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.54](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.53...@aw-web-design/memoize@4.1.54) (2022-06-06)
+## [4.1.55](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.54...@techstack/memoize@4.1.55) (2022-06-06)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.53](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.52...@aw-web-design/memoize@4.1.53) (2022-06-05)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.52](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.51...@aw-web-design/memoize@4.1.52) (2022-06-05)
+## [4.1.54](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.53...@techstack/memoize@4.1.54) (2022-06-06)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.51](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.50...@aw-web-design/memoize@4.1.51) (2022-06-04)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.50](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.49...@aw-web-design/memoize@4.1.50) (2022-06-04)
+## [4.1.53](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.52...@techstack/memoize@4.1.53) (2022-06-05)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.52](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.51...@techstack/memoize@4.1.52) (2022-06-05)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.51](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.50...@techstack/memoize@4.1.51) (2022-06-04)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.50](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.49...@techstack/memoize@4.1.50) (2022-06-04)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -635,7 +635,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.49 (2022-06-03)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -643,55 +643,55 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.48 (2022-06-03)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.47](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.46...@aw-web-design/memoize@4.1.47) (2022-06-02)
+## [4.1.47](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.46...@techstack/memoize@4.1.47) (2022-06-02)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.46](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.45...@aw-web-design/memoize@4.1.46) (2022-06-02)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.45](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.44...@aw-web-design/memoize@4.1.45) (2022-06-02)
+## [4.1.46](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.45...@techstack/memoize@4.1.46) (2022-06-02)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.44](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.43...@aw-web-design/memoize@4.1.44) (2022-06-01)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.43](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.42...@aw-web-design/memoize@4.1.43) (2022-06-01)
+## [4.1.45](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.44...@techstack/memoize@4.1.45) (2022-06-02)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
+**Note:** Version bump only for package @techstack/memoize
 
 
 
-## [4.1.42](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.41...@aw-web-design/memoize@4.1.42) (2022-06-01)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+
+## [4.1.44](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.43...@techstack/memoize@4.1.44) (2022-06-01)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.43](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.42...@techstack/memoize@4.1.43) (2022-06-01)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.42](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.41...@techstack/memoize@4.1.42) (2022-06-01)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -699,31 +699,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.41 (2022-06-01)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.40](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.39...@aw-web-design/memoize@4.1.40) (2022-05-31)
+## [4.1.40](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.39...@techstack/memoize@4.1.40) (2022-05-31)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.39](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.38...@aw-web-design/memoize@4.1.39) (2022-05-31)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.38](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.37...@aw-web-design/memoize@4.1.38) (2022-05-30)
+## [4.1.39](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.38...@techstack/memoize@4.1.39) (2022-05-31)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.38](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.37...@techstack/memoize@4.1.38) (2022-05-30)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -731,15 +731,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.37 (2022-05-30)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.36](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.35...@aw-web-design/memoize@4.1.36) (2022-05-30)
+## [4.1.36](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.35...@techstack/memoize@4.1.36) (2022-05-30)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -747,7 +747,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.35 (2022-05-29)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -755,63 +755,63 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.34 (2022-05-28)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.33](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.32...@aw-web-design/memoize@4.1.33) (2022-05-28)
+## [4.1.33](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.32...@techstack/memoize@4.1.33) (2022-05-28)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.32](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.31...@aw-web-design/memoize@4.1.32) (2022-05-25)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.31](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.30...@aw-web-design/memoize@4.1.31) (2022-05-25)
+## [4.1.32](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.31...@techstack/memoize@4.1.32) (2022-05-25)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.30](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.29...@aw-web-design/memoize@4.1.30) (2022-05-25)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.29](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.28...@aw-web-design/memoize@4.1.29) (2022-05-24)
+## [4.1.31](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.30...@techstack/memoize@4.1.31) (2022-05-25)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.28](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.27...@aw-web-design/memoize@4.1.28) (2022-05-24)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.27](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.26...@aw-web-design/memoize@4.1.27) (2022-05-24)
+## [4.1.30](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.29...@techstack/memoize@4.1.30) (2022-05-25)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.29](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.28...@techstack/memoize@4.1.29) (2022-05-24)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.28](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.27...@techstack/memoize@4.1.28) (2022-05-24)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.27](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.26...@techstack/memoize@4.1.27) (2022-05-24)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -819,23 +819,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.26 (2022-05-23)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.25](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.24...@aw-web-design/memoize@4.1.25) (2022-05-21)
+## [4.1.25](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.24...@techstack/memoize@4.1.25) (2022-05-21)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
+**Note:** Version bump only for package @techstack/memoize
 
 
 
-## [4.1.24](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.23...@aw-web-design/memoize@4.1.24) (2022-05-21)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+
+## [4.1.24](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.23...@techstack/memoize@4.1.24) (2022-05-21)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -843,7 +843,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.23 (2022-05-21)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -851,7 +851,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.22 (2022-05-19)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -859,23 +859,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.21 (2022-05-18)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.20](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.19...@aw-web-design/memoize@4.1.20) (2022-05-17)
+## [4.1.20](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.19...@techstack/memoize@4.1.20) (2022-05-17)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
+**Note:** Version bump only for package @techstack/memoize
 
 
 
-## [4.1.19](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.18...@aw-web-design/memoize@4.1.19) (2022-05-17)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+
+## [4.1.19](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.18...@techstack/memoize@4.1.19) (2022-05-17)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -883,7 +883,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.18 (2022-05-17)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -891,31 +891,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.17 (2022-05-16)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.16](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.15...@aw-web-design/memoize@4.1.16) (2022-05-16)
+## [4.1.16](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.15...@techstack/memoize@4.1.16) (2022-05-16)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.15](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.14...@aw-web-design/memoize@4.1.15) (2022-05-15)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.14](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.13...@aw-web-design/memoize@4.1.14) (2022-05-14)
+## [4.1.15](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.14...@techstack/memoize@4.1.15) (2022-05-15)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.14](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.13...@techstack/memoize@4.1.14) (2022-05-14)
+
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -923,15 +923,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.13 (2022-05-14)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.12](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.11...@aw-web-design/memoize@4.1.12) (2022-05-13)
+## [4.1.12](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.11...@techstack/memoize@4.1.12) (2022-05-13)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -939,7 +939,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.11 (2022-05-12)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -947,15 +947,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.10 (2022-05-12)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.9](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.8...@aw-web-design/memoize@4.1.9) (2022-05-11)
+## [4.1.9](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.8...@techstack/memoize@4.1.9) (2022-05-11)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -963,15 +963,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.8 (2022-05-10)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.7](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.6...@aw-web-design/memoize@4.1.7) (2022-05-10)
+## [4.1.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.6...@techstack/memoize@4.1.7) (2022-05-10)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -979,29 +979,29 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 4.1.6 (2022-05-10)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.4](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.3...@aw-web-design/memoize@4.1.4) (2022-05-08)
+## [4.1.4](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.3...@techstack/memoize@4.1.4) (2022-05-08)
 
-**Note:** Version bump only for package @aw-web-design/memoize
-
-
-
-
-
-## [4.1.3](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@4.1.2...@aw-web-design/memoize@4.1.3) (2022-05-08)
-
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
 
 
-## [4.1.2](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@1.0.4...@aw-web-design/memoize@4.1.2) (2022-05-06)
+## [4.1.3](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@4.1.2...@techstack/memoize@4.1.3) (2022-05-08)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
+## [4.1.2](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@1.0.4...@techstack/memoize@4.1.2) (2022-05-06)
 
 
 ### Bug Fixes
@@ -1012,13 +1012,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [4.1.1](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/memoize@1.0.4...@aw-web-design/memoize@4.1.1) (2022-05-05)
+## [4.1.1](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@1.0.4...@techstack/memoize@4.1.1) (2022-05-05)
 
 
 
 # 4.1.0 (2022-05-05)
 
-**Note:** Version bump only for package @aw-web-design/memoize
+**Note:** Version bump only for package @techstack/memoize
 
 
 
@@ -1036,7 +1036,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.0.4](https://github.com/alexreardon/memoize-one/compare/@aw-web-design/memoize@1.0.3...@aw-web-design/memoize@1.0.4) (2022-05-04)
+## [1.0.4](https://github.com/alexreardon/memoize-one/compare/@techstack/memoize@1.0.3...@techstack/memoize@1.0.4) (2022-05-04)
 
 
 ### Bug Fixes

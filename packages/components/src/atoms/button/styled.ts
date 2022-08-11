@@ -1,4 +1,4 @@
-import { variant, Theme } from '@aw-web-design/styled-system';
+import { variant, Theme } from '@techstack/styled-system';
 import styled from 'styled-components';
 
 import { Interactable, StyledBoxProps } from '../../primal';

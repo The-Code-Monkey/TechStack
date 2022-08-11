@@ -6,7 +6,7 @@ import {
   BorderProps,
   ShadowProps,
   FlexboxProps,
-} from '@aw-web-design/styled-system';
+} from '@techstack/styled-system';
 import { Property } from 'csstype';
 import { ElementType, ReactNode } from 'react';
 

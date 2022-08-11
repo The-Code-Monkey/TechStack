@@ -1,5 +1,5 @@
 {
-  "name": "@aw-web-design/tcm-cli",
+  "name": "@techstack/tcm-cli",
   "version": "4.1.128",
   "description": "Zero-config TypeScript package development",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/tcm-cli/README.md",
