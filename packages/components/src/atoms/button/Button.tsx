@@ -8,24 +8,21 @@ import { StyledInteractable, iconOrientations, iconMargins } from './styled';
 
 export interface Props extends InteractableProps {
   iconName?: IconProps['name'];
-  iconPosition?: 'left' | 'top' | 'right' | 'bottom';
+  iconPosition?: 'left' | 'top' | 'right' | 'bottom' | 'center';
   variant?: string;
   strong?: boolean;
 }
 
 const Button = ({
   className,
-  children = '',
+  children,
   iconName,
   iconPosition = 'left',
   autoid,
   variant = 'default',
   ...rest
 }: Props) => {
-  const hasChildren = useMemo(
-    () => !(typeof children === 'string' && children === ''),
-    [children]
-  );
+  const hasChildren = useMemo(() => typeof children === 'string', [children]);
 
   return (
     <StyledInteractable
@@ -45,7 +42,7 @@ const Button = ({
             iconMargins[iconPosition])}
         />
       )}
-      {typeof children === 'string' ? <Text>{children}</Text> : { children }}
+      {typeof children === 'string' ? <Text>{children}</Text> : children}
     </StyledInteractable>
   );
 };
