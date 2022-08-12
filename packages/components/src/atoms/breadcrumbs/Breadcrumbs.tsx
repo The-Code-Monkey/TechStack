@@ -1,4 +1,4 @@
-import { TypographyProps } from '@aw-web-design/styled-system';
+import { TypographyProps } from '@techstack/styled-system';
 import { useEffect, useState } from 'react';
 
 import { Box, Text, BoxProps } from '../../primal';
