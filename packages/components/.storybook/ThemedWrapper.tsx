@@ -24,6 +24,8 @@ function ThemedWrapper({ context, children }) {
        }
     }), [isDark]);
 
+    console.log(context?.globals?.backgrounds?.value);
+
     return (
         <ConfigContext.Provider value={config}>
             <ThemeProvider theme={theme}>
