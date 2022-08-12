@@ -3,182 +3,97 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.4.17](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.4.16...@aw-web-design/x-default-browser@1.4.17) (2022-05-17)
+## 0.1.5 (2022-08-12)
 
-**Note:** Version bump only for package @aw-web-design/x-default-browser
-
-
-
-
-
-## 1.4.16 (2022-05-17)
-
-**Note:** Version bump only for package @aw-web-design/x-default-browser
+**Note:** Version bump only for package @techstack/x-default-browser
 
 
 
 
 
-## 1.4.15 (2022-05-16)
+## [0.1.4](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/x-default-browser@0.1.3...@techstack/x-default-browser@0.1.4) (2022-08-12)
 
-**Note:** Version bump only for package @aw-web-design/x-default-browser
-
-
-
-
-
-## [1.4.14](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.4.13...@aw-web-design/x-default-browser@1.4.14) (2022-05-16)
-
-**Note:** Version bump only for package @aw-web-design/x-default-browser
+**Note:** Version bump only for package @techstack/x-default-browser
 
 
 
 
 
-## [1.4.13](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.4.12...@aw-web-design/x-default-browser@1.4.13) (2022-05-15)
+## [0.1.3](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/x-default-browser@0.1.2...@techstack/x-default-browser@0.1.3) (2022-08-11)
 
-**Note:** Version bump only for package @aw-web-design/x-default-browser
-
-
-
-
-
-## [1.4.12](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.4.11...@aw-web-design/x-default-browser@1.4.12) (2022-05-14)
-
-**Note:** Version bump only for package @aw-web-design/x-default-browser
+**Note:** Version bump only for package @techstack/x-default-browser
 
 
 
 
 
-## 1.4.11 (2022-05-14)
-
-**Note:** Version bump only for package @aw-web-design/x-default-browser
+## 0.1.2 (2022-08-11)
 
 
 
-
-
-## [1.4.10](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.4.9...@aw-web-design/x-default-browser@1.4.10) (2022-05-13)
-
-**Note:** Version bump only for package @aw-web-design/x-default-browser
+## 0.1.1 (2022-08-11)
 
 
 
-
-
-## [1.4.9](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.4.8...@aw-web-design/x-default-browser@1.4.9) (2022-05-12)
-
-**Note:** Version bump only for package @aw-web-design/x-default-browser
-
-
-
-
-
-## [1.4.8](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.4.7...@aw-web-design/x-default-browser@1.4.8) (2022-05-12)
+# 0.1.0 (2022-08-11)
 
 
 ### Bug Fixes
 
+* add publish config ([30b2a8f](https://github.com/The-Code-Monkey/TechStack/commit/30b2a8fcc02b5298f92024478c3652f02e6e15d2))
+* allow partial themes ([5ffd74f](https://github.com/The-Code-Monkey/TechStack/commit/5ffd74f3800a05b1dfdd1807790b2a14c57c2de2))
+* bump tcm cli ([0771246](https://github.com/The-Code-Monkey/TechStack/commit/07712465e0786403b873a21d8220ecf71af2afaf))
+* linting ([6e535e2](https://github.com/The-Code-Monkey/TechStack/commit/6e535e21bcd5f317914b42ddbfa3ccd4fb7fda65))
+* update a load of stuff ([56bb576](https://github.com/The-Code-Monkey/TechStack/commit/56bb5764633af9eda7889541548c588cdaa43b9d))
+* update package versions ([5a7eb40](https://github.com/The-Code-Monkey/TechStack/commit/5a7eb4003b0919cfa8ab8a95063a56cf96b4566b))
+
+
+### Features
+
+* add x-default-browser ([077fe59](https://github.com/The-Code-Monkey/TechStack/commit/077fe59adf3b8faef6e2cd0facea4625d279386e))
+* move to techstack org version 0.0.1 ([37abb9c](https://github.com/The-Code-Monkey/TechStack/commit/37abb9c124c58bcfc91cff1de96f6f6eded13c28))
+
+
+
+
+
+## [0.1.1](https://github.com/The-Code-Monkey/TechStack/compare/v0.1.0...v0.1.1) (2022-08-11)
+
+**Note:** Version bump only for package @techstack/x-default-browser
+
+
+
+
+
+# 0.1.0 (2022-08-11)
+
+
+### Bug Fixes
+
+* allow partial themes ([5ffd74f](https://github.com/The-Code-Monkey/TechStack/commit/5ffd74f3800a05b1dfdd1807790b2a14c57c2de2))
+* update package versions ([5a7eb40](https://github.com/The-Code-Monkey/TechStack/commit/5a7eb4003b0919cfa8ab8a95063a56cf96b4566b))
+
+
+### Features
+
+* move to techstack org version 0.0.1 ([37abb9c](https://github.com/The-Code-Monkey/TechStack/commit/37abb9c124c58bcfc91cff1de96f6f6eded13c28))
+
+
+
+
+
+# [0.1.0](https://github.com/The-Code-Monkey/TechStack/compare/v4.1.0...v0.1.0) (2022-08-11)
+
+
+### Bug Fixes
+
+* add publish config ([30b2a8f](https://github.com/The-Code-Monkey/TechStack/commit/30b2a8fcc02b5298f92024478c3652f02e6e15d2))
+* bump tcm cli ([0771246](https://github.com/The-Code-Monkey/TechStack/commit/07712465e0786403b873a21d8220ecf71af2afaf))
+* linting ([6e535e2](https://github.com/The-Code-Monkey/TechStack/commit/6e535e21bcd5f317914b42ddbfa3ccd4fb7fda65))
 * update a load of stuff ([56bb576](https://github.com/The-Code-Monkey/TechStack/commit/56bb5764633af9eda7889541548c588cdaa43b9d))
 
 
-
-
-
-## 1.4.7 (2022-05-12)
-
-**Note:** Version bump only for package @aw-web-design/x-default-browser
-
-
-
-
-
-## [1.4.6](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.4.5...@aw-web-design/x-default-browser@1.4.6) (2022-05-11)
-
-**Note:** Version bump only for package @aw-web-design/x-default-browser
-
-
-
-
-
-## 1.4.5 (2022-05-10)
-
-**Note:** Version bump only for package @aw-web-design/x-default-browser
-
-
-
-
-
-## [1.4.4](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.4.3...@aw-web-design/x-default-browser@1.4.4) (2022-05-10)
-
-**Note:** Version bump only for package @aw-web-design/x-default-browser
-
-
-
-
-
-## 1.4.3 (2022-05-10)
-
-
-### Bug Fixes
-
-* bump tcm cli ([0771246](https://github.com/The-Code-Monkey/TechStack/commit/07712465e0786403b873a21d8220ecf71af2afaf))
-
-
-
-
-
-## [1.4.1](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.2.0...@aw-web-design/x-default-browser@1.4.1) (2022-05-08)
-
-**Note:** Version bump only for package @aw-web-design/x-default-browser
-
-
-
-
-
-# [1.4.0](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.2.0...@aw-web-design/x-default-browser@1.4.0) (2022-05-06)
-
-
-### Bug Fixes
-
-* add publish config ([30b2a8f](https://github.com/The-Code-Monkey/TechStack/commit/30b2a8fcc02b5298f92024478c3652f02e6e15d2))
-* linting ([6e535e2](https://github.com/The-Code-Monkey/TechStack/commit/6e535e21bcd5f317914b42ddbfa3ccd4fb7fda65))
-
-
 ### Features
 
 * add x-default-browser ([077fe59](https://github.com/The-Code-Monkey/TechStack/commit/077fe59adf3b8faef6e2cd0facea4625d279386e))
-
-
-
-
-
-# [1.2.0](https://github.com/The-Code-Monkey/TechStack/compare/@aw-web-design/x-default-browser@1.1.0...@aw-web-design/x-default-browser@1.2.0) (2022-05-06)
-
-
-### Bug Fixes
-
-* add publish config ([30b2a8f](https://github.com/The-Code-Monkey/TechStack/commit/30b2a8fcc02b5298f92024478c3652f02e6e15d2))
-* linting ([6e535e2](https://github.com/The-Code-Monkey/TechStack/commit/6e535e21bcd5f317914b42ddbfa3ccd4fb7fda65))
-
-
-### Features
-
-* add x-default-browser ([077fe59](https://github.com/The-Code-Monkey/TechStack/commit/077fe59adf3b8faef6e2cd0facea4625d279386e))
-
-
-
-
-
-# 1.1.0 (2022-05-06)
-
-
-### Bug Fixes
-
-* linting ([6e535e2](https://github.com/The-Code-Monkey/TechStack/commit/6e535e21bcd5f317914b42ddbfa3ccd4fb7fda65))
-
-
-### Features
-
-* add x-default-browser ([077fe59](https://github.com/The-Code-Monkey/TechStack/commit/077fe59adf3b8faef6e2cd0facea4625d279386e))
+* move to techstack org version 0.0.1 ([37abb9c](https://github.com/The-Code-Monkey/TechStack/commit/37abb9c124c58bcfc91cff1de96f6f6eded13c28))

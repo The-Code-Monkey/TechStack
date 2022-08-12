@@ -1,7 +1,7 @@
 {
-  "version": "4.1.22",
+  "version": "0.1.6",
   "license": "MIT",
-  "name": "@aw-web-design/styled-system",
+  "name": "@techstack/styled-system",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/styled-system/README.md",
   "repository": {
     "type": "git",
@@ -10,12 +10,12 @@
   "bugs": {
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/styled-system.esm.js",
   "exports": {
-    "import": "./dist/esm/index.js",
-    "require": "./dist/cjs/index.js",
-    "default": "./dist/esm/index.js"
+    "import": "./dist/styled-system.esm.js",
+    "require": "./dist/styled-system.cjs.production.min.js",
+    "default": "./dist/styled-system.esm.js"
   },
   "typings": "dist/types/index.d.ts",
   "type": "module",
@@ -24,11 +24,14 @@
     "src"
   ],
   "engines": {
-    "node": "16.15.0"
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "start": "tcm watch",
-    "build": "tcm build",
+    "build": "dts build",
     "test": "tcm test",
     "lint": "tcm lint",
     "size": "size-limit",
@@ -37,25 +40,26 @@
   "author": "The-Code-Monkey",
   "size-limit": [
     {
-      "path": "dist/esm/index.js",
+      "path": "dist/styled-system.esm.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/cjs/index.js",
+      "path": "dist/index.js",
       "limit": "10 KB"
     }
   ],
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.20",
-    "@size-limit/file": "7.0.8",
-    "size-limit": "7.0.8",
+    "@size-limit/file": "8.0.1",
+    "@techstack/tcm-cli": "0.1.4",
+    "dts-cli": "1.5.2",
+    "size-limit": "8.0.1",
     "tslib": "2.4.0",
-    "typescript": "4.6.4"
+    "typescript": "4.7.4"
   },
   "dependencies": {
-    "@aw-web-design/memoize": "4.1.19",
-    "@emotion/is-prop-valid": "1.1.2",
+    "@emotion/is-prop-valid": "1.2.0",
+    "@techstack/memoize": "0.1.5",
     "csstype": "3.1.0"
   },
-  "gitHead": "25f6ba2d98aa011acb349bb3f16320be8bccafc0"
+  "gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"
 }

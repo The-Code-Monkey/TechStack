@@ -3,11 +3,11 @@
 exports[`<Avatar /> renders icon correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bscPHp hEFKjM"
+    class="sc-gsnTZi bLHGFU"
     data-autoid="box"
   >
     <div
-      class="sc-bscPHp gqgVuA sc-gqyZTE kmoqFI"
+      class="sc-gsnTZi cXXFdo sc-dkzDqf bQHrml"
       data-autoid="github_icon"
     >
       <svg
@@ -45,13 +45,12 @@ exports[`<Avatar /> renders icon correctly 1`] = `
 exports[`<Avatar /> renders img correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bscPHp hEFKjM"
+    class="sc-gsnTZi bLHGFU"
     data-autoid="box"
   >
     <img
-      height="64px"
       src="https://picsum.photos/id/237/200"
-      width="64px"
+      style="width: 48px; height: 48px;"
     />
   </div>
 </DocumentFragment>
@@ -60,15 +59,20 @@ exports[`<Avatar /> renders img correctly 1`] = `
 exports[`<Avatar /> renders text correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bscPHp hEFKjM"
+    class="sc-gsnTZi bLHGFU"
     data-autoid="box"
   >
-    <span
-      class="sc-bKFsHG cMnIBd"
-      data-autoid=""
+    <div
+      class="sc-gsnTZi dOBAhX"
+      data-autoid="box"
     >
-      TT
-    </span>
+      <span
+        class="sc-eCYdqJ ioxSTN"
+        data-autoid=""
+      >
+        TT
+      </span>
+    </div>
   </div>
 </DocumentFragment>
 `;

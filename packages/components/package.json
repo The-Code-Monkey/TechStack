@@ -1,13 +1,13 @@
 {
-  "version": "4.1.37",
+  "version": "0.1.6",
   "license": "MIT",
   "type": "module",
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/components.esm.js",
   "exports": {
-    "import": "./dist/esm/index.js",
-    "require": "./dist/cjs/index.js",
-    "default": "./dist/esm/index.js"
+    "import": "./dist/components.esm.js",
+    "require": "./dist/index.js",
+    "default": "./dist/components.esm.js"
   },
   "typings": "dist/types/index.d.ts",
   "files": [
@@ -15,14 +15,14 @@
     "src"
   ],
   "engines": {
-    "node": "16.15.0"
+    "node": ">=16"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "start": "tcm watch",
-    "build": "yarn build:tokens && tcm build ",
+    "build": "yarn build:tokens && dts build",
     "build:tokens": "orchard generate",
     "test": "yarn build:tokens && tcm test",
     "lint": "yarn build:tokens && tcm lint",
@@ -33,7 +33,7 @@
     "release": "yarn lint && yarn build && release-it --ci --npm.access=public",
     "chromatic": "npx chromatic"
   },
-  "name": "@aw-web-design/components",
+  "name": "@techstack/components",
   "author": "The-Code-Monkey",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/components/README.md",
   "repository": {
@@ -45,11 +45,11 @@
   },
   "size-limit": [
     {
-      "path": "dist/esm/index.js",
+      "path": "dist/index.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/cjs/index.js",
+      "path": "dist/components.esm.js",
       "limit": "10 KB"
     }
   ],
@@ -59,42 +59,47 @@
     ]
   },
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.20",
-    "@size-limit/file": "7.0.8",
-    "@storybook/addon-essentials": "6.4.22",
-    "@storybook/addon-links": "6.4.22",
-    "@storybook/addons": "6.4.22",
-    "@storybook/react": "6.4.22",
-    "@testing-library/react": "13.2.0",
+    "@size-limit/file": "8.0.1",
+    "@storybook/addon-essentials": "6.5.10",
+    "@storybook/addon-links": "6.5.10",
+    "@storybook/addons": "6.5.10",
+    "@storybook/react": "6.5.10",
+    "@techstack/tcm-cli": "0.1.4",
+    "@testing-library/react": "13.3.0",
     "@tsconfig/create-react-app": "1.0.2",
     "@tsconfig/recommended": "1.0.1",
-    "@types/react": "18.0.9",
-    "@types/react-dom": "18.0.4",
+    "@types/react-dom": "18.0.6",
     "@types/react-table": "7.7.12",
-    "chromatic": "6.5.4",
+    "chromatic": "6.7.4",
     "cross-env": "7.0.3",
+    "dts-cli": "1.5.2",
     "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-prettier": "4.2.1",
     "esm": "3.2.25",
-    "react-is": "18.1.0",
-    "size-limit": "7.0.8",
+    "react-is": "18.2.0",
+    "size-limit": "8.0.1",
     "tslib": "2.4.0",
-    "typescript": "4.6.4"
+    "typescript": "4.7.4"
   },
   "dependencies": {
-    "@aw-web-design/memoize": "4.1.19",
-    "@aw-web-design/react-feather": "4.1.19",
-    "@aw-web-design/styled-system": "4.1.22",
-    "@aw-web-design/theme": "4.1.20",
+    "@techstack/memoize": "0.1.5",
+    "@techstack/react-feather": "0.1.5",
+    "@techstack/react-lazy-named": "0.1.5",
+    "@techstack/styled-system": "0.1.6",
+    "@techstack/theme": "0.1.6",
     "classnames": "2.3.1",
     "csstype": "3.1.0",
-    "i18next": "21.8.2",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
-    "react-i18next": "11.16.9",
+    "deepmerge": "4.2.2",
+    "i18next": "21.9.0",
+    "react-i18next": "11.18.3",
     "react-lazy-named": "1.2.2",
     "react-table": "7.8.0",
-    "styled-components": "6.0.0-alpha.5"
+    "styled-components": "5.3.5"
   },
-  "gitHead": "25f6ba2d98aa011acb349bb3f16320be8bccafc0"
+  "peerDependencies": {
+    "@types/react": "^17.0.0 || ^18.0.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"
 }

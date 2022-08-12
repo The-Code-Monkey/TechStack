@@ -1,3 +1,3 @@
-import { GitHub } from '@aw-web-design/react-feather';
+import { github } from '@techstack/react-feather';
 
-export const getIcon = () => GitHub;
+export const getIcon = () => github;

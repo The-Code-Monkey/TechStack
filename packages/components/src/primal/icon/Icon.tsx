@@ -1,17 +1,37 @@
-import FeatherIcon from '@aw-web-design/react-feather';
-import type { IconTypes } from '@aw-web-design/react-feather';
+import { helpcircle as DefaultIcon } from '@techstack/react-feather';
+import type { IconTypes } from '@techstack/react-feather';
 import * as React from 'react';
-const { memo } = React;
+const { memo, Suspense, lazy } = React;
 
+import { SizesType } from '../../theme/types';
 import { generateAutomationId } from '../../utils';
-import { BoxProps } from '../box';
 
 import { SvgWrapper } from './styled';
 
-export interface Props extends Omit<BoxProps, 'children'> {
+export interface Props {
+  autoid?: string;
   name: IconTypes;
   noFill?: boolean;
+  size?: keyof SizesType;
 }
+
+export const getIcon = (name: IconTypes) => {
+  return lazy(() =>
+    import(`@techstack/react-feather`).then(module => ({
+      default: module[name],
+    }))
+  );
+};
+
+export const FeatherIcon = ({ name, ...rest }: Props) => {
+  const Element = getIcon(name);
+
+  return (
+    <Suspense fallback={<DefaultIcon {...rest} data-name='fallback-icon' />}>
+      <Element />
+    </Suspense>
+  );
+};
 
 const Icon = ({ autoid, name, ...rest }: Props) => {
   return (

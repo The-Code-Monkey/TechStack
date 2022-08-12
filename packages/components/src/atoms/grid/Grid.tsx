@@ -1,4 +1,4 @@
-import { GridProps } from '@aw-web-design/styled-system';
+import { GridProps } from '@techstack/styled-system';
 import { useMemo } from 'react';
 
 import { BoxProps } from '../../primal';

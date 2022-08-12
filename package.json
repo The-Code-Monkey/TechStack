@@ -1,5 +1,5 @@
 {
-  "name": "aw-web-design",
+  "name": "techstack",
   "description": "A collection of self built packages plus some forks for web development",
   "version": "1.0.0",
   "main": "index.js",
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "husky": "8.0.1",
-    "lerna": "4.0.0"
+    "lerna": "5.4.0"
   },
   "prettier": {
     "printWidth": 80,

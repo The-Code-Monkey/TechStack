@@ -1,4 +1,4 @@
-import memo from '@aw-web-design/memoize';
+import memo from '@techstack/memoize';
 
 const forwardPropHelper =
   (styledProps: Array<string>) =>

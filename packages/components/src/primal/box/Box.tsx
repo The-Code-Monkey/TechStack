@@ -6,10 +6,9 @@ import {
   BorderProps,
   ShadowProps,
   FlexboxProps,
-} from '@aw-web-design/styled-system';
+} from '@techstack/styled-system';
 import { Property } from 'csstype';
-import { ReactNode } from 'react';
-import { KnownWebTarget } from 'styled-components/dist/types';
+import { ElementType, ReactNode } from 'react';
 
 import { generateAutomationId } from '../../utils';
 
@@ -24,7 +23,7 @@ export interface Props
     ShadowProps,
     FlexboxProps {
   children?: ReactNode;
-  as?: KnownWebTarget;
+  as?: ElementType;
   autoid?: string;
   className?: string;
   cursor?: Property.Cursor;

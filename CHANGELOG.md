@@ -3,188 +3,167 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 4.1.0 (2022-05-05)
+## [0.1.1](https://github.com/The-Code-Monkey/TechStack/compare/v0.1.0...v0.1.1) (2022-08-11)
+
+**Note:** Version bump only for package techstack
+
+
+
+
+
+# 0.1.0 (2022-08-11)
 
 
 ### Bug Fixes
 
-* all packages build again ([fc0259f](https://github.com/The-Code-Monkey/TechStack/commit/fc0259f259edf0a2b672415c85e900b2ecf7dae4))
-* build esm and cjs with tcm ([73d8e90](https://github.com/The-Code-Monkey/TechStack/commit/73d8e908a09ca30c9b277b8a9e8cd0515d480334))
-* create memoize ([d6a6911](https://github.com/The-Code-Monkey/TechStack/commit/d6a6911a7ee5cc8e5ba80201d52af0bfd330b465))
-* **deps:** pin dependencies ([#329](https://github.com/The-Code-Monkey/TechStack/issues/329)) ([3a7c834](https://github.com/The-Code-Monkey/TechStack/commit/3a7c8341d18edf5ddbf431f8b64843f6f53f60c3))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([84fe458](https://github.com/The-Code-Monkey/TechStack/commit/84fe4588fe15e10498a0fdca7cdf51b161a4a359))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([3f4e63a](https://github.com/The-Code-Monkey/TechStack/commit/3f4e63ac39940ad04dcc22a9043cb3b292932031))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([e600e01](https://github.com/The-Code-Monkey/TechStack/commit/e600e01bca39b943cd7117d55e4bbaa06491ab6b))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([2f06c1a](https://github.com/The-Code-Monkey/TechStack/commit/2f06c1a56c9efcab01707f080646c5284a01dd2b))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#235](https://github.com/The-Code-Monkey/TechStack/issues/235)) ([4faeb3b](https://github.com/The-Code-Monkey/TechStack/commit/4faeb3b4dca72f46e51fc6ba2c34cb5dd6ad914b))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#264](https://github.com/The-Code-Monkey/TechStack/issues/264)) ([a507d5a](https://github.com/The-Code-Monkey/TechStack/commit/a507d5a3e769e53d99409dde475d0b0ae9bbb7b8))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#300](https://github.com/The-Code-Monkey/TechStack/issues/300)) ([28ee447](https://github.com/The-Code-Monkey/TechStack/commit/28ee447040f31d167abb2b54414f918500cb56b5))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([#321](https://github.com/The-Code-Monkey/TechStack/issues/321)) ([db10faa](https://github.com/The-Code-Monkey/TechStack/commit/db10faae96723db157adefc7a32e1a43f8dd3a21))
-* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo to v3.1.39 ([#243](https://github.com/The-Code-Monkey/TechStack/issues/243)) ([9ad2a0c](https://github.com/The-Code-Monkey/TechStack/commit/9ad2a0c679ee40a96e6d782bd7586e6f75e44ee8))
-* **deps:** update babel monorepo to v7.17.10 ([#310](https://github.com/The-Code-Monkey/TechStack/issues/310)) ([555f5a2](https://github.com/The-Code-Monkey/TechStack/commit/555f5a23a9b82f1d35acee6698af8d9bdcfd59af))
-* **deps:** update dependency @aw-web-design/components to v3.2.1 ([#313](https://github.com/The-Code-Monkey/TechStack/issues/313)) ([cf6801f](https://github.com/The-Code-Monkey/TechStack/commit/cf6801f42b9f304cb338dd7b0f036562574fdaf2))
-* **deps:** update dependency @aw-web-design/components to v3.4.0 ([f98f489](https://github.com/The-Code-Monkey/TechStack/commit/f98f489df43cd58bce6d1465f355cc0817eeecf8))
-* **deps:** update dependency @aw-web-design/react-feather to v3.2.2 ([9746ca8](https://github.com/The-Code-Monkey/TechStack/commit/9746ca8542e3d2d1b3d4eced594b72861cdd8523))
-* **deps:** update dependency @rollup/plugin-commonjs to v22 ([#270](https://github.com/The-Code-Monkey/TechStack/issues/270)) ([942caaa](https://github.com/The-Code-Monkey/TechStack/commit/942caaa717e0d74f296259e2d4e87231bdc1dd75))
-* **deps:** update dependency @rollup/plugin-commonjs to v22 ([#293](https://github.com/The-Code-Monkey/TechStack/issues/293)) ([5ca0767](https://github.com/The-Code-Monkey/TechStack/commit/5ca07671db7ea602e7e841f43496a5d4b60f14ff))
-* **deps:** update dependency @types/jest to v27.5.0 ([#334](https://github.com/The-Code-Monkey/TechStack/issues/334)) ([5beac3d](https://github.com/The-Code-Monkey/TechStack/commit/5beac3d39d1d36159661236e95515bbbb37fe9e0))
-* **deps:** update dependency eslint to v8.14.0 ([#286](https://github.com/The-Code-Monkey/TechStack/issues/286)) ([d58742c](https://github.com/The-Code-Monkey/TechStack/commit/d58742c609845bfbda1126749578f0744577d644))
-* **deps:** update dependency eslint-plugin-jest to v26.1.5 ([f7a07ff](https://github.com/The-Code-Monkey/TechStack/commit/f7a07ffbd9584413a42b516b06d5358e8fd20b3d))
-* **deps:** update dependency eslint-plugin-jest to v26.1.5 ([#289](https://github.com/The-Code-Monkey/TechStack/issues/289)) ([96b86fe](https://github.com/The-Code-Monkey/TechStack/commit/96b86fe6e1aa21fbd1bfa9ce0c7319449ed6d88d))
-* **deps:** update dependency execa to v6 ([ee6eb0d](https://github.com/The-Code-Monkey/TechStack/commit/ee6eb0d812db21f318d3c71f0c07875c12d50919))
-* **deps:** update dependency jest-watch-typeahead to v1.1.0 ([b7f834d](https://github.com/The-Code-Monkey/TechStack/commit/b7f834d3bf267fcaa003cf0eb4eed953cecc08d1))
-* **deps:** update dependency next-auth to v4.3.3 ([2f3660a](https://github.com/The-Code-Monkey/TechStack/commit/2f3660acb923073be2521f1a59bebfce54cf72cc))
-* **deps:** update dependency next-auth to v4.3.4 ([54fdfbe](https://github.com/The-Code-Monkey/TechStack/commit/54fdfbe51c3aaa3ff11b86c214a3cc20c5d0a754))
-* **deps:** update dependency next-auth to v4.3.4 ([#298](https://github.com/The-Code-Monkey/TechStack/issues/298)) ([99090b0](https://github.com/The-Code-Monkey/TechStack/commit/99090b07d1da36c8abf13dcede261db67c8913b7))
-* **deps:** update dependency ora to v6 ([2cc2b87](https://github.com/The-Code-Monkey/TechStack/commit/2cc2b879817c1a35d507b5087c5c873cbe8b0ca7))
-* **deps:** update dependency postcss to v8.4.13 ([#325](https://github.com/The-Code-Monkey/TechStack/issues/325)) ([8faaf79](https://github.com/The-Code-Monkey/TechStack/commit/8faaf79e6d88029decbdb11300bae63716349ae4))
-* **deps:** update dependency rollup to v2.71.1 ([#312](https://github.com/The-Code-Monkey/TechStack/issues/312)) ([88a336c](https://github.com/The-Code-Monkey/TechStack/commit/88a336c460eb8edc8440290d1b5b189491c93e9b))
-* **deps:** update dependency sort-package-json to v1.56.0 ([#315](https://github.com/The-Code-Monkey/TechStack/issues/315)) ([acb7bf0](https://github.com/The-Code-Monkey/TechStack/commit/acb7bf017d3def3f49480eb88e4fe54f72d3b1dd))
-* **deps:** update dependency sort-package-json to v1.57.0 ([#320](https://github.com/The-Code-Monkey/TechStack/issues/320)) ([1513176](https://github.com/The-Code-Monkey/TechStack/commit/1513176072021db076d02e3d089227b02e5d4eb6))
-* **deps:** update dependency typescript to v4.6.4 ([#326](https://github.com/The-Code-Monkey/TechStack/issues/326)) ([430fa97](https://github.com/The-Code-Monkey/TechStack/commit/430fa973ce71823afab6ece175043db162bf8310))
-* **deps:** update jest monorepo ([#327](https://github.com/The-Code-Monkey/TechStack/issues/327)) ([33aa7b5](https://github.com/The-Code-Monkey/TechStack/commit/33aa7b5714ef8f3307f1ec34d91e4c1a7382e44e))
-* issues with imports not working fixed ([490bcef](https://github.com/The-Code-Monkey/TechStack/commit/490bceffa2dc7ce7d16a9e5fb61a4c02c893a59a))
-* lint cms ([4e9bdac](https://github.com/The-Code-Monkey/TechStack/commit/4e9bdac2dd1cf161e59d3b46c2ab8bf1578e8527))
-* linting ([0b02a78](https://github.com/The-Code-Monkey/TechStack/commit/0b02a784548c26768c6b6c61e92c0ce5274f38c2))
-* loads of changes ([4bdec9d](https://github.com/The-Code-Monkey/TechStack/commit/4bdec9dc7c537bef62542226d92b77b9fa529d7c))
-* make storybook work ([155a7ee](https://github.com/The-Code-Monkey/TechStack/commit/155a7ee5c2630f68e4a9b0455a2640e5b4c89796))
-* some issues with esm ([5c343ea](https://github.com/The-Code-Monkey/TechStack/commit/5c343eadda936439148331fd5196e230b3b5e381))
-* tests run and pass ([598ad2a](https://github.com/The-Code-Monkey/TechStack/commit/598ad2af2a21b0354ec8f69008f5793b6d7beadc))
-* update and add some changes ([2252b43](https://github.com/The-Code-Monkey/TechStack/commit/2252b43fa937accb2703c6c3b6315a79e1a78498))
-* update engines ([7e84677](https://github.com/The-Code-Monkey/TechStack/commit/7e84677e288ec5b59c27d17e7c89d687cbaabc50))
-* update gitignore to include idea ([5b3d87e](https://github.com/The-Code-Monkey/TechStack/commit/5b3d87e9c06082ec4fdcdb4f74732f9edf1e4cbe))
-* update husky commands ([7e2ff01](https://github.com/The-Code-Monkey/TechStack/commit/7e2ff0187a9dc7ad8011a49dabbeba264da2aada))
-* update renovate to have node constraint ([29efd01](https://github.com/The-Code-Monkey/TechStack/commit/29efd01723350a839b22eefb8ef0148e18e380cc))
-* update size limit dir ([dbb5a16](https://github.com/The-Code-Monkey/TechStack/commit/dbb5a1644c7b0ea5153806689bc7c0d3cbec8fc7))
-* update some more stuff ([a205b88](https://github.com/The-Code-Monkey/TechStack/commit/a205b88a06daffc3389af907a706f458e35a9dba))
-* update tcm ([9c00675](https://github.com/The-Code-Monkey/TechStack/commit/9c006752cfaf8882ad8524ff76f75132afc5ec99))
-* update tcm cli ([3eb7450](https://github.com/The-Code-Monkey/TechStack/commit/3eb7450a1cfc11b52de3a60b244ab13c87e0dcfe))
-* update tcm cli to fix stuff ([0d9f1e1](https://github.com/The-Code-Monkey/TechStack/commit/0d9f1e1cb556d4c18cde17579fdd5902b2334d9e))
+* allow partial themes ([5ffd74f](https://github.com/The-Code-Monkey/TechStack/commit/5ffd74f3800a05b1dfdd1807790b2a14c57c2de2))
+* **deps:** update dependency eslint-plugin-jest to v26.8.1 ([69f3c91](https://github.com/The-Code-Monkey/TechStack/commit/69f3c9151008a1bb7fc08e742a0a0921b7d9c6a7))
+* **deps:** update dependency eslint-plugin-jest to v26.8.2 ([7162cbf](https://github.com/The-Code-Monkey/TechStack/commit/7162cbf94f4ae0eb1f859318544c526670a213e5))
+* **deps:** update dependency i18next to v21.9.0 ([29df6b0](https://github.com/The-Code-Monkey/TechStack/commit/29df6b0e349423a01e58ea2f3f91231bc890ac21))
+* rollback styled-components to v5 ([4269891](https://github.com/The-Code-Monkey/TechStack/commit/426989129f55fc6dee056a8d82dcfa92d88bbc83))
+* terser security patch ([a686336](https://github.com/The-Code-Monkey/TechStack/commit/a68633633fdefd640960fa541d0763c4a441fdb6))
+* update package versions ([5a7eb40](https://github.com/The-Code-Monkey/TechStack/commit/5a7eb4003b0919cfa8ab8a95063a56cf96b4566b))
 
 
 ### Features
 
-* start to make theme optional on components ([bdec113](https://github.com/The-Code-Monkey/TechStack/commit/bdec1132a5e09f9a655f9a70a5208425e4389588))
-
-
-### Reverts
-
-* Revert "chore(deps): update jest monorepo to v28 (major) (#273)" (#297) ([12abb03](https://github.com/The-Code-Monkey/TechStack/commit/12abb038ff46339e82af24a3e811457a3a69ce9d)), closes [#273](https://github.com/The-Code-Monkey/TechStack/issues/273) [#297](https://github.com/The-Code-Monkey/TechStack/issues/297)
-* Revert "chore(deps): update jest monorepo to v28.0.1 (#280)" (#296) ([b23a57d](https://github.com/The-Code-Monkey/TechStack/commit/b23a57d57381e4277c1f13117404843f73ceb106)), closes [#280](https://github.com/The-Code-Monkey/TechStack/issues/280) [#296](https://github.com/The-Code-Monkey/TechStack/issues/296)
-* Revert "chore(deps): update jest monorepo to v28.0.2 (#285)" (#295) ([75fa93b](https://github.com/The-Code-Monkey/TechStack/commit/75fa93b06480830a63f2e5946e2fb5a48eb70096)), closes [#285](https://github.com/The-Code-Monkey/TechStack/issues/285) [#295](https://github.com/The-Code-Monkey/TechStack/issues/295)
+* add new avatar story ([8fc6402](https://github.com/The-Code-Monkey/TechStack/commit/8fc6402aa7fbe733636c3e969e62b875ceab6368))
+* move to techstack org version 0.0.1 ([37abb9c](https://github.com/The-Code-Monkey/TechStack/commit/37abb9c124c58bcfc91cff1de96f6f6eded13c28))
 
 
 
 
 
-## 3.0.3 (2022-04-05)
-
-**Note:** Version bump only for package aw-web-design
-
-
-
-
-
-## 3.0.2 (2022-04-05)
+# [0.1.0](https://github.com/The-Code-Monkey/TechStack/compare/v4.1.0...v0.1.0) (2022-08-11)
 
 
 ### Bug Fixes
 
-* change lerna publish command ([1fddae9](https://github.com/The-Code-Monkey/TechStack/commit/1fddae9ec734f843e6420b3fbc89ed5bee171f9b))
-
-
-
-
-
-## 3.0.1 (2022-04-05)
-
-
-### Bug Fixes
-
-* release new version of everything ([fb0a068](https://github.com/The-Code-Monkey/TechStack/commit/fb0a06851515dfde016669312440cd13101ff1dc))
-
-
-
-
-
-## 2.0.10 (2022-04-05)
-
-
-### Bug Fixes
-
-* update yarn lock ([fb7d94c](https://github.com/The-Code-Monkey/TechStack/commit/fb7d94cd93e103be342540fe3935a3af41209543))
-
-
-
-
-
-## 2.0.9 (2022-04-04)
-
-**Note:** Version bump only for package aw-web-design
-
-
-
-
-
-## 2.0.8 (2022-04-04)
-
-**Note:** Version bump only for package aw-web-design
-
-
-
-
-
-## 2.0.7 (2022-04-04)
-
-
-### Bug Fixes
-
-* update snapshot ([0ed7a3d](https://github.com/The-Code-Monkey/TechStack/commit/0ed7a3d5ca3cb466a55be188247b8d3d498925ee))
-
-
-
-
-
-## 2.0.6 (2022-04-04)
-
-**Note:** Version bump only for package aw-web-design
-
-
-
-
-
-## 2.0.5 (2022-04-04)
-
-**Note:** Version bump only for package aw-web-design
-
-
-
-
-
-## 2.0.4 (2022-04-04)
-
-**Note:** Version bump only for package aw-web-design
-
-
-
-
-
-## 2.0.3 (2022-04-04)
-
-**Note:** Version bump only for package aw-web-design
-
-
-
-
-
-## 2.0.2 (2022-04-04)
-
-**Note:** Version bump only for package aw-web-design
-
-
-
-
-
-## 2.0.1 (2022-04-04)
-
-**Note:** Version bump only for package aw-web-design
+* add missing dep deep merge ([1bc13b8](https://github.com/The-Code-Monkey/TechStack/commit/1bc13b8bf20fe96e8db1630bd1772939079892bf))
+* add publish config ([30b2a8f](https://github.com/The-Code-Monkey/TechStack/commit/30b2a8fcc02b5298f92024478c3652f02e6e15d2))
+* bump tcm cli ([0771246](https://github.com/The-Code-Monkey/TechStack/commit/07712465e0786403b873a21d8220ecf71af2afaf))
+* **deps:** update [@aw-web-design](https://github.com/aw-web-design) mono repo ([b754489](https://github.com/The-Code-Monkey/TechStack/commit/b754489c05c400a5828c7f42fb884e80cc9b9471))
+* **deps:** update dependency @aw-web-design/react-feather to v4.1.1 ([4deaf7f](https://github.com/The-Code-Monkey/TechStack/commit/4deaf7fe774fba6b1556ad3042e76a17e1d593d1))
+* **deps:** update dependency @aw-web-design/react-lazy-named to v4 ([4da42e8](https://github.com/The-Code-Monkey/TechStack/commit/4da42e8e4ad8eb8d60a4d7a4231ef26386ab6df3))
+* **deps:** update dependency @aw-web-design/react-lazy-named to v4.1.1 ([719dca3](https://github.com/The-Code-Monkey/TechStack/commit/719dca34eac2d4f9e74885ad75c084a51559800a))
+* **deps:** update dependency @aw-web-design/theme to v4.1.1 ([08972ca](https://github.com/The-Code-Monkey/TechStack/commit/08972caa329a90f8885fdb906cd0c06fa762aa82))
+* **deps:** update dependency @aw-web-design/theme to v4.1.2 ([6e042da](https://github.com/The-Code-Monkey/TechStack/commit/6e042da971223edbacf29236b4f535d638b054b5))
+* **deps:** update dependency @emotion/is-prop-valid to v1.1.3 ([1f1f991](https://github.com/The-Code-Monkey/TechStack/commit/1f1f9911d0261720c03e784b337b9d4f4453bfb1))
+* **deps:** update dependency @emotion/is-prop-valid to v1.2.0 ([ca07c66](https://github.com/The-Code-Monkey/TechStack/commit/ca07c66b3addb01c646ba61e28bfa0a07b0a35c3))
+* **deps:** update dependency @types/jest to v27.5.1 ([2f2b239](https://github.com/The-Code-Monkey/TechStack/commit/2f2b2392d09301cbfa4eb547b751ec93dddec720))
+* **deps:** update dependency @types/jest to v27.5.2 ([4bdf23e](https://github.com/The-Code-Monkey/TechStack/commit/4bdf23e2a4b7cd51b4752d2db424d6ea3de0e605))
+* **deps:** update dependency @types/jest to v28 ([#485](https://github.com/The-Code-Monkey/TechStack/issues/485)) ([e29c4ab](https://github.com/The-Code-Monkey/TechStack/commit/e29c4ab9d89a8102ab432f1c89ad2f5d04f98a38))
+* **deps:** update dependency @types/jest to v28.1.1 ([5aa23a5](https://github.com/The-Code-Monkey/TechStack/commit/5aa23a5b10fcd0d9770a3c7f6a8771a720a28fe7))
+* **deps:** update dependency @types/jest to v28.1.2 ([#540](https://github.com/The-Code-Monkey/TechStack/issues/540)) ([55656ea](https://github.com/The-Code-Monkey/TechStack/commit/55656eac91a67f9fee3041ce40093c67876bf457))
+* **deps:** update dependency @types/jest to v28.1.3 ([02fb4b3](https://github.com/The-Code-Monkey/TechStack/commit/02fb4b36f008136b575dcbaa8cedbef88a0c14fb))
+* **deps:** update dependency @types/jest to v28.1.4 ([b167842](https://github.com/The-Code-Monkey/TechStack/commit/b1678426685271ede372c6d287cdddba703bc626))
+* **deps:** update dependency @types/jest to v28.1.5 ([68a9f68](https://github.com/The-Code-Monkey/TechStack/commit/68a9f68dbabb35de107758d24bff61d3afffceff))
+* **deps:** update dependency @types/jest to v28.1.6 ([6cd93cb](https://github.com/The-Code-Monkey/TechStack/commit/6cd93cb5c80cba60a5a4171465af24b89ea24d05))
+* **deps:** update dependency camelcase to v7 ([#503](https://github.com/The-Code-Monkey/TechStack/issues/503)) ([28438e7](https://github.com/The-Code-Monkey/TechStack/commit/28438e7fdecbe28ad095f960f0c32a1ce3cbda62))
+* **deps:** update dependency colorette to v2.0.17 ([4eaa354](https://github.com/The-Code-Monkey/TechStack/commit/4eaa354d404752ad542dfd3d3a73351195186caf))
+* **deps:** update dependency colorette to v2.0.18 ([#526](https://github.com/The-Code-Monkey/TechStack/issues/526)) ([aa8b296](https://github.com/The-Code-Monkey/TechStack/commit/aa8b2966935bdcd235acf5c9afadef0935bb8263))
+* **deps:** update dependency colorette to v2.0.19 ([8821e0b](https://github.com/The-Code-Monkey/TechStack/commit/8821e0b79d46f2fbbcc3fef9c7275e26dd2c8759))
+* **deps:** update dependency csstype to v3.1.0 ([a497f06](https://github.com/The-Code-Monkey/TechStack/commit/a497f06253b0c67125082f56542ad21849f0344b))
+* **deps:** update dependency eslint to v8.15.0 ([0511d15](https://github.com/The-Code-Monkey/TechStack/commit/0511d15f3f8686588f4aa46b491b5f08ed8f8e44))
+* **deps:** update dependency eslint to v8.16.0 ([d6c9bd9](https://github.com/The-Code-Monkey/TechStack/commit/d6c9bd94796da812dafb67a5a567156da4250c11))
+* **deps:** update dependency eslint to v8.17.0 ([#496](https://github.com/The-Code-Monkey/TechStack/issues/496)) ([ad82f58](https://github.com/The-Code-Monkey/TechStack/commit/ad82f58adad54716ee74c15ae3e249b78185a204))
+* **deps:** update dependency eslint to v8.18.0 ([#544](https://github.com/The-Code-Monkey/TechStack/issues/544)) ([2b99202](https://github.com/The-Code-Monkey/TechStack/commit/2b99202b064d65df10e70e28f2b0f35894fa059a))
+* **deps:** update dependency eslint to v8.19.0 ([#570](https://github.com/The-Code-Monkey/TechStack/issues/570)) ([ecee938](https://github.com/The-Code-Monkey/TechStack/commit/ecee93816f9b607f1b9504158a521961f758c580))
+* **deps:** update dependency eslint to v8.20.0 ([2c564c9](https://github.com/The-Code-Monkey/TechStack/commit/2c564c9c51751b5cef749fe64431c0d8c9a331e0))
+* **deps:** update dependency eslint to v8.21.0 ([3fa3614](https://github.com/The-Code-Monkey/TechStack/commit/3fa36142c3debd5d462b65aa3495e2be5a079df6))
+* **deps:** update dependency eslint-plugin-jest to v26.2.0 ([9e9aecf](https://github.com/The-Code-Monkey/TechStack/commit/9e9aecf1cd45724fe0979d7a7074b58e991400ec))
+* **deps:** update dependency eslint-plugin-jest to v26.2.1 ([#428](https://github.com/The-Code-Monkey/TechStack/issues/428)) ([ffa1436](https://github.com/The-Code-Monkey/TechStack/commit/ffa143634e280c03cd2b9ebe25442c6e63dbba40))
+* **deps:** update dependency eslint-plugin-jest to v26.2.2 ([3fc5b88](https://github.com/The-Code-Monkey/TechStack/commit/3fc5b88bf6dff3abec74320c5262936b2857e429))
+* **deps:** update dependency eslint-plugin-jest to v26.3.0 ([8c0643f](https://github.com/The-Code-Monkey/TechStack/commit/8c0643f16e534f073c593fcdd99ca280070c1e6c))
+* **deps:** update dependency eslint-plugin-jest to v26.4.2 ([ff7c9c6](https://github.com/The-Code-Monkey/TechStack/commit/ff7c9c6ba16cc06779180499f42b500dcfd130d7))
+* **deps:** update dependency eslint-plugin-jest to v26.4.5 ([096c9b4](https://github.com/The-Code-Monkey/TechStack/commit/096c9b4160d47674d54316b01e738f8cec87330a))
+* **deps:** update dependency eslint-plugin-jest to v26.4.6 ([7c6ad13](https://github.com/The-Code-Monkey/TechStack/commit/7c6ad13b06727b32e5a34eb9a1accbab941730c0))
+* **deps:** update dependency eslint-plugin-jest to v26.5.1 ([#499](https://github.com/The-Code-Monkey/TechStack/issues/499)) ([d229624](https://github.com/The-Code-Monkey/TechStack/commit/d229624eb3b85c7901c3c8936b4983133f5b63d7))
+* **deps:** update dependency eslint-plugin-jest to v26.5.3 ([#502](https://github.com/The-Code-Monkey/TechStack/issues/502)) ([c2b42c9](https://github.com/The-Code-Monkey/TechStack/commit/c2b42c9ca7b7316281107bba60d17e956e895b78))
+* **deps:** update dependency eslint-plugin-jest to v26.6.0 ([b3fa2f8](https://github.com/The-Code-Monkey/TechStack/commit/b3fa2f81a1d73e22f14c8c3fecbf77c35e20cd5e))
+* **deps:** update dependency eslint-plugin-jest to v26.7.0 ([fe6b170](https://github.com/The-Code-Monkey/TechStack/commit/fe6b1705a4f52dc945505f4140d2074632d968a6))
+* **deps:** update dependency eslint-plugin-jest to v26.8.0 ([c0c35c4](https://github.com/The-Code-Monkey/TechStack/commit/c0c35c491276705d42012692a19cf0949258c834))
+* **deps:** update dependency eslint-plugin-jest to v26.8.1 ([69f3c91](https://github.com/The-Code-Monkey/TechStack/commit/69f3c9151008a1bb7fc08e742a0a0921b7d9c6a7))
+* **deps:** update dependency eslint-plugin-jest to v26.8.2 ([7162cbf](https://github.com/The-Code-Monkey/TechStack/commit/7162cbf94f4ae0eb1f859318544c526670a213e5))
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.6.0 ([7d28af0](https://github.com/The-Code-Monkey/TechStack/commit/7d28af0be8986172f76310b62f12f1a8b446d675))
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.6.1 ([5f611bb](https://github.com/The-Code-Monkey/TechStack/commit/5f611bbd2e73cf841c5c7ddecc7b61e12044afa0))
+* **deps:** update dependency eslint-plugin-prettier to v4.1.0 ([2113cde](https://github.com/The-Code-Monkey/TechStack/commit/2113cde0442bddd0ae1dc8d38a3707395ad726df))
+* **deps:** update dependency eslint-plugin-prettier to v4.2.1 ([#567](https://github.com/The-Code-Monkey/TechStack/issues/567)) ([5dcc0f7](https://github.com/The-Code-Monkey/TechStack/commit/5dcc0f79e7e2dc52248f242c8afe62c4455d5850))
+* **deps:** update dependency eslint-plugin-react to v7.30.0 ([2fc6d81](https://github.com/The-Code-Monkey/TechStack/commit/2fc6d81d30cfa030565dcedb1f731562bdc2b1eb))
+* **deps:** update dependency eslint-plugin-react to v7.30.1 ([43a5180](https://github.com/The-Code-Monkey/TechStack/commit/43a5180988cc09b2fc7c8850f5025ffbd3f56316))
+* **deps:** update dependency eslint-plugin-testing-library to v5.4.0 ([e090d8d](https://github.com/The-Code-Monkey/TechStack/commit/e090d8d74807b1abfbfb5f96b72e0aa8b95de673))
+* **deps:** update dependency eslint-plugin-testing-library to v5.5.0 ([8917051](https://github.com/The-Code-Monkey/TechStack/commit/8917051f3ea69f25df860794059ad506f13ad0dc))
+* **deps:** update dependency eslint-plugin-testing-library to v5.5.1 ([#464](https://github.com/The-Code-Monkey/TechStack/issues/464)) ([ad86289](https://github.com/The-Code-Monkey/TechStack/commit/ad86289f16f63bdb4c13337186e15e2e9bda87d1))
+* **deps:** update dependency eslint-plugin-testing-library to v5.6.0 ([dfa2612](https://github.com/The-Code-Monkey/TechStack/commit/dfa261276820a7feeddc49f04e4f372fe64fdd3b))
+* **deps:** update dependency i18next to v21.8.1 ([01041c6](https://github.com/The-Code-Monkey/TechStack/commit/01041c65fe9794a45d9d8cbb17da591e2900375f))
+* **deps:** update dependency i18next to v21.8.10 ([#535](https://github.com/The-Code-Monkey/TechStack/issues/535)) ([a168d06](https://github.com/The-Code-Monkey/TechStack/commit/a168d0653a61f9bf78f77f8e1565fc115a451682))
+* **deps:** update dependency i18next to v21.8.11 ([c8de3c4](https://github.com/The-Code-Monkey/TechStack/commit/c8de3c41765b871d620c50fb1c4db08677de5bd3))
+* **deps:** update dependency i18next to v21.8.13 ([dcc25ce](https://github.com/The-Code-Monkey/TechStack/commit/dcc25ce817123a27826806f3376208431d17226f))
+* **deps:** update dependency i18next to v21.8.14 ([3ef62ac](https://github.com/The-Code-Monkey/TechStack/commit/3ef62ac6502025ef713260b3db38093004698db8))
+* **deps:** update dependency i18next to v21.8.15 ([01d3472](https://github.com/The-Code-Monkey/TechStack/commit/01d347213376d88659da900a318ef5fe506bd15c))
+* **deps:** update dependency i18next to v21.8.16 ([6c16cd4](https://github.com/The-Code-Monkey/TechStack/commit/6c16cd453a76fba01b05d890825104bfaa5ea1e8))
+* **deps:** update dependency i18next to v21.8.2 ([#426](https://github.com/The-Code-Monkey/TechStack/issues/426)) ([ee12e5b](https://github.com/The-Code-Monkey/TechStack/commit/ee12e5b774c2b49fe7d4c758930a8ba86ca4d42e))
+* **deps:** update dependency i18next to v21.8.3 ([#441](https://github.com/The-Code-Monkey/TechStack/issues/441)) ([7edd049](https://github.com/The-Code-Monkey/TechStack/commit/7edd0497f022d8aeaa9827abc7376691154f96db))
+* **deps:** update dependency i18next to v21.8.4 ([824b08a](https://github.com/The-Code-Monkey/TechStack/commit/824b08a5bb9819020c4e7c71f11a65210b5f82d8))
+* **deps:** update dependency i18next to v21.8.5 ([f37dd04](https://github.com/The-Code-Monkey/TechStack/commit/f37dd0453201ee09490c574751546b61f994e16b))
+* **deps:** update dependency i18next to v21.8.7 ([88f27b5](https://github.com/The-Code-Monkey/TechStack/commit/88f27b5092f2a0f82667f835443888226fd71000))
+* **deps:** update dependency i18next to v21.8.8 ([#492](https://github.com/The-Code-Monkey/TechStack/issues/492)) ([9c0c13c](https://github.com/The-Code-Monkey/TechStack/commit/9c0c13c9dd212e920ab857ecd83072f6957888a5))
+* **deps:** update dependency i18next to v21.8.9 ([a787d68](https://github.com/The-Code-Monkey/TechStack/commit/a787d68c2d13e89406e476eebfa6cc7a5a265155))
+* **deps:** update dependency i18next to v21.9.0 ([29df6b0](https://github.com/The-Code-Monkey/TechStack/commit/29df6b0e349423a01e58ea2f3f91231bc890ac21))
+* **deps:** update dependency jest-watch-typeahead to v2 ([#582](https://github.com/The-Code-Monkey/TechStack/issues/582)) ([462b065](https://github.com/The-Code-Monkey/TechStack/commit/462b06589555edd926f9ab9a1b134c73179b3633))
+* **deps:** update dependency ora to v6.1.1 ([2e992d1](https://github.com/The-Code-Monkey/TechStack/commit/2e992d1e689fd7c3855654d4e3009993fb20ed36))
+* **deps:** update dependency ora to v6.1.2 ([de9105f](https://github.com/The-Code-Monkey/TechStack/commit/de9105ff0895069ac18165bfa5e5cdd1a45e1b89))
+* **deps:** update dependency postcss to v8.4.14 ([#442](https://github.com/The-Code-Monkey/TechStack/issues/442)) ([14e75a1](https://github.com/The-Code-Monkey/TechStack/commit/14e75a1f27a15e33cad6616751471636e2429814))
+* **deps:** update dependency postcss to v8.4.16 ([#626](https://github.com/The-Code-Monkey/TechStack/issues/626)) ([36c3db1](https://github.com/The-Code-Monkey/TechStack/commit/36c3db1035b888221aa108ca34bb451ac11dbb4d))
+* **deps:** update dependency prettier to v2.7.0 ([#527](https://github.com/The-Code-Monkey/TechStack/issues/527)) ([6aaeb08](https://github.com/The-Code-Monkey/TechStack/commit/6aaeb088ed34c4df0acfd4c7a5a1592684b83786))
+* **deps:** update dependency prettier to v2.7.1 ([#536](https://github.com/The-Code-Monkey/TechStack/issues/536)) ([e6f82b3](https://github.com/The-Code-Monkey/TechStack/commit/e6f82b3db9524b7a39d97d03caa9777829cb806c))
+* **deps:** update dependency react-i18next to v11.16.10 ([#489](https://github.com/The-Code-Monkey/TechStack/issues/489)) ([55f7dc4](https://github.com/The-Code-Monkey/TechStack/commit/55f7dc4655643a25f0ebdaacc16986c3651c08fe))
+* **deps:** update dependency react-i18next to v11.17.0 ([#490](https://github.com/The-Code-Monkey/TechStack/issues/490)) ([17472e3](https://github.com/The-Code-Monkey/TechStack/commit/17472e3737e6bd41a2522aac4a1615cebf32e6ef))
+* **deps:** update dependency react-i18next to v11.17.1 ([#519](https://github.com/The-Code-Monkey/TechStack/issues/519)) ([d048bb1](https://github.com/The-Code-Monkey/TechStack/commit/d048bb13c133e6bcbdd62e5bfa9ec83fd62ba7bd))
+* **deps:** update dependency react-i18next to v11.17.2 ([776dda8](https://github.com/The-Code-Monkey/TechStack/commit/776dda873fa0c9aa382fc2ca56f5af994ac68a6e))
+* **deps:** update dependency react-i18next to v11.17.3 ([371d3ce](https://github.com/The-Code-Monkey/TechStack/commit/371d3ce0699d6b7a12cc96663f9dcbeead8b86ce))
+* **deps:** update dependency react-i18next to v11.18.0 ([#568](https://github.com/The-Code-Monkey/TechStack/issues/568)) ([9756e9d](https://github.com/The-Code-Monkey/TechStack/commit/9756e9d2ee3430051ba4524b1977c3c4ed8bd75e))
+* **deps:** update dependency react-i18next to v11.18.1 ([8e850cc](https://github.com/The-Code-Monkey/TechStack/commit/8e850cc8e6f4f4c99dc64fdcd8ff17ded0ef85d8))
+* **deps:** update dependency react-i18next to v11.18.2 ([#606](https://github.com/The-Code-Monkey/TechStack/issues/606)) ([c33040e](https://github.com/The-Code-Monkey/TechStack/commit/c33040eda1c69e27610fafa0c3db487f2e30d55e))
+* **deps:** update dependency react-i18next to v11.18.3 ([7d85c79](https://github.com/The-Code-Monkey/TechStack/commit/7d85c794765c69f54fdd7378193dd129f696055b))
+* **deps:** update dependency react-table to v7.8.0 ([#434](https://github.com/The-Code-Monkey/TechStack/issues/434)) ([abf59ca](https://github.com/The-Code-Monkey/TechStack/commit/abf59ca9fc07a4a818e3fc86b898e76403b57914))
+* **deps:** update dependency style-dictionary to v3.7.1 ([#511](https://github.com/The-Code-Monkey/TechStack/issues/511)) ([4a14915](https://github.com/The-Code-Monkey/TechStack/commit/4a149155a09235087e020a7c21ae103ba3d049f2))
+* **deps:** update dependency ts-node to v10.8.0 ([d8f03ca](https://github.com/The-Code-Monkey/TechStack/commit/d8f03ca04d7e28f7a768ff71bc0519f7cb4df89f))
+* **deps:** update dependency ts-node to v10.8.1 ([#495](https://github.com/The-Code-Monkey/TechStack/issues/495)) ([127e764](https://github.com/The-Code-Monkey/TechStack/commit/127e764f92011cdc6fc396982eec7509a386874a))
+* **deps:** update dependency ts-node to v10.8.2 ([84998ad](https://github.com/The-Code-Monkey/TechStack/commit/84998ad111aeb61c2c428b754f3ec0de1a8d5dec))
+* **deps:** update dependency ts-node to v10.9.1 ([#589](https://github.com/The-Code-Monkey/TechStack/issues/589)) ([8f074e9](https://github.com/The-Code-Monkey/TechStack/commit/8f074e94fa723ff831d6bd6884f789a39900e02b))
+* **deps:** update dependency type-fest to v2.13.0 ([#459](https://github.com/The-Code-Monkey/TechStack/issues/459)) ([cbb4b04](https://github.com/The-Code-Monkey/TechStack/commit/cbb4b048badbd6029c1beadbf678d1bb26083f98))
+* **deps:** update dependency type-fest to v2.13.1 ([e09bf08](https://github.com/The-Code-Monkey/TechStack/commit/e09bf080aed6dec44dfb23c74868dfcdd26e1158))
+* **deps:** update dependency type-fest to v2.14.0 ([e7a2cba](https://github.com/The-Code-Monkey/TechStack/commit/e7a2cbaa1f599137c56fc85adb620c12667ed9c6))
+* **deps:** update dependency type-fest to v2.16.0 ([#569](https://github.com/The-Code-Monkey/TechStack/issues/569)) ([c1774eb](https://github.com/The-Code-Monkey/TechStack/commit/c1774ebb4e5cfe1226423efc2b5e077062551be3))
+* **deps:** update dependency type-fest to v2.17.0 ([90a2c58](https://github.com/The-Code-Monkey/TechStack/commit/90a2c58654e6f5ed74b09bf9ca4f27d70cdd599f))
+* **deps:** update dependency type-fest to v2.18.0 ([aa39579](https://github.com/The-Code-Monkey/TechStack/commit/aa3957992ab7c6e31dda66ab29bfa62b2057fd83))
+* **deps:** update jest monorepo to v28.1.2 ([69ba598](https://github.com/The-Code-Monkey/TechStack/commit/69ba59852339885f87cc2270bce30694251fb6a1))
+* **deps:** update react monorepo ([#530](https://github.com/The-Code-Monkey/TechStack/issues/530)) ([d2eb5a1](https://github.com/The-Code-Monkey/TechStack/commit/d2eb5a1d2c1eb9b666f4e6b3fc344bd61532c31e))
+* dirname not defined ([da18e00](https://github.com/The-Code-Monkey/TechStack/commit/da18e00bd003a53faae613c5a61de0a7b21aae10))
+* issue with styled components and storybook on build ([24a00d7](https://github.com/The-Code-Monkey/TechStack/commit/24a00d7abd2b7b8556d7cbecebde863488bf1688))
+* linting ([6e535e2](https://github.com/The-Code-Monkey/TechStack/commit/6e535e21bcd5f317914b42ddbfa3ccd4fb7fda65))
+* loads of changes to types and functions ([d45cd23](https://github.com/The-Code-Monkey/TechStack/commit/d45cd23a826ee46939dd92ca81770b70a1e3a985))
+* push another change ([5aa2961](https://github.com/The-Code-Monkey/TechStack/commit/5aa29617b1d36e34b10d1e0e0a8a4ca02a5c18d0))
+* remove .idea folder ([f8b7147](https://github.com/The-Code-Monkey/TechStack/commit/f8b714735fe9a4e0e8f1b02035c82f0247d3f3ea))
+* remove icon component from react-feather ([29dc317](https://github.com/The-Code-Monkey/TechStack/commit/29dc317656e0d745c4616cc1bb869d9cafc6aee0))
+* remove some anys ([a2efbb2](https://github.com/The-Code-Monkey/TechStack/commit/a2efbb24dd0a4aac870c7d3fc535bc4a1d9890c8))
+* remove storybook from main.yml and create own run script ([3861903](https://github.com/The-Code-Monkey/TechStack/commit/38619033dd7e271e989a4548b94bcea595d6e68d))
+* rollback storybook ([d623734](https://github.com/The-Code-Monkey/TechStack/commit/d6237345543ad3893afbe177fa844ac76b171c15))
+* rollback styled-components to v5 ([4269891](https://github.com/The-Code-Monkey/TechStack/commit/426989129f55fc6dee056a8d82dcfa92d88bbc83))
+* terser security patch ([a686336](https://github.com/The-Code-Monkey/TechStack/commit/a68633633fdefd640960fa541d0763c4a441fdb6))
+* update a load of stuff ([56bb576](https://github.com/The-Code-Monkey/TechStack/commit/56bb5764633af9eda7889541548c588cdaa43b9d))
+* update gitignore ([0657845](https://github.com/The-Code-Monkey/TechStack/commit/0657845d94192ced3183b5485f40431d59a7ff02))
+* update package build order ([32736b8](https://github.com/The-Code-Monkey/TechStack/commit/32736b8d8e9755063331268ca71469557b42fe08))
+* update react-feather build command ([a53f292](https://github.com/The-Code-Monkey/TechStack/commit/a53f2926c7c47b522d3e85fe77f25fdddb4cf01d))
+* update storybook yml ([bc05939](https://github.com/The-Code-Monkey/TechStack/commit/bc059390b4f01ff1c51e92f88a49a9ca4f90c17f))
+* update storybook.yml ([b0e186d](https://github.com/The-Code-Monkey/TechStack/commit/b0e186d5996d414c492e5fe0c5780845238cccf9))
+* update tcm cli ([185888c](https://github.com/The-Code-Monkey/TechStack/commit/185888cc6c05592e5949362d58a63565c8772a11))
+
+
+### Features
+
+* add new avatar story ([8fc6402](https://github.com/The-Code-Monkey/TechStack/commit/8fc6402aa7fbe733636c3e969e62b875ceab6368))
+* add new package, font-picker ([6fff5ab](https://github.com/The-Code-Monkey/TechStack/commit/6fff5aba8819ab9d29bcc342502faef02a4ac8a8))
+* add x-default-browser ([077fe59](https://github.com/The-Code-Monkey/TechStack/commit/077fe59adf3b8faef6e2cd0facea4625d279386e))
+* move to techstack org version 0.0.1 ([37abb9c](https://github.com/The-Code-Monkey/TechStack/commit/37abb9c124c58bcfc91cff1de96f6f6eded13c28))

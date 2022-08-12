@@ -10,7 +10,6 @@
     "workarounds:all"
   ],
   "automergeStrategy": "squash",
-  "rangeStrategy": "pin",
   "labels": ["dependencies"],
   "automerge": true,
   "rollbackPrs": false,
@@ -18,16 +17,17 @@
       "automerge": false
   },
   "vulnerabilityAlerts": {
-    "labels": ["security"]
+    "labels": ["security"],
+    "enabled": true
   },
   "packageRules": [
     {
       "matchPackageNames": ["node"],
-      "allowedVersions": "< 17.0.0"
+      "enabled": false
     },
     {
-      "matchPackagePatterns": ["@aw-web-design/*"],
-      "groupName": "@aw-web-design mono repo"
+      "matchPackagePatterns": ["@techstack/*"],
+      "groupName": "@techstack mono repo"
     }
   ],
   "updateInternalDeps": true

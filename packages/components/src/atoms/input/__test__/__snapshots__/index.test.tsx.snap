@@ -3,7 +3,7 @@
 exports[`<Input /> renders correctly 1`] = `
 <DocumentFragment>
   <input
-    class="sc-chmotB hqEmBz"
+    class="sc-jSMfEi eevSLp"
     cursor="pointer"
     name="test"
     placeholder="Placeholder"

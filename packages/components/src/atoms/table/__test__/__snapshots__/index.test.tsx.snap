@@ -3,16 +3,16 @@
 exports[`<Table /> should render correctly 1`] = `
 <DocumentFragment>
   <table
-    class="sc-chmotB epdPvf"
+    class="sc-jSMfEi eVsqtd"
     height="100%"
     role="table"
     width="100%"
   >
     <thead
-      class="sc-hfIyFQ kLBEHc"
+      class="sc-gKXOVf dgdQVN"
     />
     <tbody
-      class="sc-bCYoOG jbceuW"
+      class="sc-papXJ gvDnXh"
       role="rowgroup"
     />
   </table>

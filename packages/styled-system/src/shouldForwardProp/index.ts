@@ -1,5 +1,5 @@
-import memoize from '@aw-web-design/memoize';
 import isPropValid from '@emotion/is-prop-valid';
+import memoize from '@techstack/memoize';
 
 import { compose } from '../core';
 import { animation } from '../parsers/animation';

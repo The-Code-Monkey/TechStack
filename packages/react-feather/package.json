@@ -1,14 +1,14 @@
 {
-  "name": "@aw-web-design/react-feather",
-  "version": "4.1.19",
+  "name": "@techstack/react-feather",
+  "version": "0.1.5",
   "description": "React component for Feather icons",
   "type": "module",
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/react-feather.esm.js",
   "exports": {
-    "import": "./dist/esm/index.js",
-    "require": "./dist/cjs/index.js",
-    "default": "./dist/esm/index.js"
+    "import": "./dist/react-feather.esm.js",
+    "require": "./dist/index.js",
+    "default": "./dist/react-feather.esm.js"
   },
   "typings": "dist/types/index.d.ts",
   "files": [
@@ -18,11 +18,10 @@
   "scripts": {
     "lint": "tcm lint",
     "prebuild": "node generate.js",
-    "build": "tcm build",
-    "test": "tcm test"
+    "build": "dts build"
   },
   "engines": {
-    "node": "16.15.0"
+    "node": ">=16"
   },
   "publishConfig": {
     "access": "public"
@@ -45,15 +44,17 @@
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.20",
+    "@techstack/tcm-cli": "0.1.4",
     "cross-env": "7.0.3",
+    "dts-cli": "1.5.2",
     "fs-extra": "10.1.0",
-    "typescript": "4.6.4"
+    "typescript": "4.7.4"
   },
   "dependencies": {
-    "@aw-web-design/react-lazy-named": "4.1.18"
+    "@techstack/react-lazy-named": "0.1.5"
   },
   "peerDependencies": {
-    "react": "18.1.0"
-  }
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"
 }

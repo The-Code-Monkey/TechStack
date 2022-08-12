@@ -5,9 +5,10 @@ import {
   useState,
   useContext,
 } from 'react';
-import { ThemeContext, DefaultTheme } from 'styled-components';
+import { ThemeContext } from 'styled-components';
 
 import { BoxProps } from '../../primal';
+import { DefaultThemeWithDefaultStyles } from '../../utils';
 
 import { StyledInput } from './styled';
 
@@ -27,7 +28,7 @@ const Input = ({
   placeholder = 'Placeholder',
   ...rest
 }: Props) => {
-  const theme = useContext<DefaultTheme>(ThemeContext);
+  const theme = useContext<DefaultThemeWithDefaultStyles>(ThemeContext);
   const [v, setValue] = useState<string | number | undefined>(value);
 
   const handleOnChange = useCallback(

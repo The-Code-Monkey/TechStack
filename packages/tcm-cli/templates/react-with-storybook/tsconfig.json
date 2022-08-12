@@ -1,6 +1,19 @@
 {
-  // see https://www.typescriptlang.org/tsconfig to better understand tsconfigs
-  "extends": "../../tsconfig.json",
   "include": ["src", "types"],
-"exclude": ["src/**/__test__/*.test.ts*x"],
+  "exclude": ["src/**/__test__/*.test.ts*x"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "jsx": "react",
+    "importHelpers": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "declaration": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+  }
 }

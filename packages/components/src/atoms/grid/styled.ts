@@ -1,4 +1,4 @@
-import { grid } from '@aw-web-design/styled-system';
+import { grid } from '@techstack/styled-system';
 import styled from 'styled-components';
 
 import { Box } from '../../primal';

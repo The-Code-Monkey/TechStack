@@ -216,13 +216,17 @@ const generate = async (options: { b: any; brand: any }) => {
   const ConfigWithSource = Config;
   if (fs.existsSync(customSrcDir)) {
     console.log('Using your theme');
-    ConfigWithSource.source = [`${customSrcDir}/**/*.json`];
+    ConfigWithSource.source = [
+      path.resolve(__dirname, `theme/default/**/*.json`),
+      `${customSrcDir}/**/*.json`,
+    ];
   } else {
     console.log('Using default theme');
     console.log(
       path.resolve(__dirname, `theme/${brand.toLowerCase()}/**/*.json`)
     );
     ConfigWithSource.source = [
+      path.resolve(__dirname, `theme/default/**/*.json`),
       path.resolve(__dirname, `theme/${brand.toLowerCase()}/**/*.json`),
     ];
   }

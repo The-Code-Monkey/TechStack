@@ -1,6 +1,6 @@
 {
-  "name": "@aw-web-design/react-textfit",
-  "version": "4.1.21",
+  "name": "@techstack/react-textfit",
+  "version": "0.1.5",
   "description": "React component to fit headlines and paragraphs into any element",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/react-textfit/README.md",
   "repository": {
@@ -11,18 +11,18 @@
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
   "engines": {
-    "node": "16.15.0"
+    "node": ">=16"
   },
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/react-textfit.esm.js",
   "exports": {
-    "import": "./dist/esm/index.js",
-    "require": "./dist/cjs/index.js",
-    "default": "./dist/esm/index.js"
+    "import": "./dist/react-textfit.esm.js",
+    "require": "./dist/react-textfix.cjs.production.min.js",
+    "default": "./dist/react-textfit.esm.js"
   },
   "typings": "dist/types/index.d.ts",
   "scripts": {
-    "build": "tcm build",
+    "build": "dts build",
     "lint": "tcm lint"
   },
   "publishConfig": {
@@ -37,7 +37,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@aw-web-design/tcm-cli": "4.1.20",
+    "@techstack/tcm-cli": "0.1.4",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",
@@ -45,24 +45,23 @@
     "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
-    "eslint": "8.15.0",
+    "dts-cli": "1.5.2",
+    "eslint": "8.21.0",
     "eslint-config-airbnb": "19.0.4",
-    "eslint-plugin-react": "7.29.4",
-    "expect": "28.1.0",
+    "eslint-plugin-react": "7.30.1",
+    "expect": "28.1.3",
     "mocha": "10.0.0",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
     "rimraf": "3.0.2",
-    "webpack": "5.72.1",
-    "webpack-dev-server": "4.9.0"
+    "webpack": "5.74.0",
+    "webpack-dev-server": "4.10.0"
   },
   "peerDependencies": {
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
   },
   "dependencies": {
     "process": "0.11.10",
     "prop-types": "15.8.1"
   },
-  "gitHead": "4eff72e16ff10a3811ffdb619debd8d94868067d"
+  "gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"
 }

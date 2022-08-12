@@ -3,11 +3,11 @@
 exports[`<Button /> renders default correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-ibERUn sc-chmotB WxUXI"
+    class="sc-hKMtZM sc-jSMfEi fRdjOa"
     data-autoid="Default_button"
   >
     <span
-      class="sc-bKFsHG gTLBQW"
+      class="sc-eCYdqJ kQHdnO"
       data-autoid=""
     >
       Default
@@ -19,11 +19,11 @@ exports[`<Button /> renders default correctly 1`] = `
 exports[`<Button /> renders icon correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-ibERUn sc-chmotB WxUXI"
+    class="sc-hKMtZM sc-jSMfEi fRdjOa"
     data-autoid="Secondary_button"
   >
     <div
-      class="sc-bscPHp gqgVuA sc-gqyZTE dsqBnA"
+      class="sc-gsnTZi cXXFdo sc-dkzDqf huekpF"
       data-autoid="github_icon"
     >
       <svg
@@ -55,7 +55,7 @@ exports[`<Button /> renders icon correctly 1`] = `
       </svg>
     </div>
     <span
-      class="sc-bKFsHG gTLBQW"
+      class="sc-eCYdqJ kQHdnO"
       data-autoid=""
     >
       Secondary
@@ -67,11 +67,11 @@ exports[`<Button /> renders icon correctly 1`] = `
 exports[`<Button /> renders icon only correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-ibERUn sc-chmotB WxUXI"
+    class="sc-hKMtZM sc-jSMfEi fRdjOa"
     data-autoid="_button"
   >
     <div
-      class="sc-bscPHp gqgVuA sc-gqyZTE kmoqFI"
+      class="sc-gsnTZi cXXFdo sc-dkzDqf bQHrml"
       data-autoid="github_icon"
     >
       <svg
@@ -103,7 +103,7 @@ exports[`<Button /> renders icon only correctly 1`] = `
       </svg>
     </div>
     <span
-      class="sc-bKFsHG gTLBQW"
+      class="sc-eCYdqJ kQHdnO"
       data-autoid=""
     />
   </button>
@@ -113,11 +113,11 @@ exports[`<Button /> renders icon only correctly 1`] = `
 exports[`<Button /> renders primary correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-ibERUn sc-chmotB hnmCfJ"
+    class="sc-hKMtZM sc-jSMfEi RbYDD"
     data-autoid="Primary_button"
   >
     <span
-      class="sc-bKFsHG gTLBQW"
+      class="sc-eCYdqJ kQHdnO"
       data-autoid=""
     >
       Primary
@@ -129,11 +129,11 @@ exports[`<Button /> renders primary correctly 1`] = `
 exports[`<Button /> renders secondary correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-ibERUn sc-chmotB dQNODb"
+    class="sc-hKMtZM sc-jSMfEi bNLbmJ"
     data-autoid="Secondary_button"
   >
     <span
-      class="sc-bKFsHG gTLBQW"
+      class="sc-eCYdqJ kQHdnO"
       data-autoid=""
     >
       Secondary

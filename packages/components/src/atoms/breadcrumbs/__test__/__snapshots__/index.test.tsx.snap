@@ -3,11 +3,11 @@
 exports[`<Breadcrumbs /> should render correctly with url param 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bscPHp gqgVuA"
+    class="sc-gsnTZi cXXFdo"
     data-autoid="box"
   >
     <span
-      class="sc-bKFsHG gTLBQW"
+      class="sc-eCYdqJ kQHdnO"
       data-autoid=""
     >
       <a
