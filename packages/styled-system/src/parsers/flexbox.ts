@@ -16,6 +16,7 @@ export interface FlexboxProps<ThemeType extends Theme = RequiredTheme> {
   flexWrap?: ResponsiveValue<Property.FlexWrap, ThemeType>;
   flexDirection?: ResponsiveValue<Property.FlexDirection, ThemeType>;
   flexDir?: ResponsiveValue<Property.FlexDirection, ThemeType>;
+  gap?: ResponsiveValue<Property.Gap<TLengthStyledSystem>, ThemeType>;
   flex?: ResponsiveValue<Property.Flex<TLengthStyledSystem>, ThemeType>;
   flexFlow?: ResponsiveValue<Property.FlexFlow, ThemeType>;
   flexGrow?: ResponsiveValue<Property.FlexGrow, ThemeType>;
@@ -84,6 +85,10 @@ const config: SystemConfig<string> = {
   },
   placeSelf: {
     property: 'placeSelf',
+  },
+  gap: {
+    property: 'gap',
+    scale: 'space',
   },
 };
 

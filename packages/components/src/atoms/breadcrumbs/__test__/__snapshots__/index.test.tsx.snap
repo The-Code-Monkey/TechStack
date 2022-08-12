@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrumbs /> should render correctly with url param 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gsnTZi cXXFdo"
+    data-autoid="box"
+  >
+    <span
+      class="sc-eCYdqJ kQHdnO"
+      data-autoid=""
+    >
+      <a
+        href="/"
+      >
+        common.home
+      </a>
+       &gt; 
+      <a
+        href="/test"
+      >
+        test
+      </a>
+       &gt; 
+      <a
+        href="/test/test"
+      >
+        test
+      </a>
+       &gt; 
+      <a
+        href="/test/test/help"
+      >
+        help
+      </a>
+       &gt; 
+      <a
+        href="/test/test/help/dsdasd"
+      >
+        dsdasd
+      </a>
+    </span>
+  </div>
+</DocumentFragment>
+`;

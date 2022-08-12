@@ -68,7 +68,7 @@ exports[`<Button /> renders icon only correctly 1`] = `
 <DocumentFragment>
   <button
     class="sc-hKMtZM sc-jSMfEi fRdjOa"
-    data-autoid="_button"
+    data-autoid="undefined_button"
   >
     <div
       class="sc-gsnTZi cXXFdo sc-dkzDqf bQHrml"
@@ -102,10 +102,6 @@ exports[`<Button /> renders icon only correctly 1`] = `
         />
       </svg>
     </div>
-    <span
-      class="sc-eCYdqJ kQHdnO"
-      data-autoid=""
-    />
   </button>
 </DocumentFragment>
 `;

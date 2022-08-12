@@ -1,4 +1,5 @@
 import { TypographyProps } from '@techstack/styled-system';
+import { ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { generateAutomationId } from '../../utils';
@@ -6,7 +7,7 @@ import { generateAutomationId } from '../../utils';
 import { StyledText } from './styled';
 
 export interface Props extends TypographyProps {
-  children: string;
+  children: ReactNode;
   autoid?: string;
   values?: { [x: string]: string | number };
   ns?: string;
@@ -17,7 +18,7 @@ const Text = ({ children, autoid, values, ns, ...rest }: Props) => {
 
   return (
     <StyledText data-autoid={generateAutomationId(autoid ?? '')} {...rest}>
-      {t(children, { ns, ...values })}
+      {typeof children === 'string' ? t(children, { ns, ...values }) : children}
     </StyledText>
   );
 };
