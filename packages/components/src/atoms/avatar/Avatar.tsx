@@ -25,8 +25,6 @@ export const Avatar = ({
 
   const memoSize = useMemo(() => get(sizes, size, '100%'), [size, sizes]);
 
-  console.log(memoSize);
-
   return (
     <Box
       size={size}

@@ -1,5 +1,7 @@
 import { useMemo, useState } from 'react';
 
+export const MAX_PAGE_FALLBACK = 9999;
+
 export interface Props {
   initialPage?: number;
   maxPage?: number;
@@ -8,8 +10,8 @@ export interface Props {
 }
 
 const usePagination = ({
-  initialPage = 0,
-  maxPage = 99999,
+  initialPage = 1,
+  maxPage = MAX_PAGE_FALLBACK,
   onNext,
   onPrev,
 }: Props) => {
@@ -31,9 +33,9 @@ const usePagination = ({
   };
 
   const prevDisabled = useMemo(() => {
-    if (page === 0) return true;
-    else if (page < 0) {
-      setPage(0);
+    if (page === 1) return true;
+    else if (page < 1) {
+      setPage(1);
     }
   }, [page]);
 
