@@ -1,15 +1,15 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/": "pages/index.html",
+  "/_error": "pages/_error.js",
   "/packages/01-tcm": "pages/packages/01-tcm.html",
   "/packages/02-theme": "pages/packages/02-theme.html",
   "/packages/03-styled-system": "pages/packages/03-styled-system.html",
   "/packages/04-memoize": "pages/packages/04-memoize.html",
   "/packages/05-react-feather": "pages/packages/05-react-feather.html",
   "/packages/06-react-lazy-load": "pages/packages/06-react-lazy-load.html",
-  "/packages/07-react-textfit": "pages/packages/07-react-textfit.html",
   "/packages/08-x-default-browser": "pages/packages/08-x-default-browser.html",
+  "/packages/07-react-textfit": "pages/packages/07-react-textfit.html",
   "/packages/99-components": "pages/packages/99-components.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
