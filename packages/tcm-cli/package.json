@@ -94,7 +94,7 @@
     "@types/figlet": "1.5.4",
     "@types/fs-extra": "9.0.13",
     "@types/lodash": "4.14.184",
-    "@types/node": "16.11.49",
+    "@types/node": "16.11.51",
     "@types/react": "18.0.17",
     "@types/semver": "7.3.12",
     "@types/shelljs": "0.8.11",
