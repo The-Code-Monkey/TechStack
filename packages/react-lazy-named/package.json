@@ -48,7 +48,7 @@
     "@techstack/tcm-cli": "0.1.4",
     "@testing-library/react": "13.3.0",
     "dts-cli": "1.6.0",
-    "jest-environment-jsdom": "28.1.3"
+    "jest-environment-jsdom": "29.0.0"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0"
