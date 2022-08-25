@@ -91,7 +91,7 @@
     "@types/color": "3.0.3",
     "@types/cssnano": "5.0.0",
     "@types/eslint": "8.4.6",
-    "@types/figlet": "1.5.4",
+    "@types/figlet": "1.5.5",
     "@types/fs-extra": "9.0.13",
     "@types/lodash": "4.14.184",
     "@types/node": "16.11.56",
