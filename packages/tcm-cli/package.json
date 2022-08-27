@@ -48,7 +48,7 @@
     "colorette": "2.0.19",
     "confusing-browser-globals": "1.0.11",
     "enquirer": "2.3.6",
-    "eslint": "8.22.0",
+    "eslint": "8.23.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-config-react-app": "7.0.1",
     "eslint-plugin-flowtype": "8.0.3",
