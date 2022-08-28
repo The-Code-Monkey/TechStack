@@ -39,7 +39,7 @@ export default function transformErrorMessages(babel: {
           addComment: (x: string, y: string) => void;
           replaceWith: (x: string) => void;
           get: (x: string) => {
-            isIdentifier: ({ name: string }: Record<string, string>) => boolean;
+            isIdentifier: ({ name }: Record<string, string>) => boolean;
           };
           node: { noMinify: string; arguments: Array<string> };
         },
