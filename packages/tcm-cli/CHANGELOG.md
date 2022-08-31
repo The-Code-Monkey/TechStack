@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2022-08-31)
+
+
+### Bug Fixes
+
+* allow partial themes ([5ffd74f](https://github.com/The-Code-Monkey/TechStack/commit/5ffd74f3800a05b1dfdd1807790b2a14c57c2de2))
+* **deps:** update dependency @types/jest to v28.1.7 ([4a20609](https://github.com/The-Code-Monkey/TechStack/commit/4a20609464de55819723dd9afdd9894cbcbee50b))
+* **deps:** update dependency @types/jest to v28.1.8 ([d690857](https://github.com/The-Code-Monkey/TechStack/commit/d690857541adba597d1ccdf7666d3fbdf7596098))
+* **deps:** update dependency @types/jest to v29 ([155a2f2](https://github.com/The-Code-Monkey/TechStack/commit/155a2f294459468a55ffe697f8c407db72037722))
+* **deps:** update dependency eslint to v8.22.0 ([#653](https://github.com/The-Code-Monkey/TechStack/issues/653)) ([f51a79b](https://github.com/The-Code-Monkey/TechStack/commit/f51a79b8a090119c3a2df1f04fa092ccd5c04b85))
+* **deps:** update dependency eslint to v8.23.0 ([c1afd59](https://github.com/The-Code-Monkey/TechStack/commit/c1afd5944d05b7b44671be54e924c20ed9177689))
+* **deps:** update dependency eslint-plugin-jest to v26.8.1 ([69f3c91](https://github.com/The-Code-Monkey/TechStack/commit/69f3c9151008a1bb7fc08e742a0a0921b7d9c6a7))
+* **deps:** update dependency eslint-plugin-jest to v26.8.2 ([7162cbf](https://github.com/The-Code-Monkey/TechStack/commit/7162cbf94f4ae0eb1f859318544c526670a213e5))
+* **deps:** update dependency eslint-plugin-jest to v26.8.3 ([#657](https://github.com/The-Code-Monkey/TechStack/issues/657)) ([8ca8f7d](https://github.com/The-Code-Monkey/TechStack/commit/8ca8f7d3185fad2623001b94c697a74c5faabf8e))
+* **deps:** update dependency eslint-plugin-jest to v26.8.4 ([b751c0b](https://github.com/The-Code-Monkey/TechStack/commit/b751c0b88f53ad9183ca1ccbb24c7f87e06dabe8))
+* **deps:** update dependency eslint-plugin-jest to v26.8.5 ([a81d810](https://github.com/The-Code-Monkey/TechStack/commit/a81d810e2e6160b546558e18b738277d8506478d))
+* **deps:** update dependency eslint-plugin-jest to v26.8.7 ([f257b38](https://github.com/The-Code-Monkey/TechStack/commit/f257b38018da9649e87d7ccce0ac55a174b622da))
+* **deps:** update dependency eslint-plugin-jest to v26.9.0 ([431b2bd](https://github.com/The-Code-Monkey/TechStack/commit/431b2bdac8d42c92d7f4883fd865cf293cdba0d4))
+* **deps:** update dependency eslint-plugin-jest to v27 ([584612d](https://github.com/The-Code-Monkey/TechStack/commit/584612db610124f18c427f6c6d60d80ea1a9f258))
+* **deps:** update dependency eslint-plugin-react to v7.31.0 ([968ecb0](https://github.com/The-Code-Monkey/TechStack/commit/968ecb001ebe03b7c5ee52b94b4a7c78cee1f194))
+* **deps:** update dependency eslint-plugin-react to v7.31.1 ([4ebd3d5](https://github.com/The-Code-Monkey/TechStack/commit/4ebd3d5d0f0e30e98bd8bc97ec4478043cf59f22))
+* **deps:** update dependency jest-watch-typeahead to v2.1.1 ([ae66f8d](https://github.com/The-Code-Monkey/TechStack/commit/ae66f8dd56f568a608681fb6240609e0d03d067c))
+* **deps:** update dependency type-fest to v2.18.1 ([2e5e70e](https://github.com/The-Code-Monkey/TechStack/commit/2e5e70e6f25f1b45f547401f0d88264d1799adcd))
+* **deps:** update dependency type-fest to v2.19.0 ([9b98fe9](https://github.com/The-Code-Monkey/TechStack/commit/9b98fe9ba65bf32b632215b4be2db4ce8bf44a48))
+
+
+### Features
+
+* move to techstack org version 0.0.1 ([37abb9c](https://github.com/The-Code-Monkey/TechStack/commit/37abb9c124c58bcfc91cff1de96f6f6eded13c28))
+
+
+
+
+
 ## 0.1.4 (2022-08-12)
 
 **Note:** Version bump only for package @techstack/tcm-cli

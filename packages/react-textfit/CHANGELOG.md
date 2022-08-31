@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2022-08-31)
+
+
+### Bug Fixes
+
+* allow partial themes ([5ffd74f](https://github.com/The-Code-Monkey/TechStack/commit/5ffd74f3800a05b1dfdd1807790b2a14c57c2de2))
+* **deps:** update dependency eslint to v8.22.0 ([#653](https://github.com/The-Code-Monkey/TechStack/issues/653)) ([f51a79b](https://github.com/The-Code-Monkey/TechStack/commit/f51a79b8a090119c3a2df1f04fa092ccd5c04b85))
+* **deps:** update dependency eslint to v8.23.0 ([c1afd59](https://github.com/The-Code-Monkey/TechStack/commit/c1afd5944d05b7b44671be54e924c20ed9177689))
+* **deps:** update dependency eslint-plugin-react to v7.31.0 ([968ecb0](https://github.com/The-Code-Monkey/TechStack/commit/968ecb001ebe03b7c5ee52b94b4a7c78cee1f194))
+* **deps:** update dependency eslint-plugin-react to v7.31.1 ([4ebd3d5](https://github.com/The-Code-Monkey/TechStack/commit/4ebd3d5d0f0e30e98bd8bc97ec4478043cf59f22))
+* update package versions ([5a7eb40](https://github.com/The-Code-Monkey/TechStack/commit/5a7eb4003b0919cfa8ab8a95063a56cf96b4566b))
+
+
+### Features
+
+* move to techstack org version 0.0.1 ([37abb9c](https://github.com/The-Code-Monkey/TechStack/commit/37abb9c124c58bcfc91cff1de96f6f6eded13c28))
+
+
+
+
+
 ## 0.1.5 (2022-08-12)
 
 **Note:** Version bump only for package @techstack/react-textfit

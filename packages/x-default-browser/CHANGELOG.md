@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2022-08-31)
+
+
+### Bug Fixes
+
+* allow partial themes ([5ffd74f](https://github.com/The-Code-Monkey/TechStack/commit/5ffd74f3800a05b1dfdd1807790b2a14c57c2de2))
+* update package versions ([5a7eb40](https://github.com/The-Code-Monkey/TechStack/commit/5a7eb4003b0919cfa8ab8a95063a56cf96b4566b))
+
+
+### Features
+
+* move to techstack org version 0.0.1 ([37abb9c](https://github.com/The-Code-Monkey/TechStack/commit/37abb9c124c58bcfc91cff1de96f6f6eded13c28))
+
+
+
+
+
 ## 0.1.5 (2022-08-12)
 
 **Note:** Version bump only for package @techstack/x-default-browser

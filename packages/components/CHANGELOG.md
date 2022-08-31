@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2022-08-31)
+
+
+### Bug Fixes
+
+* allow partial themes ([5ffd74f](https://github.com/The-Code-Monkey/TechStack/commit/5ffd74f3800a05b1dfdd1807790b2a14c57c2de2))
+* **deps:** update dependency i18next to v21.9.0 ([29df6b0](https://github.com/The-Code-Monkey/TechStack/commit/29df6b0e349423a01e58ea2f3f91231bc890ac21))
+* **deps:** update dependency i18next to v21.9.1 ([698801c](https://github.com/The-Code-Monkey/TechStack/commit/698801cb6c4d52222001aa1fa34a3ed5ebb787f4))
+* **deps:** update dependency react-i18next to v11.18.4 ([3550433](https://github.com/The-Code-Monkey/TechStack/commit/35504332c95dbbee5ec07afc8c5da9efdd18cb1d))
+* **deps:** update dependency react-i18next to v11.18.5 ([47d7eca](https://github.com/The-Code-Monkey/TechStack/commit/47d7ecacd731a6f9e77b679d9be8453cd0115856))
+* rollback styled-components to v5 ([4269891](https://github.com/The-Code-Monkey/TechStack/commit/426989129f55fc6dee056a8d82dcfa92d88bbc83))
+* update package versions ([5a7eb40](https://github.com/The-Code-Monkey/TechStack/commit/5a7eb4003b0919cfa8ab8a95063a56cf96b4566b))
+
+
+### Features
+
+* add new avatar story ([8fc6402](https://github.com/The-Code-Monkey/TechStack/commit/8fc6402aa7fbe733636c3e969e62b875ceab6368))
+* move to techstack org version 0.0.1 ([37abb9c](https://github.com/The-Code-Monkey/TechStack/commit/37abb9c124c58bcfc91cff1de96f6f6eded13c28))
+
+
+### Reverts
+
+* Revert "V1 Components" (#649) ([1e7a833](https://github.com/The-Code-Monkey/TechStack/commit/1e7a833cea1af1b7bae0affde23e4505f839248c)), closes [#649](https://github.com/The-Code-Monkey/TechStack/issues/649) [#440](https://github.com/The-Code-Monkey/TechStack/issues/440)
+
+
+
+
+
 ## [0.1.6](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.1.5...@techstack/components@0.1.6) (2022-08-12)
 
 **Note:** Version bump only for package @techstack/components
