@@ -1,0 +1,18 @@
+{
+  "color": {
+    "modes": {
+      "light": {
+        "tirtuary": {
+          "value": "{color.common.brand.primary.value}",
+          "makeShades": true
+        }
+      },
+      "dark": {
+        "tirtuary": {
+          "value": "{color.common.brand.primary.value}",
+          "makeShades": true
+        }
+      }
+    }
+  }
+}

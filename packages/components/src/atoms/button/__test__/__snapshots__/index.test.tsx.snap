@@ -23,7 +23,7 @@ exports[`<Button /> renders icon correctly 1`] = `
     data-autoid="Secondary_button"
   >
     <div
-      class="sc-gsnTZi cXXFdo sc-dkzDqf huekpF"
+      class="sc-gsnTZi cXXFdo sc-dkzDqf hBkvaJ"
       data-autoid="github_icon"
     >
       <svg
@@ -71,7 +71,7 @@ exports[`<Button /> renders icon only correctly 1`] = `
     data-autoid="_button"
   >
     <div
-      class="sc-gsnTZi cXXFdo sc-dkzDqf bQHrml"
+      class="sc-gsnTZi cXXFdo sc-dkzDqf laIHWJ"
       data-autoid="github_icon"
     >
       <svg

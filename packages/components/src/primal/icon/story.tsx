@@ -22,10 +22,10 @@ Colored.args = {
   color: 'red',
 };
 
-export const Unfilled = Template.bind({});
+export const Filled = Template.bind({});
 
-Unfilled.args = {
+Filled.args = {
   name: 'github',
   color: 'red',
-  noFill: true,
+  fill: true,
 };

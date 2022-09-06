@@ -1,9 +1,10 @@
-import { helpcircle as DefaultIcon } from '@techstack/react-feather';
+import { helpcircle as DefaultIcon, IconProps } from '@techstack/react-feather';
 import type { IconTypes } from '@techstack/react-feather';
+import { ResponsiveValue, TLengthStyledSystem } from '@techstack/styled-system';
+import { Property } from 'csstype';
 import * as React from 'react';
 const { memo, Suspense, lazy } = React;
 
-import { SizesType } from '../../theme/types';
 import { generateAutomationId } from '../../utils';
 
 import { SvgWrapper } from './styled';
@@ -11,8 +12,8 @@ import { SvgWrapper } from './styled';
 export interface Props {
   autoid?: string;
   name: IconTypes;
-  noFill?: boolean;
-  size?: keyof SizesType;
+  fill?: boolean;
+  size?: ResponsiveValue<Property.Width<TLengthStyledSystem>>;
 }
 
 export const getIcon = (name: IconTypes) => {
@@ -23,7 +24,10 @@ export const getIcon = (name: IconTypes) => {
   );
 };
 
-export const FeatherIcon = ({ name, ...rest }: Props) => {
+export const FeatherIcon = ({
+  name,
+  ...rest
+}: IconProps & Pick<Props, 'name'>) => {
   const Element = getIcon(name);
 
   return (

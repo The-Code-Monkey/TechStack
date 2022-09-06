@@ -124,32 +124,48 @@ StyleDictionary.registerFormat({
 StyleDictionary.registerTransform({
   name: 'color/makeShades',
   type: 'value',
-  matcher(prop: { attributes: { type: string } }) {
-    return prop.attributes.type === 'intents';
+  matcher(prop: { attributes: { type: string }; makeShades?: boolean }) {
+    return prop.attributes.type === 'intents' || prop.makeShades;
   },
-  transformer(prop: { value: any }) {
+  transformer(prop: { value: any; path: Array<string> }) {
+    console.log(prop);
     const color = Color(prop.value);
     const subtheme = { light: {}, dark: {} };
-    const paletteLight = [];
-    const paletteDark = [];
 
-    const colorBase = Color('#222222');
+    const colorBase = Color('#000');
     const colorLight = Color('#FFF');
 
-    paletteLight.push(color.toHexString());
-    paletteLight.push(Color.mix(color, colorBase, 10).toHexString());
-    paletteLight.push(Color.mix(color, colorLight, 10).toHexString());
-    paletteLight.push(Color.mix(color, colorLight, 35).toHexString());
-    paletteLight.push(Color.mix(color, colorLight, 80).toHexString());
+    const makeLight = () => {
+      const palette = [];
 
-    paletteDark.push(color.toHexString());
-    paletteDark.push(Color.mix(color, colorLight, 10).toHexString());
-    paletteDark.push(Color.mix(color, colorBase, 10).toHexString());
-    paletteDark.push(Color.mix(color, colorBase, 35).toHexString());
-    paletteDark.push(Color.mix(color, colorBase, 80).toHexString());
+      palette.push(color.toHexString());
+      palette.push(Color.mix(color, colorBase, 10).toHexString());
+      palette.push(Color.mix(color, colorLight, 10).toHexString());
+      palette.push(Color.mix(color, colorLight, 35).toHexString());
+      palette.push(Color.mix(color, colorLight, 80).toHexString());
 
-    subtheme.light = paletteLight;
-    subtheme.dark = paletteDark;
+      return palette;
+    };
+
+    const makeDark = () => {
+      const palette = [];
+
+      palette.push(color.toHexString());
+      palette.push(Color.mix(color, colorLight, 10).toHexString());
+      palette.push(Color.mix(color, colorBase, 10).toHexString());
+      palette.push(Color.mix(color, colorBase, 35).toHexString());
+      palette.push(Color.mix(color, colorBase, 80).toHexString());
+
+      return palette;
+    };
+
+    if (prop.path.includes('modes')) {
+      if (prop.path.includes('light')) return makeLight();
+      if (prop.path.includes('dark')) return makeDark();
+    } else {
+      subtheme.light = makeLight();
+      subtheme.dark = makeDark();
+    }
 
     return subtheme;
   },

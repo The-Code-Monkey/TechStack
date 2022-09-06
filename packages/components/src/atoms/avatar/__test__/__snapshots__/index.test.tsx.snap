@@ -7,7 +7,7 @@ exports[`<Avatar /> renders icon correctly 1`] = `
     data-autoid="box"
   >
     <div
-      class="sc-gsnTZi cXXFdo sc-dkzDqf bQHrml"
+      class="sc-gsnTZi cXXFdo sc-dkzDqf laIHWJ"
       data-autoid="github_icon"
     >
       <svg
