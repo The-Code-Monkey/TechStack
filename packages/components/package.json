@@ -1,13 +1,15 @@
 {
-  "version": "0.2.5",
+  "version": "0.2.1",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/components.esm.js",
   "exports": {
-    "import": "./dist/components.esm.js",
-    "require": "./dist/index.js",
-    "default": "./dist/components.esm.js"
+    ".": {
+      "import": "./dist/components.esm.js",
+      "require": "./dist/index.js",
+      "default": "./dist/components.esm.js"
+    }
   },
   "typings": "dist/types/index.d.ts",
   "files": [
@@ -64,8 +66,8 @@
     "@storybook/addon-links": "6.5.10",
     "@storybook/addons": "6.5.10",
     "@storybook/react": "6.5.10",
-    "@techstack/tcm-cli": "0.2.3",
-    "@testing-library/react": "13.4.0",
+    "@techstack/tcm-cli": "0.2.0",
+    "@testing-library/react": "13.3.0",
     "@tsconfig/create-react-app": "1.0.2",
     "@tsconfig/recommended": "1.0.1",
     "@types/react-dom": "18.0.6",
@@ -82,24 +84,24 @@
     "typescript": "4.8.2"
   },
   "dependencies": {
-    "@techstack/memoize": "0.2.4",
-    "@techstack/react-feather": "0.2.4",
-    "@techstack/react-lazy-named": "0.2.4",
-    "@techstack/styled-system": "0.2.4",
-    "@techstack/theme": "0.2.3",
+    "@techstack/memoize": "0.2.0",
+    "@techstack/react-feather": "0.2.0",
+    "@techstack/react-lazy-named": "0.2.0",
+    "@techstack/styled-system": "0.2.0",
+    "@techstack/theme": "0.2.0",
     "classnames": "2.3.1",
     "csstype": "3.1.0",
     "deepmerge": "4.2.2",
     "i18next": "21.9.1",
     "react-i18next": "11.18.5",
     "react-lazy-named": "1.2.2",
-    "react-table": "7.8.0"
+    "react-table": "7.8.0",
+    "styled-components": "5.3.5"
   },
   "peerDependencies": {
     "@types/react": "^17.0.0 || ^18.0.0",
     "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0",
-    "styled-components": "5.3.5"
+    "react-dom": "^17.0.0 || ^18.0.0"
   },
   "gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"
 }
