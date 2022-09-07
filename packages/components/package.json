@@ -1,14 +1,12 @@
 {
   "version": "0.2.7",
   "license": "MIT",
-  "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/components.esm.js",
   "exports": {
     ".": {
       "import": "./dist/components.esm.js",
-      "require": "./dist/index.js",
-      "default": "./dist/components.esm.js"
+      "require": "./dist/index.js"
     }
   },
   "typings": "dist/types/index.d.ts",
