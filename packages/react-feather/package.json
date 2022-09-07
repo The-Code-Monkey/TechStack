@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "lint": "tcm lint",
-    "prebuild": "node generate.js",
+    "postinstall": "node generate.js",
     "build": "dts build"
   },
   "engines": {
