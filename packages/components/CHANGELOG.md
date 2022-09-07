@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.9](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.8...@techstack/components@0.2.9) (2022-09-07)
+
+
+### Bug Fixes
+
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([#714](https://github.com/The-Code-Monkey/TechStack/issues/714)) ([5454086](https://github.com/The-Code-Monkey/TechStack/commit/5454086379cc106916a71a8d9c8c0bfcbd6dd645))
+
+
+
+
+
 ## [0.2.8](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.7...@techstack/components@0.2.8) (2022-09-07)
 
 
