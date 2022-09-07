@@ -9729,10 +9729,10 @@ expand-range@^1.8.1:
   dependencies:
     fill-range "^2.1.0"
 
-expect-type@0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/expect-type/-/expect-type-0.13.0.tgz#916646a7a73f3ee77039a634ee9035efe1876eb2"
-  integrity sha512-CclevazQfrqo8EvbLPmP7osnb1SZXkw47XPPvUUpeMz4HuGzDltE7CaIt3RLyT9UQrwVK/LDn+KVcC0hcgjgDg==
+expect-type@0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/expect-type/-/expect-type-0.14.0.tgz#94eb230d237ad5f2d1f910609e8a8528cff46e67"
+  integrity sha512-c1b8FMNk9lUP+ho7z4Fgug6wyqvT/its7EWzZ8kRvJkGlNmvAk5ZKHlan5VVYuozY+3C9iWRYX/cK6DQvduhRQ==
 
 expect@29.0.1, expect@^29.0.0, expect@^29.0.1:
   version "29.0.1"
