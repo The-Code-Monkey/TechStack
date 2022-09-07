@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.2...@techstack/tcm-cli@0.2.3) (2022-09-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-testing-library to v5.6.2 ([#712](https://github.com/The-Code-Monkey/TechStack/issues/712)) ([fcf763e](https://github.com/The-Code-Monkey/TechStack/commit/fcf763e983bf32cf7fdea61a02d92d9595f094dc))
+
+
+
+
+
 ## [0.2.2](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.1...@techstack/tcm-cli@0.2.2) (2022-09-07)
 
 
