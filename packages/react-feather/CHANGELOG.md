@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@0.2.3...@techstack/react-feather@0.2.4) (2022-09-07)
+
+**Note:** Version bump only for package @techstack/react-feather
+
+
+
+
+
+## [0.2.3](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@0.2.2...@techstack/react-feather@0.2.3) (2022-09-07)
+
+**Note:** Version bump only for package @techstack/react-feather
+
+
+
+
+
+## [0.2.2](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@0.2.1...@techstack/react-feather@0.2.2) (2022-09-07)
+
+**Note:** Version bump only for package @techstack/react-feather
+
+
+
+
+
+## 0.2.1 (2022-09-07)
+
+
+### Bug Fixes
+
+* update to package json ([64b1846](https://github.com/The-Code-Monkey/TechStack/commit/64b184693367482bb91d1baf8672b29d2f73b27c))
+
+
+
+
+
 # 0.2.0 (2022-08-31)
 
 

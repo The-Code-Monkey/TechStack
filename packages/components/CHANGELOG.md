@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.5](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.4...@techstack/components@0.2.5) (2022-09-07)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.2.4](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.3...@techstack/components@0.2.4) (2022-09-07)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.2.3](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.2...@techstack/components@0.2.3) (2022-09-07)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.2.2](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.1...@techstack/components@0.2.2) (2022-09-07)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
 ## [0.2.1](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.0...@techstack/components@0.2.1) (2022-09-01)
 
 **Note:** Version bump only for package @techstack/components
