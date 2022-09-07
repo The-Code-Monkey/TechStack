@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.5...@techstack/components@0.2.7) (2022-09-07)
+
+
+### Bug Fixes
+
+* attempt to peer dependency styled-components ([05be87a](https://github.com/The-Code-Monkey/TechStack/commit/05be87aa92bca9346d28e51b8b5fa5a1e518a7b2))
+* update components exports ([0705924](https://github.com/The-Code-Monkey/TechStack/commit/07059241f092758509e6ed34e9e1e2999bded41e))
+
+
+
+
+
 ## [0.2.5](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.4...@techstack/components@0.2.5) (2022-09-07)
 
 **Note:** Version bump only for package @techstack/components
