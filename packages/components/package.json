@@ -93,13 +93,13 @@
     "i18next": "21.9.1",
     "react-i18next": "11.18.5",
     "react-lazy-named": "1.2.2",
-    "react-table": "7.8.0",
-    "styled-components": "5.3.5"
+    "react-table": "7.8.0"
   },
   "peerDependencies": {
     "@types/react": "^17.0.0 || ^18.0.0",
     "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0"
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "styled-components": "5.3.5"
   },
   "gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"
 }
