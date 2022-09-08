@@ -17,8 +17,8 @@
   ],
   "scripts": {
     "lint": "tcm lint",
-    "postinstall": "node generate.js",
-    "build": "dts build"
+    "build:types": "node generate.js",
+    "build": "yarn build:* && dts build"
   },
   "engines": {
     "node": ">=16"
