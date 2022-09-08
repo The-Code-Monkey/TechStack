@@ -18,7 +18,7 @@
   "scripts": {
     "lint": "tcm lint",
     "build:types": "node generate.js",
-    "build": "yarn build:* && dts build"
+    "build": "dts build"
   },
   "engines": {
     "node": ">=16"
