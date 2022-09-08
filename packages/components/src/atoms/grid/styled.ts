@@ -1,7 +1,7 @@
 import { grid } from '@techstack/styled-system';
-import styled from 'styled-components';
 
 import { Box } from '../../primal';
+import styled from '../../workarounds/styled-components';
 
 export const StyledGrid = styled(Box)`
   ${grid}

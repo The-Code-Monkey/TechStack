@@ -3,7 +3,8 @@ import {
   TextVariants,
   typography,
 } from '@techstack/styled-system';
-import styled from 'styled-components';
+
+import styled from '../../workarounds/styled-components';
 
 export const StyledText = styled.span`
   ${typography}

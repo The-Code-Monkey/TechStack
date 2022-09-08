@@ -9,9 +9,9 @@ import {
   flexbox,
   system,
 } from '@techstack/styled-system';
-import styled from 'styled-components';
 
 import { shouldForwardProp } from '../../utils';
+import styled from '../../workarounds/styled-components';
 
 const utilProps = system({
   visibility: {

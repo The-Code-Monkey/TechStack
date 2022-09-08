@@ -1,7 +1,7 @@
 import { IntentVariants } from '@techstack/styled-system';
-import styled from 'styled-components';
 
 import { shouldForwardProp } from '../../utils';
+import styled from '../../workarounds/styled-components';
 import { Box, StyledBoxProps } from '../box';
 
 export const SvgWrapper = styled(Box).withConfig({
