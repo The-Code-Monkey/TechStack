@@ -1,5 +1,5 @@
 {
-  "version": "0.2.9",
+  "version": "0.2.10",
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/components.esm.js",
@@ -83,7 +83,7 @@
   },
   "dependencies": {
     "@techstack/memoize": "0.2.5",
-    "@techstack/react-feather": "0.2.5",
+    "@techstack/react-feather": "0.2.6",
     "@techstack/react-lazy-named": "0.2.5",
     "@techstack/styled-system": "0.2.5",
     "@techstack/theme": "0.2.4",
