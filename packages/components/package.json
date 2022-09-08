@@ -60,7 +60,7 @@
     ]
   },
   "devDependencies": {
-    "@size-limit/file": "8.0.1",
+    "@size-limit/file": "8.1.0",
     "@storybook/addon-essentials": "6.5.10",
     "@storybook/addon-links": "6.5.10",
     "@storybook/addons": "6.5.10",
