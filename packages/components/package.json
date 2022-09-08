@@ -78,7 +78,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "esm": "3.2.25",
     "react-is": "18.2.0",
-    "size-limit": "8.0.1",
+    "size-limit": "8.1.0",
     "tslib": "2.4.0",
     "typescript": "4.8.2"
   },
