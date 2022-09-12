@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.6...@techstack/tcm-cli@0.2.7) (2022-09-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.23.1 ([#733](https://github.com/The-Code-Monkey/TechStack/issues/733)) ([75d9044](https://github.com/The-Code-Monkey/TechStack/commit/75d9044bcbb8d3b3bd384a12cd1a2f8c5eebfc37))
+* **deps:** update dependency eslint-plugin-jest to v27.0.4 ([#727](https://github.com/The-Code-Monkey/TechStack/issues/727)) ([4dac0e9](https://github.com/The-Code-Monkey/TechStack/commit/4dac0e92cdd2e883cbb5efaf1c26fdde716f70cd))
+* **deps:** update dependency jest-watch-typeahead to v2.2.0 ([#730](https://github.com/The-Code-Monkey/TechStack/issues/730)) ([792a1c1](https://github.com/The-Code-Monkey/TechStack/commit/792a1c123e4c6d7aeb9a84123dbcfc964306fc68))
+
+
+
+
+
 ## 0.2.6 (2022-09-09)
 
 
