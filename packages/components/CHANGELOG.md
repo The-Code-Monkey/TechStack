@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.6...@techstack/components@0.4.7) (2022-09-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency classnames to v2.3.2 ([#736](https://github.com/The-Code-Monkey/TechStack/issues/736)) ([015974d](https://github.com/The-Code-Monkey/TechStack/commit/015974ddfc88f65bbd6ad2ac599f0cffcbd8c034))
+
+
+
+
+
 ## [0.4.6](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.5...@techstack/components@0.4.6) (2022-09-13)
 
 **Note:** Version bump only for package @techstack/components
