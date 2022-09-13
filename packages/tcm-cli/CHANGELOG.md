@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.9](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.8...@techstack/tcm-cli@0.2.9) (2022-09-13)
+
+
+### Bug Fixes
+
+* **deps:** update jest monorepo ([#729](https://github.com/The-Code-Monkey/TechStack/issues/729)) ([45430dd](https://github.com/The-Code-Monkey/TechStack/commit/45430dd884c7f4f037259f8df45e03934050ce21))
+
+
+
+
+
 ## [0.2.8](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.7...@techstack/tcm-cli@0.2.8) (2022-09-13)
 
 
