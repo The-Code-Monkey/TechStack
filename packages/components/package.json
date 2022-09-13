@@ -88,7 +88,7 @@
     "@techstack/react-lazy-named": "0.2.10",
     "@techstack/styled-system": "0.2.10",
     "@techstack/theme": "0.2.9",
-    "classnames": "2.3.1",
+    "classnames": "2.3.2",
     "csstype": "3.1.0",
     "deepmerge": "4.2.2",
     "i18next": "21.9.1",
