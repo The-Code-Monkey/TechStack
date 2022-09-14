@@ -89,7 +89,7 @@
     "@techstack/styled-system": "0.2.11",
     "@techstack/theme": "0.2.10",
     "classnames": "2.3.2",
-    "csstype": "3.1.0",
+    "csstype": "3.1.1",
     "deepmerge": "4.2.2",
     "i18next": "21.9.1",
     "react-i18next": "11.18.6",
