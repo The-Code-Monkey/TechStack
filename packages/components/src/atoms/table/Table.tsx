@@ -1,6 +1,14 @@
-import cn from 'classnames';
-import { FC, useCallback, useContext, useMemo } from 'react';
-import { Accessor, TableOptions, useTable } from 'react-table';
+import {
+  flexRender,
+  getCoreRowModel as getCoreRowModelFn,
+  getSortedRowModel as getSortedRowModelFn,
+  Row,
+  SortingState,
+  TableOptions,
+  useReactTable,
+} from '@tanstack/react-table';
+import { FC, useContext, useRef, useState } from 'react';
+import { useVirtual } from 'react-virtual';
 import { ThemeContext } from 'styled-components';
 
 import { DefaultThemeWithDefaultStyles } from '../../utils';
@@ -14,91 +22,173 @@ import {
   StyledTd,
 } from './styled';
 
-export interface Props extends TableOptions<Record<string, unknown>> {
+export interface Props
+  extends Omit<
+    TableOptions<Record<string, unknown>>,
+    'onSortingChange' | 'getCoreRowModel' | 'columns'
+  > {
   className?: string;
   onRowClick?: (id: string | number) => void;
+  getCoreRowModel?: TableOptions<Record<string, unknown>>['getCoreRowModel'];
+  columns: Array<string>;
 }
 
-const Table: FC<Props> = ({ columns, data, className, onRowClick }: Props) => {
+const idVariations = ['id', 'Id', 'ID'];
+
+const Table: FC<Props> = ({
+  columns,
+  data,
+  className,
+  getCoreRowModel = getCoreRowModelFn(),
+  getSortedRowModel = getSortedRowModelFn(),
+}: Props) => {
   const theme = useContext<DefaultThemeWithDefaultStyles>(ThemeContext);
-  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
-    useTable({ columns, data });
 
-  const tableProps = useMemo(() => getTableProps(), [getTableProps]);
+  const [sorting, setSorting] = useState<SortingState>([]);
 
-  const handleRowClick = useCallback(
-    (id: number | string) => {
-      if (onRowClick) onRowClick(id);
+  const table = useReactTable({
+    data,
+    columns: columns.map(column =>
+      idVariations.includes(column)
+        ? { header: 'ID', accessorKey: column, size: 60 }
+        : { header: column, accessorKey: column }
+    ),
+    state: {
+      sorting,
     },
-    [onRowClick]
-  );
+    onSortingChange: setSorting,
+    getCoreRowModel,
+    getSortedRowModel,
+    debugTable: process.env.NODE_ENV !== 'PRODUCTION',
+  });
 
-  const handleColumnClick = useCallback(
-    (
-      column:
-        | Accessor<object>
-        | (string & (string | Accessor<object> | undefined))
-        | undefined
-    ) => {
-      console.log('Sort Column: ', column);
-    },
-    []
-  );
+  const tableContainerRef = useRef<HTMLDivElement>(null);
+
+  const { rows } = table.getRowModel();
+  const rowVirtualizer = useVirtual({
+    parentRef: tableContainerRef,
+    size: rows.length,
+    overscan: 10,
+  });
+  const { virtualItems: virtualRows, totalSize } = rowVirtualizer;
+
+  const paddingTop = virtualRows.length > 0 ? virtualRows?.[0]?.start || 0 : 0;
+  const paddingBottom =
+    virtualRows.length > 0
+      ? totalSize - (virtualRows?.[virtualRows.length - 1]?.end || 0)
+      : 0;
+
+  // const handleRowClick = useCallback(
+  //   (id: number | string) => {
+  //     if (onRowClick) onRowClick(id);
+  //   },
+  //   [onRowClick]
+  // );
+  //
+  // const handleColumnClick = useCallback(
+  //   (
+  //     column:
+  //       | Accessor<object>
+  //       | (string & (string | Accessor<object> | undefined))
+  //       | undefined
+  //   ) => {
+  //     console.log('Sort Column: ', column);
+  //   },
+  //   []
+  // );
+
+  console.log(theme.defaultStyles);
 
   return (
-    <StyledTable
-      {...tableProps}
-      {...theme.defaultStyles?.table}
-      className={cn(className, tableProps.className)}
-    >
-      <StyledTHead {...theme.defaultStyles?.thead}>
-        {headerGroups.map(headerGroup => (
-          <StyledTr
-            key={headerGroup.getHeaderGroupProps().key}
-            {...headerGroup.getHeaderGroupProps()}
-            {...theme.defaultStyles?.tr}
-            {...theme.defaultStyles?.theadTr}
-          >
-            {headerGroup.headers.map((column, index) => (
-              <StyledTh
-                key={column.getHeaderProps().key}
-                {...column.getHeaderProps()}
-                {...theme.defaultStyles?.th}
-                onClick={() => handleColumnClick(columns[index].accessor)}
-              >
-                {column.render('Header')}
-              </StyledTh>
-            ))}
-          </StyledTr>
-        ))}
-      </StyledTHead>
-      <StyledTBody {...getTableBodyProps()} {...theme.defaultStyles?.tbody}>
-        {rows.map(row => {
-          prepareRow(row);
-          return (
+    <div ref={tableContainerRef}>
+      <StyledTable {...theme.defaultStyles?.table} className={className}>
+        <StyledTHead {...theme.defaultStyles?.thead}>
+          {table.getHeaderGroups().map(headerGroup => (
             <StyledTr
-              key={row.getRowProps().key}
-              {...row.getRowProps()}
+              key={headerGroup.id}
               {...theme.defaultStyles?.tr}
-              {...theme.defaultStyles?.tbodyTr}
-              onClick={() => handleRowClick(row.id)}
+              {...theme.defaultStyles?.theadTr}
             >
-              {row.cells.map(cell => {
+              {headerGroup.headers.map(header => {
                 return (
-                  <StyledTd
-                    key={cell.getCellProps().key}
-                    {...cell.getCellProps()}
-                    {...theme.defaultStyles?.td}
+                  <StyledTh
+                    key={header.id}
+                    colSpan={header.colSpan}
+                    style={{ width: header.getSize() }}
+                    {...theme.defaultStyles?.th}
                   >
-                    {cell.render('Cell')}
-                  </StyledTd>
+                    {header.isPlaceholder ? null : (
+                      <div
+                        {...{
+                          className: header.column.getCanSort()
+                            ? 'cursor-pointer select-none'
+                            : '',
+                          onClick: header.column.getToggleSortingHandler(),
+                        }}
+                      >
+                        {flexRender(
+                          header.column.columnDef.header,
+                          header.getContext()
+                        )}
+                        {{
+                          asc: ' 🔼',
+                          desc: ' 🔽',
+                        }[header.column.getIsSorted() as string] ?? null}
+                      </div>
+                    )}
+                  </StyledTh>
                 );
               })}
             </StyledTr>
-          );
-        })}
-      </StyledTBody>
-    </StyledTable>
+          ))}
+        </StyledTHead>
+        <StyledTBody {...theme.defaultStyles?.tbody}>
+          {paddingTop > 0 && (
+            <StyledTr
+              {...theme.defaultStyles?.tr}
+              {...theme.defaultStyles?.tbodyTr}
+            >
+              <StyledTd
+                style={{ height: `${paddingTop}px` }}
+                {...theme.defaultStyles?.td}
+              ></StyledTd>
+            </StyledTr>
+          )}
+          {virtualRows.map(virtualRow => {
+            const row = rows[virtualRow.index] as Row<Record<string, any>>;
+            return (
+              <StyledTr
+                {...theme.defaultStyles?.tr}
+                {...theme.defaultStyles?.tbodyTr}
+                key={row.id}
+              >
+                {row.getVisibleCells().map(cell => {
+                  return (
+                    <StyledTd key={cell.id} {...theme.defaultStyles?.td}>
+                      {flexRender(
+                        cell.column.columnDef.cell,
+                        cell.getContext()
+                      )}
+                    </StyledTd>
+                  );
+                })}
+              </StyledTr>
+            );
+          })}
+          {paddingBottom > 0 && (
+            <StyledTr
+              {...theme.defaultStyles?.tr}
+              {...theme.defaultStyles?.tbodyTr}
+            >
+              <StyledTd
+                {...theme.defaultStyles?.td}
+                style={{ height: `${paddingBottom}px` }}
+              />
+            </StyledTr>
+          )}
+        </StyledTBody>
+      </StyledTable>
+    </div>
   );
 };
 
