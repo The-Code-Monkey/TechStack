@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.14](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.2.13...@techstack/theme@0.2.14) (2022-09-15)
+
+
+### Bug Fixes
+
+* linting and table update ([686a27e](https://github.com/The-Code-Monkey/TechStack/commit/686a27e765b5b76fa4c61c6842fc91e0728eb6ca))
+
+
+
+
+
 ## 0.2.13 (2022-09-15)
 
 **Note:** Version bump only for package @techstack/theme
