@@ -14,12 +14,12 @@ import {
   StyledTd,
 } from './styled';
 
-export interface Props {
+export interface Props extends TableOptions<Record<string, unknown>> {
   className?: string;
   onRowClick?: (id: string | number) => void;
 }
 
-const Table: FC<Props & TableOptions<{}>> = ({ columns, data, className, onRowClick }: Props & TableOptions<{}>) => {
+const Table: FC<Props> = ({ columns, data, className, onRowClick }: Props) => {
   const theme = useContext<DefaultThemeWithDefaultStyles>(ThemeContext);
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({ columns, data });
