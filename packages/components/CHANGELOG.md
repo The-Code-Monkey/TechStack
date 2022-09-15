@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.14](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.13...@techstack/components@0.4.14) (2022-09-15)
+
+
+### Bug Fixes
+
+* textAlign on table ([d0f67fe](https://github.com/The-Code-Monkey/TechStack/commit/d0f67feb73ed4bbe3e36416c1c9a859ea7409c5c))
+
+
+
+
+
 ## [0.4.13](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.12...@techstack/components@0.4.13) (2022-09-15)
 
 
