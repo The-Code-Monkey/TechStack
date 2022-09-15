@@ -78,27 +78,6 @@ const Table: FC<Props> = ({
       ? totalSize - (virtualRows?.[virtualRows.length - 1]?.end || 0)
       : 0;
 
-  // const handleRowClick = useCallback(
-  //   (id: number | string) => {
-  //     if (onRowClick) onRowClick(id);
-  //   },
-  //   [onRowClick]
-  // );
-  //
-  // const handleColumnClick = useCallback(
-  //   (
-  //     column:
-  //       | Accessor<object>
-  //       | (string & (string | Accessor<object> | undefined))
-  //       | undefined
-  //   ) => {
-  //     console.log('Sort Column: ', column);
-  //   },
-  //   []
-  // );
-
-  console.log(theme.defaultStyles);
-
   return (
     <div ref={tableContainerRef}>
       <StyledTable {...theme.defaultStyles?.table} className={className}>

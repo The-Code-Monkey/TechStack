@@ -8,6 +8,7 @@ import {
   shadow,
   flexbox,
   system,
+  typography,
 } from '@techstack/styled-system';
 
 import { shouldForwardProp } from '../../utils';
@@ -30,6 +31,7 @@ export const StyledBoxProps = compose(
   border,
   shadow,
   flexbox,
+  typography,
   utilProps
 );
 
