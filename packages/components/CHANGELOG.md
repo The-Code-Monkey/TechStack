@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.12](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.11...@techstack/components@0.4.12) (2022-09-15)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.11](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.10...@techstack/components@0.4.11) (2022-09-15)
+
+
+### Bug Fixes
+
+* include react-table types in bundle ([a7bc7cb](https://github.com/The-Code-Monkey/TechStack/commit/a7bc7cbc33996a98fd6cb804b812454797118e02))
+* linting ([3c0e67e](https://github.com/The-Code-Monkey/TechStack/commit/3c0e67e54db6a029ee7a093053ce40e3d1da7a78))
+* update table props ([e0277d5](https://github.com/The-Code-Monkey/TechStack/commit/e0277d5d8a4bd55c3f09916c1ee2e6c6d09bed62))
+
+
+
+
+
 ## [0.4.10](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.9...@techstack/components@0.4.10) (2022-09-14)
 
 **Note:** Version bump only for package @techstack/components

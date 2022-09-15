@@ -1,6 +1,6 @@
 {
   "name": "@techstack/tcm-cli",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "description": "Zero-config TypeScript package development",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/tcm-cli/README.md",
   "repository": {
@@ -102,7 +102,7 @@
     "@typescript-eslint/eslint-plugin": "5.37.0",
     "@typescript-eslint/parser": "5.37.0",
     "auto-changelog": "2.4.0",
-    "autoprefixer": "10.4.10",
+    "autoprefixer": "10.4.11",
     "babel-plugin-replace-identifiers": "0.1.1",
     "cssnano": "5.1.13",
     "doctoc": "2.2.0",
