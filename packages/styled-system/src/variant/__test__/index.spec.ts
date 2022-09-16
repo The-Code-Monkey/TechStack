@@ -6,13 +6,15 @@ const fontSize = system({ fontSize: true });
 
 describe('variant', () => {
   it('returns style objects from theme', () => {
-    const buttons = variant({ key: 'buttons' });
+    const buttons = variant({ scale: 'variants.buttons' });
     const a = buttons({
       theme: {
-        buttons: {
-          primary: {
-            padding: '32px',
-            backgroundColor: 'tomato',
+        variants: {
+          buttons: {
+            primary: {
+              padding: '32px',
+              backgroundColor: 'tomato',
+            },
           },
         },
       },
