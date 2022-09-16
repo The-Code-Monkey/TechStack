@@ -1,6 +1,6 @@
 {
   "name": "@techstack/tcm-cli",
-  "version": "0.2.14",
+  "version": "0.2.15",
   "description": "Zero-config TypeScript package development",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/tcm-cli/README.md",
   "repository": {
@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@rollup/plugin-babel": "5.3.1",
-    "@types/jest": "29.0.2",
+    "@types/jest": "29.0.3",
     "@typescript-eslint/eslint-plugin": "5.37.0",
     "@typescript-eslint/parser": "5.37.0",
     "asyncro": "3.0.0",
