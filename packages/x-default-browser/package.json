@@ -1,6 +1,6 @@
 {
   "name": "@techstack/x-default-browser",
-  "version": "0.2.15",
+  "version": "0.2.16",
   "description": "Detect default web browser of the current user, cross-platform (Win/Lin/Mac)",
   "license": "MIT",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/x-default-browser/README.md",
@@ -31,7 +31,7 @@
     "default-browser-id": "3.0.0"
   },
   "devDependencies": {
-    "@techstack/tcm-cli": "0.2.15",
+    "@techstack/tcm-cli": "0.2.16",
     "mocha": "10.0.0",
     "rewire": "6.0.0"
   },
