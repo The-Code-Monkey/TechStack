@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.16](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.2.15...@techstack/theme@0.2.16) (2022-09-16)
+
+
+### Bug Fixes
+
+* add transitive to transforms ([1bfd10b](https://github.com/The-Code-Monkey/TechStack/commit/1bfd10b614034a9e806dba01539ef18bd388ad14))
+
+
+
+
+
 ## 0.2.15 (2022-09-16)
 
 **Note:** Version bump only for package @techstack/theme
