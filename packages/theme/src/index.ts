@@ -124,6 +124,7 @@ StyleDictionary.registerFormat({
 StyleDictionary.registerTransform({
   name: 'color/makeShades',
   type: 'value',
+  transitive: true,
   matcher(prop: { attributes: { type: string }; makeShades?: boolean }) {
     return prop.attributes.type === 'intents' || prop.makeShades;
   },
@@ -174,6 +175,7 @@ StyleDictionary.registerTransform({
 StyleDictionary.registerTransform({
   name: 'color/makeNeutrals',
   type: 'value',
+  transitive: true,
   matcher(prop: { attributes: { type: string } }) {
     // this is an example of a possible filter (based on the "cti" values) to show how a "matcher" works
     return prop.attributes.type === 'neutral_base';
