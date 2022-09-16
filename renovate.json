@@ -10,7 +10,6 @@
     "workarounds:all"
   ],
   "automergeStrategy": "squash",
-  "automerge": true,
   "labels": ["dependencies"],
   "vulnerabilityAlerts": {
     "labels": ["security"],
