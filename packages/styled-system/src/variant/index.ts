@@ -12,7 +12,7 @@ interface Props {
 export const variant = ({
   scale,
   prop = 'variant',
-  variants = { default: {} },
+  variants,
   key,
 }: Props) => {
   let sx: {
