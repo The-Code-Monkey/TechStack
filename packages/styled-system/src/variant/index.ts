@@ -9,12 +9,7 @@ interface Props {
   key?: string;
 }
 
-export const variant = ({
-  scale,
-  prop = 'variant',
-  variants,
-  key,
-}: Props) => {
+export const variant = ({ scale, prop = 'variant', variants, key }: Props) => {
   let sx: {
     (value: string | number, scale: Scale, props: { theme: Theme }): CSSObject;
     scale?: Scale | string;
