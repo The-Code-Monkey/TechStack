@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.18](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@0.2.17...@techstack/styled-system@0.2.18) (2022-09-18)
+
+
+### Bug Fixes
+
+* update variant to only work from the theme ([020432c](https://github.com/The-Code-Monkey/TechStack/commit/020432c5d911087daf390b77c7e55d1ea19b68ee))
+* update variant to work correctly ([c2b1650](https://github.com/The-Code-Monkey/TechStack/commit/c2b165029295fecc0e77447c352885125df06cd0))
+
+
+
+
+
 ## [0.2.17](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@0.2.16...@techstack/styled-system@0.2.17) (2022-09-16)
 
 **Note:** Version bump only for package @techstack/styled-system

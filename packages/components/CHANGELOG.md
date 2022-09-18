@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.17](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.16...@techstack/components@0.4.17) (2022-09-18)
+
+
+### Bug Fixes
+
+* linting ([d2fc6a0](https://github.com/The-Code-Monkey/TechStack/commit/d2fc6a058f367603c1b7f4ba8408c090206e0fb8))
+* update snapshots ([497d8d9](https://github.com/The-Code-Monkey/TechStack/commit/497d8d956fe2ae2f63af582238f4f37daee381f7))
+* update variant to only work from the theme ([020432c](https://github.com/The-Code-Monkey/TechStack/commit/020432c5d911087daf390b77c7e55d1ea19b68ee))
+
+
+
+
+
 ## [0.4.16](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.15...@techstack/components@0.4.16) (2022-09-16)
 
 **Note:** Version bump only for package @techstack/components
