@@ -6,14 +6,16 @@ const fontSize = system({ fontSize: true });
 
 describe('variant', () => {
   it('returns style objects from theme', () => {
-    const buttons = variant({ scale: 'variants.buttons' });
+    const buttons = variant({ key: 'buttons' });
     const a = buttons({
       theme: {
         variants: {
           buttons: {
             primary: {
               padding: '32px',
-              backgroundColor: 'tomato',
+              _hover: {
+                bg: 'red',
+              },
             },
           },
         },
@@ -22,7 +24,10 @@ describe('variant', () => {
     });
     expect(a).toEqual({
       padding: '32px',
-      backgroundColor: 'tomato',
+      '&:hover, &[data-hover]': {
+        backgroundColor: 'red',
+        color: '#000',
+      },
     });
   });
 
@@ -30,10 +35,12 @@ describe('variant', () => {
     const buttons = variant({ key: 'buttons', prop: 'type' });
     const a = buttons({
       theme: {
-        buttons: {
-          primary: {
-            padding: '32px',
-            backgroundColor: 'tomato',
+        variants: {
+          buttons: {
+            primary: {
+              padding: '32px',
+              backgroundColor: 'tomato',
+            },
           },
         },
       },
@@ -49,10 +56,12 @@ describe('variant', () => {
     const system = compose(variant({ key: 'typography' }), fontSize, color);
     const result = system({
       theme: {
-        typography: {
-          primary: {
-            fontSize: '32px',
-            color: '#fff',
+        variants: {
+          typography: {
+            primary: {
+              fontSize: '32px',
+              color: '#fff',
+            },
           },
         },
       },
@@ -67,10 +76,12 @@ describe('variant', () => {
   it('textStyle prop returns theme.textStyles object', () => {
     const a = TextVariants({
       theme: {
-        text: {
-          heading: {
-            fontWeight: 'bold',
-            lineHeight: 1.25,
+        variants: {
+          text: {
+            heading: {
+              fontWeight: 'bold',
+              lineHeight: 1.25,
+            },
           },
         },
       },
@@ -83,19 +94,34 @@ describe('variant', () => {
   });
 
   describe('component variant', () => {
-    it('returns a variant defined inline and contrastTransform works', () => {
-      const comp = variant({
-        variants: {
-          primary: {
-            bg: '#fff',
-          },
-          secondary: {
-            bg: '#000',
+    it('returns a variant and contrastTransform works', () => {
+      const comp = variant({});
+      const primary = comp({
+        variant: 'primary',
+        theme: {
+          variants: {
+            primary: {
+              bg: '#fff',
+            },
+            secondary: {
+              bg: '#000',
+            },
           },
         },
       });
-      const primary = comp({ variant: 'primary' });
-      const secondary = comp({ variant: 'secondary' });
+      const secondary = comp({
+        variant: 'secondary',
+        theme: {
+          variants: {
+            primary: {
+              bg: '#fff',
+            },
+            secondary: {
+              bg: '#000',
+            },
+          },
+        },
+      });
       expect(primary).toEqual({
         color: '#000',
         backgroundColor: '#fff',
@@ -107,21 +133,20 @@ describe('variant', () => {
     });
 
     it('returns theme-aware styles', () => {
-      const comp = variant({
-        variants: {
-          primary: {
-            p: 3,
-            fontSize: 1,
-            color: 'white',
-            bgColor: 'primary',
-          },
-        },
-      });
+      const comp = variant({});
       const style = comp({
         variant: 'primary',
         theme: {
           colors: {
             primary: '#07c',
+          },
+          variants: {
+            primary: {
+              p: 3,
+              fontSize: 1,
+              color: 'white',
+              bgColor: 'primary',
+            },
           },
         },
       });
@@ -136,15 +161,19 @@ describe('variant', () => {
     it('can use a custom prop name', () => {
       const comp = variant({
         prop: 'size',
-        variants: {
-          big: {
-            fontSize: 32,
-            fontWeight: 900,
-            lineHeight: 1.25,
+      });
+      const style = comp({
+        size: 'big',
+        theme: {
+          variants: {
+            big: {
+              fontSize: 32,
+              fontWeight: 900,
+              lineHeight: 1.25,
+            },
           },
         },
       });
-      const style = comp({ size: 'big' });
       expect(style).toEqual({
         fontSize: 32,
         fontWeight: 900,
@@ -153,14 +182,17 @@ describe('variant', () => {
     });
 
     it('does not throw when no variants are found', () => {
-      const comp = variant({
-        variants: {
-          beep: {},
-        },
-      });
+      const comp = variant({});
       let style;
       expect(() => {
-        style = comp({ variant: 'beep' });
+        style = comp({
+          variant: 'beep',
+          theme: {
+            variants: {
+              beep: {},
+            },
+          },
+        });
       }).not.toThrow();
       expect(style).toEqual({});
     });
@@ -176,8 +208,9 @@ describe('variant', () => {
     });
 
     it('can be composed with other style props', () => {
-      const parser = compose(
-        variant({
+      const parser = compose(variant({}), color, fontSize);
+      const a = parser({
+        theme: {
           variants: {
             tomato: {
               color: 'tomato',
@@ -185,14 +218,19 @@ describe('variant', () => {
               fontWeight: 'bold',
             },
           },
-        }),
-        color,
-        fontSize
-      );
-      const a = parser({
+        },
         variant: 'tomato',
       });
       const b = parser({
+        theme: {
+          variants: {
+            tomato: {
+              color: 'tomato',
+              fontSize: 20,
+              fontWeight: 'bold',
+            },
+          },
+        },
         variant: 'tomato',
         color: 'blue',
         fontSize: 32,
@@ -206,33 +244,6 @@ describe('variant', () => {
         color: 'blue',
         fontSize: 32,
         fontWeight: 'bold',
-      });
-    });
-
-    it('theme-based variants override local variants', () => {
-      const comp = variant({
-        variants: {
-          primary: {
-            color: 'white',
-            bg: 'blue',
-          },
-        },
-        scale: 'buttons',
-      });
-      const style = comp({
-        variant: 'primary',
-        theme: {
-          buttons: {
-            primary: {
-              color: 'black',
-              bgColor: 'cyan',
-            },
-          },
-        },
-      });
-      expect(style).toEqual({
-        color: 'black',
-        backgroundColor: 'cyan',
       });
     });
   });
