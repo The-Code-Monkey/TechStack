@@ -3,7 +3,7 @@
 exports[`<Button /> renders default correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-hKMtZM sc-jSMfEi jFRWxS"
+    class="sc-hKMtZM sc-jSMfEi kbqWIo"
     data-autoid="Default_button"
   >
     <span
@@ -19,7 +19,7 @@ exports[`<Button /> renders default correctly 1`] = `
 exports[`<Button /> renders icon correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-hKMtZM sc-jSMfEi jFRWxS"
+    class="sc-hKMtZM sc-jSMfEi kbqWIo"
     data-autoid="Secondary_button"
   >
     <div
@@ -67,7 +67,7 @@ exports[`<Button /> renders icon correctly 1`] = `
 exports[`<Button /> renders icon only correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-hKMtZM sc-jSMfEi jFRWxS"
+    class="sc-hKMtZM sc-jSMfEi kbqWIo"
     data-autoid="_button"
   >
     <div
@@ -113,7 +113,7 @@ exports[`<Button /> renders icon only correctly 1`] = `
 exports[`<Button /> renders primary correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-hKMtZM sc-jSMfEi jFRWxS"
+    class="sc-hKMtZM sc-jSMfEi cLJBuN"
     data-autoid="Primary_button"
   >
     <span
@@ -129,7 +129,7 @@ exports[`<Button /> renders primary correctly 1`] = `
 exports[`<Button /> renders secondary correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-hKMtZM sc-jSMfEi jFRWxS"
+    class="sc-hKMtZM sc-jSMfEi OJwRj"
     data-autoid="Secondary_button"
   >
     <span
