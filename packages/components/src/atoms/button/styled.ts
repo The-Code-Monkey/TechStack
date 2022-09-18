@@ -1,4 +1,4 @@
-import {variant, ButtonVariants} from '@techstack/styled-system';
+import { variant, ButtonVariants } from '@techstack/styled-system';
 
 import { Interactable, StyledBoxProps } from '../../primal';
 import styled from '../../workarounds/styled-components';
