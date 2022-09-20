@@ -23,10 +23,6 @@
     {
       "matchPackagePatterns": ["@techstack/*"],
       "groupName": "@techstack mono repo"
-    },
-    {
-      "matchPackagePatterns": ["*"],
-      "groupName": "Update all"
     }
   ],
   "updateInternalDeps": true
