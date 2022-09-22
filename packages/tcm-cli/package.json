@@ -105,7 +105,7 @@
     "autoprefixer": "10.4.12",
     "babel-plugin-replace-identifiers": "0.1.1",
     "cssnano": "5.1.13",
-    "doctoc": "2.2.0",
+    "doctoc": "2.2.1",
     "lint-staged": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
