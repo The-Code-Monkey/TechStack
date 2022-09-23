@@ -3,6 +3,347 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.22](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.21...@techstack/components@0.4.22) (2022-09-23)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.21](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.20...@techstack/components@0.4.21) (2022-09-22)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.20](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.19...@techstack/components@0.4.20) (2022-09-21)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.19](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.18...@techstack/components@0.4.19) (2022-09-20)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.18](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.17...@techstack/components@0.4.18) (2022-09-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency i18next to v21.9.2 ([#748](https://github.com/The-Code-Monkey/TechStack/issues/748)) ([04ba5e8](https://github.com/The-Code-Monkey/TechStack/commit/04ba5e8de39c2a1db7def7e20dad1a2528b883ff))
+
+
+
+
+
+## [0.4.17](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.16...@techstack/components@0.4.17) (2022-09-18)
+
+
+### Bug Fixes
+
+* linting ([d2fc6a0](https://github.com/The-Code-Monkey/TechStack/commit/d2fc6a058f367603c1b7f4ba8408c090206e0fb8))
+* update snapshots ([497d8d9](https://github.com/The-Code-Monkey/TechStack/commit/497d8d956fe2ae2f63af582238f4f37daee381f7))
+* update variant to only work from the theme ([020432c](https://github.com/The-Code-Monkey/TechStack/commit/020432c5d911087daf390b77c7e55d1ea19b68ee))
+
+
+
+
+
+## [0.4.16](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.15...@techstack/components@0.4.16) (2022-09-16)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.15](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.14...@techstack/components@0.4.15) (2022-09-16)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.14](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.13...@techstack/components@0.4.14) (2022-09-15)
+
+
+### Bug Fixes
+
+* textAlign on table ([d0f67fe](https://github.com/The-Code-Monkey/TechStack/commit/d0f67feb73ed4bbe3e36416c1c9a859ea7409c5c))
+
+
+
+
+
+## [0.4.13](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.12...@techstack/components@0.4.13) (2022-09-15)
+
+
+### Bug Fixes
+
+* include react-table types in bundle ([a7bc7cb](https://github.com/The-Code-Monkey/TechStack/commit/a7bc7cbc33996a98fd6cb804b812454797118e02))
+* linting ([3c0e67e](https://github.com/The-Code-Monkey/TechStack/commit/3c0e67e54db6a029ee7a093053ce40e3d1da7a78))
+* linting and table update ([686a27e](https://github.com/The-Code-Monkey/TechStack/commit/686a27e765b5b76fa4c61c6842fc91e0728eb6ca))
+* update table props ([e0277d5](https://github.com/The-Code-Monkey/TechStack/commit/e0277d5d8a4bd55c3f09916c1ee2e6c6d09bed62))
+
+
+
+
+
+## [0.4.12](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.11...@techstack/components@0.4.12) (2022-09-15)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.11](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.10...@techstack/components@0.4.11) (2022-09-15)
+
+
+### Bug Fixes
+
+* include react-table types in bundle ([a7bc7cb](https://github.com/The-Code-Monkey/TechStack/commit/a7bc7cbc33996a98fd6cb804b812454797118e02))
+* linting ([3c0e67e](https://github.com/The-Code-Monkey/TechStack/commit/3c0e67e54db6a029ee7a093053ce40e3d1da7a78))
+* update table props ([e0277d5](https://github.com/The-Code-Monkey/TechStack/commit/e0277d5d8a4bd55c3f09916c1ee2e6c6d09bed62))
+
+
+
+
+
+## [0.4.10](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.9...@techstack/components@0.4.10) (2022-09-14)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.9](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.8...@techstack/components@0.4.9) (2022-09-14)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.8](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.7...@techstack/components@0.4.8) (2022-09-14)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.6...@techstack/components@0.4.7) (2022-09-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency classnames to v2.3.2 ([#736](https://github.com/The-Code-Monkey/TechStack/issues/736)) ([015974d](https://github.com/The-Code-Monkey/TechStack/commit/015974ddfc88f65bbd6ad2ac599f0cffcbd8c034))
+
+
+
+
+
+## [0.4.6](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.5...@techstack/components@0.4.6) (2022-09-13)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.5](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.4...@techstack/components@0.4.5) (2022-09-13)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.4](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.3...@techstack/components@0.4.4) (2022-09-13)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.3](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.2...@techstack/components@0.4.3) (2022-09-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-i18next to v11.18.6 ([#726](https://github.com/The-Code-Monkey/TechStack/issues/726)) ([a4f33c3](https://github.com/The-Code-Monkey/TechStack/commit/a4f33c3dcaef35e1e5fe33aeb59b393f3d93d1a1))
+
+
+
+
+
+## 0.4.2 (2022-09-09)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.4.1](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.0...@techstack/components@0.4.1) (2022-09-08)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+# [0.4.0](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.3.0...@techstack/components@0.4.0) (2022-09-08)
+
+
+### Bug Fixes
+
+* added styled workaround fix ([cd9f7ef](https://github.com/The-Code-Monkey/TechStack/commit/cd9f7ef2116b18cbbfde63e1428882e8a383877c))
+
+
+### Features
+
+* revert package json for components ([ba28847](https://github.com/The-Code-Monkey/TechStack/commit/ba2884762ac6ccbd57d4fbdc10a119e40d279e8a))
+
+
+
+
+
+# [0.3.0](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.10...@techstack/components@0.3.0) (2022-09-08)
+
+
+### Features
+
+* revert package json for components ([ba28847](https://github.com/The-Code-Monkey/TechStack/commit/ba2884762ac6ccbd57d4fbdc10a119e40d279e8a))
+
+
+
+
+
+## [0.2.10](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.9...@techstack/components@0.2.10) (2022-09-08)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.2.9](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.8...@techstack/components@0.2.9) (2022-09-07)
+
+
+### Bug Fixes
+
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([#714](https://github.com/The-Code-Monkey/TechStack/issues/714)) ([5454086](https://github.com/The-Code-Monkey/TechStack/commit/5454086379cc106916a71a8d9c8c0bfcbd6dd645))
+
+
+
+
+
+## [0.2.8](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.7...@techstack/components@0.2.8) (2022-09-07)
+
+
+### Bug Fixes
+
+* more changes to components to make it render in next ([cc6b695](https://github.com/The-Code-Monkey/TechStack/commit/cc6b69553edccd257262554fb0f42d28b86518a5))
+
+
+
+
+
+## [0.2.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.5...@techstack/components@0.2.7) (2022-09-07)
+
+
+### Bug Fixes
+
+* attempt to peer dependency styled-components ([05be87a](https://github.com/The-Code-Monkey/TechStack/commit/05be87aa92bca9346d28e51b8b5fa5a1e518a7b2))
+* update components exports ([0705924](https://github.com/The-Code-Monkey/TechStack/commit/07059241f092758509e6ed34e9e1e2999bded41e))
+
+
+
+
+
+## [0.2.5](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.4...@techstack/components@0.2.5) (2022-09-07)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.2.4](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.3...@techstack/components@0.2.4) (2022-09-07)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.2.3](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.2...@techstack/components@0.2.3) (2022-09-07)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.2.2](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.1...@techstack/components@0.2.2) (2022-09-07)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+## [0.2.1](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.2.0...@techstack/components@0.2.1) (2022-09-01)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
+# 0.2.0 (2022-08-31)
+
+
+### Bug Fixes
+
+* allow partial themes ([5ffd74f](https://github.com/The-Code-Monkey/TechStack/commit/5ffd74f3800a05b1dfdd1807790b2a14c57c2de2))
+* **deps:** update dependency i18next to v21.9.0 ([29df6b0](https://github.com/The-Code-Monkey/TechStack/commit/29df6b0e349423a01e58ea2f3f91231bc890ac21))
+* **deps:** update dependency i18next to v21.9.1 ([698801c](https://github.com/The-Code-Monkey/TechStack/commit/698801cb6c4d52222001aa1fa34a3ed5ebb787f4))
+* **deps:** update dependency react-i18next to v11.18.4 ([3550433](https://github.com/The-Code-Monkey/TechStack/commit/35504332c95dbbee5ec07afc8c5da9efdd18cb1d))
+* **deps:** update dependency react-i18next to v11.18.5 ([47d7eca](https://github.com/The-Code-Monkey/TechStack/commit/47d7ecacd731a6f9e77b679d9be8453cd0115856))
+* rollback styled-components to v5 ([4269891](https://github.com/The-Code-Monkey/TechStack/commit/426989129f55fc6dee056a8d82dcfa92d88bbc83))
+* update package versions ([5a7eb40](https://github.com/The-Code-Monkey/TechStack/commit/5a7eb4003b0919cfa8ab8a95063a56cf96b4566b))
+
+
+### Features
+
+* add new avatar story ([8fc6402](https://github.com/The-Code-Monkey/TechStack/commit/8fc6402aa7fbe733636c3e969e62b875ceab6368))
+* move to techstack org version 0.0.1 ([37abb9c](https://github.com/The-Code-Monkey/TechStack/commit/37abb9c124c58bcfc91cff1de96f6f6eded13c28))
+
+
+### Reverts
+
+* Revert "V1 Components" (#649) ([1e7a833](https://github.com/The-Code-Monkey/TechStack/commit/1e7a833cea1af1b7bae0affde23e4505f839248c)), closes [#649](https://github.com/The-Code-Monkey/TechStack/issues/649) [#440](https://github.com/The-Code-Monkey/TechStack/issues/440)
+
+
+
+
+
 ## [0.1.6](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.1.5...@techstack/components@0.1.6) (2022-08-12)
 
 **Note:** Version bump only for package @techstack/components

@@ -1,6 +1,6 @@
 {
   "name": "@techstack/react-feather",
-  "version": "0.1.5",
+  "version": "0.2.23",
   "description": "React component for Feather icons",
   "type": "module",
   "main": "./dist/index.js",
@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "lint": "tcm lint",
-    "prebuild": "node generate.js",
+    "build:types": "node generate.js",
     "build": "dts build"
   },
   "engines": {
@@ -44,14 +44,14 @@
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
   "devDependencies": {
-    "@techstack/tcm-cli": "0.1.4",
+    "@techstack/tcm-cli": "0.2.21",
     "cross-env": "7.0.3",
-    "dts-cli": "1.5.2",
+    "dts-cli": "1.6.0",
     "fs-extra": "10.1.0",
-    "typescript": "4.7.4"
+    "typescript": "4.8.3"
   },
   "dependencies": {
-    "@techstack/react-lazy-named": "0.1.5"
+    "@techstack/react-lazy-named": "0.2.22"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0"

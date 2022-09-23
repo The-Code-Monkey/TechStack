@@ -36,6 +36,8 @@ const Interactable = ({
   const cleanPendingPromise = () => pendingPromises.map(p => p.cancel());
 
   const handleOnClick = (event: MouseEvent) => {
+    if (disabled) return;
+
     const waitForClick = cancellablePromise(delay(dblClickDelay ?? 150));
     appendPendingPromise(waitForClick);
 
@@ -55,6 +57,8 @@ const Interactable = ({
   };
 
   const handleOnDoubleClick = (event: MouseEvent) => {
+    if (disabled) return;
+
     cleanPendingPromise();
     if (onDoubleClick) {
       onDoubleClick(event);

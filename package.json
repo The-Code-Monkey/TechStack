@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "husky": "8.0.1",
-    "lerna": "5.4.1"
+    "lerna": "5.5.2"
   },
   "prettier": {
     "printWidth": 80,

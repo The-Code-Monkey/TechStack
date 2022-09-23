@@ -1,7 +1,7 @@
-import { variant, Theme } from '@techstack/styled-system';
-import styled from 'styled-components';
+import { variant, ButtonVariants } from '@techstack/styled-system';
 
 import { Interactable, StyledBoxProps } from '../../primal';
+import styled from '../../workarounds/styled-components';
 
 export const iconMargins = {
   left: {
@@ -39,21 +39,6 @@ export const iconOrientations = {
   },
 };
 
-export const ButtonVariants = (theme: Theme) => {
-  if (typeof theme.variants?.buttons === 'function') {
-    return variant({
-      // eslint-disable-next-line
-      // @ts-ignore
-      variants: theme.variants?.buttons(theme),
-    });
-  }
-  return variant({
-    // eslint-disable-next-line
-    // @ts-ignore
-    variants: theme.variants?.buttons,
-  });
-};
-
 export const StyledInteractable = styled(Interactable)<{ strong?: boolean }>`
   position: relative;
   display: inline-flex;
@@ -75,8 +60,8 @@ export const StyledInteractable = styled(Interactable)<{ strong?: boolean }>`
   }
   ${variant({
     prop: 'typography',
-    scale: 'typography.type',
+    key: 'typography.type',
   })}
-  ${p => ButtonVariants(p.theme)}
+  ${ButtonVariants}
   ${StyledBoxProps}
 `;

@@ -2,19 +2,23 @@
 
 exports[`<Table /> should render correctly 1`] = `
 <DocumentFragment>
-  <table
-    class="sc-jSMfEi eVsqtd"
-    height="100%"
-    role="table"
-    width="100%"
-  >
-    <thead
-      class="sc-gKXOVf dgdQVN"
-    />
-    <tbody
-      class="sc-papXJ gvDnXh"
-      role="rowgroup"
-    />
-  </table>
+  <div>
+    <table
+      class="sc-jSMfEi eVsqtd"
+      height="100%"
+      width="100%"
+    >
+      <thead
+        class="sc-gKXOVf dgdQVN"
+      >
+        <tr
+          class="sc-iBkjds gQDXzH"
+        />
+      </thead>
+      <tbody
+        class="sc-papXJ gvDnXh"
+      />
+    </table>
+  </div>
 </DocumentFragment>
 `;

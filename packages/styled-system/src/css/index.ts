@@ -23,6 +23,8 @@ function responsive(styles: object = {}) {
       ),
     ];
 
+    if (!styles) return result;
+
     Object.keys(styles).forEach(key => {
       const value = isFunction(styles[key]) ? styles[key](theme) : styles[key];
 

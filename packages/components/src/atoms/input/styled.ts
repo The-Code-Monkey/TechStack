@@ -1,6 +1,5 @@
-import styled from 'styled-components';
-
 import { StyledBoxProps } from '../../primal';
+import styled from '../../workarounds/styled-components';
 
 export const StyledInput = styled.input`
   ${StyledBoxProps}

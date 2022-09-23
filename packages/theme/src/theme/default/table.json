@@ -6,6 +6,9 @@
       },
       "height": {
         "value": "{sizes.full.value}"
+      },
+      "textAlign": {
+        "value": "left"
       }
     }
   }

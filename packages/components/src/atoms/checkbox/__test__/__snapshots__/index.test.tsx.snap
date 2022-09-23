@@ -9,7 +9,7 @@ exports[`<Checkbox /> renders correctly checked 1`] = `
     data-checked="true"
   >
     <div
-      class="sc-gsnTZi cXXFdo sc-dkzDqf Vwowz"
+      class="sc-gsnTZi cXXFdo sc-dkzDqf ktSRzp"
       data-autoid="undefinedcheckbox_icon_icon"
     >
       <svg

@@ -1,22 +1,22 @@
 import { IntentVariants } from '@techstack/styled-system';
-import styled from 'styled-components';
 
-import { SizesType } from '../../theme/types';
 import { shouldForwardProp } from '../../utils';
+import styled from '../../workarounds/styled-components';
 import { Box, StyledBoxProps } from '../box';
 
 export const SvgWrapper = styled(Box).withConfig({
   shouldForwardProp: shouldForwardProp([
     ...StyledBoxProps.propNames,
-    'noFill',
+    'fill',
     'cursor',
   ]) as () => boolean,
-})<{ noFill?: boolean; size?: keyof SizesType }>`
+})<{ fill?: boolean }>`
   pointer-events: none;
 
   svg {
-    ${p => !p.noFill && 'fill: currentColor;'}
+    color: currentColor;
     pointer-events: none;
+    ${p => p.fill && `fill: currentColor;`}
 
     ${IntentVariants}
     ${StyledBoxProps}

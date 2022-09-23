@@ -1,6 +1,5 @@
-import { get, createParser } from '../core';
+import { createParser, get } from '../core';
 import { css } from '../css';
-import { CSSObject, Scale, Theme } from '../types';
 
 interface Props {
   scale?: string;
@@ -9,27 +8,24 @@ interface Props {
   key?: string;
 }
 
-export const variant = ({
-  scale,
-  prop = 'variant',
-  variants = {},
-  key,
-}: Props) => {
-  let sx: {
-    (value: string | number, scale: Scale, props: { theme: Theme }): CSSObject;
-    scale?: Scale | string;
-    defaults?: object;
-  };
+// export const variant = ({ scale, prop = 'variant', variants }: Props) => {
+//   const sx: {
+//     (value: string | number, scale: Scale, props: { theme: Theme }): CSSObject;
+//     scale?: Scale | string;
+//     defaults?: object;
+//   } = (value: string | number, scale: Scale, props) =>
+//     css(get(scale, value, null))(props.theme);
+//   sx.scale = `variants.${scale}`;
+//   sx.defaults = {};
+//   return createParser({
+//     [prop]: sx,
+//   });
+// };
 
-  if (Object.keys(variants).length) {
-    sx = (value: string | number, scale: Scale, props: { theme: Theme }) =>
-      css(get(scale, value, null) as object)(props.theme);
-  } else {
-    sx = (value: string | number, scale: Scale) =>
-      get(scale, value, null) as CSSObject;
-  }
-  sx.scale = scale || key;
-  sx.defaults = variants;
+export const variant = ({ prop = 'variant', key }: Props) => {
+  const sx = (value, scale, props) => css(get(scale, value, null))(props.theme);
+  sx.scale = key ? `variants.${key}` : `variants`;
+  sx.defaults = {};
   return createParser({
     [prop]: sx,
   });
