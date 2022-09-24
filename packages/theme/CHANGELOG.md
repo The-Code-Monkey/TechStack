@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.23](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.2.22...@techstack/theme@0.2.23) (2022-09-24)
+
+
+### Bug Fixes
+
+* add path resolve to function in attempt to fix stuff ([10bd879](https://github.com/The-Code-Monkey/TechStack/commit/10bd8792185a45e46441e2ce74e27d7def32ed3a))
+
+
+
+
+
 ## [0.2.22](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.2.21...@techstack/theme@0.2.22) (2022-09-24)
 
 **Note:** Version bump only for package @techstack/theme
