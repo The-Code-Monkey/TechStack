@@ -236,7 +236,7 @@ const generate = async (options: { b: any; brand: any }) => {
     console.log('Using your theme');
     ConfigWithSource.source = [
       path.resolve(__dirname, `theme/default/**/*.json`),
-      `${customSrcDir}/**/*.json`,
+      path.resolve(`${customSrcDir}/**/*.json`),
     ];
   } else {
     console.log('Using default theme');
