@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.27](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@0.2.26...@techstack/react-feather@0.2.27) (2022-09-28)
+
+**Note:** Version bump only for package @techstack/react-feather
+
+
+
+
+
+## [0.2.26](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@0.2.25...@techstack/react-feather@0.2.26) (2022-09-27)
+
+**Note:** Version bump only for package @techstack/react-feather
+
+
+
+
+
+## 0.2.25 (2022-09-24)
+
+**Note:** Version bump only for package @techstack/react-feather
+
+
+
+
+
+## [0.2.24](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@0.2.23...@techstack/react-feather@0.2.24) (2022-09-24)
+
+**Note:** Version bump only for package @techstack/react-feather
+
+
+
+
+
 ## [0.2.23](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@0.2.22...@techstack/react-feather@0.2.23) (2022-09-23)
 
 **Note:** Version bump only for package @techstack/react-feather

@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.26](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-lazy-named@0.2.25...@techstack/react-lazy-named@0.2.26) (2022-09-28)
+
+**Note:** Version bump only for package @techstack/react-lazy-named
+
+
+
+
+
+## [0.2.25](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-lazy-named@0.2.24...@techstack/react-lazy-named@0.2.25) (2022-09-27)
+
+**Note:** Version bump only for package @techstack/react-lazy-named
+
+
+
+
+
+## 0.2.24 (2022-09-24)
+
+**Note:** Version bump only for package @techstack/react-lazy-named
+
+
+
+
+
+## [0.2.23](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-lazy-named@0.2.22...@techstack/react-lazy-named@0.2.23) (2022-09-24)
+
+**Note:** Version bump only for package @techstack/react-lazy-named
+
+
+
+
+
 ## [0.2.22](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-lazy-named@0.2.21...@techstack/react-lazy-named@0.2.22) (2022-09-23)
 
 **Note:** Version bump only for package @techstack/react-lazy-named
