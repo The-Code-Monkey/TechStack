@@ -1,5 +1,5 @@
-import { Interactable, Icon } from '../../primal';
-import { generateAutomationId } from '../../utils';
+import { Interactable, Icon } from '../../../primal';
+import { generateAutomationId } from '../../../utils';
 
 import { disabledStyles, checkedStyles } from './styled';
 
@@ -9,6 +9,7 @@ export interface Props {
   checked?: boolean;
   indeterminate?: boolean;
   disabled?: boolean;
+  name?: string;
 }
 
 const Checkbox = ({
@@ -17,6 +18,7 @@ const Checkbox = ({
   onClick,
   disabled,
   testid,
+  name,
 }: Props) => {
   const handleOnClick = (event: MouseEvent) => {
     const status = indeterminate || !checked;
@@ -28,11 +30,11 @@ const Checkbox = ({
 
   return (
     <Interactable
+      name={name}
       display='flex'
       size={7}
       alignItems='center'
       justifyContent='center'
-      cursor='pointer'
       bgColor='neutrals.0'
       border='1'
       borderRadius='1'

@@ -1,6 +1,6 @@
 import { waitFor, screen, act } from '@testing-library/react';
 
-import { mountWithTheme } from '../../../test-tools';
+import { mountWithTheme } from '../../../../test-tools';
 import Checkbox from '../index';
 
 describe('<Checkbox />', () => {

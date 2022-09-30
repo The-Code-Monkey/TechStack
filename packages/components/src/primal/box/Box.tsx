@@ -30,7 +30,13 @@ export interface Props
   pointerEvents?: Property.PointerEvents;
 }
 
-const Box = ({ children, as, testid = 'box', size, ...rest }: Props) => (
+export const Box = <P extends keyof HTMLElementTagNameMap = 'div'>({
+  children,
+  as,
+  testid = 'box',
+  size,
+  ...rest
+}: Props & Omit<Partial<HTMLElementTagNameMap[P]>, 'children'>) => (
   <StyledBox
     data-testid={generateAutomationId(testid)}
     as={as}

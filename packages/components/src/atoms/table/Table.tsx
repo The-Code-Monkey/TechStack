@@ -134,7 +134,7 @@ const Table: FC<Props> = ({
             </StyledTr>
           )}
           {virtualRows.map(virtualRow => {
-            const row = rows[virtualRow.index] as Row<Record<string, any>>;
+            const row = rows[virtualRow.index] as Row<Record<string, unknown>>;
             return (
               <StyledTr
                 {...theme.defaultStyles?.tr}

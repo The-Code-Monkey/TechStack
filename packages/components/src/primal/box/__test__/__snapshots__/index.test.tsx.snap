@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Box /> renders as a form correctly 1`] = `
+<DocumentFragment>
+  <form
+    class="sc-gswNZR hNMjxf"
+    data-testid="box"
+  >
+    This is some children
+  </form>
+</DocumentFragment>
+`;
+
+exports[`<Box /> renders children correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gswNZR hNMjxf"
+    data-testid="box"
+  >
+    This is some children
+  </div>
+</DocumentFragment>
+`;

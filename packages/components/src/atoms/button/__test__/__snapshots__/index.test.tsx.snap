@@ -3,7 +3,7 @@
 exports[`<Button /> renders default correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-hLBbgP sc-jSUZER gtEhoc"
+    class="sc-hLBbgP wYYZF sc-jSUZER gtEhoc"
     data-testid="Default_button"
   >
     <span
@@ -19,7 +19,7 @@ exports[`<Button /> renders default correctly 1`] = `
 exports[`<Button /> renders icon correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-hLBbgP sc-jSUZER gtEhoc"
+    class="sc-hLBbgP wYYZF sc-jSUZER gtEhoc"
     data-testid="Secondary_button"
   >
     <div
@@ -56,7 +56,7 @@ exports[`<Button /> renders icon correctly 1`] = `
 exports[`<Button /> renders icon only correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-hLBbgP sc-jSUZER gtEhoc"
+    class="sc-hLBbgP wYYZF sc-jSUZER gtEhoc"
     data-testid="_button"
   >
     <div
@@ -91,7 +91,7 @@ exports[`<Button /> renders icon only correctly 1`] = `
 exports[`<Button /> renders primary correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-hLBbgP sc-jSUZER cPyLBp"
+    class="sc-hLBbgP wYYZF sc-jSUZER cPyLBp"
     data-testid="Primary_button"
   >
     <span
@@ -107,7 +107,7 @@ exports[`<Button /> renders primary correctly 1`] = `
 exports[`<Button /> renders secondary correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-hLBbgP sc-jSUZER gEuzsH"
+    class="sc-hLBbgP wYYZF sc-jSUZER gEuzsH"
     data-testid="Secondary_button"
   >
     <span

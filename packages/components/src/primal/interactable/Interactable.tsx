@@ -12,7 +12,7 @@ export interface Props extends BoxProps {
   onDoubleClick?: (event: MouseEvent) => void;
 }
 
-const Interactable = ({
+const Interactable = <P extends Record<string, unknown>>({
   className,
   children,
   testid = '',
@@ -20,7 +20,7 @@ const Interactable = ({
   onDoubleClick,
   disabled,
   ...rest
-}: Props) => {
+}: Props & P) => {
   const { dblClickDelay } = useContext(ConfigContext);
 
   let pendingPromises = [];
