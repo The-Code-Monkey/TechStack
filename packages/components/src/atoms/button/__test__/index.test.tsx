@@ -1,3 +1,5 @@
+import { act, screen, waitFor } from '@testing-library/react';
+
 import { mountWithTheme } from '../../../test-tools';
 import Button from '../index';
 
@@ -21,15 +23,25 @@ describe('<Button />', () => {
     expect(asFragment()).toMatchSnapshot();
   });
 
-  it('renders icon correctly', () => {
+  it('renders icon correctly', async () => {
     const { asFragment } = mountWithTheme(
       <Button iconName='github'>Secondary</Button>
     );
+
+    await act(async () => {
+      await waitFor(() => expect(screen.findByTestId('github_icon')));
+    });
+
     expect(asFragment()).toMatchSnapshot();
   });
 
-  it('renders icon only correctly', () => {
+  it('renders icon only correctly', async () => {
     const { asFragment } = mountWithTheme(<Button iconName='github' />);
+
+    await act(async () => {
+      await waitFor(() => expect(screen.findByTestId('github_icon')));
+    });
+
     expect(asFragment()).toMatchSnapshot();
   });
 });

@@ -10,7 +10,7 @@ import { generateAutomationId } from '../../utils';
 import { SvgWrapper } from './styled';
 
 export interface Props {
-  autoid?: string;
+  testid?: string;
   name: IconTypes;
   fill?: boolean;
   size?: ResponsiveValue<Property.Width<TLengthStyledSystem>>;
@@ -26,24 +26,25 @@ export const getIcon = (name: IconTypes) => {
 
 export const FeatherIcon = ({
   name,
+  testid,
   ...rest
-}: IconProps & Pick<Props, 'name'>) => {
+}: IconProps & Pick<Props, 'name' | 'testid'>) => {
   const Element = getIcon(name);
 
   return (
     <Suspense fallback={<DefaultIcon {...rest} data-name='fallback-icon' />}>
-      <Element />
+      <Element data-testid={testid} />
     </Suspense>
   );
 };
 
-const Icon = ({ autoid, name, ...rest }: Props) => {
+const Icon = ({ testid, name, ...rest }: Props) => {
   return (
-    <SvgWrapper
-      autoid={`${generateAutomationId(autoid ?? name)}_icon`}
-      {...rest}
-    >
-      <FeatherIcon name={name} />
+    <SvgWrapper {...rest}>
+      <FeatherIcon
+        name={name}
+        testid={`${generateAutomationId(testid ?? name)}_icon`}
+      />
     </SvgWrapper>
   );
 };

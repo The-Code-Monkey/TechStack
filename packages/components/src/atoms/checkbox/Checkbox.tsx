@@ -4,7 +4,7 @@ import { generateAutomationId } from '../../utils';
 import { disabledStyles, checkedStyles } from './styled';
 
 export interface Props {
-  autoid?: string;
+  testid?: string;
   onClick?: (p1: boolean, p2: MouseEvent) => void;
   checked?: boolean;
   indeterminate?: boolean;
@@ -16,7 +16,7 @@ const Checkbox = ({
   checked,
   onClick,
   disabled,
-  autoid,
+  testid,
 }: Props) => {
   const handleOnClick = (event: MouseEvent) => {
     const status = indeterminate || !checked;
@@ -37,7 +37,7 @@ const Checkbox = ({
       border='1'
       borderRadius='1'
       borderColor='neutrals.10'
-      autoid={autoid ? generateAutomationId(`${autoid}_checkbox`) : 'checkbox'}
+      testid={testid ? generateAutomationId(`${testid}_checkbox`) : 'checkbox'}
       data-checked={checked}
       data-indeterminate={indeterminate}
       data-disabled={disabled}
@@ -47,7 +47,13 @@ const Checkbox = ({
     >
       {(indeterminate || checked) && (
         <Icon
-          autoid={`${autoid && `${autoid}_`}checkbox_icon`}
+          testid={
+            testid
+              ? `${testid}_checkbox_icon`
+              : indeterminate
+              ? 'minus'
+              : 'check'
+          }
           name={indeterminate ? 'minus' : 'check'}
           size='full'
         />

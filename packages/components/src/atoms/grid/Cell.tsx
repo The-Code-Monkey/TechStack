@@ -15,7 +15,7 @@ export interface Props extends BoxProps {
 
 const Cell = ({
   children,
-  autoid,
+  testid,
   cellLeft = 0,
   cellTop = 0,
   cellWidth = 1,
@@ -34,7 +34,7 @@ const Cell = ({
 
   return (
     <StyledCell
-      autoid={`${autoid || children}_cell`}
+      testid={`${testid || children}_cell`}
       gridColumn={getGridColumnMemo}
       gridRow={getGridRowMemo}
       gridArea={cellArea}

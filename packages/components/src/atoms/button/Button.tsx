@@ -1,8 +1,12 @@
 import * as React from 'react';
 
-const { useMemo } = React;
+const { useMemo, lazy } = React;
 
-import { Icon, InteractableProps, Text, IconProps } from '../../primal';
+const Icon = lazy(() =>
+  import('../../primal').then(module => ({ default: module.Icon }))
+);
+
+import { InteractableProps, Text, IconProps } from '../../primal';
 
 import { StyledInteractable, iconOrientations, iconMargins } from './styled';
 
@@ -18,7 +22,7 @@ const Button = ({
   children = '',
   iconName,
   iconPosition = 'left',
-  autoid,
+  testid,
   variant = 'default',
   ...rest
 }: Props) => {
@@ -31,7 +35,7 @@ const Button = ({
     <StyledInteractable
       className={className}
       forwardedAs='button'
-      autoid={`${autoid || children}_button`}
+      testid={`${testid || children}_button`}
       typography='button'
       variant={variant}
       {...rest}

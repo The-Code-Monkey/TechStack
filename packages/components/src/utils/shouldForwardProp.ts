@@ -5,7 +5,7 @@ const forwardPropHelper =
   (prop: string, defaultValidatorFn: (p: string) => boolean) => {
     const regex = new RegExp(`^(${styledProps.join('|')})$`);
 
-    if (prop === 'autoid') return true;
+    if (prop === 'testid') return true;
     return defaultValidatorFn(prop) && !regex.test(prop);
   };
 

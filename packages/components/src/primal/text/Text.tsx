@@ -7,16 +7,16 @@ import { StyledText } from './styled';
 
 export interface Props extends TypographyProps {
   children: string;
-  autoid?: string;
+  testid?: string;
   values?: { [x: string]: string | number };
   ns?: string;
 }
 
-const Text = ({ children, autoid, values, ns, ...rest }: Props) => {
+const Text = ({ children, testid, values, ns, ...rest }: Props) => {
   const { t } = useTranslation();
 
   return (
-    <StyledText data-autoid={generateAutomationId(autoid ?? '')} {...rest}>
+    <StyledText data-testid={generateAutomationId(testid ?? '')} {...rest}>
       {t(children, { ns, ...values })}
     </StyledText>
   );

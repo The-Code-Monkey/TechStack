@@ -15,7 +15,7 @@ export interface Props extends BoxProps {
 const Interactable = ({
   className,
   children,
-  autoid = '',
+  testid = '',
   onClick,
   onDoubleClick,
   disabled,
@@ -70,7 +70,7 @@ const Interactable = ({
       className={className}
       onClick={handleOnClick}
       onDoubleClick={handleOnDoubleClick}
-      data-autoid={autoid}
+      data-testid={testid}
       disabled={disabled}
       {...rest}
     >

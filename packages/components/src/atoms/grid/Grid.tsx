@@ -12,13 +12,13 @@ export interface Props extends BoxProps, GridProps {
   areas?: GridProps['gridTemplateAreas'];
 }
 
-const Grid = ({ children, autoid, columns, rows, areas, ...rest }: Props) => {
+const Grid = ({ children, testid, columns, rows, areas, ...rest }: Props) => {
   const getTemplateColumnsMemo = useMemo(() => getTemplate(columns), [columns]);
   const getTemplateRowsMemo = useMemo(() => getTemplate(rows), [rows]);
 
   return (
     <StyledGrid
-      autoid={`${autoid}_table`}
+      testid={`${testid}_table`}
       gridTemplateColumns={getTemplateColumnsMemo}
       gridTemplateRows={getTemplateRowsMemo}
       gridTemplateAreas={areas}

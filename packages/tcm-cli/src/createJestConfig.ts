@@ -3,7 +3,7 @@ export function createJestConfig(
   rootDir: string
 ) {
   return {
-    transform: {},
+    preset: 'ts-jest',
     testEnvironment: 'jsdom',
     testEnvironmentOptions: {
       url: 'http://localhost',
@@ -27,11 +27,5 @@ export function createJestConfig(
       'jest-watch-typeahead/filename',
       'jest-watch-typeahead/testname',
     ],
-    preset: 'ts-jest/presets/default-esm',
-    globals: {
-      'ts-jest': {
-        useESM: true,
-      },
-    },
   };
 }

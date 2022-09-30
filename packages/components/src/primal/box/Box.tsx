@@ -24,15 +24,15 @@ export interface Props
     FlexboxProps {
   children?: ReactNode;
   as?: ElementType;
-  autoid?: string;
+  testid?: string;
   className?: string;
   cursor?: Property.Cursor;
   pointerEvents?: Property.PointerEvents;
 }
 
-const Box = ({ children, as, autoid = 'box', size, ...rest }: Props) => (
+const Box = ({ children, as, testid = 'box', size, ...rest }: Props) => (
   <StyledBox
-    data-autoid={generateAutomationId(autoid)}
+    data-testid={generateAutomationId(testid)}
     as={as}
     w={size}
     h={size}
