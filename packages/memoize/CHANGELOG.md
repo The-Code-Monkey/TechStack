@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.27](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@0.2.26...@techstack/memoize@0.2.27) (2022-09-30)
+
+
+### Bug Fixes
+
+* **deps:** update jest monorepo ([#769](https://github.com/The-Code-Monkey/TechStack/issues/769)) ([6d282c3](https://github.com/The-Code-Monkey/TechStack/commit/6d282c31df30b4f45ed944c730fed1253d46e26f))
+
+
+
+
+
 ## [0.2.26](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@0.2.25...@techstack/memoize@0.2.26) (2022-09-28)
 
 **Note:** Version bump only for package @techstack/memoize

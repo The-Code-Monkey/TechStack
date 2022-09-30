@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.26](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.25...@techstack/tcm-cli@0.2.26) (2022-09-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sort-package-json to v2 ([#773](https://github.com/The-Code-Monkey/TechStack/issues/773)) ([a7523d9](https://github.com/The-Code-Monkey/TechStack/commit/a7523d9730e92c2b82879c2ae5b1221a2b8ba75e))
+* **deps:** update jest monorepo ([#769](https://github.com/The-Code-Monkey/TechStack/issues/769)) ([6d282c3](https://github.com/The-Code-Monkey/TechStack/commit/6d282c31df30b4f45ed944c730fed1253d46e26f))
+
+
+
+
+
 ## [0.2.25](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.24...@techstack/tcm-cli@0.2.25) (2022-09-28)
 
 **Note:** Version bump only for package @techstack/tcm-cli
