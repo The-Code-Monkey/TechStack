@@ -1,44 +1,44 @@
 {
-	"name": "@techstack/font-picker-react",
-	"version": "0.2.34",
-	"description": "Font selector component for Google Fonts",
-	"type": "module",
-	"module": "./dist/font-picker-react.esm.js",
-	"main": "./dist/index.js",
-	"exports": {
-		"import": "./dist/font-picker-react.esm.js",
-		"require": "./dist/font-picker-react.cjs.production.min.js",
-		"default": "./dist/font-picker-react.esm.js"
-	},
-	"typings": "dist/types/index.d.ts",
-	"files": [
-		"dist",
-		"src"
-	],
-	"engines": {
-		"node": ">=16"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"scripts": {
-		"lint": "tcm lint",
-		"build": "dts build",
-		"storybook": "storybook"
-	},
-	"dependencies": {
-		"@samuelmeuli/font-manager": "^1.4.0"
-	},
-	"peerDependencies": {
-		"@types/react": "^17.0.0 || ^18.0.0",
-		"react": "^17.0.0 || ^18.0.0",
-		"react-dom": "^17.0.0 || ^18.0.0"
-	},
-	"devDependencies": {
-		"@storybook/react": "6.5.12",
-		"@techstack/tcm-cli": "0.2.33",
-		"dts-cli": "1.6.0",
-		"react": "18.2.0"
-	},
-	"gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"
+  "name": "@techstack/font-picker-react",
+  "version": "0.2.35",
+  "description": "Font selector component for Google Fonts",
+  "type": "module",
+  "module": "./dist/font-picker-react.esm.js",
+  "main": "./dist/index.js",
+  "exports": {
+    "import": "./dist/font-picker-react.esm.js",
+    "require": "./dist/font-picker-react.cjs.production.min.js",
+    "default": "./dist/font-picker-react.esm.js"
+  },
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "tcm lint",
+    "build": "dts build",
+    "storybook": "storybook"
+  },
+  "dependencies": {
+    "@samuelmeuli/font-manager": "^1.4.0"
+  },
+  "peerDependencies": {
+    "@types/react": "^17.0.0 || ^18.0.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "6.5.12",
+    "@techstack/tcm-cli": "0.2.34",
+    "dts-cli": "1.6.0",
+    "react": "18.2.0"
+  },
+  "gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"
 }
