@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.36](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.35...@techstack/tcm-cli@0.2.36) (2022-10-09)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-react to v7.31.9 ([#791](https://github.com/The-Code-Monkey/TechStack/issues/791)) ([dddf16e](https://github.com/The-Code-Monkey/TechStack/commit/dddf16eb5b9057df88078c35379be6f748fb900b))
+- **deps:** update dependency type-fest to v3.1.0 ([#790](https://github.com/The-Code-Monkey/TechStack/issues/790)) ([df8186f](https://github.com/The-Code-Monkey/TechStack/commit/df8186ff8cc2e7c8feca9a7216a70697bb9a711f))
+
 ## [0.2.35](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.34...@techstack/tcm-cli@0.2.35) (2022-10-08)
 
 ### Bug Fixes
