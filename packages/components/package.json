@@ -82,7 +82,7 @@
     "typescript": "4.8.4"
   },
   "dependencies": {
-    "@tanstack/react-table": "8.5.13",
+    "@tanstack/react-table": "8.5.15",
     "@techstack/memoize": "0.2.37",
     "@techstack/react-feather": "0.2.38",
     "@techstack/react-lazy-named": "0.2.37",
