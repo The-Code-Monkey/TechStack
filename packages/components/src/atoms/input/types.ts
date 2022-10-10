@@ -3,9 +3,9 @@ import { ChangeEvent } from 'react';
 import type { CheckboxProps } from './checkbox';
 
 type DefaultProps = {
-  name?: string
+  name?: string;
   onChange?: (e: ChangeEvent<HTMLInputElement> | boolean) => void;
-}
+};
 
 type TextInputProps = {
   value?: string | number;
@@ -13,6 +13,5 @@ type TextInputProps = {
   type?: 'text';
 };
 
-export type InputPropsUnion =
-  DefaultProps & (TextInputProps
-  | (CheckboxProps & { type: "checkbox" }))
+export type InputPropsUnion = DefaultProps &
+  (TextInputProps | (CheckboxProps & { type: 'checkbox' }));

@@ -10,7 +10,7 @@ describe('<Checkbox />', () => {
   });
 
   it('renders correctly checked', async () => {
-    const { asFragment } = mountWithTheme(<Checkbox checked />);
+    const { asFragment } = mountWithTheme(<Checkbox value="checked" />);
 
     await act(async () => {
       await waitFor(() => expect(screen.findByTestId('check_icon')));
