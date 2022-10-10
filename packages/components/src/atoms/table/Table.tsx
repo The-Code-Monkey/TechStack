@@ -2,7 +2,6 @@ import {
   flexRender,
   getCoreRowModel as getCoreRowModelFn,
   getSortedRowModel as getSortedRowModelFn,
-  Row,
   SortingState,
   TableOptions,
   useReactTable,
@@ -134,7 +133,7 @@ const Table: FC<Props> = ({
             </StyledTr>
           )}
           {virtualRows.map(virtualRow => {
-            const row = rows[virtualRow.index] as Row<Record<string, unknown>>;
+            const row = rows[virtualRow.index];
             return (
               <StyledTr
                 {...theme.defaultStyles?.tr}
