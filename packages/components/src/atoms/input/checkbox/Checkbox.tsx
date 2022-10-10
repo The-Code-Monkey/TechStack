@@ -5,26 +5,28 @@ import { disabledStyles, checkedStyles } from './styled';
 
 export interface Props {
   testid?: string;
-  onClick?: (p1: boolean, p2: MouseEvent) => void;
-  checked?: boolean;
+  onChange?: (p1: boolean) => void;
+  value?: "checked" | "indeterminate" | unknown;
   indeterminate?: boolean;
   disabled?: boolean;
   name?: string;
 }
 
 const Checkbox = ({
-  indeterminate,
-  checked,
-  onClick,
+  value,
+  onChange,
   disabled,
   testid,
   name,
 }: Props) => {
-  const handleOnClick = (event: MouseEvent) => {
+  const checked = value === "checked";
+  const indeterminate = value === "indeterminate";
+
+  const handleOnClick = () => {
     const status = indeterminate || !checked;
 
-    if (onClick) {
-      onClick(status, event);
+    if (onChange) {
+      onChange(status)
     }
   };
 

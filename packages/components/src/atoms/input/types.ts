@@ -1,19 +1,18 @@
-import { ChangeEvent, HTMLInputTypeAttribute } from 'react';
+import { ChangeEvent } from 'react';
 
 import type { CheckboxProps } from './checkbox';
 
-type InputProps = {
-  onChange?: (e: ChangeEvent<HTMLInputElement>) => void;
+type DefaultProps = {
+  name?: string
+  onChange?: (e: ChangeEvent<HTMLInputElement> | boolean) => void;
+}
+
+type TextInputProps = {
   value?: string | number;
   placeholder?: string;
-  type: 'text';
+  type?: 'text';
 };
 
 export type InputPropsUnion =
-  | InputProps
-  | (
-      | (CheckboxProps & { type: 'checkbox'; value?: undefined })
-      | (Omit<InputProps, 'type'> & {
-          type?: Omit<HTMLInputTypeAttribute, 'text' | 'checkbox'>;
-        })
-    );
+  DefaultProps & (TextInputProps
+  | (CheckboxProps & { type: "checkbox" }))

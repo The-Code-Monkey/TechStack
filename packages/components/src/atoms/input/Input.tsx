@@ -8,10 +8,7 @@ import Checkbox from './checkbox';
 import { StyledInput } from './styled';
 import { InputPropsUnion } from './types';
 
-export interface Props extends BoxProps {
-  name: string;
-  onChange?: () => void;
-}
+export type Props = BoxProps & InputPropsUnion;
 
 const Input = ({
   onChange,
@@ -19,13 +16,17 @@ const Input = ({
   value,
   name,
   ...rest
-}: Props & InputPropsUnion) => {
+}: Props) => {
   const theme = useContext<DefaultThemeWithDefaultStyles>(ThemeContext);
-  const [v, setValue] = useState<string | number | undefined>(value);
+  const [v, setValue] = useState<string | number | undefined | unknown>(value);
 
   const handleOnChange = useCallback(
-    (event: ChangeEvent<HTMLInputElement>) => {
-      setValue(event.target.value);
+    (event: ChangeEvent<HTMLInputElement> | boolean) => {
+      if (typeof event !== "boolean") {
+        setValue(event.target.value);
+      } else {
+        setValue(event);
+      }
       if (onChange) onChange(event);
     },
     [onChange]
@@ -38,6 +39,8 @@ const Input = ({
           return (
             <Checkbox
               name={name}
+              value={value}
+              onChange={handleOnChange}
               {...theme.defaultStyles?.checkbox}
               {...rest}
             />
