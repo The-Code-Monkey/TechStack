@@ -72,7 +72,7 @@
     "@tsconfig/recommended": "1.0.1",
     "@types/react-dom": "18.0.6",
     "autoprefixer": "10.4.12",
-    "chromatic": "6.10.1",
+    "chromatic": "6.10.2",
     "cross-env": "7.0.3",
     "dts-cli": "1.6.0",
     "eslint-plugin-import": "2.26.0",
