@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.38 (2022-10-13)
+
+### Bug Fixes
+
+- **deps:** update dependency postcss to v8.4.18 ([#798](https://github.com/The-Code-Monkey/TechStack/issues/798)) ([4d49c22](https://github.com/The-Code-Monkey/TechStack/commit/4d49c2269ac4a3a2bf7a3f15e81fad3b460c7af9))
+
 ## 0.2.37 (2022-10-11)
 
 ### Bug Fixes
