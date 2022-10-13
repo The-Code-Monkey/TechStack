@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.44](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.43...@techstack/components@0.4.44) (2022-10-13)
+
+### Bug Fixes
+
+- breaking issue with sb ([e00d0e1](https://github.com/The-Code-Monkey/TechStack/commit/e00d0e1db609b7c84da68029992d9bb5a7ba5fef))
+- update some packages ([769ec2f](https://github.com/The-Code-Monkey/TechStack/commit/769ec2f8592a71131f3cd4b2b6c7ae43c2092277))
+
 ## [0.4.43](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.42...@techstack/components@0.4.43) (2022-10-11)
 
 **Note:** Version bump only for package @techstack/components
