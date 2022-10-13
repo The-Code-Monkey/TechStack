@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.39](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.38...@techstack/tcm-cli@0.2.39) (2022-10-13)
+
+### Bug Fixes
+
+- **deps:** update dependency regenerator-runtime to v0.13.10 ([#803](https://github.com/The-Code-Monkey/TechStack/issues/803)) ([d543fd3](https://github.com/The-Code-Monkey/TechStack/commit/d543fd3962d9011539e1ddb81b8255bdb54ac802))
+
 ## 0.2.38 (2022-10-13)
 
 ### Bug Fixes
