@@ -47,7 +47,7 @@
     "dts-cli": "1.6.0",
     "expect-type": "0.14.2",
     "fast-memoize": "2.5.2",
-    "jest-environment-jsdom": "29.1.2",
+    "jest-environment-jsdom": "29.2.0",
     "lodash": "4.17.21",
     "markdown-table": "3.0.2",
     "mem": "9.0.2",
