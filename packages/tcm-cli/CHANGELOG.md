@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.44](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.43...@techstack/tcm-cli@0.2.44) (2022-10-18)
+
+### Bug Fixes
+
+- **deps:** update dependency @types/jest to v29.2.0 ([#811](https://github.com/The-Code-Monkey/TechStack/issues/811)) ([0d90289](https://github.com/The-Code-Monkey/TechStack/commit/0d902894f73664e57c8ca25f77785e80f9c25533))
+
 ## [0.2.43](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.42...@techstack/tcm-cli@0.2.43) (2022-10-18)
 
 **Note:** Version bump only for package @techstack/tcm-cli
