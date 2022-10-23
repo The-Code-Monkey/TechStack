@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.60](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.59...@techstack/components@0.4.60) (2022-10-23)
+
+### Bug Fixes
+
+- **deps:** update dependency react-i18next to v12 ([cfb0e9d](https://github.com/The-Code-Monkey/TechStack/commit/cfb0e9d49cd516cb62cd1b4057aa24f999816559))
+
 ## [0.4.59](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.58...@techstack/components@0.4.59) (2022-10-22)
 
 **Note:** Version bump only for package @techstack/components
