@@ -10,7 +10,7 @@ type DefaultProps = {
 type TextInputProps = {
   value?: string | number;
   placeholder?: string;
-  type?: 'text';
+  type?: 'text' | 'email' | 'password' | 'textarea';
 };
 
 export type InputPropsUnion = DefaultProps &
