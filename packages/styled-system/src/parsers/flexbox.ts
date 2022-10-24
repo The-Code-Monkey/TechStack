@@ -30,6 +30,7 @@ export interface FlexboxProps<ThemeType extends Theme = RequiredTheme> {
   placeItems?: ResponsiveValue<Property.PlaceItems, ThemeType>;
   placeContent?: ResponsiveValue<Property.PlaceContent, ThemeType>;
   placeSelf?: ResponsiveValue<Property.PlaceSelf, ThemeType>;
+  gap?: ResponsiveValue<Property.Gap<TLengthStyledSystem>, ThemeType>;
 }
 
 const config: SystemConfig<string> = {
@@ -84,6 +85,10 @@ const config: SystemConfig<string> = {
   },
   placeSelf: {
     property: 'placeSelf',
+  },
+  gap: {
+    property: 'gap',
+    scale: 'sizes',
   },
 };
 
