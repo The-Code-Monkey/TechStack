@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.62...@techstack/components@0.5.0) (2022-10-24)
+
+### Features
+
+- add email password and textarea to input form ([be0bbd5](https://github.com/The-Code-Monkey/TechStack/commit/be0bbd5ed896ef07ca852254c3c7a60d9d125499))
+
 ## [0.4.62](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.4.61...@techstack/components@0.4.62) (2022-10-24)
 
 **Note:** Version bump only for package @techstack/components
