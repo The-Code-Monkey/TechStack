@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.5.1",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -86,7 +86,7 @@
     "@techstack/memoize": "0.2.52",
     "@techstack/react-feather": "0.2.52",
     "@techstack/react-lazy-named": "0.2.51",
-    "@techstack/styled-system": "0.2.52",
+    "@techstack/styled-system": "0.2.53",
     "@techstack/theme": "0.2.51",
     "@types/react-table": "7.7.12",
     "classnames": "2.3.2",

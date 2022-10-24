@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.53 (2022-10-24)
+
+### Bug Fixes
+
+- add gap to flex ([e85734b](https://github.com/The-Code-Monkey/TechStack/commit/e85734b29a6d56af7557f75fe5e8e90db8924a93))
+
 ## 0.2.52 (2022-10-23)
 
 **Note:** Version bump only for package @techstack/styled-system
