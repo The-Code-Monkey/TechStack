@@ -1,5 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Input /> email renders correctly 1`] = `
+<DocumentFragment>
+  <input
+    class="sc-jSUZER kYYTZd"
+    cursor="pointer"
+    name="test"
+    placeholder="Placeholder"
+    type="email"
+    value=""
+    width="100%"
+  />
+</DocumentFragment>
+`;
+
 exports[`<Input /> renders correctly 1`] = `
 <DocumentFragment>
   <input
@@ -8,6 +22,34 @@ exports[`<Input /> renders correctly 1`] = `
     name="test"
     placeholder="Placeholder"
     type="text"
+    value=""
+    width="100%"
+  />
+</DocumentFragment>
+`;
+
+exports[`<Input /> renders correctly 2`] = `
+<DocumentFragment>
+  <input
+    class="sc-jSUZER kYYTZd"
+    cursor="pointer"
+    name="test"
+    placeholder="Placeholder"
+    type="password"
+    value=""
+    width="100%"
+  />
+</DocumentFragment>
+`;
+
+exports[`<Input /> textarea renders correctly 1`] = `
+<DocumentFragment>
+  <input
+    class="sc-jSUZER kYYTZd"
+    cursor="pointer"
+    name="test"
+    placeholder="Placeholder"
+    type="textarea"
     value=""
     width="100%"
   />
