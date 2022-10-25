@@ -1,4 +1,4 @@
-import { useCallback, ChangeEvent, useState, useContext } from 'react';
+import { useCallback, useState, useContext } from 'react';
 import { ThemeContext } from 'styled-components';
 
 import { BoxProps } from '../../primal';

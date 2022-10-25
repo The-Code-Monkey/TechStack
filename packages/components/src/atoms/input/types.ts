@@ -11,4 +11,6 @@ type TextInputProps = {
   type?: 'text' | 'email' | 'password' | 'textarea';
 };
 
-export type InputPropsUnion = (DefaultProps & TextInputProps) | (Omit<DefaultProps, 'onChange'> & CheckboxProps & { type: 'checkbox'});
+export type InputPropsUnion =
+  | (DefaultProps & TextInputProps)
+  | (Omit<DefaultProps, 'onChange'> & CheckboxProps & { type: 'checkbox' });

@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Input /> checkbox renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gswNZR hpQrSe sc-hLBbgP wYYZF"
+    data-checked="false"
+    data-indeterminate="false"
+    data-testid="checkbox"
+    name="test"
+  />
+</DocumentFragment>
+`;
+
 exports[`<Input /> email renders correctly 1`] = `
 <DocumentFragment>
   <input
@@ -21,7 +33,6 @@ exports[`<Input /> renders correctly 1`] = `
     cursor="pointer"
     name="test"
     placeholder="Placeholder"
-    type="text"
     value=""
     width="100%"
   />

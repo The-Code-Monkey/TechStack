@@ -17,8 +17,6 @@
     "lint:fix": "lerna run lint --stream -- --fix",
     "lint:cms": "cd platforms/react-cms && yarn lint",
     "size": "lerna run size --stream",
-    "install:cms": "cd platforms/react-cms && yarn",
-    "build:cms": "cd platforms/react-cms && yarn build",
     "build:tcm": "cd packages/tcm-cli && yarn build",
     "build:theme": "cd packages/theme && yarn build",
     "build": "yarn build:tcm && yarn build:theme && yarn lerna:link && lerna run build --stream && yarn lerna:link",
@@ -31,7 +29,9 @@
   },
   "devDependencies": {
     "husky": "8.0.1",
-    "lerna": "6.0.1"
+    "lerna": "6.0.1",
+    "nx": "14.8.6",
+    "@nrwl/nx-cloud": "latest"
   },
   "prettier": {
     "printWidth": 80,

@@ -36,7 +36,11 @@ describe('<Input />', () => {
 
   it('checkbox renders correctly', () => {
     const { asFragment } = mountWithTheme(
-      <Input name='test' type='checkbox' onChange={(a) => console.log(typeof a === "boolean")} />
+      <Input
+        name='test'
+        type='checkbox'
+        onChange={a => console.log(typeof a === 'boolean')}
+      />
     );
 
     expect(asFragment()).toMatchSnapshot();
