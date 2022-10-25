@@ -1,10 +1,8 @@
-import { ChangeEvent } from 'react';
-
 import type { CheckboxProps } from './checkbox';
 
 type DefaultProps = {
   name?: string;
-  onChange?: (e: ChangeEvent<HTMLInputElement> | boolean) => void;
+  onChange?: (e: any) => void;
 };
 
 type TextInputProps = {
@@ -13,5 +11,4 @@ type TextInputProps = {
   type?: 'text' | 'email' | 'password' | 'textarea';
 };
 
-export type InputPropsUnion = DefaultProps &
-  (TextInputProps | (CheckboxProps & { type: 'checkbox' }));
+export type InputPropsUnion = (DefaultProps & TextInputProps) | (Omit<DefaultProps, 'onChange'> & CheckboxProps & { type: 'checkbox'});

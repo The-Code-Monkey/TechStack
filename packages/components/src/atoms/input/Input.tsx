@@ -10,12 +10,12 @@ import { InputPropsUnion } from './types';
 
 export type Props = BoxProps & InputPropsUnion;
 
-const Input = ({ onChange, type = 'text', value, name, ...rest }: Props) => {
+const Input = ({ onChange, type, value, name, ...rest }: Props) => {
   const theme = useContext<DefaultThemeWithDefaultStyles>(ThemeContext);
   const [v, setValue] = useState<string | number | undefined | unknown>(value);
 
   const handleOnChange = useCallback(
-    (event: ChangeEvent<HTMLInputElement> | boolean) => {
+    (event: any) => {
       if (typeof event !== 'boolean') {
         setValue(event.target.value);
       } else {
