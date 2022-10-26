@@ -90,7 +90,7 @@
     "@commitlint/config-conventional": "17.1.0",
     "@types/color": "3.0.3",
     "@types/cssnano": "5.0.0",
-    "@types/eslint": "8.4.7",
+    "@types/eslint": "8.4.8",
     "@types/figlet": "1.5.5",
     "@types/fs-extra": "9.0.13",
     "@types/lodash": "4.14.186",
