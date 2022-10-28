@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.64](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@0.2.63...@techstack/styled-system@0.2.64) (2022-10-28)
+
+### Bug Fixes
+
+- make function for defaultStyles pseudo ([70ff530](https://github.com/The-Code-Monkey/TechStack/commit/70ff5309104a778493179f24895c5557a7cea961))
+
 ## [0.2.63](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@0.2.62...@techstack/styled-system@0.2.63) (2022-10-28)
 
 **Note:** Version bump only for package @techstack/styled-system

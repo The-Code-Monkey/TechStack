@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.14](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.13...@techstack/components@0.5.14) (2022-10-28)
+
+### Bug Fixes
+
+- make function for defaultStyles pseudo ([70ff530](https://github.com/The-Code-Monkey/TechStack/commit/70ff5309104a778493179f24895c5557a7cea961))
+
 ## [0.5.13](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.12...@techstack/components@0.5.13) (2022-10-28)
 
 **Note:** Version bump only for package @techstack/components
