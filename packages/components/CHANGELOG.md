@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.15](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.14...@techstack/components@0.5.15) (2022-10-28)
+
+**Note:** Version bump only for package @techstack/components
+
 ## [0.5.14](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.13...@techstack/components@0.5.14) (2022-10-28)
 
 ### Bug Fixes
