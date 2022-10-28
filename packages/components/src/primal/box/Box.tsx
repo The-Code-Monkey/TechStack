@@ -6,6 +6,7 @@ import {
   BorderProps,
   ShadowProps,
   FlexboxProps,
+  PseudoProps,
 } from '@techstack/styled-system';
 import { Property } from 'csstype';
 import { ElementType, ReactNode } from 'react';
@@ -21,13 +22,15 @@ export interface Props
     PositionProps,
     BorderProps,
     ShadowProps,
-    FlexboxProps {
+    FlexboxProps,
+    PseudoProps {
   children?: ReactNode;
   as?: ElementType;
   testid?: string;
   className?: string;
   cursor?: Property.Cursor;
   pointerEvents?: Property.PointerEvents;
+  defaultStyles?: Record<string, unknown>;
 }
 
 export const Box = <P extends keyof HTMLElementTagNameMap = 'div'>({

@@ -50,6 +50,7 @@ export {
   TextVariants,
   ButtonVariants,
   IntentVariants,
+  defaultStyles,
 } from './variant';
 
 // shared types

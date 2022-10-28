@@ -6,5 +6,8 @@ export default {
 };
 
 export const story = () => (
-  <Table columns={['id', 'test', '100', 'something']} data={[{ id: '0' }]} />
+  <Table
+    columns={['id', 'test', '100', 'something']}
+    data={[{ id: '0' }, { id: '0' }, { id: '0' }, { id: '0' }, { id: '0' }]}
+  />
 );

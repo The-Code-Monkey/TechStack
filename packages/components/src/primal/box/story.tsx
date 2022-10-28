@@ -23,3 +23,12 @@ BoxWithBorder.args = {
   borderRadius: 2,
   p: 4,
 };
+
+export const BoxWithPseudo = Template.bind({});
+
+BoxWithPseudo.args = {
+  children: 'this is a hover box',
+  _hover: {
+    bg: 'red',
+  },
+};

@@ -22,7 +22,7 @@ export interface StyleFn {
 
 export interface CreateStyleFunctionArgs {
   property?: keyof Properties | `&${Pseudos}`;
-  properties?: Array<keyof Properties> | Array<string>;
+  properties?: Array<keyof Properties | `&${Pseudos}`>;
   scale?: string;
   transform?: TransformType;
   defaultScale?: Scale;

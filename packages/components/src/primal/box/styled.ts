@@ -9,6 +9,7 @@ import {
   flexbox,
   system,
   typography,
+  defaultStyles,
 } from '@techstack/styled-system';
 
 import { shouldForwardProp } from '../../utils';
@@ -21,6 +22,9 @@ const utilProps = system({
   pointerEvents: {
     property: 'pointerEvents',
   },
+  borderCollapse: {
+    property: 'borderCollapse',
+  },
 });
 
 export const StyledBoxProps = compose(
@@ -32,7 +36,8 @@ export const StyledBoxProps = compose(
   shadow,
   flexbox,
   typography,
-  utilProps
+  utilProps,
+  defaultStyles
 );
 
 export const StyledBox = styled.div.withConfig({

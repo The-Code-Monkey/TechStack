@@ -1,3 +1,5 @@
+import { Pseudos } from 'csstype';
+
 import { Theme } from './types';
 
 export function isNumber(n: number | string | object) {
@@ -53,7 +55,6 @@ export const pseudoSelectors: Record<
   | '_loading'
   | '_selected'
   | '_hidden'
-  | '_autofill'
   | '_even'
   | '_odd'
   | '_first'
@@ -66,7 +67,14 @@ export const pseudoSelectors: Record<
   | '_placeholder'
   | '_fullScreen'
   | '_selection',
-  Array<string>
+  Array<
+    | `&${Pseudos}`
+    | `&[${string}]`
+    | '&:nth-of-type(even)'
+    | '&:nth-of-type(odd)'
+    | '&:not(:first-of-type)'
+    | '&:not(:last-of-type)'
+  >
 > = {
   _hover: ['&:hover', '&[data-hover]'],
   _active: ['&:active', '&[data-active]'],
@@ -78,7 +86,7 @@ export const pseudoSelectors: Record<
   _readOnly: ['&[aria-readonly=true]', '&[readonly]', '&[data-readonly]'],
   _before: ['&::before'],
   _after: ['&::after'],
-  _empty: ['&::empty'],
+  _empty: ['&:empty'],
   _expanded: ['&[aria-expanded=true]', '&[data-expanded]'],
   _checked: ['&:checked', '&[aria-checked=true]', '&[data-checked]'],
   _grabbed: ['&[aria-grabbed=true]', '&[data-grabbed]'],
@@ -88,7 +96,6 @@ export const pseudoSelectors: Record<
   _loading: ['&[data-loading]', '&[aria-busy=true]'],
   _selected: ['&[aria-selected=true]', '&[data-selected]'],
   _hidden: ['&[hidden]', '&[data-hidden]'],
-  _autofill: ['&:-webkit-autofill'],
   _even: ['&:nth-of-type(even)'],
   _odd: ['&:nth-of-type(odd)'],
   _first: ['&:first-of-type'],

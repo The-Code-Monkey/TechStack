@@ -41,105 +41,106 @@ export interface PseudoProps<
   _selection?: ObjectOrArray<ResponsiveValue<TVal, ThemeType>>;
 }
 
-const pseudoConfig: SystemConfig<keyof typeof pseudoSelectors> = {
+export const pseudoConfig: SystemConfig<keyof typeof pseudoSelectors> = {
   _hover: {
-    properties: pseudoSelectors._hover,
+    properties: pseudoSelectors._hover as any,
+    transform: (scale, path, fallback) => {
+      console.log(scale, path, fallback);
+      return path;
+    },
   },
   _active: {
-    properties: pseudoSelectors._active,
+    properties: pseudoSelectors._active as any,
   },
   _focus: {
-    properties: pseudoSelectors._focus,
+    properties: pseudoSelectors._focus as any,
   },
   _highlighted: {
-    properties: pseudoSelectors._highlighted,
+    properties: pseudoSelectors._highlighted as any,
   },
   _focusWithin: {
-    properties: pseudoSelectors._focusWithin,
+    properties: pseudoSelectors._focusWithin as any,
   },
   _focusVisible: {
-    properties: pseudoSelectors._focusVisible,
+    properties: pseudoSelectors._focusVisible as any,
   },
   _disabled: {
-    properties: pseudoSelectors._disabled,
+    properties: pseudoSelectors._disabled as any,
   },
   _readOnly: {
-    properties: pseudoSelectors._readOnly,
+    properties: pseudoSelectors._readOnly as any,
   },
   _before: {
-    properties: pseudoSelectors._before,
+    properties: pseudoSelectors._before as any,
   },
   _after: {
-    properties: pseudoSelectors._after,
+    properties: pseudoSelectors._after as any,
   },
   _empty: {
-    properties: pseudoSelectors._empty,
+    properties: pseudoSelectors._empty as any,
   },
   _expanded: {
-    properties: pseudoSelectors._expanded,
+    properties: pseudoSelectors._expanded as any,
   },
   _checked: {
-    properties: pseudoSelectors._checked,
+    properties: pseudoSelectors._checked as any,
   },
   _grabbed: {
-    properties: pseudoSelectors._grabbed,
+    properties: pseudoSelectors._grabbed as any,
   },
   _pressed: {
-    properties: pseudoSelectors._pressed,
+    properties: pseudoSelectors._pressed as any,
   },
   _invalid: {
-    properties: pseudoSelectors._invalid,
+    properties: pseudoSelectors._invalid as any,
   },
   _valid: {
-    properties: pseudoSelectors._valid,
+    properties: pseudoSelectors._valid as any,
   },
   _loading: {
-    properties: pseudoSelectors._loading,
+    properties: pseudoSelectors._loading as any,
   },
   _selected: {
-    properties: pseudoSelectors._selected,
+    properties: pseudoSelectors._selected as any,
   },
   _hidden: {
-    properties: pseudoSelectors._hidden,
-  },
-  _autofill: {
-    properties: pseudoSelectors._autofill,
+    properties: pseudoSelectors._hidden as any,
   },
   _even: {
-    properties: pseudoSelectors._even,
+    properties: pseudoSelectors._even as any,
   },
   _odd: {
-    properties: pseudoSelectors._odd,
+    properties: pseudoSelectors._odd as any,
   },
   _first: {
-    properties: pseudoSelectors._first,
+    properties: pseudoSelectors._first as any,
   },
   _last: {
-    properties: pseudoSelectors._last,
+    properties: pseudoSelectors._last as any,
   },
   _notFirst: {
-    properties: pseudoSelectors._notFirst,
+    properties: pseudoSelectors._notFirst as any,
   },
   _notLast: {
-    properties: pseudoSelectors._notLast,
+    properties: pseudoSelectors._notLast as any,
   },
   _visited: {
-    properties: pseudoSelectors._visited,
+    properties: pseudoSelectors._visited as any,
   },
   _activeLink: {
-    properties: pseudoSelectors._activeLink,
+    properties: pseudoSelectors._activeLink as any,
   },
   _indeterminate: {
-    properties: pseudoSelectors._indeterminate,
+    properties: pseudoSelectors._indeterminate as any,
   },
   _placeholder: {
-    properties: pseudoSelectors._placeholder,
+    properties: pseudoSelectors._placeholder as any,
   },
   _fullScreen: {
-    properties: pseudoSelectors._fullScreen,
+    properties: pseudoSelectors._fullScreen as any,
   },
   _selection: {
-    properties: pseudoSelectors._selection,
+    properties: pseudoSelectors._selection as any,
   },
 };
 

@@ -1,27 +1,60 @@
 {
   "defaultStyles": {
-    "input": {
-      "padding": {
-        "value": "{space.3.value}"
+    "value": {
+      "input": {
+        "padding": "{space.3.value}",
+        "borderRadius": "{radii.2.value}",
+        "border": "{borders.1.value} {color.common.black.value}",
+        "cursor": "pointer",
+        "minHeight": "{sizes.7.value}",
+        "width": "{sizes.full.value}",
+        "_hover": {
+          "bg": "blue"
+        }
       },
-      "borderRadius": {
-        "value": "{radii.2.value}"
+      "table": {
+        "border": "2",
+        "borderColor": "neutrals.6",
+        "bg": "neutrals.3",
+        "w": "full",
+        "h": "auto",
+        "textAlign": "center",
+        "borderCollapse": "collapse"
       },
-      "border": {
-        "value": "{borders.1.value} {color.common.black.value}"
+      "thead": {
+        "bg": "neutrals.4",
+        "borderBottom": "3",
+        "borderColor": "neutrals.6"
       },
-      "cursor": {
-        "value": "pointer"
+      "tr": {
+        "border": "1",
+        "borderColor": "neutrals.6",
+        "py": "2",
+        "px": "1",
+        "_even": {
+          "bg": "neutrals.5"
+        }
       },
-      "minHeight": {
-        "value": "{sizes.7.value}"
+      "td": {
+        "border": "1",
+        "borderColor": "neutrals.6",
+        "py": "2",
+        "px": "1",
+        "fontSize": "3",
+        "wordBreak": "break-word"
       },
-      "width": {
-        "value": "{sizes.full.value}"
+      "tbodyTr": {
+        "h": "10",
+        "p": "3"
       },
-      "_hover": {
-        "bg": {
-          "value": "blue"
+      "theadTh": {
+        "fontSize": "5",
+        "fontWeight": "bold",
+        "textAlign": "center",
+        "borderLeft": "2",
+        "borderColor": "neutrals.6",
+        "_first": {
+          "borderLeft": "0"
         }
       }
     }

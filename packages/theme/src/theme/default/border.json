@@ -5,6 +5,12 @@
     },
     "1": {
       "value": "1px solid"
+    },
+    "2": {
+      "value": "2px solid"
+    },
+    "3": {
+      "value": "3px solid"
     }
   }
 }

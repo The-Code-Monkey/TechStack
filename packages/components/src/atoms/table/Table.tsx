@@ -77,23 +77,21 @@ const Table: FC<Props> = ({
       ? totalSize - (virtualRows?.[virtualRows.length - 1]?.end || 0)
       : 0;
 
+  console.log(theme);
+
   return (
     <div ref={tableContainerRef}>
-      <StyledTable {...theme.defaultStyles?.table} className={className}>
-        <StyledTHead {...theme.defaultStyles?.thead}>
+      <StyledTable defaultStyles={'table'} className={className}>
+        <StyledTHead defaultStyles={'thead'}>
           {table.getHeaderGroups().map(headerGroup => (
-            <StyledTr
-              key={headerGroup.id}
-              {...theme.defaultStyles?.tr}
-              {...theme.defaultStyles?.theadTr}
-            >
+            <StyledTr key={headerGroup.id} defaultStyles={'theadTr'}>
               {headerGroup.headers.map(header => {
                 return (
                   <StyledTh
                     key={header.id}
                     colSpan={header.colSpan}
                     style={{ width: header.getSize() }}
-                    {...theme.defaultStyles?.th}
+                    defaultStyles={'th'}
                   >
                     {header.isPlaceholder ? null : (
                       <div
@@ -120,29 +118,22 @@ const Table: FC<Props> = ({
             </StyledTr>
           ))}
         </StyledTHead>
-        <StyledTBody {...theme.defaultStyles?.tbody}>
+        <StyledTBody defaultStyles={'tbody'}>
           {paddingTop > 0 && (
-            <StyledTr
-              {...theme.defaultStyles?.tr}
-              {...theme.defaultStyles?.tbodyTr}
-            >
+            <StyledTr defaultStyles={'tbodyTr'}>
               <StyledTd
                 style={{ height: `${paddingTop}px` }}
-                {...theme.defaultStyles?.td}
+                defaultStyles={'td'}
               ></StyledTd>
             </StyledTr>
           )}
           {virtualRows.map(virtualRow => {
             const row = rows[virtualRow.index];
             return (
-              <StyledTr
-                {...theme.defaultStyles?.tr}
-                {...theme.defaultStyles?.tbodyTr}
-                key={row.id}
-              >
+              <StyledTr defaultStyles={'tbodyTr'} key={row.id}>
                 {row.getVisibleCells().map(cell => {
                   return (
-                    <StyledTd key={cell.id} {...theme.defaultStyles?.td}>
+                    <StyledTd key={cell.id} defaultStyles={'td'}>
                       {flexRender(
                         cell.column.columnDef.cell,
                         cell.getContext()
@@ -154,12 +145,9 @@ const Table: FC<Props> = ({
             );
           })}
           {paddingBottom > 0 && (
-            <StyledTr
-              {...theme.defaultStyles?.tr}
-              {...theme.defaultStyles?.tbodyTr}
-            >
+            <StyledTr defaultStyles={'tbodyTr'}>
               <StyledTd
-                {...theme.defaultStyles?.td}
+                defaultStyles={'td'}
                 style={{ height: `${paddingBottom}px` }}
               />
             </StyledTr>

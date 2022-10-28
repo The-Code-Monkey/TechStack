@@ -4,12 +4,10 @@ exports[`<Table /> should render correctly 1`] = `
 <DocumentFragment>
   <div>
     <table
-      class="sc-jSUZER hXpppO"
-      height="100%"
-      width="100%"
+      class="sc-jSUZER hNVkMl"
     >
       <thead
-        class="sc-gKPRtg dQATfs"
+        class="sc-gKPRtg kwXAmQ"
       >
         <tr
           class="sc-iBYQkv bWTXCf"

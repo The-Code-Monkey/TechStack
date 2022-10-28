@@ -1,4 +1,4 @@
-import { variant, TextVariants } from '../';
+import { variant, TextVariants, defaultStyles } from '../';
 import { system, compose } from '../../core';
 import { color } from '../../parsers/color';
 
@@ -245,6 +245,28 @@ describe('variant', () => {
         fontSize: 32,
         fontWeight: 'bold',
       });
+    });
+  });
+
+  it('should return defaultStyles', () => {
+    const styles = defaultStyles({
+      theme: {
+        defaultStyles: {
+          table: {
+            _hover: {
+              bg: 'red',
+            },
+          },
+        },
+      },
+      defaultStyles: 'table',
+    });
+
+    expect(styles).toEqual({
+      '&:hover, &[data-hover]': {
+        backgroundColor: 'red',
+        color: '#000',
+      },
     });
   });
 });
