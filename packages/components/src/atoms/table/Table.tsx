@@ -77,8 +77,6 @@ const Table: FC<Props> = ({
       ? totalSize - (virtualRows?.[virtualRows.length - 1]?.end || 0)
       : 0;
 
-  console.log(theme);
-
   return (
     <div ref={tableContainerRef}>
       <StyledTable defaultStyles={'table'} className={className}>
