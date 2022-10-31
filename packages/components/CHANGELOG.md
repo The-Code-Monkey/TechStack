@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.16](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.15...@techstack/components@0.5.16) (2022-10-31)
+
+### Bug Fixes
+
+- storybook fixed ([6c3945c](https://github.com/The-Code-Monkey/TechStack/commit/6c3945ce3625b49624664feb13c2286f01404ae8))
+
 ## [0.5.15](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.14...@techstack/components@0.5.15) (2022-10-28)
 
 **Note:** Version bump only for package @techstack/components
