@@ -20,6 +20,17 @@ module.exports = {
       })
     );
 
+    config.plugins.push(
+      new webpack.ProvidePlugin({
+        "React": "react",
+      }),
+    )
+
+    config.module.rules.push({
+      test: /.storybook\/preview.js/,
+      resolve: { fullySpecified: false },
+    })
+
     return config;
   },
   core: {

@@ -1,5 +1,5 @@
-import ThemedWrapper from "./ThemedWrapper";
-import './i18n';
+import ThemedWrapper from "./ThemedWrapper.tsx";
+import './i18n.ts';
 
 export const decorators = [
   (Story, context) => (

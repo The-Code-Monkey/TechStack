@@ -104,5 +104,9 @@
     "react-virtual": "2.10.4",
     "styled-components": "5.3.6"
   },
-  "gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"
+  "gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae",
+  "browser": {
+    "./node_modules/@storybook/client-api": "./node_modules/@storybook/client-api/dist/cjs/index.js",
+    "./node_modules/@storybook/client-logger": "./node_modules/@storybook/client-logger/dist/cjs/index.js"
+  }
 }
