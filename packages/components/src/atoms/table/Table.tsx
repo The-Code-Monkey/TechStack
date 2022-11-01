@@ -6,11 +6,8 @@ import {
   TableOptions,
   useReactTable,
 } from '@tanstack/react-table';
-import { FC, useContext, useRef, useState } from 'react';
+import { FC, useRef, useState } from 'react';
 import { useVirtual } from 'react-virtual';
-import { ThemeContext } from 'styled-components';
-
-import { DefaultThemeWithDefaultStyles } from '../../utils';
 
 import {
   StyledTable,
@@ -41,8 +38,6 @@ const Table: FC<Props> = ({
   getCoreRowModel = getCoreRowModelFn(),
   getSortedRowModel = getSortedRowModelFn(),
 }: Props) => {
-  const theme = useContext<DefaultThemeWithDefaultStyles>(ThemeContext);
-
   const [sorting, setSorting] = useState<SortingState>([]);
 
   const table = useReactTable({
