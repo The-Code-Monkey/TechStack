@@ -53,7 +53,7 @@
     "@techstack/tcm-cli": "0.2.60",
     "dts-cli": "1.6.0",
     "size-limit": "8.1.0",
-    "tslib": "2.4.0",
+    "tslib": "2.4.1",
     "typescript": "4.8.4"
   },
   "dependencies": {
