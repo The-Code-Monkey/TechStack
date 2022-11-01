@@ -2877,12 +2877,12 @@
   dependencies:
     nx "15.0.0"
 
-"@nrwl/cli@15.0.4":
-  version "15.0.4"
-  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-15.0.4.tgz#a10da4912d525c4ebc14d3a19810c7e5f09d0ac0"
-  integrity sha512-H3lni8iXUOzWTg1nH4YqOYxpyDz8Bq1Y30bb26r5yRlhdwsNtDBCZCaJQim8yCqYXYJVbxQnU4Ree2WR8xSg/g==
+"@nrwl/cli@15.0.5":
+  version "15.0.5"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-15.0.5.tgz#e8b20ee3456fa430db82ef7a013825f2e8434d5f"
+  integrity sha512-a54l9jV6nuBZzeFkXnSclaLLxfTY4CmdxRkF2Q0Okg8GxguDq8wZAqDe6nuGradwLWpItsnSKyRB322OOZtu5A==
   dependencies:
-    nx "15.0.4"
+    nx "15.0.5"
 
 "@nrwl/devkit@>=14.8.6 < 16":
   version "15.0.0"
@@ -2916,12 +2916,12 @@
   dependencies:
     nx "15.0.0"
 
-"@nrwl/tao@15.0.4":
-  version "15.0.4"
-  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-15.0.4.tgz#193bf740bd1811d8506de79ce34a70086705b028"
-  integrity sha512-hBmHI6Zlq/bAyeF+SPa9EJdWEFGAAUB+puz2jQfPWcyvTBTYDwqimLNJCaj8uy+aXBmrRCjmfNSBvgNxRiA0Sg==
+"@nrwl/tao@15.0.5":
+  version "15.0.5"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-15.0.5.tgz#3d0a4e829443e1330055096d18e8ed507e4f7638"
+  integrity sha512-pRKn7TDP27sVYE6txtYE3ym900nbTO6u5jdbL6bSdETV1TS70dkDeD+ESlgNRai1NeARC4k/6poSSP7FgOBusQ==
   dependencies:
-    nx "15.0.4"
+    nx "15.0.5"
 
 "@octokit/auth-token@^3.0.0":
   version "3.0.2"
@@ -15167,13 +15167,13 @@ nx@15.0.0, "nx@>=14.8.6 < 16":
     yargs "^17.4.0"
     yargs-parser "21.0.1"
 
-nx@15.0.4:
-  version "15.0.4"
-  resolved "https://registry.yarnpkg.com/nx/-/nx-15.0.4.tgz#7299d4670c6a58584d47ca79ef79bec450163514"
-  integrity sha512-tCCiVJgCiX/R2zlL73dQsY49AxR/cA0dHX764KvLWIvB0mO8Zb7UWAwb8sdIbop3DqtGCopRTsAdOBcZXbe/9A==
+nx@15.0.5:
+  version "15.0.5"
+  resolved "https://registry.yarnpkg.com/nx/-/nx-15.0.5.tgz#bba83c602da7ec80ebdf5587aa99297850467145"
+  integrity sha512-aw4daznV++otLUkB0k0w1WR/DZT4bRMqlmKUo5TOFOOx99BNX4Qf4vD2c95pdw1AmU2KD9SdmxJqstKTLBUcBQ==
   dependencies:
-    "@nrwl/cli" "15.0.4"
-    "@nrwl/tao" "15.0.4"
+    "@nrwl/cli" "15.0.5"
+    "@nrwl/tao" "15.0.5"
     "@parcel/watcher" "2.0.4"
     "@yarnpkg/lockfile" "^1.1.0"
     "@yarnpkg/parsers" "^3.0.0-rc.18"
