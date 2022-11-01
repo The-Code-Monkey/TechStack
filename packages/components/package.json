@@ -73,7 +73,7 @@
     "@tsconfig/create-react-app": "1.0.2",
     "@tsconfig/recommended": "1.0.1",
     "@types/react-dom": "18.0.8",
-    "chromatic": "6.11.2",
+    "chromatic": "6.11.4",
     "cross-env": "7.0.3",
     "dts-cli": "1.6.0",
     "eslint-plugin-import": "2.26.0",
