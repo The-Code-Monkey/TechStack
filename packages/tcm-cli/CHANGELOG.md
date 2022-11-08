@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.61 (2022-11-08)
+
+### Bug Fixes
+
+- **deps:** update dependency @types/jest to v29.2.1 ([#858](https://github.com/The-Code-Monkey/TechStack/issues/858)) ([a5b8ecb](https://github.com/The-Code-Monkey/TechStack/commit/a5b8ecb2343a621e051f22c60e85b4a446305286))
+- **deps:** update dependency @types/jest to v29.2.2 ([#867](https://github.com/The-Code-Monkey/TechStack/issues/867)) ([1481266](https://github.com/The-Code-Monkey/TechStack/commit/1481266396564fabbebeaba4e7c62be35c62d4c1))
+- **deps:** update dependency eslint to v8.27.0 ([#870](https://github.com/The-Code-Monkey/TechStack/issues/870)) ([c659ca4](https://github.com/The-Code-Monkey/TechStack/commit/c659ca4a13807f9fb7247acf5f013fa0ef240cb7))
+- **deps:** update dependency eslint-plugin-jest to v27.1.4 ([#868](https://github.com/The-Code-Monkey/TechStack/issues/868)) ([d1ef592](https://github.com/The-Code-Monkey/TechStack/commit/d1ef592bf909008d145c518ddbe9efdf66be6eb6))
+- **deps:** update dependency sort-package-json to v2.1.0 ([#871](https://github.com/The-Code-Monkey/TechStack/issues/871)) ([98be1b6](https://github.com/The-Code-Monkey/TechStack/commit/98be1b6f581e77069e31c03ee76b577945ce7449))
+- **deps:** update dependency type-fest to v3.2.0 ([#869](https://github.com/The-Code-Monkey/TechStack/issues/869)) ([6c5c043](https://github.com/The-Code-Monkey/TechStack/commit/6c5c043963430f45e0163892d2478655a2b6cb32))
+
 ## [0.2.60](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.59...@techstack/tcm-cli@0.2.60) (2022-10-28)
 
 **Note:** Version bump only for package @techstack/tcm-cli
