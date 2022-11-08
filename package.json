@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "husky": "8.0.2",
-    "lerna": "6.0.1",
+    "lerna": "6.0.3",
     "nx": "15.0.11",
     "@nrwl/nx-cloud": "latest"
   },
