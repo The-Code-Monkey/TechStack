@@ -10,6 +10,7 @@ export interface Props extends TypographyProps {
   testid?: string;
   values?: { [x: string]: string | number };
   ns?: string;
+  as?: string;
 }
 
 const Text = ({ children, testid, values, ns, ...rest }: Props) => {
