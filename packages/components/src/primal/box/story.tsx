@@ -31,8 +31,6 @@ BoxWithPseudo.args = {
   _hover: {
     bg: 'red',
   },
+  defaultStyles: "input"
 };
 
-BoxWithPseudo.parameters = {
-  pseudo: { hover: true },
-};
