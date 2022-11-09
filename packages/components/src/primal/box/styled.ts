@@ -38,7 +38,6 @@ export const StyledBoxProps = compose(
   flexbox,
   typography,
   utilProps,
-  pseudo,
   defaultStyles
 );
 
