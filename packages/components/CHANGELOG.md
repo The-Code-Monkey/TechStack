@@ -3,29 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.21](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.20...@techstack/components@0.5.21) (2022-11-09)
+
+### Bug Fixes
+
+- remove pseudo from compose ([9e69f20](https://github.com/The-Code-Monkey/TechStack/commit/9e69f2013a2968f55616f83764a50535d2d62d16))
+
 ## [0.5.20](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.18...@techstack/components@0.5.20) (2022-11-09)
 
 **Note:** Version bump only for package @techstack/components
-
-
-
-
 
 ## [0.5.19](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.18...@techstack/components@0.5.19) (2022-11-09)
 
 **Note:** Version bump only for package @techstack/components
 
-
-
-
-
 ## [0.5.18](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.17...@techstack/components@0.5.18) (2022-11-08)
 
 **Note:** Version bump only for package @techstack/components
-
-
-
-
 
 ## [0.5.17](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.16...@techstack/components@0.5.17) (2022-11-08)
 
