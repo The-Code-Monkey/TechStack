@@ -1,5 +1,5 @@
 {
-  "version": "0.2.65",
+  "version": "0.2.66",
   "license": "MIT",
   "bin": {
     "orchard": "./dist/esm/index.js"
@@ -43,7 +43,7 @@
   ],
   "devDependencies": {
     "@size-limit/file": "8.1.0",
-    "@techstack/tcm-cli": "0.2.63",
+    "@techstack/tcm-cli": "0.2.64",
     "@tsconfig/recommended": "1.0.1",
     "@types/fs-extra": "9.0.13",
     "@types/lodash": "4.14.188",
