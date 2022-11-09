@@ -1,4 +1,4 @@
-import { ObjectOrArray, system, SystemConfig } from '../core';
+import { compose, createParser, ObjectOrArray, Parser } from '../core';
 import { RequiredTheme, ResponsiveValue, Theme, ThemeValue } from '../types';
 import { pseudoSelectors } from '../utils';
 
@@ -41,107 +41,94 @@ export interface PseudoProps<
   _selection?: ObjectOrArray<ResponsiveValue<TVal, ThemeType>>;
 }
 
-export const pseudoConfig: SystemConfig<keyof typeof pseudoSelectors> = {
-  _hover: {
-    properties: pseudoSelectors._hover as any,
-    transform: (scale, path, fallback) => {
-      console.log(scale, path, fallback);
-      return path;
-    },
-  },
-  _active: {
-    properties: pseudoSelectors._active as any,
-  },
-  _focus: {
-    properties: pseudoSelectors._focus as any,
-  },
-  _highlighted: {
-    properties: pseudoSelectors._highlighted as any,
-  },
-  _focusWithin: {
-    properties: pseudoSelectors._focusWithin as any,
-  },
-  _focusVisible: {
-    properties: pseudoSelectors._focusVisible as any,
-  },
-  _disabled: {
-    properties: pseudoSelectors._disabled as any,
-  },
-  _readOnly: {
-    properties: pseudoSelectors._readOnly as any,
-  },
-  _before: {
-    properties: pseudoSelectors._before as any,
-  },
-  _after: {
-    properties: pseudoSelectors._after as any,
-  },
-  _empty: {
-    properties: pseudoSelectors._empty as any,
-  },
-  _expanded: {
-    properties: pseudoSelectors._expanded as any,
-  },
-  _checked: {
-    properties: pseudoSelectors._checked as any,
-  },
-  _grabbed: {
-    properties: pseudoSelectors._grabbed as any,
-  },
-  _pressed: {
-    properties: pseudoSelectors._pressed as any,
-  },
-  _invalid: {
-    properties: pseudoSelectors._invalid as any,
-  },
-  _valid: {
-    properties: pseudoSelectors._valid as any,
-  },
-  _loading: {
-    properties: pseudoSelectors._loading as any,
-  },
-  _selected: {
-    properties: pseudoSelectors._selected as any,
-  },
-  _hidden: {
-    properties: pseudoSelectors._hidden as any,
-  },
-  _even: {
-    properties: pseudoSelectors._even as any,
-  },
-  _odd: {
-    properties: pseudoSelectors._odd as any,
-  },
-  _first: {
-    properties: pseudoSelectors._first as any,
-  },
-  _last: {
-    properties: pseudoSelectors._last as any,
-  },
-  _notFirst: {
-    properties: pseudoSelectors._notFirst as any,
-  },
-  _notLast: {
-    properties: pseudoSelectors._notLast as any,
-  },
-  _visited: {
-    properties: pseudoSelectors._visited as any,
-  },
-  _activeLink: {
-    properties: pseudoSelectors._activeLink as any,
-  },
-  _indeterminate: {
-    properties: pseudoSelectors._indeterminate as any,
-  },
-  _placeholder: {
-    properties: pseudoSelectors._placeholder as any,
-  },
-  _fullScreen: {
-    properties: pseudoSelectors._fullScreen as any,
-  },
-  _selection: {
-    properties: pseudoSelectors._selection as any,
-  },
-};
+import { animation } from './animation';
+import { background } from './background';
+import { border } from './border';
+import { color } from './color';
+import { extendedFlexbox } from './extendedFlexbox';
+import { extendedGrid } from './extendedGrid';
+import { flexbox } from './flexbox';
+import { grid } from './grid';
+import { layout } from './layout';
+import { other } from './other';
+import { position } from './position';
+import { shadow } from './shadow';
+import { space } from './space';
+import { transition } from './transition';
+import { typography } from './typography';
 
-export const pseudo = system(pseudoConfig);
+const allConfig = compose(
+  animation,
+  background,
+  border,
+  color,
+  extendedFlexbox,
+  extendedGrid,
+  flexbox,
+  grid,
+  layout,
+  other,
+  position,
+  shadow,
+  space,
+  transition,
+  typography
+);
+
+const createPseudoValue =
+  (property: keyof typeof pseudoSelectors) => (value, path, props) => {
+    const result = {};
+
+    const properties: Array<string> = pseudoSelectors[property];
+
+    if (props?.[property]) {
+      result[properties.join(', ')] = allConfig({
+        theme: props.theme,
+        ...props[property],
+      });
+    }
+
+    return result;
+  };
+
+export const pseudo = (props): Parser => {
+  const config: Record<
+    keyof typeof pseudoSelectors,
+    (value: string, path: string, props: object) => object
+  > = {
+    _active: createPseudoValue('_active'),
+    _activeLink: createPseudoValue('_activeLink'),
+    _after: createPseudoValue('_after'),
+    _before: createPseudoValue('_before'),
+    _checked: createPseudoValue('_checked'),
+    _empty: createPseudoValue('_empty'),
+    _even: createPseudoValue('_even'),
+    _expanded: createPseudoValue('_expanded'),
+    _first: createPseudoValue('_first'),
+    _focus: createPseudoValue('_focus'),
+    _focusVisible: createPseudoValue('_focusVisible'),
+    _focusWithin: createPseudoValue('_focusWithin'),
+    _fullScreen: createPseudoValue('_fullScreen'),
+    _grabbed: createPseudoValue('_grabbed'),
+    _hidden: createPseudoValue('_hidden'),
+    _highlighted: createPseudoValue('_highlighted'),
+    _indeterminate: createPseudoValue('_indeterminate'),
+    _invalid: createPseudoValue('_invalid'),
+    _last: createPseudoValue('_last'),
+    _loading: createPseudoValue('_loading'),
+    _notFirst: createPseudoValue('_notFirst'),
+    _notLast: createPseudoValue('_notLast'),
+    _odd: createPseudoValue('_odd'),
+    _placeholder: createPseudoValue('_placeholder'),
+    _pressed: createPseudoValue('_pressed'),
+    _readOnly: createPseudoValue('_readOnly'),
+    _selected: createPseudoValue('_selected'),
+    _selection: createPseudoValue('_selection'),
+    _valid: createPseudoValue('_valid'),
+    _visited: createPseudoValue('_visited'),
+    _hover: createPseudoValue('_hover'),
+    _disabled: createPseudoValue('_disabled'),
+  };
+
+  return createParser(config)(props);
+};

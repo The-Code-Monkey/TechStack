@@ -32,3 +32,7 @@ BoxWithPseudo.args = {
     bg: 'red',
   },
 };
+
+BoxWithPseudo.parameters = {
+  pseudo: { hover: true },
+};

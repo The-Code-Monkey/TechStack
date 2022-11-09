@@ -4,7 +4,11 @@ import { defaultBreakpoints } from '../utils';
 
 import { get, merge, sort } from './util';
 
-type SxType = (a: string | number | object, b: Scale, c: unknown) => object;
+export type SxType = (
+  a: string | number | object,
+  b: Scale,
+  c: unknown
+) => object;
 
 function createMediaQuery(n: string) {
   return `@media screen and (min-width: ${n})`;

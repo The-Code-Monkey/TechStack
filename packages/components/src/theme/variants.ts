@@ -71,18 +71,18 @@ const variants = {
       bg: 'neutrals.4',
       _hover: {
         bg: 'neutrals.6',
-        _disabled: {
-          bg: 'neutrals.2',
-        },
+      },
+      _disabled: {
+        bg: 'neutrals.2',
       },
     },
     primary: {
       bg: 'primary.2',
       _hover: {
         bg: 'primary.1',
-        _disabled: {
-          bg: 'primary.0',
-        },
+      },
+      _disabled: {
+        bg: 'primary.0',
       },
       _active: {
         bg: 'primary.2',
@@ -98,9 +98,9 @@ const variants = {
       bg: 'highlights.0',
       _hover: {
         bg: 'highlights.2',
-        _disabled: {
-          bg: 'highlights.0',
-        },
+      },
+      _disabled: {
+        bg: 'highlights.0',
       },
       _active: {
         bg: 'highlights.2',

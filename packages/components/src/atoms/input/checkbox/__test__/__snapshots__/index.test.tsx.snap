@@ -3,13 +3,13 @@
 exports[`<Checkbox /> renders correctly checked 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gswNZR BxOfl sc-hLBbgP wYYZF"
+    class="sc-gswNZR lnvaMQ sc-hLBbgP wYYZF"
     data-checked="true"
     data-indeterminate="false"
     data-testid="checkbox"
   >
     <div
-      class="sc-gswNZR hNMjxf sc-dkrFOg hKNMD"
+      class="sc-gswNZR koCrta sc-dkrFOg hKNMD"
       data-testid="box"
     >
       <svg
@@ -39,7 +39,7 @@ exports[`<Checkbox /> renders correctly checked 1`] = `
 exports[`<Checkbox /> renders correctly no icon 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gswNZR hpQrSe sc-hLBbgP wYYZF"
+    class="sc-gswNZR ebtlGz sc-hLBbgP wYYZF"
     data-checked="false"
     data-indeterminate="false"
     data-testid="checkbox"

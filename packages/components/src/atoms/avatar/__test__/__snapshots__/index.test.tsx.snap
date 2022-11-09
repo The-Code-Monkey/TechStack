@@ -3,11 +3,11 @@
 exports[`<Avatar /> renders icon correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gswNZR cwxzdv"
+    class="sc-gswNZR lcFxDy"
     data-testid="box"
   >
     <div
-      class="sc-gswNZR hNMjxf sc-dkrFOg gpmtnr"
+      class="sc-gswNZR koCrta sc-dkrFOg gpmtnr"
       data-testid="box"
     >
       <svg
@@ -34,7 +34,7 @@ exports[`<Avatar /> renders icon correctly 1`] = `
 exports[`<Avatar /> renders img correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gswNZR cwxzdv"
+    class="sc-gswNZR lcFxDy"
     data-testid="box"
   >
     <img
@@ -48,11 +48,11 @@ exports[`<Avatar /> renders img correctly 1`] = `
 exports[`<Avatar /> renders text correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gswNZR cwxzdv"
+    class="sc-gswNZR lcFxDy"
     data-testid="box"
   >
     <div
-      class="sc-gswNZR fccXY"
+      class="sc-gswNZR kRtfDx"
       data-testid="box"
     >
       <span

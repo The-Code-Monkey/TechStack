@@ -15,6 +15,7 @@ export const variant = ({ prop = 'variant', key }: Props) => {
       ? key
       : `variants.${key}`
     : `variants`;
+
   sx.defaults = {};
   return createParser({
     [prop]: sx,

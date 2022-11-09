@@ -10,6 +10,7 @@ import {
   system,
   typography,
   defaultStyles,
+  pseudo,
 } from '@techstack/styled-system';
 
 import { shouldForwardProp } from '../../utils';
@@ -46,4 +47,5 @@ export const StyledBox = styled.div.withConfig({
   display: block;
   box-sizing: border-box;
   ${StyledBoxProps}
+  ${pseudo}
 `;

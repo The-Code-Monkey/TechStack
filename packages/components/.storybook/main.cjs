@@ -2,7 +2,10 @@ const webpack = require("webpack");
 
 module.exports = {
   stories: ['../src/@(atoms|molecules|organisms|primal)/**/story.@(ts|tsx)'],
-  addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
+  addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions'],
+  features: {
+    interactionsDebugger: true, // 👈 Enable playback controls
+  },
   babel: async (options) => {
     return {
       ...options,

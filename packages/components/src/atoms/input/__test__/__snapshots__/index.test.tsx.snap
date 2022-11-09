@@ -3,7 +3,7 @@
 exports[`<Input /> checkbox renders correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gswNZR hpQrSe sc-hLBbgP wYYZF"
+    class="sc-gswNZR ebtlGz sc-hLBbgP wYYZF"
     data-checked="false"
     data-indeterminate="false"
     data-testid="checkbox"

@@ -10,9 +10,7 @@ const config = {
   iconDir: 'feather',
 };
 
-type SnapshotSerializerPlugin = import('pretty-format').Plugin;
-
-const removeProperties = (): SnapshotSerializerPlugin => {
+const removeProperties = () => {
   const keys = ['theme', 'styledTheme'];
   return {
     test: (val: { props: unknown }) =>
