@@ -30,6 +30,5 @@ BoxWithPseudo.args = {
   children: 'this is a hover box',
   _hover: {
     bg: 'red',
-  },
-  defaultStyles: 'input',
+  }
 };
