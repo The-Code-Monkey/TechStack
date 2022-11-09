@@ -4170,6 +4170,98 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.5.22.tgz#ba381db5f7f47558aba6e75cc94ee32a691defeb"
   integrity sha512-D3wDbVXl3Bi5PdGfle6DijhLzZxrvMyZsE1dSHH0xBsqEbu7Pkxn5EEd6CA9tGsCgXIEP1s4Yfy1cZ9xnMz1sQ==
 
+"@techstack/memoize@0.2.65":
+  version "0.2.65"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.2.65.tgz#6f885d2da53fedeb4d349ee2ee8fae22b426e81a"
+  integrity sha512-ecg6oQ9uDik9ErXA+CyjLL9lkoGXEMjLEGasOsR4wytEPvAZV0luG6/rvYZEnv6xr8lB6pwPyzAeynViuo7EuQ==
+
+"@techstack/react-feather@0.2.65":
+  version "0.2.65"
+  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-0.2.65.tgz#f134ad9b90e0ac3f81066c28ca5e12a4e603dd9a"
+  integrity sha512-7Y41thgi5wwGRiHmw7ZiCOI66HU3akYPf6QKTgF3xyutFURFhlz9c/4mCIbWcrkYNlevMvzscQ2FV/wJZmKl/g==
+  dependencies:
+    "@techstack/react-lazy-named" "0.2.64"
+
+"@techstack/react-lazy-named@0.2.64":
+  version "0.2.64"
+  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-0.2.64.tgz#e9e87766ddd8cf29f8bf8406d54a733b8230664f"
+  integrity sha512-k2gMmqV4HBJA4zFsREC9/f2KKuGlZRhCiI/IVU1PRsAyI+jkWI88YGBf7jUR/0B8fbdsBdBi/JByKrqPVVL4BQ==
+  dependencies:
+    lodash "4.17.21"
+    lodash-es "4.17.21"
+
+"@techstack/styled-system@0.2.67":
+  version "0.2.67"
+  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-0.2.67.tgz#a63a2f77cf4a232f0f58c0552042e12ed7269759"
+  integrity sha512-BGi+fy70mVYT9buagXzZveXwBHlu1VuXm6Rdgv5CyWlOcVraJkerDwqNNy/G1vA4NVkJBbUjggAWqnrmdx8CRQ==
+  dependencies:
+    "@emotion/is-prop-valid" "1.2.0"
+    "@techstack/memoize" "0.2.65"
+    csstype "3.1.1"
+
+"@techstack/tcm-cli@0.2.63":
+  version "0.2.63"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.2.63.tgz#5572833c891c5defe03e71f45ac85414ee136975"
+  integrity sha512-4Vu8VXMRG4/pPhI35s2gNmvcbqT+0mUml9pWVuhzV/hckSbmKUVPQ58LuKMGecsHwcIOw/26lMb3TetFXbwq6w==
+  dependencies:
+    "@rollup/plugin-babel" "6.0.2"
+    "@types/jest" "29.2.2"
+    "@typescript-eslint/eslint-plugin" "5.42.1"
+    "@typescript-eslint/parser" "5.42.1"
+    asyncro "3.0.0"
+    camelcase "7.0.0"
+    colorette "2.0.19"
+    confusing-browser-globals "1.0.11"
+    enquirer "2.3.6"
+    eslint "8.27.0"
+    eslint-config-prettier "8.5.0"
+    eslint-config-react-app "7.0.1"
+    eslint-plugin-flowtype "8.0.3"
+    eslint-plugin-import "2.26.0"
+    eslint-plugin-jest "27.1.4"
+    eslint-plugin-jsx-a11y "6.6.1"
+    eslint-plugin-no-restricted-imports "0.0.0"
+    eslint-plugin-prettier "4.2.1"
+    eslint-plugin-react "7.31.10"
+    eslint-plugin-react-hooks "4.6.0"
+    eslint-plugin-testing-library "5.9.1"
+    execa "6.1.0"
+    figlet "1.5.2"
+    fs-extra "10.1.0"
+    jest "29.3.1"
+    jest-environment-jsdom "29.3.1"
+    jest-watch-typeahead "2.2.0"
+    jpjs "1.2.1"
+    lodash.merge "4.6.2"
+    ora "6.1.2"
+    pascal-case "3.1.2"
+    postcss "8.4.18"
+    prettier "2.7.1"
+    progress-estimator "0.3.0"
+    regenerator-runtime "0.13.10"
+    sade "1.8.1"
+    semver "7.3.8"
+    shelljs "0.8.5"
+    sort-package-json "2.1.0"
+    tiny-glob "0.2.9"
+    ts-jest "29.0.3"
+    ts-node "10.9.1"
+    tslib "2.4.1"
+    type-fest "3.2.0"
+    typescript "4.8.4"
+
+"@techstack/theme@0.2.65":
+  version "0.2.65"
+  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-0.2.65.tgz#12ce8ffe4aa9f75a326a40a1baf24994bdd046e0"
+  integrity sha512-YO9TJ8ehdDhn1zX+anl961dMZ6nS/eWjXQWoQWNehcbfXk+o0tygySQ/M3OjyuAjUB7Kc1pCpn3BEXvEaxEoyw==
+  dependencies:
+    fs-extra "10.1.0"
+    lodash "4.17.21"
+    lodash-es "4.17.21"
+    sade "1.8.1"
+    style-dictionary "3.7.1"
+    tinycolor2 "1.4.2"
+
 "@testing-library/dom@^8.3.0", "@testing-library/dom@^8.5.0":
   version "8.19.0"
   resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.19.0.tgz#bd3f83c217ebac16694329e413d9ad5fdcfd785f"
