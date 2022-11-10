@@ -51,7 +51,7 @@ export const allProps: string[] = [
  */
 export function createShouldForwardProp(props: string[]) {
   const regex = new RegExp(`^(${props.join('|')})$`);
-  return memoize(prop => isPropValid(prop) && !regex.test(prop));
+  return memoize((prop: string) => isPropValid(prop) && !regex.test(prop));
 }
 
 /**
