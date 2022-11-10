@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.5.24 (2022-11-10)
+
+### Bug Fixes
+
+- remove all anys ([b5ae37a](https://github.com/The-Code-Monkey/TechStack/commit/b5ae37a41ee79e73b80cc7e19aba652ee8401762))
+- webpack required for some reason ([57dbcdb](https://github.com/The-Code-Monkey/TechStack/commit/57dbcdb5bf5602959e8ce5456c9b3fa0bfa69e3d))
+
 ## [0.5.23](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.22...@techstack/components@0.5.23) (2022-11-09)
 
 **Note:** Version bump only for package @techstack/components

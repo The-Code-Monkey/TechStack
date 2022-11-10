@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.70 (2022-11-10)
+
+### Bug Fixes
+
+- remove all anys ([b5ae37a](https://github.com/The-Code-Monkey/TechStack/commit/b5ae37a41ee79e73b80cc7e19aba652ee8401762))
+- styled system type error ([4cc6833](https://github.com/The-Code-Monkey/TechStack/commit/4cc6833a4321ad22ae5c32bd36cdd8f17f644e1c))
+
 ## [0.2.69](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@0.2.68...@techstack/styled-system@0.2.69) (2022-11-09)
 
 **Note:** Version bump only for package @techstack/styled-system
