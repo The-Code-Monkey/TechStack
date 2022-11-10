@@ -6,7 +6,7 @@ import merge from 'lodash.merge';
 
 const require = createRequire(import.meta.url);
 
-export const isTruthy = (obj?: any) => {
+export const isTruthy = obj => {
   if (!obj) {
     return false;
   }
@@ -17,11 +17,11 @@ export const isTruthy = (obj?: any) => {
 // replace lodash with lodash-es, but not lodash/fp
 const replacements = [{ original: 'lodash(?!/fp)', replacement: 'lodash-es' }];
 
-export const mergeConfigItems = (type: any, ...configItemsToMerge: any[]) => {
-  const mergedItems: any[] = [];
+export const mergeConfigItems = (type, ...configItemsToMerge) => {
+  const mergedItems = [];
 
   configItemsToMerge.forEach(configItemToMerge => {
-    configItemToMerge.forEach((item: any) => {
+    configItemToMerge.forEach(item => {
       const itemToMergeWithIndex = mergedItems.findIndex(
         mergedItem => mergedItem.file.resolved === item.file.resolved
       );
@@ -46,7 +46,7 @@ export const mergeConfigItems = (type: any, ...configItemsToMerge: any[]) => {
   return mergedItems;
 };
 
-export const createConfigItems = (type: any, items: any[]) => {
+export const createConfigItems = (type, items: unknown[]) => {
   return items.map(({ name, ...options }) => {
     return createConfigItem([require.resolve(name), options], { type });
   });
@@ -54,7 +54,7 @@ export const createConfigItems = (type: any, items: any[]) => {
 
 export const babelPluginTcm = createBabelInputPluginFactory(() => ({
   // Passed the plugin options.
-  options({ custom: customOptions, ...pluginOptions }: any) {
+  options({ custom: customOptions, ...pluginOptions }) {
     return {
       // Pull out any custom options that the plugin might have.
       customOptions,
@@ -63,7 +63,7 @@ export const babelPluginTcm = createBabelInputPluginFactory(() => ({
       pluginOptions,
     };
   },
-  config(config: any, { customOptions }: any) {
+  config(config, { customOptions }) {
     const defaultPlugins = createConfigItems(
       'plugin',
       [
@@ -97,7 +97,7 @@ export const babelPluginTcm = createBabelInputPluginFactory(() => ({
     const babelOptions = config.options || {};
     babelOptions.presets = babelOptions.presets || [];
 
-    const presetEnvIdx = babelOptions.presets.findIndex((preset: any) =>
+    const presetEnvIdx = babelOptions.presets.findIndex(preset =>
       preset.file.request.includes('@babel/preset-env')
     );
 

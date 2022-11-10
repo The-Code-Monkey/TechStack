@@ -265,7 +265,7 @@ describe('respecting "this" context', () => {
       const Foo = function (this: HasBar, bar: string): void {
         this.bar = bar;
       };
-      const memoized = memoize(function (bar) {
+      const memoized = memoize(function (bar: string) {
         return new Foo(bar);
       });
 

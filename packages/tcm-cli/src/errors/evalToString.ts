@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-export function evalToString(ast: any): string {
+export function evalToString(ast): string {
   switch (ast.type) {
     case 'StringLiteral':
     case 'Literal': // ESLint

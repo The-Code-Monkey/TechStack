@@ -169,7 +169,7 @@ function getNamesAndFiles(inputs: string[]): {
 
 async function normalizeOpts(
   opts: WatchOpts,
-  tcmOptions: any = {}
+  tcmOptions: Record<string, unknown> = {}
 ): Promise<NormalizedOpts> {
   const inputs = await getInputs(opts.entry, appPackageJson.source);
   const { names, files } = getNamesAndFiles(inputs);

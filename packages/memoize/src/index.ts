@@ -1,7 +1,7 @@
 import areInputsEqual from './are-inputs-equal';
 import type { EqualityFn, MemoizedFn, Cache } from './types';
 
-function index<TFunc extends (this: any, ...newArgs: any[]) => any>(
+function index<TFunc extends (this: unknown, ...newArgs: unknown[]) => unknown>(
   resultFn: TFunc,
   isEqual: EqualityFn<TFunc> = areInputsEqual
 ): MemoizedFn<TFunc> {

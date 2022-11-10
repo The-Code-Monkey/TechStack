@@ -31,7 +31,7 @@ const babelParserOptions: ParserOptions = {
   ],
 } as ParserOptions; // workaround for trailingFunctionCommas syntax
 
-export async function extractErrors(opts: any) {
+export async function extractErrors(opts) {
   if (!opts || !('errorMapFilePath' in opts)) {
     throw new Error(
       'Missing options. Ensure you pass an object with `errorMapFilePath`.'
@@ -39,7 +39,7 @@ export async function extractErrors(opts: any) {
   }
 
   const errorMapFilePath = opts.errorMapFilePath;
-  let existingErrorMap: any;
+  let existingErrorMap;
   try {
     // Using `fs.readFile` instead of `require` here, because `require()`
     // calls are cached, and the cache map is not properly invalidated after
@@ -50,24 +50,31 @@ export async function extractErrors(opts: any) {
   }
 
   const allErrorIDs = Object.keys(existingErrorMap);
-  let currentID: any;
+  let currentID: number;
 
   if (allErrorIDs.length === 0) {
     // Map is empty
     currentID = 0;
   } else {
-    currentID = Math.max.apply(null, allErrorIDs as any) + 1;
+    currentID = Math.max.apply(null, allErrorIDs) + 1;
   }
 
   // Here we invert the map object in memory for faster error code lookup
   existingErrorMap = invertObject(existingErrorMap);
+
+  function addToErrorMap(errorMsgLiteral) {
+    if (existingErrorMap.hasOwnProperty(errorMsgLiteral)) {
+      return;
+    }
+    existingErrorMap[errorMsgLiteral] = '' + currentID++;
+  }
 
   function transform(source: string) {
     const ast = parse(source, babelParserOptions);
 
     traverse(ast, {
       CallExpression: {
-        exit(astPath: any) {
+        exit(astPath) {
           if (astPath.get('callee').isIdentifier({ name: 'invariant' })) {
             const node = astPath.node;
 
@@ -79,13 +86,6 @@ export async function extractErrors(opts: any) {
         },
       },
     });
-  }
-
-  function addToErrorMap(errorMsgLiteral: any) {
-    if (existingErrorMap.hasOwnProperty(errorMsgLiteral)) {
-      return;
-    }
-    existingErrorMap[errorMsgLiteral] = '' + currentID++;
   }
 
   async function flush() {
@@ -137,7 +137,7 @@ export default ErrorProd;
     );
   }
 
-  return async function extractErrors(source: any) {
+  return async function extractErrors(source) {
     transform(source);
     await flush();
   };

@@ -18,8 +18,7 @@
     "test": "yarn generate && yarn generate -b partial",
     "prepare": "yarn build",
     "size": "size-limit",
-    "generate": "ts-node ./src/index.ts generate",
-    "release": "yarn build && release-it --ci --npm.access=public"
+    "generate": "ts-node ./src/index.ts generate"
   },
   "name": "@techstack/theme",
   "description": "A practical theme generator built from the ground up",

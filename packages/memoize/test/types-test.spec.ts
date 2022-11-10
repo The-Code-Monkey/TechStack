@@ -6,8 +6,7 @@ import memoize from '../src';
 import type { EqualityFn, MemoizedFn } from '../src';
 
 it('should maintain the types of the original function', () => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  function getLocation(this: Window, value: number) {
+  function getLocation(this: Window) {
     return this.location;
   }
   const memoized = memoize(getLocation);
@@ -47,7 +46,7 @@ it('should return a `MemoizedFn<T>`', () => {
 });
 
 it('should allow you to leverage the MemoizedFn generic to allow many memoized functions', () => {
-  function withDeepEqual<TFunc extends (...args: any[]) => any>(
+  function withDeepEqual<TFunc extends (...args: unknown[]) => unknown>(
     fn: TFunc
   ): MemoizedFn<TFunc> {
     return memoize(fn, isEqual);
@@ -223,49 +222,55 @@ it('should allow weaker equality function types', () => {
     expectTypeOf<typeof isEqual>().toMatchTypeOf<EqualityFn<typeof add>>();
   }
 
-  // ✅ tuple of 'any'
+  // ✅ tuple of 'unknown'
   {
-    const isEqual = function (first: [any, any], second: [any, any]) {
+    const isEqual = function (
+      first: [unknown, unknown],
+      second: [unknown, unknown]
+    ) {
       return true;
     };
     expectTypeOf<typeof isEqual>().toMatchTypeOf<EqualityFn<typeof add>>();
   }
 
-  // ❌ tuple of 'any' or incorrect size
+  // ❌ tuple of 'unknown' or incorrect size
   {
-    const isEqual = function (first: [any, any, any], second: [any, any]) {
+    const isEqual = function (
+      first: [unknown, unknown, unknown],
+      second: [unknown, unknown]
+    ) {
       return true;
     };
     expectTypeOf<typeof isEqual>().not.toMatchTypeOf<EqualityFn<typeof add>>();
   }
 
-  // ✅ array of 'any'
+  // ✅ array of 'unknown'
   {
-    const isEqual = function (first: any[], second: any[]) {
+    const isEqual = function (first: unknown[], second: unknown[]) {
       return true;
     };
     expectTypeOf<typeof isEqual>().toMatchTypeOf<EqualityFn<typeof add>>();
   }
 
-  // ✅ two arguments of type any
+  // ✅ two arguments of type unknown
   {
-    const isEqual = function (first: any, second: any) {
+    const isEqual = function (first: unknown, second: unknown) {
       return true;
     };
     expectTypeOf<typeof isEqual>().toMatchTypeOf<EqualityFn<typeof add>>();
   }
 
-  // ✅ a single argument of type any
+  // ✅ a single argument of type unknown
   {
-    const isEqual = function (first: any) {
+    const isEqual = function (first: unknown) {
       return true;
     };
     expectTypeOf<typeof isEqual>().toMatchTypeOf<EqualityFn<typeof add>>();
   }
 
-  // ✅ spread of any type
+  // ✅ spread of unknown type
   {
-    const isEqual = function (...first: any[]) {
+    const isEqual = function (...first: unknown[]) {
       return true;
     };
     expectTypeOf<typeof isEqual>().toMatchTypeOf<EqualityFn<typeof add>>();

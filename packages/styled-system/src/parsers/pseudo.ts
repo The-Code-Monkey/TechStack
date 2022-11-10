@@ -1,4 +1,4 @@
-import { compose, createParser, ObjectOrArray, Parser } from '../core';
+import { compose, createParser, ObjectOrArray } from '../core';
 import { RequiredTheme, ResponsiveValue, Theme, ThemeValue } from '../types';
 import { pseudoSelectors } from '../utils';
 
@@ -91,11 +91,8 @@ const createPseudoValue =
     return result;
   };
 
-export const pseudo = (props): Parser => {
-  const config: Record<
-    keyof typeof pseudoSelectors,
-    (value: string, path: string, props: object) => object
-  > = {
+export const pseudo = props => {
+  const config: Record<keyof typeof pseudoSelectors, unknown> = {
     _active: createPseudoValue('_active'),
     _activeLink: createPseudoValue('_activeLink'),
     _after: createPseudoValue('_after'),

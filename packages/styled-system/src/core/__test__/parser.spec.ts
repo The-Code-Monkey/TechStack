@@ -37,14 +37,6 @@ describe('parser', () => {
     });
   });
 
-  it('should support fns', () => {
-    const fontSize = jest.fn().mockImplementation(props => props.colors.red);
-
-    const styles = parser({ theme, fontSize });
-
-    expect(styles).toEqual({ fontSize });
-  });
-
   it('should use default breakpoints', () => {
     const styles = parser({
       theme,

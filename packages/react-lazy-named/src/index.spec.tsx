@@ -5,8 +5,12 @@ import lazy from './';
 
 const { Suspense } = React;
 
-function Text(props) {
-  return props.text;
+interface Props {
+  text: string;
+}
+
+function Text(props: Props) {
+  return <>{props.text}</>;
 }
 
 async function fakeImport(result) {

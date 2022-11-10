@@ -1,4 +1,4 @@
-import { useCallback, useState, useContext } from 'react';
+import { useCallback, useState, useContext, ChangeEvent } from 'react';
 import { ThemeContext } from 'styled-components';
 
 import { BoxProps } from '../../primal';
@@ -15,7 +15,7 @@ const Input = ({ onChange, type, value, name, ...rest }: Props) => {
   const [v, setValue] = useState<string | number | undefined | unknown>(value);
 
   const handleOnChange = useCallback(
-    (event: any) => {
+    (event: boolean | ChangeEvent<HTMLInputElement>) => {
       if (typeof event !== 'boolean') {
         setValue(event.target.value);
       } else {

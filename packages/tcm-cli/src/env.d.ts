@@ -5,7 +5,10 @@ declare module 'jpjs'; // doesn't ship types (written in TS though)
 // @see line 226 of https://unpkg.com/@babel/core@7.4.4/lib/index.js
 declare module '@babel/core' {
   export const DEFAULT_EXTENSIONS: string[];
-  export function createConfigItem(boop: any[], options: any): any[];
+  export function createConfigItem(
+    boop: unknown[],
+    options: unknown
+  ): unknown[];
 }
 
 // Rollup plugins
@@ -17,7 +20,7 @@ declare module 'lodash.merge';
 
 declare module 'asyncro' {
   type AsyncFn<T> = () => PromiseLike<T>;
-  type AsyncFnReturnType<T> = T extends AsyncFn<infer U> ? U : any;
+  type AsyncFnReturnType<T> = T extends AsyncFn<infer U> ? U : unknown;
 
   interface Asyncro {
     /**
@@ -81,7 +84,7 @@ declare module 'asyncro' {
      */
     filter<T>(
       array: ArrayLike<T>,
-      filterer: (value: T, index: number, array: T[]) => PromiseLike<any>
+      filterer: (value: T, index: number, array: T[]) => PromiseLike<unknown>
     ): Promise<T[]>;
     /**
      * Invoke an async function on each item in the given Array in parallel,
@@ -134,7 +137,7 @@ declare module 'asyncro' {
      * @param list Object with values that are async functions to invoke.
      * @returns Same structure as list input, but with values now resolved.
      */
-    parallel<T extends Record<string, AsyncFn<any>>>(
+    parallel<T extends Record<string, AsyncFn<unknown>>>(
       list: T
     ): Promise<{ [K in keyof T]: AsyncFnReturnType<T[K]> }>;
 
@@ -222,7 +225,7 @@ declare module 'asyncro' {
      * @param list Object with values that are async functions to invoke.
      * @returns Same structure as list input, but with values now resolved.
      */
-    series<T extends Record<string, AsyncFn<any>>>(
+    series<T extends Record<string, AsyncFn<unknown>>>(
       list: T
     ): Promise<{ [K in keyof T]: AsyncFnReturnType<T[K]> }>;
 

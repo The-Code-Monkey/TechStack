@@ -1,5 +1,4 @@
-import PropTypes from 'prop-types';
-import React from 'react';
+import React, { CSSProperties, ReactNode } from 'react';
 
 import { innerWidth, innerHeight } from './utils/innerSize';
 import series from './utils/series';
@@ -8,33 +7,29 @@ import throttle from './utils/throttle';
 import uniqueId from './utils/uniqueId';
 import whilst from './utils/whilst';
 
-function assertElementFitsWidth(el: any, width: any) {
-  // -1: temporary bugfix, will be refactored soon
+function assertElementFitsWidth(el: HTMLElement, width: number) {
   return el.scrollWidth - 1 <= width;
 }
 
-function assertElementFitsHeight(el: any, height: any) {
-  // -1: temporary bugfix, will be refactored soon
+function assertElementFitsHeight(el: HTMLElement, height: number) {
   return el.scrollHeight - 1 <= height;
 }
 
-function noop() {}
+interface Props {
+  children: ReactNode;
+  text: string;
+  min: number;
+  max: number;
+  mode: 'single' | 'multi';
+  forceSingleModeWidth: boolean;
+  throttle: number;
+  onReady: (a: number) => void;
+  autoResize: boolean;
+  style: Record<string, unknown>;
+  forceWidth: boolean;
+}
 
-export default class TextFit extends React.Component {
-  static propTypes = {
-    children: PropTypes.node,
-    text: PropTypes.string,
-    min: PropTypes.number,
-    max: PropTypes.number,
-    mode: PropTypes.oneOf(['single', 'multi']),
-    forceSingleModeWidth: PropTypes.bool,
-    throttle: PropTypes.number,
-    onReady: PropTypes.func,
-    autoResize: PropTypes.bool,
-    style: PropTypes.object,
-    forceWidth: PropTypes.bool,
-  };
-
+export default class TextFit extends React.Component<Props> {
   static defaultProps = {
     min: 1,
     max: 100,
@@ -42,18 +37,14 @@ export default class TextFit extends React.Component {
     forceSingleModeWidth: true,
     throttle: 50,
     autoResize: true,
-    onReady: noop,
   };
 
-  _child: any;
-  _parent: any;
-  pid: any;
+  _child: HTMLDivElement;
+  _parent: HTMLDivElement;
+  pid: number;
 
-  constructor(props: any) {
+  constructor(props) {
     super(props);
-    if ('perfectFit' in props) {
-      console.warn('TextFit property perfectFit has been removed.');
-    }
 
     this.handleWindowResize = throttle(this.handleWindowResize, props.throttle);
   }
@@ -71,7 +62,7 @@ export default class TextFit extends React.Component {
     this.process();
   }
 
-  componentDidUpdate(prevProps: any) {
+  componentDidUpdate(prevProps) {
     const { ready } = this.state;
     if (!ready) return;
     if (shallowEqual(this.props, prevProps)) return;
@@ -79,7 +70,6 @@ export default class TextFit extends React.Component {
   }
 
   componentWillUnmount() {
-    // @ts-expect-error ts-migrate(2339) FIXME: Property 'autoResize' does not exist on type 'Read... Remove this comment to see the full error message
     const { autoResize } = this.props;
     if (autoResize) {
       window.removeEventListener('resize', this.handleWindowResize);
@@ -88,12 +78,11 @@ export default class TextFit extends React.Component {
     this.pid = uniqueId();
   }
 
-  handleWindowResize: (context: any) => any = () => {
+  handleWindowResize: (context) => unknown = () => {
     this.process();
   };
 
   process() {
-    // @ts-expect-error ts-migrate(2339) FIXME: Property 'min' does not exist on type 'Readonly<{}... Remove this comment to see the full error message
     const { min, max, mode, forceSingleModeWidth, onReady } = this.props;
     const el = this._parent;
     const wrapper = this._child;
@@ -130,7 +119,7 @@ export default class TextFit extends React.Component {
         ? () => assertElementFitsWidth(wrapper, originalWidth)
         : () => assertElementFitsHeight(wrapper, originalHeight);
 
-    let mid: any;
+    let mid: number;
     let low = min;
     let high = max;
 
@@ -140,10 +129,10 @@ export default class TextFit extends React.Component {
       [
         // Step 1:
         // Binary search to fit the element's height (multi line) / width (single line)
-        (stepCallback: any) =>
+        stepCallback =>
           whilst(
             () => low <= high,
-            (whilstCallback: any) => {
+            whilstCallback => {
               if (shouldCancelProcess()) return whilstCallback(true);
               mid = parseInt(String((low + high) / 2), 10);
               this.setState({ fontSize: mid }, () => {
@@ -159,14 +148,14 @@ export default class TextFit extends React.Component {
         // Binary search to fit the element's width (multi line) / height (single line)
         // If mode is single and forceSingleModeWidth is true, skip this step
         // in order to not fit the elements height and decrease the width
-        (stepCallback: any) => {
+        stepCallback => {
           if (mode === 'single' && forceSingleModeWidth) return stepCallback();
           if (testSecondary()) return stepCallback();
           low = min;
           high = mid;
           return whilst(
             () => low < high,
-            (whilstCallback: any) => {
+            whilstCallback => {
               if (shouldCancelProcess()) return whilstCallback(true);
               mid = parseInt(String((low + high) / 2), 10);
               this.setState({ fontSize: mid }, () => {
@@ -181,7 +170,7 @@ export default class TextFit extends React.Component {
         },
         // Step 3
         // Limits
-        (stepCallback: any) => {
+        stepCallback => {
           // We break the previous loop without updating mid for the final time,
           // so we do it here:
           mid = Math.min(low, high);
@@ -197,7 +186,7 @@ export default class TextFit extends React.Component {
           this.setState({ fontSize: mid }, stepCallback);
         },
       ],
-      (err: any) => {
+      err => {
         // err will be true, if another process was triggered
         if (err || shouldCancelProcess()) return;
         this.setState({ ready: true }, () => onReady(mid));
@@ -206,40 +195,23 @@ export default class TextFit extends React.Component {
   }
 
   render() {
-    const {
-      children,
-      text,
-      style,
-      min,
-      max,
-      mode,
-      forceWidth,
-      forceSingleModeWidth,
-      throttle,
-      autoResize,
-      onReady,
-      ...props
-    }: any = this.props;
+    const { children, text, style, mode, ...props } = this.props;
     const { fontSize, ready } = this.state;
     const finalStyle = {
       ...style,
       fontSize: fontSize,
     };
 
-    const wrapperStyle = {
+    const wrapperStyle: CSSProperties = {
       display: ready ? 'block' : 'inline-block',
+      whiteSpace: 'inherit',
     };
-    // @ts-expect-error ts-migrate(2339) FIXME: Property 'whiteSpace' does not exist on type '{ di... Remove this comment to see the full error message
     if (mode === 'single') wrapperStyle.whiteSpace = 'nowrap';
 
     return (
       <div ref={c => (this._parent = c)} style={finalStyle} {...props}>
         <div ref={c => (this._child = c)} style={wrapperStyle}>
-          {text && typeof children === 'function'
-            ? ready
-              ? children(text)
-              : text
-            : children}
+          {text && ready ? text : children}
         </div>
       </div>
     );

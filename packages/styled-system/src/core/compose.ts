@@ -1,6 +1,6 @@
 import { createParser, Parser } from './parser';
 
-export const compose = (...parsers: Parser[]) => {
+export const compose = (...parsers: Parser[]): Parser => {
   let config = {};
 
   parsers.forEach(parser => {

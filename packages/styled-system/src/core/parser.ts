@@ -73,22 +73,30 @@ export interface ParserCache {
   media?: Array<null | string>;
 }
 
+type RecordRecord = Record<string, Record<string, unknown>>;
+
 export type Parser = {
   [x in keyof AllProps]: (a: object) => object;
 } & {
   cache: ParserCache;
   propNames: string[];
   config: object;
-  (props: any): any;
+  (
+    props: Record<
+      string,
+      Record<string, unknown> | string | number | Array<string | number>
+    >
+  ): unknown;
 };
 
 export function createParser(config: object) {
   const cache: ParserCache = {};
 
-  const parser: Parser = props => {
+  const parser = props => {
     let styles = {};
     let shouldSort = false;
-    const isCacheDisabled = props.theme?.disableStyledSystemCache;
+    const isCacheDisabled = (props.theme as RecordRecord)
+      ?.disableStyledSystemCache;
 
     Object.keys(props).forEach(key => {
       if (!config[key]) {
@@ -97,12 +105,12 @@ export function createParser(config: object) {
 
       const sx = config[key];
       const raw = props[key];
-      const scale = get(props.theme, sx.scale, sx.defaults);
+      const scale = get(props.theme as RecordRecord, sx.scale, sx.defaults);
 
       if (typeof raw === 'object') {
         cache.breakpoints =
           (!isCacheDisabled && cache.breakpoints) ||
-          get(props.theme, 'breakpoints', defaultBreakpoints);
+          get(props.theme as RecordRecord, 'breakpoints', defaultBreakpoints);
 
         if (Array.isArray(raw)) {
           cache.media = (!isCacheDisabled && cache.media) || [

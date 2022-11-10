@@ -26,22 +26,28 @@ const resolveConfig = () =>
     resolve(`./${configFileNames[0]}`);
   });
 
-const minifyDictionary = (obj: { [x: string]: any; value: any }) => {
-  const toRet: { [x: string]: any } = {};
+interface NestedObject {
+  [key: string]: string | NestedObject;
+}
+
+type RecordNestedObject = Record<string, NestedObject>;
+
+const minifyDictionary = (obj: NestedObject) => {
+  const toRet: Record<string, unknown> = {};
   if (obj.value) {
     return obj.value;
   }
 
   for (const name in obj) {
-    toRet[name] = minifyDictionary(obj[name]);
+    toRet[name] = minifyDictionary(obj[name] as NestedObject);
   }
 
   return toRet;
 };
 
 const nestedJson = (dictionary: {
-  allProperties: { name: string }[];
-  properties: any;
+  allProperties: Array<Record<'name', string>>;
+  properties: RecordNestedObject;
 }) => {
   if (dictionary.allProperties[0].name === 'neutral_base') {
     const properties = dictionary.properties;
@@ -59,26 +65,29 @@ export default tokens;
 `;
   }
 
-  let output = dictionary.properties;
+  let output: RecordNestedObject | string | NestedObject =
+    dictionary.properties;
 
   if (output.color) {
     output = output.color;
   }
-  if (output.modes) {
-    output = output.modes;
+  if ((output as RecordNestedObject).modes) {
+    output = (output as RecordNestedObject).modes;
   }
-  if (output.dark) {
-    output = output.dark;
+  if ((output as RecordNestedObject).dark) {
+    output = (output as RecordNestedObject).dark;
   }
-  if (output.light) {
-    output = output.light;
+  if ((output as RecordNestedObject).light) {
+    output = (output as RecordNestedObject).light;
   }
-  if (output.size) {
-    output = output.size;
+  if ((output as RecordNestedObject).size) {
+    output = (output as RecordNestedObject).size;
   }
 
-  if (output.breakpoints) {
-    const minified = minifyDictionary(output.breakpoints);
+  if ((output as RecordNestedObject).breakpoints) {
+    const minified = minifyDictionary(
+      (output as RecordNestedObject).breakpoints
+    );
 
     return `const tokens = ${JSON.stringify(
       {
@@ -92,11 +101,17 @@ export default tokens;
     `;
   }
 
-  return `const tokens = ${JSON.stringify(minifyDictionary(output), null, 2)};
+  return `const tokens = ${JSON.stringify(
+    minifyDictionary(output as NestedObject),
+    null,
+    2
+  )};
 
 export default tokens;
   `;
 };
+
+nestedJson.nested = true;
 
 StyleDictionary.registerFormat({
   name: 'custom/nested/json',
@@ -128,8 +143,7 @@ StyleDictionary.registerTransform({
   matcher(prop: { attributes: { type: string }; makeShades?: boolean }) {
     return prop.attributes.type === 'intents' || prop.makeShades;
   },
-  transformer(prop: { value: any; path: Array<string> }) {
-    console.log(prop);
+  transformer(prop: { value: string; path: Array<string> }) {
     const color = Color(prop.value);
     const subtheme = { light: {}, dark: {} };
 
@@ -180,12 +194,12 @@ StyleDictionary.registerTransform({
     // this is an example of a possible filter (based on the "cti" values) to show how a "matcher" works
     return prop.attributes.type === 'neutral_base';
   },
-  transformer(prop: { value: any }) {
+  transformer(prop: { value: string }) {
     const colorBase = Color(prop.value);
     const colorLight = Color('#FFFFFF');
     const neutrals = { light: {}, dark: {} };
-    const paletteLight: any[] = [];
-    const paletteDark: any[] = [];
+    const paletteLight: string[] = [];
+    const paletteDark: string[] = [];
     const percentages = [
       0, 2, 3, 5, 8, 10, 12, 16, 20, 24, 26, 30, 35, 40, 45, 52, 60, 70, 80, 90,
       100,
@@ -209,17 +223,17 @@ StyleDictionary.registerTransform({
 
 StyleDictionary.registerAction({
   name: 'copy_assets',
-  do: function (_: any, config: { buildPath: any }) {
+  do: function (_: unknown, config: { buildPath: string }) {
     console.log('Copying assets directory');
     fs.copySync(config.buildPath, process.cwd() + `theme/${config.buildPath}`);
   },
-  undo: function (_: any, config: { buildPath: string }) {
+  undo: function (_: unknown, config: { buildPath: string }) {
     console.log('Cleaning assets directory');
     fs.removeSync(config.buildPath + 'dist');
   },
 });
 
-const generate = async (options: { b: any; brand: any }) => {
+const generate = async (options: { b: string; brand: string }) => {
   const brand = options.b || options.brand;
   const userConfigFile = await resolveConfig();
   const userConfig = fs.readJsonSync(userConfigFile);
@@ -267,7 +281,7 @@ cli
     'Sets the brand if multiple brands are required else default',
     'default'
   )
-  .action((options: { b: any; brand: any }) => {
+  .action((options: { b: string; brand: string }) => {
     generate(options);
   });
 
