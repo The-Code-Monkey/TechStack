@@ -63,6 +63,7 @@
     "@size-limit/file": "8.1.0",
     "@storybook/addon-essentials": "6.5.13",
     "@storybook/addon-interactions": "6.5.13",
+    "storybook-addon-pseudo-states": "1.15.1",
     "@storybook/addon-links": "6.5.13",
     "@storybook/addons": "6.5.13",
     "@storybook/builder-webpack5": "6.5.13",

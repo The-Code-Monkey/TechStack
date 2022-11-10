@@ -2,7 +2,7 @@ const webpack = require("webpack");
 
 module.exports = {
   stories: ['../src/@(atoms|molecules|organisms|primal)/**/story.@(ts|tsx)'],
-  addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions'],
+  addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions', "storybook-addon-pseudo-states"],
   features: {
     interactionsDebugger: true, // 👈 Enable playback controls
   },
