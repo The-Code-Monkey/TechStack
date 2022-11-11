@@ -32,8 +32,3 @@ BoxWithPseudo.args = {
     bg: 'red',
   },
 };
-
-BoxWithPseudo.parameters = {
-  // Toggles the component hover state via parameter.
-  pseudo: { hover: true },
-};
