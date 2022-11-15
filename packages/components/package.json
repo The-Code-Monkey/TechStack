@@ -75,7 +75,7 @@
     "@testing-library/react": "13.4.0",
     "@tsconfig/create-react-app": "1.0.3",
     "@tsconfig/recommended": "1.0.1",
-    "@types/react-dom": "18.0.8",
+    "@types/react-dom": "18.0.9",
     "chromatic": "6.11.4",
     "cross-env": "7.0.3",
     "dts-cli": "1.6.0",
