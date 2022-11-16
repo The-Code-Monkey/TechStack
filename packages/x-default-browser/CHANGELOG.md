@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.73](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/x-default-browser@0.2.72...@techstack/x-default-browser@0.2.73) (2022-11-16)
+
+**Note:** Version bump only for package @techstack/x-default-browser
+
+
+
+
+
 ## 0.2.72 (2022-11-16)
 
 **Note:** Version bump only for package @techstack/x-default-browser

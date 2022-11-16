@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.73](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.72...@techstack/tcm-cli@0.2.73) (2022-11-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency jest-watch-typeahead to v2.2.1 ([b5c9ac3](https://github.com/The-Code-Monkey/TechStack/commit/b5c9ac34672939cc51923e7e12765b4f42d6e0af))
+
+
+
+
+
 ## 0.2.72 (2022-11-16)
 
 **Note:** Version bump only for package @techstack/tcm-cli
