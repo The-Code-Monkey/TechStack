@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.77](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-textfit@0.2.76...@techstack/react-textfit@0.2.77) (2022-11-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.31.11 ([9663310](https://github.com/The-Code-Monkey/TechStack/commit/96633109906064b3cf2cd7d9cca47a1b583faa7f))
+
+
+
+
+
 ## 0.2.76 (2022-11-17)
 
 **Note:** Version bump only for package @techstack/react-textfit

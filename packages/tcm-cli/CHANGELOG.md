@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.75](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.74...@techstack/tcm-cli@0.2.75) (2022-11-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.31.11 ([9663310](https://github.com/The-Code-Monkey/TechStack/commit/96633109906064b3cf2cd7d9cca47a1b583faa7f))
+
+
+
+
+
 ## 0.2.74 (2022-11-17)
 
 
