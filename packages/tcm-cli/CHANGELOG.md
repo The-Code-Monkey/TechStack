@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.76](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.75...@techstack/tcm-cli@0.2.76) (2022-11-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.28.0 ([d0ce8a3](https://github.com/The-Code-Monkey/TechStack/commit/d0ce8a339956ea73c0f8a5377eb4be9dc792899b))
+
+
+
+
+
 ## [0.2.75](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.74...@techstack/tcm-cli@0.2.75) (2022-11-18)
 
 
