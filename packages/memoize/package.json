@@ -41,7 +41,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@techstack/tcm-cli": "0.2.82",
+    "@techstack/tcm-cli": "0.2.81",
     "benchmark": "2.1.4",
     "cross-env": "7.0.3",
     "dts-cli": "1.6.0",
