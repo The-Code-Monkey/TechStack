@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.86](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.2.85...@techstack/theme@0.2.86) (2022-11-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fs-extra to v11 ([#923](https://github.com/The-Code-Monkey/TechStack/issues/923)) ([ff49c91](https://github.com/The-Code-Monkey/TechStack/commit/ff49c91bdb40da3e7f66fdddfd30ddbdc996d3e7))
+
+
+
+
+
 ## [0.2.85](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.2.84...@techstack/theme@0.2.85) (2022-11-29)
 
 **Note:** Version bump only for package @techstack/theme

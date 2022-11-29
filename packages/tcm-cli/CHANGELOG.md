@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.84](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.83...@techstack/tcm-cli@0.2.84) (2022-11-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fs-extra to v11 ([#923](https://github.com/The-Code-Monkey/TechStack/issues/923)) ([ff49c91](https://github.com/The-Code-Monkey/TechStack/commit/ff49c91bdb40da3e7f66fdddfd30ddbdc996d3e7))
+* **deps:** update dependency type-fest to v3.3.0 ([#921](https://github.com/The-Code-Monkey/TechStack/issues/921)) ([13e6b4b](https://github.com/The-Code-Monkey/TechStack/commit/13e6b4b94de418a35e69cf7c97888167de3bdf3f))
+
+
+
+
+
 ## [0.2.83](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.82...@techstack/tcm-cli@0.2.83) (2022-11-29)
 
 
