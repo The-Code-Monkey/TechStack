@@ -62,7 +62,7 @@
     "eslint-plugin-testing-library": "5.9.1",
     "execa": "6.1.0",
     "figlet": "1.5.2",
-    "fs-extra": "11.0.0",
+    "fs-extra": "11.1.0",
     "jest": "29.3.1",
     "jest-environment-jsdom": "29.3.1",
     "jest-watch-typeahead": "2.2.1",
