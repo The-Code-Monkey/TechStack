@@ -48,7 +48,7 @@
     "cross-env": "7.0.3",
     "dts-cli": "1.6.0",
     "fs-extra": "11.1.0",
-    "typescript": "4.9.3"
+    "typescript": "4.9.4"
   },
   "dependencies": {
     "@techstack/react-lazy-named": "0.2.89"
