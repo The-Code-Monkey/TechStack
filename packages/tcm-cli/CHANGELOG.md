@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.89](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.88...@techstack/tcm-cli@0.2.89) (2022-12-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/jest to v29.2.4 ([#936](https://github.com/The-Code-Monkey/TechStack/issues/936)) ([4f85a0f](https://github.com/The-Code-Monkey/TechStack/commit/4f85a0f7c051e4ea50e9b1b579b8a588194c469f))
+* **deps:** update dependency prettier to v2.8.1 ([#942](https://github.com/The-Code-Monkey/TechStack/issues/942)) ([145cb0b](https://github.com/The-Code-Monkey/TechStack/commit/145cb0bdf6371cbb6eec2f599d0423a37562fcbe))
+
+
+
+
+
 ## [0.2.88](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.87...@techstack/tcm-cli@0.2.88) (2022-12-04)
 
 
