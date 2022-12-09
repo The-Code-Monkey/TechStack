@@ -36,10 +36,18 @@ export const Avatar = ({
       alignItems='center'
       border='1'
       borderColor='common.black'
+      data-testid='avatar'
       {...rest}
     >
       {iconName && <Icon name={iconName} />}
-      {url && <img src={url} style={{ width: memoSize, height: memoSize }} />}
+      {url && (
+        <img
+          src={url}
+          style={{ width: memoSize, height: memoSize }}
+          data-testid='img'
+          alt={''}
+        />
+      )}
       {children && (
         <Box
           zIndex='99'
@@ -47,6 +55,7 @@ export const Avatar = ({
           display='flex'
           justifyContent='center'
           alignItems='center'
+          data-testid='initials'
         >
           <Text textAlign='center' {...typography}>
             {children

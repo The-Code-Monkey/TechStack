@@ -4,7 +4,7 @@ exports[`<Avatar /> renders icon correctly 1`] = `
 <DocumentFragment>
   <div
     class="sc-gswNZR lcFxDy"
-    data-testid="box"
+    data-testid="avatar"
   >
     <div
       class="sc-gswNZR koCrta sc-dkrFOg gpmtnr"
@@ -35,9 +35,11 @@ exports[`<Avatar /> renders img correctly 1`] = `
 <DocumentFragment>
   <div
     class="sc-gswNZR lcFxDy"
-    data-testid="box"
+    data-testid="avatar"
   >
     <img
+      alt=""
+      data-testid="img"
       src="https://picsum.photos/id/237/200"
       style="width: 48px; height: 48px;"
     />
@@ -49,11 +51,11 @@ exports[`<Avatar /> renders text correctly 1`] = `
 <DocumentFragment>
   <div
     class="sc-gswNZR lcFxDy"
-    data-testid="box"
+    data-testid="avatar"
   >
     <div
       class="sc-gswNZR kRtfDx"
-      data-testid="box"
+      data-testid="initials"
     >
       <span
         class="sc-eDvSVe hFoNCF"
@@ -64,4 +66,37 @@ exports[`<Avatar /> renders text correctly 1`] = `
     </div>
   </div>
 </DocumentFragment>
+`;
+
+exports[`<Avatar /> should apply typography styles if provided 1`] = `
+<div
+  class="sc-gswNZR lcFxDy"
+  data-testid="avatar"
+/>
+`;
+
+exports[`<Avatar /> should change size based on size prop 1`] = `
+<div
+  class="sc-gswNZR emUlJG"
+  data-testid="avatar"
+/>
+`;
+
+exports[`<Avatar /> should render initials if provided 1`] = `
+<div
+  class="sc-gswNZR lcFxDy"
+  data-testid="avatar"
+>
+  <div
+    class="sc-gswNZR kRtfDx"
+    data-testid="initials"
+  >
+    <span
+      class="sc-eDvSVe hFoNCF"
+      data-testid=""
+    >
+      JD
+    </span>
+  </div>
+</div>
 `;
