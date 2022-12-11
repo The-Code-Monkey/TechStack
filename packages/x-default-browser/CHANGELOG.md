@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.93 (2022-12-11)
+
+**Note:** Version bump only for package @techstack/x-default-browser
+
+
+
+
+
 ## 0.2.92 (2022-12-10)
 
 **Note:** Version bump only for package @techstack/x-default-browser
