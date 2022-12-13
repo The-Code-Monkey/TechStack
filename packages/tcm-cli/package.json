@@ -44,7 +44,7 @@
     "@typescript-eslint/eslint-plugin": "5.46.1",
     "@typescript-eslint/parser": "5.46.1",
     "asyncro": "3.0.0",
-    "camelcase": "7.0.0",
+    "camelcase": "7.0.1",
     "colorette": "2.0.19",
     "confusing-browser-globals": "1.0.11",
     "enquirer": "2.3.6",
