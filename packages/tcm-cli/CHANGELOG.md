@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.96 (2022-12-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency camelcase to v7.0.1 ([19acc0f](https://github.com/The-Code-Monkey/TechStack/commit/19acc0f18977acdae43c4dce5623a41c150d87a1))
+
+
+
+
+
 ## [0.2.95](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.2.94...@techstack/tcm-cli@0.2.95) (2022-12-13)
 
 **Note:** Version bump only for package @techstack/tcm-cli
