@@ -9,6 +9,8 @@ import {
 import { FC, useRef, useState } from 'react';
 import { useVirtual } from 'react-virtual';
 
+import Button from '../button';
+
 import {
   StyledTable,
   StyledTHead,
@@ -27,6 +29,8 @@ export interface Props
   onRowClick?: (id: string | number) => void;
   getCoreRowModel?: TableOptions<Record<string, unknown>>['getCoreRowModel'];
   columns: Array<string>;
+  onEditClick?: () => void;
+  onDeleteClick?: () => void;
 }
 
 const idVariations = ['id', 'Id', 'ID'];
@@ -37,16 +41,18 @@ const Table: FC<Props> = ({
   className,
   getCoreRowModel = getCoreRowModelFn(),
   getSortedRowModel = getSortedRowModelFn(),
+  onEditClick,
+  onDeleteClick,
 }: Props) => {
   const [sorting, setSorting] = useState<SortingState>([]);
 
   const table = useReactTable({
     data,
-    columns: columns.map(column =>
-      idVariations.includes(column)
-        ? { header: 'ID', accessorKey: column, size: 60 }
-        : { header: column, accessorKey: column }
-    ),
+    columns: columns.map(column => {
+      if (idVariations.includes(column))
+        return { header: 'ID', accessorKey: column, size: 60 };
+      return { header: column, accessorKey: column };
+    }),
     state: {
       sorting,
     },
@@ -71,6 +77,18 @@ const Table: FC<Props> = ({
     virtualRows.length > 0
       ? totalSize - (virtualRows?.[virtualRows.length - 1]?.end || 0)
       : 0;
+
+  const handleEditClick = () => {
+    if (onEditClick) {
+      onEditClick();
+    }
+  };
+
+  const handleDeleteClick = () => {
+    if (onDeleteClick) {
+      onDeleteClick();
+    }
+  };
 
   return (
     <div ref={tableContainerRef}>
@@ -125,6 +143,38 @@ const Table: FC<Props> = ({
             return (
               <StyledTr defaultStyles={'tbodyTr'} key={row.id}>
                 {row.getVisibleCells().map(cell => {
+                  if (cell.id === 'edit') {
+                    return (
+                      <StyledTd key={cell.id} defaultStyles={'td'}>
+                        <Button onClick={handleEditClick}>Edit</Button>
+                      </StyledTd>
+                    );
+                  }
+                  if (cell.id === 'delete') {
+                    return (
+                      <StyledTd key={cell.id} defaultStyles={'td'}>
+                        <Button
+                          bg={'colors.intents.danger.0'}
+                          onClick={handleDeleteClick}
+                        >
+                          Delete
+                        </Button>
+                      </StyledTd>
+                    );
+                  }
+                  if (cell.id === 'edit-delete') {
+                    return (
+                      <StyledTd key={cell.id} defaultStyles={'td'}>
+                        <Button onClick={handleEditClick}>Edit</Button>
+                        <Button
+                          bg={'colors.intents.danger.0'}
+                          onClick={handleDeleteClick}
+                        >
+                          Delete
+                        </Button>
+                      </StyledTd>
+                    );
+                  }
                   return (
                     <StyledTd key={cell.id} defaultStyles={'td'}>
                       {flexRender(
