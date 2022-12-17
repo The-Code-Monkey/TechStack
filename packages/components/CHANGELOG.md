@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.86](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.84...@techstack/components@0.5.86) (2022-12-17)
+
+
+### Bug Fixes
+
+* enable edit and delete buttons on table ([79855c3](https://github.com/The-Code-Monkey/TechStack/commit/79855c3d63da7bb7fe5770960033eaae2293ab12))
+* update input again ([1b46671](https://github.com/The-Code-Monkey/TechStack/commit/1b46671353c07264535c90ef97530d5cb6293909))
+
+
+
+
+
 ## [0.5.84](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.83...@techstack/components@0.5.84) (2022-12-16)
 
 

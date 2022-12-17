@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.104 (2022-12-17)
+
+
+### Bug Fixes
+
+* bumb package json files ([b94899a](https://github.com/The-Code-Monkey/TechStack/commit/b94899a65c396449b15248e2a241b3072c9ddd33))
+* **deps:** update dependency eslint to v8.30.0 ([#970](https://github.com/The-Code-Monkey/TechStack/issues/970)) ([d924923](https://github.com/The-Code-Monkey/TechStack/commit/d9249230bbbb8b617eec8c2cec439466ad89c377))
+
+
+
+
+
 ## 0.2.102 (2022-12-16)
 
 **Note:** Version bump only for package @techstack/react-textfit
