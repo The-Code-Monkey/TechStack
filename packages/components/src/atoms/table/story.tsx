@@ -11,3 +11,20 @@ export const story = () => (
     data={[{ id: '0' }, { id: '0' }, { id: '0' }, { id: '0' }, { id: '0' }]}
   />
 );
+
+export const WithEdit = () => {
+  return (
+    <Table
+      columns={[
+        'id',
+        'test',
+        '100',
+        'something',
+        'edit',
+        'delete',
+        'edit-delete',
+      ]}
+      data={[{ id: '0' }, { id: '0' }, { id: '0' }, { id: '0' }, { id: '0' }]}
+    />
+  );
+};

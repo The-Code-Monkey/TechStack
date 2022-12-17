@@ -29,8 +29,8 @@ export interface Props
   onRowClick?: (id: string | number) => void;
   getCoreRowModel?: TableOptions<Record<string, unknown>>['getCoreRowModel'];
   columns: Array<string>;
-  onEditClick?: () => void;
-  onDeleteClick?: () => void;
+  onEditClick?: (id: string) => void;
+  onDeleteClick?: (id: string) => void;
 }
 
 const idVariations = ['id', 'Id', 'ID'];
@@ -78,15 +78,15 @@ const Table: FC<Props> = ({
       ? totalSize - (virtualRows?.[virtualRows.length - 1]?.end || 0)
       : 0;
 
-  const handleEditClick = () => {
+  const handleEditClick = (id: string) => {
     if (onEditClick) {
-      onEditClick();
+      onEditClick(id);
     }
   };
 
-  const handleDeleteClick = () => {
+  const handleDeleteClick = (id: string) => {
     if (onDeleteClick) {
-      onDeleteClick();
+      onDeleteClick(id);
     }
   };
 
@@ -113,14 +113,20 @@ const Table: FC<Props> = ({
                           onClick: header.column.getToggleSortingHandler(),
                         }}
                       >
-                        {flexRender(
-                          header.column.columnDef.header,
-                          header.getContext()
+                        {header.id === 'edit' ||
+                        header.id === 'delete' ||
+                        header.id === 'edit-delete' ? null : (
+                          <>
+                            {flexRender(
+                              header.column.columnDef.header,
+                              header.getContext()
+                            )}
+                            {{
+                              asc: ' 🔼',
+                              desc: ' 🔽',
+                            }[header.column.getIsSorted() as string] ?? null}
+                          </>
                         )}
-                        {{
-                          asc: ' 🔼',
-                          desc: ' 🔽',
-                        }[header.column.getIsSorted() as string] ?? null}
                       </div>
                     )}
                   </StyledTh>
@@ -143,32 +149,36 @@ const Table: FC<Props> = ({
             return (
               <StyledTr defaultStyles={'tbodyTr'} key={row.id}>
                 {row.getVisibleCells().map(cell => {
-                  if (cell.id === 'edit') {
+                  if (cell.column.id === 'edit') {
                     return (
                       <StyledTd key={cell.id} defaultStyles={'td'}>
-                        <Button onClick={handleEditClick}>Edit</Button>
+                        <Button onClick={() => handleEditClick(row.id)}>
+                          Edit
+                        </Button>
                       </StyledTd>
                     );
                   }
-                  if (cell.id === 'delete') {
+                  if (cell.column.id === 'delete') {
                     return (
                       <StyledTd key={cell.id} defaultStyles={'td'}>
                         <Button
-                          bg={'colors.intents.danger.0'}
-                          onClick={handleDeleteClick}
+                          bg={'intents.danger.0'}
+                          onClick={() => handleDeleteClick(row.id)}
                         >
                           Delete
                         </Button>
                       </StyledTd>
                     );
                   }
-                  if (cell.id === 'edit-delete') {
+                  if (cell.column.id === 'edit-delete') {
                     return (
                       <StyledTd key={cell.id} defaultStyles={'td'}>
-                        <Button onClick={handleEditClick}>Edit</Button>
+                        <Button onClick={() => handleEditClick(row.id)}>
+                          Edit
+                        </Button>
                         <Button
-                          bg={'colors.intents.danger.0'}
-                          onClick={handleDeleteClick}
+                          bg={'intents.danger.0'}
+                          onClick={() => handleDeleteClick(row.id)}
                         >
                           Delete
                         </Button>
