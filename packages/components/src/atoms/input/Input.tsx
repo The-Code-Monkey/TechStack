@@ -1,4 +1,10 @@
-import {useCallback, useState, useContext, ChangeEvent, useEffect} from 'react';
+import {
+  useCallback,
+  useState,
+  useContext,
+  ChangeEvent,
+  useEffect,
+} from 'react';
 import { ThemeContext } from 'styled-components';
 
 import { BoxProps } from '../../primal';
@@ -23,14 +29,14 @@ const Input = ({ onChange, type, value, name, ...rest }: Props) => {
       }
       if (onChange) onChange(event);
     },
-    [onChange]
+    [onChange, value]
   );
 
   useEffect(() => {
     if (value !== v) {
       setValue(value);
     }
-  }, [value])
+  }, [value]);
 
   const renderInput = useCallback(
     (type: InputPropsUnion['type']) => {
@@ -60,7 +66,7 @@ const Input = ({ onChange, type, value, name, ...rest }: Props) => {
         }
       }
     },
-    [type]
+    [type, value]
   );
 
   return renderInput(type);
