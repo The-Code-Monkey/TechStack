@@ -1,4 +1,4 @@
-import { useCallback, useState, useContext, ChangeEvent } from 'react';
+import {useCallback, useState, useContext, ChangeEvent, useEffect} from 'react';
 import { ThemeContext } from 'styled-components';
 
 import { BoxProps } from '../../primal';
@@ -12,7 +12,7 @@ export type Props = BoxProps & InputPropsUnion;
 
 const Input = ({ onChange, type, value, name, ...rest }: Props) => {
   const theme = useContext<DefaultThemeWithDefaultStyles>(ThemeContext);
-  const [v, setValue] = useState<string | number | undefined | unknown>(value);
+  const [v, setValue] = useState<string | number | undefined | unknown>(null);
 
   const handleOnChange = useCallback(
     (event: boolean | ChangeEvent<HTMLInputElement>) => {
@@ -25,6 +25,12 @@ const Input = ({ onChange, type, value, name, ...rest }: Props) => {
     },
     [onChange]
   );
+
+  useEffect(() => {
+    if (value !== v) {
+      setValue(value);
+    }
+  }, [value])
 
   const renderInput = useCallback(
     (type: InputPropsUnion['type']) => {
