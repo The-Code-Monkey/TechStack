@@ -15,6 +15,8 @@ export const Tel = () => <Input name='tel' type='tel' />;
 
 export const Date = () => <Input name='date' type='date' />;
 
+export const DateTime = () => <Input name='date' type='date-time' />;
+
 export const Checkbox = () => (
   <Input name='checkbox' type='checkbox' value='checked' />
 );

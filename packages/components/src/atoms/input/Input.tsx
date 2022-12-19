@@ -11,6 +11,8 @@ import { BoxProps } from '../../primal';
 import { DefaultThemeWithDefaultStyles } from '../../utils';
 
 import Checkbox from './checkbox';
+import Date from './date';
+import DateTime from './date-time';
 import { StyledInput } from './styled';
 import { InputPropsUnion } from './types';
 
@@ -18,7 +20,7 @@ export type Props = BoxProps & InputPropsUnion;
 
 const Input = ({ onChange, type, value, name, ...rest }: Props) => {
   const theme = useContext<DefaultThemeWithDefaultStyles>(ThemeContext);
-  const [v, setValue] = useState<string | number | undefined | unknown>(null);
+  const [v, setValue] = useState<string | number | undefined | unknown>();
 
   const handleOnChange = useCallback(
     (event: boolean | ChangeEvent<HTMLInputElement>) => {
@@ -41,6 +43,12 @@ const Input = ({ onChange, type, value, name, ...rest }: Props) => {
   const renderInput = useCallback(
     (type: InputPropsUnion['type']) => {
       switch (type) {
+        case 'date': {
+          return <Date value={value as string} />;
+        }
+        case 'date-time': {
+          return <DateTime value={value as string} />;
+        }
         case 'checkbox': {
           return (
             <Checkbox
