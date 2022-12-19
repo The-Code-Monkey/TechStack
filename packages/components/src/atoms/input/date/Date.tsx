@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import ReactDatePicker from 'react-date-picker/dist/entry.nostyle';
+import ReactDatePicker from 'react-date-picker';
 
 import { Icon } from '../../../primal';
 
