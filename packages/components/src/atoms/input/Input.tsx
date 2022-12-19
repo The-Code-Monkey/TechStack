@@ -44,10 +44,22 @@ const Input = ({ onChange, type, value, name, ...rest }: Props) => {
     (type: InputPropsUnion['type']) => {
       switch (type) {
         case 'date': {
-          return <Date value={value as string} />;
+          return (
+            <Date
+              name={name}
+              value={value as string}
+              onChange={handleOnChange}
+            />
+          );
         }
         case 'date-time': {
-          return <DateTime value={value as string} />;
+          return (
+            <DateTime
+              name={name}
+              value={value as string}
+              onChange={handleOnChange}
+            />
+          );
         }
         case 'checkbox': {
           return (

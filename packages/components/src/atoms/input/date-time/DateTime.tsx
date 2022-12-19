@@ -1,19 +1,32 @@
-import { useState } from 'react';
+import { ChangeEvent, useState } from 'react';
 import DateTimePicker from 'react-datetime-picker';
 
 import { Icon } from '../../../primal';
 
 export interface Props {
+  name: string;
   value?: string;
+  onChange: (e: ChangeEvent<HTMLInputElement>) => void;
 }
 
-const DateTime = ({ value }: Props) => {
-  const [v, onChange] = useState(value ? new Date(value) : new Date());
+const DateTime = ({ name, value, onChange }: Props) => {
+  const [v, setV] = useState(value ? new Date(value) : new Date());
+
+  const handleOnChange = value => {
+    setV(value);
+    onChange({
+      target: {
+        value,
+        name,
+      },
+    } as any);
+  };
 
   return (
     <DateTimePicker
+      name={name}
       value={v}
-      onChange={onChange}
+      onChange={handleOnChange}
       calendarIcon={<Icon name='calendar' />}
     />
   );

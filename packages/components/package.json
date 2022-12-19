@@ -57,7 +57,10 @@
   "jest": {
     "setupFiles": [
       "./setup.ts"
-    ]
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.ts"
+    }
   },
   "devDependencies": {
     "@size-limit/file": "8.1.0",
