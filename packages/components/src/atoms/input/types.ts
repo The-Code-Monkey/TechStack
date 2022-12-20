@@ -10,7 +10,15 @@ type DefaultProps = {
 type TextInputProps = {
   value?: string | number;
   placeholder?: string;
-  type?: 'text' | 'email' | 'password' | 'textarea' | 'tel' | 'time' | 'number' | 'date';
+  type?:
+    | 'text'
+    | 'email'
+    | 'password'
+    | 'textarea'
+    | 'tel'
+    | 'time'
+    | 'number'
+    | 'date';
   defaultValue?: string;
 };
 
