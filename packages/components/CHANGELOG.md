@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.92](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.91...@techstack/components@0.5.92) (2022-12-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency i18next to v22.4.6 ([#974](https://github.com/The-Code-Monkey/TechStack/issues/974)) ([c81cbb0](https://github.com/The-Code-Monkey/TechStack/commit/c81cbb04fd353970e507dd9469cb1680660cc722))
+* linting ([95f0664](https://github.com/The-Code-Monkey/TechStack/commit/95f066425a245d6fbae69f4586311778d7d70eaf))
+* remove date and time stuff ([7ae6583](https://github.com/The-Code-Monkey/TechStack/commit/7ae6583dd420323cba16b3be9c3dc4fb47b30a47))
+
+
+
+
+
 ## [0.5.91](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.90...@techstack/components@0.5.91) (2022-12-19)
 
 
