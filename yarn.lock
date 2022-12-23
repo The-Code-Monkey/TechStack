@@ -5053,7 +5053,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@5.47.0":
+"@typescript-eslint/eslint-plugin@5.47.0", "@typescript-eslint/eslint-plugin@^5.47.0":
   version "5.47.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.47.0.tgz#dadb79df3b0499699b155839fd6792f16897d910"
   integrity sha512-AHZtlXAMGkDmyLuLZsRpH3p4G/1iARIwc/T0vIem2YB+xW6pZaXYXzCBnZSF/5fdM97R9QqZWZ+h3iW10XgevQ==
@@ -5090,7 +5090,7 @@
   dependencies:
     "@typescript-eslint/utils" "5.46.1"
 
-"@typescript-eslint/parser@5.47.0":
+"@typescript-eslint/parser@5.47.0", "@typescript-eslint/parser@^5.47.0":
   version "5.47.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.47.0.tgz#62e83de93499bf4b500528f74bf2e0554e3a6c8d"
   integrity sha512-udPU4ckK+R1JWCGdQC4Qa27NtBg7w020ffHqGyAK8pAgOVuNw7YaKXGChk+udh+iiGIJf6/E/0xhVXyPAbsczw==
@@ -9517,10 +9517,10 @@ dotenv@~10.0.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
   integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
 
-dts-cli@1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/dts-cli/-/dts-cli-1.6.2.tgz#538c57dfe44aa2dcd06c5d5e3a1c44dacf642ae0"
-  integrity sha512-fB+44RfD935UxiWsUaJ9qJY50bMKvaN6hEKeatKpS0ZwPuiywhY6KB5fknqZ88zZ3JGo1M/+h2mLleMXG9ttdA==
+dts-cli@1.6.3:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/dts-cli/-/dts-cli-1.6.3.tgz#fd8407803f6dc7f5e4bb8d46f733096d2934db17"
+  integrity sha512-VKsoNhYUhsY7kNtS+2eGyxrgNxewDM6XxDxh6tAmwNViolotvU4rL5E382YOlpO7FmDuEJhG42uHCUNh6W7gDg==
   dependencies:
     "@babel/core" "^7.20.5"
     "@babel/helper-module-imports" "^7.18.6"
@@ -9534,6 +9534,8 @@ dts-cli@1.6.2:
     "@rollup/plugin-node-resolve" "^13.3.0"
     "@rollup/plugin-replace" "^3.1.0"
     "@types/jest" "^27.5.2"
+    "@typescript-eslint/eslint-plugin" "^5.47.0"
+    "@typescript-eslint/parser" "^5.47.0"
     ansi-escapes "^4.3.2"
     asyncro "^3.0.0"
     babel-plugin-annotate-pure-calls "^0.4.0"

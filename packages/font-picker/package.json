@@ -37,7 +37,7 @@
   "devDependencies": {
     "@storybook/react": "6.5.15",
     "@techstack/tcm-cli": "0.2.103",
-    "dts-cli": "1.6.2",
+    "dts-cli": "1.6.3",
     "react": "18.2.0"
   },
   "gitHead": "a0cda00211e6f1c53b567b16603afaf07f995eae"

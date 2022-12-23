@@ -81,7 +81,7 @@
     "@types/react-dom": "18.0.9",
     "chromatic": "6.14.0",
     "cross-env": "7.0.3",
-    "dts-cli": "1.6.2",
+    "dts-cli": "1.6.3",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-prettier": "4.2.1",
     "esm": "3.2.25",
