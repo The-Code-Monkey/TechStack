@@ -55,13 +55,11 @@ exports[`<Input /> renders correctly 2`] = `
 
 exports[`<Input /> textarea renders correctly 1`] = `
 <DocumentFragment>
-  <input
-    class="sc-eDvSVe jEmqvv"
+  <textarea
+    class="sc-jSUZER gZurMe"
     cursor="pointer"
     name="test"
     placeholder="Placeholder"
-    type="textarea"
-    value=""
     width="100%"
   />
 </DocumentFragment>

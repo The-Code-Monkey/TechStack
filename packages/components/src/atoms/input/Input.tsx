@@ -11,7 +11,7 @@ import { BoxProps } from '../../primal';
 import { DefaultThemeWithDefaultStyles } from '../../utils';
 
 import Checkbox from './checkbox';
-import { StyledInput } from './styled';
+import { StyledInput, StyledTextArea } from './styled';
 import { InputPropsUnion } from './types';
 
 export type Props = BoxProps & InputPropsUnion;
@@ -48,6 +48,17 @@ const Input = ({ onChange, type, value, name, ...rest }: Props) => {
               value={value}
               onChange={handleOnChange}
               {...theme.defaultStyles?.checkbox}
+              {...rest}
+            />
+          );
+        }
+        case 'textarea': {
+          return (
+            <StyledTextArea
+              name={name}
+              value={v}
+              onChange={handleOnChange}
+              {...theme.defaultStyles?.input}
               {...rest}
             />
           );

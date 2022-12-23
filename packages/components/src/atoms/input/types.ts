@@ -5,6 +5,7 @@ import type { CheckboxProps } from './checkbox';
 type DefaultProps = {
   name?: string;
   onChange?: (e: boolean | ChangeEvent<HTMLInputElement>) => void;
+  disabled?: boolean;
 };
 
 type TextInputProps = {

@@ -8,3 +8,7 @@ export const StyledInput = styled.input`
     cursor: pointer;
   }
 `;
+
+export const StyledTextArea = styled.textarea`
+  ${StyledBoxProps}
+`;

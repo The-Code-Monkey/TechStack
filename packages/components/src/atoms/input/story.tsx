@@ -7,6 +7,8 @@ export default {
 
 export const story = () => <Input name='default' />;
 
+export const Textarea = () => <Input name='textarea' type='textarea' />;
+
 export const Number = () => <Input name='number' type='number' />;
 
 export const Time = () => <Input name='time' type='time' />;
