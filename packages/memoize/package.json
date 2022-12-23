@@ -44,7 +44,7 @@
     "@techstack/tcm-cli": "0.2.103",
     "benchmark": "2.1.4",
     "cross-env": "7.0.3",
-    "dts-cli": "1.6.2",
+    "dts-cli": "1.6.3",
     "expect-type": "0.15.0",
     "fast-memoize": "2.5.2",
     "jest-environment-jsdom": "29.3.1",
