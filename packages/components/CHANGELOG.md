@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.99](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.98...@techstack/components@0.5.99) (2022-12-23)
+
+
+### Bug Fixes
+
+* add disabled to input ([39cc32f](https://github.com/The-Code-Monkey/TechStack/commit/39cc32f3bd9adc3bff6942fa6e0574c3c3b07545))
+
+
+
+
+
 ## [0.5.98](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.97...@techstack/components@0.5.98) (2022-12-23)
 
 **Note:** Version bump only for package @techstack/components
