@@ -1,5 +1,5 @@
 {
-  "version": "0.5.97",
+  "version": "0.5.98",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -96,10 +96,10 @@
   },
   "dependencies": {
     "@tanstack/react-table": "8.7.4",
-    "@techstack/memoize": "0.2.108",
-    "@techstack/react-feather": "0.2.107",
-    "@techstack/react-lazy-named": "0.2.106",
-    "@techstack/styled-system": "0.2.111",
+    "@techstack/memoize": "0.2.109",
+    "@techstack/react-feather": "0.2.108",
+    "@techstack/react-lazy-named": "0.2.107",
+    "@techstack/styled-system": "0.2.112",
     "@techstack/theme": "0.2.108",
     "@types/react-table": "7.7.12",
     "classnames": "2.3.2",

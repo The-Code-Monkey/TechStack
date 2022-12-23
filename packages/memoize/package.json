@@ -1,6 +1,6 @@
 {
   "name": "@techstack/memoize",
-  "version": "0.2.108",
+  "version": "0.2.109",
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
   "module": "./dist/memoize.esm.js",
