@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.104](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.103...@techstack/components@0.5.104) (2022-12-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/react-table to v7.7.13 ([c155e84](https://github.com/The-Code-Monkey/TechStack/commit/c155e846f90fdd54fd891cc46edecbe291640907))
+
+
+
+
+
 ## [0.5.103](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.102...@techstack/components@0.5.103) (2022-12-27)
 
 **Note:** Version bump only for package @techstack/components
