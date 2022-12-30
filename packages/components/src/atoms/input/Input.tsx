@@ -33,9 +33,7 @@ const Input = ({ onChange, type, value, name, ...rest }: Props) => {
   );
 
   useEffect(() => {
-    if (value !== v) {
-      setValue(value);
-    }
+    setValue(value);
   }, [value]);
 
   const renderInput = useCallback(
