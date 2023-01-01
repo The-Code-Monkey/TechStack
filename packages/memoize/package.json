@@ -1,6 +1,6 @@
 {
   "name": "@techstack/memoize",
-  "version": "0.2.115",
+  "version": "0.2.116",
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
   "module": "./dist/memoize.esm.js",
@@ -41,7 +41,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@techstack/tcm-cli": "0.2.109",
+    "@techstack/tcm-cli": "0.2.110",
     "benchmark": "2.1.4",
     "cross-env": "7.0.3",
     "dts-cli": "1.6.3",
