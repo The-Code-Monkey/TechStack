@@ -22,3 +22,7 @@ export const Date = () => (
 export const Checkbox = () => (
   <Input name='checkbox' type='checkbox' value='checked' />
 );
+
+export const required = () => <Input name='default' required />;
+
+export const disabled = () => <Input name='default' disabled />;
