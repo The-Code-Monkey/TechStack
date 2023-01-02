@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.109](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.108...@techstack/components@0.5.109) (2023-01-02)
+
+
+### Bug Fixes
+
+* add default html props to input ([c25e87c](https://github.com/The-Code-Monkey/TechStack/commit/c25e87cab8fbc653744c2bd7984edfab1be3d21f))
+
+
+
+
+
 ## [0.5.108](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.107...@techstack/components@0.5.108) (2023-01-01)
 
 **Note:** Version bump only for package @techstack/components
