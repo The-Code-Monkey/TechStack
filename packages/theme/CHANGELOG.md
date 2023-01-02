@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.116 (2023-01-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency tinycolor2 to v1.5.2 ([#998](https://github.com/The-Code-Monkey/TechStack/issues/998)) ([004ec1b](https://github.com/The-Code-Monkey/TechStack/commit/004ec1bb046e24130fc563a79d847ceac0743075))
+
+
+
+
+
 ## [0.2.115](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.2.114...@techstack/theme@0.2.115) (2023-01-01)
 
 **Note:** Version bump only for package @techstack/theme
