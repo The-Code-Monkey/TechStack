@@ -2,7 +2,7 @@ import { ChangeEvent } from 'react';
 
 import type { CheckboxProps } from './checkbox';
 
-type DefaultProps = {
+type DefaultProps = Partial<HTMLInputElement> & {
   name?: string;
   onChange?: (e: boolean | ChangeEvent<HTMLInputElement>) => void;
   disabled?: boolean;
