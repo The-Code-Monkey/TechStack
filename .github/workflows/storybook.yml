@@ -1,5 +1,5 @@
 name: Storybook - Chromatic
-on: [pr]
+on: [pull]
 
 jobs:
   build:
