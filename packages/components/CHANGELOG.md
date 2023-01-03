@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.112](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.111...@techstack/components@0.5.112) (2023-01-03)
+
+
+### Bug Fixes
+
+* add more types to button ([e75fde1](https://github.com/The-Code-Monkey/TechStack/commit/e75fde1a5e93020fc7141fe854bdf57962ec47f3))
+
+
+
+
+
 ## [0.5.111](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.110...@techstack/components@0.5.111) (2023-01-03)
 
 **Note:** Version bump only for package @techstack/components
