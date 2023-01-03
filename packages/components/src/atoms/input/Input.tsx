@@ -18,7 +18,7 @@ export type Props = BoxProps & InputPropsUnion;
 
 const Input = ({ onChange, type, value, name, ...rest }: Props) => {
   const theme = useContext<DefaultThemeWithDefaultStyles>(ThemeContext);
-  const [v, setValue] = useState<string | number | undefined | unknown>();
+  const [v, setValue] = useState<string | number | undefined | unknown>(value);
 
   const handleOnChange = useCallback(
     (event: boolean | ChangeEvent<HTMLInputElement>) => {
