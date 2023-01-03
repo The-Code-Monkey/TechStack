@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.113](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.112...@techstack/components@0.5.113) (2023-01-03)
+
+
+### Bug Fixes
+
+* linting ([ef08ec8](https://github.com/The-Code-Monkey/TechStack/commit/ef08ec8740d5c8267bd54d6d204137447b0c8296))
+* update add value ad default in input ([1ad771a](https://github.com/The-Code-Monkey/TechStack/commit/1ad771ad5ea55a726c696c042b0ea7f13133fcc5))
+* update table to use id for onclick ([8adcd56](https://github.com/The-Code-Monkey/TechStack/commit/8adcd5636f3206593e2fb80b2eef9d0dca31e112))
+
+
+
+
+
 ## [0.5.112](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.111...@techstack/components@0.5.112) (2023-01-03)
 
 
