@@ -20,8 +20,6 @@ export const WithEdit = () => {
         'test',
         '100',
         'something',
-        'edit',
-        'delete',
         'edit-delete',
       ]}
       data={[{ id: '0' }, { id: '0' }, { id: '0' }, { id: '0' }, { id: '0' }]}

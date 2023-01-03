@@ -152,7 +152,7 @@ const Table: FC<Props> = ({
                   if (cell.column.id === 'edit') {
                     return (
                       <StyledTd key={cell.id} defaultStyles={'td'}>
-                        <Button onClick={() => handleEditClick(row.id)}>
+                        <Button onClick={() => handleEditClick(`${row.original.id}`)}>
                           Edit
                         </Button>
                       </StyledTd>
@@ -163,7 +163,7 @@ const Table: FC<Props> = ({
                       <StyledTd key={cell.id} defaultStyles={'td'}>
                         <Button
                           bg={'intents.danger.0'}
-                          onClick={() => handleDeleteClick(row.id)}
+                          onClick={() => handleDeleteClick(`${row.original.id}`)}
                         >
                           Delete
                         </Button>
@@ -171,14 +171,15 @@ const Table: FC<Props> = ({
                     );
                   }
                   if (cell.column.id === 'edit-delete') {
+
                     return (
                       <StyledTd key={cell.id} defaultStyles={'td'}>
-                        <Button onClick={() => handleEditClick(row.id)}>
+                        <Button onClick={() => handleEditClick(`${row.original.id}`)}>
                           Edit
                         </Button>
                         <Button
                           bg={'intents.danger.0'}
-                          onClick={() => handleDeleteClick(row.id)}
+                          onClick={() => handleDeleteClick(`${row.original.id}`)}
                         >
                           Delete
                         </Button>
