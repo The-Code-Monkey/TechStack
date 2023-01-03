@@ -26,3 +26,5 @@ export const Checkbox = () => (
 export const required = () => <Input name='default' required />;
 
 export const disabled = () => <Input name='default' disabled />;
+
+export const list = () => <Input name='default' list='testlist' />;
