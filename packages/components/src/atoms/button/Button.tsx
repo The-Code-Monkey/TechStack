@@ -10,7 +10,14 @@ import { InteractableProps, Text, IconProps } from '../../primal';
 
 import { StyledInteractable, iconOrientations, iconMargins } from './styled';
 
-export interface Props extends InteractableProps {
+export interface Props
+  extends InteractableProps,
+    Partial<
+      Omit<
+        HTMLButtonElement,
+        'className' | 'children' | 'disabled' | 'onClick' | 'onDoubleClick'
+      >
+    > {
   iconName?: IconProps['name'];
   iconPosition?: 'left' | 'top' | 'right' | 'bottom';
   variant?: string;
