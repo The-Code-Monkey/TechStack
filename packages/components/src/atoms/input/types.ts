@@ -6,6 +6,7 @@ type DefaultProps = Partial<HTMLInputElement> & {
   name?: string;
   onChange?: (e: boolean | ChangeEvent<HTMLInputElement>) => void;
   disabled?: boolean;
+  list?: string;
 };
 
 type TextInputProps = {
@@ -19,7 +20,8 @@ type TextInputProps = {
     | 'tel'
     | 'time'
     | 'number'
-    | 'date';
+    | 'date'
+    | 'file';
   defaultValue?: string;
 };
 
