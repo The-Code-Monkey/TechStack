@@ -20,10 +20,10 @@ import space from './dist/space';
 import spacing from './dist/spacing';
 import time from './dist/time';
 
-export type IntentInfoType = typeof intents.intents.info.light;
-export type DangerInfoType = typeof intents.intents.danger.light;
-export type WarningInfoType = typeof intents.intents.warning.light;
-export type SuccessInfoType = typeof intents.intents.success.light;
+export type InfoType = typeof intents.intents.info.light;
+export type ErrorType = typeof intents.intents.error.light;
+export type WarningType = typeof intents.intents.warning.light;
+export type SuccessType = typeof intents.intents.success.light;
 export type FontsType = typeof fonts.fonts.family;
 export type BordersType = typeof borders.borders;
 export type BreakpointSizesType = typeof breakpointSizes.breakpointSizes;
@@ -61,10 +61,10 @@ export interface Time {
 }
 
 export interface Intents {
-  info: IntentInfoType;
-  success: SuccessInfoType;
-  warning: WarningInfoType;
-  danger: DangerInfoType;
+  info: InfoType;
+  success: SuccessType;
+  warning: WarningType;
+  error: ErrorType;
 }
 
 export interface Colors {
