@@ -21,6 +21,7 @@ export interface Props
   iconName?: IconProps['name'];
   iconPosition?: 'left' | 'top' | 'right' | 'bottom';
   variant?: string;
+  intent?: string;
   strong?: boolean;
 }
 

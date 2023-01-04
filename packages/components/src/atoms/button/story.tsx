@@ -13,6 +13,16 @@ export const Secondary = () => (
   <Button variant='secondary'>Secondary Button</Button>
 );
 
+export const Intents = () => (
+  <>
+    <Button intent='success'>success Button</Button>
+    <Button intent='warning'>warning Button</Button>
+    <Button intent='error'>error Button</Button>
+    <Button intent='info'>info Button</Button>
+    <Button intent='pending'>pending Button</Button>
+  </>
+);
+
 export const IconButtons = () => (
   <>
     <Button iconName='github'>left</Button>

@@ -17,7 +17,7 @@ const dark: ModeThemeType = {
     info: intents.intents.info.dark,
     success: intents.intents.success.dark,
     warning: intents.intents.warning.dark,
-    danger: intents.intents.danger.dark,
+    error: intents.intents.error.dark,
   },
 };
 
@@ -32,7 +32,7 @@ const light: ModeThemeType = {
     info: intents.intents.info.light,
     success: intents.intents.success.light,
     warning: intents.intents.warning.light,
-    danger: intents.intents.danger.light,
+    error: intents.intents.error.light,
   },
 };
 

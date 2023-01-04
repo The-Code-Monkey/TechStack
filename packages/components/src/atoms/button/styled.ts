@@ -1,4 +1,4 @@
-import { variant, ButtonVariants } from '@techstack/styled-system';
+import { variant } from '@techstack/styled-system';
 
 import { Interactable, StyledBoxProps } from '../../primal';
 import styled from '../../workarounds/styled-components';
@@ -62,6 +62,12 @@ export const StyledInteractable = styled(Interactable)<{ strong?: boolean }>`
     prop: 'typography',
     key: 'typography.type',
   })}
-  ${ButtonVariants}
+  ${variant({
+    key: 'buttons.variants',
+  })}
+  ${variant({
+    prop: 'intent',
+    key: 'buttons.intents',
+  })}
   ${StyledBoxProps}
 `;

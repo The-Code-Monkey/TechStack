@@ -67,49 +67,98 @@ const variants = {
     },
   },
   buttons: {
-    default: {
-      bg: 'neutrals.4',
-      _hover: {
-        bg: 'neutrals.6',
+    variants: {
+      default: {
+        bg: 'neutrals.4',
+        _hover: {
+          bg: 'neutrals.6',
+        },
+        _disabled: {
+          bg: 'neutrals.2',
+        },
       },
-      _disabled: {
-        bg: 'neutrals.2',
-      },
-    },
-    primary: {
-      bg: 'primary.2',
-      _hover: {
-        bg: 'primary.1',
-      },
-      _disabled: {
-        bg: 'primary.0',
-      },
-      _active: {
+      primary: {
         bg: 'primary.2',
+        _hover: {
+          bg: 'primary.1',
+        },
         _disabled: {
           bg: 'primary.0',
         },
+        _active: {
+          bg: 'primary.2',
+          _disabled: {
+            bg: 'primary.0',
+          },
+        },
+        _before: {
+          bg: 'primary.1',
+        },
       },
-      _before: {
-        bg: 'primary.1',
-      },
-    },
-    secondary: {
-      bg: 'highlights.0',
-      _hover: {
-        bg: 'highlights.2',
-      },
-      _disabled: {
+      secondary: {
         bg: 'highlights.0',
-      },
-      _active: {
-        bg: 'highlights.2',
+        _hover: {
+          bg: 'highlights.2',
+        },
         _disabled: {
           bg: 'highlights.0',
         },
+        _active: {
+          bg: 'highlights.2',
+          _disabled: {
+            bg: 'highlights.0',
+          },
+        },
+        _before: {
+          bg: 'primary.1',
+        },
       },
-      _before: {
-        bg: 'primary.1',
+    },
+    intents: {
+      success: {
+        bg: 'intents.success.0',
+        _hover: {
+          bg: 'intents.success.1',
+        },
+        _disabled: {
+          bg: 'intents.success.3',
+        },
+      },
+      warning: {
+        bg: 'intents.warning.0',
+        _hover: {
+          bg: 'intents.warning.1',
+        },
+        _disabled: {
+          bg: 'intents.warning.3',
+        },
+      },
+      error: {
+        bg: 'intents.error.0',
+        _hover: {
+          bg: 'intents.error.1',
+        },
+        _disabled: {
+          bg: 'intents.error.3',
+        },
+      },
+      info: {
+        bg: 'intents.info.0',
+        _hover: {
+          bg: 'intents.info.1',
+        },
+        _disabled: {
+          bg: 'intents.info.3',
+        },
+      },
+      pending: {
+        bg: 'intents.pending.0',
+        _hover: {
+          bg: 'intents.pending.1',
+        },
+        _disabled: {
+          bg: 'intents.pending.3',
+        },
       },
     },
   },

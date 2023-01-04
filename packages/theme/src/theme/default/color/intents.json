@@ -10,7 +10,7 @@
       "warning": {
         "value": "#F3C751"
       },
-      "danger": {
+      "error": {
         "value": "#DA4141"
       }
     }

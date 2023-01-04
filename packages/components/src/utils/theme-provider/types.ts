@@ -8,7 +8,7 @@ export type IntentsType = {
   info: ColorType;
   success: ColorType;
   warning: ColorType;
-  danger: ColorType;
+  error: ColorType;
 };
 
 export type ModeThemeType = {
