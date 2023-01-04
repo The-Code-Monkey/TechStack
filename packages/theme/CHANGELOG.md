@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.117 (2023-01-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency style-dictionary to v3.7.2 ([#1002](https://github.com/The-Code-Monkey/TechStack/issues/1002)) ([2383b1d](https://github.com/The-Code-Monkey/TechStack/commit/2383b1df044cd0895410d82d00666e69b526c4b8))
+
+
+
+
+
 ## 0.2.116 (2023-01-02)
 
 
