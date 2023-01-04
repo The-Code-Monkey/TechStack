@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.118](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.2.117...@techstack/theme@0.2.118) (2023-01-04)
+
+
+### Bug Fixes
+
+* update button and add intents to buttons ([acaae9b](https://github.com/The-Code-Monkey/TechStack/commit/acaae9b8c0b0e45efa440a2d848450655c7ce4f7))
+
+
+
+
+
 ## 0.2.117 (2023-01-04)
 
 

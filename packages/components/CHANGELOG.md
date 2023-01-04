@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.116](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.115...@techstack/components@0.5.116) (2023-01-04)
+
+
+### Bug Fixes
+
+* types update ([0af7209](https://github.com/The-Code-Monkey/TechStack/commit/0af7209d30c737afb9db40540b93e7a7ec30d178))
+* update button and add intents to buttons ([acaae9b](https://github.com/The-Code-Monkey/TechStack/commit/acaae9b8c0b0e45efa440a2d848450655c7ce4f7))
+
+
+
+
+
 ## [0.5.115](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.114...@techstack/components@0.5.115) (2023-01-04)
 
 **Note:** Version bump only for package @techstack/components
