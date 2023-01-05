@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.121](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.120...@techstack/components@0.5.121) (2023-01-05)
+
+
+### Bug Fixes
+
+* loads of changes ([a8bcd71](https://github.com/The-Code-Monkey/TechStack/commit/a8bcd71141127fd801acbb4e649c59791c5fb434))
+* update pre commit ([ccf9bc5](https://github.com/The-Code-Monkey/TechStack/commit/ccf9bc5c4c870537df4b77f1d95b5aca95a63457))
+
+
+
+
+
 ## [0.5.120](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.119...@techstack/components@0.5.120) (2023-01-05)
 
 
