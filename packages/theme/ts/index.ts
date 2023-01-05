@@ -19,7 +19,7 @@ import sizes from './dist/sizes';
 import space from './dist/space';
 import spacing from './dist/spacing';
 import time from './dist/time';
-import variants from './variants';
+import variants from './defaultVariants';
 
 const theme: ITheme<typeof variants> = {
   colors: colors as IThemeColorsType & ModeThemeType,

@@ -237,11 +237,13 @@ const generate = async (options: { b: string; brand: string }) => {
   const brand = options.b || options.brand;
   const userConfigFile = await resolveConfig();
   const userConfig = fs.readJsonSync(userConfigFile);
+  const tsFilesOutputDir = userConfig.outputDir
+    ? `${process.cwd()}${userConfig.outputDir}/theme` : `${process.cwd()}/theme`
   const outputDir = userConfig.outputDir
-    ? `${process.cwd()}${userConfig.outputDir}theme/dist`
+    ? `${process.cwd()}${userConfig.outputDir}/theme/dist`
     : `${process.cwd()}/theme/dist`;
   const customSrcDir = userConfig.srcDir
-    ? `${process.cwd()}${userConfig.srcDir}theme/src`
+    ? `${process.cwd()}${userConfig.srcDir}/theme/src`
     : `${process.cwd()}/theme/src`;
 
   fs.ensureDir(outputDir);
@@ -270,6 +272,13 @@ const generate = async (options: { b: string; brand: string }) => {
   fs.copySync(`./theme-dist`, outputDir);
 
   fs.removeSync(`./theme-dist`);
+
+  fs.copySync(`./ts`, tsFilesOutputDir);
+
+  // fs.copyFileSync('./ts/index.ts', `${outputDir}/index.ts`)
+  // fs.copyFileSync('./ts/colors.ts', `${outputDir}/colors.ts`)
+  // fs.copyFileSync('./ts/types.ts', `${outputDir}/types.ts`)
+  // fs.copyFileSync('./ts/defaultVariants.ts', `${outputDir}/defaultVariants.ts`)
 };
 
 const cli = sade('orchard');

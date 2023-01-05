@@ -29,8 +29,8 @@ export interface Props
   onRowClick?: (id: string | number) => void;
   getCoreRowModel?: TableOptions<Record<string, unknown>>['getCoreRowModel'];
   columns: Array<string>;
-  onEditClick?: (id: string) => void;
-  onDeleteClick?: (id: string) => void;
+  onEditClick?: (original: Record<string, unknown>) => void;
+  onDeleteClick?: (original: Record<string, unknown>) => void;
 }
 
 const idVariations = ['id', 'Id', 'ID'];
@@ -78,15 +78,15 @@ const Table: FC<Props> = ({
       ? totalSize - (virtualRows?.[virtualRows.length - 1]?.end || 0)
       : 0;
 
-  const handleEditClick = (id: string) => {
+  const handleEditClick = (original: Record<string, unknown>) => {
     if (onEditClick) {
-      onEditClick(id);
+      onEditClick(original);
     }
   };
 
-  const handleDeleteClick = (id: string) => {
+  const handleDeleteClick = (original: Record<string, unknown>) => {
     if (onDeleteClick) {
-      onDeleteClick(id);
+      onDeleteClick(original);
     }
   };
 
@@ -152,9 +152,7 @@ const Table: FC<Props> = ({
                   if (cell.column.id === 'edit') {
                     return (
                       <StyledTd key={cell.id} defaultStyles={'td'}>
-                        <Button
-                          onClick={() => handleEditClick(`${row.original.id}`)}
-                        >
+                        <Button onClick={() => handleEditClick(row.original)}>
                           Edit
                         </Button>
                       </StyledTd>
@@ -165,9 +163,7 @@ const Table: FC<Props> = ({
                       <StyledTd key={cell.id} defaultStyles={'td'}>
                         <Button
                           bg={'intents.danger.0'}
-                          onClick={() =>
-                            handleDeleteClick(`${row.original.id}`)
-                          }
+                          onClick={() => handleDeleteClick(row.original)}
                         >
                           Delete
                         </Button>
@@ -178,15 +174,15 @@ const Table: FC<Props> = ({
                     return (
                       <StyledTd key={cell.id} defaultStyles={'td'}>
                         <Button
-                          onClick={() => handleEditClick(`${row.original.id}`)}
+                          variant='primary'
+                          mr='2'
+                          onClick={() => handleEditClick(row.original)}
                         >
                           Edit
                         </Button>
                         <Button
-                          bg={'intents.danger.0'}
-                          onClick={() =>
-                            handleDeleteClick(`${row.original.id}`)
-                          }
+                          intent='error'
+                          onClick={() => handleDeleteClick(row.original)}
                         >
                           Delete
                         </Button>

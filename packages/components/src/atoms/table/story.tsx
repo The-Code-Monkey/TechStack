@@ -17,6 +17,8 @@ export const WithEdit = () => {
     <Table
       columns={['id', 'test', '100', 'something', 'edit-delete']}
       data={[{ id: '0' }, { id: '0' }, { id: '0' }, { id: '0' }, { id: '0' }]}
+      onEditClick={console.log}
+      onDeleteClick={console.log}
     />
   );
 };

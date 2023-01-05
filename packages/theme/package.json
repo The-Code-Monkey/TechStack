@@ -13,7 +13,12 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json && yarn copy",
-    "copy": "cp ./src/config.json ./dist/esm/config.json && cp -r ./src/templates ./dist/esm && cp -r ./src/theme ./dist/esm && cp ./orchard.theme.config.json ./dist/esm",
+    "copy": "yarn copy:config && yarn copy:templates && yarn copy:theme && yarn copy:orchard && yarn copy:ts",
+    "copy:config": "cp ./src/config.json ./dist/esm/config.json",
+    "copy:templates": "cp -r ./src/templates ./dist/esm",
+    "copy:theme": "cp -r ./src/theme ./dist/esm",
+    "copy:orchard": "cp ./orchard.theme.config.json ./dist/esm",
+    "copy:ts": "cp -r ./ts ./dist/esm",
     "lint": "tcm lint",
     "test": "yarn generate && yarn generate -b partial",
     "prepare": "yarn build",
