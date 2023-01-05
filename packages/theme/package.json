@@ -19,7 +19,7 @@
     "copy:theme": "cp -r ./src/theme ./dist/esm",
     "copy:orchard": "cp ./orchard.theme.config.json ./dist/esm",
     "copy:ts": "cp -r ./ts ./dist/esm",
-    "lint": "tcm lint src",
+    "lint": "tcm lint src ts",
     "test": "yarn generate && yarn generate -b partial",
     "prepare": "yarn build",
     "size": "size-limit",

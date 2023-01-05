@@ -2,8 +2,8 @@ import { ReactNode } from 'react';
 import { ThemeProvider as StyledThemeProvider } from 'styled-components';
 
 import createTheme from './create-theme';
-import { ThemeModeEnum } from './enum';
-import { ITheme } from './types';
+import {ThemeModeEnum} from "../../theme/enum";
+import {ITheme} from "../../theme/utils";
 
 interface Props<V> {
   children: ReactNode;

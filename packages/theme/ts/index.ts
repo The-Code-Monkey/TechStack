@@ -1,5 +1,3 @@
-import { ITheme, IThemeColorsType, ModeThemeType } from '../utils';
-
 import colors from './colors';
 import variants from './defaultVariants';
 import borders from './dist/borders';
@@ -20,6 +18,7 @@ import sizes from './dist/sizes';
 import space from './dist/space';
 import spacing from './dist/spacing';
 import time from './dist/time';
+import { ITheme, IThemeColorsType, ModeThemeType } from './utils';
 
 const theme: ITheme<typeof variants> = {
   colors: colors as IThemeColorsType & ModeThemeType,

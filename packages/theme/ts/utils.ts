@@ -1,6 +1,8 @@
 import { StandardProperties } from 'csstype';
 
-import { ThemeModeEnum } from './enum';
+type OptionalRecord<K extends string, T> = {
+  [P in K]?: T;
+};
 
 export type ColorType = Array<string> | Record<string, string>;
 
@@ -12,7 +14,7 @@ export type IntentsType = {
 };
 
 export type ModeThemeType = {
-  mode: ThemeModeEnum;
+  mode: string;
   text: string;
   highlight: string;
   highlights: ColorType;
@@ -20,19 +22,6 @@ export type ModeThemeType = {
   neutrals: ColorType;
   intents: IntentsType;
 };
-
-export type IThemeColorsType = {
-  mode?: ThemeModeEnum;
-  common: Record<string, string | ColorType>;
-  modes: {
-    [x in ThemeModeEnum]: ModeThemeType;
-  };
-};
-
-type OptionalRecord<K extends string, T> = {
-  [P in K]?: T;
-};
-
 export interface ITheme<V> {
   colors?: ModeThemeType & IThemeColorsType;
   variants?: V;
@@ -56,3 +45,11 @@ export interface ITheme<V> {
   [x: string]: unknown;
   defaultStyles?: OptionalRecord<string, unknown>;
 }
+
+export type IThemeColorsType = {
+  mode?: string;
+  common: Record<string, string | ColorType>;
+  modes: {
+    [x: string]: ModeThemeType;
+  };
+};
