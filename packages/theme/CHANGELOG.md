@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.121](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.2.119...@techstack/theme@0.2.121) (2023-01-05)
+
+
+### Bug Fixes
+
+* some stuff ([122e297](https://github.com/The-Code-Monkey/TechStack/commit/122e297073972099ea916423b1c6e590aaa47a5c))
+
+
+
+
+
 ## [0.2.120](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.2.119...@techstack/theme@0.2.120) (2023-01-05)
 
 
