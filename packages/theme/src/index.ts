@@ -273,12 +273,7 @@ const generate = async (options: { b: string; brand: string }) => {
 
   fs.removeSync(`./theme-dist`);
 
-  fs.copySync(`./ts`, tsFilesOutputDir);
-
-  // fs.copyFileSync('./ts/index.ts', `${outputDir}/index.ts`)
-  // fs.copyFileSync('./ts/colors.ts', `${outputDir}/colors.ts`)
-  // fs.copyFileSync('./ts/types.ts', `${outputDir}/types.ts`)
-  // fs.copyFileSync('./ts/defaultVariants.ts', `${outputDir}/defaultVariants.ts`)
+  fs.copySync(path.resolve(__dirname, 'ts'), tsFilesOutputDir)
 };
 
 const cli = sade('orchard');
