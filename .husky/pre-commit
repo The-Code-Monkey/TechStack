@@ -1,12 +1,10 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-#yarn build:tcm
-#
-#yarn lint
-#
-#yarn test
-#
-#yarn build
-#
-#yarn size
+yarn build:tcm
+
+yarn lint:fix
+
+yarn test:fix
+
+yarn size

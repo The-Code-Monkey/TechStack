@@ -17,7 +17,7 @@
   "bin": "bin/x-default-browser.js",
   "main": "index.js",
   "scripts": {
-    "lint": "tcm lint src bin",
+    "lint": "tcm lint src bin test",
     "mocha": "mocha"
   },
   "keywords": [

@@ -13,7 +13,7 @@
   "typings": "dist/types/index.d.ts",
   "scripts": {
     "test": "tcm test",
-    "lint": "tcm lint",
+    "lint": "tcm lint src test",
     "build": "dts build"
   },
   "files": [

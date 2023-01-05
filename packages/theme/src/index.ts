@@ -238,7 +238,8 @@ const generate = async (options: { b: string; brand: string }) => {
   const userConfigFile = await resolveConfig();
   const userConfig = fs.readJsonSync(userConfigFile);
   const tsFilesOutputDir = userConfig.outputDir
-    ? `${process.cwd()}${userConfig.outputDir}/theme` : `${process.cwd()}/theme`
+    ? `${process.cwd()}${userConfig.outputDir}/theme`
+    : `${process.cwd()}/theme`;
   const outputDir = userConfig.outputDir
     ? `${process.cwd()}${userConfig.outputDir}/theme/dist`
     : `${process.cwd()}/theme/dist`;
@@ -273,7 +274,7 @@ const generate = async (options: { b: string; brand: string }) => {
 
   fs.removeSync(`./theme-dist`);
 
-  fs.copySync(path.resolve(__dirname, 'ts'), tsFilesOutputDir)
+  fs.copySync(path.resolve(__dirname, 'ts'), tsFilesOutputDir);
 };
 
 const cli = sade('orchard');
