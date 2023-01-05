@@ -1,7 +1,7 @@
 import deepMerge from 'deepmerge';
 
-import {ITheme} from "../../theme/utils";
-import {ThemeModeEnum} from "../../theme/enum";
+import { ThemeModeEnum } from '../../theme/enum';
+import { ITheme } from '../../theme/utils';
 
 const arrayMerge = (_destination: unknown[], source: unknown[]) => source;
 

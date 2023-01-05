@@ -8,3 +8,5 @@ yarn lint:fix
 yarn test:fix
 
 yarn size
+
+git add .
