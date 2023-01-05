@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.120](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.119...@techstack/components@0.5.120) (2023-01-05)
+
+
+### Bug Fixes
+
+* update theme to add default ts files ([b3034c5](https://github.com/The-Code-Monkey/TechStack/commit/b3034c52520cc5b886a0f67365d10c69c77ccc0d))
+
+
+
+
+
 ## [0.5.119](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.5.117...@techstack/components@0.5.119) (2023-01-05)
 
 
