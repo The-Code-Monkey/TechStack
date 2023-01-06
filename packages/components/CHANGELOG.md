@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.2](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.1...@techstack/components@0.7.2) (2023-01-06)
+
+
+### Bug Fixes
+
+* bump theme in components ([a54bb06](https://github.com/The-Code-Monkey/TechStack/commit/a54bb06f42253e7ba2296daf30a0f9f129a446c0))
+
+
+
+
+
 ## [0.7.1](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.0...@techstack/components@0.7.1) (2023-01-06)
 
 **Note:** Version bump only for package @techstack/components
