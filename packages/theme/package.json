@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "MIT",
   "bin": {
     "orchard": "./dist/esm/index.js"
@@ -47,7 +47,7 @@
   ],
   "devDependencies": {
     "@size-limit/file": "8.1.0",
-    "@techstack/tcm-cli": "^0.3.0",
+    "@techstack/tcm-cli": "^0.4.0",
     "@tsconfig/recommended": "1.0.1",
     "@types/fs-extra": "9.0.13",
     "@types/lodash": "4.14.191",
@@ -66,5 +66,5 @@
     "style-dictionary": "3.7.2",
     "tinycolor2": "1.5.2"
   },
-  "gitHead": "4c957e091d06402ac0bfd08f7db56046559dc73a"
+  "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a"
 }
