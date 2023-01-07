@@ -1,5 +1,5 @@
 {
-  "version": "0.4.3",
+  "version": "0.4.4",
   "license": "MIT",
   "name": "@techstack/styled-system",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/styled-system/README.md",
@@ -50,7 +50,7 @@
   ],
   "devDependencies": {
     "@size-limit/file": "8.1.0",
-    "@techstack/tcm-cli": "0.4.3",
+    "@techstack/tcm-cli": "0.4.4",
     "dts-cli": "1.6.3",
     "size-limit": "8.1.0",
     "tslib": "2.4.1",
@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@emotion/is-prop-valid": "1.2.0",
-    "@techstack/memoize": "0.4.3",
+    "@techstack/memoize": "0.4.4",
     "csstype": "3.1.1"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a"
