@@ -540,7 +540,7 @@ prog
         if (opts['report-file']) {
           await fs.outputFile(
             opts['report-file'],
-            jsonFormatter.format(results)
+            jsonFormatter.format(results) as string | NodeJS.ArrayBufferView
           );
         }
         let errorCount = 0;
