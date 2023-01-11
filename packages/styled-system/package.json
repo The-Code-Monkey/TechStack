@@ -49,7 +49,7 @@
     }
   ],
   "devDependencies": {
-    "@size-limit/file": "8.1.0",
+    "@size-limit/file": "8.1.1",
     "@techstack/tcm-cli": "0.4.10",
     "dts-cli": "1.6.3",
     "size-limit": "8.1.0",
