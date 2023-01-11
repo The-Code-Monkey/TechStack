@@ -52,7 +52,7 @@
     "@size-limit/file": "8.1.1",
     "@techstack/tcm-cli": "0.4.10",
     "dts-cli": "1.6.3",
-    "size-limit": "8.1.0",
+    "size-limit": "8.1.1",
     "tslib": "2.4.1",
     "typescript": "4.9.4"
   },
