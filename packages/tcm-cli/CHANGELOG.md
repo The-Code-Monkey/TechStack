@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.11 (2023-01-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to v2.27.0 ([#1026](https://github.com/The-Code-Monkey/TechStack/issues/1026)) ([4c608c4](https://github.com/The-Code-Monkey/TechStack/commit/4c608c47d157bad3e4d04669c00eb8b6dfd63189))
+
+
+
+
+
 ## [0.4.10](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.9...@techstack/tcm-cli@0.4.10) (2023-01-11)
 
 
