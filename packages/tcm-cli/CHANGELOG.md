@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.16](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.15...@techstack/tcm-cli@0.4.16) (2023-01-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v2.8.3 ([73b409a](https://github.com/The-Code-Monkey/TechStack/commit/73b409a48751bd97376431a6fc7bc194f332e81c))
+
+
+
+
+
 ## 0.4.15 (2023-01-13)
 
 **Note:** Version bump only for package @techstack/tcm-cli
