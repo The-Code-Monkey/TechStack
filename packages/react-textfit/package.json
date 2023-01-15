@@ -46,7 +46,7 @@
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
     "dts-cli": "1.6.3",
-    "eslint": "8.31.0",
+    "eslint": "8.32.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-plugin-react": "7.32.0",
     "expect": "29.3.1",
