@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.27](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.26...@techstack/components@0.7.27) (2023-01-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to v2.27.5 ([#1045](https://github.com/The-Code-Monkey/TechStack/issues/1045)) ([a030c2f](https://github.com/The-Code-Monkey/TechStack/commit/a030c2f3de6752f9f5e97e18936432b4ac2e13e8))
+
+
+
+
+
 ## [0.7.26](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.25...@techstack/components@0.7.26) (2023-01-16)
 
 **Note:** Version bump only for package @techstack/components
