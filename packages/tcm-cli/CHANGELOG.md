@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.24](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.23...@techstack/tcm-cli@0.4.24) (2023-01-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sort-package-json to v2.2.0 ([dc5c2a2](https://github.com/The-Code-Monkey/TechStack/commit/dc5c2a29164180fea2d6bb463c5e51a7cc2bd1da))
+
+
+
+
+
 ## [0.4.23](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.22...@techstack/tcm-cli@0.4.23) (2023-01-20)
 
 
