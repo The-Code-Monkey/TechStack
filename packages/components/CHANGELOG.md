@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.44](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.43...@techstack/components@0.7.44) (2023-01-27)
+
+
+### Bug Fixes
+
+* add carousel to exports ([14d7fb4](https://github.com/The-Code-Monkey/TechStack/commit/14d7fb4c92418e4cfcd619af925c76554471a045))
+
+
+
+
+
 ## [0.7.43](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.42...@techstack/components@0.7.43) (2023-01-27)
 
 
