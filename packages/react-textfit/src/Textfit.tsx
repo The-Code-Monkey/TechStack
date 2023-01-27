@@ -16,17 +16,17 @@ function assertElementFitsHeight(el: HTMLElement, height: number) {
 }
 
 interface Props {
-  children: ReactNode;
-  text: string;
+  children?: ReactNode;
+  text?: string;
   min: number;
   max: number;
   mode: 'single' | 'multi';
   forceSingleModeWidth: boolean;
   throttle: number;
-  onReady: (a: number) => void;
+  onReady?: (a: number) => void;
   autoResize: boolean;
-  style: Record<string, unknown>;
-  forceWidth: boolean;
+  style?: Record<string, unknown>;
+  forceWidth?: boolean;
 }
 
 export default class TextFit extends React.Component<Props> {

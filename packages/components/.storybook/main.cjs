@@ -1,4 +1,5 @@
 const webpack = require("webpack");
+const path = require('path');
 
 module.exports = {
   stories: ['../src/@(atoms|molecules|organisms|primal)/**/story.@(ts|tsx)'],
@@ -32,6 +33,12 @@ module.exports = {
     config.module.rules.push({
       test: /.storybook\/preview.js/,
       resolve: { fullySpecified: false },
+    })
+
+    config.module.rules.push({
+      test: /\.scss$/,
+      use: ['style-loader', 'css-loader', 'sass-loader'],
+      include: path.resolve(__dirname, '../')
     })
 
     return config;
