@@ -3,7 +3,8 @@ import { Carousel as ReactCarousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import { Box } from '../../primal';
-import {StyledCarousel} from "./styled";
+
+import { StyledCarousel } from './styled';
 
 export interface Props {
   titles?: Array<string>;
