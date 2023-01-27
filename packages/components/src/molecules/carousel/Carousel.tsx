@@ -1,9 +1,9 @@
 // import Textfit from '@techstack/react-textfit';
 import { Carousel as ReactCarousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import './styles.scss';
 
 import { Box } from '../../primal';
+import {StyledCarousel} from "./styled";
 
 export interface Props {
   titles?: Array<string>;
@@ -33,7 +33,7 @@ const Carousel = ({
   showThumbs = false,
 }: Props) => {
   return (
-    <Box pos='relative' w='full' h={height}>
+    <StyledCarousel pos='relative' w='full' h={height}>
       {titles && singleTitle && (
         <>
           <Box
@@ -85,7 +85,7 @@ const Carousel = ({
           </div>
         ))}
       </ReactCarousel>
-    </Box>
+    </StyledCarousel>
   );
 };
 
