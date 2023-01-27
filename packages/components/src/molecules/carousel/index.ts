@@ -1,5 +1,5 @@
 import Carousel from './Carousel';
 import type { Props as CarouselProps } from './Carousel';
 
-export { CarouselProps };
+export { CarouselProps, Carousel };
 export default Carousel;
