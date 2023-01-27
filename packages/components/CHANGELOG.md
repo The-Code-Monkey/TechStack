@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.43](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.42...@techstack/components@0.7.43) (2023-01-27)
+
+
+### Bug Fixes
+
+* linting ([5d43637](https://github.com/The-Code-Monkey/TechStack/commit/5d4363736e37cb372acd80ecec65419d134d8436))
+* merge issues ([5b31f5d](https://github.com/The-Code-Monkey/TechStack/commit/5b31f5d1903b211124ed84a3a89a606c5592f0f8))
+* remove scss ([2198e83](https://github.com/The-Code-Monkey/TechStack/commit/2198e8370a3792fdd07048bbdaea78f8fae156af))
+
+
+
+
+
 ## [0.7.42](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.41...@techstack/components@0.7.42) (2023-01-27)
 
 **Note:** Version bump only for package @techstack/components
