@@ -27,7 +27,7 @@ const Input = ({ onChange, type, value, name, ...rest }: Props) => {
       } else {
         setValue(event);
       }
-      if (onChange) onChange(event);
+      if (onChange) onChange(event as never);
     },
     [onChange, value]
   );
