@@ -4,7 +4,7 @@ import type { CheckboxProps } from './checkbox';
 
 type DefaultProps = Partial<Omit<HTMLInputElement, 'list'>> & {
   name?: string;
-  onChange?: (e: boolean | ChangeEvent<HTMLInputElement>) => void;
+  onChange?: (e: ChangeEvent<HTMLInputElement>) => void;
   disabled?: boolean;
   list?: string;
 };
@@ -27,4 +27,4 @@ type TextInputProps = {
 
 export type InputPropsUnion =
   | (DefaultProps & TextInputProps)
-  | (DefaultProps & CheckboxProps & { type: 'checkbox' });
+  | (Omit<DefaultProps, 'onChange'> & CheckboxProps & { type: 'checkbox' });
