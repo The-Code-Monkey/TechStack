@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.45](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.44...@techstack/components@0.7.45) (2023-01-28)
+
+
+### Bug Fixes
+
+* input had broken type ([bd4dde7](https://github.com/The-Code-Monkey/TechStack/commit/bd4dde762bbd99642f620cb628d5825c87a989e8))
+* update box types and input types ([487a842](https://github.com/The-Code-Monkey/TechStack/commit/487a842182cfbc7f734d0c9241ae75cb8b5ac57a))
+
+
+
+
+
 ## [0.7.44](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.43...@techstack/components@0.7.44) (2023-01-27)
 
 
