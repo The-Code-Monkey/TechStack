@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.48](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.47...@techstack/components@0.7.48) (2023-01-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency deepmerge to v4.3.0 ([35393e5](https://github.com/The-Code-Monkey/TechStack/commit/35393e5b657d2fb01ce5a6af279568f6ec72c423))
+
+
+
+
+
 ## [0.7.47](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.46...@techstack/components@0.7.47) (2023-01-29)
 
 **Note:** Version bump only for package @techstack/components
