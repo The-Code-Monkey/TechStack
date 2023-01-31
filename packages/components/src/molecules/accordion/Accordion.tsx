@@ -17,12 +17,12 @@ const Accordion: FC<PropsWithChildren<Props>> = ({
   open = false,
   children,
   title,
-  maxHeight = 50,
+  maxHeight = 999999,
   time = 200,
 }: PropsWithChildren<Props>) => {
   const [isOpen, setIsOpen] = useState(open);
   return (
-    <StyledAccordion open={isOpen} max={maxHeight} time={time}>
+    <StyledAccordion max={maxHeight} time={time}>
       <Button
         bg='neutrals.4'
         h='12'
@@ -35,7 +35,7 @@ const Accordion: FC<PropsWithChildren<Props>> = ({
       >
         {title}
       </Button>
-      <Box className='panel'>
+      <Box className='panel' maxH={isOpen ? `${maxHeight}px` : '0'}>
         <p>{children}</p>
       </Box>
     </StyledAccordion>
