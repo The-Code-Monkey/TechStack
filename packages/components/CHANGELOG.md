@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.53](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.52...@techstack/components@0.7.53) (2023-01-31)
+
+
+### Bug Fixes
+
+* linting ([379bb74](https://github.com/The-Code-Monkey/TechStack/commit/379bb7445efa54fe922390e0af6470729726d603))
+* update accordion to work ([1a1fa4c](https://github.com/The-Code-Monkey/TechStack/commit/1a1fa4cc071e97ee2952bd284a825f5fb22f7e6c))
+
+
+
+
+
 ## [0.7.52](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.51...@techstack/components@0.7.52) (2023-01-31)
 
 
