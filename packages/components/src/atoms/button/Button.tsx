@@ -32,6 +32,7 @@ const Button = ({
   iconPosition = 'left',
   testid,
   variant = 'default',
+  type = 'button',
   ...rest
 }: Props) => {
   const hasChildren = useMemo(
@@ -46,6 +47,7 @@ const Button = ({
       testid={`${testid || children}_button`}
       typography='button'
       variant={variant}
+      type={type}
       {...rest}
       {...iconOrientations[iconPosition]}
     >
