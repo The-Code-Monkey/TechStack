@@ -5,6 +5,7 @@ exports[`<Button /> renders default correctly 1`] = `
   <button
     class="sc-dkrFOg gplgkt sc-eDvSVe jSWqrL"
     data-testid="Default_button"
+    type="button"
   >
     <span
       class="sc-hLBbgP iMeVCS"
@@ -21,6 +22,7 @@ exports[`<Button /> renders icon correctly 1`] = `
   <button
     class="sc-dkrFOg gplgkt sc-eDvSVe jSWqrL"
     data-testid="Secondary_button"
+    type="button"
   >
     <div
       class="sc-bcXHqe eUGuxa sc-gswNZR gsMmWZ"
@@ -58,6 +60,7 @@ exports[`<Button /> renders icon only correctly 1`] = `
   <button
     class="sc-dkrFOg gplgkt sc-eDvSVe jSWqrL"
     data-testid="_button"
+    type="button"
   >
     <div
       class="sc-bcXHqe eUGuxa sc-gswNZR goIzzp"
@@ -93,6 +96,7 @@ exports[`<Button /> renders primary correctly 1`] = `
   <button
     class="sc-dkrFOg gplgkt sc-eDvSVe gptbGy"
     data-testid="Primary_button"
+    type="button"
   >
     <span
       class="sc-hLBbgP iMeVCS"
@@ -109,6 +113,7 @@ exports[`<Button /> renders secondary correctly 1`] = `
   <button
     class="sc-dkrFOg gplgkt sc-eDvSVe fNsqqk"
     data-testid="Secondary_button"
+    type="button"
   >
     <span
       class="sc-hLBbgP iMeVCS"
