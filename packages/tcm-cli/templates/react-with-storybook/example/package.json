@@ -21,6 +21,6 @@
     "@types/react-dom": "18.0.10",
     "vite": "latest",
     "vite-preset-react": "latest",
-    "typescript": "4.9.4"
+    "typescript": "4.9.5"
   }
 }
