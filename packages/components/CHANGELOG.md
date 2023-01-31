@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.52](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.51...@techstack/components@0.7.52) (2023-01-31)
+
+
+### Bug Fixes
+
+* add type button as default on button ([17e5c0d](https://github.com/The-Code-Monkey/TechStack/commit/17e5c0dc5b6ec0c8e7dd3336ffa9931aef05baa5))
+* update snapshots ([7e3d540](https://github.com/The-Code-Monkey/TechStack/commit/7e3d5405849b1e76f70fd26d8a6b846fbf85b0b1))
+
+
+
+
+
 ## [0.7.51](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.50...@techstack/components@0.7.51) (2023-01-31)
 
 **Note:** Version bump only for package @techstack/components
