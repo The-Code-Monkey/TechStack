@@ -63,7 +63,7 @@
     }
   },
   "devDependencies": {
-    "@size-limit/file": "8.1.2",
+    "@size-limit/file": "8.2.4",
     "@storybook/addon-essentials": "6.5.16",
     "@storybook/addon-interactions": "6.5.16",
     "@storybook/addon-links": "6.5.16",
