@@ -75,7 +75,7 @@
     "@storybook/react": "6.5.16",
     "@storybook/testing-library": "0.0.13",
     "@techstack/tcm-cli": "0.4.61",
-    "@testing-library/react": "13.4.0",
+    "@testing-library/react": "14.0.0",
     "@tsconfig/create-react-app": "1.0.3",
     "@tsconfig/recommended": "1.0.2",
     "@types/react-dom": "18.0.11",
