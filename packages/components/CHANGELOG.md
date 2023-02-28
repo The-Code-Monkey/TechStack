@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.90](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.89...@techstack/components@0.7.90) (2023-02-28)
+
+
+### Bug Fixes
+
+* change the images ([f2babba](https://github.com/The-Code-Monkey/TechStack/commit/f2babba62b2ec2685c0ed544cf74685c5998af70))
+
+
+
+
+
 ## [0.7.89](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.88...@techstack/components@0.7.89) (2023-02-20)
 
 **Note:** Version bump only for package @techstack/components
