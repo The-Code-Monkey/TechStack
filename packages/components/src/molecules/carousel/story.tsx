@@ -17,9 +17,9 @@ SingleTitle.args = {
   titles: ['Single Title'],
   singleTitle: true,
   images: [
-    'https://picsum.photos/1200/501',
-    'https://picsum.photos/1200/502',
-    'https://picsum.photos/1200/503',
+    'https://picsum.photos/id/200/1200/501',
+    'https://picsum.photos/id/201/1200/502',
+    'https://picsum.photos/id/202/1200/503',
   ],
 };
 
@@ -28,8 +28,8 @@ export const MultiTitle = Template.bind({});
 MultiTitle.args = {
   titles: ['1', '2', '3'],
   images: [
-    'https://picsum.photos/1200/501',
-    'https://picsum.photos/1200/502',
-    'https://picsum.photos/1200/503',
+    'https://picsum.photos/id/200/1200/501',
+    'https://picsum.photos/id/201/1200/502',
+    'https://picsum.photos/id/202/1200/503',
   ],
 };
