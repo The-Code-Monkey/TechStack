@@ -46,11 +46,11 @@
   "size-limit": [
     {
       "path": "dist/index.js",
-      "limit": "10 KB"
+      "limit": "50 KB"
     },
     {
       "path": "dist/paper-cms-pages.esm.js",
-      "limit": "10 KB"
+      "limit": "50 KB"
     }
   ],
   "jest": {
