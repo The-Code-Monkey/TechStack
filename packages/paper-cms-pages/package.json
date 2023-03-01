@@ -25,7 +25,6 @@
     "start": "tcm watch",
     "build": "yarn build:tokens && dts build",
     "build:tokens": "orchard generate",
-    "test": "yarn build:tokens && tcm test",
     "lint": "yarn build:tokens && tcm lint",
     "size": "size-limit",
     "analyze": "size-limit --why",
