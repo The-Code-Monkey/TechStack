@@ -64,7 +64,7 @@ const useSupabase = (): DbReturnType<Tables, Functions> => {
         .select(columns ?? '*')
         .eq(...(where ?? ['', '']));
 
-      const data = result.data as R | null;
+      const data = result.data as unknown as R | null;
       const error = result.error;
 
       resolve({ data, error: error?.message });

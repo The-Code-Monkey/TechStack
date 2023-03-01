@@ -109,6 +109,7 @@
     "@types/react-table": "7.7.14",
     "@supabase/supabase-js": "2.8.0",
     "@supabase/storage-js": "2.3.1",
+    "@supabase/auth-helpers-nextjs": "0.5.4",
     "classnames": "2.3.2",
     "csstype": "3.1.1",
     "deepmerge": "4.3.0",
