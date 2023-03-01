@@ -28,10 +28,10 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@nrwl/nx-cloud": "^15.0.2",
+    "@nrwl/nx-cloud": "15.1.1",
     "husky": "8.0.3",
     "lerna": "6.5.1",
-    "nx": "15.7.2"
+    "nx": "15.8.1"
   },
   "prettier": {
     "printWidth": 80,
@@ -80,3 +80,4 @@
     }
   }
 }
+
