@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.2 (2023-03-01)
+
+
+### Bug Fixes
+
+* build now works ([5af0c81](https://github.com/The-Code-Monkey/TechStack/commit/5af0c81f07853f08b1ed7ae034718c5b61c199b4))
+* linting ([94a5b0e](https://github.com/The-Code-Monkey/TechStack/commit/94a5b0e0e91a5777b7325019740888b27ce63a4a))
+* linting ([7f9c4a0](https://github.com/The-Code-Monkey/TechStack/commit/7f9c4a0c5b0c1a47b798e48c82aaa24b4522128a))
+* remove json import ([ff8bb9b](https://github.com/The-Code-Monkey/TechStack/commit/ff8bb9beb75f9ecaeb351794e2fe6865826c020a))
+* remove utils from root ([b2f6a86](https://github.com/The-Code-Monkey/TechStack/commit/b2f6a86a1c554c1b276c192fbd8bdf2452811f9e))
+
+
+
+
+
 ## [0.7.89](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.88...@techstack/components@0.7.89) (2023-02-20)
 
 **Note:** Version bump only for package @techstack/components
