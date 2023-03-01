@@ -1,5 +1,5 @@
-import {ConfigContext} from "@techstack/components";
-import {useContext} from "react";
+import { ConfigContext } from '@techstack/components';
+import { useContext } from 'react';
 
 import getSupabase from './supabase';
 

@@ -67,12 +67,13 @@ const InnerSection = ({
 
   const isHovered = hoveredId === id;
 
-  const handleInnerRendererSetContent: Dispatch<SetStateAction<RecordType[]>> =
-    fn => {
-      if (typeof fn === 'function') {
-        onChange(fn(value ?? []));
-      }
-    };
+  const handleInnerRendererSetContent: Dispatch<
+    SetStateAction<RecordType[]>
+  > = fn => {
+    if (typeof fn === 'function') {
+      onChange(fn(value ?? []));
+    }
+  };
 
   return (value ?? []).length > 0 ? (
     <ElementRenderer

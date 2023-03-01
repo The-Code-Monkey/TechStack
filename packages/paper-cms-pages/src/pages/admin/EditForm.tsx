@@ -18,8 +18,10 @@ const EditForm = ({ data, tid, id, fields }: Props) => {
   const router = useRouter();
   const DB = useDB();
 
-  const [formData, setFormData] =
-    useState<Record<string, string | Array<RecordType>> | null>(null);
+  const [formData, setFormData] = useState<Record<
+    string,
+    string | Array<RecordType>
+  > | null>(null);
 
   const handleFieldUpdate = (e: any) => {
     setFormData(prevState => {
