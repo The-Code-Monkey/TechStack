@@ -3,11 +3,10 @@ import {useContext} from "react";
 
 import getSupabase from './supabase';
 
-export const useDB = async () => {
-  const oldConfig = useContext(ConfigContext);
-  const config = await import(`${process.cwd()}/orchard.theme.config.json`)
+export const useDB = () => {
+  const config = useContext(ConfigContext);
 
-  console.log(config, oldConfig);
+  console.log(config);
 
   const getDB = () => {
     switch (config.dbProvider) {
