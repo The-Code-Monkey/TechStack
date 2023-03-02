@@ -99,7 +99,7 @@
     "@hello-pangea/dnd": "16.2.0",
     "@supabase/auth-helpers-nextjs": "0.5.4",
     "@supabase/storage-js": "2.3.1",
-    "@supabase/supabase-js": "2.8.0",
+    "@supabase/supabase-js": "2.10.0",
     "@tanstack/react-table": "8.7.9",
     "@techstack/components": "0.7.93",
     "@techstack/memoize": "0.4.63",
