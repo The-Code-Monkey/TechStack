@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.4](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/paper-cms-pages@0.0.3...@techstack/paper-cms-pages@0.0.4) (2023-03-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @supabase/supabase-js to v2.10.0 ([#1131](https://github.com/The-Code-Monkey/TechStack/issues/1131)) ([e454f40](https://github.com/The-Code-Monkey/TechStack/commit/e454f406a24dff732efaf65562e40f65741f4611))
+
+
+
+
+
 ## [0.0.3](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/paper-cms-pages@0.0.2...@techstack/paper-cms-pages@0.0.3) (2023-03-02)
 
 **Note:** Version bump only for package @techstack/paper-cms-pages
