@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 import ContentBuilder from '../../components/ContentBuilder';
 import FormButtons from '../../components/FormButtons';
-import {useDB} from '../../db';
+import { useDB } from '../../db';
 import { formatFieldNames, getFieldType, RecordType } from '../../utils/types';
 
 interface Props {

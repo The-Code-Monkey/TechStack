@@ -1,7 +1,7 @@
 import { Box, Input, Carousel, Button, Divider } from '@techstack/components';
 import { ChangeEvent } from 'react';
 
-import {useDB} from '../../db';
+import { useDB } from '../../db';
 import { CarouselRecordType } from '../../utils/types';
 
 import ImageUploader from './ImageUploader';
