@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.5](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/paper-cms-pages@0.0.4...@techstack/paper-cms-pages@0.0.5) (2023-03-02)
+
+
+### Bug Fixes
+
+* changed some stuff around ([3c495da](https://github.com/The-Code-Monkey/TechStack/commit/3c495dac2ee511ffb6f305e8a6ffb0a2de3c8a3c))
+* linting ([5342d93](https://github.com/The-Code-Monkey/TechStack/commit/5342d933b20992f4c75b327b77eb7f5088711cb2))
+* remove async ([f1c2eb0](https://github.com/The-Code-Monkey/TechStack/commit/f1c2eb099370d3b498dcd078282834da8d8ccd9c))
+* update imports of useDB ([6725e25](https://github.com/The-Code-Monkey/TechStack/commit/6725e25a8c39c5143320cd2fd8419099e85e7311))
+
+
+
+
+
 ## [0.0.4](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/paper-cms-pages@0.0.3...@techstack/paper-cms-pages@0.0.4) (2023-03-02)
 
 
