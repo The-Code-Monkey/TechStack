@@ -12,7 +12,7 @@ interface PageProps {
   fieldData?: Record<string, string>[];
 }
 
-const EditPage = async ({ params, data, fieldData }: PageProps) => {
+const EditPage = ({ params, data, fieldData }: PageProps) => {
   const { tid, id } = params ?? {};
 
   return (
