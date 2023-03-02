@@ -2,7 +2,7 @@ import { Box } from '@techstack/components';
 import { useRouter } from 'next/navigation';
 import { useContext, useState } from 'react';
 
-import useDB from '../../db';
+import {useDB} from '../../db';
 import { RecordType } from '../../utils/types';
 import FormButtons from '../FormButtons';
 

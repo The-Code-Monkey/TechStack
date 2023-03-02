@@ -7,7 +7,7 @@ import {
 import { Box, Button } from '@techstack/components';
 import { v4 as uuid } from 'uuid';
 
-import useDB from '../../db';
+import {useDB} from '../../db';
 import {
   ImageRecordType,
   InnerSectionType,
