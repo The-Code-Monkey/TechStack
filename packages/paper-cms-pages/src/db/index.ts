@@ -1,10 +1,12 @@
-import { ConfigContext } from '@techstack/components';
-import { useContext } from 'react';
-
 import getSupabase from './supabase';
+import {useContext} from "react";
+import {ConfigContext} from "@techstack/components";
 
-export const useDB = () => {
-  const config = useContext(ConfigContext);
+export const useDB = async () => {
+  const oldConfig = useContext(ConfigContext);
+  const config = await import(`${process.cwd()}/orchard.theme.config.json`)
+
+  console.log(config, oldConfig);
 
   const getDB = () => {
     switch (config.dbProvider) {

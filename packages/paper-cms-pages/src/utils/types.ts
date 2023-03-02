@@ -1,21 +1,21 @@
 export const capitalizeFirstLetter = ([first, ...rest]: any) =>
   (first === undefined ? '' : first.toUpperCase()) +
   rest
-    .join('')
-    .split(/(?=[A-Z])/g)
-    .map((str: string, i: number) => {
+    ?.join('')
+    ?.split(/(?=[A-Z])/g)
+    ?.map((str: string, i: number) => {
       if (i === 0) return str;
       return capitalizeFirstLetter(str);
     })
-    .join(' ');
+    ?.join(' ') ?? '';
 
 export const formatFieldNames = (value: string) => {
   if (value === 'id') return 'ID';
 
   return value
-    .split('_')
-    .map(str => capitalizeFirstLetter(str))
-    .join(' ');
+    ?.split('_')
+    ?.map(str => capitalizeFirstLetter(str))
+    ?.join(' ') ?? '';
 };
 
 export const getFieldType = (
