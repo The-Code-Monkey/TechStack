@@ -1,6 +1,7 @@
-import getSupabase from './supabase';
-import {useContext} from "react";
 import {ConfigContext} from "@techstack/components";
+import {useContext} from "react";
+
+import getSupabase from './supabase';
 
 export const useDB = async () => {
   const oldConfig = useContext(ConfigContext);
