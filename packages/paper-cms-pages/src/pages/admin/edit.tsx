@@ -1,5 +1,6 @@
+'use client';
+
 import Header from '../../components/header';
-import useDB from '../../db';
 import { StyledMain } from '../../styles/styled';
 import { RecordType } from '../../utils/types';
 
@@ -7,26 +8,12 @@ import EditForm from './EditForm';
 
 interface PageProps {
   params?: Record<string, string>;
+  data?: Record<string, Array<RecordType>>[];
+  fieldData?: Record<string, string>[];
 }
 
-const EditPage = async ({ params }: PageProps) => {
+const EditPage = async ({ params, data, fieldData }: PageProps) => {
   const { tid, id } = params ?? {};
-
-  const DB = useDB();
-
-  const { data: fieldData } = await DB.dbFunction<Record<string, string>[]>(
-    'get_table_fields',
-    {
-      name: tid,
-    }
-  );
-
-  const { data } = await DB.get<Record<string, Array<RecordType>>[]>(
-    tid as any,
-    {
-      where: ['id', id],
-    }
-  );
 
   return (
     <StyledMain>

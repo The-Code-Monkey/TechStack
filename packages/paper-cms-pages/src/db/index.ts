@@ -3,7 +3,7 @@ import { useContext } from 'react';
 
 import getSupabase from './supabase';
 
-const useDB = () => {
+export const useDB = () => {
   const config = useContext(ConfigContext);
 
   const getDB = () => {
@@ -17,5 +17,3 @@ const useDB = () => {
 
   return getDB();
 };
-
-export default useDB;
