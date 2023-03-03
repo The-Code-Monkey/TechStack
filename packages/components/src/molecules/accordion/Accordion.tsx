@@ -36,7 +36,7 @@ const Accordion: FC<PropsWithChildren<Props>> = ({
         {title}
       </Button>
       <Box className='panel' maxH={isOpen ? `${maxHeight}px` : '0'}>
-        <p>{children}</p>
+        {children}
       </Box>
     </StyledAccordion>
   );
