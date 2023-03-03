@@ -116,7 +116,7 @@
     "react-responsive-carousel": "3.2.23",
     "react-table": "7.8.0",
     "react-virtual": "2.10.4",
-    "styled-components": "5.3.6"
+    "styled-components": "5.3.8"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a",
   "browser": {
