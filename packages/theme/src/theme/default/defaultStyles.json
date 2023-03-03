@@ -56,6 +56,21 @@
         "_first": {
           "borderLeft": "0"
         }
+      },
+      "card": {
+        "bg": "neutrals.0",
+        "color": "text",
+        "transition": "card",
+        "borderRadius": "1",
+        "boxShadow": "card",
+        "overflow": "hidden",
+        "minWidth": "18"
+      },
+      "cardContent": {
+        "p": "5"
+      },
+      "cardActions":{
+        "p": "4"
       }
     }
   }

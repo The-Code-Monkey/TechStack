@@ -11,7 +11,7 @@ import { InteractableProps, Text, IconProps } from '../../primal';
 import { StyledInteractable, iconOrientations, iconMargins } from './styled';
 
 export interface Props
-  extends InteractableProps,
+  extends Omit<InteractableProps, 'size'>,
     Partial<
       Omit<
         HTMLButtonElement,
@@ -23,6 +23,7 @@ export interface Props
   variant?: string;
   intent?: string;
   strong?: boolean;
+  size?: 'sm' | 'md' | 'lg';
 }
 
 const Button = ({
@@ -33,6 +34,7 @@ const Button = ({
   testid,
   variant = 'default',
   type = 'button',
+  size = 'md',
   ...rest
 }: Props) => {
   const hasChildren = useMemo(
@@ -48,6 +50,7 @@ const Button = ({
       typography='button'
       variant={variant}
       type={type}
+      size={size}
       {...rest}
       {...iconOrientations[iconPosition]}
     >

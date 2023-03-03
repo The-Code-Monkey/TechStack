@@ -66,6 +66,10 @@ export const StyledInteractable = styled(Interactable)<{ strong?: boolean }>`
     key: 'buttons.variants',
   })}
   ${variant({
+    key: 'buttons.size',
+    prop: 'size',
+  })}
+  ${variant({
     prop: 'intent',
     key: 'buttons.intents',
   })}

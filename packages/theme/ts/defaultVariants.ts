@@ -161,6 +161,19 @@ const variants = {
         },
       },
     },
+    size: {
+      sm: {
+        bg: 'unset',
+        color: 'highlights.0',
+        p: '3',
+        _hover: {
+          bg: 'unset',
+          color: 'highlights.1',
+        },
+      },
+      md: {},
+      lg: {},
+    },
   },
 };
 

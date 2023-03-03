@@ -3,7 +3,7 @@
 exports[`<Button /> renders default correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-dkrFOg gplgkt sc-eDvSVe jSWqrL"
+    class="sc-dkrFOg gplgkt sc-eDvSVe kqFDGW"
     data-testid="Default_button"
     type="button"
   >
@@ -20,7 +20,7 @@ exports[`<Button /> renders default correctly 1`] = `
 exports[`<Button /> renders icon correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-dkrFOg gplgkt sc-eDvSVe jSWqrL"
+    class="sc-dkrFOg gplgkt sc-eDvSVe kqFDGW"
     data-testid="Secondary_button"
     type="button"
   >
@@ -58,7 +58,7 @@ exports[`<Button /> renders icon correctly 1`] = `
 exports[`<Button /> renders icon only correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-dkrFOg gplgkt sc-eDvSVe jSWqrL"
+    class="sc-dkrFOg gplgkt sc-eDvSVe kqFDGW"
     data-testid="_button"
     type="button"
   >
@@ -94,7 +94,7 @@ exports[`<Button /> renders icon only correctly 1`] = `
 exports[`<Button /> renders primary correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-dkrFOg gplgkt sc-eDvSVe gptbGy"
+    class="sc-dkrFOg gplgkt sc-eDvSVe fjiZwj"
     data-testid="Primary_button"
     type="button"
   >
@@ -111,7 +111,7 @@ exports[`<Button /> renders primary correctly 1`] = `
 exports[`<Button /> renders secondary correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-dkrFOg gplgkt sc-eDvSVe fNsqqk"
+    class="sc-dkrFOg gplgkt sc-eDvSVe gjEOOZ"
     data-testid="Secondary_button"
     type="button"
   >

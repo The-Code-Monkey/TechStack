@@ -5,6 +5,9 @@
         "text": {
           "value": "rgba(25, 25, 25, 0.9)"
         },
+        "!text": {
+          "value": "rgba(255, 255, 255, 0.9)"
+        },
         "highlight": {
           "value": "#009fe3"
         },
