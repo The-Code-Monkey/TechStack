@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.96](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.95...@techstack/components@0.7.96) (2023-03-03)
+
+
+### Bug Fixes
+
+* add card element ([a1aab3d](https://github.com/The-Code-Monkey/TechStack/commit/a1aab3d5350f6c7577c1d453843b789c8ccabd35))
+* fix accordion ([08e25c8](https://github.com/The-Code-Monkey/TechStack/commit/08e25c80186ff89e096493668eca86307484f148))
+* update yarn lock ([e2ded03](https://github.com/The-Code-Monkey/TechStack/commit/e2ded03b16f1ee74b00575534b2f14f67394012d))
+
+
+
+
+
 ## 0.7.95 (2023-03-02)
 
 **Note:** Version bump only for package @techstack/components

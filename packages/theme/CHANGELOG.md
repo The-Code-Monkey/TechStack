@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.75](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.4.74...@techstack/theme@0.4.75) (2023-03-03)
+
+
+### Bug Fixes
+
+* add card element ([a1aab3d](https://github.com/The-Code-Monkey/TechStack/commit/a1aab3d5350f6c7577c1d453843b789c8ccabd35))
+
+
+
+
+
 ## 0.4.74 (2023-03-02)
 
 **Note:** Version bump only for package @techstack/theme
