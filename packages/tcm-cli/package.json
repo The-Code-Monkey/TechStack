@@ -102,7 +102,7 @@
     "@typescript-eslint/eslint-plugin": "5.54.1",
     "@typescript-eslint/parser": "5.54.1",
     "auto-changelog": "2.4.0",
-    "autoprefixer": "10.4.13",
+    "autoprefixer": "10.4.14",
     "babel-plugin-replace-identifiers": "0.1.1",
     "cssnano": "5.1.15",
     "doctoc": "2.2.1",
