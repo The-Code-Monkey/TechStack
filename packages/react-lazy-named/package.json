@@ -1,6 +1,6 @@
 {
   "name": "@techstack/react-lazy-named",
-  "version": "0.4.76",
+  "version": "0.4.77",
   "description": "React lazy() with named imports - exports support",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/react-lazy-named/README.md",
   "repository": {
@@ -45,7 +45,7 @@
     "rerender"
   ],
   "devDependencies": {
-    "@techstack/tcm-cli": "0.4.76",
+    "@techstack/tcm-cli": "0.4.77",
     "@testing-library/react": "14.0.0",
     "dts-cli": "1.6.3",
     "jest-environment-jsdom": "29.5.0"
