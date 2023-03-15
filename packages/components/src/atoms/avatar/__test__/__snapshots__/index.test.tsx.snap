@@ -3,11 +3,11 @@
 exports[`<Avatar /> renders icon correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-beySbM fDoOsD"
+    class="sc-beqWaB hrvKeu"
     data-testid="avatar"
   >
     <div
-      class="sc-beySbM bvdtDr sc-guDLRT jCUmu"
+      class="sc-beqWaB eTNAgm sc-gueYoa eLIRtT"
       data-testid="box"
     >
       <svg
@@ -34,7 +34,7 @@ exports[`<Avatar /> renders icon correctly 1`] = `
 exports[`<Avatar /> renders img correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-beySbM fDoOsD"
+    class="sc-beqWaB hrvKeu"
     data-testid="avatar"
   >
     <img
@@ -50,15 +50,15 @@ exports[`<Avatar /> renders img correctly 1`] = `
 exports[`<Avatar /> renders text correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-beySbM fDoOsD"
+    class="sc-beqWaB hrvKeu"
     data-testid="avatar"
   >
     <div
-      class="sc-beySbM dFsJCc"
+      class="sc-beqWaB bDfOZN"
       data-testid="initials"
     >
       <span
-        class="sc-hLQRIN bLLgoo"
+        class="sc-hLseeU cmeA-dj"
         data-testid=""
       >
         TT
@@ -70,29 +70,29 @@ exports[`<Avatar /> renders text correctly 1`] = `
 
 exports[`<Avatar /> should apply typography styles if provided 1`] = `
 <div
-  class="sc-beySbM fDoOsD"
+  class="sc-beqWaB hrvKeu"
   data-testid="avatar"
 />
 `;
 
 exports[`<Avatar /> should change size based on size prop 1`] = `
 <div
-  class="sc-beySbM TBlhP"
+  class="sc-beqWaB gpyTPa"
   data-testid="avatar"
 />
 `;
 
 exports[`<Avatar /> should render initials if provided 1`] = `
 <div
-  class="sc-beySbM fDoOsD"
+  class="sc-beqWaB hrvKeu"
   data-testid="avatar"
 >
   <div
-    class="sc-beySbM dFsJCc"
+    class="sc-beqWaB bDfOZN"
     data-testid="initials"
   >
     <span
-      class="sc-hLQRIN bLLgoo"
+      class="sc-hLseeU cmeA-dj"
       data-testid=""
     >
       JD
