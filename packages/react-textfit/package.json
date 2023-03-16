@@ -52,7 +52,7 @@
     "expect": "29.5.0",
     "mocha": "10.2.0",
     "rimraf": "4.4.0",
-    "webpack-dev-server": "4.11.1"
+    "webpack-dev-server": "4.12.0"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
