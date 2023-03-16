@@ -51,7 +51,7 @@
     "@tsconfig/recommended": "1.0.2",
     "@types/fs-extra": "11.0.1",
     "@types/lodash": "4.14.191",
-    "@types/lodash-es": "4.17.6",
+    "@types/lodash-es": "4.17.7",
     "@types/tinycolor2": "1.4.3",
     "size-limit": "8.2.4",
     "ts-jest": "29.0.5",
