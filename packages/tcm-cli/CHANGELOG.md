@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.83](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.82...@techstack/tcm-cli@0.4.83) (2023-03-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v7.1.1 ([#1165](https://github.com/The-Code-Monkey/TechStack/issues/1165)) ([bf4dbf3](https://github.com/The-Code-Monkey/TechStack/commit/bf4dbf3d371178e87a9ca0556e5bcadcb2bbe9c3))
+
+
+
+
+
 ## 0.4.82 (2023-03-16)
 
 
