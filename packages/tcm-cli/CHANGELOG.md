@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.85 (2023-03-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fs-extra to v11.1.1 ([#1181](https://github.com/The-Code-Monkey/TechStack/issues/1181)) ([8bf1076](https://github.com/The-Code-Monkey/TechStack/commit/8bf1076d261b757dd26345e0755dcf73d6059aed))
+* **deps:** update dependency ora to v6.2.0 ([#1178](https://github.com/The-Code-Monkey/TechStack/issues/1178)) ([9a5d738](https://github.com/The-Code-Monkey/TechStack/commit/9a5d738874f37d9cbab211469e817409d3e4bad2))
+* **deps:** update dependency prettier to v2.8.5 ([#1180](https://github.com/The-Code-Monkey/TechStack/issues/1180)) ([8616b00](https://github.com/The-Code-Monkey/TechStack/commit/8616b00f2fa88fa3372e6dc0b8ee0463e5906a3b))
+
+
+
+
+
 ## 0.4.84 (2023-03-16)
 
 

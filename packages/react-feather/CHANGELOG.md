@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.85 (2023-03-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fs-extra to v11.1.1 ([#1181](https://github.com/The-Code-Monkey/TechStack/issues/1181)) ([8bf1076](https://github.com/The-Code-Monkey/TechStack/commit/8bf1076d261b757dd26345e0755dcf73d6059aed))
+
+
+
+
+
 ## 0.4.84 (2023-03-16)
 
 **Note:** Version bump only for package @techstack/react-feather
