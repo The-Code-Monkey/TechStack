@@ -68,7 +68,7 @@
     "jest-watch-typeahead": "2.2.2",
     "jpjs": "1.2.1",
     "lodash.merge": "4.6.2",
-    "ora": "6.1.2",
+    "ora": "6.2.0",
     "pascal-case": "3.1.2",
     "postcss": "8.4.21",
     "prettier": "2.8.5",
