@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.87](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.86...@techstack/tcm-cli@0.4.87) (2023-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v8.8.0 ([#1183](https://github.com/The-Code-Monkey/TechStack/issues/1183)) ([c1a4d61](https://github.com/The-Code-Monkey/TechStack/commit/c1a4d61f5c244f03af4a7d18a6ea40c0c5fbd20d))
+
+
+
+
+
 ## [0.4.86](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.85...@techstack/tcm-cli@0.4.86) (2023-03-21)
 
 
