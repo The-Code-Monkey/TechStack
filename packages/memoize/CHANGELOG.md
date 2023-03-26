@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.88](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@0.4.87...@techstack/memoize@0.4.88) (2023-03-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ora to v6.3.0 ([#1196](https://github.com/The-Code-Monkey/TechStack/issues/1196)) ([8050007](https://github.com/The-Code-Monkey/TechStack/commit/80500075eb5d610686aca8262e33176112500367))
+
+
+
+
+
 ## [0.4.87](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@0.4.86...@techstack/memoize@0.4.87) (2023-03-21)
 
 **Note:** Version bump only for package @techstack/memoize

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.88](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.87...@techstack/tcm-cli@0.4.88) (2023-03-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ora to v6.3.0 ([#1196](https://github.com/The-Code-Monkey/TechStack/issues/1196)) ([8050007](https://github.com/The-Code-Monkey/TechStack/commit/80500075eb5d610686aca8262e33176112500367))
+* **deps:** update dependency prettier to v2.8.7 ([#1197](https://github.com/The-Code-Monkey/TechStack/issues/1197)) ([3b484f2](https://github.com/The-Code-Monkey/TechStack/commit/3b484f2fade0bacd9907ad92cb270ecab0caf8fe))
+
+
+
+
+
 ## [0.4.87](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.86...@techstack/tcm-cli@0.4.87) (2023-03-21)
 
 
