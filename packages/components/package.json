@@ -97,7 +97,7 @@
     "webpack": "5.76.2"
   },
   "dependencies": {
-    "@tanstack/react-table": "8.8.2",
+    "@tanstack/react-table": "8.8.4",
     "@techstack/memoize": "0.4.90",
     "@techstack/react-feather": "0.4.90",
     "@techstack/react-lazy-named": "0.4.90",
