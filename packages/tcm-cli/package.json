@@ -104,7 +104,7 @@
     "auto-changelog": "2.4.0",
     "autoprefixer": "10.4.14",
     "babel-plugin-replace-identifiers": "0.1.1",
-    "cssnano": "5.1.15",
+    "cssnano": "6.0.0",
     "doctoc": "2.2.1",
     "lint-staged": "13.2.0",
     "react": "18.2.0",
