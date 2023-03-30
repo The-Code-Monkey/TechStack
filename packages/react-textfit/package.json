@@ -51,7 +51,7 @@
     "eslint-plugin-react": "7.32.2",
     "expect": "29.5.0",
     "mocha": "10.2.0",
-    "rimraf": "4.4.0",
+    "rimraf": "4.4.1",
     "webpack-dev-server": "4.13.1"
   },
   "peerDependencies": {
