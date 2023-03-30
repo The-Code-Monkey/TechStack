@@ -30,7 +30,7 @@
   "devDependencies": {
     "@nrwl/nx-cloud": "15.3.3",
     "husky": "8.0.3",
-    "lerna": "6.5.1",
+    "lerna": "6.6.1",
     "nx": "15.8.9"
   },
   "prettier": {
