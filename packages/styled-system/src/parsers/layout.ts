@@ -10,7 +10,7 @@ import {
 } from '../types';
 import { isNumber } from '../utils';
 
-function getWidth(scale?: Scale, n?: string | number) {
+function getWidth(scale?: Scale, n?: number) {
   return get(scale, n, !isNumber(n) || n > 1 ? n : `${(n as number) * 100}%`);
 }
 
