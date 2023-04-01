@@ -106,7 +106,7 @@
     "@techstack/theme": "0.4.102",
     "@types/react-table": "7.7.14",
     "classnames": "2.3.2",
-    "csstype": "3.1.1",
+    "csstype": "3.1.2",
     "deepmerge": "4.3.1",
     "i18next": "22.4.13",
     "react-date-picker": "^9.1.0",
