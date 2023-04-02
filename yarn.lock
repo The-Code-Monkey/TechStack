@@ -17773,9 +17773,9 @@ react-clock@^4.0.0:
     prop-types "^15.6.0"
 
 react-date-picker@^9.1.0, react-date-picker@^9.2.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/react-date-picker/-/react-date-picker-9.2.0.tgz#ee194a694fa9891d93e4d40e76fbcdae7eafbe86"
-  integrity sha512-kAE7HFLq1ic4pS0Pk9SyPTjejIfjTyPov04a2eZzLxfZh8ss8EPaaaX7bBUP4RUCkbxHpR0P4UHloD0/fFDCZw==
+  version "9.2.1"
+  resolved "https://registry.yarnpkg.com/react-date-picker/-/react-date-picker-9.2.1.tgz#74b520c751c58d86ef98071f7a15e471674c4ac2"
+  integrity sha512-5DPe/AVeiDjM4EEyGBxDu1iW9Au2i5JZFMqg+ARr4MoRWqhoGLDOBYZ+Pzb788/B6XQ89Ywu+zbubOBx5tSU+Q==
   dependencies:
     "@types/react-calendar" "^3.0.0"
     "@wojtekmaj/date-utils" "^1.0.3"
@@ -17783,7 +17783,7 @@ react-date-picker@^9.1.0, react-date-picker@^9.2.0:
     get-user-locale "^1.2.0"
     make-event-props "^1.1.0"
     prop-types "^15.6.0"
-    react-calendar "^4.0.0"
+    react-calendar "~4.0.0"
     react-fit "^1.4.0"
     update-input-width "^1.2.2"
 
