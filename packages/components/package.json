@@ -1,5 +1,5 @@
 {
-  "version": "0.7.136",
+  "version": "0.7.137",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -102,7 +102,7 @@
     "@techstack/react-feather": "0.4.93",
     "@techstack/react-lazy-named": "0.4.93",
     "@techstack/react-textfit": "0.4.107",
-    "@techstack/styled-system": "0.4.99",
+    "@techstack/styled-system": "0.4.100",
     "@techstack/theme": "0.4.102",
     "@types/react-table": "7.7.14",
     "classnames": "2.3.2",

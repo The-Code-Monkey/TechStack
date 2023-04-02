@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.100 (2023-04-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency csstype to v3.1.2 ([#1214](https://github.com/The-Code-Monkey/TechStack/issues/1214)) ([050fefb](https://github.com/The-Code-Monkey/TechStack/commit/050fefb7682831d844bbd1671e8df6dacaaef40e))
+
+
+
+
+
 ## [0.4.99](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@0.4.98...@techstack/styled-system@0.4.99) (2023-03-31)
 
 **Note:** Version bump only for package @techstack/styled-system
