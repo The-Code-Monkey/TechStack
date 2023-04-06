@@ -17840,17 +17840,6 @@ raw-loader@^4.0.2:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
 
-react-calendar@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/react-calendar/-/react-calendar-4.2.0.tgz#0ab45a356f8d498b3c9f3349bdb46f04dc2385e1"
-  integrity sha512-WZPGnzcEDFtlKj+yTVuLuAWrV5RIxiKd4mDSOYzx2u1DjD91nKUKa0ZKex1LaDUUqGwhJXheWYa9N0zLCSTtTw==
-  dependencies:
-    "@types/react" "*"
-    "@wojtekmaj/date-utils" "^1.1.3"
-    clsx "^1.2.1"
-    get-user-locale "^2.2.1"
-    prop-types "^15.6.0"
-
 react-calendar@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/react-calendar/-/react-calendar-4.2.1.tgz#3706bfd5ff727f877c8a60c36bc352b4f8fdee55"
@@ -17874,16 +17863,16 @@ react-clock@^4.2.0:
     prop-types "^15.6.0"
 
 react-date-picker@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/react-date-picker/-/react-date-picker-10.0.0.tgz#ab4718506261fa31dd53bd8a76a4807623d8f508"
-  integrity sha512-qefofLOW0d6BfB81AyO1cZCMoCpXlBCjLAeL+xB9O7eGZr21Gzpi+QTjj3PzP0xB0PbE9JonJMLR8IvxvQEViw==
+  version "10.0.2"
+  resolved "https://registry.yarnpkg.com/react-date-picker/-/react-date-picker-10.0.2.tgz#5d6c5415d1d12971d31481b9d6830d18da08d21a"
+  integrity sha512-I08T6GFoXof403bL48wlQJAZV7CKULwJgMil6iYGqdq89prTY2UJv6UCz8SEYo4BSd8rUKSPgAQ/mz9S7xU65Q==
   dependencies:
     "@wojtekmaj/date-utils" "^1.1.3"
     clsx "^1.2.1"
     get-user-locale "^2.2.1"
     make-event-props "^1.4.2"
     prop-types "^15.6.0"
-    react-calendar "^4.2.0"
+    react-calendar "^4.2.1"
     react-fit "^1.5.1"
     update-input-width "^1.3.1"
 
