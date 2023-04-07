@@ -83,7 +83,7 @@
     "ts-node": "10.9.1",
     "tslib": "2.5.0",
     "type-fest": "3.8.0",
-    "typescript": "5.0.3"
+    "typescript": "5.0.4"
   },
   "devDependencies": {
     "@commitlint/cli": "17.5.1",
