@@ -93,7 +93,7 @@
     "size-limit": "8.2.4",
     "storybook-addon-pseudo-states": "1.15.5",
     "tslib": "2.5.0",
-    "typescript": "5.0.3",
+    "typescript": "5.0.4",
     "webpack": "5.78.0"
   },
   "dependencies": {
