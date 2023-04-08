@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.114](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-textfit@0.4.113...@techstack/react-textfit@0.4.114) (2023-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.38.0 ([#1234](https://github.com/The-Code-Monkey/TechStack/issues/1234)) ([5da9af0](https://github.com/The-Code-Monkey/TechStack/commit/5da9af09f64f9311042270f6800505281c5d6a74))
+
+
+
+
+
 ## 0.4.113 (2023-04-07)
 
 **Note:** Version bump only for package @techstack/react-textfit
