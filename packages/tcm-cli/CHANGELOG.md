@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.101](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.100...@techstack/tcm-cli@0.4.101) (2023-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency figlet to v1.6.0 ([#1235](https://github.com/The-Code-Monkey/TechStack/issues/1235)) ([7398b2c](https://github.com/The-Code-Monkey/TechStack/commit/7398b2ca03ca0df6d95d8dd5eb805cdc603c73f0))
+
+
+
+
+
 ## [0.4.100](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.99...@techstack/tcm-cli@0.4.100) (2023-04-08)
 
 
