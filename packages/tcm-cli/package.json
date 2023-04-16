@@ -75,7 +75,7 @@
     "progress-estimator": "0.3.0",
     "regenerator-runtime": "0.13.11",
     "sade": "1.8.1",
-    "semver": "7.3.8",
+    "semver": "7.4.0",
     "shelljs": "0.8.5",
     "sort-package-json": "2.4.1",
     "tiny-glob": "0.2.9",
