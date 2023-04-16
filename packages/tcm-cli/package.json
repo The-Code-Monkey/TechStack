@@ -97,7 +97,7 @@
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
     "@types/semver": "7.3.13",
-    "@types/shelljs": "0.8.11",
+    "@types/shelljs": "0.8.12",
     "@types/styled-components": "5.1.26",
     "@typescript-eslint/eslint-plugin": "5.57.1",
     "@typescript-eslint/parser": "5.57.1",
