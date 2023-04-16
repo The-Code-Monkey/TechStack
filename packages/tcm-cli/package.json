@@ -93,7 +93,7 @@
     "@types/eslint": "8.37.0",
     "@types/figlet": "1.5.5",
     "@types/fs-extra": "11.0.1",
-    "@types/lodash": "4.14.192",
+    "@types/lodash": "4.14.194",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/semver": "7.3.13",
