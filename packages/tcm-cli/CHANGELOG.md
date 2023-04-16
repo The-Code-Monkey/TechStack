@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.105 (2023-04-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency colorette to v2.0.20 ([#1250](https://github.com/The-Code-Monkey/TechStack/issues/1250)) ([cb43b3b](https://github.com/The-Code-Monkey/TechStack/commit/cb43b3be5f435c252c1cb3809ca0cb2ceb29595f))
+* **deps:** update dependency postcss to v8.4.22 ([#1251](https://github.com/The-Code-Monkey/TechStack/issues/1251)) ([fa607ab](https://github.com/The-Code-Monkey/TechStack/commit/fa607ab4c5351f1cc6e0c55c96095e1d9cb19aad))
+* **deps:** update dependency semver to v7.4.0 ([#1239](https://github.com/The-Code-Monkey/TechStack/issues/1239)) ([bf22d8b](https://github.com/The-Code-Monkey/TechStack/commit/bf22d8b4ff4bf52c2baf632417a4116dbe226bc0))
+
+
+
+
+
 ## [0.4.104](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.103...@techstack/tcm-cli@0.4.104) (2023-04-16)
 
 
