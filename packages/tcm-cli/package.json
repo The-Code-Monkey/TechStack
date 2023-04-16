@@ -86,8 +86,8 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.5.1",
-    "@commitlint/config-conventional": "17.4.4",
+    "@commitlint/cli": "17.6.1",
+    "@commitlint/config-conventional": "17.6.1",
     "@types/color": "3.0.3",
     "@types/cssnano": "5.0.0",
     "@types/eslint": "8.37.0",
