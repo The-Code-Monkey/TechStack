@@ -51,7 +51,7 @@
   "devDependencies": {
     "@size-limit/file": "8.2.4",
     "@techstack/tcm-cli": "0.4.106",
-    "dts-cli": "1.6.3",
+    "dts-cli": "2.0.1",
     "size-limit": "8.2.4",
     "tslib": "2.5.0",
     "typescript": "5.0.4"
