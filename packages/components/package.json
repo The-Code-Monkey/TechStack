@@ -94,7 +94,7 @@
     "storybook-addon-pseudo-states": "1.15.5",
     "tslib": "2.5.0",
     "typescript": "5.0.4",
-    "webpack": "5.78.0"
+    "webpack": "5.79.0"
   },
   "dependencies": {
     "@tanstack/react-table": "8.8.5",
