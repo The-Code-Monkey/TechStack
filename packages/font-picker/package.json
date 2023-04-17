@@ -35,7 +35,7 @@
     "react-dom": "^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
-    "@storybook/react": "6.5.16",
+    "@storybook/react": "7.0.5",
     "@techstack/tcm-cli": "0.4.106",
     "dts-cli": "1.6.3",
     "react": "18.2.0"
