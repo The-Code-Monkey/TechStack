@@ -110,7 +110,7 @@
     "@types/fs-extra": "11.0.1",
     "@types/lodash": "4.14.194",
     "@types/node": "18.15.11",
-    "@types/react": "18.0.35",
+    "@types/react": "18.0.37",
     "@types/semver": "7.3.13",
     "@types/shelljs": "0.8.12",
     "@types/styled-components": "5.1.26",
