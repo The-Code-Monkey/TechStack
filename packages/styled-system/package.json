@@ -10,12 +10,12 @@
   "bugs": {
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
-  "main": "./dist/index.js",
-  "module": "./dist/styled-system.esm.js",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
   "exports": {
-    "import": "./dist/styled-system.esm.js",
-    "require": "./dist/styled-system.cjs.production.min.js",
-    "default": "./dist/styled-system.esm.js"
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js",
+    "default": "./dist/esm/index.js"
   },
   "typings": "dist/types/index.d.ts",
   "type": "module",
@@ -31,7 +31,7 @@
   },
   "scripts": {
     "start": "tcm watch",
-    "build": "dts build",
+    "build": "tcm build",
     "test": "tcm test",
     "lint": "tcm lint",
     "size": "size-limit",
@@ -40,18 +40,17 @@
   "author": "The-Code-Monkey",
   "size-limit": [
     {
-      "path": "dist/styled-system.esm.js",
+      "path": "dist/esm/index.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/index.js",
+      "path": "dist/cjs/index.js",
       "limit": "10 KB"
     }
   ],
   "devDependencies": {
     "@size-limit/file": "8.2.4",
     "@techstack/tcm-cli": "0.4.106",
-    "dts-cli": "1.6.3",
     "size-limit": "8.2.4",
     "tslib": "2.5.0",
     "typescript": "5.0.4"

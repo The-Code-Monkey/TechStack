@@ -3,12 +3,12 @@
   "version": "0.4.106",
   "description": "React component for Feather icons",
   "type": "module",
-  "main": "./dist/index.js",
-  "module": "./dist/react-feather.esm.js",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
   "exports": {
-    "import": "./dist/react-feather.esm.js",
-    "require": "./dist/index.js",
-    "default": "./dist/react-feather.esm.js"
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js",
+    "default": "./dist/esm/index.js"
   },
   "typings": "dist/types/index.d.ts",
   "files": [
@@ -18,7 +18,7 @@
   "scripts": {
     "lint": "tcm lint",
     "build:types": "node generate.js",
-    "build": "dts build"
+    "build": "tcm build"
   },
   "engines": {
     "node": ">=16"
@@ -46,7 +46,6 @@
   "devDependencies": {
     "@techstack/tcm-cli": "0.4.106",
     "cross-env": "7.0.3",
-    "dts-cli": "1.6.3",
     "fs-extra": "11.1.1",
     "typescript": "5.0.4"
   },

@@ -22,7 +22,7 @@
   },
   "typings": "dist/types/index.d.ts",
   "scripts": {
-    "build": "dts build",
+    "build": "tcm build",
     "lint": "tcm lint"
   },
   "publishConfig": {
@@ -45,7 +45,6 @@
     "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
-    "dts-cli": "1.6.3",
     "eslint": "8.38.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-plugin-react": "7.32.2",

@@ -23,7 +23,7 @@
   },
   "scripts": {
     "lint": "tcm lint",
-    "build": "dts build",
+    "build": "tcm build",
     "storybook": "storybook"
   },
   "dependencies": {
@@ -37,7 +37,6 @@
   "devDependencies": {
     "@storybook/react": "7.0.5",
     "@techstack/tcm-cli": "0.4.106",
-    "dts-cli": "1.6.3",
     "react": "18.2.0"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a"

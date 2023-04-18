@@ -2,12 +2,12 @@
   "version": "0.7.159",
   "license": "MIT",
   "type": "module",
-  "main": "./dist/index.js",
-  "module": "./dist/components.esm.js",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
   "exports": {
     ".": {
-      "import": "./dist/components.esm.js",
-      "require": "./dist/index.js"
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
     }
   },
   "typings": "dist/types/index.d.ts",
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "tcm watch",
-    "build": "yarn build:tokens && dts build",
+    "build": "yarn build:tokens && tcm build",
     "build:tokens": "orchard generate",
     "test": "yarn build:tokens && tcm test",
     "lint": "yarn build:tokens && tcm lint",
@@ -46,11 +46,11 @@
   },
   "size-limit": [
     {
-      "path": "dist/index.js",
+      "path": "dist/cjs/index.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/components.esm.js",
+      "path": "dist/esm/index.js",
       "limit": "10 KB"
     }
   ],
@@ -81,7 +81,6 @@
     "@types/react-dom": "18.0.11",
     "chromatic": "6.17.3",
     "cross-env": "7.0.3",
-    "dts-cli": "1.6.3",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-prettier": "4.2.1",
     "esm": "3.2.25",

@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { render, RenderResult } from '@testing-library/react';
 import { ReactNode } from 'react';
 import { ThemeProvider } from 'styled-components';
 
@@ -36,7 +36,7 @@ const formattedTheme = {
   },
 };
 
-export const mountWithTheme = (children: ReactNode) => {
+export const mountWithTheme = (children: ReactNode): RenderResult => {
   expect.addSnapshotSerializer(removeProperties());
 
   return render(

@@ -25,10 +25,10 @@ const basicTemplate: Template = {
     },
     scripts: {
       start: 'tcm watch',
-      build: 'dts build',
+      build: 'tcm build',
       test: 'tcm test',
       lint: 'tcm lint',
-      prepare: 'dts build',
+      prepare: 'tcm build',
       size: 'size-limit',
       analyze: 'size-limit --why',
     },
