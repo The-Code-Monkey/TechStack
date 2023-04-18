@@ -3,12 +3,12 @@
   "version": "0.4.106",
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
-  "module": "./dist/esm/index.js",
-  "main": "./dist/cjs/index.js",
+  "module": "./dist/memoize.esm.js",
+  "main": "./dist/index.js",
   "exports": {
-    "import": "./dist/esm/index.js",
-    "require": "./dist/cjs/index.js",
-    "default": "./dist/esm/index.js"
+    "import": "./dist/memoize.esm.js",
+    "require": "./dist/index.js",
+    "default": "./dist/memoize.esm.js"
   },
   "typings": "dist/types/index.d.ts",
   "scripts": {

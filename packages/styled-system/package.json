@@ -10,12 +10,12 @@
   "bugs": {
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/styled-system.esm.js",
   "exports": {
-    "import": "./dist/esm/index.js",
-    "require": "./dist/cjs/index.js",
-    "default": "./dist/esm/index.js"
+    "import": "./dist/styled-system.esm.js",
+    "require": "./dist/index.js",
+    "default": "./dist/styled-system.esm.js"
   },
   "typings": "dist/types/index.d.ts",
   "type": "module",

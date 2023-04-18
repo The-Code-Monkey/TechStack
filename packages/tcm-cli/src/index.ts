@@ -3,6 +3,7 @@ import { createRequire } from 'module';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+import asyncro from 'asyncro';
 import chalk from 'chalk';
 import enquirer from 'enquirer';
 const { Input, Select } = enquirer;
@@ -14,6 +15,7 @@ import jest from 'jest';
 const { run: jestRun } = jest;
 import { concatAllArray } from 'jpjs';
 import ora from 'ora';
+import { OutputOptions, rollup, RollupOptions } from 'rollup';
 import sade from 'sade';
 import semver from 'semver';
 import shell from 'shelljs';
@@ -23,14 +25,17 @@ import glob from 'tiny-glob/sync.js';
 const require = createRequire(import.meta.url);
 
 import { paths } from './constants.js';
+import { createBuildConfigs } from './createBuildConfigs.js';
 import { createEslintConfig } from './createEslintConfig.js';
 import { createJestConfig } from './createJestConfig.js';
 import { createProgressEstimator } from './createProgressEstimator.js';
+import * as deprecated from './deprecated.js';
 import getInstallArgs from './getInstallArgs.js';
 import getInstallCmd from './getInstallCmd.js';
 import pkg from './getPkgJson.js';
 import logError from './logError.js';
 import * as Messages from './messages.js';
+import { rollupTypes } from './rollupTypes.js';
 import { templates } from './templates/index.js';
 import {
   composeDependencies,
@@ -123,7 +128,7 @@ async function getInputs(
   source?: string
 ): Promise<string[]> {
   return concatAllArray(
-    []
+    ([] as any[])
       .concat(
         entries && entries.length
           ? entries
@@ -134,12 +139,12 @@ async function getInputs(
   );
 }
 
-function getNamesAndFiles(inputs: string[]): {
-  names: string[];
-  files: string[];
-} {
+function getNamesAndFiles(
+  inputs: string[],
+  name?: string
+): { names: string[]; files: string[] } {
   if (inputs.length === 1) {
-    const singleName = appPackageJson.name;
+    const singleName = name || appPackageJson.name;
     return {
       names: [singleName],
       files: [safePackageName(singleName)],
@@ -167,16 +172,12 @@ function getNamesAndFiles(inputs: string[]): {
   return { names, files };
 }
 
-async function normalizeOpts(
-  opts: WatchOpts,
-  tcmOptions: Record<string, unknown> = {}
-): Promise<NormalizedOpts> {
+async function normalizeOpts(opts: WatchOpts): Promise<NormalizedOpts> {
   const inputs = await getInputs(opts.entry, appPackageJson.source);
-  const { names, files } = getNamesAndFiles(inputs);
+  const { names, files } = getNamesAndFiles(inputs, opts.name);
 
   return {
     ...opts,
-    ...tcmOptions,
     name: names,
     input: inputs,
     format: opts.format.split(',').map((format: string) => {
@@ -379,7 +380,9 @@ prog
   .example('build --entry src/foo.tsx')
   .option('--target', 'Specify your target environment', 'browser')
   .example('build --target node')
-  .option('--format', 'Specify module format(s)', 'esm,cjs')
+  .option('--name', 'Specify name exposed in UMD builds')
+  .example('build --name Foo')
+  .option('--format', 'Specify module format(s)', 'cjs,esm')
   .example('build --format cjs,esm')
   .option('--noClean', "Don't clean the dist folder")
   .example('build --noClean')
@@ -398,17 +401,39 @@ prog
   )
   .action(async (dirtyOpts: BuildOpts) => {
     const opts = await normalizeOpts(dirtyOpts);
-
-    await cleanDistFolder();
+    const buildConfigs = await createBuildConfigs(opts, appPackageJson);
+    if (!opts.noClean) {
+      await cleanDistFolder();
+    }
     const logger = await createProgressEstimator();
+    if (opts.format.includes('cjs')) {
+      const promise = Promise.all(
+        opts.output.file.map(file =>
+          writeCjsEntryFile(file, opts.input.length).catch(logError)
+        )
+      );
+      logger(promise, 'Creating entry file');
+    }
     try {
-      const promise = new Promise<void>(resolve => {
-        shell.exec(`tsc -p ${paths.tsconfigJson}`);
-        if (opts.format.includes('cjs')) {
-          shell.exec(`tsc -p ${paths.tsconfigCjs}`);
-        }
-        resolve();
-      });
+      const promise = asyncro
+        .map(
+          buildConfigs,
+          async (inputOptions: RollupOptions & { output: OutputOptions }) => {
+            const bundle = await rollup(inputOptions);
+            await bundle.write(inputOptions.output);
+          }
+        )
+        .catch((e: any) => {
+          throw e;
+        })
+        .then(async () => {
+          if (opts.rollupTypes) {
+            await rollupTypes(opts.tsconfig, appPackageJson);
+          }
+        })
+        .then(async () => {
+          await deprecated.moveTypes();
+        });
       logger(promise, 'Building modules');
       await promise;
     } catch (error) {
@@ -416,6 +441,20 @@ prog
       process.exit(1);
     }
   });
+function writeCjsEntryFile(file: string, numEntries: number) {
+  const baseLine = `module.exports = require('./${file}`;
+  const contents = `
+'use strict'
+
+if (process.env.NODE_ENV === 'production') {
+  ${baseLine}.cjs.production.min.js')
+} else {
+  ${baseLine}.cjs.development.js')
+}
+`;
+  const filename = numEntries === 1 ? 'index.js' : `${file}.js`;
+  return fs.outputFile(path.join(paths.appDist, filename), contents);
+}
 
 prog
   .command('test')

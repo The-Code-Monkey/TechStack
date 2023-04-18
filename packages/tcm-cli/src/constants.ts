@@ -11,6 +11,9 @@ export const paths = {
   appErrors: resolveApp('errors'),
   appDist: resolveApp('dist'),
   appConfigJson: resolveApp('tcm.config.json'),
+  appConfigTs: resolveApp('tcm.config.ts'),
+  appConfigJs: resolveApp('tcm.config.js'),
+  appConfigCjs: resolveApp('tcm.config.cjs'),
   jestConfig: resolveApp('jest.config.js'),
   progressEstimatorCache: resolveApp('node_modules/.cache/.progress-estimator'),
 };

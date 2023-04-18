@@ -1,3 +1,5 @@
+import { RollupOptions } from 'rollup';
+
 interface SharedOpts {
   // JS target
   target: 'node' | 'browser';
@@ -11,8 +13,8 @@ export type ModuleFormat = 'cjs' | 'umd' | 'esm' | 'system';
 
 export interface BuildOpts extends SharedOpts {
   name?: string;
-  entry?: string[];
-  format: 'esm';
+  entry?: string | string[];
+  format: 'cjs,esm';
   target: 'browser';
   noClean?: boolean;
   rollupTypes?: boolean;
@@ -27,11 +29,10 @@ export interface WatchOpts extends BuildOpts {
 }
 
 export interface NormalizedOpts
-  extends Omit<WatchOpts, 'name' | 'input' | 'format'>,
-    Omit<TcmOptions, 'name' | 'input' | 'format' | 'target'> {
+  extends Omit<WatchOpts, 'name' | 'input' | 'format'> {
   name: string | string[];
   input: string[];
-  format: [ModuleFormat, ...ModuleFormat[]] | ModuleFormat;
+  format: [ModuleFormat, ...ModuleFormat[]];
   output: {
     file: string[];
   };
@@ -44,8 +45,10 @@ export interface TcmOptions extends SharedOpts {
   name: string;
   // path to file
   input: string[] | string;
+  // Environment
+  env: 'development' | 'production';
   // Module format
-  format: 'esm';
+  format: 'esm' | 'umd' | 'cjs';
   // Is minifying?
   minify?: boolean;
   // Is this the very first rollup config (and thus should one-off metadata be extracted)?
@@ -68,4 +71,12 @@ export interface PackageJson {
   };
   types?: string;
   typings?: string;
+}
+
+export interface TcmConfig {
+  rollup?: (config: RollupOptions, options: TcmOptions) => RollupOptions;
+}
+
+export interface NormalizedTcmConfig extends TcmConfig {
+  rollup: (config: RollupOptions, options: TcmOptions) => RollupOptions;
 }
