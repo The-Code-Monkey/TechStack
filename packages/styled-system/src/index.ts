@@ -34,15 +34,6 @@ export { space, SpaceProps } from './parsers/space';
 export { transition, TransitionProps } from './parsers/transition';
 export { typography, TypographyProps } from './parsers/typography';
 export { pseudo, PseudoProps } from './parsers/pseudo';
-// pseudo props and mixin
-
-// styled-system shouldForwardProp
-export {
-  allProps,
-  createShouldForwardProp,
-  sfp,
-  shouldForwardProp,
-} from './shouldForwardProp';
 
 // styled-system variants
 export {

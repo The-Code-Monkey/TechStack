@@ -2,12 +2,12 @@
   "version": "0.7.159",
   "license": "MIT",
   "type": "module",
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/components.esm.js",
   "exports": {
     ".": {
       "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js"
+      "require": "./dist/components.esm.js"
     }
   },
   "typings": "dist/types/index.d.ts",
@@ -46,11 +46,11 @@
   },
   "size-limit": [
     {
-      "path": "dist/cjs/index.js",
+      "path": "dist/index.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/esm/index.js",
+      "path": "dist/components.esm.js",
       "limit": "10 KB"
     }
   ],
@@ -97,7 +97,7 @@
   },
   "dependencies": {
     "@tanstack/react-table": "8.8.5",
-    "@techstack/memoize": "0.4.106",
+    "@techstack/memoize": "0.4.105",
     "@techstack/react-feather": "0.4.106",
     "@techstack/react-lazy-named": "0.4.106",
     "@techstack/react-textfit": "0.4.120",
