@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.109](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.108...@techstack/tcm-cli@0.4.109) (2023-04-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency progress-estimator to v0.3.1 ([#1254](https://github.com/The-Code-Monkey/TechStack/issues/1254)) ([04a57dc](https://github.com/The-Code-Monkey/TechStack/commit/04a57dc4d1c13ff03693aa231947c5e1bf5c9e25))
+
+
+
+
+
 ## 0.4.108 (2023-04-18)
 
 
