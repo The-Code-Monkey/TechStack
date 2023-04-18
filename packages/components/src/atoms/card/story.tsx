@@ -22,7 +22,7 @@ export const Basic = {
           <p>well meaning and kindly. a benevolent smile</p>
         </CardContent>
         <CardAction>
-          <Button size="sm">Test Button</Button>
+          <Button size='sm'>Test Button</Button>
         </CardAction>
       </>
     ),

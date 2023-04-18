@@ -4,6 +4,7 @@ import { ThemeProvider } from "styled-components";
 
 import { ConfigContext } from "../src";
 import modeTheme from "../src/theme";
+// @ts-ignore
 import config from "../orchard.theme.config.json";
 
 const channel = addons.getChannel();
