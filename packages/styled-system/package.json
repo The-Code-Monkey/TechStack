@@ -1,5 +1,5 @@
 {
-  "version": "0.4.114",
+  "version": "0.4.115",
   "license": "MIT",
   "name": "@techstack/styled-system",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/styled-system/README.md",
@@ -50,7 +50,7 @@
   ],
   "devDependencies": {
     "@size-limit/file": "8.2.4",
-    "@techstack/tcm-cli": "0.4.107",
+    "@techstack/tcm-cli": "0.4.108",
     "size-limit": "8.2.4",
     "tslib": "2.5.0",
     "typescript": "5.0.4"
