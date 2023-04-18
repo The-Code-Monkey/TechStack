@@ -1,5 +1,5 @@
 import {useEffect, useMemo, useState} from "react";
-import addons from "@storybook/addons";
+import { addons } from "@storybook/addons";
 import { ThemeProvider } from "styled-components";
 
 import { ConfigContext } from "../src";
