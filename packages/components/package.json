@@ -90,7 +90,7 @@
     "sass": "1.62.0",
     "sass-loader": "13.2.2",
     "size-limit": "8.2.4",
-    "storybook-addon-pseudo-states": "1.15.5",
+    "storybook-addon-pseudo-states": "2.0.0",
     "tslib": "2.5.0",
     "typescript": "5.0.4",
     "webpack": "5.79.0"
