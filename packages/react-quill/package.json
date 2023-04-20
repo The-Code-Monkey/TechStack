@@ -65,7 +65,7 @@
     "@types/mocha": "^7.0.2",
     "@types/react": "^16.9.11",
     "@types/react-dom": "^16.9.4",
-    "@types/sinon": "^7.5.2",
+    "@types/sinon": "^10.0.0",
     "blanket": "^1.2.3",
     "chai": "^4.2.0",
     "chai-enzyme": "^1.0.0-beta.1",
