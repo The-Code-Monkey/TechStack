@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.167](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.166...@techstack/components@0.7.167) (2023-04-24)
+
+
+### Bug Fixes
+
+* some changes to add tables ([b461865](https://github.com/The-Code-Monkey/TechStack/commit/b461865ca5bd498b6fca2eba5df3bba17fd5631d))
+
+
+
+
+
 ## [0.7.166](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.165...@techstack/components@0.7.166) (2023-04-24)
 
 **Note:** Version bump only for package @techstack/components
