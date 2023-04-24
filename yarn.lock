@@ -2173,12 +2173,12 @@
     tmp "~0.2.1"
     tslib "^2.3.0"
 
-"@nrwl/nx-cloud@16.0.1":
-  version "16.0.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx-cloud/-/nx-cloud-16.0.1.tgz#617f0f6ab7fba49e769a773369e60d0b9f8892ed"
-  integrity sha512-z5Ydlw9BU6DJCvwVI0LPVdMRORAxeHdIS4wzdsrSvoCeVEL6l6RCk1c3bXQ6IHtA2EdVt0yDirMp0Q0ybf5fIQ==
+"@nrwl/nx-cloud@16.0.2":
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx-cloud/-/nx-cloud-16.0.2.tgz#045bd3b2f38c872e34c2d7b3d1b1a55636a89479"
+  integrity sha512-JsfawqxTWyXx2lMS1YEhTzEiEddbGWPRjwNa2lgLfPA4iMGjMB0mvOZHannBdBaOMo6T/CQxcv0ItxHXF8Sd6w==
   dependencies:
-    nx-cloud "16.0.1"
+    nx-cloud "16.0.2"
 
 "@nrwl/nx-darwin-arm64@15.9.2":
   version "15.9.2"
@@ -14377,17 +14377,18 @@ nwsapi@^2.2.2:
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.4.tgz#fd59d5e904e8e1f03c25a7d5a15cfa16c714a1e5"
   integrity sha512-NHj4rzRo0tQdijE9ZqAx6kYDcoRwYwSYzCA8MY3JzfxlrvEU0jhnhJT9BhqhJs7I/dKcrDm6TyulaRqZPIhN5g==
 
-nx-cloud@16.0.1:
-  version "16.0.1"
-  resolved "https://registry.yarnpkg.com/nx-cloud/-/nx-cloud-16.0.1.tgz#909ef64ad3d794576356a55550c582ef23566a90"
-  integrity sha512-epCxvKVK9niHzZ5TiCJ+93PtXcZmXqkITiqV/qwihJEM4xY4H16qYGYN76Y8sF7dRYC+vlYE5WgFwuGlPXo2Fw==
+nx-cloud@16.0.2:
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/nx-cloud/-/nx-cloud-16.0.2.tgz#9e498c2552f5bca87ea0a78bdf637659839e06fa"
+  integrity sha512-K9mzy0CVZHWMrWzyT+s0PveLSGMhFBEobsBXNXPUcLKU8iPpWleJrdMwiIQgNQuRJAyj3QTIKGxRYw0FUW0f7A==
   dependencies:
-    "@nrwl/nx-cloud" "16.0.1"
+    "@nrwl/nx-cloud" "16.0.2"
     axios "^1.0.0"
     chalk "^4.1.0"
     dotenv "~10.0.0"
     fs-extra "^11.1.0"
     node-machine-id "^1.1.12"
+    open "~8.4.0"
     strip-json-comments "^3.1.1"
     tar "6.1.11"
     yargs-parser ">=21.1.1"
@@ -14619,7 +14620,7 @@ open@^7.0.3:
     is-docker "^2.0.0"
     is-wsl "^2.1.1"
 
-open@^8.0.9, open@^8.4.0:
+open@^8.0.9, open@^8.4.0, open@~8.4.0:
   version "8.4.2"
   resolved "https://registry.yarnpkg.com/open/-/open-8.4.2.tgz#5b5ffe2a8f793dcd2aad73e550cb87b59cb084f9"
   integrity sha512-7x81NCL719oNbsq/3mh+hVrAWmFuEYUqrq/Iw3kUzH8ReypT9QQ0BLoJS7/G9k6N81XjW4qHWtjWwe/9eLy1EQ==
