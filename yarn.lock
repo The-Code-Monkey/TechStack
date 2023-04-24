@@ -15790,6 +15790,11 @@ quick-lru@^5.1.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
+quill-better-table@^1.2.10:
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/quill-better-table/-/quill-better-table-1.2.10.tgz#ed0e21cdbaff672189b902187720fde08ae2a96a"
+  integrity sha512-CFwxAQzt4EPCQuynQ65R/FU7Yu//kcDBb/rmBBOsFfO758+q50zvG/PDt4Lenv9DcrSgwnyNkfo4yeA5fzzVYQ==
+
 quill-delta@4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/quill-delta/-/quill-delta-4.2.1.tgz#ad4f191cdf3be5079c5dc3991b9603a5cc0db69a"

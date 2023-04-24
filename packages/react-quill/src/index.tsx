@@ -11,10 +11,14 @@ import Quill, {
   StringMap,
   Sources,
 } from 'quill';
+import QuillBetterTable from 'quill-better-table';
 import Delta from 'quill-delta';
 import React, { useEffect, useRef, useState } from 'react';
 
 import 'quill/dist/quill.core.css';
+import 'quill-better-table/dist/quill-better-table.css';
+
+import Toolbar from './toolbar';
 
 export type Value = string | Delta;
 export type Range = RangeStatic | null;
@@ -84,7 +88,7 @@ const ReactQuill = ({
   defaultValue,
   bounds,
   formats,
-  modules,
+  modules = {},
   placeholder,
   scrollingContainer,
   tabIndex,
@@ -139,7 +143,19 @@ const ReactQuill = ({
     return {
       bounds,
       formats,
-      modules,
+      modules: {
+        ...modules,
+        table: true,
+        'better-table': {
+          operationMenu: {
+            color: {
+              colors: ['green', 'red', 'yellow', 'blue', 'white'],
+              text: 'Background Colors:',
+            },
+          },
+        },
+        toolbar: '#toolbar',
+      },
       placeholder,
       readOnly,
       scrollingContainer,
@@ -231,9 +247,19 @@ const ReactQuill = ({
 
   const createEditor = (element: Element, config: QuillOptions) => {
     const editor = new Quill(element, config);
+
+    const tableModule = editor.getModule('better-table');
+
+    editor.root.parentElement.parentElement.querySelector<HTMLButtonElement>(
+      '#insert-table'
+    ).onclick = () => {
+      tableModule.insertTable(3, 3);
+    };
+
     if (config.tabIndex != null) {
       setEditorTabIndex(editor, config.tabIndex);
     }
+
     hookEditor(editor);
     return editor;
   };
@@ -298,6 +324,13 @@ const ReactQuill = ({
   };
 
   useEffect(() => {
+    Quill.register(
+      {
+        'modules/better-table': QuillBetterTable,
+      },
+      true
+    );
+
     instantiateEditor();
     setEditorContents(editorRef.current, getEditorContents());
 
@@ -316,6 +349,7 @@ const ReactQuill = ({
       onKeyDown={onKeyDown}
       onKeyUp={onKeyUp}
     >
+      <Toolbar />
       {renderEditingArea()}
     </div>
   );

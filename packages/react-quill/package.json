@@ -8,6 +8,7 @@
   "repository": "https://github.com/The-Code-Monkey/TechStack.git",
   "main": "./dist/index.js",
   "module": "./dist/react-quill.esm.js",
+  "types": "./dist/index.d.ts",
   "type": "module",
   "publishConfig": {
     "access": "public"
@@ -42,7 +43,8 @@
   "dependencies": {
     "@types/quill": "2.0.10",
     "lodash": "4.17.21",
-    "quill": "2.0.0-dev.4"
+    "quill": "2.0.0-dev.4",
+    "quill-better-table": "^1.2.10"
   },
   "peerDependencies": {
     "react": "^16 || ^17 || ^18",
