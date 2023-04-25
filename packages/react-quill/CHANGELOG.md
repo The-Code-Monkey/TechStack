@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.6](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-quill@0.0.5...@techstack/react-quill@0.0.6) (2023-04-25)
+
+
+### Bug Fixes
+
+* add table svg to button ([09d91fa](https://github.com/The-Code-Monkey/TechStack/commit/09d91faba75935f8e255e111b717d35a3bb3fbf7))
+
+
+
+
+
 ## [0.0.5](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-quill@0.0.4...@techstack/react-quill@0.0.5) (2023-04-25)
 
 **Note:** Version bump only for package @techstack/react-quill
