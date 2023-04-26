@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-quill@0.0.6...@techstack/react-quill@0.0.7) (2023-04-26)
+
+**Note:** Version bump only for package @techstack/react-quill
+
+
+
+
+
 ## [0.0.6](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-quill@0.0.5...@techstack/react-quill@0.0.6) (2023-04-25)
 
 
