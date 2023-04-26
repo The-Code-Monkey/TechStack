@@ -63,7 +63,7 @@
     "lodash": "4.17.21",
     "lodash-es": "4.17.21",
     "sade": "1.8.1",
-    "style-dictionary": "3.7.2",
+    "style-dictionary": "3.8.0",
     "tinycolor2": "1.6.0"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a"
