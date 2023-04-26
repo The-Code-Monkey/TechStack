@@ -51,7 +51,7 @@
     "react-dom": "^16 || ^17 || ^18"
   },
   "devDependencies": {
-    "@nrwl/nx-cloud": "16.0.2",
+    "@nrwl/nx-cloud": "16.0.4",
     "@techstack/tcm-cli": "0.4.112",
     "@types/lodash": "^4.14.146",
     "@types/react": "^18.0.38",

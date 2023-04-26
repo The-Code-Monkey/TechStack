@@ -28,7 +28,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@nrwl/nx-cloud": "16.0.2",
+    "@nrwl/nx-cloud": "16.0.4",
     "husky": "8.0.3",
     "lerna": "6.6.1",
     "nx": "15.9.2"
