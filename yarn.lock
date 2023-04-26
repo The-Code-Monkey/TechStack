@@ -2173,12 +2173,12 @@
     tmp "~0.2.1"
     tslib "^2.3.0"
 
-"@nrwl/nx-cloud@16.0.2":
-  version "16.0.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx-cloud/-/nx-cloud-16.0.2.tgz#045bd3b2f38c872e34c2d7b3d1b1a55636a89479"
-  integrity sha512-JsfawqxTWyXx2lMS1YEhTzEiEddbGWPRjwNa2lgLfPA4iMGjMB0mvOZHannBdBaOMo6T/CQxcv0ItxHXF8Sd6w==
+"@nrwl/nx-cloud@16.0.4":
+  version "16.0.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx-cloud/-/nx-cloud-16.0.4.tgz#107692154d776ea8552efe07bb5559a5b20c6177"
+  integrity sha512-47ksltHAbWKcAENT0x4eXB1SGWUuM0VhstjtT3Vzt0kDRu0cWIN6DdTdsoMpp7mMk4YRUSDpP7syOupA6b+9eQ==
   dependencies:
-    nx-cloud "16.0.2"
+    nx-cloud "16.0.4"
 
 "@nrwl/nx-darwin-arm64@15.9.2":
   version "15.9.2"
@@ -14461,12 +14461,12 @@ nwsapi@^2.2.2:
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.4.tgz#fd59d5e904e8e1f03c25a7d5a15cfa16c714a1e5"
   integrity sha512-NHj4rzRo0tQdijE9ZqAx6kYDcoRwYwSYzCA8MY3JzfxlrvEU0jhnhJT9BhqhJs7I/dKcrDm6TyulaRqZPIhN5g==
 
-nx-cloud@16.0.2:
-  version "16.0.2"
-  resolved "https://registry.yarnpkg.com/nx-cloud/-/nx-cloud-16.0.2.tgz#9e498c2552f5bca87ea0a78bdf637659839e06fa"
-  integrity sha512-K9mzy0CVZHWMrWzyT+s0PveLSGMhFBEobsBXNXPUcLKU8iPpWleJrdMwiIQgNQuRJAyj3QTIKGxRYw0FUW0f7A==
+nx-cloud@16.0.4:
+  version "16.0.4"
+  resolved "https://registry.yarnpkg.com/nx-cloud/-/nx-cloud-16.0.4.tgz#f8d14547b414e1d0337d86917426ac9a8648e8f1"
+  integrity sha512-/3ssEkEto7kPT5K/joGb9ZwSlpk4bEVsl21NU9sTeUU0e/O+U7RQM2rpnyW+uSixL2r3/8bmkBPDISK9LWjsTg==
   dependencies:
-    "@nrwl/nx-cloud" "16.0.2"
+    "@nrwl/nx-cloud" "16.0.4"
     axios "^1.0.0"
     chalk "^4.1.0"
     dotenv "~10.0.0"
