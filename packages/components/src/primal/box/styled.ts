@@ -11,6 +11,7 @@ import {
   typography,
   defaultStyles,
   pseudo,
+  transition
 } from '@techstack/styled-system';
 
 import { shouldForwardProp } from '../../utils';
@@ -37,6 +38,7 @@ export const StyledBoxProps = compose(
   shadow,
   flexbox,
   typography,
+  transition,
   utilProps,
   defaultStyles
 );

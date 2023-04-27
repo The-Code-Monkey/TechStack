@@ -7,6 +7,7 @@ import {
   ShadowProps,
   FlexboxProps,
   PseudoProps,
+  TransitionProps
 } from '@techstack/styled-system';
 import { Property } from 'csstype';
 import { ElementType, ReactNode } from 'react';
@@ -23,7 +24,7 @@ export interface Props
     BorderProps,
     ShadowProps,
     FlexboxProps,
-    PseudoProps {
+    PseudoProps, TransitionProps {
   children?: ReactNode;
   as?: ElementType;
   testid?: string;
