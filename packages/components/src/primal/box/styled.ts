@@ -11,7 +11,7 @@ import {
   typography,
   defaultStyles,
   pseudo,
-  transition
+  transition,
 } from '@techstack/styled-system';
 
 import { shouldForwardProp } from '../../utils';
