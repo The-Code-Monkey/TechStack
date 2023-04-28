@@ -31,7 +31,7 @@
     "@nrwl/nx-cloud": "16.0.5",
     "husky": "8.0.3",
     "lerna": "6.6.1",
-    "nx": "15.9.3"
+    "nx": "16.0.0"
   },
   "prettier": {
     "printWidth": 80,
