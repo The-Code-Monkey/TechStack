@@ -9,6 +9,7 @@
     "group:recommended",
     "workarounds:all"
   ],
+  "bumpVersion": true,
   "automergeStrategy": "squash",
   "automerge": true,
   "labels": ["dependencies"],
