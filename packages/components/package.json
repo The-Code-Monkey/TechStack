@@ -1,5 +1,5 @@
 {
-  "version": "0.7.171",
+  "version": "0.7.172",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -99,7 +99,7 @@
     "webpack": "5.81.0"
   },
   "dependencies": {
-    "@tanstack/react-table": "8.9.0",
+    "@tanstack/react-table": "8.9.1",
     "@techstack/memoize": "0.4.112",
     "@techstack/react-feather": "0.4.112",
     "@techstack/react-lazy-named": "0.4.112",
