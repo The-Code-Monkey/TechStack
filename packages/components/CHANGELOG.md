@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.172](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.170...@techstack/components@0.7.172) (2023-05-03)
+
+
+### Bug Fixes
+
+* add extra transtion props to box ([421c1d1](https://github.com/The-Code-Monkey/TechStack/commit/421c1d14a1472d5b29b4ad5ab8b78465c3581d7d))
+* bump all ([f578cf3](https://github.com/The-Code-Monkey/TechStack/commit/f578cf38ba3255645f6ca681f95987eec17e7c23))
+* **deps:** update dependency @tanstack/react-table to v8.9.0 ([#1301](https://github.com/The-Code-Monkey/TechStack/issues/1301)) ([fc2344d](https://github.com/The-Code-Monkey/TechStack/commit/fc2344de08b7ad4fb03670bf752815d5d7fd3d78))
+* **deps:** update dependency @tanstack/react-table to v8.9.1 ([#1304](https://github.com/The-Code-Monkey/TechStack/issues/1304)) ([464926f](https://github.com/The-Code-Monkey/TechStack/commit/464926f560f4355bfaa55b2ea9d0285c7877fbf2))
+* linting ([c9e633c](https://github.com/The-Code-Monkey/TechStack/commit/c9e633c903a5cd6f24e68097604bfe27f89c9f8e))
+
+
+
+
+
 ## [0.7.170](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.169...@techstack/components@0.7.170) (2023-04-25)
 
 

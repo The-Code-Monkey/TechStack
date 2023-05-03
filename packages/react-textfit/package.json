@@ -1,6 +1,6 @@
 {
   "name": "@techstack/react-textfit",
-  "version": "0.4.127",
+  "version": "0.4.128",
   "description": "React component to fit headlines and paragraphs into any element",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/react-textfit/README.md",
   "repository": {

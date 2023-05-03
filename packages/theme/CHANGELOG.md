@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.123 (2023-05-03)
+
+
+### Bug Fixes
+
+* bump all ([f578cf3](https://github.com/The-Code-Monkey/TechStack/commit/f578cf38ba3255645f6ca681f95987eec17e7c23))
+* **deps:** update dependency style-dictionary to v3.8.0 ([#1285](https://github.com/The-Code-Monkey/TechStack/issues/1285)) ([5f90968](https://github.com/The-Code-Monkey/TechStack/commit/5f90968691c93f480f333506aee3720d6302cee4))
+
+
+
+
+
 ## [0.4.121](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.4.120...@techstack/theme@0.4.121) (2023-04-25)
 
 **Note:** Version bump only for package @techstack/theme
