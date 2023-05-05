@@ -1,7 +1,7 @@
 {
   "name": "example",
   "private": true,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@types/react": "18.2.5",
-    "@types/react-dom": "18.2.3",
+    "@types/react-dom": "18.2.4",
     "vite": "latest",
     "vite-preset-react": "latest",
     "typescript": "5.0.4"
