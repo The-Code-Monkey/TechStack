@@ -1,7 +1,7 @@
 {
   "name": "techstack",
   "description": "A collection of self built packages plus some forks for web development",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "author": "The-Code-Monkey",
   "license": "MIT",
@@ -30,7 +30,7 @@
   "devDependencies": {
     "@nrwl/nx-cloud": "16.0.5",
     "husky": "8.0.3",
-    "lerna": "6.6.1",
+    "lerna": "6.6.2",
     "nx": "16.1.0"
   },
   "prettier": {
