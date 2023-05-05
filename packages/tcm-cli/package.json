@@ -1,6 +1,6 @@
 {
   "name": "@techstack/tcm-cli",
-  "version": "0.4.126",
+  "version": "0.4.127",
   "description": "Zero-config TypeScript package development",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/tcm-cli/README.md",
   "repository": {
