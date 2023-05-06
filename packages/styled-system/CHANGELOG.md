@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.123 (2023-05-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @emotion/is-prop-valid to v1.2.1 ([#1325](https://github.com/The-Code-Monkey/TechStack/issues/1325)) ([a840fa7](https://github.com/The-Code-Monkey/TechStack/commit/a840fa7f95fdf60c5222b08a09aa38463f9fc800))
+
+
+
+
+
 ## 0.4.121 (2023-05-03)
 
 
