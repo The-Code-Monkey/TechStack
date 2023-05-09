@@ -1,6 +1,6 @@
 {
   "name": "@techstack/font-picker-react",
-  "version": "0.4.118",
+  "version": "0.4.119",
   "description": "Font selector component for Google Fonts",
   "type": "module",
   "module": "./dist/font-picker-react.esm.js",
@@ -35,7 +35,7 @@
     "react-dom": "^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
-    "@storybook/react": "7.0.9",
+    "@storybook/react": "7.0.10",
     "@techstack/tcm-cli": "0.4.112",
     "react": "18.2.0"
   },
