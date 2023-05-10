@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.139](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@0.4.138...@techstack/tcm-cli@0.4.139) (2023-05-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-plugin-polyfill-regenerator to ^0.5.0 ([#1341](https://github.com/The-Code-Monkey/TechStack/issues/1341)) ([6e00a2b](https://github.com/The-Code-Monkey/TechStack/commit/6e00a2b7cffc983a5a948117662ce49efb5b17a2))
+* **deps:** update dependency eslint-plugin-testing-library to v5.11.0 ([#1340](https://github.com/The-Code-Monkey/TechStack/issues/1340)) ([1b25038](https://github.com/The-Code-Monkey/TechStack/commit/1b25038ba8e139b63c909f6f569a7c88ac7bc385))
+
+
+
+
+
 ## 0.4.138 (2023-05-10)
 
 **Note:** Version bump only for package @techstack/tcm-cli
