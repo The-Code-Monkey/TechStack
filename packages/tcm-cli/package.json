@@ -1,6 +1,6 @@
 {
   "name": "@techstack/tcm-cli",
-  "version": "0.4.136",
+  "version": "0.4.137",
   "description": "Zero-config TypeScript package development",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/tcm-cli/README.md",
   "repository": {
@@ -108,7 +108,7 @@
     "@types/figlet": "1.5.6",
     "@types/fs-extra": "11.0.1",
     "@types/lodash": "4.14.194",
-    "@types/node": "18.16.6",
+    "@types/node": "18.16.7",
     "@types/react": "18.2.6",
     "@types/semver": "7.5.0",
     "@types/shelljs": "0.8.12",
