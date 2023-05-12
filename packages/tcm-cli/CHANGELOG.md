@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.143 (2023-05-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency semver to v7.5.1 ([aec2283](https://github.com/The-Code-Monkey/TechStack/commit/aec2283928278c9317b28ee3c6889b791dc709da))
+
+
+
+
+
 ## 0.4.141 (2023-05-12)
 
 **Note:** Version bump only for package @techstack/tcm-cli
