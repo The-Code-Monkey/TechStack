@@ -1,6 +1,6 @@
 {
   "name": "@techstack/memoize",
-  "version": "0.4.116",
+  "version": "0.4.117",
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
   "module": "./dist/memoize.esm.js",
@@ -53,7 +53,7 @@
     "memoizee": "0.4.15",
     "moize": "6.1.6",
     "nanocolors": "0.2.13",
-    "ora": "6.3.0"
+    "ora": "6.3.1"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a"
 }
