@@ -16339,9 +16339,9 @@ react-date-picker@^10.0.0:
     update-input-width "^1.3.1"
 
 react-datetime-picker@^5.0.0:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/react-datetime-picker/-/react-datetime-picker-5.0.3.tgz#8093e75c70de2f387fda30d74640db2e6a12e1c8"
-  integrity sha512-FKJwrMRyYpRyxbxnAjiTDnGbnWIHztn9m+b+QbOxmCk/xybZZ9shXiZRf4aEoSVtdk95oqhlhkJBz+7SDkIMzg==
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/react-datetime-picker/-/react-datetime-picker-5.1.0.tgz#97d37d654ce07f6bf18c28fbe0ad7df674f5e097"
+  integrity sha512-RbVxHkE8gNdEPgdn7VS6H2cbbo4v7dz3lqoX4oLe0MpzYo2o3Ap9/vATukBRcb5xnRhXWwYo1+fVt4VGa0tmCg==
   dependencies:
     "@wojtekmaj/date-utils" "^1.1.3"
     clsx "^1.2.1"
