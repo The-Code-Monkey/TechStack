@@ -1,5 +1,5 @@
 {
-  "version": "0.7.186",
+  "version": "0.7.187",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -96,7 +96,7 @@
     "storybook": "7.0.12",
     "tslib": "2.5.1",
     "typescript": "5.0.4",
-    "webpack": "5.82.1"
+    "webpack": "5.83.1"
   },
   "dependencies": {
     "@tanstack/react-table": "8.8.5",
