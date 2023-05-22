@@ -1,5 +1,5 @@
 {
-  "version": "0.7.193",
+  "version": "0.7.194",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -91,7 +91,7 @@
     "react-dom": "18.2.0",
     "react-is": "18.2.0",
     "sass": "1.62.1",
-    "sass-loader": "13.2.2",
+    "sass-loader": "13.3.0",
     "size-limit": "8.2.4",
     "storybook": "7.0.12",
     "tslib": "2.5.2",
