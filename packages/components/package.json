@@ -1,5 +1,5 @@
 {
-  "version": "0.7.211",
+  "version": "0.7.212",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -95,7 +95,7 @@
     "size-limit": "8.2.4",
     "storybook": "7.0.18",
     "tslib": "2.5.2",
-    "typescript": "5.0.4",
+    "typescript": "5.1.3",
     "webpack": "5.85.0"
   },
   "dependencies": {
