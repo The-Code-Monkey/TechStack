@@ -1,6 +1,6 @@
 {
   "name": "@techstack/memoize",
-  "version": "0.4.118",
+  "version": "0.4.119",
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
   "module": "./dist/memoize.esm.js",
@@ -44,7 +44,7 @@
     "@techstack/tcm-cli": "0.4.112",
     "benchmark": "2.1.4",
     "cross-env": "7.0.3",
-    "expect-type": "0.15.0",
+    "expect-type": "0.16.0",
     "fast-memoize": "2.5.2",
     "jest-environment-jsdom": "29.5.0",
     "lodash": "4.17.21",
