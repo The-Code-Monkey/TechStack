@@ -3,35 +3,35 @@
 exports[`<Grid /> renders correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bgqQcB itEbzv sc-dicizt djause"
+    class="sc-aXZVg eTcXSo sc-dcJsrY jIBmxf"
     data-testid="undefined_table"
   >
     <div
-      class="sc-bgqQcB geDPAE sc-iVCKna jhAwQa"
+      class="sc-aXZVg ggwCdL sc-iGgWBj fAWgah"
       data-testid="cell_1_cell"
     >
       Cell 1
     </div>
     <div
-      class="sc-bgqQcB geDPAE sc-iVCKna jhAwQa"
+      class="sc-aXZVg ggwCdL sc-iGgWBj fAWgah"
       data-testid="cell_2_cell"
     >
       Cell 2
     </div>
     <div
-      class="sc-bgqQcB geDPAE sc-iVCKna jhAwQa"
+      class="sc-aXZVg ggwCdL sc-iGgWBj fAWgah"
       data-testid="cell_3_cell"
     >
       Cell 3
     </div>
     <div
-      class="sc-bgqQcB geDPAE sc-iVCKna jhAwQa"
+      class="sc-aXZVg ggwCdL sc-iGgWBj fAWgah"
       data-testid="cell_4_cell"
     >
       Cell 4
     </div>
     <div
-      class="sc-bgqQcB geDPAE sc-iVCKna jhAwQa"
+      class="sc-aXZVg ggwCdL sc-iGgWBj fAWgah"
       data-testid="cell_5_cell"
     >
       Cell 5
