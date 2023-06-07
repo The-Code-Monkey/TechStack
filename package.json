@@ -1,7 +1,7 @@
 {
   "name": "techstack",
   "description": "A collection of self built packages plus some forks for web development",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "author": "The-Code-Monkey",
   "license": "MIT",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "husky": "8.0.3",
-    "lerna": "6.6.1"
+    "lerna": "6.6.2"
   },
   "prettier": {
     "printWidth": 80,
