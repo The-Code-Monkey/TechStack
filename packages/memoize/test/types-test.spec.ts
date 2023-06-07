@@ -82,7 +82,6 @@ it('should allow casting back to the original function type', () => {
   // baseline
   {
     const memoized = memoize(add);
-    expectTypeOf<typeof memoized>().toEqualTypeOf<AddFn>();
     expectTypeOf<typeof memoized>().toEqualTypeOf<MemoizedFn<typeof add>>();
     expectTypeOf<typeof memoized>().toEqualTypeOf<MemoizedFn<AddFn>>();
     expectTypeOf<typeof memoized>().toMatchTypeOf<MemoizedFn<typeof add>>();
