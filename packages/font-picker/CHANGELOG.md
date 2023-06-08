@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.134 (2023-06-08)
+
+**Note:** Version bump only for package @techstack/font-picker-react
+
+
+
+
+
 ## 0.4.132 (2023-05-27)
 
 **Note:** Version bump only for package @techstack/font-picker-react
