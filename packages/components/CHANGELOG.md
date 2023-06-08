@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.227](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.225...@techstack/components@0.7.227) (2023-06-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @tanstack/react-table to v8.9.2 ([#1425](https://github.com/The-Code-Monkey/TechStack/issues/1425)) ([53d74e3](https://github.com/The-Code-Monkey/TechStack/commit/53d74e3840f5504646334e4b8b2cdfcdaf39a9f1))
+
+
+
+
+
 ## [0.7.225](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.223...@techstack/components@0.7.225) (2023-06-08)
 
 **Note:** Version bump only for package @techstack/components
