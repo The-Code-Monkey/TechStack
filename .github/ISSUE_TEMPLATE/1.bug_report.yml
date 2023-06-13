@@ -20,7 +20,6 @@ body:
       options:
         - tcm-cli
         - theme
-        - styled-system
         - react-textfit
         - react-feather
         - components
@@ -29,7 +28,7 @@ body:
   - type: input
     attributes:
       label: Which versions of packages are you using?
-      description: 'Please specify the exact version. e.g. theme: 3.2.21, styled-system: 3.2.22'
+      description: 'Please specify the exact version. e.g. theme: 3.2.21'
   - type: input
     attributes:
       label: Which package manager are you using and which version?
