@@ -16,7 +16,6 @@ body:
       options:
         - tcm-cli
         - theme
-        - styled-system
         - react-textfit
         - react-feather
         - components
