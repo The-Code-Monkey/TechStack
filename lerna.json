@@ -20,7 +20,6 @@
       ]
     }
   },
-  "useWorkspaces": true,
   "packages": [
     "packages/*"
   ],
