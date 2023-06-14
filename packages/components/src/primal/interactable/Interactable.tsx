@@ -21,7 +21,8 @@ const Interactable = <P extends Record<string, unknown>>({
   disabled,
   ...rest
 }: Props & P) => {
-  const { dblClickDelay } = useContext(ConfigContext);
+  const config = useContext(ConfigContext);
+  const dblClickDelay = config?.dblClickDelay ?? 150;
 
   let pendingPromises = [];
 
@@ -38,7 +39,7 @@ const Interactable = <P extends Record<string, unknown>>({
   const handleOnClick = (event: MouseEvent) => {
     if (disabled) return;
 
-    const waitForClick = cancellablePromise(delay(dblClickDelay ?? 150));
+    const waitForClick = cancellablePromise(delay(dblClickDelay));
     appendPendingPromise(waitForClick);
 
     return waitForClick.promise
