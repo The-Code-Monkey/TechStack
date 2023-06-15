@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.245](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.244...@techstack/components@0.7.245) (2023-06-15)
+
+
+### Bug Fixes
+
+* linting ([c3fc83a](https://github.com/The-Code-Monkey/TechStack/commit/c3fc83a002b4ba60ebb15d4cd010a6a462d023ce))
+* update styled-components to v6 ([7d6cd08](https://github.com/The-Code-Monkey/TechStack/commit/7d6cd08f83f699b18540f14567214c0baf1f74d8))
+
+
+
+
+
 ## [0.7.244](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.242...@techstack/components@0.7.244) (2023-06-15)
 
 

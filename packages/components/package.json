@@ -1,5 +1,5 @@
 {
-  "version": "0.7.244",
+  "version": "0.7.245",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -99,6 +99,7 @@
     "webpack": "5.87.0"
   },
   "dependencies": {
+    "@emotion/is-prop-valid": "1.2.1",
     "@tanstack/react-table": "8.9.2",
     "@techstack/memoize": "0.4.112",
     "@techstack/react-feather": "0.4.112",
@@ -119,8 +120,7 @@
     "react-responsive-carousel": "3.2.23",
     "react-table": "7.8.0",
     "react-virtual": "2.10.4",
-    "styled-components": "6.0.0-rc.3",
-    "@emotion/is-prop-valid": "1.2.1"
+    "styled-components": "6.0.0-rc.3"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a",
   "browser": {
