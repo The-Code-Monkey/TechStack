@@ -9,7 +9,7 @@ export const SvgWrapper = styled(Box).withConfig({
     ...StyledBoxProps.propNames,
     'fill',
     'cursor',
-  ]) as () => boolean,
+  ]),
 })<{ fill?: boolean }>`
   pointer-events: none;
 

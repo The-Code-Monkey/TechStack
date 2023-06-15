@@ -1,12 +1,13 @@
+import isPropValid from '@emotion/is-prop-valid';
 import memo from '@techstack/memoize';
 
 const forwardPropHelper =
   (styledProps: Array<string>) =>
-  (prop: string, defaultValidatorFn: (p: string) => boolean) => {
+  (prop: string) => {
     const regex = new RegExp(`^(${styledProps.join('|')})$`);
 
     if (prop === 'testid') return true;
-    return defaultValidatorFn(prop) && !regex.test(prop);
+    return isPropValid(prop) && !regex.test(prop);
   };
 
 export const shouldForwardProp = memo(forwardPropHelper);
