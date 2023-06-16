@@ -2218,13 +2218,6 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
   integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
 
-"@emotion/is-prop-valid@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-1.2.0.tgz#7f2d35c97891669f7e276eb71c83376a5dc44c83"
-  integrity sha512-3aDpDprjM0AwaxGE09bOPkNxHpBd+kA6jty3RnaEXdweX1DF1U3VQpPYb0g1IStAuK7SVQ1cy+bNBBKp4W3Fjg==
-  dependencies:
-    "@emotion/memoize" "^0.8.0"
-
 "@emotion/is-prop-valid@1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-1.2.1.tgz#23116cf1ed18bfeac910ec6436561ecb1a3885cc"
@@ -2232,7 +2225,7 @@
   dependencies:
     "@emotion/memoize" "^0.8.1"
 
-"@emotion/memoize@^0.8.0", "@emotion/memoize@^0.8.1":
+"@emotion/memoize@^0.8.1":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.8.1.tgz#c1ddb040429c6d21d38cc945fe75c818cfb68e17"
   integrity sha512-W2P2c/VRW1/1tLox0mVUalvnWXxavmv/Oum2aPsRcoDJuob75FC3Y8FbpfLwUegRcxINtGUMPq0tFCvYNTBXNA==
@@ -4252,14 +4245,15 @@
     process "0.11.10"
     prop-types "15.8.1"
 
-"@techstack/styled-system@0.4.119":
-  version "0.4.119"
-  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-0.4.119.tgz#52186dbe0c1f0ad458522a44a92192c14608e84d"
-  integrity sha512-rfpQIsgnhlnto7P1DDNpSlErIdmf14frwPlEqSG29Q6thYYLOyMaetMJ6ssYu4Oy+rNhgsqu2ONZskw5v4gWEQ==
+"@techstack/styled-system@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.1.tgz#588ab1c74c5fbb173e4ee7cb679951b38f8d7ca2"
+  integrity sha512-1jtLmI7FoYn4SXzlLsVh+iQoZpG+hdQd966D7dLB51T30lutV0XreQH+3ho7q12xZxQao2ZYmXlMghh/fCuPeQ==
   dependencies:
-    "@emotion/is-prop-valid" "1.2.0"
-    "@techstack/memoize" "0.4.112"
+    "@emotion/is-prop-valid" "1.2.1"
+    "@techstack/memoize" "0.4.119"
     csstype "3.1.2"
+    react "18.2.0"
 
 "@techstack/tcm-cli@0.4.112":
   version "0.4.112"
