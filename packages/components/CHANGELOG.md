@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.257](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.255...@techstack/components@0.7.257) (2023-06-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @techstack/react-quill to v1 ([#1456](https://github.com/The-Code-Monkey/TechStack/issues/1456)) ([23e88bd](https://github.com/The-Code-Monkey/TechStack/commit/23e88bd725d18680e629331b164dd5d44aface1d))
+
+
+
+
+
 ## [0.7.255](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.253...@techstack/components@0.7.255) (2023-06-17)
 
 **Note:** Version bump only for package @techstack/components
