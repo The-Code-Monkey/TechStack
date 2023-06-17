@@ -4245,10 +4245,10 @@
     process "0.11.10"
     prop-types "15.8.1"
 
-"@techstack/styled-system@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.1.tgz#588ab1c74c5fbb173e4ee7cb679951b38f8d7ca2"
-  integrity sha512-1jtLmI7FoYn4SXzlLsVh+iQoZpG+hdQd966D7dLB51T30lutV0XreQH+3ho7q12xZxQao2ZYmXlMghh/fCuPeQ==
+"@techstack/styled-system@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.2.tgz#cdc239d1c1dcc65b671f2211b6c9f23c13def44f"
+  integrity sha512-NH+UfVwa1NWDpV3r50+tOcAAqsdPnmolKE1KzKcqOCyfhRsGU7xNg3kqwXqmgIrb5fjSEnNATdOinsqrfnE+4A==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@techstack/memoize" "0.4.119"
