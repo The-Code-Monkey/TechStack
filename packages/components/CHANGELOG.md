@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.7.253 (2023-06-17)
+
+
+### Bug Fixes
+
+* update styled-system ([10f9563](https://github.com/The-Code-Monkey/TechStack/commit/10f9563cf077c9303a190bc53b6a40aa42fbb94a))
+
+
+
+
+
 ## [0.7.252](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.251...@techstack/components@0.7.252) (2023-06-16)
 
 
