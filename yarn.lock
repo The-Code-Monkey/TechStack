@@ -4227,16 +4227,6 @@
     lodash "4.17.21"
     lodash-es "4.17.21"
 
-"@techstack/react-quill@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@techstack/react-quill/-/react-quill-0.0.6.tgz#713279fbc2a9a6e5117a462b4a115983a5c6f29a"
-  integrity sha512-/bPMuT00At+I06K34oueyWx7pAxO0Vj9xyM9x42gih5HNlSKp4+i4+d9+fldxO2avIIug/zJtcrct7n79rKM4Q==
-  dependencies:
-    "@types/quill" "2.0.10"
-    lodash "4.17.21"
-    quill "2.0.0-dev.4"
-    quill-better-table "^1.2.10"
-
 "@techstack/react-textfit@0.4.126":
   version "0.4.126"
   resolved "https://registry.yarnpkg.com/@techstack/react-textfit/-/react-textfit-0.4.126.tgz#edb8f23647361b462b172244a990093eee8976b7"
