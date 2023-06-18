@@ -45,7 +45,7 @@
     "rerender"
   ],
   "devDependencies": {
-    "@techstack/tcm-cli": "0.4.204",
+    "@techstack/tcm-cli": "0.4.205",
     "@testing-library/react": "14.0.0",
     "jest-environment-jsdom": "29.5.0"
   },

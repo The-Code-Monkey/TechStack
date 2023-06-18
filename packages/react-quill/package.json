@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@nrwl/nx-cloud": "16.0.5",
-    "@techstack/tcm-cli": "0.4.204",
+    "@techstack/tcm-cli": "0.4.205",
     "@types/lodash": "^4.14.146",
     "@types/react": "^18.0.38",
     "@types/react-dom": "^18.0.11",

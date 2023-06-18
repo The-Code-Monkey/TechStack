@@ -107,7 +107,7 @@
     "@techstack/react-textfit": "0.4.145",
     "@techstack/styled-system": "1.0.4",
     "@techstack/theme": "0.4.134",
-    "@techstack/tcm-cli": "0.4.204",
+    "@techstack/tcm-cli": "0.4.205",
     "@types/react-table": "7.7.14",
     "classnames": "2.3.2",
     "csstype": "3.1.2",

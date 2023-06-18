@@ -7,17 +7,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/components",
-    "packages/font-picker",
-    "packages/memoize",
-    "packages/react-confirm-alert",
-    "packages/react-feather",
-    "packages/react-lazy-named",
-    "packages/react-quill",
-    "packages/react-textfit",
-    "packages/tcm-cli",
-    "packages/theme",
-    "packages/x-default-browser"
+    "packages/*"
   ],
   "scripts": {
     "clean": "git clean -xdf",
@@ -27,9 +17,9 @@
     "lint:fix": "lerna run lint --stream -- --fix",
     "lint:cms": "cd platforms/react-cms && yarn lint",
     "size": "lerna run size --stream",
-    "build:tcm": "cd packages/tcm-cli && yarn build",
-    "build:theme": "cd packages/theme && yarn build",
-    "build": "lerna run build",
+    "build:tcm": "cd packages/tcm-cli && yarn build && lerna link",
+    "build:theme": "cd packages/theme && yarn build && lerna link",
+    "build": "yarn build:tcm && yarn build:theme && lerna run build",
     "lerna:changed": "lerna changed",
     "lerna:version": "lerna version --conventional-commits --exact --yes",
     "lerna:publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --no-verify-access --yes",
@@ -38,7 +28,8 @@
   },
   "devDependencies": {
     "husky": "8.0.3",
-    "lerna": "7.0.2"
+    "lerna": "7.0.2",
+    "@lerna/link": "6.6.2"
   },
   "prettier": {
     "printWidth": 80,
