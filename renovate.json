@@ -21,7 +21,8 @@
     {
       "matchPackagePatterns": ["@techstack/*"],
       "groupName": "@techstack mono repo",
-      "enabled": true
+      "enabled": true,
+      "rollback": false
     }
   ],
   "updateInternalDeps": true
