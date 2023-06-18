@@ -7,7 +7,17 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/components",
+    "packages/font-picker",
+    "packages/memoize",
+    "packages/react-confirm-alert",
+    "packages/react-feather",
+    "packages/react-lazy-named",
+    "packages/react-quill",
+    "packages/react-textfit",
+    "packages/tcm-cli",
+    "packages/theme",
+    "packages/x-default-browser"
   ],
   "scripts": {
     "clean": "git clean -xdf",
