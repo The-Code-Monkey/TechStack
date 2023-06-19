@@ -1,5 +1,5 @@
 {
-  "version": "0.7.264",
+  "version": "0.7.265",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -80,7 +80,7 @@
     "@testing-library/react": "14.0.0",
     "@tsconfig/create-react-app": "1.0.3",
     "@tsconfig/recommended": "1.0.2",
-    "@types/react-dom": "18.2.5",
+    "@types/react-dom": "18.2.6",
     "chromatic": "6.19.8",
     "cross-env": "7.0.3",
     "eslint-plugin-import": "2.27.5",
