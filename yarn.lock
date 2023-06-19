@@ -4531,6 +4531,16 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.2.tgz#0402364a2a9692edf04e05ee6f385dfa27271da5"
   integrity sha512-ajc0OF+karBAdaSz7OK09rCoAHB1XI1+wEhu+tDNMPc+XcO+dTlXXN/Vc0a8vym4kElvEjXEDd9c8Zfgt4bekA==
 
+"@techstack/react-quill@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@techstack/react-quill/-/react-quill-1.0.3.tgz#0d5fab23539e8d4c92283f3cc62be1cc97b6bcc7"
+  integrity sha512-SRgLxhg8NmEmrrI8ZMRgQvu6LEFXPbigH4+auJemxuc2PHXFuCOsRSWRISqlVWSiXZ8dRopcfhIvDaahPGgiKg==
+  dependencies:
+    "@types/quill" "2.0.10"
+    lodash "4.17.21"
+    quill "2.0.0-dev.4"
+    quill-better-table "^1.2.10"
+
 "@techstack/styled-system@1.0.7":
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.7.tgz#af439ec8722de4de5e1d928e57b24d7ed84e805b"
@@ -5156,7 +5166,7 @@
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
 
-"@types/react-dom@*", "@types/react-dom@18.2.5", "@types/react-dom@^18.0.0", "@types/react-dom@^18.0.11":
+"@types/react-dom@*", "@types/react-dom@18.2.5", "@types/react-dom@^18.0.0":
   version "18.2.5"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.5.tgz#5c5f13548bda23cd98f50ca4a59107238bfe18f3"
   integrity sha512-sRQsOS/sCLnpQhR4DSKGTtWFE3FZjpQa86KPVbhUqdYMRZ9FEFcfAytKhR/vUG2rH1oFbOOej6cuD7MFSobDRQ==
@@ -5170,7 +5180,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@18.2.12", "@types/react@>=16", "@types/react@^18.0.38":
+"@types/react@*", "@types/react@18.2.12", "@types/react@>=16":
   version "18.2.12"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.12.tgz#95d584338610b78bb9ba0415e3180fb03debdf97"
   integrity sha512-ndmBMLCgn38v3SntMeoJaIrO6tGHYKMEBohCUmw8HoLLQdRMOIGXfeYaBTLe2lsFaSB3MOK1VXscYFnmLtTSmw==
