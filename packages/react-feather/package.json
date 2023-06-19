@@ -1,6 +1,6 @@
 {
   "name": "@techstack/react-feather",
-  "version": "0.4.120",
+  "version": "0.4.121",
   "description": "React component for Feather icons",
   "type": "module",
   "main": "./dist/index.js",
@@ -53,7 +53,7 @@
     "@techstack/react-lazy-named": "0.4.116"
   },
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0"
+    "react": "18.2.0"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a"
 }

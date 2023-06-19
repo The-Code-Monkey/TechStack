@@ -1,6 +1,6 @@
 {
   "name": "@techstack/react-lazy-named",
-  "version": "0.4.116",
+  "version": "0.4.117",
   "description": "React lazy() with named imports - exports support",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/react-lazy-named/README.md",
   "repository": {
@@ -50,7 +50,7 @@
     "jest-environment-jsdom": "29.5.0"
   },
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0"
+    "react": "18.2.0"
   },
   "dependencies": {
     "lodash": "4.17.21",
