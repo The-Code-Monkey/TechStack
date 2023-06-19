@@ -36,7 +36,7 @@
     "src/conf"
   ],
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.18.6",
