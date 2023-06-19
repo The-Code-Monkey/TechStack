@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.266](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.261...@techstack/components@0.7.266) (2023-06-19)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([#1461](https://github.com/The-Code-Monkey/TechStack/issues/1461)) ([30ee047](https://github.com/The-Code-Monkey/TechStack/commit/30ee047e29f93d5bc4f9f4557dab3958ee0a778f))
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([#1458](https://github.com/The-Code-Monkey/TechStack/issues/1458)) ([83174e5](https://github.com/The-Code-Monkey/TechStack/commit/83174e59ff29e68071ff67f177004790f4079816))
+* **deps:** update dependency @techstack/styled-system to v1.0.8 ([#1462](https://github.com/The-Code-Monkey/TechStack/issues/1462)) ([3b714cf](https://github.com/The-Code-Monkey/TechStack/commit/3b714cf573461a1046b3e9d292fadeae793e6e4c))
+* **deps:** update dependency i18next to v23.2.0 ([#1463](https://github.com/The-Code-Monkey/TechStack/issues/1463)) ([88c7151](https://github.com/The-Code-Monkey/TechStack/commit/88c71517895b3dc92d23fb6ca454bf921301635e))
+* update to node 18 + ([1084a50](https://github.com/The-Code-Monkey/TechStack/commit/1084a50e13e814c24656a3a57868d6f300cd060d))
+
+
+
+
+
 ## [0.7.261](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.259...@techstack/components@0.7.261) (2023-06-19)
 
 

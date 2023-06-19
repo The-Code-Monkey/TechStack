@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.211 (2023-06-19)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([#1461](https://github.com/The-Code-Monkey/TechStack/issues/1461)) ([30ee047](https://github.com/The-Code-Monkey/TechStack/commit/30ee047e29f93d5bc4f9f4557dab3958ee0a778f))
+* **deps:** update dependency @rollup/plugin-commonjs to v25.0.2 ([#1465](https://github.com/The-Code-Monkey/TechStack/issues/1465)) ([2b29f07](https://github.com/The-Code-Monkey/TechStack/commit/2b29f073f84e71d62814f87fd3834452ed4579d1))
+* **deps:** update dependency eslint-plugin-jest to v27.2.2 ([#1459](https://github.com/The-Code-Monkey/TechStack/issues/1459)) ([15e20a2](https://github.com/The-Code-Monkey/TechStack/commit/15e20a2bc6b7a201c6f1a45cb69dc4fa1b1b7355))
+* update to node 18 + ([1084a50](https://github.com/The-Code-Monkey/TechStack/commit/1084a50e13e814c24656a3a57868d6f300cd060d))
+
+
+
+
+
 ## 0.4.206 (2023-06-18)
 
 

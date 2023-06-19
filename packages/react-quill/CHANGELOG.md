@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.7 (2023-06-19)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([#1461](https://github.com/The-Code-Monkey/TechStack/issues/1461)) ([30ee047](https://github.com/The-Code-Monkey/TechStack/commit/30ee047e29f93d5bc4f9f4557dab3958ee0a778f))
+
+
+
+
+
 ## 1.0.3 (2023-06-18)
 
 

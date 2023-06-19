@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.144 (2023-06-19)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([#1461](https://github.com/The-Code-Monkey/TechStack/issues/1461)) ([30ee047](https://github.com/The-Code-Monkey/TechStack/commit/30ee047e29f93d5bc4f9f4557dab3958ee0a778f))
+* update to node 18 + ([1084a50](https://github.com/The-Code-Monkey/TechStack/commit/1084a50e13e814c24656a3a57868d6f300cd060d))
+
+
+
+
+
 ## 0.4.140 (2023-06-18)
 
 
