@@ -4531,25 +4531,10 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.2.tgz#0402364a2a9692edf04e05ee6f385dfa27271da5"
   integrity sha512-ajc0OF+karBAdaSz7OK09rCoAHB1XI1+wEhu+tDNMPc+XcO+dTlXXN/Vc0a8vym4kElvEjXEDd9c8Zfgt4bekA==
 
-"@techstack/react-feather@0.4.118":
-  version "0.4.118"
-  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-0.4.118.tgz#555ff971e764305a109824bded6da3bfbe8df62e"
-  integrity sha512-iifuv3dQkSl+33QZlUbsK1CU/oclvElaEdOKnckdr39ph16O8hA0KkqPyn/iC/rlBdCFMK97PpxDCSlFKf2tSA==
-  dependencies:
-    "@techstack/react-lazy-named" "0.4.114"
-
-"@techstack/react-lazy-named@0.4.114":
-  version "0.4.114"
-  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-0.4.114.tgz#93764731cba13c7ae146893949793e6567cebcfd"
-  integrity sha512-DTdPDC56cJWG3fRpnfqid89SGx9D6xfmz0ElCaOKhS2rH2wuwTuN/XlTegAXrUlGgknUZXyN0YXZlmzKh91Kug==
-  dependencies:
-    lodash "4.17.21"
-    lodash-es "4.17.21"
-
-"@techstack/styled-system@1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.6.tgz#6963bec9c8c7353f93ca2af5fccc7a4faa53c7be"
-  integrity sha512-zxu30/+5lji1LpVgYlADjcqnpmhD5ZDkm7zE0BJGnnQzAfeCq8dX608/oKL+spFSung1z1h0b3sxDhj4xA+2Ag==
+"@techstack/styled-system@1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.7.tgz#af439ec8722de4de5e1d928e57b24d7ed84e805b"
+  integrity sha512-YioW16CASdFze+y5IJFCBigF0+OBC8n4rUy94mBCYO7WCvnlskBiFYBbgWGBW3vDzrQONm5EPl1cx/SnrB8o/A==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@techstack/memoize" "0.4.121"
