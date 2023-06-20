@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.146](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/font-picker-react@0.4.144...@techstack/font-picker-react@0.4.146) (2023-06-20)
+
+
+### Bug Fixes
+
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([#1467](https://github.com/The-Code-Monkey/TechStack/issues/1467)) ([2313008](https://github.com/The-Code-Monkey/TechStack/commit/23130085b96f0378dfcf36b322901849a20801fd))
+
+
+
+
+
 ## 0.4.144 (2023-06-19)
 
 

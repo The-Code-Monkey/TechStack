@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.16](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-confirm-alert@0.0.14...@techstack/react-confirm-alert@0.0.16) (2023-06-20)
+
+
+### Bug Fixes
+
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([#1467](https://github.com/The-Code-Monkey/TechStack/issues/1467)) ([2313008](https://github.com/The-Code-Monkey/TechStack/commit/23130085b96f0378dfcf36b322901849a20801fd))
+
+
+
+
+
 ## 0.0.14 (2023-06-19)
 
 **Note:** Version bump only for package @techstack/react-confirm-alert

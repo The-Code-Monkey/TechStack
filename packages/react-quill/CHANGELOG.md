@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.9](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-quill@1.0.7...@techstack/react-quill@1.0.9) (2023-06-20)
+
+
+### Bug Fixes
+
+* **deps:** update [@techstack](https://github.com/techstack) mono repo ([#1467](https://github.com/The-Code-Monkey/TechStack/issues/1467)) ([2313008](https://github.com/The-Code-Monkey/TechStack/commit/23130085b96f0378dfcf36b322901849a20801fd))
+
+
+
+
+
 ## 1.0.7 (2023-06-19)
 
 
