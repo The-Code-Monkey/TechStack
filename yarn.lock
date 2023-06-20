@@ -4536,10 +4536,10 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.122.tgz#f2b15a1f81534df652b5d6086cf3eed3368fa7e7"
   integrity sha512-NUuvEQ1Apm+tKOFDRHAS27cWr7kHksB1TOguvGFA0Cv0TvxNxQNhrPc7pta+l+G/7v9jZRjp89Ynf3FDjy8a9w==
 
-"@techstack/styled-system@1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.10.tgz#ebd8ec065c1f55f9a2ca55ffb8eec37295643c25"
-  integrity sha512-tEYArSPMnf9m0N2+blDmx+jvXcpkJ7m0H/D8Vw1PNt+xrkRsIRxKtHYsjK6//iLFMQQiJlfXc64MKuuI4R5Z5w==
+"@techstack/styled-system@1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.11.tgz#05beede34dd4080006e6bdd4425d19c5f97e740e"
+  integrity sha512-82iQPLICN4hjb41aDLb6VQag43UmXpRubG1s+m5o8QvSpf1agQ5KR2NiIvWWmAPSxfGquvFNgTc5XFmbtX6U9A==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@techstack/memoize" "0.4.122"
