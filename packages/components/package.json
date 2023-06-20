@@ -76,7 +76,7 @@
     "@storybook/jest": "0.1.0",
     "@storybook/react": "7.0.22",
     "@storybook/react-webpack5": "7.0.22",
-    "@storybook/testing-library": "0.1.0",
+    "@storybook/testing-library": "0.2.0",
     "@testing-library/react": "14.0.0",
     "@tsconfig/create-react-app": "1.0.3",
     "@tsconfig/recommended": "1.0.2",
