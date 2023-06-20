@@ -4531,30 +4531,17 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.2.tgz#0402364a2a9692edf04e05ee6f385dfa27271da5"
   integrity sha512-ajc0OF+karBAdaSz7OK09rCoAHB1XI1+wEhu+tDNMPc+XcO+dTlXXN/Vc0a8vym4kElvEjXEDd9c8Zfgt4bekA==
 
-"@techstack/memoize@0.4.121":
-  version "0.4.121"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.121.tgz#ff4346d41b972d61f8c965399f79721690397000"
-  integrity sha512-0gX8/0rleTIwNsYwcfymBOvdPGoLhoDL66HvoXBfDdMsieMjFadHPVrId+N+nGNuFoFus/jETYiAfuHmbAxhKw==
-
 "@techstack/memoize@0.4.122":
   version "0.4.122"
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.122.tgz#f2b15a1f81534df652b5d6086cf3eed3368fa7e7"
   integrity sha512-NUuvEQ1Apm+tKOFDRHAS27cWr7kHksB1TOguvGFA0Cv0TvxNxQNhrPc7pta+l+G/7v9jZRjp89Ynf3FDjy8a9w==
 
-"@techstack/react-feather@0.4.122":
-  version "0.4.122"
-  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-0.4.122.tgz#378de5fec8e5a4650288767157e01a4ee575ba2b"
-  integrity sha512-aFH7CQmXAF7/ieckrAGdLD5dEQ26jWr0HYf58cnnfquzR8ScNwH0+R175YrnfRPl4F3YOAVoP4FRntTz04UPrA==
+"@techstack/react-feather@0.4.124":
+  version "0.4.124"
+  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-0.4.124.tgz#120dc26018b721f6a3cf231f9a252197ddf129c3"
+  integrity sha512-7owMStZAG6AY1UPdnrHnCWc0HUWUC12HiY4Zl052N7suAUGI7j0+94fORD48SV/zy+QLW/dU8R7Qglh7IVSkhQ==
   dependencies:
-    "@techstack/react-lazy-named" "0.4.116"
-
-"@techstack/react-lazy-named@0.4.116":
-  version "0.4.116"
-  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-0.4.116.tgz#8f7855f3592a2f2184ac9b2336bc645441685813"
-  integrity sha512-0VvQDQe7kNAcv5YalRwyAGCd0RVtGhjnTEcsXmOGPmsAFfXhbLsz2xdfH4UwpgoLt4c5OkXgGpbnLDvCtEMQ4g==
-  dependencies:
-    lodash "4.17.21"
-    lodash-es "4.17.21"
+    "@techstack/react-lazy-named" "0.4.118"
 
 "@techstack/react-lazy-named@0.4.118":
   version "0.4.118"
@@ -4564,45 +4551,15 @@
     lodash "4.17.21"
     lodash-es "4.17.21"
 
-"@techstack/react-quill@1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@techstack/react-quill/-/react-quill-1.0.7.tgz#cb27f3ad2f77427122646b657cd49bb7b2b7ebdf"
-  integrity sha512-x3lVtQDlJi97jPWL/hZ9G9QsR1mZs7fNQWLreGAk2/kyb7kaZvSd99nXLXPwtOhMOZOXXXiRupokbnw3QPu2tQ==
-  dependencies:
-    "@types/quill" "2.0.10"
-    lodash "4.17.21"
-    quill "2.0.0-dev.4"
-    quill-better-table "1.2.10"
-
-"@techstack/react-textfit@0.4.148":
-  version "0.4.148"
-  resolved "https://registry.yarnpkg.com/@techstack/react-textfit/-/react-textfit-0.4.148.tgz#275d64f74cc1faafc21bd31a48eb7d776b053749"
-  integrity sha512-gGBcuQsl4QfzP9SrlX8rQ9MkOyGIjaCgklEEk+eUvKptS8ueJ9NtmvwzR5prbM+1Ctfx3WtGML1uMEpfGUZ4ng==
-  dependencies:
-    process "0.11.10"
-    prop-types "15.8.1"
-
-"@techstack/styled-system@1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.8.tgz#008c14c53f5e71f352246d0b071dc241dd6345ca"
-  integrity sha512-xUytX3yl4Z0A9MacWUpSFjYo10Dm2CGXSyqBkAnQPQejoNnuPZiFSVlSi4cwqBjx31eiKixnpBRWn2YhAwIH2w==
+"@techstack/styled-system@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.10.tgz#ebd8ec065c1f55f9a2ca55ffb8eec37295643c25"
+  integrity sha512-tEYArSPMnf9m0N2+blDmx+jvXcpkJ7m0H/D8Vw1PNt+xrkRsIRxKtHYsjK6//iLFMQQiJlfXc64MKuuI4R5Z5w==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
-    "@techstack/memoize" "0.4.121"
+    "@techstack/memoize" "0.4.122"
     csstype "3.1.2"
     react "18.2.0"
-
-"@techstack/theme@0.4.136":
-  version "0.4.136"
-  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-0.4.136.tgz#89ef4227fa84ac19f7d3bc86e8aa64db24e7d127"
-  integrity sha512-l1huiKPoWgWxB4VQBNywoADNDaBuqYMDwx02OKsKRd7PwAQT3v9YmstSnQ8ish3Xfqe335Vs/3EknMR4n+BxHg==
-  dependencies:
-    fs-extra "11.1.1"
-    lodash "4.17.21"
-    lodash-es "4.17.21"
-    sade "1.8.1"
-    style-dictionary "3.8.0"
-    tinycolor2 "1.6.0"
 
 "@testing-library/dom@^8.3.0":
   version "8.20.0"
