@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.277](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.274...@techstack/components@0.7.277) (2023-06-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @techstack/styled-system to v1.0.12 ([#1472](https://github.com/The-Code-Monkey/TechStack/issues/1472)) ([61b1a39](https://github.com/The-Code-Monkey/TechStack/commit/61b1a393a6e1914e2c009af7c1b16e9da30daae1))
+* **deps:** update dependency @techstack/styled-system to v1.0.13 ([#1474](https://github.com/The-Code-Monkey/TechStack/issues/1474)) ([9d0acc5](https://github.com/The-Code-Monkey/TechStack/commit/9d0acc5ce3c44d610eae9e1d5dddcf8b1c305377))
+* **deps:** update dependency i18next to v23.2.1 ([#1471](https://github.com/The-Code-Monkey/TechStack/issues/1471)) ([29b7631](https://github.com/The-Code-Monkey/TechStack/commit/29b76316969e1f659253b042b30dbc4df6f52d60))
+* **deps:** update dependency i18next to v23.2.2 ([#1476](https://github.com/The-Code-Monkey/TechStack/issues/1476)) ([caae968](https://github.com/The-Code-Monkey/TechStack/commit/caae968be5d6b0b9876051bc5ed6578e14591c0b))
+
+
+
+
+
 ## [0.7.274](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.272...@techstack/components@0.7.274) (2023-06-20)
 
 
