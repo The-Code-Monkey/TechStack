@@ -1,5 +1,5 @@
 {
-  "version": "0.7.275",
+  "version": "0.7.276",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -112,7 +112,7 @@
     "classnames": "2.3.2",
     "csstype": "3.1.2",
     "deepmerge": "4.3.1",
-    "i18next": "23.2.1",
+    "i18next": "23.2.2",
     "react-date-picker": "10.2.0",
     "react-datetime-picker": "5.2.0",
     "react-i18next": "13.0.0",
