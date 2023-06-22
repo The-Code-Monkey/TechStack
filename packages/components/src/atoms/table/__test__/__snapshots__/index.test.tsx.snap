@@ -4,17 +4,17 @@ exports[`<Table /> should render correctly 1`] = `
 <DocumentFragment>
   <div>
     <table
-      class="sc-bXxmBy poALE"
+      class="sc-jWWaec kJkXin"
     >
       <thead
-        class="sc-jlOLRj bYHpOE"
+        class="sc-fIGkQR guBpjX"
       >
         <tr
-          class="sc-dMnqAs hfVHHh"
+          class="sc-hpvRAK flXAKp"
         />
       </thead>
       <tbody
-        class="sc-eErDDp gnQCvP"
+        class="sc-hUozzH hbJxid"
       />
     </table>
   </div>
