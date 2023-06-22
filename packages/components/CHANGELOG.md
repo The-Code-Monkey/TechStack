@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.281](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.279...@techstack/components@0.7.281) (2023-06-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @techstack/react-quill to v1.0.11 ([#1481](https://github.com/The-Code-Monkey/TechStack/issues/1481)) ([44d6184](https://github.com/The-Code-Monkey/TechStack/commit/44d6184e3df9940ac7ab1e5395ea2cc5bd767415))
+* **deps:** update dependency i18next to v23.2.3 ([#1480](https://github.com/The-Code-Monkey/TechStack/issues/1480)) ([6fb5205](https://github.com/The-Code-Monkey/TechStack/commit/6fb52051845ace90361489938f78d78f5d1dc17e))
+* **deps:** update dependency react-i18next to v13.0.1 ([#1482](https://github.com/The-Code-Monkey/TechStack/issues/1482)) ([a28fd70](https://github.com/The-Code-Monkey/TechStack/commit/a28fd70d6332c032e8b2282d8d6dcc242189100a))
+
+
+
+
+
 ## [0.7.279](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.277...@techstack/components@0.7.279) (2023-06-22)
 
 **Note:** Version bump only for package @techstack/components
