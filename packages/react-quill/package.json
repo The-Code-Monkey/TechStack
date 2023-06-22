@@ -1,6 +1,6 @@
 {
   "name": "@techstack/react-quill",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "The Quill rich-text editor as a React component.",
   "license": "MIT",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/react-quill/README.md",

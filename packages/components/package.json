@@ -1,5 +1,5 @@
 {
-  "version": "0.7.286",
+  "version": "0.7.287",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
