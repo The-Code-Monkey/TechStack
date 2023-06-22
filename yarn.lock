@@ -4529,16 +4529,6 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.2.tgz#0402364a2a9692edf04e05ee6f385dfa27271da5"
   integrity sha512-ajc0OF+karBAdaSz7OK09rCoAHB1XI1+wEhu+tDNMPc+XcO+dTlXXN/Vc0a8vym4kElvEjXEDd9c8Zfgt4bekA==
 
-"@techstack/react-quill@1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@techstack/react-quill/-/react-quill-1.0.9.tgz#3914bad40ae10c3b894365b54b1933ff0c939eb6"
-  integrity sha512-s9y816mWuks0vf+uywDX86Ubm/VE81cARN8B5eK7tOAUKUbceSvAWzkvvOcUkRvRXsNfXAcVGpdqRHkwwvUjtg==
-  dependencies:
-    "@types/quill" "2.0.10"
-    lodash "4.17.21"
-    quill "2.0.0-dev.4"
-    quill-better-table "1.2.10"
-
 "@techstack/styled-system@1.0.13":
   version "1.0.13"
   resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.13.tgz#91f4fe06ecc047f33ce2abf1e58c2078302ea341"
