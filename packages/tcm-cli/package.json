@@ -1,6 +1,6 @@
 {
   "name": "@techstack/tcm-cli",
-  "version": "0.4.213",
+  "version": "0.4.214",
   "description": "Zero-config TypeScript package development",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/tcm-cli/README.md",
   "repository": {
@@ -89,7 +89,7 @@
     "rollup-plugin-dts": "5.3.0",
     "rollup-plugin-typescript2": "0.34.1",
     "sade": "1.8.1",
-    "semver": "7.5.2",
+    "semver": "7.5.3",
     "shelljs": "0.8.5",
     "sort-package-json": "2.4.1",
     "tiny-glob": "0.2.9",
