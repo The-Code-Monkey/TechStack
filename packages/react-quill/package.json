@@ -1,6 +1,6 @@
 {
   "name": "@techstack/react-quill",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "The Quill rich-text editor as a React component.",
   "license": "MIT",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/react-quill/README.md",
@@ -54,7 +54,7 @@
     "@nrwl/nx-cloud": "16.0.5",
     "@techstack/tcm-cli": "0.4.215",
     "@types/lodash": "4.14.195",
-    "@types/react": "18.2.13",
+    "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
     "blanket": "1.2.3",
     "cheerio": "1.0.0-rc.12",
