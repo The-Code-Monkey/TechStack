@@ -99,7 +99,7 @@
   },
   "dependencies": {
     "@emotion/is-prop-valid": "1.2.1",
-    "@tanstack/react-table": "8.9.2",
+    "@tanstack/react-table": "8.9.3",
     "@techstack/memoize": "0.4.128",
     "@techstack/react-feather": "0.4.134",
     "@techstack/react-lazy-named": "0.4.124",
