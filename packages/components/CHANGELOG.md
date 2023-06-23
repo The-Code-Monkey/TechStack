@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.293](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.291...@techstack/components@0.7.293) (2023-06-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @techstack/react-feather to v0.4.130 ([#1490](https://github.com/The-Code-Monkey/TechStack/issues/1490)) ([3429792](https://github.com/The-Code-Monkey/TechStack/commit/342979285d8210211878f59ed714725ec1a13bca))
+
+
+
+
+
 ## [0.7.291](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.289...@techstack/components@0.7.291) (2023-06-23)
 
 

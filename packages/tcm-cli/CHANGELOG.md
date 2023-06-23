@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.215 (2023-06-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup-plugin-typescript2 to v0.35.0 ([#1489](https://github.com/The-Code-Monkey/TechStack/issues/1489)) ([a476844](https://github.com/The-Code-Monkey/TechStack/commit/a47684441fd804ecdc8adf1f95a93d9172b6ec55))
+* **deps:** update dependency semver to v7.5.3 ([#1488](https://github.com/The-Code-Monkey/TechStack/issues/1488)) ([2187eeb](https://github.com/The-Code-Monkey/TechStack/commit/2187eeb9c8bebce5ff4f819831ce72316bfffe4a))
+
+
+
+
+
 ## 0.4.213 (2023-06-22)
 
 **Note:** Version bump only for package @techstack/tcm-cli
