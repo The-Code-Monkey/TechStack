@@ -1,5 +1,5 @@
 {
-  "version": "0.7.297",
+  "version": "0.7.298",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -99,7 +99,7 @@
   },
   "dependencies": {
     "@emotion/is-prop-valid": "1.2.1",
-    "@tanstack/react-table": "8.9.2",
+    "@tanstack/react-table": "8.9.3",
     "@techstack/memoize": "0.4.128",
     "@techstack/react-feather": "0.4.132",
     "@techstack/react-lazy-named": "0.4.124",
