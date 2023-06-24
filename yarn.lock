@@ -3607,12 +3607,12 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
-"@size-limit/file@8.2.4":
-  version "8.2.4"
-  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-8.2.4.tgz#3624527cc9644c700697322d533e157b4a809a2b"
-  integrity sha512-xLuF97W7m7lxrRJvqXRlxO/4t7cpXtfxOnjml/t4aRVUCMXLdyvebRr9OM4jjoK8Fmiz8jomCbETUCI3jVhLzA==
+"@size-limit/file@8.2.6":
+  version "8.2.6"
+  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-8.2.6.tgz#0e17045a0fa8009fc787c85e3c09f611316f908c"
+  integrity sha512-B7ayjxiJsbtXdIIWazJkB5gezi5WBMecdHTFPMDhI3NwEML1RVvUjAkrb1mPAAkIpt2LVHPnhdCUHjqDdjugwg==
   dependencies:
-    semver "7.3.8"
+    semver "7.5.3"
 
 "@storybook/addon-actions@7.0.23":
   version "7.0.23"
