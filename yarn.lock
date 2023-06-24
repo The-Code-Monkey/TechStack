@@ -4529,33 +4529,13 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.3.tgz#991da6b015f6200fdc841c48048bee5e197f6a46"
   integrity sha512-NpHZBoHTfqyJk0m/s/+CSuAiwtebhYK90mDuf5eylTvgViNOujiaOaxNDxJkQQAsVvHWZftUGAx1EfO1rkKtLg==
 
-"@techstack/memoize@0.4.128":
-  version "0.4.128"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.128.tgz#c5373368f39e771cdb5a6e88269a30c21ee7d2b7"
-  integrity sha512-VtERqF34pzXv4ZQMGF8HFv3wJbAnO9OUPm8l0+pnTKz4POkMz1xkX0fzjljFb0jauBvc1MaT2TWEqQuGL56Www==
-
-"@techstack/react-feather@0.4.136":
-  version "0.4.136"
-  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-0.4.136.tgz#ef67ab2c6c3dac6dfd0918844e38fe23b422b67f"
-  integrity sha512-9R5jDIV0+qddJurrQvp09rVlHSD8lDpgYe8lHXetFXuvU+YQXT1+6YnbiZSD+t96jBI8ZhvZbgizq2TscygF5A==
-  dependencies:
-    "@techstack/react-lazy-named" "0.4.124"
-
-"@techstack/react-lazy-named@0.4.124":
-  version "0.4.124"
-  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-0.4.124.tgz#692fa5e1ef01f4c432e5e52c0652d4bb4a1a1ea0"
-  integrity sha512-/O9cRHDR+twGq7sQU2iIjwEDv4cUKLJbfrnFcnbDC7hthr48XJgMtY0toQCM3bKd5UKLX1Mq8CvkRZHa8zNyYA==
-  dependencies:
-    lodash "4.17.21"
-    lodash-es "4.17.21"
-
-"@techstack/styled-system@1.0.19":
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.19.tgz#fc7d3601aa4a6142708f7d7a76c45998e17e9d8c"
-  integrity sha512-41ZSky19TVbxKHqBf3dd/N3XqzTE0Dm0aibusQXKu9czzoNR0vn4tosyhawJMIEVKaqNwnh+43tgGnXoehsjlQ==
+"@techstack/styled-system@1.0.21":
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.21.tgz#bc5e665d1b0f4f0c46909b992a322fa3c96de77f"
+  integrity sha512-t+crx8k2+bnRtg3sLP3esEaPBjc7kbZBikiKrl8bu4MlaGHra60aa9ujuGfcltszjOWPY7N9ueDjDgUzll4d2Q==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
-    "@techstack/memoize" "0.4.128"
+    "@techstack/memoize" "0.4.130"
     csstype "3.1.2"
     react "18.2.0"
 
