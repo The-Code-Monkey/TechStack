@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.130 (2023-06-25)
+
+
+### Bug Fixes
+
+* **deps:** update techstack mono repo ([#1505](https://github.com/The-Code-Monkey/TechStack/issues/1505)) ([2596592](https://github.com/The-Code-Monkey/TechStack/commit/2596592463db9afa84cb242cc3950bc4c3112bb8))
+
+
+
+
+
 ## 0.4.128 (2023-06-24)
 
 
