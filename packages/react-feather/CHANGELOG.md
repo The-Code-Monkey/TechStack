@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.146](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@0.4.144...@techstack/react-feather@0.4.146) (2023-06-26)
+
+
+### Bug Fixes
+
+* **deps:** update techstack mono repo ([#1506](https://github.com/The-Code-Monkey/TechStack/issues/1506)) ([04b5ee8](https://github.com/The-Code-Monkey/TechStack/commit/04b5ee8abff3a374fdb07ec34a25ccfd44e720f0))
+
+
+
+
+
 ## [0.4.144](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@0.4.142...@techstack/react-feather@0.4.144) (2023-06-25)
 
 
