@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.223 (2023-06-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup to v3.25.3 ([#1510](https://github.com/The-Code-Monkey/TechStack/issues/1510)) ([5a5c81b](https://github.com/The-Code-Monkey/TechStack/commit/5a5c81b45dca349e5cd30e72bd4e487f1023b6bc))
+
+
+
+
+
 ## 0.4.221 (2023-06-25)
 
 
