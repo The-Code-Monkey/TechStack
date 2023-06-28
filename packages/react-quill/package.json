@@ -1,6 +1,6 @@
 {
   "name": "@techstack/react-quill",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "description": "The Quill rich-text editor as a React component.",
   "license": "MIT",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/react-quill/README.md",
@@ -63,7 +63,7 @@
     "react-dom": "18.2.0",
     "should": "13.2.3",
     "superstatic": "9.0.3",
-    "typescript": "5.1.3",
+    "typescript": "5.1.6",
     "webpack": "5.88.0",
     "webpack-cli": "5.1.4"
   }

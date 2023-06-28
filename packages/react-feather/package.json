@@ -1,6 +1,6 @@
 {
   "name": "@techstack/react-feather",
-  "version": "0.4.148",
+  "version": "0.4.149",
   "description": "React component for Feather icons",
   "type": "module",
   "main": "./dist/index.js",
@@ -47,7 +47,7 @@
     "@techstack/tcm-cli": "0.4.223",
     "cross-env": "7.0.3",
     "fs-extra": "11.1.1",
-    "typescript": "5.1.3"
+    "typescript": "5.1.6"
   },
   "dependencies": {
     "@techstack/react-lazy-named": "0.4.130"
