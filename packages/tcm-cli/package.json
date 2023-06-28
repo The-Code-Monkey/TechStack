@@ -1,6 +1,6 @@
 {
   "name": "@techstack/tcm-cli",
-  "version": "0.4.225",
+  "version": "0.4.226",
   "description": "Zero-config TypeScript package development",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/tcm-cli/README.md",
   "repository": {
@@ -119,7 +119,7 @@
     "babel-plugin-replace-identifiers": "0.1.1",
     "cssnano": "6.0.1",
     "doctoc": "2.2.1",
-    "lint-staged": "13.2.2",
+    "lint-staged": "13.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-is": "18.2.0",
