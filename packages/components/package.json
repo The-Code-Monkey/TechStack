@@ -78,7 +78,7 @@
     "@storybook/react-webpack5": "7.0.24",
     "@storybook/testing-library": "0.2.0",
     "@testing-library/react": "14.0.0",
-    "@tsconfig/create-react-app": "1.0.3",
+    "@tsconfig/create-react-app": "2.0.0",
     "@tsconfig/recommended": "1.0.2",
     "@types/react-dom": "18.2.6",
     "chromatic": "6.19.9",
