@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.164 (2023-07-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.44.0 ([#1524](https://github.com/The-Code-Monkey/TechStack/issues/1524)) ([063d69f](https://github.com/The-Code-Monkey/TechStack/commit/063d69fa4b099b6885cd4b1cfcfdc362f6513435))
+* **deps:** update techstack mono repo ([#1517](https://github.com/The-Code-Monkey/TechStack/issues/1517)) ([eb78f96](https://github.com/The-Code-Monkey/TechStack/commit/eb78f96f53469c4b4901a4e6685081fc15330700))
+
+
+
+
+
 ## 0.4.162 (2023-06-28)
 
 

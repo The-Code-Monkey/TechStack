@@ -1,6 +1,6 @@
 {
   "name": "@techstack/react-feather",
-  "version": "0.4.151",
+  "version": "0.4.152",
   "description": "React component for Feather icons",
   "type": "module",
   "main": "./dist/index.js",

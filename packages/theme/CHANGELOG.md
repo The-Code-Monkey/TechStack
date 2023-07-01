@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.158](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.4.156...@techstack/theme@0.4.158) (2023-07-01)
+
+
+### Bug Fixes
+
+* **deps:** update techstack mono repo ([#1517](https://github.com/The-Code-Monkey/TechStack/issues/1517)) ([eb78f96](https://github.com/The-Code-Monkey/TechStack/commit/eb78f96f53469c4b4901a4e6685081fc15330700))
+
+
+
+
+
 ## [0.4.156](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@0.4.154...@techstack/theme@0.4.156) (2023-06-30)
 
 **Note:** Version bump only for package @techstack/theme
