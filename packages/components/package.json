@@ -95,7 +95,7 @@
     "storybook": "7.0.24",
     "tslib": "2.6.0",
     "typescript": "5.1.6",
-    "webpack": "5.88.0"
+    "webpack": "5.88.1"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "1.2.1",
