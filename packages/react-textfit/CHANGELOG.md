@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.168 (2023-07-05)
+
+
+### Bug Fixes
+
+* **deps:** update techstack mono repo ([#1532](https://github.com/The-Code-Monkey/TechStack/issues/1532)) ([f6e1b9e](https://github.com/The-Code-Monkey/TechStack/commit/f6e1b9e512db04a6bdb94acf6b95ae867c619077))
+
+
+
+
+
 ## [0.4.166](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-textfit@0.4.164...@techstack/react-textfit@0.4.166) (2023-07-02)
 
 

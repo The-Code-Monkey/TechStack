@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.7.327 (2023-07-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency i18next to v23.2.7 ([#1533](https://github.com/The-Code-Monkey/TechStack/issues/1533)) ([aeb3cb1](https://github.com/The-Code-Monkey/TechStack/commit/aeb3cb170c043ec65006dd780db87f5587b47e0a))
+* **deps:** update techstack mono repo ([#1532](https://github.com/The-Code-Monkey/TechStack/issues/1532)) ([f6e1b9e](https://github.com/The-Code-Monkey/TechStack/commit/f6e1b9e512db04a6bdb94acf6b95ae867c619077))
+
+
+
+
+
 ## [0.7.325](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.323...@techstack/components@0.7.325) (2023-07-03)
 
 
