@@ -24,7 +24,7 @@
       "enabled": false
     },
     {
-      "matchPackagePatterns": ["@techstack/*"],
+      "matchPackagePatterns": ["*"],
       "groupName": "techstack mono repo",
       "enabled": true,
       "rollback": false
