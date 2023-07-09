@@ -1,5 +1,5 @@
 {
-  "version": "0.7.327",
+  "version": "0.7.328",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -63,7 +63,7 @@
     }
   },
   "devDependencies": {
-    "@babel/preset-env": "7.22.6",
+    "@babel/preset-env": "7.22.7",
     "@babel/preset-react": "7.22.5",
     "@babel/preset-typescript": "7.22.5",
     "@size-limit/file": "8.2.6",
