@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.235 (2023-07-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-plugin-polyfill-regenerator to v0.5.1 ([da73534](https://github.com/The-Code-Monkey/TechStack/commit/da73534e48cc91834ed8b74ea9edf36450f1aceb))
+
+
+
+
+
 ## 0.4.233 (2023-07-04)
 
 
