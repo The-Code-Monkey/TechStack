@@ -1,5 +1,5 @@
 {
-  "version": "0.7.333",
+  "version": "0.7.334",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -115,7 +115,7 @@
     "i18next": "23.2.8",
     "react-date-picker": "10.2.0",
     "react-datetime-picker": "5.2.0",
-    "react-i18next": "13.0.1",
+    "react-i18next": "13.0.2",
     "react-lazy-named": "1.2.2",
     "react-responsive-carousel": "3.2.23",
     "react-table": "7.8.0",
