@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.172 (2023-07-10)
+
+**Note:** Version bump only for package @techstack/react-textfit
+
+
+
+
+
 ## 0.4.170 (2023-07-09)
 
 **Note:** Version bump only for package @techstack/react-textfit
