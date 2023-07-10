@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.7.335 (2023-07-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-i18next to v13.0.2 ([e8d6f80](https://github.com/The-Code-Monkey/TechStack/commit/e8d6f8067e7105ec88abb2f4538aa2392e27ef54))
+
+
+
+
+
 ## 0.7.333 (2023-07-09)
 
 
