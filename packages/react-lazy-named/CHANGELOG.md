@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.142 (2023-07-11)
+
+
+### Bug Fixes
+
+* **deps:** update techstack mono repo ([5fcbeba](https://github.com/The-Code-Monkey/TechStack/commit/5fcbeba643bc159a7dbf7293fe604c9fea3521ce))
+
+
+
+
+
 ## 0.4.140 (2023-07-10)
 
 **Note:** Version bump only for package @techstack/react-lazy-named
