@@ -4,7 +4,6 @@
     ":semanticPrefixFixDepsChoreOthers",
     ":ignoreModulesAndTests",
     ":autodetectPinVersions",
-    ":prConcurrentLimit20",
     "group:monorepos",
     "group:recommended",
     "workarounds:all"
@@ -13,6 +12,7 @@
   "bumpVersion": "patch",
   "automergeStrategy": "squash",
   "automerge": true,
+  "prConcurrentLimit": 1,
   "labels": ["dependencies"],
   "vulnerabilityAlerts": {
     "labels": ["security"],
