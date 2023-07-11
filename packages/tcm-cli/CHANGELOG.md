@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.251 (2023-07-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency type-fest to v3.13.0 ([05d380a](https://github.com/The-Code-Monkey/TechStack/commit/05d380a51f1a442ad0904ce1807d4f5b482e34ca))
+
+
+
+
+
 ## 0.4.249 (2023-07-11)
 
 **Note:** Version bump only for package @techstack/tcm-cli
