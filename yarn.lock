@@ -4803,6 +4803,16 @@
     lodash "4.17.21"
     lodash-es "4.17.21"
 
+"@techstack/react-quill@1.0.37":
+  version "1.0.37"
+  resolved "https://registry.yarnpkg.com/@techstack/react-quill/-/react-quill-1.0.37.tgz#80ccf4f19759a48a95ba7d6a62f548cc3be47cbb"
+  integrity sha512-4nEHCiNUsWsuh5TVgcAxnSfYDbZz/6Kud8NF8anbqFdv+nzbLnjE3PFbP8MzcRIr3+NIujRSzblQun/HKHcfAQ==
+  dependencies:
+    "@types/quill" "2.0.10"
+    lodash "4.17.21"
+    quill "2.0.0-dev.4"
+    quill-better-table "1.2.10"
+
 "@techstack/styled-system@1.0.50":
   version "1.0.50"
   resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.50.tgz#6097b4921d228a58cdc260b4a2ab4df6a81f057c"
@@ -4812,6 +4822,71 @@
     "@techstack/memoize" "0.4.146"
     csstype "3.1.2"
     react "18.2.0"
+
+"@techstack/tcm-cli@0.4.253":
+  version "0.4.253"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.4.253.tgz#32d02b934d3b272ecc68caae254977369fda960d"
+  integrity sha512-MWAq3pglHoXN+UZxTi9V8l1Ya+N2H28fW9c7gN0m6JoD0fVqCYdOy9GWj8iHkFgud0Ad9PdpYxS7gh1n2JdeFA==
+  dependencies:
+    "@babel/plugin-proposal-class-properties" "7.18.6"
+    "@rollup/plugin-babel" "6.0.3"
+    "@rollup/plugin-commonjs" "25.0.2"
+    "@rollup/plugin-json" "6.0.0"
+    "@rollup/plugin-node-resolve" "15.1.0"
+    "@rollup/plugin-replace" "5.0.2"
+    "@rollup/plugin-terser" "0.4.3"
+    "@typescript-eslint/eslint-plugin" "5.62.0"
+    "@typescript-eslint/parser" "5.62.0"
+    asyncro "3.0.0"
+    babel-plugin-annotate-pure-calls "0.4.0"
+    babel-plugin-dev-expression "0.2.3"
+    babel-plugin-macros "3.1.0"
+    babel-plugin-polyfill-regenerator "0.5.1"
+    babel-plugin-transform-rename-import "2.3.0"
+    camelcase "7.0.1"
+    colorette "2.0.20"
+    confusing-browser-globals "1.0.11"
+    enquirer "2.3.6"
+    eslint "8.44.0"
+    eslint-config-prettier "8.8.0"
+    eslint-config-react-app "7.0.1"
+    eslint-plugin-flowtype "8.0.3"
+    eslint-plugin-import "2.27.5"
+    eslint-plugin-jest "27.2.2"
+    eslint-plugin-jsx-a11y "6.7.1"
+    eslint-plugin-no-restricted-imports "0.0.0"
+    eslint-plugin-prettier "4.2.1"
+    eslint-plugin-react "7.32.2"
+    eslint-plugin-react-hooks "4.6.0"
+    eslint-plugin-testing-library "5.11.0"
+    execa "7.1.1"
+    figlet "1.6.0"
+    fs-extra "11.1.1"
+    jest "29.6.1"
+    jest-environment-jsdom "29.6.1"
+    jest-watch-typeahead "2.2.2"
+    jpjs "1.2.1"
+    lodash.merge "4.6.2"
+    ora "6.3.1"
+    pascal-case "3.1.2"
+    postcss "8.4.25"
+    prettier "3.0.0"
+    progress-estimator "0.3.1"
+    regenerator-runtime "0.13.11"
+    rollup "3.26.2"
+    rollup-plugin-delete "2.0.0"
+    rollup-plugin-dts "5.3.0"
+    rollup-plugin-typescript2 "0.35.0"
+    sade "1.8.1"
+    semver "7.5.4"
+    shelljs "0.8.5"
+    sort-package-json "2.5.1"
+    tiny-glob "0.2.9"
+    ts-jest "29.1.1"
+    ts-node "10.9.1"
+    tslib "2.6.0"
+    type-fest "3.13.0"
+    typescript "5.1.6"
 
 "@techstack/theme@0.4.166":
   version "0.4.166"
@@ -5366,10 +5441,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-dom@18.2.6":
-  version "18.2.6"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.6.tgz#ad621fa71a8db29af7c31b41b2ea3d8a6f4144d1"
-  integrity sha512-2et4PDvg6PVCyS7fuTc4gPoksV58bW0RwSxWKcPRcHZf0PRUGq03TKcD/rUHe3azfV6/5/biUBJw+HhCQjaP0A==
+"@types/react-dom@18.2.7":
+  version "18.2.7"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.7.tgz#67222a08c0a6ae0a0da33c3532348277c70abb63"
+  integrity sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==
   dependencies:
     "@types/react" "*"
 
@@ -5389,10 +5464,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@18.2.14":
-  version "18.2.14"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.14.tgz#fa7a6fecf1ce35ca94e74874f70c56ce88f7a127"
-  integrity sha512-A0zjq+QN/O0Kpe30hA1GidzyFjatVvrpIvWLxD+xv67Vt91TWWgco9IvrJBkeyHm1trGaFS/FSGqPlhyeZRm0g==
+"@types/react@18.2.15":
+  version "18.2.15"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.15.tgz#14792b35df676c20ec3cf595b262f8c615a73066"
+  integrity sha512-oEjE7TQt1fFTFSbf8kkNuc798ahTUzn3Le67/PWjE8MAfYAD/qB7O8hSTcromLFqHCt9bcdOg5GXMokzTjJ5SA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"

@@ -1,6 +1,6 @@
 {
   "name": "@techstack/font-picker-react",
-  "version": "0.4.178",
+  "version": "0.4.179",
   "description": "Font selector component for Google Fonts",
   "type": "module",
   "module": "./dist/font-picker-react.esm.js",
@@ -30,7 +30,7 @@
     "@samuelmeuli/font-manager": "1.4.0"
   },
   "peerDependencies": {
-    "@types/react": "18.2.14",
+    "@types/react": "18.2.15",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
