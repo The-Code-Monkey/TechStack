@@ -17319,10 +17319,10 @@ react-date-picker@10.2.0, react-date-picker@^10.0.0:
     react-fit "^1.5.1"
     update-input-width "^1.3.1"
 
-react-datetime-picker@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/react-datetime-picker/-/react-datetime-picker-5.2.0.tgz#76ba586e957130cf9027b7e43cbc4639f609c8b1"
-  integrity sha512-jSoDDw2EMn1qgnUVi7NS8uOuE82yMPwf+JwsOTM0aJMZW0cXyFIwffM6phsB2Hox80Oc8vNcVtFCTeH30w3qsg==
+react-datetime-picker@5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/react-datetime-picker/-/react-datetime-picker-5.2.1.tgz#6cc53850fb92aa53c968ffdb7fef484575b90efe"
+  integrity sha512-pFjwh7bXH6+XdcKfzXjqV1wMt5WoV1bYZwNDk9/Xe15o+xFDDfhftA2TQbT+9YbBZ2auJ+npwI1sSPn22FHDSg==
   dependencies:
     "@wojtekmaj/date-utils" "^1.1.3"
     clsx "^1.2.1"
