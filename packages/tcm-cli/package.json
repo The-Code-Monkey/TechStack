@@ -1,6 +1,6 @@
 {
   "name": "@techstack/tcm-cli",
-  "version": "0.4.255",
+  "version": "0.4.256",
   "description": "Zero-config TypeScript package development",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/tcm-cli/README.md",
   "repository": {
@@ -63,7 +63,7 @@
     "eslint-config-react-app": "7.0.1",
     "eslint-plugin-flowtype": "8.0.3",
     "eslint-plugin-import": "2.27.5",
-    "eslint-plugin-jest": "27.2.2",
+    "eslint-plugin-jest": "27.2.3",
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-no-restricted-imports": "0.0.0",
     "eslint-plugin-prettier": "4.2.1",
