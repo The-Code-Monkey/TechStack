@@ -1,5 +1,5 @@
 {
-  "version": "0.4.166",
+  "version": "0.4.167",
   "license": "MIT",
   "bin": {
     "orchard": "./dist/esm/index.js"
@@ -51,7 +51,7 @@
     "@tsconfig/recommended": "1.0.2",
     "@types/fs-extra": "11.0.1",
     "@types/lodash": "4.14.195",
-    "@types/lodash-es": "4.17.7",
+    "@types/lodash-es": "4.17.8",
     "@types/tinycolor2": "1.4.3",
     "size-limit": "8.2.6",
     "ts-jest": "29.1.1",
