@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.261 (2023-07-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rollup/plugin-commonjs to v25.0.3 ([34ace96](https://github.com/The-Code-Monkey/TechStack/commit/34ace96fe59d1b189de53ea9b4984c00b796ab3e))
+
+
+
+
+
 ## 0.4.259 (2023-07-14)
 
 
