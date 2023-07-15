@@ -4788,31 +4788,6 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.146.tgz#6a2f3c0c79ad2757a06698e76278a748f3ddee8b"
   integrity sha512-8yjG1x8mvNVmEA7FjAUSTTKvehC/d8CKnq42mGmv7UuXieARJtDCk8ibRjr3/CKJZ5oTwg/nhLIrfrfsAFgbLA==
 
-"@techstack/react-feather@0.4.166":
-  version "0.4.166"
-  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-0.4.166.tgz#bcbdb39f870f7b66b112d66ab9f3d31b7fe994da"
-  integrity sha512-/p6Mr0MihtMPXmc2nhuebpRv2ks+rZxbG6Sm/B65617EXYxp7rku/CwJ4NlXsZvRME3QG4c0dOWOAErvYSNs5w==
-  dependencies:
-    "@techstack/react-lazy-named" "0.4.144"
-
-"@techstack/react-lazy-named@0.4.144":
-  version "0.4.144"
-  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-0.4.144.tgz#560ef0e373636ae17859f107c66de5bd89b33759"
-  integrity sha512-OGoaMo5jb0h95J7b4szb4XLoShPDpggsMhUqG5mGXNqaQoiY8JqjA/Zz5jOQBKaOr22ZOtSBPIx5Cq9+0w8wiQ==
-  dependencies:
-    lodash "4.17.21"
-    lodash-es "4.17.21"
-
-"@techstack/react-quill@1.0.41":
-  version "1.0.41"
-  resolved "https://registry.yarnpkg.com/@techstack/react-quill/-/react-quill-1.0.41.tgz#6eea8130d21dcf8dbf8a1a512e499313dcfccf07"
-  integrity sha512-2UONDHXgp5tVWb2ZTll0RetGqNUMe/2YDvAFPPQVmg1QjSifIFZromvKHyir+IqoQpe/Kjv1o3VuqHT2jmbxBg==
-  dependencies:
-    "@types/quill" "2.0.10"
-    lodash "4.17.21"
-    quill "2.0.0-dev.4"
-    quill-better-table "1.2.10"
-
 "@techstack/styled-system@1.0.51":
   version "1.0.51"
   resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.51.tgz#4b7ac460403af22ff6f016fe7b005794ef9dc3ed"
