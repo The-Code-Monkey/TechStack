@@ -4788,21 +4788,6 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.146.tgz#6a2f3c0c79ad2757a06698e76278a748f3ddee8b"
   integrity sha512-8yjG1x8mvNVmEA7FjAUSTTKvehC/d8CKnq42mGmv7UuXieARJtDCk8ibRjr3/CKJZ5oTwg/nhLIrfrfsAFgbLA==
 
-"@techstack/react-feather@0.4.170":
-  version "0.4.170"
-  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-0.4.170.tgz#d28dff41c064bbca696ca3f6c2ce75768d2ce5e0"
-  integrity sha512-6S8li4FnE7qR3UR2nP2WDzdYNpdznNhpBqA/MwYU2QTQkKt6rm65a0OdT2rA7xM8QvR8Qbr41UAmEmIjEQykvQ==
-  dependencies:
-    "@techstack/react-lazy-named" "0.4.146"
-
-"@techstack/react-lazy-named@0.4.146":
-  version "0.4.146"
-  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-0.4.146.tgz#eb24c4a5c2f8d50f6fbf6bed54a02923ab697103"
-  integrity sha512-0nF0eSw1cufT7cDSgERc7pWdQ6yja5u3F5T8AeV6MHFnhVj5/01nK8dmZePP02pwKc7746tmY+SDVPV2ASt51w==
-  dependencies:
-    lodash "4.17.21"
-    lodash-es "4.17.21"
-
 "@techstack/styled-system@1.0.51":
   version "1.0.51"
   resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.51.tgz#4b7ac460403af22ff6f016fe7b005794ef9dc3ed"
