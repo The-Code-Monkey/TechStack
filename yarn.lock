@@ -4788,6 +4788,44 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.146.tgz#6a2f3c0c79ad2757a06698e76278a748f3ddee8b"
   integrity sha512-8yjG1x8mvNVmEA7FjAUSTTKvehC/d8CKnq42mGmv7UuXieARJtDCk8ibRjr3/CKJZ5oTwg/nhLIrfrfsAFgbLA==
 
+"@techstack/memoize@0.4.152":
+  version "0.4.152"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.152.tgz#0e795d970b27ca466497cf01ce14fc7897e000c9"
+  integrity sha512-DeLRM5JmvqGhRoFkABFb6wIjCxTv/douohh36cztZaKYv1z2RFldCJTfBrjkgN4Z4wsx+idF2AlJbERtkY0OTQ==
+
+"@techstack/react-feather@0.4.172":
+  version "0.4.172"
+  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-0.4.172.tgz#9a9c68824fda7c7605c2c594c32c2b8589d9e47d"
+  integrity sha512-gk2F/zlXuB2kTpR9vog72p7X0QiyJHd3wuzC5G+O1xp6ZFsKDkEJf8Uj3kha15PLRvWgfT/0wm5BsrwGHZzUZQ==
+  dependencies:
+    "@techstack/react-lazy-named" "0.4.148"
+
+"@techstack/react-lazy-named@0.4.148":
+  version "0.4.148"
+  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-0.4.148.tgz#ea72df493f7b6beaf397e083e370ad0411a7849e"
+  integrity sha512-eI5g57zgGlEB//TN+nHuSK5CZu7prKirXzN1vHNgNLoMmJzajVUtxxtMiDGoFqj1CFQW8RmV5M4+mFaQBXZ7KQ==
+  dependencies:
+    lodash "4.17.21"
+    lodash-es "4.17.21"
+
+"@techstack/react-quill@1.0.45":
+  version "1.0.45"
+  resolved "https://registry.yarnpkg.com/@techstack/react-quill/-/react-quill-1.0.45.tgz#17a398dce0c609775d8ba3d29c770975293949a7"
+  integrity sha512-sNeCN8XdDOegkfia/2qjoqXLzi4Q234VvPi4d75bqZOIYMIfuBIcO4NP+Ek+XJISeoNVrkK/q0ojWux92SpIRw==
+  dependencies:
+    "@types/quill" "2.0.10"
+    lodash "4.17.21"
+    quill "2.0.0-dev.4"
+    quill-better-table "1.2.10"
+
+"@techstack/react-textfit@0.4.182":
+  version "0.4.182"
+  resolved "https://registry.yarnpkg.com/@techstack/react-textfit/-/react-textfit-0.4.182.tgz#77ce441627607a08747aee31f7a30648386ff2ff"
+  integrity sha512-1Mh9nmcKAhsLcfwh1uRKAFt0q7uJfK2jHu0jV46xfAH/Lo0YKtAXbe4p99AOOQjpZyoit+x6JLj88YMiv182vw==
+  dependencies:
+    process "0.11.10"
+    prop-types "15.8.1"
+
 "@techstack/styled-system@1.0.51":
   version "1.0.51"
   resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.51.tgz#4b7ac460403af22ff6f016fe7b005794ef9dc3ed"
@@ -4798,70 +4836,17 @@
     csstype "3.1.2"
     react "18.2.0"
 
-"@techstack/tcm-cli@0.4.263":
-  version "0.4.263"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.4.263.tgz#cf5917ecfeb92382c77dece9e4c8594145e2975c"
-  integrity sha512-t9MhkbMkcjDYVchkjNVd1iiTxPhcypAE5a5fP5BR/vqxp2qfyQR+gk5wLOh0qwY6diGcOEd4pBKrrpeGy+tKCg==
+"@techstack/theme@0.4.172":
+  version "0.4.172"
+  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-0.4.172.tgz#67d5065854c54ad669ed89c5616dc7b0882f760d"
+  integrity sha512-z9Wjbrm5LYeuNyYDbD7ZdysPbrUAQbglJkmYt/Ix5dgGWmgeSd8yZztLD8dXS+SxjxmWYiMNK/NmzGqWVvz+oQ==
   dependencies:
-    "@babel/plugin-proposal-class-properties" "7.18.6"
-    "@rollup/plugin-babel" "6.0.3"
-    "@rollup/plugin-commonjs" "25.0.3"
-    "@rollup/plugin-json" "6.0.0"
-    "@rollup/plugin-node-resolve" "15.1.0"
-    "@rollup/plugin-replace" "5.0.2"
-    "@rollup/plugin-terser" "0.4.3"
-    "@typescript-eslint/eslint-plugin" "5.62.0"
-    "@typescript-eslint/parser" "5.62.0"
-    asyncro "3.0.0"
-    babel-plugin-annotate-pure-calls "0.4.0"
-    babel-plugin-dev-expression "0.2.3"
-    babel-plugin-macros "3.1.0"
-    babel-plugin-polyfill-regenerator "0.5.1"
-    babel-plugin-transform-rename-import "2.3.0"
-    camelcase "7.0.1"
-    colorette "2.0.20"
-    confusing-browser-globals "1.0.11"
-    enquirer "2.3.6"
-    eslint "8.45.0"
-    eslint-config-prettier "8.8.0"
-    eslint-config-react-app "7.0.1"
-    eslint-plugin-flowtype "8.0.3"
-    eslint-plugin-import "2.27.5"
-    eslint-plugin-jest "27.2.3"
-    eslint-plugin-jsx-a11y "6.7.1"
-    eslint-plugin-no-restricted-imports "0.0.0"
-    eslint-plugin-prettier "4.2.1"
-    eslint-plugin-react "7.32.2"
-    eslint-plugin-react-hooks "4.6.0"
-    eslint-plugin-testing-library "5.11.0"
-    execa "7.1.1"
-    figlet "1.6.0"
     fs-extra "11.1.1"
-    jest "29.6.1"
-    jest-environment-jsdom "29.6.1"
-    jest-watch-typeahead "2.2.2"
-    jpjs "1.2.1"
-    lodash.merge "4.6.2"
-    ora "6.3.1"
-    pascal-case "3.1.2"
-    postcss "8.4.26"
-    prettier "3.0.0"
-    progress-estimator "0.3.1"
-    regenerator-runtime "0.13.11"
-    rollup "3.26.2"
-    rollup-plugin-delete "2.0.0"
-    rollup-plugin-dts "5.3.0"
-    rollup-plugin-typescript2 "0.35.0"
+    lodash "4.17.21"
+    lodash-es "4.17.21"
     sade "1.8.1"
-    semver "7.5.4"
-    shelljs "0.8.5"
-    sort-package-json "2.5.1"
-    tiny-glob "0.2.9"
-    ts-jest "29.1.1"
-    ts-node "10.9.1"
-    tslib "2.6.0"
-    type-fest "3.13.0"
-    typescript "5.1.6"
+    style-dictionary "3.8.0"
+    tinycolor2 "1.6.0"
 
 "@testing-library/dom@^9.0.0":
   version "9.3.0"
@@ -19623,11 +19608,6 @@ type-detect@4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
   integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
-
-type-fest@3.13.0:
-  version "3.13.0"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.13.0.tgz#b088347ae73779a750c461694b264340c4c8c0d7"
-  integrity sha512-Gur3yQGM9qiLNs0KPP7LPgeRbio2QTt4xXouobMCarR0/wyW3F+F/+OWwshg3NG0Adon7uQfSZBpB46NfhoF1A==
 
 type-fest@4.0.0:
   version "4.0.0"
