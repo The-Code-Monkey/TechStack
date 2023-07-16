@@ -8275,6 +8275,11 @@ clsx@^1.2.1:
   resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
   integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
 
+clsx@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-2.0.0.tgz#12658f3fd98fafe62075595a5c30e43d18f3d00b"
+  integrity sha512-rQ1+kcj+ttHG0MKVGBUXwayCCF1oh39BF5COIpRzuCEv8Mwjv0XucrI2ExNTOn9IlLifGClWQcU9BrZORvtw6Q==
+
 cmd-shim@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/cmd-shim/-/cmd-shim-5.0.0.tgz#8d0aaa1a6b0708630694c4dbde070ed94c707724"
@@ -17193,6 +17198,18 @@ react-calendar@^4.2.1:
     get-user-locale "^2.2.1"
     prop-types "^15.6.0"
 
+react-calendar@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/react-calendar/-/react-calendar-4.4.0.tgz#18ad40efabc0aa0e20e595b1718c7b0028cfe64d"
+  integrity sha512-IMyAKozvfoPez4J5IbtRpvDhDlxfhP6ICx+1l99SaH00KyeSfayWM36lhRYksSd45lZ8+cx09Wumn4Xtws4poA==
+  dependencies:
+    "@types/react" "*"
+    "@wojtekmaj/date-utils" "^1.1.3"
+    clsx "^2.0.0"
+    get-user-locale "^2.2.1"
+    prop-types "^15.6.0"
+    tiny-warning "^1.0.0"
+
 react-clock@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/react-clock/-/react-clock-4.2.0.tgz#7161155f46be339070ba09212a24758cfbd2ed1e"
@@ -17209,7 +17226,21 @@ react-colorful@^5.1.2:
   resolved "https://registry.yarnpkg.com/react-colorful/-/react-colorful-5.6.1.tgz#7dc2aed2d7c72fac89694e834d179e32f3da563b"
   integrity sha512-1exovf0uGTGyq5mXQT0zgQ80uvj2PCwvF8zY1RN9/vbJVSjSo3fsB/4L3ObbF7u70NduSiK4xu4Y6q1MHoUGEw==
 
-react-date-picker@10.2.0, react-date-picker@^10.0.0:
+react-date-picker@10.2.1:
+  version "10.2.1"
+  resolved "https://registry.yarnpkg.com/react-date-picker/-/react-date-picker-10.2.1.tgz#da503447cb31f4c47a3902d4ca5dda807eba25db"
+  integrity sha512-slTytpzciVmwFdB1F74stMJHc7ltcD5pPq7UbhNNyV4BfdxUbYbEtj9xzVDthaS0xRs+k44Aumm82oGNVqwpFQ==
+  dependencies:
+    "@wojtekmaj/date-utils" "^1.1.3"
+    clsx "^2.0.0"
+    get-user-locale "^2.2.1"
+    make-event-props "^1.4.2"
+    prop-types "^15.6.0"
+    react-calendar "^4.4.0"
+    react-fit "^1.5.1"
+    update-input-width "^1.3.1"
+
+react-date-picker@^10.0.0:
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/react-date-picker/-/react-date-picker-10.2.0.tgz#c3de3d906e7715b048e6253539a34468a005d6fe"
   integrity sha512-AapiakQ9hY2sPNyaBgLJgPDXeeZyiC3Px75jWbkB9NwJqX1gAwRQ7O8qshRqGWJX7T4/cUh6n59j+N+M4GpGow==
