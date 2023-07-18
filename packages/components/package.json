@@ -1,5 +1,5 @@
 {
-  "version": "0.7.381",
+  "version": "0.7.382",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -95,7 +95,7 @@
     "storybook": "7.0.27",
     "tslib": "2.6.0",
     "typescript": "5.1.6",
-    "webpack": "5.88.1"
+    "webpack": "5.88.2"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "1.2.1",
