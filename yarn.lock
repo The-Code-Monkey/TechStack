@@ -4423,6 +4423,26 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.146.tgz#6a2f3c0c79ad2757a06698e76278a748f3ddee8b"
   integrity sha512-8yjG1x8mvNVmEA7FjAUSTTKvehC/d8CKnq42mGmv7UuXieARJtDCk8ibRjr3/CKJZ5oTwg/nhLIrfrfsAFgbLA==
 
+"@techstack/memoize@0.4.156":
+  version "0.4.156"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.156.tgz#31e32e5571ef620ee860eb756fe6bc3be5b3f2a7"
+  integrity sha512-55lTPRMtxVuq9ec4LDF8/L9M8sCZWFguNw4jMzWghq5wIT/1N5lXUf2CIrf7sbf+9XKYZWCP+AWV07w2cZF1ZQ==
+
+"@techstack/react-feather@0.4.180":
+  version "0.4.180"
+  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-0.4.180.tgz#235a44a4cc8f678449c3d3039b04b8e618687322"
+  integrity sha512-moF4pXELoHoQ7+6yA9Hk9woK32H9p+vXmiTcW556PEpBuozLE/nLwTBGzaWmMZjOc38eKBWC8kiGlC+IhiYFgg==
+  dependencies:
+    "@techstack/react-lazy-named" "0.4.152"
+
+"@techstack/react-lazy-named@0.4.152":
+  version "0.4.152"
+  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-0.4.152.tgz#b56012ac24757ab6d893362dd5deab23aefc4192"
+  integrity sha512-Tf5l4e51yF+WLaZLtKn1REnP2kEgFMnrUU6K/YhVTzCkX5rm9A6xGMoz8gcNlgBWJJOze6ZkvIL1br8Mj7JP7Q==
+  dependencies:
+    lodash "4.17.21"
+    lodash-es "4.17.21"
+
 "@techstack/react-quill@1.0.51":
   version "1.0.51"
   resolved "https://registry.yarnpkg.com/@techstack/react-quill/-/react-quill-1.0.51.tgz#e257e41ae17129c1b5926d48532fe7f76765162f"
@@ -4432,6 +4452,14 @@
     lodash "4.17.21"
     quill "2.0.0-dev.4"
     quill-better-table "1.2.10"
+
+"@techstack/react-textfit@0.4.186":
+  version "0.4.186"
+  resolved "https://registry.yarnpkg.com/@techstack/react-textfit/-/react-textfit-0.4.186.tgz#761274c04b8c107c82b1982ea5cc1ef4dd949e8f"
+  integrity sha512-iKV6NCFWrxRYhDxCEzxOhDqLfDvNioZsynLb1+wnk9A/r+5RdsxPGV8n0WsaS0eKD+oU0zcLZO4igGttvyXGDg==
+  dependencies:
+    process "0.11.10"
+    prop-types "15.8.1"
 
 "@techstack/styled-system@1.0.51":
   version "1.0.51"
@@ -4443,70 +4471,17 @@
     csstype "3.1.2"
     react "18.2.0"
 
-"@techstack/tcm-cli@0.4.269":
-  version "0.4.269"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.4.269.tgz#71ecdfb399b1a8a8385b96f9be5b503c1734d462"
-  integrity sha512-6ueud7zdB1Dk4UcPXW/ibD37ZlYji21tUDECshu+Izi/9rXYP1iIqtCnHDfWn88eZBOOegVBemlLxpNRlKosZA==
+"@techstack/theme@0.4.176":
+  version "0.4.176"
+  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-0.4.176.tgz#b8886fc53e8db664532e8d44c695765d0aac18e0"
+  integrity sha512-ihoWuo9tOzuMwN5wGztBqVkZhX0v54Wl0MOhnpe5Bcf45wBCu1P+C+pQ/LMG6tTqN6yE8VYK458BV8RS8HsXsw==
   dependencies:
-    "@babel/plugin-proposal-class-properties" "7.18.6"
-    "@rollup/plugin-babel" "6.0.3"
-    "@rollup/plugin-commonjs" "25.0.3"
-    "@rollup/plugin-json" "6.0.0"
-    "@rollup/plugin-node-resolve" "15.1.0"
-    "@rollup/plugin-replace" "5.0.2"
-    "@rollup/plugin-terser" "0.4.3"
-    "@typescript-eslint/eslint-plugin" "5.62.0"
-    "@typescript-eslint/parser" "5.62.0"
-    asyncro "3.0.0"
-    babel-plugin-annotate-pure-calls "0.4.0"
-    babel-plugin-dev-expression "0.2.3"
-    babel-plugin-macros "3.1.0"
-    babel-plugin-polyfill-regenerator "0.5.1"
-    babel-plugin-transform-rename-import "2.3.0"
-    camelcase "7.0.1"
-    colorette "2.0.20"
-    confusing-browser-globals "1.0.11"
-    enquirer "2.3.6"
-    eslint "8.45.0"
-    eslint-config-prettier "8.8.0"
-    eslint-config-react-app "7.0.1"
-    eslint-plugin-flowtype "8.0.3"
-    eslint-plugin-import "2.27.5"
-    eslint-plugin-jest "27.2.3"
-    eslint-plugin-jsx-a11y "6.7.1"
-    eslint-plugin-no-restricted-imports "0.0.0"
-    eslint-plugin-prettier "4.2.1"
-    eslint-plugin-react "7.32.2"
-    eslint-plugin-react-hooks "4.6.0"
-    eslint-plugin-testing-library "5.11.0"
-    execa "7.1.1"
-    figlet "1.6.0"
     fs-extra "11.1.1"
-    jest "29.6.1"
-    jest-environment-jsdom "29.6.1"
-    jest-watch-typeahead "2.2.2"
-    jpjs "1.2.1"
-    lodash.merge "4.6.2"
-    ora "6.3.1"
-    pascal-case "3.1.2"
-    postcss "8.4.26"
-    prettier "3.0.0"
-    progress-estimator "0.3.1"
-    regenerator-runtime "0.13.11"
-    rollup "3.26.3"
-    rollup-plugin-delete "2.0.0"
-    rollup-plugin-dts "5.3.0"
-    rollup-plugin-typescript2 "0.35.0"
+    lodash "4.17.21"
+    lodash-es "4.17.21"
     sade "1.8.1"
-    semver "7.5.4"
-    shelljs "0.8.5"
-    sort-package-json "2.5.1"
-    tiny-glob "0.2.9"
-    ts-jest "29.1.1"
-    ts-node "10.9.1"
-    tslib "2.6.0"
-    type-fest "4.0.0"
-    typescript "5.1.6"
+    style-dictionary "3.8.0"
+    tinycolor2 "1.6.0"
 
 "@testing-library/dom@^9.0.0":
   version "9.3.0"
