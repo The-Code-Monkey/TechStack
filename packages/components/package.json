@@ -1,5 +1,5 @@
 {
-  "version": "0.7.387",
+  "version": "0.7.388",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -106,7 +106,7 @@
     "@techstack/react-quill": "1.0.51",
     "@techstack/react-textfit": "0.4.186",
     "@techstack/styled-system": "1.0.51",
-    "@techstack/tcm-cli": "0.4.269",
+    "@techstack/tcm-cli": "0.4.271",
     "@techstack/theme": "0.4.176",
     "@types/react-table": "7.7.14",
     "classnames": "2.3.2",
