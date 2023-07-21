@@ -1,5 +1,5 @@
 {
-  "version": "0.4.177",
+  "version": "0.4.178",
   "license": "MIT",
   "bin": {
     "orchard": "./dist/esm/index.js"
