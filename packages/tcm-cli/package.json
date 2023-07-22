@@ -1,6 +1,6 @@
 {
   "name": "@techstack/tcm-cli",
-  "version": "0.4.271",
+  "version": "0.4.272",
   "description": "Zero-config TypeScript package development",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/tcm-cli/README.md",
   "repository": {
@@ -80,7 +80,7 @@
     "lodash.merge": "4.6.2",
     "ora": "6.3.1",
     "pascal-case": "3.1.2",
-    "postcss": "8.4.26",
+    "postcss": "8.4.27",
     "prettier": "3.0.0",
     "progress-estimator": "0.3.1",
     "regenerator-runtime": "0.13.11",
