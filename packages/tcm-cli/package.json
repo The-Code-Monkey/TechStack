@@ -1,6 +1,6 @@
 {
   "name": "@techstack/tcm-cli",
-  "version": "0.4.271",
+  "version": "0.4.272",
   "description": "Zero-config TypeScript package development",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/tcm-cli/README.md",
   "repository": {
@@ -52,7 +52,7 @@
     "babel-plugin-annotate-pure-calls": "0.4.0",
     "babel-plugin-dev-expression": "0.2.3",
     "babel-plugin-macros": "3.1.0",
-    "babel-plugin-polyfill-regenerator": "0.5.1",
+    "babel-plugin-polyfill-regenerator": "0.5.2",
     "babel-plugin-transform-rename-import": "2.3.0",
     "camelcase": "7.0.1",
     "colorette": "2.0.20",
