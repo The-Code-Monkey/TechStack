@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.273 (2023-07-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-plugin-polyfill-regenerator to v0.5.2 ([#1595](https://github.com/The-Code-Monkey/TechStack/issues/1595)) ([4ea5a36](https://github.com/The-Code-Monkey/TechStack/commit/4ea5a36c1ba89e8432798c43b7517b1fd8d7db23))
+* **deps:** update dependency eslint-plugin-react to v7.33.0 ([#1598](https://github.com/The-Code-Monkey/TechStack/issues/1598)) ([e5d57e4](https://github.com/The-Code-Monkey/TechStack/commit/e5d57e4759ff7a83835ebf7caf0ff09ec65b6832))
+* **deps:** update dependency postcss to v8.4.27 ([#1596](https://github.com/The-Code-Monkey/TechStack/issues/1596)) ([1393c76](https://github.com/The-Code-Monkey/TechStack/commit/1393c764467482b3d4cec8dd459e0ac94a4e3ed7))
+
+
+
+
+
 ## 0.4.271 (2023-07-19)
 
 **Note:** Version bump only for package @techstack/tcm-cli
