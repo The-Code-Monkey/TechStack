@@ -1,6 +1,6 @@
 {
   "name": "@techstack/react-confirm-alert",
-  "version": "0.0.54",
+  "version": "0.0.55",
   "description": "react component confirm dialog.",
   "type": "module",
   "main": "./dist/index.js",
@@ -29,7 +29,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@techstack/tcm-cli": "0.4.273",
+    "@techstack/tcm-cli": "0.4.275",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7"
   }
