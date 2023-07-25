@@ -1,5 +1,5 @@
 {
-  "version": "0.4.183",
+  "version": "0.4.184",
   "license": "MIT",
   "bin": {
     "orchard": "./dist/esm/index.js"
@@ -54,7 +54,7 @@
     "@types/tinycolor2": "1.4.3",
     "size-limit": "8.2.6",
     "ts-jest": "29.1.1",
-    "tslib": "2.6.0",
+    "tslib": "2.6.1",
     "typescript": "5.1.6"
   },
   "dependencies": {
