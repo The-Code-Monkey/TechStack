@@ -27,9 +27,9 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@lerna/link": "6.6.2",
     "husky": "8.0.3",
-    "lerna": "7.1.4",
-    "@lerna/link": "6.6.2"
+    "lerna": "7.1.4"
   },
   "prettier": {
     "printWidth": 80,
@@ -79,4 +79,3 @@
     }
   }
 }
-

@@ -80,3 +80,4 @@ fabric.properties
 node_modules
 dist
 .npmrc
+.yarn
