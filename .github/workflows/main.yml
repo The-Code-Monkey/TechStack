@@ -27,6 +27,9 @@ jobs:
 
       - name: Build CLI
         run: yarn build:tcm
+        
+      - name: Build Theme Lib
+        run: yarn build:theme
 
       - name: Lint
         run: yarn lint
