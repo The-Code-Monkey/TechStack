@@ -1,5 +1,5 @@
 {
-  "version": "0.7.406",
+  "version": "0.8.0",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -101,7 +101,7 @@
     "@emotion/is-prop-valid": "1.2.1",
     "@tanstack/react-table": "8.9.3",
     "@techstack/styled-system": "1.0.54",
-    "@techstack/theme": "0.4.183",
+    "@techstack/theme": "0.4.3",
     "@types/react-table": "7.7.14",
     "classnames": "2.3.2",
     "csstype": "3.1.2",
