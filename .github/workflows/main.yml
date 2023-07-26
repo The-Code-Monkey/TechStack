@@ -25,8 +25,8 @@ jobs:
         with:
           useLockFile: false
 
-      - name: Build
-        run: yarn build
+      - name: Build CLI
+        run: yarn build:tcm
 
       - name: Lint
         run: yarn lint
@@ -36,6 +36,9 @@ jobs:
 
       - name: Size
         run: yarn size
+        
+      - name: Build
+        run : yarn build
 
       - name: git config
         run: |
