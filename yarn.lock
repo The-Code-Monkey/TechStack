@@ -5780,9 +5780,10 @@ __metadata:
     "@storybook/react-webpack5": 7.1.0
     "@storybook/testing-library": 0.2.0
     "@tanstack/react-table": 8.9.3
+    "@techstack/memoize": 0.4.3
     "@techstack/styled-system": 1.0.54
     "@techstack/tcm-cli": 0.4.3
-    "@techstack/theme": 0.4.183
+    "@techstack/theme": 0.4.3
     "@testing-library/react": 14.0.0
     "@tsconfig/create-react-app": 2.0.1
     "@tsconfig/recommended": 1.0.2
@@ -5832,7 +5833,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@techstack/memoize@0.4.162, @techstack/memoize@workspace:packages/memoize":
+"@techstack/memoize@0.4.3, @techstack/memoize@workspace:packages/memoize":
   version: 0.0.0-use.local
   resolution: "@techstack/memoize@workspace:packages/memoize"
   dependencies:
@@ -5851,6 +5852,13 @@ __metadata:
     ora: 6.3.1
   languageName: unknown
   linkType: soft
+
+"@techstack/memoize@npm:0.4.162":
+  version: 0.4.162
+  resolution: "@techstack/memoize@npm:0.4.162"
+  checksum: 9ff576ec564e3aa8eb2a02cc486111f92f8e28839bc3e1209f4406a27b5d6f419c451a2bbdecd34732df88aca80b04a76fffd160573d1f1a0c0ec8f62ae54c39
+  languageName: node
+  linkType: hard
 
 "@techstack/react-confirm-alert@workspace:packages/react-confirm-alert":
   version: 0.0.0-use.local
@@ -6050,7 +6058,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@techstack/theme@0.4.183, @techstack/theme@workspace:packages/theme":
+"@techstack/theme@0.4.3, @techstack/theme@workspace:packages/theme":
   version: 0.0.0-use.local
   resolution: "@techstack/theme@workspace:packages/theme"
   dependencies:
@@ -24880,8 +24888,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "techstack@workspace:."
   dependencies:
+    eslint-plugin-prettier: 5.0.0
     husky: 8.0.3
     lerna: 6.6.2
+    prettier: 3.0.0
   languageName: unknown
   linkType: soft
 
