@@ -44,13 +44,9 @@
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
   "devDependencies": {
-    "@techstack/tcm-cli": "0.4.275",
     "cross-env": "7.0.3",
     "fs-extra": "11.1.1",
     "typescript": "5.1.6"
-  },
-  "dependencies": {
-    "@techstack/react-lazy-named": "0.4.158"
   },
   "peerDependencies": {
     "react": "18.2.0"
