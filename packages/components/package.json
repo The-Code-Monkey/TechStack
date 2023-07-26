@@ -96,7 +96,7 @@
     "tslib": "2.6.0",
     "typescript": "5.1.6",
     "webpack": "5.88.2",
-    "@techstack/tcm-cli": "0.4.3"
+    "@techstack/tcm-cli": "0.4.277"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "1.2.1",
