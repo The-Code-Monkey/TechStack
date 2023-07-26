@@ -20,6 +20,7 @@
     "build:tcm": "cd packages/tcm-cli && yarn build && lerna link",
     "build:theme": "cd packages/theme && yarn build && lerna link",
     "build": "yarn build:tcm && yarn build:theme && lerna run build",
+    "lerna:link": "lerna link",
     "lerna:changed": "lerna changed",
     "lerna:version": "lerna version --conventional-commits --exact --yes",
     "lerna:publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --no-verify-access --yes",

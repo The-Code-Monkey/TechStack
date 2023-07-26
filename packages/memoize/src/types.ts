@@ -4,7 +4,7 @@ export type EqualityFn<TFunc extends (...args: unknown[]) => unknown> = (
 ) => boolean;
 
 export type MemoizedFn<
-  TFunc extends (this: unknown, ...args: unknown[]) => unknown
+  TFunc extends (this: unknown, ...args: unknown[]) => unknown,
 > = {
   clear: () => void;
   (
@@ -15,7 +15,7 @@ export type MemoizedFn<
 
 // internal type
 export type Cache<
-  TFunc extends (this: unknown, ...args: unknown[]) => unknown
+  TFunc extends (this: unknown, ...args: unknown[]) => unknown,
 > = {
   lastThis: ThisParameterType<TFunc>;
   lastArgs: Parameters<TFunc>;
