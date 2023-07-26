@@ -33,15 +33,15 @@ jobs:
 
       - name: Lint
         run: yarn lint
+        
+      - name: Build
+        run: yarn build
 
       - name: Test
         run: yarn test
 
       - name: Size
         run: yarn size
-        
-      - name: Build
-        run : yarn build
 
       - name: git config
         run: |
