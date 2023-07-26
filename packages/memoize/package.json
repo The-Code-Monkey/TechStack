@@ -41,7 +41,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@techstack/tcm-cli": "0.4.275",
+    "@techstack/tcm-cli": "0.4.3",
     "benchmark": "2.1.4",
     "cross-env": "7.0.3",
     "expect-type": "0.16.0",
