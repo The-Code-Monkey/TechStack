@@ -158,7 +158,7 @@ declare module 'asyncro' {
         AsyncFn<T7>,
         AsyncFn<T8>,
         AsyncFn<T9>,
-        AsyncFn<T10>,
+        AsyncFn<T10>
       ]
     ): Promise<[T1, T2, T3, T4, T5, T6, T7, T8, T9, T10]>;
     parallel<T1, T2, T3, T4, T5, T6, T7, T8, T9>(
@@ -171,7 +171,7 @@ declare module 'asyncro' {
         AsyncFn<T6>,
         AsyncFn<T7>,
         AsyncFn<T8>,
-        AsyncFn<T9>,
+        AsyncFn<T9>
       ]
     ): Promise<[T1, T2, T3, T4, T5, T6, T7, T8, T9]>;
     parallel<T1, T2, T3, T4, T5, T6, T7, T8>(
@@ -183,7 +183,7 @@ declare module 'asyncro' {
         AsyncFn<T5>,
         AsyncFn<T6>,
         AsyncFn<T7>,
-        AsyncFn<T8>,
+        AsyncFn<T8>
       ]
     ): Promise<[T1, T2, T3, T4, T5, T6, T7, T8]>;
     parallel<T1, T2, T3, T4, T5, T6, T7>(
@@ -194,7 +194,7 @@ declare module 'asyncro' {
         AsyncFn<T4>,
         AsyncFn<T5>,
         AsyncFn<T6>,
-        AsyncFn<T7>,
+        AsyncFn<T7>
       ]
     ): Promise<[T1, T2, T3, T4, T5, T6, T7]>;
     parallel<T1, T2, T3, T4, T5, T6>(
@@ -204,7 +204,7 @@ declare module 'asyncro' {
         AsyncFn<T3>,
         AsyncFn<T4>,
         AsyncFn<T5>,
-        AsyncFn<T6>,
+        AsyncFn<T6>
       ]
     ): Promise<[T1, T2, T3, T4, T5, T6]>;
     parallel<T1, T2, T3, T4, T5>(
@@ -246,7 +246,7 @@ declare module 'asyncro' {
         AsyncFn<T7>,
         AsyncFn<T8>,
         AsyncFn<T9>,
-        AsyncFn<T10>,
+        AsyncFn<T10>
       ]
     ): Promise<[T1, T2, T3, T4, T5, T6, T7, T8, T9, T10]>;
     series<T1, T2, T3, T4, T5, T6, T7, T8, T9>(
@@ -259,7 +259,7 @@ declare module 'asyncro' {
         AsyncFn<T6>,
         AsyncFn<T7>,
         AsyncFn<T8>,
-        AsyncFn<T9>,
+        AsyncFn<T9>
       ]
     ): Promise<[T1, T2, T3, T4, T5, T6, T7, T8, T9]>;
     series<T1, T2, T3, T4, T5, T6, T7, T8>(
@@ -271,7 +271,7 @@ declare module 'asyncro' {
         AsyncFn<T5>,
         AsyncFn<T6>,
         AsyncFn<T7>,
-        AsyncFn<T8>,
+        AsyncFn<T8>
       ]
     ): Promise<[T1, T2, T3, T4, T5, T6, T7, T8]>;
     series<T1, T2, T3, T4, T5, T6, T7>(
@@ -282,7 +282,7 @@ declare module 'asyncro' {
         AsyncFn<T4>,
         AsyncFn<T5>,
         AsyncFn<T6>,
-        AsyncFn<T7>,
+        AsyncFn<T7>
       ]
     ): Promise<[T1, T2, T3, T4, T5, T6, T7]>;
     series<T1, T2, T3, T4, T5, T6>(
@@ -292,7 +292,7 @@ declare module 'asyncro' {
         AsyncFn<T3>,
         AsyncFn<T4>,
         AsyncFn<T5>,
-        AsyncFn<T6>,
+        AsyncFn<T6>
       ]
     ): Promise<[T1, T2, T3, T4, T5, T6]>;
     series<T1, T2, T3, T4, T5>(
