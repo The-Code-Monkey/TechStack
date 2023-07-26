@@ -5782,7 +5782,7 @@ __metadata:
     "@tanstack/react-table": 8.9.3
     "@techstack/styled-system": 1.0.54
     "@techstack/tcm-cli": 0.4.3
-    "@techstack/theme": 0.4.183
+    "@techstack/theme": 0.4.3
     "@testing-library/react": 14.0.0
     "@tsconfig/create-react-app": 2.0.1
     "@tsconfig/recommended": 1.0.2
@@ -6050,7 +6050,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@techstack/theme@0.4.183, @techstack/theme@workspace:packages/theme":
+"@techstack/theme@0.4.3, @techstack/theme@workspace:packages/theme":
   version: 0.0.0-use.local
   resolution: "@techstack/theme@workspace:packages/theme"
   dependencies:
@@ -24880,8 +24880,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "techstack@workspace:."
   dependencies:
+    eslint-plugin-prettier: 5.0.0
     husky: 8.0.3
     lerna: 6.6.2
+    prettier: 3.0.0
   languageName: unknown
   linkType: soft
 
