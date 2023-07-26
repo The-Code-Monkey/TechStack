@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "clean": "git clean -xdf",
-    "test": "lerna run test",
+    "test": "lerna run test --stream",
     "test:fix": "lerna run test -- -u",
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint -- --fix",
