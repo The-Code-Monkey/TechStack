@@ -182,7 +182,7 @@ export async function createRollupConfig(
           compilerOptions: {
             // TS -> esnext, then leave the rest to babel-preset-env
             target: 'esnext',
-            ...(Boolean(declarationDir) ? { declarationDir } : {}),
+            ...(declarationDir ? { declarationDir } : {}),
             // don't output declarations more than once
             ...(outputNum > 0
               ? { declaration: false, declarationMap: false }
