@@ -19,10 +19,8 @@
   },
   "packageRules": [
     {
-      "matchPackagePatterns": ["@techstack/*"],
-      "groupName": "techstack mono repo",
-      "enabled": false,
-      "rollback": false
+      "matchPackagePatterns": ["node"],
+      "enabled": false
     }
   ],
   "updateInternalDeps": true
