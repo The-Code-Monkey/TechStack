@@ -100,9 +100,9 @@
   "dependencies": {
     "@emotion/is-prop-valid": "1.2.1",
     "@tanstack/react-table": "8.9.3",
+    "@techstack/memoize": "workspace:*",
     "@techstack/styled-system": "1.0.54",
     "@techstack/theme": "workspace:*",
-    "@techstack/memoize": "workspace:*",
     "@types/react-table": "7.7.14",
     "classnames": "2.3.2",
     "csstype": "3.1.2",
