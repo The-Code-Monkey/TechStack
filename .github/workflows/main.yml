@@ -25,18 +25,12 @@ jobs:
         with:
           useLockFile: false
 
-      - name: Build CLI
-        run: yarn build:tcm
-        
-      - name: Build Theme Lib
-        run: yarn build:theme
-
-      - name: Lint
-        run: yarn lint
-        
       - name: Build
         run: yarn build
 
+      - name: Lint
+        run: yarn lint
+  
       - name: Test
         run: yarn test
 
