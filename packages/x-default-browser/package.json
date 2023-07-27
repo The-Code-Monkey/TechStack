@@ -31,7 +31,7 @@
     "default-browser-id": "3.0.0"
   },
   "devDependencies": {
-    "@techstack/tcm-cli": "0.4.3",
+    "@techstack/tcm-cli": "workspace:*",
     "mocha": "10.2.0",
     "rewire": "6.0.0"
   },
