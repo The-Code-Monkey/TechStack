@@ -28,10 +28,10 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "eslint-plugin-prettier": "5.0.0",
     "husky": "8.0.3",
     "lerna": "6.6.2",
-    "prettier": "3.0.0",
-    "eslint-plugin-prettier": "5.0.0"
+    "prettier": "3.0.0"
   },
   "prettier": {
     "printWidth": 80,
@@ -80,5 +80,5 @@
       ]
     }
   },
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "yarn@3.6.1"
 }
