@@ -59,7 +59,7 @@
     "confusing-browser-globals": "1.0.11",
     "enquirer": "2.4.0",
     "eslint": "8.45.0",
-    "eslint-config-prettier": "8.8.0",
+    "eslint-config-prettier": "8.9.0",
     "eslint-config-react-app": "7.0.1",
     "eslint-plugin-flowtype": "8.0.3",
     "eslint-plugin-import": "2.27.5",
