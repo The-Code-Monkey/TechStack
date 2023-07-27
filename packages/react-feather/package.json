@@ -21,7 +21,7 @@
     "build": "tcm build"
   },
   "engines": {
-    "node": ">=18"
+    "node": "20.5.0"
   },
   "publishConfig": {
     "access": "public"
