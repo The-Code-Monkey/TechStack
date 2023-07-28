@@ -47,7 +47,7 @@
   "devDependencies": {
     "@techstack/tcm-cli": "workspace:*",
     "@testing-library/react": "14.0.0",
-    "jest-environment-jsdom": "29.6.2"
+    "jest-environment-jsdom": "29.6.1"
   },
   "peerDependencies": {
     "react": "18.2.0"
