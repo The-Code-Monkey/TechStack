@@ -4907,7 +4907,7 @@ __metadata:
     deepmerge: 4.3.1
     eslint-plugin-import: 2.27.5
     esm: 3.2.25
-    i18next: 23.3.0
+    i18next: 23.4.1
     react: 18.2.0
     react-date-picker: 10.3.0
     react-datetime-picker: 5.3.0
@@ -14172,12 +14172,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:23.3.0":
-  version: 23.3.0
-  resolution: "i18next@npm:23.3.0"
+"i18next@npm:23.4.1":
+  version: 23.4.1
+  resolution: "i18next@npm:23.4.1"
   dependencies:
     "@babel/runtime": ^7.22.5
-  checksum: 4f9d135b0b75f3050c68cfd2a1a50e33c3e7aaa20a08c304b122d8bdfdce5bbef3f4929830d732968145be710af4259da19af990e06bbccc24ba18abbda9a688
+  checksum: d9283d3de5e4ea2e55f61bd8ada98b5aef1b7db35a69c8ccf193367c5cbee6f795a67c5cd8a7af511e56c12b021b91d97253863b6c2336726925d20518fb02cc
   languageName: node
   linkType: hard
 
