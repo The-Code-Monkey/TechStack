@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.7 (2023-07-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.33.1 ([#1660](https://github.com/The-Code-Monkey/TechStack/issues/1660)) ([4fb9279](https://github.com/The-Code-Monkey/TechStack/commit/4fb92793255a536d3fe46ea24c9a14a7bdc219b4))
+
+
+
+## 1.1.6 (2023-07-30)
+
+
+
+
+
 ## 1.1.6 (2023-07-30)
 
 
