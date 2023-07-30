@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.6 (2023-07-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @techstack/styled-system to v1.0.55 ([#1649](https://github.com/The-Code-Monkey/TechStack/issues/1649)) ([1c30216](https://github.com/The-Code-Monkey/TechStack/commit/1c30216cefe75622bfd79355d27ad1f332a888e3))
+* **deps:** update dependency eslint-plugin-import to v2.28.0 ([#1653](https://github.com/The-Code-Monkey/TechStack/issues/1653)) ([4b83091](https://github.com/The-Code-Monkey/TechStack/commit/4b8309129435903d571c8dbe3b0bc85e3e00bda3))
+* **deps:** update dependency eslint-plugin-prettier to v5 ([#1614](https://github.com/The-Code-Monkey/TechStack/issues/1614)) ([147ff82](https://github.com/The-Code-Monkey/TechStack/commit/147ff8207fe2ea62c320c2af5424220be83e32b5))
+* **deps:** update dependency i18next to v23.3.0 ([#1634](https://github.com/The-Code-Monkey/TechStack/issues/1634)) ([a0a0026](https://github.com/The-Code-Monkey/TechStack/commit/a0a0026a82dce35817c2dcdf95b67ae9be64717d))
+* **deps:** update dependency i18next to v23.4.1 ([#1654](https://github.com/The-Code-Monkey/TechStack/issues/1654)) ([fc0fd99](https://github.com/The-Code-Monkey/TechStack/commit/fc0fd9947a614abe05b8eddee750f267b0d7ffc8))
+* **deps:** update dependency react-date-picker to v10.3.0 ([#1605](https://github.com/The-Code-Monkey/TechStack/issues/1605)) ([0978f8f](https://github.com/The-Code-Monkey/TechStack/commit/0978f8f68108a6f34f293d6cf181788f7a57a10d))
+* **deps:** update dependency react-date-picker to v10.5.0 ([#1655](https://github.com/The-Code-Monkey/TechStack/issues/1655)) ([60dcd50](https://github.com/The-Code-Monkey/TechStack/commit/60dcd5015a2ba0749923d89f57de0aa627cd6b10))
+* **deps:** update dependency react-datetime-picker to v5.3.0 ([#1635](https://github.com/The-Code-Monkey/TechStack/issues/1635)) ([740f516](https://github.com/The-Code-Monkey/TechStack/commit/740f51686f4f076d8805bca89d48fcf468ac5747))
+* **deps:** update dependency react-datetime-picker to v5.5.0 ([#1656](https://github.com/The-Code-Monkey/TechStack/issues/1656)) ([db13c95](https://github.com/The-Code-Monkey/TechStack/commit/db13c958c404d7cb73ce9c961373b17c803be91f))
+* **deps:** update techstack mono repo ([#1604](https://github.com/The-Code-Monkey/TechStack/issues/1604)) ([00b9103](https://github.com/The-Code-Monkey/TechStack/commit/00b9103bf09f78078db0f52681da0a683e422b39))
+* **deps:** update techstack mono repo ([#1606](https://github.com/The-Code-Monkey/TechStack/issues/1606)) ([0e1785c](https://github.com/The-Code-Monkey/TechStack/commit/0e1785c10b7c873d707428c207fbb4f4bd64f147))
+* update eslint stuff ([e35ee2f](https://github.com/The-Code-Monkey/TechStack/commit/e35ee2f52aabbdaee48d5334ab99d1aded0ae470))
+
+
+
+
+
 ## [0.7.405](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@0.7.403...@techstack/components@0.7.405) (2023-07-25)
 
 

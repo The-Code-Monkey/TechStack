@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.6 (2023-07-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency enquirer to v2.4.0 ([#1629](https://github.com/The-Code-Monkey/TechStack/issues/1629)) ([664b246](https://github.com/The-Code-Monkey/TechStack/commit/664b2469818d557558f94e4c09de2584409f4ada))
+* **deps:** update dependency enquirer to v2.4.1 ([#1651](https://github.com/The-Code-Monkey/TechStack/issues/1651)) ([267a872](https://github.com/The-Code-Monkey/TechStack/commit/267a872a1479f80ff0da42dbb24adb92deccc347))
+* **deps:** update dependency eslint to v8.46.0 ([#1652](https://github.com/The-Code-Monkey/TechStack/issues/1652)) ([831c512](https://github.com/The-Code-Monkey/TechStack/commit/831c51235ff56299c357f81a85b74e68a7a889a8))
+* **deps:** update dependency eslint-config-prettier to v8.9.0 ([#1644](https://github.com/The-Code-Monkey/TechStack/issues/1644)) ([cd5cc7d](https://github.com/The-Code-Monkey/TechStack/commit/cd5cc7de4807f5cdd26ef8b1e4d7cdd9a40ea048))
+* **deps:** update dependency eslint-plugin-import to v2.28.0 ([#1653](https://github.com/The-Code-Monkey/TechStack/issues/1653)) ([4b83091](https://github.com/The-Code-Monkey/TechStack/commit/4b8309129435903d571c8dbe3b0bc85e3e00bda3))
+* **deps:** update dependency eslint-plugin-prettier to v5 ([#1614](https://github.com/The-Code-Monkey/TechStack/issues/1614)) ([147ff82](https://github.com/The-Code-Monkey/TechStack/commit/147ff8207fe2ea62c320c2af5424220be83e32b5))
+* **deps:** update dependency execa to v7.2.0 ([#1641](https://github.com/The-Code-Monkey/TechStack/issues/1641)) ([16d43ab](https://github.com/The-Code-Monkey/TechStack/commit/16d43abb91abcdbe053b4657239f5da6a6a5930c))
+* **deps:** update dependency execa to v7.2.0 ([#1647](https://github.com/The-Code-Monkey/TechStack/issues/1647)) ([0ab517e](https://github.com/The-Code-Monkey/TechStack/commit/0ab517e7d1a522bdfc2462fe6a5bb50507f78ce4))
+* **deps:** update dependency ora to v7 ([#1659](https://github.com/The-Code-Monkey/TechStack/issues/1659)) ([e3de370](https://github.com/The-Code-Monkey/TechStack/commit/e3de37047761752814872c37f7c5c1ee48d4d01f))
+* **deps:** update dependency rollup to v3.27.0 ([#1657](https://github.com/The-Code-Monkey/TechStack/issues/1657)) ([9882f8f](https://github.com/The-Code-Monkey/TechStack/commit/9882f8f5a0b24fae4ca68a5c5de022ac007a7557))
+* update eslint stuff ([e35ee2f](https://github.com/The-Code-Monkey/TechStack/commit/e35ee2f52aabbdaee48d5334ab99d1aded0ae470))
+
+
+### Reverts
+
+* Revert "chore(deps): update jest monorepo to v29.6.2" (#1648) ([ab3a2e0](https://github.com/The-Code-Monkey/TechStack/commit/ab3a2e0d5cf0a39415e18c2c93ac59e773a3a512)), closes [#1648](https://github.com/The-Code-Monkey/TechStack/issues/1648) [#1646](https://github.com/The-Code-Monkey/TechStack/issues/1646)
+* Revert "fix(deps): update dependency execa to v7.2.0 - autoclosed" (#1642) ([6740ed7](https://github.com/The-Code-Monkey/TechStack/commit/6740ed7fbbca8f44f3b09123008790b5cafd006e)), closes [#1642](https://github.com/The-Code-Monkey/TechStack/issues/1642) [#1641](https://github.com/The-Code-Monkey/TechStack/issues/1641)
+
+
+
+
+
 ## 0.4.277 (2023-07-25)
 
 **Note:** Version bump only for package @techstack/tcm-cli

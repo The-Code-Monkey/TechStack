@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.6 (2023-07-30)
+
+
+### Bug Fixes
+
+* **deps:** update techstack mono repo ([#1604](https://github.com/The-Code-Monkey/TechStack/issues/1604)) ([00b9103](https://github.com/The-Code-Monkey/TechStack/commit/00b9103bf09f78078db0f52681da0a683e422b39))
+* update eslint stuff ([e35ee2f](https://github.com/The-Code-Monkey/TechStack/commit/e35ee2f52aabbdaee48d5334ab99d1aded0ae470))
+
+
+
+
+
 ## 0.4.192 (2023-07-24)
 
 

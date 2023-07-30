@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.6 (2023-07-30)
+
+
+### Bug Fixes
+
+* update eslint stuff ([e35ee2f](https://github.com/The-Code-Monkey/TechStack/commit/e35ee2f52aabbdaee48d5334ab99d1aded0ae470))
+
+
+
+
+
 ## 0.4.182 (2023-07-23)
 
 

@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.6 (2023-07-30)
+
+
+### Bug Fixes
+
+* update eslint stuff ([e35ee2f](https://github.com/The-Code-Monkey/TechStack/commit/e35ee2f52aabbdaee48d5334ab99d1aded0ae470))
+
+
+### Reverts
+
+* Revert "chore(deps): update jest monorepo to v29.6.2" (#1648) ([ab3a2e0](https://github.com/The-Code-Monkey/TechStack/commit/ab3a2e0d5cf0a39415e18c2c93ac59e773a3a512)), closes [#1648](https://github.com/The-Code-Monkey/TechStack/issues/1648) [#1646](https://github.com/The-Code-Monkey/TechStack/issues/1646)
+
+
+
+
+
 ## 0.4.194 (2023-07-23)
 
 
