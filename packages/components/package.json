@@ -109,7 +109,7 @@
     "deepmerge": "4.3.1",
     "i18next": "23.4.1",
     "react-date-picker": "10.5.0",
-    "react-datetime-picker": "5.5.0",
+    "react-datetime-picker": "5.5.1",
     "react-i18next": "13.0.2",
     "react-lazy-named": "1.2.2",
     "react-responsive-carousel": "3.2.23",
