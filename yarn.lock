@@ -5228,7 +5228,7 @@ __metadata:
     sass-loader: 13.3.2
     size-limit: 8.2.6
     storybook: 7.2.0
-    styled-components: 6.0.0-rc.5
+    styled-components: 6.0.6
     tslib: 2.6.1
     typescript: 5.1.6
     webpack: 5.88.2
@@ -5461,7 +5461,7 @@ __metadata:
     semver: 7.5.4
     shelljs: 0.8.5
     sort-package-json: 2.5.1
-    styled-components: 6.0.0-rc.5
+    styled-components: 6.0.6
     tiny-glob: 0.2.9
     tiny-invariant: 1.3.1
     tiny-warning: 1.0.3
@@ -6327,6 +6327,13 @@ __metadata:
   version: 2.0.1
   resolution: "@types/stack-utils@npm:2.0.1"
   checksum: 205fdbe3326b7046d7eaf5e494d8084f2659086a266f3f9cf00bccc549c8e36e407f88168ad4383c8b07099957ad669f75f2532ed4bc70be2b037330f7bae019
+  languageName: node
+  linkType: hard
+
+"@types/stylis@npm:^4.0.2":
+  version: 4.2.0
+  resolution: "@types/stylis@npm:4.2.0"
+  checksum: 02a47584acd2fcb664f7d8270a69686c83752bdfb855f804015d33116a2b09c0b2ac535213a4a7b6d3a78b2915b22b4024cce067ae979beee0e4f8f5fdbc26a9
   languageName: node
   linkType: hard
 
@@ -10611,7 +10618,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:3.1.2, csstype@npm:^3.0.2":
+"csstype@npm:3.1.2, csstype@npm:^3.0.2, csstype@npm:^3.1.2":
   version: 3.1.2
   resolution: "csstype@npm:3.1.2"
   checksum: e1a52e6c25c1314d6beef5168da704ab29c5186b877c07d822bd0806717d9a265e8493a2e35ca7e68d0f5d472d43fac1cdce70fd79fd0853dff81f3028d857b5
@@ -23401,9 +23408,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:6.0.0-rc.5":
-  version: 6.0.0-rc.5
-  resolution: "styled-components@npm:6.0.0-rc.5"
+"styled-components@npm:6.0.6":
+  version: 6.0.6
+  resolution: "styled-components@npm:6.0.6"
   dependencies:
     "@babel/cli": ^7.21.0
     "@babel/core": ^7.21.0
@@ -23417,10 +23424,12 @@ __metadata:
     "@babel/traverse": ^7.21.2
     "@emotion/is-prop-valid": ^1.2.1
     "@emotion/unitless": ^0.8.0
+    "@types/stylis": ^4.0.2
     css-to-react-native: ^3.2.0
+    csstype: ^3.1.2
     postcss: ^8.4.23
     shallowequal: ^1.1.0
-    stylis: ^4.2.0
+    stylis: ^4.3.0
     tslib: ^2.5.0
   peerDependencies:
     babel-plugin-styled-components: ">= 2"
@@ -23429,7 +23438,7 @@ __metadata:
   peerDependenciesMeta:
     babel-plugin-styled-components:
       optional: true
-  checksum: 980d9ddda39813141bd35c3182444c49148bfc1a496ef7eade7caf2cf373e2420f20b9badd562858c557c17e936b638074d623e260b05daa77a6cf86cd4737ff
+  checksum: bbff4a483fe4ef8dc9f7c0b65622177738970dd0d71730d44553c0694931d1ef2afed3c38879481cedd76410c75fa5cdac3d7e0f250135b8af19de30278e510b
   languageName: node
   linkType: hard
 
@@ -23445,7 +23454,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylis@npm:^4.2.0":
+"stylis@npm:^4.3.0":
   version: 4.3.0
   resolution: "stylis@npm:4.3.0"
   checksum: 6120de3f03eacf3b5adc8e7919c4cca991089156a6badc5248752a3088106afaaf74996211a6817a7760ebeadca09004048eea31875bd8d4df51386365c50025
