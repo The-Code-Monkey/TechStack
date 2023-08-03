@@ -25,7 +25,7 @@ export async function createEslintConfig({
       'plugin:react/recommended',
       'prettier',
     ],
-    plugins: ['@typescript-eslint', 'prettier', 'react'],
+    plugins: ['@typescript-eslint', 'prettier', 'react', 'import'],
     settings: {
       react: {
         version: 'detect',
