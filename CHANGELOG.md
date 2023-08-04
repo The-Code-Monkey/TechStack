@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.5](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.4...v1.2.5) (2023-08-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @techstack/styled-system to v1.0.69 ([#1681](https://github.com/The-Code-Monkey/TechStack/issues/1681)) ([91204ac](https://github.com/The-Code-Monkey/TechStack/commit/91204ac299a5dce0fab5c8bfe72cac1d5fa10f15))
+* **deps:** update dependency eslint-config-prettier to v8.10.0 ([#1683](https://github.com/The-Code-Monkey/TechStack/issues/1683)) ([4e0b5f5](https://github.com/The-Code-Monkey/TechStack/commit/4e0b5f57b6f15e58d58c81b0d5529c16652b5669))
+* **deps:** update dependency rollup to v3.27.2 ([#1682](https://github.com/The-Code-Monkey/TechStack/issues/1682)) ([a23ff3d](https://github.com/The-Code-Monkey/TechStack/commit/a23ff3dab996f08d2d14f4f7ce8fcb536234c19b))
+
+
+
+
+
 ## [1.2.4](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.3...v1.2.4) (2023-08-04)
 
 
