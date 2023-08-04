@@ -84,7 +84,7 @@
     "prettier": "3.0.1",
     "progress-estimator": "0.3.1",
     "regenerator-runtime": "0.13.11",
-    "rollup": "3.27.0",
+    "rollup": "3.27.2",
     "rollup-plugin-delete": "2.0.0",
     "rollup-plugin-dts": "5.3.1",
     "rollup-plugin-typescript2": "0.35.0",
