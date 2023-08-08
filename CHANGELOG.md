@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.9](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.8...v1.2.9) (2023-08-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v9 ([#1687](https://github.com/The-Code-Monkey/TechStack/issues/1687)) ([d15f980](https://github.com/The-Code-Monkey/TechStack/commit/d15f980553b15b1e3dd9ea0a99aaf45fbcd3e57d))
+
+
+
+
+
 ## [1.2.8](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.7...v1.2.8) (2023-08-06)
 
 
