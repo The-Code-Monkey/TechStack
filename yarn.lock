@@ -5588,7 +5588,7 @@ __metadata:
     "@techstack/tcm-cli": "workspace:*"
     react: 18.2.0
   peerDependencies:
-    "@types/react": 18.2.18
+    "@types/react": 18.2.19
     react: 18.2.0
     react-dom: 18.2.0
   languageName: unknown
@@ -5626,7 +5626,7 @@ __metadata:
   resolution: "@techstack/react-confirm-alert@workspace:packages/react-confirm-alert"
   dependencies:
     "@techstack/tcm-cli": "workspace:*"
-    "@types/react": 18.2.18
+    "@types/react": 18.2.19
     "@types/react-dom": 18.2.7
     react: 18.2.0
     react-dom: 18.2.0
@@ -5668,7 +5668,7 @@ __metadata:
     "@techstack/tcm-cli": "workspace:*"
     "@types/lodash": 4.14.196
     "@types/quill": 2.0.10
-    "@types/react": 18.2.18
+    "@types/react": 18.2.19
     "@types/react-dom": 18.2.7
     blanket: 1.2.3
     cheerio: 1.0.0-rc.12
@@ -5747,7 +5747,7 @@ __metadata:
     "@types/fs-extra": 11.0.1
     "@types/lodash": 4.14.196
     "@types/node": 18.17.1
-    "@types/react": 18.2.18
+    "@types/react": 18.2.19
     "@types/semver": 7.5.0
     "@types/shelljs": 0.8.12
     "@typescript-eslint/eslint-plugin": 5.62.0
@@ -6596,14 +6596,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.18":
-  version: 18.2.18
-  resolution: "@types/react@npm:18.2.18"
+"@types/react@npm:18.2.19":
+  version: 18.2.19
+  resolution: "@types/react@npm:18.2.19"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 2e0d75de2b618e76780019e52478b1bec2b015a9187aea30f84518c0c3ddc639055bdfea50864aece937bad0cb0544d0100b80d30f5461e72fbc1c3c0be8b140
+  checksum: 1ef657b90c7413451bbac2fd2fbce4f8a093941bc5041d344ab9833bc113c8eebf6318dae8aeeb1a0f922f15bc772507e6aaa0c7b51847b5f7302921c8dd6740
   languageName: node
   linkType: hard
 
