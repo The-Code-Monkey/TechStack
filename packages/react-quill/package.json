@@ -53,7 +53,7 @@
   "devDependencies": {
     "@nrwl/nx-cloud": "16.2.0",
     "@techstack/tcm-cli": "workspace:*",
-    "@types/lodash": "4.14.196",
+    "@types/lodash": "4.14.197",
     "@types/react": "18.2.19",
     "@types/react-dom": "18.2.7",
     "blanket": "1.2.3",
