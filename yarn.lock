@@ -5811,7 +5811,7 @@ __metadata:
     babel-plugin-polyfill-regenerator: 0.5.2
     babel-plugin-replace-identifiers: 0.1.1
     babel-plugin-transform-rename-import: 2.3.0
-    camelcase: 7.0.1
+    camelcase: 8.0.0
     colorette: 2.0.20
     confusing-browser-globals: 1.0.11
     cssnano: 6.0.1
@@ -9726,10 +9726,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"camelcase@npm:7.0.1":
-  version: 7.0.1
-  resolution: "camelcase@npm:7.0.1"
-  checksum: 86ab8f3ebf08bcdbe605a211a242f00ed30d8bfb77dab4ebb744dd36efbc84432d1c4adb28975ba87a1b8be40a80fbd1e60e2f06565315918fa7350011a26d3d
+"camelcase@npm:8.0.0":
+  version: 8.0.0
+  resolution: "camelcase@npm:8.0.0"
+  checksum: 6da7abe997af29e80052f17aa21628c7cce14af364cef9f07a2a44d59614dd6f361d405f121938e673424d673697a8c53ad17be8c4b03b0a727307c4db8b5b5e
   languageName: node
   linkType: hard
 
