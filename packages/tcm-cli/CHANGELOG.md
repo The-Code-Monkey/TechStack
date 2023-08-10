@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.17](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.16...v1.2.17) (2023-08-10)
+
+### Bug Fixes
+
+- **deps:** update dependency camelcase to v8 ([#1707](https://github.com/The-Code-Monkey/TechStack/issues/1707)) ([269b0e3](https://github.com/The-Code-Monkey/TechStack/commit/269b0e30642b0c9992bf000481daa4fa628097c2))
+- **deps:** update dependency rollup to v3.28.0 ([#1703](https://github.com/The-Code-Monkey/TechStack/issues/1703)) ([bd1a6a2](https://github.com/The-Code-Monkey/TechStack/commit/bd1a6a26f115a7eedf400f835a3ea62e6975ed74))
+
 ## [1.2.16](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.15...v1.2.16) (2023-08-10)
 
 **Note:** Version bump only for package @techstack/tcm-cli
