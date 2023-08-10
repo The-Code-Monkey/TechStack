@@ -1,6 +1,6 @@
 {
   "name": "@techstack/font-picker-react",
-  "version": "1.2.17",
+  "version": "1.2.19",
   "description": "Font selector component for Google Fonts",
   "type": "module",
   "module": "./dist/font-picker-react.esm.js",
