@@ -3,7 +3,7 @@
 exports[`<Input /> checkbox renders correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-kvAqsT ghVUiJ sc-cdtKKh bQZlMA"
+    class="sc-bcPKhP iWuYJp sc-dkjKgF cdYPWg"
     data-checked="false"
     data-indeterminate="false"
     data-testid="checkbox"
@@ -15,7 +15,7 @@ exports[`<Input /> checkbox renders correctly 1`] = `
 exports[`<Input /> email renders correctly 1`] = `
 <DocumentFragment>
   <input
-    class="sc-cLrhaH cbZXBu"
+    class="sc-eDnVMP WxYsq"
     cursor="pointer"
     name="test"
     placeholder="Placeholder"
@@ -28,7 +28,7 @@ exports[`<Input /> email renders correctly 1`] = `
 exports[`<Input /> renders correctly 1`] = `
 <DocumentFragment>
   <input
-    class="sc-cLrhaH cbZXBu"
+    class="sc-eDnVMP WxYsq"
     cursor="pointer"
     name="test"
     placeholder="Placeholder"
@@ -40,7 +40,7 @@ exports[`<Input /> renders correctly 1`] = `
 exports[`<Input /> renders correctly 2`] = `
 <DocumentFragment>
   <input
-    class="sc-cLrhaH cbZXBu"
+    class="sc-eDnVMP WxYsq"
     cursor="pointer"
     name="test"
     placeholder="Placeholder"
@@ -53,7 +53,7 @@ exports[`<Input /> renders correctly 2`] = `
 exports[`<Input /> textarea renders correctly 1`] = `
 <DocumentFragment>
   <textarea
-    class="sc-jWWaec jWWOkQ"
+    class="sc-jSwlEQ QOvXL"
     cursor="pointer"
     name="test"
     placeholder="Placeholder"

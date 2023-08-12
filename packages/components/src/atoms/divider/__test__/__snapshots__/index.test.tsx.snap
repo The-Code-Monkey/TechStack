@@ -3,7 +3,7 @@
 exports[`<Divider /> renders correctly 1`] = `
 <DocumentFragment>
   <hr
-    class="sc-cLrhaH IEDX"
+    class="sc-eDnVMP dmYpH"
   />
 </DocumentFragment>
 `;
