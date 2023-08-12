@@ -52,9 +52,9 @@ export interface ReactQuillProps {
     source: Sources,
     editor: UnprivilegedEditor
   ): void;
-  onKeyDown?: React.EventHandler<any>;
-  onKeyPress?: React.EventHandler<any>;
-  onKeyUp?: React.EventHandler<any>;
+  onKeyDown?: React.EventHandler<never>;
+  onKeyPress?: React.EventHandler<never>;
+  onKeyUp?: React.EventHandler<never>;
   placeholder?: string;
   preserveWhitespace?: boolean;
   readOnly?: boolean;

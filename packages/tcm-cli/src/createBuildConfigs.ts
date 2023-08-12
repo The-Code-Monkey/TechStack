@@ -111,7 +111,7 @@ function getNormalizedTcmConfig(): NormalizedTcmConfig {
 
 function getTcmConfig(): TcmConfig {
   // check for custom tcm.config.js
-  let tcmConfig: any = configDefaults;
+  let tcmConfig: TcmConfig = configDefaults;
 
   if (fs.existsSync(paths.appConfigTs)) {
     tcmConfig = loadTcmConfigTs();
@@ -134,7 +134,12 @@ function loadTcmConfigTs(): TcmConfig | undefined {
       },
       transpileOnly: true, // skip type checking
     });
-    return (interopRequireDefault(require(paths.appConfigTs)) as any).default;
+    return (
+      interopRequireDefault(require(paths.appConfigTs)) as Record<
+        'default',
+        TcmConfig
+      >
+    ).default;
   } catch (error) {
     logError(error);
     process.exit(1);
@@ -152,7 +157,7 @@ function loadTcmConfigCjs(): TcmConfig | undefined {
   return require(paths.appConfigCjs);
 }
 
-function isTcmConfig(required: any): required is TcmConfig {
+function isTcmConfig(required): required is TcmConfig {
   return isDefined(required) && isDefined(required);
 }
 

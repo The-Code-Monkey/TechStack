@@ -128,7 +128,7 @@ async function getInputs(
   source?: string
 ): Promise<string[]> {
   return concatAllArray(
-    ([] as any[])
+    []
       .concat(
         entries && entries.length
           ? entries
@@ -423,7 +423,7 @@ prog
             await bundle.write(inputOptions.output);
           }
         )
-        .catch((e: any) => {
+        .catch(e => {
           throw e;
         })
         .then(async () => {

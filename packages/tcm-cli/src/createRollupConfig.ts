@@ -26,7 +26,7 @@ const errorCodeOpts = {
 };
 
 // shebang cache map thing because the transform only gets run once
-const shebang: any = {};
+const shebang: object = {};
 
 export async function createRollupConfig(
   appPackageJson: PackageJson,
@@ -113,7 +113,7 @@ export async function createRollupConfig(
     plugins: [
       !!opts.extractErrors && {
         name: 'error-extractor',
-        async transform(source: any) {
+        async transform(source) {
           await findAndRecordErrorCodes(source);
           return source;
         },
