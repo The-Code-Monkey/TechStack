@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.25](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.24...v1.2.25) (2023-08-12)
+
+### Bug Fixes
+
+- update eslint ([0882209](https://github.com/The-Code-Monkey/TechStack/commit/0882209e20a48c919ef967062a8baadf0ef42fae))
+
 ## [1.2.24](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.23...v1.2.24) (2023-08-12)
 
 **Note:** Version bump only for package @techstack/react-quill
