@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.23](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.22...v1.2.23) (2023-08-12)
+
+### Bug Fixes
+
+- **deps:** update dependency @rollup/plugin-commonjs to v25.0.4 ([#1712](https://github.com/The-Code-Monkey/TechStack/issues/1712)) ([abcad6c](https://github.com/The-Code-Monkey/TechStack/commit/abcad6cf7b072c094ffdadbc3e49168edbc1daf1))
+- **deps:** update dependency eslint to v8.47.0 ([#1713](https://github.com/The-Code-Monkey/TechStack/issues/1713)) ([c0f3292](https://github.com/The-Code-Monkey/TechStack/commit/c0f3292bab85669043ed9a2144b71c856aba0242))
+
 ## [1.2.22](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.21...v1.2.22) (2023-08-12)
 
 ### Bug Fixes

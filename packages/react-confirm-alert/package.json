@@ -1,6 +1,6 @@
 {
   "name": "@techstack/react-confirm-alert",
-  "version": "1.2.19",
+  "version": "1.2.23",
   "description": "react component confirm dialog.",
   "type": "module",
   "main": "./dist/index.js",
