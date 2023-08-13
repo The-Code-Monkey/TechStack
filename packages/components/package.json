@@ -103,6 +103,7 @@
     "@techstack/memoize": "workspace:*",
     "@techstack/styled-system": "1.0.78",
     "@techstack/theme": "workspace:*",
+    "@techstack/react-feather": "workspace:*",
     "@types/react-table": "7.7.14",
     "classnames": "2.3.2",
     "csstype": "3.1.2",
