@@ -101,7 +101,7 @@
     "@emotion/is-prop-valid": "1.2.1",
     "@tanstack/react-table": "8.9.3",
     "@techstack/memoize": "workspace:*",
-    "@techstack/styled-system": "1.0.78",
+    "@techstack/styled-system": "1.0.79",
     "@techstack/theme": "workspace:*",
     "@techstack/react-feather": "workspace:*",
     "@types/react-table": "7.7.14",

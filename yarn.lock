@@ -5592,7 +5592,8 @@ __metadata:
     "@storybook/testing-library": 0.2.0
     "@tanstack/react-table": 8.9.3
     "@techstack/memoize": "workspace:*"
-    "@techstack/styled-system": 1.0.78
+    "@techstack/react-feather": "workspace:*"
+    "@techstack/styled-system": 1.0.79
     "@techstack/tcm-cli": "workspace:*"
     "@techstack/theme": "workspace:*"
     "@testing-library/react": 14.0.0
@@ -5644,14 +5645,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@techstack/memoize@npm:1.2.24":
-  version: 1.2.24
-  resolution: "@techstack/memoize@npm:1.2.24"
-  checksum: 6af3c2648e7c3ada802497470d6804fd2a0d8038e0740eaf3cdab3c6e0b6dc27e53ebd7c35a94ce4598675c578f8b0debd280444a8073b880dbb3e31194c9259
-  languageName: node
-  linkType: hard
-
-"@techstack/memoize@workspace:*, @techstack/memoize@workspace:packages/memoize":
+"@techstack/memoize@1.2.27, @techstack/memoize@workspace:*, @techstack/memoize@workspace:packages/memoize":
   version: 0.0.0-use.local
   resolution: "@techstack/memoize@workspace:packages/memoize"
   dependencies:
@@ -5683,7 +5677,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@techstack/react-feather@workspace:packages/react-feather":
+"@techstack/react-feather@workspace:*, @techstack/react-feather@workspace:packages/react-feather":
   version: 0.0.0-use.local
   resolution: "@techstack/react-feather@workspace:packages/react-feather"
   dependencies:
@@ -5765,15 +5759,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@techstack/styled-system@npm:1.0.78":
-  version: 1.0.78
-  resolution: "@techstack/styled-system@npm:1.0.78"
+"@techstack/styled-system@npm:1.0.79":
+  version: 1.0.79
+  resolution: "@techstack/styled-system@npm:1.0.79"
   dependencies:
     "@emotion/is-prop-valid": 1.2.1
-    "@techstack/memoize": 1.2.24
+    "@techstack/memoize": 1.2.27
     csstype: 3.1.2
     react: 18.2.0
-  checksum: 69a6eb8ac942cd4efba6fce763c0aa398632950c1be8cbea504caf244af52ecfbffb41be922d61fcbc2dd591eb2f58121b094bd31e8e6fd43d1d8787ccc88130
+  checksum: 003445864672aa501e2e9bf0bf1dc3d5b2c3a807da844c419c387bdf74766231a2742bf5927cb231af67b70f0def0fcf070a27c91626453627e997abdec2898d
   languageName: node
   linkType: hard
 
