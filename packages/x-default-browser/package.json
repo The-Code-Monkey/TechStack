@@ -33,7 +33,7 @@
   "devDependencies": {
     "@techstack/tcm-cli": "workspace:*",
     "mocha": "10.2.0",
-    "rewire": "6.0.0"
+    "rewire": "7.0.0"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a"
 }
