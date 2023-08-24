@@ -113,7 +113,7 @@
     "@types/semver": "7.5.0",
     "@types/shelljs": "0.8.12",
     "auto-changelog": "2.4.0",
-    "autoprefixer": "10.4.14",
+    "autoprefixer": "10.4.15",
     "babel-plugin-replace-identifiers": "0.1.1",
     "cssnano": "6.0.1",
     "doctoc": "2.2.1",
