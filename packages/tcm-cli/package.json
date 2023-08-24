@@ -86,7 +86,7 @@
     "regenerator-runtime": "0.14.0",
     "rollup": "3.28.0",
     "rollup-plugin-delete": "2.0.0",
-    "rollup-plugin-dts": "5.3.1",
+    "rollup-plugin-dts": "6.0.0",
     "rollup-plugin-typescript2": "0.35.0",
     "sade": "1.8.1",
     "semver": "7.5.4",
