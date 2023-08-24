@@ -63,7 +63,7 @@
     "react-dom": "18.2.0",
     "should": "13.2.3",
     "superstatic": "9.0.3",
-    "typescript": "5.1.6",
+    "typescript": "5.2.2",
     "webpack": "5.88.2",
     "webpack-cli": "5.1.4"
   }
