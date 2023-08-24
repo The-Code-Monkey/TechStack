@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.28](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.27...v1.2.28) (2023-08-24)
+
+### Bug Fixes
+
+- change dev to main ([67b8de0](https://github.com/The-Code-Monkey/TechStack/commit/67b8de0c1dc3c80dd01ac02dbdf588227a756994))
+- **deps:** update dependency execa to v8 ([#1754](https://github.com/The-Code-Monkey/TechStack/issues/1754)) ([6ceb9ff](https://github.com/The-Code-Monkey/TechStack/commit/6ceb9ffd3b5c0e5cfddb80d1d09f41b871b6bda1))
+- **deps:** update dependency react-i18next to v13.2.0 ([#1751](https://github.com/The-Code-Monkey/TechStack/issues/1751)) ([9e52ba0](https://github.com/The-Code-Monkey/TechStack/commit/9e52ba06786c1714a7d34d0ce65a0c1e53e1d5e8))
+- **deps:** update dependency rollup-plugin-dts to v6 ([#1755](https://github.com/The-Code-Monkey/TechStack/issues/1755)) ([57f5595](https://github.com/The-Code-Monkey/TechStack/commit/57f55959f2ed0716d697c1266cfcacfc1d8d1197))
+- **deps:** update typescript-eslint monorepo to v6.4.1 ([#1728](https://github.com/The-Code-Monkey/TechStack/issues/1728)) ([4ff5d61](https://github.com/The-Code-Monkey/TechStack/commit/4ff5d61f92030cc22edb82e6c85973e21469401c))
+
 ## [1.2.27](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.26...v1.2.27) (2023-08-12)
 
 ### Bug Fixes
