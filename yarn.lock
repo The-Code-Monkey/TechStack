@@ -5600,7 +5600,7 @@ __metadata:
     "@tsconfig/recommended": 1.0.2
     "@types/react-dom": 18.2.7
     "@types/react-table": 7.7.14
-    chromatic: 6.21.0
+    chromatic: 6.24.0
     classnames: 2.3.2
     cross-env: 7.0.3
     csstype: 3.1.2
@@ -10153,14 +10153,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:6.21.0":
-  version: 6.21.0
-  resolution: "chromatic@npm:6.21.0"
+"chromatic@npm:6.24.0":
+  version: 6.24.0
+  resolution: "chromatic@npm:6.24.0"
   bin:
     chroma: dist/bin.js
     chromatic: dist/bin.js
     chromatic-cli: dist/bin.js
-  checksum: f30903455790099566c8701b8e4c9419cab288b598b6cd28f34e457ff9879cdc31e4d34b377ba962b014ac6b52d17c506d044cf5cb0b2031340f6068d350a139
+  checksum: 31a433981c4b59398680c51d10b1f0fbe76ec91f0c7b0ded9c422af9697a0363721e8d61eb2e5f108b08b3574f02e2d8bf5d1ee1e174f8542e9f08935ef6cf5e
   languageName: node
   linkType: hard
 
