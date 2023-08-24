@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@techstack/tcm-cli": "workspace:*",
-    "@types/react": "18.2.20",
+    "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7"
   }
 }
