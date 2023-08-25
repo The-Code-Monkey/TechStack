@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.39](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.38...v1.2.39) (2023-08-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.33.2 ([#1739](https://github.com/The-Code-Monkey/TechStack/issues/1739)) ([d4c0b1e](https://github.com/The-Code-Monkey/TechStack/commit/d4c0b1e348c1efa74937df8536bc1ff31cd7da42))
+
+
+
+
+
 ## [1.2.38](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.37...v1.2.38) (2023-08-25)
 
 
