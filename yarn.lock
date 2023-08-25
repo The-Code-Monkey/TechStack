@@ -2322,7 +2322,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/environment@npm:^29.1.1, @jest/environment@npm:^29.6.4":
+"@jest/environment@npm:^29.6.4":
   version: 29.6.4
   resolution: "@jest/environment@npm:29.6.4"
   dependencies:
@@ -2343,7 +2343,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/expect@npm:^29.1.0, @jest/expect@npm:^29.6.4":
+"@jest/expect@npm:^29.6.4":
   version: 29.6.4
   resolution: "@jest/expect@npm:29.6.4"
   dependencies:
@@ -2367,19 +2367,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/globals@npm:29.1.1":
-  version: 29.1.1
-  resolution: "@jest/globals@npm:29.1.1"
-  dependencies:
-    "@jest/environment": "npm:^29.1.1"
-    "@jest/expect": "npm:^29.1.0"
-    "@jest/types": "npm:^29.1.0"
-    jest-mock: "npm:^29.1.1"
-  checksum: 921eed37ee6da2951b06bb951be8220e851b67818bdfc06a8785e7e7ca85676d7f948bcfbabce160b1c2075f46e12dd2ef80913e730e912fb8ea375f86d5994d
-  languageName: node
-  linkType: hard
-
-"@jest/globals@npm:^29.6.4":
+"@jest/globals@npm:29.6.4, @jest/globals@npm:^29.6.4":
   version: 29.6.4
   resolution: "@jest/globals@npm:29.6.4"
   dependencies:
@@ -2517,7 +2505,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/types@npm:^29.1.0, @jest/types@npm:^29.6.3":
+"@jest/types@npm:^29.6.3":
   version: 29.6.3
   resolution: "@jest/types@npm:29.6.3"
   dependencies:
@@ -5047,7 +5035,7 @@ __metadata:
     "@babel/preset-react": "npm:7.22.5"
     "@babel/preset-typescript": "npm:7.22.11"
     "@emotion/is-prop-valid": "npm:1.2.1"
-    "@jest/globals": "npm:29.1.1"
+    "@jest/globals": "npm:29.6.4"
     "@size-limit/file": "npm:8.2.6"
     "@storybook/addon-essentials": "npm:7.2.3"
     "@storybook/addon-interactions": "npm:7.2.3"
@@ -15369,7 +15357,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-mock@npm:^29.1.1, jest-mock@npm:^29.6.3":
+"jest-mock@npm:^29.6.3":
   version: 29.6.3
   resolution: "jest-mock@npm:29.6.3"
   dependencies:
