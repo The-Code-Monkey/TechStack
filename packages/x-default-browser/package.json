@@ -32,17 +32,17 @@
   },
   "devDependencies": {
     "@techstack/tcm-cli": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^6.4.1",
-    "@typescript-eslint/parser": "^6.4.1",
-    "eslint": "^8.47.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-prettier": "^5.0.0",
-    "eslint-plugin-react": "^7.33.2",
+    "@typescript-eslint/eslint-plugin": "6.4.1",
+    "@typescript-eslint/parser": "6.4.1",
+    "eslint": "8.47.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-import": "2.28.1",
+    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-react": "7.33.2",
     "mocha": "10.2.0",
-    "prettier": "^3.0.2",
+    "prettier": "3.0.2",
     "rewire": "7.0.0",
-    "typescript": "^5.2.2"
+    "typescript": "5.2.2"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a"
 }
