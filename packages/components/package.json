@@ -89,7 +89,7 @@
     "@types/react-dom": "18.2.7",
     "@typescript-eslint/eslint-plugin": "6.4.1",
     "@typescript-eslint/parser": "6.4.1",
-    "chromatic": "6.24.0",
+    "chromatic": "6.24.1",
     "cross-env": "7.0.3",
     "eslint": "8.47.0",
     "eslint-config-prettier": "9.0.0",
