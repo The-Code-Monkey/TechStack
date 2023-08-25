@@ -1,4 +1,3 @@
-// import Textfit from '@techstack/react-textfit';
 import { Carousel as ReactCarousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
