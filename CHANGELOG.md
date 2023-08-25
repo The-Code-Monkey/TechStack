@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.30](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.29...v1.2.30) (2023-08-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v3.0.2 ([#1745](https://github.com/The-Code-Monkey/TechStack/issues/1745)) ([cb70660](https://github.com/The-Code-Monkey/TechStack/commit/cb70660a339c2cb523428f6191ca6daf440204ea))
+
+
+
+
+
 ## [1.2.29](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.28...v1.2.29) (2023-08-25)
 
 
