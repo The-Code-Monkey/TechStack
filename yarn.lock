@@ -2322,7 +2322,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/environment@npm:^29.1.1, @jest/environment@npm:^29.6.2, @jest/environment@npm:^29.6.4":
+"@jest/environment@npm:^29.1.1, @jest/environment@npm:^29.6.4":
   version: 29.6.4
   resolution: "@jest/environment@npm:29.6.4"
   dependencies:
@@ -2353,7 +2353,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/fake-timers@npm:^29.1.1, @jest/fake-timers@npm:^29.6.2, @jest/fake-timers@npm:^29.6.4":
+"@jest/fake-timers@npm:^29.6.4":
   version: 29.6.4
   resolution: "@jest/fake-timers@npm:29.6.4"
   dependencies:
@@ -5089,7 +5089,7 @@ __metadata:
     esm: "npm:3.2.25"
     i18next: "npm:23.4.4"
     jest: "npm:29.1.1"
-    jest-environment-jsdom: "npm:29.1.1"
+    jest-environment-jsdom: "npm:29.6.4"
     jest-watch-typeahead: "npm:2.2.2"
     prettier: "npm:3.0.2"
     react: "npm:18.2.0"
@@ -5160,7 +5160,7 @@ __metadata:
     expect-type: "npm:0.16.0"
     fast-memoize: "npm:2.5.2"
     jest: "npm:29.6.4"
-    jest-environment-jsdom: "npm:29.6.2"
+    jest-environment-jsdom: "npm:29.6.4"
     jest-watch-typeahead: "npm:2.2.2"
     lodash: "npm:4.17.21"
     markdown-table: "npm:3.0.3"
@@ -5235,7 +5235,7 @@ __metadata:
     eslint-plugin-prettier: "npm:5.0.0"
     eslint-plugin-react: "npm:7.33.2"
     jest: "npm:29.6.4"
-    jest-environment-jsdom: "npm:29.6.2"
+    jest-environment-jsdom: "npm:29.6.4"
     jest-watch-typeahead: "npm:2.2.2"
     lodash: "npm:4.17.21"
     lodash-es: "npm:4.17.21"
@@ -5354,7 +5354,7 @@ __metadata:
     figlet: "npm:1.6.0"
     fs-extra: "npm:11.1.1"
     jest: "npm:29.6.2"
-    jest-environment-jsdom: "npm:29.6.2"
+    jest-environment-jsdom: "npm:29.6.4"
     jest-watch-typeahead: "npm:2.2.2"
     jpjs: "npm:1.2.1"
     lint-staged: "npm:14.0.1"
@@ -15261,40 +15261,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-environment-jsdom@npm:29.1.1":
-  version: 29.1.1
-  resolution: "jest-environment-jsdom@npm:29.1.1"
+"jest-environment-jsdom@npm:29.6.4":
+  version: 29.6.4
+  resolution: "jest-environment-jsdom@npm:29.6.4"
   dependencies:
-    "@jest/environment": "npm:^29.1.1"
-    "@jest/fake-timers": "npm:^29.1.1"
-    "@jest/types": "npm:^29.1.0"
+    "@jest/environment": "npm:^29.6.4"
+    "@jest/fake-timers": "npm:^29.6.4"
+    "@jest/types": "npm:^29.6.3"
     "@types/jsdom": "npm:^20.0.0"
     "@types/node": "npm:*"
-    jest-mock: "npm:^29.1.1"
-    jest-util: "npm:^29.1.0"
-    jsdom: "npm:^20.0.0"
-  checksum: e21c15f3a392d6ba4b87bf155841dd605682780147bbc225baef02c31fab844b28ae3e1b95c8c3b219d83b15467e6cc7c6c33f679a0ddc089975d5d2ad6bca74
-  languageName: node
-  linkType: hard
-
-"jest-environment-jsdom@npm:29.6.2":
-  version: 29.6.2
-  resolution: "jest-environment-jsdom@npm:29.6.2"
-  dependencies:
-    "@jest/environment": "npm:^29.6.2"
-    "@jest/fake-timers": "npm:^29.6.2"
-    "@jest/types": "npm:^29.6.1"
-    "@types/jsdom": "npm:^20.0.0"
-    "@types/node": "npm:*"
-    jest-mock: "npm:^29.6.2"
-    jest-util: "npm:^29.6.2"
+    jest-mock: "npm:^29.6.3"
+    jest-util: "npm:^29.6.3"
     jsdom: "npm:^20.0.0"
   peerDependencies:
     canvas: ^2.5.0
   peerDependenciesMeta:
     canvas:
       optional: true
-  checksum: e6c7929919b0784cd2feb70714e2338bd900824d85a9eb6c333e2a94b468e0d19c147abde1ce1b99dcc1b969fbe679d6ea69f4385a30830f06ed98b16a7a621b
+  checksum: e8c7f2326994205912ebc883e2696dd98f63c2e558d3118f4a8a1a54c6e9a31c1472c1c146b3b4c41f08464dadf6efd2bef5e0238cfde76cad0d1877038309b9
   languageName: node
   linkType: hard
 
@@ -15410,7 +15394,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-mock@npm:^29.1.1, jest-mock@npm:^29.6.2, jest-mock@npm:^29.6.3":
+"jest-mock@npm:^29.1.1, jest-mock@npm:^29.6.3":
   version: 29.6.3
   resolution: "jest-mock@npm:29.6.3"
   dependencies:
@@ -15554,7 +15538,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-util@npm:^29.0.0, jest-util@npm:^29.1.0, jest-util@npm:^29.6.2, jest-util@npm:^29.6.3":
+"jest-util@npm:^29.0.0, jest-util@npm:^29.6.3":
   version: 29.6.3
   resolution: "jest-util@npm:29.6.3"
   dependencies:
