@@ -5423,7 +5423,7 @@ __metadata:
     ora: "npm:7.0.1"
     pascal-case: "npm:3.1.2"
     postcss: "npm:8.4.27"
-    prettier: "npm:3.0.1"
+    prettier: "npm:3.0.2"
     progress-estimator: "npm:0.3.1"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
@@ -19821,15 +19821,6 @@ __metadata:
   dependencies:
     fast-diff: "npm:^1.1.2"
   checksum: 00ce8011cf6430158d27f9c92cfea0a7699405633f7f1d4a45f07e21bf78e99895911cbcdc3853db3a824201a7c745bd49bfea8abd5fb9883e765a90f74f8392
-  languageName: node
-  linkType: hard
-
-"prettier@npm:3.0.1":
-  version: 3.0.1
-  resolution: "prettier@npm:3.0.1"
-  bin:
-    prettier: bin/prettier.cjs
-  checksum: bd20d7565d7701f3446cc149d767031da9239c32eea2aac558876353c781e0557291d885c0585af52500311425a326dd4248364eac41303d0454769a5ec2141a
   languageName: node
   linkType: hard
 
