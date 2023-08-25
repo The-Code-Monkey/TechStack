@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.37](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.36...v1.2.37) (2023-08-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency jest to v29.6.4 ([#1742](https://github.com/The-Code-Monkey/TechStack/issues/1742)) ([48c7c89](https://github.com/The-Code-Monkey/TechStack/commit/48c7c89233a5f1c2c4dd40a7a6efa4f80fffcbb1))
+
+
+
+
+
 ## [1.2.36](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.35...v1.2.36) (2023-08-25)
 
 
