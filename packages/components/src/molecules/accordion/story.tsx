@@ -1,4 +1,4 @@
-import Accordion from './index';
+import { Accordion } from './index';
 
 export default {
   title: 'Components / Molecules / Accordion',

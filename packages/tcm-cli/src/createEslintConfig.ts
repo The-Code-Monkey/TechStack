@@ -23,6 +23,9 @@ export async function createEslintConfig({
     extends: [
       'plugin:@typescript-eslint/recommended',
       'plugin:react/recommended',
+      'plugin:import/errors',
+      'plugin:import/warnings',
+      'plugin:import/typescript',
       'prettier',
     ],
     plugins: ['@typescript-eslint', 'prettier', 'react', 'import'],
@@ -37,11 +40,11 @@ export async function createEslintConfig({
       },
     },
     parserOptions: {
-      ecmaVersion: 2020,
       sourceType: 'module',
-      allowImportExportEverywhere: true,
+      ecmaVersion: 'latest',
       ecmaFeatures: {
         jsx: true,
+        modules: true,
       },
     },
     rules: {

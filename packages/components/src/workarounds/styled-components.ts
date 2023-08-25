@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import { default as styled } from 'styled-components';
 
 export * from 'styled-components';
 
@@ -6,4 +6,4 @@ export * from 'styled-components';
 // @ts-ignore
 const defaultStyled = typeof styled === 'function' ? styled : styled.default;
 
-export { defaultStyled as default };
+export default defaultStyled;

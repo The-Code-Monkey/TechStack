@@ -1,7 +1,7 @@
 import { variant } from '@techstack/styled-system';
 
 import { Interactable, StyledBoxProps } from '../../primal';
-import styled from '../../workarounds/styled-components';
+import { default as styled } from '../../workarounds/styled-components';
 
 export const iconMargins = {
   left: {

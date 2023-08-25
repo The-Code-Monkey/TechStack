@@ -1,7 +1,7 @@
 import { screen, waitFor, act } from '@testing-library/react';
 
 import { mountWithTheme } from '../../../test-tools';
-import Icon from '../index';
+import { Icon } from '../index';
 
 describe('<Icon />', () => {
   it('renders correctly', async () => {

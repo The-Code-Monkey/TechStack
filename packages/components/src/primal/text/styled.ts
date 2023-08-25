@@ -4,7 +4,7 @@ import {
   typography,
 } from '@techstack/styled-system';
 
-import styled from '../../workarounds/styled-components';
+import { default as styled } from '../../workarounds/styled-components';
 
 export const StyledText = styled.span`
   ${typography}

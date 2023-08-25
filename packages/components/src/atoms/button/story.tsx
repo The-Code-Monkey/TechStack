@@ -1,4 +1,4 @@
-import Button from './index';
+import { Button } from './index';
 
 export default {
   title: 'Components / Atoms / Button',

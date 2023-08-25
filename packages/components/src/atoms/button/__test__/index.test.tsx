@@ -1,7 +1,7 @@
 import { act, screen, waitFor } from '@testing-library/react';
 
 import { mountWithTheme } from '../../../test-tools';
-import Button from '../index';
+import { Button } from '../index';
 
 describe('<Button />', () => {
   it('renders default correctly', () => {

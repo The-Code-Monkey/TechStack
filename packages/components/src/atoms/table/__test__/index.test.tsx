@@ -1,5 +1,5 @@
 import { mountWithTheme } from '../../../test-tools';
-import Table from '../index';
+import { Table } from '../index';
 
 describe('<Table />', () => {
   it('should render correctly', () => {

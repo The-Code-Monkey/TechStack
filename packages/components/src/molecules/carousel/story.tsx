@@ -1,6 +1,6 @@
 import { Meta } from '@storybook/react';
 
-import Carousel from './';
+import { Carousel } from './';
 
 export default {
   title: 'Components / Molecules / Carousel',

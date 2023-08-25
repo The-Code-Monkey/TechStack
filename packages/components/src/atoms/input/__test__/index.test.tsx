@@ -1,5 +1,5 @@
 import { mountWithTheme } from '../../../test-tools';
-import Input from '../index';
+import { Input } from '../index';
 
 describe('<Input />', () => {
   it('renders correctly', () => {

@@ -1,4 +1,4 @@
-import Grid, { Cell } from './index';
+import { Grid, Cell } from './index';
 
 export default {
   title: 'Components / Atoms / Grid',

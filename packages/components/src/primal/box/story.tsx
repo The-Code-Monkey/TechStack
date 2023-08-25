@@ -1,6 +1,6 @@
 import { Meta } from '@storybook/react';
 
-import Box from './Box';
+import { Box } from './Box';
 
 export default {
   title: 'Components / Primal / Box',

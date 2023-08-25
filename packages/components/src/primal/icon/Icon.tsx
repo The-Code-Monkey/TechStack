@@ -18,7 +18,7 @@ export interface Props {
 
 export const getIcon = (name: IconTypes) => {
   return lazy(() =>
-    import(`@techstack/react-feather`).then(module => ({
+    import('@techstack/react-feather').then(module => ({
       default: module[name],
     }))
   );

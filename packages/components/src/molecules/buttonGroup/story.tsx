@@ -1,6 +1,6 @@
 import { Button } from '../../atoms';
 
-import ButtonGroup from './index';
+import { ButtonGroup } from './index';
 
 export default {
   title: 'Components / Molecules / ButtonGroup',

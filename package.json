@@ -28,57 +28,8 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "eslint-plugin-prettier": "5.0.0",
     "husky": "8.0.3",
-    "lerna": "7.1.5",
-    "prettier": "3.0.1"
-  },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
-  "eslintConfig": {
-    "extends": [
-      "plugin:import/errors",
-      "plugin:import/warnings",
-      "plugin:import/typescript"
-    ],
-    "plugins": [
-      "import"
-    ],
-    "parserOptions": {
-      "sourceType": "module",
-      "ecmaVersion": "latest",
-      "ecmaFeatures": {
-        "jsx": true,
-        "modules": true
-      }
-    },
-    "rules": {
-      "@typescript-eslint/no-empty-function": "off",
-      "import/no-unresolved": "off",
-      "import/no-named-as-default": "off",
-      "import/no-anonymous-default-export": "off",
-      "import/order": [
-        "error",
-        {
-          "groups": [
-            "builtin",
-            "external",
-            "parent",
-            "sibling",
-            "index"
-          ],
-          "newlines-between": "always",
-          "alphabetize": {
-            "order": "asc",
-            "caseInsensitive": true
-          }
-        }
-      ]
-    }
+    "lerna": "7.1.5"
   },
   "packageManager": "yarn@4.0.0-rc.50"
 }

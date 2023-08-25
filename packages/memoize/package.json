@@ -42,18 +42,32 @@
   },
   "devDependencies": {
     "@techstack/tcm-cli": "workspace:*",
+    "@types/jest": "^29.5.4",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
     "benchmark": "2.1.4",
     "cross-env": "7.0.3",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
     "expect-type": "0.16.0",
     "fast-memoize": "2.5.2",
+    "jest": "^29.6.4",
     "jest-environment-jsdom": "29.6.2",
+    "jest-watch-typeahead": "^2.2.2",
     "lodash": "4.17.21",
     "markdown-table": "3.0.3",
     "mem": "9.0.2",
     "memoizee": "0.4.15",
     "moize": "6.1.6",
     "nanocolors": "0.2.13",
-    "ora": "7.0.1"
+    "ora": "7.0.1",
+    "prettier": "^3.0.2",
+    "ts-jest": "^29.1.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a"
 }

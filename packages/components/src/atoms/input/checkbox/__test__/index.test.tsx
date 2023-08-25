@@ -1,7 +1,7 @@
 import { waitFor, screen, act } from '@testing-library/react';
 
 import { mountWithTheme } from '../../../../test-tools';
-import Checkbox from '../index';
+import { Checkbox } from '../index';
 
 describe('<Checkbox />', () => {
   it('renders correctly no icon', () => {

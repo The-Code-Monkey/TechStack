@@ -1,5 +1,5 @@
 import { mountWithTheme } from '../../../test-tools';
-import Grid, { Cell } from '../index';
+import { Grid, Cell } from '../index';
 
 describe('<Grid />', () => {
   it('renders correctly', () => {

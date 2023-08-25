@@ -1,4 +1,4 @@
-import Input from './index';
+import { Input } from './index';
 
 export default {
   title: 'Components / Atoms / Input',

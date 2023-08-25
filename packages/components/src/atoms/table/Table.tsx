@@ -9,7 +9,7 @@ import {
 import { FC, useRef, useState } from 'react';
 import { useVirtual } from 'react-virtual';
 
-import Button from '../button';
+import { Button } from '../button';
 
 import {
   StyledTable,

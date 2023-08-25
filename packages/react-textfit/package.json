@@ -38,6 +38,9 @@
   "license": "MIT",
   "devDependencies": {
     "@techstack/tcm-cli": "workspace:*",
+    "@types/node": "^20.5.6",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",
@@ -45,20 +48,23 @@
     "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
+    "eslint": "^8.47.0",
     "eslint-config-airbnb": "19.0.4",
-    "eslint-plugin-react": "7.33.1",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
     "expect": "29.6.4",
     "mocha": "10.2.0",
+    "prettier": "^3.0.2",
     "rimraf": "5.0.1",
+    "typescript": "^5.2.2",
     "webpack-dev-server": "4.15.1"
   },
-  "peerDependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
   "dependencies": {
+    "@types/react": "^18.2.21",
     "process": "0.11.10",
-    "prop-types": "15.8.1"
+    "react": "^18.2.0"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a"
 }

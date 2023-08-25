@@ -21,7 +21,7 @@
     "types":["node","jest"],
     "module": "commonjs",
     "outDir": "./dist/cjs",
-    "target": "es2015",
+    "target": "ESNext",
     "declarationDir": "dist/types"
   }
 }

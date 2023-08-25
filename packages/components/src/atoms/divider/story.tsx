@@ -1,4 +1,4 @@
-import Divider from './index';
+import { Divider } from './index';
 
 export default {
   title: 'Components / Atoms / Divider',

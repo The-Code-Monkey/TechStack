@@ -10,7 +10,7 @@ import { ThemeContext } from 'styled-components';
 import { BoxProps } from '../../primal';
 import { DefaultThemeWithDefaultStyles } from '../../utils';
 
-import Checkbox from './checkbox';
+import { Checkbox } from './checkbox';
 import { StyledInput, StyledTextArea } from './styled';
 import { InputPropsUnion } from './types';
 

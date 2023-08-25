@@ -15,7 +15,7 @@ import {
 } from '@techstack/styled-system';
 
 import { shouldForwardProp } from '../../utils';
-import styled from '../../workarounds/styled-components';
+import { default as styled } from '../../workarounds/styled-components';
 
 const utilProps = system({
   visibility: {

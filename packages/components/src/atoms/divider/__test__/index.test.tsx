@@ -1,5 +1,5 @@
 import { mountWithTheme } from '../../../test-tools';
-import Divider from '../index';
+import { Divider } from '../index';
 
 describe('<Divider />', () => {
   it('renders correctly', () => {

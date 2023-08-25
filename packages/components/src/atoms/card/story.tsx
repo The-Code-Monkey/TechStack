@@ -1,6 +1,6 @@
 import { Meta } from '@storybook/react';
 
-import Button from '../button';
+import { Button } from '../button';
 
 import { Card } from './Card';
 
