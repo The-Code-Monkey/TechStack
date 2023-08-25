@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.35](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.34...v1.2.35) (2023-08-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-testing-library to v6.0.1 ([6725696](https://github.com/The-Code-Monkey/TechStack/commit/672569678a0082f5baa8c6058077d3cc965dcc6c))
+
+
+
+
+
 ## [1.2.34](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.33...v1.2.34) (2023-08-25)
 
 
