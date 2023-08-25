@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.29](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.28...v1.2.29) (2023-08-25)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([#1756](https://github.com/The-Code-Monkey/TechStack/issues/1756)) ([3d198ee](https://github.com/The-Code-Monkey/TechStack/commit/3d198eef54f4cb2604a8b81fbe964a37f16b280b))
+* update to yarn 4 ([2b764dd](https://github.com/The-Code-Monkey/TechStack/commit/2b764dd459eb48d9172a1c14bdd3200459a7af19))
+
+
+
+
+
 ## [1.2.28](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.27...v1.2.28) (2023-08-24)
 
 **Note:** Version bump only for package @techstack/memoize

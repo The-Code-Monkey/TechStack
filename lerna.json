@@ -7,13 +7,21 @@
     },
     "version": {
       "message": "chore(release): version",
-      "allowBranch": ["release", "main", "feature/*"],
+      "allowBranch": [
+        "release",
+        "main",
+        "feature/*"
+      ],
       "conventionalCommits": true
     },
     "bootstrap": {
-      "npmClientArgs": ["--no-package-lock"]
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
     }
   },
-  "packages": ["packages/*"],
-  "version": "1.2.28"
+  "packages": [
+    "packages/*"
+  ],
+  "version": "1.2.29"
 }

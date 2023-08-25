@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.29](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.28...v1.2.29) (2023-08-25)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([#1756](https://github.com/The-Code-Monkey/TechStack/issues/1756)) ([3d198ee](https://github.com/The-Code-Monkey/TechStack/commit/3d198eef54f4cb2604a8b81fbe964a37f16b280b))
+* update to canary ([1513183](https://github.com/The-Code-Monkey/TechStack/commit/15131831823219a1d1dbb21b45a29a48c06d4a7c))
+* update to yarn 4 ([2b764dd](https://github.com/The-Code-Monkey/TechStack/commit/2b764dd459eb48d9172a1c14bdd3200459a7af19))
+* update workflows ([e2bded9](https://github.com/The-Code-Monkey/TechStack/commit/e2bded9a096d12a1a03723cf9d58daee2a0a00f0))
+* use nodelinker and node modules ([09d06ef](https://github.com/The-Code-Monkey/TechStack/commit/09d06ef2ab6f65d1bc1ab9c701432b5574f8d4b6))
+* zero install setup ([7508b6d](https://github.com/The-Code-Monkey/TechStack/commit/7508b6dc48cd7e6f1582bf1b99dd69330da178b8))
+
+
+
+
+
 ## [1.2.28](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.27...v1.2.28) (2023-08-24)
 
 ### Bug Fixes
