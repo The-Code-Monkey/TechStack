@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.36](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.35...v1.2.36) (2023-08-25)
+
+
+### Reverts
+
+* Revert "chore(deps): update storybook monorepo to v7.3.2" (#1758) ([c5b335a](https://github.com/The-Code-Monkey/TechStack/commit/c5b335a0cc8253ac05340d62217741b80836fce4)), closes [#1758](https://github.com/The-Code-Monkey/TechStack/issues/1758) [#1727](https://github.com/The-Code-Monkey/TechStack/issues/1727)
+
+
+
+
+
 ## [1.2.35](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.34...v1.2.35) (2023-08-25)
 
 **Note:** Version bump only for package @techstack/font-picker-react
