@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.32](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.31...v1.2.32) (2023-08-25)
+
+
+### Bug Fixes
+
+* **deps:** pin dependency @types/react to 18.2.21 ([1512cb5](https://github.com/The-Code-Monkey/TechStack/commit/1512cb5ef96b2deab7263a9d40b4e8bb4e345fc2))
+
+
+
+
+
 ## [1.2.30](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.29...v1.2.30) (2023-08-25)
 
 **Note:** Version bump only for package @techstack/react-feather
