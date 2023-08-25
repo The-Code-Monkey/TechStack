@@ -5349,7 +5349,7 @@ __metadata:
     eslint-plugin-prettier: "npm:5.0.0"
     eslint-plugin-react: "npm:7.33.1"
     eslint-plugin-react-hooks: "npm:4.6.0"
-    eslint-plugin-testing-library: "npm:6.0.0"
+    eslint-plugin-testing-library: "npm:6.0.1"
     execa: "npm:8.0.1"
     figlet: "npm:1.6.0"
     fs-extra: "npm:11.1.1"
@@ -11915,14 +11915,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:6.0.0":
-  version: 6.0.0
-  resolution: "eslint-plugin-testing-library@npm:6.0.0"
+"eslint-plugin-testing-library@npm:6.0.1":
+  version: 6.0.1
+  resolution: "eslint-plugin-testing-library@npm:6.0.1"
   dependencies:
     "@typescript-eslint/utils": "npm:^5.58.0"
   peerDependencies:
     eslint: ^7.5.0 || ^8.0.0
-  checksum: 19805674b070a8c35e4768f5f4084e8eb20abadc7650df28ad3de06a751da27ee66ff14de7ca7940e490ff5475c10a26673be1401325329198ea2b4349cc63de
+  checksum: 2fff4d9a41a8962bf59963754123eafbb341f20f729d05ad6868a4603e5ca09b2271250b7bb44fe293a618fa77d8463a13bd1a662cc197903cbe1b1d55025172
   languageName: node
   linkType: hard
 
