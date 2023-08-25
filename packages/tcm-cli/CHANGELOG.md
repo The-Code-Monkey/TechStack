@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.34](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.33...v1.2.34) (2023-08-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.28 ([#1744](https://github.com/The-Code-Monkey/TechStack/issues/1744)) ([19e5fa6](https://github.com/The-Code-Monkey/TechStack/commit/19e5fa631024eea1f42b437e9407cca1b5257455))
+* **deps:** update dependency rollup to v3.28.1 ([#1746](https://github.com/The-Code-Monkey/TechStack/issues/1746)) ([415a6ae](https://github.com/The-Code-Monkey/TechStack/commit/415a6ae51daa696fe4f5aae70f260274442b27be))
+
+
+
+
+
 ## [1.2.30](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.29...v1.2.30) (2023-08-25)
 
 
