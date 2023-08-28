@@ -5306,7 +5306,7 @@ __metadata:
     "@types/lodash": "npm:4.14.197"
     "@types/node": "npm:18.17.1"
     "@types/react": "npm:18.2.21"
-    "@types/semver": "npm:7.5.0"
+    "@types/semver": "npm:7.5.1"
     "@types/shelljs": "npm:0.8.12"
     "@typescript-eslint/eslint-plugin": "npm:6.4.1"
     "@typescript-eslint/parser": "npm:6.4.1"
@@ -6183,7 +6183,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/semver@npm:7.5.0, @types/semver@npm:^7.3.12, @types/semver@npm:^7.3.4, @types/semver@npm:^7.5.0":
+"@types/semver@npm:7.5.1":
+  version: 7.5.1
+  resolution: "@types/semver@npm:7.5.1"
+  checksum: 8e19822a2f6282785f4787b3640a205161a65f85de3d2159c5077002adb6e90b2f80bb7c8324ffdb9643061763e1672747f04b0ef3e9ac4179de0dce20ad641d
+  languageName: node
+  linkType: hard
+
+"@types/semver@npm:^7.3.12, @types/semver@npm:^7.3.4, @types/semver@npm:^7.5.0":
   version: 7.5.0
   resolution: "@types/semver@npm:7.5.0"
   checksum: 8fbfbf79e9c14c3c20160a42145a146cba44d9763d0fac78358b394dc36e41bc2590bc4f0129c6fcbbc9b30f12ea1ba821bfe84b29dc80897f315cc7dd251393
