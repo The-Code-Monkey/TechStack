@@ -75,7 +75,7 @@
     "@storybook/addon-mdx-gfm": "7.2.3",
     "@storybook/addons": "7.2.3",
     "@storybook/client-api": "7.2.3",
-    "@storybook/jest": "0.2.1",
+    "@storybook/jest": "0.2.2",
     "@storybook/react": "7.2.3",
     "@storybook/react-webpack5": "7.2.3",
     "@storybook/testing-library": "0.2.0",
