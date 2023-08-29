@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.49](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.48...v1.2.49) (2023-08-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/parser to v7.22.13 ([99bc08d](https://github.com/The-Code-Monkey/TechStack/commit/99bc08d0547855095078ecdf4c3d195a48390703))
+
+
+
+
+
 ## [1.2.48](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.47...v1.2.48) (2023-08-28)
 
 **Note:** Version bump only for package techstack
