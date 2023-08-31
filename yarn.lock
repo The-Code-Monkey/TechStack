@@ -5626,7 +5626,7 @@ __metadata:
     "@techstack/tcm-cli": "workspace:*"
     "@typescript-eslint/eslint-plugin": "npm:6.5.0"
     "@typescript-eslint/parser": "npm:6.5.0"
-    default-browser-id: "npm:3.0.0"
+    default-browser-id: "npm:4.0.0"
     eslint: "npm:8.48.0"
     eslint-config-prettier: "npm:9.0.0"
     eslint-plugin-import: "npm:2.28.1"
@@ -9021,7 +9021,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"big-integer@npm:^1.6.44":
+"big-integer@npm:1.6.x, big-integer@npm:^1.6.44":
   version: 1.6.51
   resolution: "big-integer@npm:1.6.51"
   checksum: c7a12640901906d6f6b6bdb42a4eaba9578397b6d9a0dd090cf001ec813ff2bfcd441e364068ea0416db6175d2615f8ed19cff7d1a795115bf7c92d44993f991
@@ -9125,6 +9125,15 @@ __metadata:
   dependencies:
     big-integer: "npm:^1.6.44"
   checksum: 15d31c1b0c7e0fb384e96349453879a33609d92d91b55a9ccee04b4be4b0645f1c823253d73326a1a23104521fbc45c2dd97fb05adf61863841b68cbb2ca7a3d
+  languageName: node
+  linkType: hard
+
+"bplist-parser@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "bplist-parser@npm:0.3.2"
+  dependencies:
+    big-integer: "npm:1.6.x"
+  checksum: 6edf4354c32f5661c258422e478be0f5c6a779bb87c2ae15ee92dd1c046368decbff8a28c86c558a3b7007e1381b91d5eed1c4c8e83e86405197777d944abaa8
   languageName: node
   linkType: hard
 
@@ -10812,6 +10821,16 @@ __metadata:
     bplist-parser: "npm:^0.2.0"
     untildify: "npm:^4.0.0"
   checksum: 279c7ad492542e5556336b6c254a4eaf31b2c63a5433265655ae6e47301197b6cfb15c595a6fdc6463b2ff8e1a1a1ed3cba56038a60e1527ba4ab1628c6b9941
+  languageName: node
+  linkType: hard
+
+"default-browser-id@npm:4.0.0":
+  version: 4.0.0
+  resolution: "default-browser-id@npm:4.0.0"
+  dependencies:
+    bplist-parser: "npm:^0.3.2"
+    untildify: "npm:^5.0.0"
+  checksum: 5fc66c1e3e1451aeff096d0bec488493150dfe73709e99464dce3cfe43a106a77e57b1abf0377f9902fa23270acbb8d194a5afcc2276df2bc764f921fc9a3448
   languageName: node
   linkType: hard
 
@@ -23816,6 +23835,13 @@ __metadata:
   version: 4.0.0
   resolution: "untildify@npm:4.0.0"
   checksum: 39ced9c418a74f73f0a56e1ba4634b4d959422dff61f4c72a8e39f60b99380c1b45ed776fbaa0a4101b157e4310d873ad7d114e8534ca02609b4916bb4187fb9
+  languageName: node
+  linkType: hard
+
+"untildify@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "untildify@npm:5.0.0"
+  checksum: 188f49779f19e52780fa2fc278cb799ea7e6e399e9eeb0fbd6b399e8fcf720262a39aa5e6c7bc3e71223ea007d3569a4f5f8324dd3e5846a796d31e7fbc28116
   languageName: node
   linkType: hard
 

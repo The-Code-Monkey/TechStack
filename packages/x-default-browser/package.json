@@ -28,7 +28,7 @@
     "browser"
   ],
   "dependencies": {
-    "default-browser-id": "3.0.0"
+    "default-browser-id": "4.0.0"
   },
   "devDependencies": {
     "@techstack/tcm-cli": "workspace:*",
