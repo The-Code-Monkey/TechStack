@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.61](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.60...v1.2.61) (2023-08-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency default-browser-id to v4 ([aa481ed](https://github.com/The-Code-Monkey/TechStack/commit/aa481edde7658eb68325a1f321d3d2402b6b3cc8))
+
+
+
+
+
 ## [1.2.60](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.59...v1.2.60) (2023-08-31)
 
 
