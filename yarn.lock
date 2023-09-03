@@ -5298,7 +5298,7 @@ __metadata:
     react-date-picker: "npm:10.5.0"
     react-datetime-picker: "npm:5.5.1"
     react-dom: "npm:18.2.0"
-    react-i18next: "npm:13.2.1"
+    react-i18next: "npm:13.2.2"
     react-is: "npm:18.2.0"
     react-responsive-carousel: "npm:3.2.23"
     react-table: "npm:7.8.0"
@@ -20546,9 +20546,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-i18next@npm:13.2.1":
-  version: 13.2.1
-  resolution: "react-i18next@npm:13.2.1"
+"react-i18next@npm:13.2.2":
+  version: 13.2.2
+  resolution: "react-i18next@npm:13.2.2"
   dependencies:
     "@babel/runtime": "npm:^7.22.5"
     html-parse-stringify: "npm:^3.0.1"
@@ -20560,7 +20560,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 55c96a63aabcf2b2e48fd927e66da8e6404e4388e980ccaa1db33451d023e40b11ab45c00b468d93d5b858bee5fd6c7974c1ed791d788f091b34e9bf470e7de9
+  checksum: e85fedfd21b0d4561dbda31ba4eb65161780b41ee4a1d376c77b12d0bd95baf0bf9c796fd3d59eb319ae4519158b3652336ef1244c1239ab3cbc537bd0420f00
   languageName: node
   linkType: hard
 
