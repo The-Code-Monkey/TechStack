@@ -106,7 +106,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
     "@commitlint/config-conventional": "17.7.0",
-    "@types/color": "3.0.3",
+    "@types/color": "3.0.4",
     "@types/cssnano": "5.1.0",
     "@types/eslint": "8.44.2",
     "@types/figlet": "1.5.6",
