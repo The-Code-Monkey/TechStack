@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.66](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.65...v1.2.66) (2023-09-04)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.22.15 ([34cafd6](https://github.com/The-Code-Monkey/TechStack/commit/34cafd6dbd3c0d6ecd1a120abbcb99f8eb01e3f8))
+
+
+
+
+
 ## [1.2.65](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.64...v1.2.65) (2023-09-04)
 
 **Note:** Version bump only for package techstack
