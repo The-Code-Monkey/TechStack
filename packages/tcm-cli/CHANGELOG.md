@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.72](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.71...v1.2.72) (2023-09-08)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo ([5edbd28](https://github.com/The-Code-Monkey/TechStack/commit/5edbd28a8f8aa326154102eeec6aeb5a5d9d9f3f))
+
+
+
+
+
 ## [1.2.70](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.69...v1.2.70) (2023-09-06)
 
 **Note:** Version bump only for package @techstack/tcm-cli
