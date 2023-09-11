@@ -6015,7 +6015,7 @@ __metadata:
     regenerator-runtime: "npm:0.14.0"
     rollup: "npm:3.28.1"
     rollup-plugin-delete: "npm:2.0.0"
-    rollup-plugin-dts: "npm:6.0.1"
+    rollup-plugin-dts: "npm:6.0.2"
     rollup-plugin-typescript2: "npm:0.35.0"
     sade: "npm:1.8.1"
     semver: "npm:7.5.4"
@@ -21885,11 +21885,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-dts@npm:6.0.1":
-  version: 6.0.1
-  resolution: "rollup-plugin-dts@npm:6.0.1"
+"rollup-plugin-dts@npm:6.0.2":
+  version: 6.0.2
+  resolution: "rollup-plugin-dts@npm:6.0.2"
   dependencies:
-    "@babel/code-frame": "npm:^7.22.10"
+    "@babel/code-frame": "npm:^7.22.13"
     magic-string: "npm:^0.30.3"
   peerDependencies:
     rollup: ^3.25
@@ -21897,7 +21897,7 @@ __metadata:
   dependenciesMeta:
     "@babel/code-frame":
       optional: true
-  checksum: e7a82a3f66fc02906a33d50e44d623232aaa4cbf2c17d30a42944b116b7cb23e4bd9882c75a1ea70d845c71da157a9d8db5c720081311aa19d76f347347b7ece
+  checksum: f145f6feeeeaf3f2499c9a8edc891bc62f87d98b629facf01caeebabaa9122e2dd265918f781515f4257673a698677e2ac3a004250e0300731fefef382935114
   languageName: node
   linkType: hard
 
