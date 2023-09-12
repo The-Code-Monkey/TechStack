@@ -6089,7 +6089,7 @@ __metadata:
     react-dom: "npm:18.2.0"
     react-is: "npm:18.2.0"
     regenerator-runtime: "npm:0.14.0"
-    rollup: "npm:3.28.1"
+    rollup: "npm:3.29.1"
     rollup-plugin-delete: "npm:2.0.0"
     rollup-plugin-dts: "npm:6.0.2"
     rollup-plugin-typescript2: "npm:0.35.0"
@@ -22139,9 +22139,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:3.28.1":
-  version: 3.28.1
-  resolution: "rollup@npm:3.28.1"
+"rollup@npm:3.29.1":
+  version: 3.29.1
+  resolution: "rollup@npm:3.29.1"
   dependencies:
     fsevents: "npm:~2.3.2"
   dependenciesMeta:
@@ -22149,7 +22149,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: e64df31db426d11044510ec2b150a969b8752e3e68090ebfd528f6523ca8a8d5b31f754d3bc0a9c6ecec907128600358d383b2961a1791aecc5d44f908035b4c
+  checksum: 9a04803aa55b844d95458b48734ec4b7716e3cefdb2c08a4ccd71f55b83a9afb970e3c667d114fef08ae640e67f8d1928cf668ba8c30fe3df77a810d50e1b077
   languageName: node
   linkType: hard
 
