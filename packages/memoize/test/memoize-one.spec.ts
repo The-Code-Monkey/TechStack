@@ -1,4 +1,5 @@
 import { isEqual } from 'lodash';
+import { expect } from 'bun:test';
 
 import memoize, { EqualityFn } from '../src';
 /* eslint-disable @typescript-eslint/no-explicit-any */

@@ -4,28 +4,20 @@ exec("cd packages/tcm-cli && bun run build");
 exec("cd packages/theme && bun run build && rm -rf ./node_modules/.bin/orchard")
 exec("bun install");
 
-// Build Memoize
-console.log("Building Memoize...")
+const packages = ["font-picker", "memoize", "react-confirm-alert", "react-feather", 'react-lazy-named', 'react-textfit'];
 
-await Bun.build({
-    entrypoints: ['./packages/memoize/src/index.ts'],
-    outdir: './packages/memoize/dist/esm',
-    target: "browser",
-    format: "esm"
-});
+for (const index in packages) {
+    console.log(`Building ${packages[index]}...`);
 
-console.log("Memoize Built")
+    await Bun.build({
+        entrypoints: [`./packages/${packages[index]}/src/index.ts`],
+        outdir: `./packages/${packages[index]}/dist/esm`,
+        target: "browser",
+        format: "esm"
+    });
 
-console.log("Building Feather...")
-
-await Bun.build({
-    entrypoints: ['./packages/react-feather/src/index.ts'],
-    outdir: './packages/react-feather/dist/esm',
-    target: "browser",
-    format: "esm"
-});
-
-console.log("Feather Built")
+    console.log(`${packages[index]} Built`)
+}
 
 console.log("Building Components...");
 

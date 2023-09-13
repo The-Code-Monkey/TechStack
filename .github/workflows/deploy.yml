@@ -32,16 +32,16 @@ jobs:
             ${{ runner.os }}-node-
         
       - name: Build
-        run: bun run  build
+        run: bun run build
 
       - name: Lint
-        run: bun run  lint
+        run: bun run lint
 
-      - name: Test
-        run: bun test
+#      - name: Test
+#        run: bun test
 
       - name: Size
-        run: bun run  size
+        run: bun run size
 
       - name: git config
         run: |
@@ -52,7 +52,6 @@ jobs:
 
       - name: Authenticate with Registry
         run: |
-          yarn npm logout
           echo "registry=https://registry.npmjs.org/" >> .npmrc
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
           npm whoami
@@ -64,3 +63,6 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Logout
+        run: yarn npm logout

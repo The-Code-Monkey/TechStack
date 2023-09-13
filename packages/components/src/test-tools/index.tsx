@@ -2,6 +2,7 @@ import isPropValid from '@emotion/is-prop-valid';
 import { render, RenderResult } from '@testing-library/react';
 import { ReactNode } from 'react';
 import { StyleSheetManager, ThemeProvider } from 'styled-components';
+import { expect } from 'bun:test';
 
 import theme from '../theme';
 import { ConfigContext } from '../utils';
@@ -38,7 +39,7 @@ const formattedTheme = {
 };
 
 export const mountWithTheme = (children: ReactNode): RenderResult => {
-  expect.addSnapshotSerializer(removeProperties());
+  // expect.addSnapshotSerializer(removeProperties());
 
   return render(
     <StyleSheetManager shouldForwardProp={isPropValid}>

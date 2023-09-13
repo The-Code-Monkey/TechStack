@@ -23,7 +23,7 @@ jobs:
         run: bun install
 
       - name: Build
-        run: bun run  build
+        run: bun run build
 
       - name: Publish to Chromatic
         uses: chromaui/action@v1

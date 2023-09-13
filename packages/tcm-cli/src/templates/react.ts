@@ -20,7 +20,7 @@ const reactTemplate: Template = {
     },
     scripts: {
       ...basicTemplate.packageJson.scripts,
-      test: 'tcm test --passWithNoTests',
+      test: 'bun test --passWithNoTests',
     } as PackageJson['scripts'],
     jest: {
       testEnvironment: 'jsdom',

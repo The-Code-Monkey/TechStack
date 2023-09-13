@@ -26,7 +26,7 @@ const basicTemplate: Template = {
     scripts: {
       start: 'tcm watch',
       build: 'tcm build',
-      test: 'tcm test',
+      test: 'bun test',
       lint: 'tcm lint',
       prepare: 'tcm build',
       size: 'size-limit',

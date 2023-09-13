@@ -11,7 +11,7 @@
   },
   "typings": "dist/types/index.d.ts",
   "scripts": {
-    "test": "tcm test",
+    "test": "bun test",
     "lint": "tcm lint src test"
   },
   "files": [

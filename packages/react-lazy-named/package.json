@@ -27,7 +27,7 @@
     "lint": "tcm lint",
     "lint:fix": "bun run lint --fix",
     "build": "tcm build ",
-    "test": "tcm test"
+    "test": "bun test"
   },
   "publishConfig": {
     "access": "public"

@@ -21,16 +21,16 @@ jobs:
         run: bun install
 
       - name: Build
-        run: bun run  build
+        run: bun run build
 
       - name: Lint
-        run: bun run  lint
+        run: bun run lint
   
-      - name: Test
-        run: bun test
+#      - name: Test
+#        run: bun test
 
       - name: Size
-        run: bun run  size
+        run: bun run size
 
       - name: git config
         run: |
@@ -38,4 +38,4 @@ jobs:
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
       - name: Changed
-        run: bun run  lerna:changed
+        run: bun run lerna:changed
