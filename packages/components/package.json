@@ -105,7 +105,7 @@
     "react-is": "18.2.0",
     "sass": "1.66.1",
     "sass-loader": "13.3.2",
-    "size-limit": "8.2.6",
+    "size-limit": "9.0.0",
     "storybook": "7.4.1",
     "ts-jest": "29.1.1",
     "tslib": "2.6.2",
