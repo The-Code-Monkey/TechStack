@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import { createRequire } from 'module';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -11,8 +10,6 @@ import { ESLint } from 'eslint';
 import * as execa from 'execa';
 import figlet from 'figlet';
 import fs from 'fs-extra';
-import jest from 'jest';
-const { run: jestRun } = jest;
 import { concatAllArray } from 'jpjs';
 import ora from 'ora';
 import { OutputOptions, rollup, RollupOptions } from 'rollup';
@@ -22,12 +19,9 @@ import shell from 'shelljs';
 import sortPackageJson from 'sort-package-json';
 import glob from 'tiny-glob/sync.js';
 
-const require = createRequire(import.meta.url);
-
 import { paths } from './constants.js';
 import { createBuildConfigs } from './createBuildConfigs.js';
 import { createEslintConfig } from './createEslintConfig.js';
-import { createJestConfig } from './createJestConfig.js';
 import { createProgressEstimator } from './createProgressEstimator.js';
 import * as deprecated from './deprecated.js';
 import getInstallArgs from './getInstallArgs.js';
@@ -455,64 +449,6 @@ if (process.env.NODE_ENV === 'production') {
   const filename = numEntries === 1 ? 'index.js' : `${file}.js`;
   return fs.outputFile(path.join(paths.appDist, filename), contents);
 }
-
-prog
-  .command('test')
-  .describe('Run jest test runner. Passes through all flags directly to Jest')
-  .action(async (opts: { config?: string }) => {
-    // Do this as the first thing so that any code reading it knows the right env.
-    process.env.BABEL_ENV = 'test';
-    process.env.NODE_ENV = 'test';
-    // Makes the script crash on unhandled rejections instead of silently
-    // ignoring them. In the future, promise rejections that are not handled will
-    // terminate the Node.js process with a non-zero exit code.
-    process.on('unhandledRejection', err => {
-      throw err;
-    });
-
-    const argv = process.argv.slice(2);
-    let jestConfig = {
-      ...createJestConfig(
-        relativePath => path.resolve(__dirname, '..', relativePath),
-        opts.config ? path.dirname(opts.config) : paths.appRoot
-      ),
-      ...appPackageJson.jest,
-    };
-
-    // Allow overriding with jest.config
-    const defaultPathExists = await fs.pathExists(paths.jestConfig);
-    if (opts.config || defaultPathExists) {
-      const jestConfigPath = resolveApp(opts.config || paths.jestConfig);
-      const jestConfigContents = require(jestConfigPath);
-      jestConfig = { ...jestConfig, ...jestConfigContents };
-    }
-
-    // if custom path, delete the arg as it's already been merged
-    if (opts.config) {
-      let configIndex = argv.indexOf('--config');
-      if (configIndex !== -1) {
-        // case of "--config path", delete both args
-        argv.splice(configIndex, 2);
-      } else {
-        // case of "--config=path", only one arg to delete
-        const configRegex = /--config=.+/;
-        configIndex = argv.findIndex(arg => arg.match(configRegex));
-        if (configIndex !== -1) {
-          argv.splice(configIndex, 1);
-        }
-      }
-    }
-
-    argv.push(
-      '--config',
-      JSON.stringify({
-        ...jestConfig,
-      })
-    );
-
-    const [, ...argsToPassToJestCli] = argv;
-    jestRun(argsToPassToJestCli);
-  });
 
 prog
   .command('lint')

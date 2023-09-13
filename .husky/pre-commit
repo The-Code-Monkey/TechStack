@@ -1,12 +1,12 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn build
+bun run build
 
-yarn lint:fix
+bun run lint:fix
 
-yarn test:fix
+bun run test:fix
 
-yarn size
+bun run size
 
 git add .

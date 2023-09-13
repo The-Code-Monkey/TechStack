@@ -12,16 +12,15 @@
     "node": ">=18"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json && yarn copy",
-    "copy": "yarn copy:config && yarn copy:templates && yarn copy:theme && yarn copy:orchard && yarn copy:ts",
+    "build": "tsc -p tsconfig.json && bun run copy",
+    "copy": "bun run copy:config && bun run copy:templates && bun run copy:theme && bun run copy:orchard && bun run copy:ts",
     "copy:config": "cp ./src/config.json ./dist/esm/config.json",
     "copy:templates": "cp -r ./src/templates ./dist/esm",
     "copy:theme": "cp -r ./src/theme ./dist/esm",
     "copy:orchard": "cp ./orchard.theme.config.json ./dist/esm",
     "copy:ts": "cp -r ./ts ./dist/esm",
     "lint": "tcm lint src ts",
-    "test": "yarn generate && yarn generate -b partial",
-    "prepare": "yarn build",
+    "test": "bun run generate && bun run generate -b partial",
     "size": "size-limit",
     "generate": "node ./dist/esm/index.js generate"
   },

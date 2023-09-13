@@ -10,16 +10,13 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "bun run build.tsx",
     "clean": "git clean -xdf",
-    "test": "lerna run test --stream",
-    "test:fix": "lerna run test -- -u",
+    "test:fix": "bun test --fix",
     "lint": "lerna run lint --stream",
     "lint:fix": "lerna run lint -- --fix",
-    "lint:cms": "cd platforms/react-cms && yarn lint",
+    "lint:cms": "cd platforms/react-cms && bun run lint",
     "size": "lerna run size",
-    "build:tcm": "cd packages/tcm-cli && yarn build",
-    "build:theme": "cd packages/theme && yarn build",
-    "build": "lerna run build --stream",
     "lerna:link": "lerna link",
     "lerna:changed": "lerna changed",
     "lerna:version": "lerna version --conventional-commits --exact --yes",
@@ -28,7 +25,9 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "bun-types": "^1.0.1",
     "husky": "8.0.3",
+    "jest-resolve": "^29.7.0",
     "lerna": "7.2.0"
   },
   "packageManager": "yarn@3.6.3"

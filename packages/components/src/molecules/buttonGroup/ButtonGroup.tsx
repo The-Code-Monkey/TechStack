@@ -17,7 +17,7 @@ const ButtonGroup = ({ children, ...rest }: Props) => {
       overflow='hidden'
     >
       {children.map((child, index) => (
-        <Button key={index} {...child.props} {...rest}>
+        <Button {...child.props} {...rest} key={index}>
           {child.props.children}
         </Button>
       ))}

@@ -25,7 +25,7 @@
   "typings": "dist/types/index.d.ts",
   "scripts": {
     "lint": "tcm lint",
-    "lint:fix": "yarn lint --fix",
+    "lint:fix": "bun run lint --fix",
     "build": "tcm build ",
     "test": "tcm test"
   },

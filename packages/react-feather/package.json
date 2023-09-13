@@ -3,12 +3,11 @@
   "version": "1.2.85",
   "description": "React component for Feather icons",
   "type": "module",
-  "main": "./dist/index.js",
-  "module": "./dist/react-feather.esm.js",
+  "main": "./dist/esm/index.js",
+  "module": "./dist/esm/index.js",
   "exports": {
-    "import": "./dist/react-feather.esm.js",
-    "require": "./dist/index.js",
-    "default": "./dist/react-feather.esm.js"
+    "import": "./dist/esm/index.js",
+    "bun": "./src/index.ts"
   },
   "typings": "dist/types/index.d.ts",
   "files": [

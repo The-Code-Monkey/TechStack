@@ -3,18 +3,16 @@
   "version": "1.2.85",
   "description": "A memoization library which only remembers the latest invocation",
   "type": "module",
-  "module": "./dist/memoize.esm.js",
-  "main": "./dist/index.js",
+  "module": "./dist/esm/index.js",
+  "main": "./dist/esm/index.js",
   "exports": {
-    "import": "./dist/memoize.esm.js",
-    "require": "./dist/index.js",
-    "default": "./dist/memoize.esm.js"
+    "import": "./dist/esm/index.js",
+    "bun": "./src/index.ts"
   },
   "typings": "dist/types/index.d.ts",
   "scripts": {
     "test": "tcm test",
-    "lint": "tcm lint src test",
-    "build": "tcm build"
+    "lint": "tcm lint src test"
   },
   "files": [
     "dist",
