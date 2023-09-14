@@ -46,12 +46,12 @@
   },
   "size-limit": [
     {
-      "path": "dist/index.js",
+      "path": "dist/esm/index.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/components.esm.js",
-      "limit": "10 KB"
+      "path": "src/",
+      "limit": "40 KB"
     }
   ],
   "jest": {
