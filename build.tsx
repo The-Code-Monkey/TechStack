@@ -12,7 +12,8 @@ for (const index in packages) {
         entrypoints: [`./packages/${packages[index]}/src/index.ts`],
         outdir: `./packages/${packages[index]}/dist/esm`,
         target: "browser",
-        format: "esm"
+        format: "esm",
+        minify: true
     });
 
     exec(`cd packages/${packages[index]} && tsc -p ./tsconfig.json`)
@@ -28,7 +29,8 @@ await Bun.build({
     entrypoints: ['./packages/components/src/index.ts'],
     outdir: './packages/components/dist/esm',
     target: "browser",
-    format: "esm"
+    format: "esm",
+    minify: true
 });
 
 exec(`cd packages/components && tsc -p ./tsconfig.json`)
