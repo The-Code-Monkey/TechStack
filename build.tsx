@@ -1,6 +1,5 @@
 import { exec } from 'child_process';
 
-exec("cd packages/tcm-cli && bun run build");
 exec("cd packages/theme && bun run build && rm -rf ./node_modules/.bin/orchard")
 exec("bun install");
 

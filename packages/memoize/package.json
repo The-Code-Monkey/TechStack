@@ -39,7 +39,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "@techstack/tcm-cli": "workspace:*",
     "@types/jest": "29.5.4",
     "@typescript-eslint/eslint-plugin": "6.7.0",
     "@typescript-eslint/parser": "6.7.0",
