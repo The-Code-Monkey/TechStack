@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "emitDeclarationOnly": true,
+    "emitDeclarationOnly": false,
     "lib": ["ESNext"],
     "module": "esnext",
     "target": "esnext",

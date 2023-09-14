@@ -27,10 +27,6 @@
   "devDependencies": {
     "bun-types": "^1.0.1",
     "husky": "8.0.3",
-    "jest-resolve": "^29.7.0",
     "lerna": "7.2.0"
-  },
-  "dependencies": {
-    "@techstack/styled-system": "1.0.123"
   }
 }
