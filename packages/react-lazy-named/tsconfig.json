@@ -9,6 +9,7 @@
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "emitDeclarationOnly": true,
     "module": "ESNext",
     "target": "ESNext",
     "moduleResolution": "Node",

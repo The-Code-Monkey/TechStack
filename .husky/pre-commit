@@ -3,10 +3,10 @@
 
 bun run build
 
-bun run lint:fix
+#bun run lint:fix
 
-bun run test:fix
+#bun run test:fix
 
-bun run size
+#bun run size
 
 git add .

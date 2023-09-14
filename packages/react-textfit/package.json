@@ -13,12 +13,11 @@
   "engines": {
     "node": ">=18"
   },
-  "main": "./dist/index.js",
-  "module": "./dist/react-textfit.esm.js",
+  "main": "./dist/esm/index.js",
+  "module": "./dist/esm/index.js",
   "exports": {
-    "import": "./dist/react-textfit.esm.js",
-    "require": "./dist/react-textfix.cjs.production.min.js",
-    "default": "./dist/react-textfit.esm.js"
+    "import": "./dist/esm/index.js",
+    "bun": "./src/index.ts"
   },
   "typings": "dist/types/index.d.ts",
   "scripts": {

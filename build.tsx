@@ -15,6 +15,8 @@ for (const index in packages) {
         format: "esm"
     });
 
+    exec(`cd packages/${packages[index]} && tsc -p ./tsconfig.json`)
+
     console.log(`${packages[index]} Built`)
 }
 
@@ -28,6 +30,8 @@ await Bun.build({
     target: "browser",
     format: "esm"
 });
+
+exec(`cd packages/components && tsc -p ./tsconfig.json`)
 
 console.log("Components Built")
 

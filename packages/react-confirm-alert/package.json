@@ -19,10 +19,6 @@
     "dist",
     "src"
   ],
-  "scripts": {
-    "lint": "tcm lint",
-    "build": "tcm build"
-  },
   "license": "MIT",
   "dependencies": {
     "react": "18.2.0",
