@@ -25,7 +25,7 @@
   "typings": "dist/types/index.d.ts",
   "scripts": {
     "lint": "tcm lint",
-    "lint:fix": "yarn lint --fix",
+    "lint:fix": "bun run lint --fix",
     "build": "tcm build ",
     "test": "tcm test"
   },
@@ -45,7 +45,7 @@
     "rerender"
   ],
   "devDependencies": {
-    "@techstack/tcm-cli": "workspace:*",
+    "@techstack/tcm-cli": "1.2.85",
     "@testing-library/react": "14.0.0",
     "@types/jest": "29.5.4",
     "@types/react": "18.2.21",
