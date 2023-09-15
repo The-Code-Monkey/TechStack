@@ -1,5 +1,5 @@
 {
-  "name": "techstack",
+  "name": "bunstack",
   "description": "A collection of self built packages plus some forks for web development",
   "version": "1.0.12",
   "main": "index.js",
@@ -26,6 +26,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@happy-dom/global-registrator": "^11.2.0",
     "husky": "8.0.3",
     "lerna": "7.2.0"
   },

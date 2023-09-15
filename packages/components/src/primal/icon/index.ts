@@ -1,4 +1,6 @@
-import Icon, { Props as IconProps } from './Icon';
+import Icon from './Icon';
+import type { Props as IconProps } from './Icon'
 
-export { Icon, IconProps };
+export { Icon };
+export type { IconProps };
 export default Icon;

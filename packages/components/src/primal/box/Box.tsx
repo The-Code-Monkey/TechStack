@@ -8,13 +8,14 @@ import {
   FlexboxProps,
   PseudoProps,
   TransitionProps,
-} from '@techstack/styled-system';
+} from '@bunstack/styled-system';
 import { Property } from 'csstype';
 import { ElementType, ReactNode } from 'react';
 
 import { generateAutomationId } from '../../utils';
 
 import { StyledBox } from './styled';
+import React from 'react';
 
 export interface Props
   extends SpaceProps,

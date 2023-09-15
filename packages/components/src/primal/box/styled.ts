@@ -12,10 +12,10 @@ import {
   defaultStyles,
   pseudo,
   transition,
-} from '@techstack/styled-system';
+} from '@bunstack/styled-system';
 
 import { shouldForwardProp } from '../../utils';
-import { default as styled } from '../../workarounds/styled-components';
+import styled from 'styled-components';
 
 const utilProps = system({
   visibility: {

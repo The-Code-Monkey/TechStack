@@ -1,6 +1,6 @@
 import { helpcircle as DefaultIcon, IconProps } from '@techstack/react-feather';
 import type { IconTypes } from '@techstack/react-feather';
-import { ResponsiveValue, TLengthStyledSystem } from '@techstack/styled-system';
+import { ResponsiveValue, TLengthStyledSystem } from '@bunstack/styled-system';
 import { Property } from 'csstype';
 import * as React from 'react';
 const { memo, Suspense, lazy } = React;

@@ -1,5 +1,6 @@
 import { mountWithTheme } from '../../../test-tools';
-import { Input } from '../index';
+import { Input } from '../Input';
+import { describe, it, expect } from "bun:test";
 
 describe('<Input />', () => {
   it('renders correctly', () => {

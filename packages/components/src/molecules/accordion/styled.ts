@@ -1,5 +1,5 @@
 import { StyledBox, Box } from '../../primal';
-import { default as styled } from '../../workarounds/styled-components';
+import styled from 'styled-components';
 
 export const StyledAccordion = styled(Box)<{
   open: boolean;

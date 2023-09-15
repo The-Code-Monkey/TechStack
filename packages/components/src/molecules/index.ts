@@ -1,3 +1,3 @@
-export * from './accordion';
-export * from './buttonGroup';
-export * from './carousel';
+export { Accordion, AccordionProps } from './accordion';
+export { ButtonGroup, ButtonGroupProps } from './buttonGroup';
+export { Carousel, CarouselProps } from './carousel';

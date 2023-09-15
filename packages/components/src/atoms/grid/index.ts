@@ -1,5 +1,5 @@
-import Cell, { Props as CellProps } from './Cell';
-import Grid, { Props as GridProps } from './Grid';
+import Cell, { type Props as CellProps } from './Cell';
+import Grid, { type Props as GridProps } from './Grid';
 
-export { Grid, Cell, GridProps, CellProps };
+export { Grid, Cell, type GridProps, type CellProps };
 export default Grid;

@@ -1,4 +1,4 @@
-import { GridProps } from '@techstack/styled-system';
+import { GridProps } from '@bunstack/styled-system';
 
 type GetTemplateReturnType =
   | Array<string | null>

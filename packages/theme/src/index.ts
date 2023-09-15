@@ -87,7 +87,7 @@ export default tokens;
   if ((output as RecordNestedObject).breakpoints) {
     const minified = minifyDictionary(
       (output as RecordNestedObject).breakpoints
-    );
+    ) as Record<string, string>;
 
     return `const tokens = ${JSON.stringify(
       {

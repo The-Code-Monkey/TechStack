@@ -1,4 +1,4 @@
-import Divider, { Props as DividerProps } from './divider';
+import Divider, { type Props as DividerProps } from './divider';
 
-export { Divider, DividerProps };
+export { Divider, type DividerProps };
 export default Divider;

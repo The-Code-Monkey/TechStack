@@ -1,10 +1,11 @@
-import { GridProps } from '@techstack/styled-system';
+import { GridProps } from '@bunstack/styled-system';
 import { useMemo } from 'react';
 
-import { BoxProps } from '../../primal';
+import type { BoxProps } from '../../primal';
 
 import { StyledGrid } from './styled';
 import { getTemplate } from './utils';
+import React from 'react';
 
 export interface Props extends BoxProps, GridProps {
   columns: GridProps['gridTemplateColumns'];

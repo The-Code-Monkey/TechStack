@@ -1,4 +1,4 @@
-import { default as styled } from '../../workarounds/styled-components';
+import styled from 'styled-components';
 
 export const StyledDiv = styled.div<{ direction: 'row' | 'column' }>`
   display: flex;

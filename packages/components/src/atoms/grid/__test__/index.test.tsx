@@ -1,5 +1,7 @@
+import React from 'react';
 import { mountWithTheme } from '../../../test-tools';
 import { Grid, Cell } from '../index';
+import { expect, describe, it } from "bun:test";
 
 describe('<Grid />', () => {
   it('renders correctly', () => {

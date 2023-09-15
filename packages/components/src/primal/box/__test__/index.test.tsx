@@ -1,5 +1,7 @@
+import React from 'react';
 import { mountWithTheme } from '../../../test-tools';
 import { Box } from '../Box';
+import { describe, it, expect } from "bun:test";
 
 describe('<Box />', () => {
   it('renders children correctly', () => {

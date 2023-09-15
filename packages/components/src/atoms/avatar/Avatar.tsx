@@ -1,5 +1,5 @@
 import { IconTypes } from '@techstack/react-feather';
-import { get, TypographyProps } from '@techstack/styled-system';
+import { get, TypographyProps } from '@bunstack/styled-system';
 import { memo, useContext, useMemo } from 'react';
 import { ThemeContext } from 'styled-components';
 

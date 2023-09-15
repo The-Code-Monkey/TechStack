@@ -23,7 +23,6 @@
   },
   "scripts": {
     "start": "tcm watch",
-    "build": "bun run build:tokens && tcm build",
     "build:tokens": "orchard generate",
     "test": "bun run build:tokens && tcm test",
     "lint": "bun run build:tokens && tcm lint",
@@ -34,7 +33,7 @@
     "release": "bun run lint && bun run build && release-it --ci --npm.access=public",
     "chromatic": "npx chromatic"
   },
-  "name": "@techstack/components",
+  "name": "@bunstack/components",
   "author": "The-Code-Monkey",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/components/README.md",
   "repository": {
@@ -63,6 +62,7 @@
     }
   },
   "devDependencies": {
+    "@bunstack/theme": "workspace:*",
     "@babel/core": "7.22.17",
     "@babel/preset-env": "7.22.15",
     "@babel/preset-react": "7.22.15",
@@ -79,7 +79,6 @@
     "@storybook/react": "7.4.1",
     "@storybook/react-webpack5": "7.4.1",
     "@storybook/testing-library": "0.2.0",
-    "@techstack/tcm-cli": "1.2.85",
     "@testing-library/react": "14.0.0",
     "@tsconfig/create-react-app": "2.0.1",
     "@tsconfig/recommended": "1.0.2",
@@ -89,6 +88,7 @@
     "@types/react-dom": "18.2.7",
     "@typescript-eslint/eslint-plugin": "6.7.0",
     "@typescript-eslint/parser": "6.7.0",
+    "bun-types": "1.0.1",
     "chromatic": "7.1.0",
     "cross-env": "7.0.3",
     "eslint": "8.49.0",
@@ -115,11 +115,10 @@
   "dependencies": {
     "@emotion/is-prop-valid": "1.2.1",
     "@tanstack/react-table": "8.9.8",
-    "@techstack/memoize": "workspace:*",
-    "@techstack/react-feather": "workspace:*",
-    "@techstack/react-lazy-named": "workspace:*",
+    "@techstack/memoize": "1.2.85",
+    "@techstack/react-feather": "1.2.85",
+    "@techstack/react-lazy-named": "1.2.85",
     "@bunstack/styled-system": "1.1.2",
-    "@techstack/theme": "workspace:*",
     "@types/react-table": "7.7.15",
     "classnames": "2.3.2",
     "csstype": "3.1.2",

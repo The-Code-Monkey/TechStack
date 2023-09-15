@@ -7,16 +7,16 @@ import {
 } from 'react';
 import { ThemeContext } from 'styled-components';
 
-import { BoxProps } from '../../primal';
+import { type BoxProps } from '../../primal';
 import { DefaultThemeWithDefaultStyles } from '../../utils';
 
 import { Checkbox } from './checkbox';
 import { StyledInput, StyledTextArea } from './styled';
-import { InputPropsUnion } from './types';
+import { type InputPropsUnion } from './types';
 
 export type Props = BoxProps & InputPropsUnion;
 
-const Input = ({ onChange, type, value, name, ...rest }: Props) => {
+export const Input = ({ onChange, type, value, name, ...rest }: Props) => {
   const theme = useContext<DefaultThemeWithDefaultStyles>(ThemeContext);
   const [v, setValue] = useState<string | number | undefined | unknown>(value);
 

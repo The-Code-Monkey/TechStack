@@ -1,4 +1,4 @@
-import Table, { Props as TableProps } from './Table';
+import Table, { type Props as TableProps } from './Table';
 
-export { Table, TableProps };
+export { Table, type TableProps };
 export default Table;

@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import * as React from 'react';
+import { expect, describe, it } from "bun:test";
 
 import lazy from './';
 
@@ -13,7 +14,7 @@ function Text(props: Props) {
   return <>{props.text}</>;
 }
 
-async function fakeImport(result) {
+async function fakeImport(result: any) {
   return { test: result };
 }
 
@@ -21,7 +22,7 @@ describe('useWhyChange', () => {
   it('stays quiet if updates never happen', async () => {
     const LazyText = await lazy(() => fakeImport(Text), 'test');
 
-    const { asFragment } = render(
+    const { asFragment, container } = render(
       <Suspense fallback={<Text text='Loading...' />}>
         <LazyText text='hi' />
       </Suspense>
