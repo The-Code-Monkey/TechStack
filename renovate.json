@@ -10,7 +10,7 @@
   ],
   "rangeStrategy": "pin",
   "automergeStrategy": "squash",
-  "automerge": false,
+  "automerge": true,
   "prConcurrentLimit": 1,
   "labels": ["dependencies"],
   "vulnerabilityAlerts": {
