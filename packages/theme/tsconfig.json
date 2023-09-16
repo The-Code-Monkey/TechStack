@@ -1,5 +1,4 @@
 {
-  "extends": "../../tsconfig.json",
   "include": ["src", "types"],
   "compilerOptions": {
     "module": "ESNext",
@@ -11,10 +10,7 @@
     "declaration": true,
     "noUnusedLocals": true,
     "skipLibCheck": true,
-    "noEmit": false,
-    "emitDeclarationOnly": false,
     "allowSyntheticDefaultImports": true,
-    "allowImportingTsExtensions": false,
     "esModuleInterop": true,
     "rootDir": "src",
     "outDir": "./dist/esm",
