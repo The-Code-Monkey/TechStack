@@ -1,6 +1,6 @@
 import isPropValid from '@emotion/is-prop-valid';
 import { render, RenderResult } from '@testing-library/react';
-import { ReactNode } from 'react';
+import {ReactElement} from 'react';
 import { StyleSheetManager, ThemeProvider } from 'styled-components';
 import { expect } from "bun:test"
 
@@ -38,16 +38,24 @@ const formattedTheme = {
   },
 };
 
-export const mountWithTheme = (children: ReactNode): RenderResult => {
+const wrapper = ({ children }) => {
+  return (
+      <StyleSheetManager shouldForwardProp={isPropValid}>
+        <ConfigContext.Provider value={config}>
+          <ThemeProvider theme={formattedTheme}>
+            {children}
+          </ThemeProvider>
+        </ConfigContext.Provider>
+      </StyleSheetManager>
+  )
+}
+
+export const mountWithTheme = (children: ReactElement): RenderResult => {
   // expect.addSnapshotSerializer(removeProperties());
 
   return render(
-    <StyleSheetManager shouldForwardProp={isPropValid}>
-      <ConfigContext.Provider value={config}>
-        <ThemeProvider theme={formattedTheme}>
-          <>{children}</>
-        </ThemeProvider>
-      </ConfigContext.Provider>
-    </StyleSheetManager>
-  );
+      children
+  , {
+    wrapper
+      });
 };
