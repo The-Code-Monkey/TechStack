@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.96](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.95...v1.2.96) (2023-09-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup to v3.29.2 ([aa92cc4](https://github.com/The-Code-Monkey/TechStack/commit/aa92cc4242928424a808aff8285389923681eb8e))
+
+
+
+
+
 ## [1.2.95](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.94...v1.2.95) (2023-09-16)
 
 
