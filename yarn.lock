@@ -5789,7 +5789,7 @@ __metadata:
     "@techstack/theme": "workspace:*"
     "@testing-library/react": "npm:14.0.0"
     "@tsconfig/create-react-app": "npm:2.0.1"
-    "@tsconfig/recommended": "npm:1.0.2"
+    "@tsconfig/recommended": "npm:1.0.3"
     "@types/jest": "npm:29.5.4"
     "@types/node": "npm:^20.5.6"
     "@types/react": "npm:18.2.21"
@@ -6110,7 +6110,7 @@ __metadata:
   dependencies:
     "@size-limit/file": "npm:9.0.0"
     "@techstack/tcm-cli": "workspace:*"
-    "@tsconfig/recommended": "npm:1.0.2"
+    "@tsconfig/recommended": "npm:1.0.3"
     "@types/fs-extra": "npm:11.0.2"
     "@types/lodash": "npm:4.14.198"
     "@types/lodash-es": "npm:4.17.9"
@@ -6302,10 +6302,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/recommended@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@tsconfig/recommended@npm:1.0.2"
-  checksum: 0dbd8b6bd7465c3e458912a58b344797a94c72ca7f61d822c460652b9addd64c80bc4041b9f2307d5442fa5feb10ec0a1f0890773b0822ad339dca775eb52231
+"@tsconfig/recommended@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@tsconfig/recommended@npm:1.0.3"
+  checksum: 2744d2798d52d337a7b0b78f6efa070ecda4e42262e93589d4bed615a55639a84035a8e3b2b020f2396f1f7832294b8c00d7acc78e644418566447ca53df9078
   languageName: node
   linkType: hard
 
