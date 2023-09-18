@@ -1,19 +1,31 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Bun Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Input /> checkbox renders correctly 1`] = `
-<DocumentFragment>
-  <div
-    class="sc-bcPKhP iWuYJp sc-dkjKgF cdYPWg"
-    data-checked="false"
-    data-indeterminate="false"
-    data-testid="checkbox"
+exports[`<Input /> renders correctly 1`] = `
+"<DocumentFragment>
+  <input
+    class="sc-eDnVMP WxYsq"
+    cursor="pointer"
     name="test"
+    placeholder="Placeholder"
+    width="100%"
   />
-</DocumentFragment>
+</DocumentFragment>"
+`;
+
+exports[`<Input /> textarea renders correctly 1`] = `
+"<DocumentFragment>
+  <textarea
+    class="sc-jSwlEQ QOvXL"
+    cursor="pointer"
+    name="test"
+    placeholder="Placeholder"
+    width="100%"
+  />
+</DocumentFragment>"
 `;
 
 exports[`<Input /> email renders correctly 1`] = `
-<DocumentFragment>
+"<DocumentFragment>
   <input
     class="sc-eDnVMP WxYsq"
     cursor="pointer"
@@ -22,23 +34,11 @@ exports[`<Input /> email renders correctly 1`] = `
     type="email"
     width="100%"
   />
-</DocumentFragment>
-`;
-
-exports[`<Input /> renders correctly 1`] = `
-<DocumentFragment>
-  <input
-    class="sc-eDnVMP WxYsq"
-    cursor="pointer"
-    name="test"
-    placeholder="Placeholder"
-    width="100%"
-  />
-</DocumentFragment>
+</DocumentFragment>"
 `;
 
 exports[`<Input /> renders correctly 2`] = `
-<DocumentFragment>
+"<DocumentFragment>
   <input
     class="sc-eDnVMP WxYsq"
     cursor="pointer"
@@ -47,17 +47,17 @@ exports[`<Input /> renders correctly 2`] = `
     type="password"
     width="100%"
   />
-</DocumentFragment>
+</DocumentFragment>"
 `;
 
-exports[`<Input /> textarea renders correctly 1`] = `
-<DocumentFragment>
-  <textarea
-    class="sc-jSwlEQ QOvXL"
-    cursor="pointer"
+exports[`<Input /> checkbox renders correctly 1`] = `
+"<DocumentFragment>
+  <div
+    class="sc-bcPKhP iWuYJp sc-dkjKgF cdYPWg"
+    data-checked="false"
+    data-indeterminate="false"
+    data-testid="checkbox"
     name="test"
-    placeholder="Placeholder"
-    width="100%"
   />
-</DocumentFragment>
+</DocumentFragment>"
 `;

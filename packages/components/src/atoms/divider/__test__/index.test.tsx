@@ -1,3 +1,5 @@
+import { expect, describe, it } from "bun:test";
+
 import { mountWithTheme } from '../../../test-tools';
 import { Divider } from '../index';
 

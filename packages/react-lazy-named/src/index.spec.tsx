@@ -1,8 +1,27 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen} from '@testing-library/react';
 import * as React from 'react';
 import { expect, describe, it } from "bun:test";
+import { format as prettyFormat, plugins as prettyFormatPlugins, } from "pretty-format";
 
 import lazy from './';
+
+const {
+  DOMCollection,
+  DOMElement,
+  Immutable,
+  ReactElement,
+  ReactTestComponent,
+  AsymmetricMatcher,
+} = prettyFormatPlugins;
+
+let PLUGINS = [
+  ReactTestComponent,
+  ReactElement,
+  DOMElement,
+  DOMCollection,
+  Immutable,
+  AsymmetricMatcher,
+];
 
 const { Suspense } = React;
 
@@ -28,10 +47,20 @@ describe('useWhyChange', () => {
       </Suspense>
     );
 
-    expect(asFragment()).toMatchSnapshot();
+    expect(prettyFormat(asFragment(), {
+      escapeRegex: true,
+      indent: 2,
+      plugins: PLUGINS,
+      printFunctionName: false
+    })).toMatchSnapshot();
 
     await screen.findByText('hi');
 
-    expect(asFragment()).toMatchSnapshot();
+    expect(prettyFormat(asFragment(), {
+      escapeRegex: true,
+      indent: 2,
+      plugins: PLUGINS,
+      printFunctionName: false
+    })).toMatchSnapshot();
   });
 });

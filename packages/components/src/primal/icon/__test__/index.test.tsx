@@ -1,4 +1,5 @@
 import { screen, waitFor, act } from '@testing-library/react';
+import { expect, describe, it } from "bun:test";
 
 import { mountWithTheme } from '../../../test-tools';
 import { Icon } from '../index';

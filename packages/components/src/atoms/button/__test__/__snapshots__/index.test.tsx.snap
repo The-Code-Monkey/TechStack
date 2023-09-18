@@ -1,9 +1,9 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Bun Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Button /> renders default correctly 1`] = `
-<DocumentFragment>
+"<DocumentFragment>
   <button
-    class="sc-dkjKgF cdYPWg sc-eDnVMP glnvjS"
+    class="sc-dkjKgF cdYPWg sc-gKHVLF leqWQe"
     data-testid=""
     type="button"
   >
@@ -14,13 +14,47 @@ exports[`<Button /> renders default correctly 1`] = `
       Default
     </span>
   </button>
-</DocumentFragment>
+</DocumentFragment>"
+`;
+
+exports[`<Button /> renders primary correctly 1`] = `
+"<DocumentFragment>
+  <button
+    class="sc-dkjKgF cdYPWg sc-gKHVLF kblfXz"
+    data-testid=""
+    type="button"
+  >
+    <span
+      class="sc-hLclGa frsRHG"
+      data-testid=""
+    >
+      Primary
+    </span>
+  </button>
+</DocumentFragment>"
+`;
+
+exports[`<Button /> renders secondary correctly 1`] = `
+"<DocumentFragment>
+  <button
+    class="sc-dkjKgF cdYPWg sc-gKHVLF kwBQpZ"
+    data-testid=""
+    type="button"
+  >
+    <span
+      class="sc-hLclGa frsRHG"
+      data-testid=""
+    >
+      Secondary
+    </span>
+  </button>
+</DocumentFragment>"
 `;
 
 exports[`<Button /> renders icon correctly 1`] = `
-<DocumentFragment>
+"<DocumentFragment>
   <button
-    class="sc-dkjKgF cdYPWg sc-eDnVMP glnvjS"
+    class="sc-dkjKgF cdYPWg sc-gKHVLF leqWQe"
     data-testid=""
     type="button"
   >
@@ -52,13 +86,13 @@ exports[`<Button /> renders icon correctly 1`] = `
       Secondary
     </span>
   </button>
-</DocumentFragment>
+</DocumentFragment>"
 `;
 
 exports[`<Button /> renders icon only correctly 1`] = `
-<DocumentFragment>
+"<DocumentFragment>
   <button
-    class="sc-dkjKgF cdYPWg sc-eDnVMP glnvjS"
+    class="sc-dkjKgF cdYPWg sc-gKHVLF leqWQe"
     data-testid=""
     type="button"
   >
@@ -88,39 +122,5 @@ exports[`<Button /> renders icon only correctly 1`] = `
       data-testid=""
     />
   </button>
-</DocumentFragment>
-`;
-
-exports[`<Button /> renders primary correctly 1`] = `
-<DocumentFragment>
-  <button
-    class="sc-dkjKgF cdYPWg sc-eDnVMP ceFfSb"
-    data-testid=""
-    type="button"
-  >
-    <span
-      class="sc-hLclGa frsRHG"
-      data-testid=""
-    >
-      Primary
-    </span>
-  </button>
-</DocumentFragment>
-`;
-
-exports[`<Button /> renders secondary correctly 1`] = `
-<DocumentFragment>
-  <button
-    class="sc-dkjKgF cdYPWg sc-eDnVMP gguJYR"
-    data-testid=""
-    type="button"
-  >
-    <span
-      class="sc-hLclGa frsRHG"
-      data-testid=""
-    >
-      Secondary
-    </span>
-  </button>
-</DocumentFragment>
+</DocumentFragment>"
 `;
