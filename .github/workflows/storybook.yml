@@ -8,7 +8,6 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node: ['20.x']
         os: [ubuntu-latest]
 
     steps:
@@ -17,16 +16,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Use Node ${{ matrix.node }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node }}
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
 
       - name: Install deps
-        uses: bahmutov/npm-install@v1
+        run: bun install
 
       - name: Build
-        run: yarn build
+        run: bun run build
 
       - name: Publish to Chromatic
         uses: chromaui/action@v1
