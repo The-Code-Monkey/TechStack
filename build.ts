@@ -1,10 +1,16 @@
-import { exec } from "child_process";
 
-exec("cd packages/theme && bun run build")
+const buildTheme = Bun.spawn(["bun", "run build"], {
+    cwd: "./packages/theme"
+})
+await buildTheme.exited;
 
-exec("bun install")
+const buildTokens = Bun.spawn(["bun run build:tokens"], {
+    cwd: "./packages/components"
+})
+await buildTokens.exited;
 
-exec("cd packages/components && bun run build:tokens")
+
+// exec("cd packages/components && bun run build:tokens")
 
 const build = await Bun.build({
     entrypoints: ["./packages/components/src/index.ts"],
@@ -12,5 +18,3 @@ const build = await Bun.build({
     target: "browser",
     format: "esm"
 })
-
-if (build.success) exec("cd packages/components && tsc")
