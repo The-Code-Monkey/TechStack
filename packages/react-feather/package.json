@@ -7,12 +7,12 @@
   "module": "./dist/react-feather.esm.js",
   "exports": {
     "import": {
-      "default": "./dist/react-feather.esm.js",
-      "types": "./dist/types/index.d.ts"
+      "types": "./dist/types/index.d.ts",
+      "default": "./dist/react-feather.esm.js"
     },
     "require": {
-      "default": "./dist/index.js",
-      "types": "./dist/types/index.d.ts"
+      "types": "./dist/types/index.d.ts",
+      "default": "./dist/index.js"
     }
   },
   "types": "dist/types/index.d.ts",
