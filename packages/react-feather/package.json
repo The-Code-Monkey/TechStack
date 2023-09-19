@@ -6,11 +6,16 @@
   "main": "./dist/index.js",
   "module": "./dist/react-feather.esm.js",
   "exports": {
-    "import": "./dist/react-feather.esm.js",
-    "require": "./dist/index.js",
-    "default": "./dist/react-feather.esm.js"
+    "import": {
+      "default": "./dist/react-feather.esm.js",
+      "types": "./dist/types/index.d.ts"
+    },
+    "require": {
+      "default": "./dist/index.js",
+      "types": "./dist/types/index.d.ts"
+    }
   },
-  "typings": "dist/types/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist",
     "src"
