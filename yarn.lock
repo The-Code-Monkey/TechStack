@@ -5761,22 +5761,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-table@npm:8.10.0":
-  version: 8.10.0
-  resolution: "@tanstack/react-table@npm:8.10.0"
+"@tanstack/react-table@npm:8.10.1":
+  version: 8.10.1
+  resolution: "@tanstack/react-table@npm:8.10.1"
   dependencies:
-    "@tanstack/table-core": "npm:8.10.0"
+    "@tanstack/table-core": "npm:8.10.1"
   peerDependencies:
     react: ">=16"
     react-dom: ">=16"
-  checksum: 29eb0b03fcae564d55bc4a9c3d02cc921749974cf133c38a7fb9b647210680decab066a74d88081cde67b3547fc9769be9bf02c81d9db81e7d4654dd8734690a
+  checksum: 8972ad4641c94b7417b7f762894d03a79390193827ed9d58142792408fa8adf203546cc6b796caef5a02558849c084341cb670e153cefe08302ad2a60ebe7749
   languageName: node
   linkType: hard
 
-"@tanstack/table-core@npm:8.10.0":
-  version: 8.10.0
-  resolution: "@tanstack/table-core@npm:8.10.0"
-  checksum: efca607cbeb45fd17fd783bdc2e6f2a8eb1eacdcd6ab24bfe8d2bfb6b356a8a9c937c57aec4d78ab511789964972eabc0d37589129a1be922fcfa8653cae7cc2
+"@tanstack/table-core@npm:8.10.1":
+  version: 8.10.1
+  resolution: "@tanstack/table-core@npm:8.10.1"
+  checksum: 8fd1154834f8738021bafe2f95502d5bc34073e82ce9767e21411b956533d7410417cbe756b9acd3959c03159571d53fb7df227c9d57720c965b835370fbe597
   languageName: node
   linkType: hard
 
@@ -5801,7 +5801,7 @@ __metadata:
     "@storybook/react": "npm:7.4.3"
     "@storybook/react-webpack5": "npm:7.4.3"
     "@storybook/testing-library": "npm:0.2.1"
-    "@tanstack/react-table": "npm:8.10.0"
+    "@tanstack/react-table": "npm:8.10.1"
     "@techstack/memoize": "workspace:*"
     "@techstack/react-feather": "workspace:*"
     "@techstack/react-lazy-named": "workspace:*"
