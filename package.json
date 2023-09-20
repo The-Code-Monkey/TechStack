@@ -31,5 +31,5 @@
     "husky": "8.0.3",
     "lerna": "7.2.0"
   },
-  "packageManager": "yarn@4.0.0-rc.50"
+  "packageManager": "yarn@4.0.0-rc.51"
 }
