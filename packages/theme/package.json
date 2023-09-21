@@ -21,7 +21,6 @@
     "copy:ts": "cp -r ./ts ./dist/esm",
     "lint": "tcm lint src ts",
     "test": "bun run generate && bun run generate -b partial",
-    "prepare": "bun run build",
     "size": "size-limit",
     "generate": "node ./dist/esm/index.js generate"
   },
