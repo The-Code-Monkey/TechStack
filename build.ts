@@ -1,13 +1,12 @@
 
-const buildTheme = Bun.spawn(["bun", "run build"], {
+const buildTheme = Bun.spawn(["bun", "run", "build"], {
     cwd: "./packages/theme"
 })
 await buildTheme.exited;
 
-const buildTokens = Bun.spawn(["bun run build:tokens"], {
+const buildTokens = Bun.spawn(["bun", "run", "build:tokens"], {
     cwd: "./packages/components"
 })
-await buildTokens.exited;
 
 
 // exec("cd packages/components && bun run build:tokens")
