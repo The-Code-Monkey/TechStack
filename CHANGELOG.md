@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.108](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.107...v1.2.108) (2023-09-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @tanstack/react-table to v8.10.1 ([#1837](https://github.com/The-Code-Monkey/TechStack/issues/1837)) ([37da05a](https://github.com/The-Code-Monkey/TechStack/commit/37da05ab05ee85b37147ee3b62d8dc345a3a0305))
+* **deps:** update dependency @techstack/styled-system to v1.0.207 ([#1838](https://github.com/The-Code-Monkey/TechStack/issues/1838)) ([cca47e8](https://github.com/The-Code-Monkey/TechStack/commit/cca47e88688be0dbc5679a0bac5643d637bef860))
+
+
+
+
+
 ## [1.2.107](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.106...v1.2.107) (2023-09-19)
 
 
