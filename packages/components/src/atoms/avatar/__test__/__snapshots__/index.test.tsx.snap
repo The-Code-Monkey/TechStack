@@ -3,11 +3,11 @@
 exports[`<Avatar /> renders icon correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bcPKhP kAQhvQ"
+    class="sc-beyTiQ bbYzSJ"
     data-testid="avatar"
   >
     <div
-      class="sc-bcPKhP fxhcog sc-grXZZQ cbcKvp"
+      class="sc-beyTiQ dahpyZ sc-guDMob gFerhA"
       data-testid="box"
     >
       <svg
@@ -34,7 +34,7 @@ exports[`<Avatar /> renders icon correctly 1`] = `
 exports[`<Avatar /> renders img correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bcPKhP kAQhvQ"
+    class="sc-beyTiQ bbYzSJ"
     data-testid="avatar"
   >
     <img
@@ -50,15 +50,15 @@ exports[`<Avatar /> renders img correctly 1`] = `
 exports[`<Avatar /> renders text correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bcPKhP kAQhvQ"
+    class="sc-beyTiQ bbYzSJ"
     data-testid="avatar"
   >
     <div
-      class="sc-bcPKhP eZpbhD"
+      class="sc-beyTiQ grVULG"
       data-testid="initials"
     >
       <span
-        class="sc-hLclGa gdyFh"
+        class="sc-hLQTFJ bvsqWl"
         data-testid=""
       >
         TT
@@ -70,29 +70,29 @@ exports[`<Avatar /> renders text correctly 1`] = `
 
 exports[`<Avatar /> should apply typography styles if provided 1`] = `
 <div
-  class="sc-bcPKhP kAQhvQ"
+  class="sc-beyTiQ bbYzSJ"
   data-testid="avatar"
 />
 `;
 
 exports[`<Avatar /> should change size based on size prop 1`] = `
 <div
-  class="sc-bcPKhP BlwXk"
+  class="sc-beyTiQ dMVHDV"
   data-testid="avatar"
 />
 `;
 
 exports[`<Avatar /> should render initials if provided 1`] = `
 <div
-  class="sc-bcPKhP kAQhvQ"
+  class="sc-beyTiQ bbYzSJ"
   data-testid="avatar"
 >
   <div
-    class="sc-bcPKhP eZpbhD"
+    class="sc-beyTiQ grVULG"
     data-testid="initials"
   >
     <span
-      class="sc-hLclGa gdyFh"
+      class="sc-hLQTFJ bvsqWl"
       data-testid=""
     >
       JD
