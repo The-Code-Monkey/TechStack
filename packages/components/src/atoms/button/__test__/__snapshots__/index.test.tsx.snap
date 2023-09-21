@@ -3,12 +3,12 @@
 exports[`<Button /> renders default correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-dkjKgF cdYPWg sc-eDnVMP glnvjS"
+    class="sc-dmyDmy gUzkeg sc-eDLKEg bVvHoM"
     data-testid=""
     type="button"
   >
     <span
-      class="sc-hLclGa frsRHG"
+      class="sc-hLQTFJ hnjXry"
       data-testid=""
     >
       Default
@@ -20,12 +20,12 @@ exports[`<Button /> renders default correctly 1`] = `
 exports[`<Button /> renders icon correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-dkjKgF cdYPWg sc-eDnVMP glnvjS"
+    class="sc-dmyDmy gUzkeg sc-eDLKEg bVvHoM"
     data-testid=""
     type="button"
   >
     <div
-      class="sc-bcPKhP fxhcog sc-grXZZQ dxBwAR"
+      class="sc-beyTiQ dahpyZ sc-guDMob irXyNQ"
       data-testid="box"
     >
       <svg
@@ -46,7 +46,7 @@ exports[`<Button /> renders icon correctly 1`] = `
       </svg>
     </div>
     <span
-      class="sc-hLclGa frsRHG"
+      class="sc-hLQTFJ hnjXry"
       data-testid=""
     >
       Secondary
@@ -58,12 +58,12 @@ exports[`<Button /> renders icon correctly 1`] = `
 exports[`<Button /> renders icon only correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-dkjKgF cdYPWg sc-eDnVMP glnvjS"
+    class="sc-dmyDmy gUzkeg sc-eDLKEg bVvHoM"
     data-testid=""
     type="button"
   >
     <div
-      class="sc-bcPKhP fxhcog sc-grXZZQ cbcKvp"
+      class="sc-beyTiQ dahpyZ sc-guDMob gFerhA"
       data-testid="box"
     >
       <svg
@@ -84,7 +84,7 @@ exports[`<Button /> renders icon only correctly 1`] = `
       </svg>
     </div>
     <span
-      class="sc-hLclGa frsRHG"
+      class="sc-hLQTFJ hnjXry"
       data-testid=""
     />
   </button>
@@ -94,12 +94,12 @@ exports[`<Button /> renders icon only correctly 1`] = `
 exports[`<Button /> renders primary correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-dkjKgF cdYPWg sc-eDnVMP ceFfSb"
+    class="sc-dmyDmy gUzkeg sc-eDLKEg bCKuGF"
     data-testid=""
     type="button"
   >
     <span
-      class="sc-hLclGa frsRHG"
+      class="sc-hLQTFJ hnjXry"
       data-testid=""
     >
       Primary
@@ -111,12 +111,12 @@ exports[`<Button /> renders primary correctly 1`] = `
 exports[`<Button /> renders secondary correctly 1`] = `
 <DocumentFragment>
   <button
-    class="sc-dkjKgF cdYPWg sc-eDnVMP gguJYR"
+    class="sc-dmyDmy gUzkeg sc-eDLKEg NWgTz"
     data-testid=""
     type="button"
   >
     <span
-      class="sc-hLclGa frsRHG"
+      class="sc-hLQTFJ hnjXry"
       data-testid=""
     >
       Secondary
