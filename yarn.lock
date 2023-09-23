@@ -6054,7 +6054,7 @@ __metadata:
     "@rollup/plugin-terser": "npm:0.4.3"
     "@types/color": "npm:3.0.4"
     "@types/cssnano": "npm:5.1.0"
-    "@types/eslint": "npm:8.44.2"
+    "@types/eslint": "npm:8.44.3"
     "@types/figlet": "npm:1.5.6"
     "@types/fs-extra": "npm:11.0.2"
     "@types/lodash": "npm:4.14.199"
@@ -6537,13 +6537,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:*, @types/eslint@npm:8.44.2":
+"@types/eslint@npm:*":
   version: 8.44.2
   resolution: "@types/eslint@npm:8.44.2"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
   checksum: 3c402215f7f495f9267a51fecd6a6d056eb8b3b031a1c472286b7d23a397257327eb03712befa7da60614dd63d31235d27dbc5c586b6a408798dafb8ee0c5eb2
+  languageName: node
+  linkType: hard
+
+"@types/eslint@npm:8.44.3":
+  version: 8.44.3
+  resolution: "@types/eslint@npm:8.44.3"
+  dependencies:
+    "@types/estree": "npm:*"
+    "@types/json-schema": "npm:*"
+  checksum: d9d681efe461ec8934800a89773be251a200c9d4528ca2330bb99f4ca3bd6b2d053034d2b5fe645a1567331af2c89e364aed4be8c839f10a1028a3cbe2856b01
   languageName: node
   linkType: hard
 
