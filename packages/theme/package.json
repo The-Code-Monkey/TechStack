@@ -50,7 +50,7 @@
     "@techstack/tcm-cli": "workspace:*",
     "@tsconfig/recommended": "1.0.3",
     "@types/fs-extra": "11.0.2",
-    "@types/lodash": "4.14.198",
+    "@types/lodash": "4.14.199",
     "@types/lodash-es": "4.17.9",
     "@types/tinycolor2": "1.4.4",
     "@typescript-eslint/eslint-plugin": "6.7.2",
