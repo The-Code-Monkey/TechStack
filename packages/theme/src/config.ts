@@ -1,4 +1,4 @@
-{
+const config = {
   "source": [],
   "log": "",
   "platforms": {
@@ -227,3 +227,5 @@
     }
   }
 }
+
+export default config;
