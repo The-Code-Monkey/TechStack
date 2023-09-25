@@ -2,7 +2,7 @@
   "version": "1.2.89",
   "license": "MIT",
   "bin": {
-    "orchard": "./dist/esm/index.js"
+    "orchard": "./dist/orchard"
   },
   "files": [
     "dist",
@@ -12,7 +12,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "build": "bun build ./src/index.ts --compile --outfile mycli",
+    "build": "bun build ./src/index.ts --compile --outfile ./dist/orchard",
     "copy": "bun run copy:config && bun run copy:templates && bun run copy:theme && bun run copy:orchard && bun run copy:ts",
     "copy:config": "cp ./src/config.json ./dist/esm/config.json",
     "copy:templates": "cp -r ./src/templates ./dist/esm",
@@ -22,8 +22,7 @@
     "lint": "tcm lint src ts",
     "test": "bun run generate && bun run generate -b partial",
     "size": "size-limit",
-    "generate:local": "ts-node ./src/index.ts generate",
-    "generate": "node ./dist/esm/index.js generate"
+    "generate": "bun run build && ./dist/orchard"
   },
   "name": "@bunstack/theme",
   "description": "A practical theme generator built from the ground up",

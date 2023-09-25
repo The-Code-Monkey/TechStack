@@ -1,28 +1,8 @@
-// const cli = sade('orchard');
-//
-// cli
-//   .command('generate')
-//   .option(
-//     '-b, --brand',
-//     'Sets the brand if multiple brands are required else default',
-//     'default'
-//   )
-//     .option('-f, --format', 'Sets the format output', 'default')
-//   .action((options: { b: string; brand: string, f: string }) => {
-//     if (options.f === 'panda' || options.f === 'pandacss') {
-//       generatePandaCss(options);
-//     } else {
-//       generateSS(options);
-//     }
-//   });
-//
-// cli.parse(process.argv);
-
 import minimist from 'minimist';
 import generatePanda from './generators/generatePanda';
 import generateStyledSystem from './generators/generateStyledSystem';
+import {Options} from "./utils";
 
-type Options = { b: string; brand: string, f: string, format: string, _: Array<string> }
 
 const generate = async (options: Options) => {
   switch (options.f || options.format) {
@@ -48,4 +28,11 @@ const inputtedArgs = minimist<Options>(Bun.argv.slice(2));
 
 console.log(Bun.argv)
 
-run(inputtedArgs)
+const defaultArgs = {
+  b: 'default',
+  brand: 'default',
+  f: 'default',
+  format: 'default',
+}
+
+run({...defaultArgs, ...inputtedArgs})

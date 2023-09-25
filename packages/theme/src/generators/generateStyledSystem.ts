@@ -3,7 +3,7 @@ import fs from "fs-extra";
 import path from 'path';
 import { template } from 'lodash';
 import Color from 'tinycolor2'
-import { getConfig } from "../utils";
+import {getConfig, Options} from "../utils";
 import {FormatterArguments} from "style-dictionary/types/Format";
 import {TransformedToken} from "style-dictionary/types/TransformedToken";
 
@@ -13,7 +13,7 @@ interface NestedObject {
 
 type RecordNestedObject = Record<string, NestedObject>;
 
-const generateStyledSystem = async (options: { b: string; brand: string }) => {
+const generateStyledSystem = async (options: Options) => {
     const minifyDictionary = (obj: NestedObject) => {
         const toRet: Record<string, unknown> = {};
         if (obj.value) {
@@ -103,7 +103,7 @@ export default tokens;
         name: 'custom/intent_tokens',
         formatter: template(
             fs.readFileSync(
-                path.resolve(__dirname, './templates/intent_tokens.template')
+                path.resolve(__dirname, '../templates/intent_tokens.template')
             ).toString()
         ),
     });
@@ -112,7 +112,7 @@ export default tokens;
         name: 'custom/neutrals_tokens',
         formatter: template(
             fs.readFileSync(
-                path.resolve(__dirname, './templates/neutrals_tokens.template')
+                path.resolve(__dirname, '../templates/neutrals_tokens.template')
             ).toString()
         ),
     });
@@ -225,7 +225,7 @@ export default tokens;
 
     fs.removeSync(`./theme-dist`);
 
-    fs.copySync(path.resolve(__dirname, 'ts'), tsFilesOutputDir);
+    fs.copySync(path.resolve(__dirname, options.dev ? '../../ts/styled-system' : 'ts/styled-system'), tsFilesOutputDir);
 };
 
 export default generateStyledSystem

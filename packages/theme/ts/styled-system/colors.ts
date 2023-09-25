@@ -3,8 +3,8 @@ import darkMode from './dist/dark-mode';
 import intents from './dist/intents';
 import lightMode from './dist/light-mode';
 import neutrals from './dist/neutrals';
-import { ThemeModeEnum } from './enum';
-import { IThemeColorsType, ModeThemeType } from './utils';
+import { ThemeModeEnum } from './enum.ts';
+import { IThemeColorsType, ModeThemeType } from './utils.ts';
 
 const dark: ModeThemeType = {
   mode: ThemeModeEnum.DARK,

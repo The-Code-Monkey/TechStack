@@ -55,6 +55,8 @@ const getConfig = async (options) => {
     return {ConfigWithSource, outputDir, tsFilesOutputDir};
 }
 
+export type Options = { b: string; brand: string, f: string, format: string, _: Array<string>, dev?: boolean }
+
 export {
     getConfig
 }
