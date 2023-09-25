@@ -6077,7 +6077,7 @@ __metadata:
     "@types/node": "npm:18.17.1"
     "@types/react": "npm:18.2.22"
     "@types/semver": "npm:7.5.3"
-    "@types/shelljs": "npm:0.8.12"
+    "@types/shelljs": "npm:0.8.13"
     "@typescript-eslint/eslint-plugin": "npm:6.7.2"
     "@typescript-eslint/parser": "npm:6.7.2"
     asyncro: "npm:3.0.0"
@@ -7048,13 +7048,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/shelljs@npm:0.8.12":
-  version: 0.8.12
-  resolution: "@types/shelljs@npm:0.8.12"
+"@types/shelljs@npm:0.8.13":
+  version: 0.8.13
+  resolution: "@types/shelljs@npm:0.8.13"
   dependencies:
     "@types/glob": "npm:~7.2.0"
     "@types/node": "npm:*"
-  checksum: a29f5ef3d61b243e07f642dfb34471a1f2bde2883b217f83afab74a944aaafbf014ca15644cc543d68f6ea7e11e1241ce7e029e0e4555ef8e2869476b5993d47
+  checksum: aecc4ce25e3d4da54949202d4b84ee683a6f723a197df6b52183ca208946c8e2eefb31b8da49c2c803fe2b5189ae085ebe02d82c4fb0fde18e7612ee79af5b34
   languageName: node
   linkType: hard
 
