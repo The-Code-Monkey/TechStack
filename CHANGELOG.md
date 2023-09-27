@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.138](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.137...v1.2.138) (2023-09-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup-plugin-typescript2 to v0.36.0 ([8c62f55](https://github.com/The-Code-Monkey/TechStack/commit/8c62f557ff776b25827ce5bc47947aec1411a3ca))
+
+
+
+
+
 ## [1.2.137](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.136...v1.2.137) (2023-09-27)
 
 
