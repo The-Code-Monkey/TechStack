@@ -5851,7 +5851,7 @@ __metadata:
     jest-watch-typeahead: "npm:2.2.2"
     prettier: "npm:3.0.3"
     react: "npm:18.2.0"
-    react-date-picker: "npm:10.5.0"
+    react-date-picker: "npm:10.5.1"
     react-datetime-picker: "npm:5.5.1"
     react-dom: "npm:18.2.0"
     react-i18next: "npm:13.2.2"
@@ -21180,7 +21180,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-date-picker@npm:10.5.0, react-date-picker@npm:^10.5.0":
+"react-date-picker@npm:10.5.1":
+  version: 10.5.1
+  resolution: "react-date-picker@npm:10.5.1"
+  dependencies:
+    "@wojtekmaj/date-utils": "npm:^1.1.3"
+    clsx: "npm:^2.0.0"
+    get-user-locale: "npm:^2.2.1"
+    make-event-props: "npm:^1.6.0"
+    prop-types: "npm:^15.6.0"
+    react-calendar: "npm:^4.6.0"
+    react-fit: "npm:^1.7.0"
+    update-input-width: "npm:^1.4.0"
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: dfa0c4dc5f72ab7a6f277989b0233711fe1a280fb3f376ac98af4425139dc1630be471f14a716b941aa96a0c1175bf06743c5017650f892934350cfd15bbd7a5
+  languageName: node
+  linkType: hard
+
+"react-date-picker@npm:^10.5.0":
   version: 10.5.0
   resolution: "react-date-picker@npm:10.5.0"
   dependencies:
