@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.142](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.141...v1.2.142) (2023-09-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-date-picker to v10.5.1 ([276a04c](https://github.com/The-Code-Monkey/TechStack/commit/276a04cdebac5d366e1e57e52384ea6241bc17c9))
+
+
+
+
+
 ## [1.2.141](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.140...v1.2.141) (2023-09-28)
 
 
