@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.139](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.138...v1.2.139) (2023-09-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sort-package-json to v2.6.0 ([4239423](https://github.com/The-Code-Monkey/TechStack/commit/42394236fafa3f59cc0a277dfdf0d81a59c39e70))
+
+
+
+
+
 ## [1.2.138](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.137...v1.2.138) (2023-09-27)
 
 
