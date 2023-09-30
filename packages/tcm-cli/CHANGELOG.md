@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.147](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.146...v1.2.147) (2023-09-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jest to v27.4.2 ([b07d4bd](https://github.com/The-Code-Monkey/TechStack/commit/b07d4bd6c331b8b0e1538eaf534edb5994d6f324))
+
+
+
+
+
 ## [1.2.145](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.144...v1.2.145) (2023-09-29)
 
 
