@@ -5821,7 +5821,7 @@ __metadata:
     "@techstack/memoize": "workspace:*"
     "@techstack/react-feather": "workspace:*"
     "@techstack/react-lazy-named": "workspace:*"
-    "@techstack/styled-system": "npm:1.0.221"
+    "@techstack/styled-system": "npm:1.0.222"
     "@techstack/tcm-cli": "workspace:*"
     "@techstack/theme": "workspace:*"
     "@testing-library/react": "npm:14.0.0"
@@ -5893,14 +5893,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@techstack/memoize@npm:1.2.149":
-  version: 1.2.149
-  resolution: "@techstack/memoize@npm:1.2.149"
-  checksum: 21b83ad8556b88633d1a94673d63ee1ab238ccb865fdcd44a0cf649bbf7aea087d591551171d213bc1a720c3e51db664c6ee4eb48f6f144f15c65e686a4e98ea
-  languageName: node
-  linkType: hard
-
-"@techstack/memoize@workspace:*, @techstack/memoize@workspace:packages/memoize":
+"@techstack/memoize@npm:1.2.151, @techstack/memoize@workspace:*, @techstack/memoize@workspace:packages/memoize":
   version: 0.0.0-use.local
   resolution: "@techstack/memoize@workspace:packages/memoize"
   dependencies:
@@ -6039,15 +6032,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@techstack/styled-system@npm:1.0.221":
-  version: 1.0.221
-  resolution: "@techstack/styled-system@npm:1.0.221"
+"@techstack/styled-system@npm:1.0.222":
+  version: 1.0.222
+  resolution: "@techstack/styled-system@npm:1.0.222"
   dependencies:
     "@emotion/is-prop-valid": "npm:1.2.1"
-    "@techstack/memoize": "npm:1.2.149"
+    "@techstack/memoize": "npm:1.2.151"
     csstype: "npm:3.1.2"
     react: "npm:18.2.0"
-  checksum: c4b3b0f5b39af500d65623cffd9e7d77e26d107ada137082aaa2f8292197188323f2a7f2b123b19fbb0a3ac1f1f954cff5b06670b182d11b9df6023785dcd01b
+  checksum: 16d49f5a012d15890fcfbe139519ad38c1f9f9dd68019a20be856b7a8af732c977e467afb2386cd30875f759164306ba5a4173efa433fd632228027903cc2697
   languageName: node
   linkType: hard
 
