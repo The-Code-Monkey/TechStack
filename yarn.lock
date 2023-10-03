@@ -5908,7 +5908,7 @@ __metadata:
     eslint-plugin-import: "npm:2.28.1"
     eslint-plugin-prettier: "npm:5.0.0"
     eslint-plugin-react: "npm:7.33.2"
-    expect-type: "npm:0.17.1"
+    expect-type: "npm:0.17.2"
     fast-memoize: "npm:2.5.2"
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
@@ -13130,10 +13130,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expect-type@npm:0.17.1":
-  version: 0.17.1
-  resolution: "expect-type@npm:0.17.1"
-  checksum: 3d40524cb90b92e7ef9b0383fa27414fd3997b54d61ef962ba32007f3558cf65cf8c6685e0661d0ea97f380c7d25c311592f10444dfcfadaeb41fee3160d6b4b
+"expect-type@npm:0.17.2":
+  version: 0.17.2
+  resolution: "expect-type@npm:0.17.2"
+  checksum: a05b3798a1f658b216f98624c2b8fceaaeb86454ba036d32b40ad62da80e5fee4d6e7f05c937f7533396c7cc19b55598a74d570799cd8ad355a6cf8b9d30b9aa
   languageName: node
   linkType: hard
 
