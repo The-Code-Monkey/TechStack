@@ -5362,15 +5362,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/jest@npm:0.2.2":
-  version: 0.2.2
-  resolution: "@storybook/jest@npm:0.2.2"
+"@storybook/jest@npm:0.2.3":
+  version: 0.2.3
+  resolution: "@storybook/jest@npm:0.2.3"
   dependencies:
     "@storybook/expect": "npm:storybook-jest"
     "@testing-library/jest-dom": "npm:^6.1.2"
     "@types/jest": "npm:28.1.3"
     jest-mock: "npm:^27.3.0"
-  checksum: e2901646655d50bf81d93d7c3f6d06fceedb22d0eeffb7e8440f25b0c3c89684acd17f5da6a9bab61950488f1bfab0312eec3970d9323fb90632d7913b8f6b5d
+  checksum: a2c367649ae53d9385b16f49bd73d5a928a2c3b9e64c2efcc1bbfc081b3b75972293bbe0e1828b67c94f0c2ed96341e0fae0ad5e30484a0ed4715724bbbf2c76
   languageName: node
   linkType: hard
 
@@ -5812,7 +5812,7 @@ __metadata:
     "@storybook/addon-mdx-gfm": "npm:7.4.6"
     "@storybook/addons": "npm:7.4.6"
     "@storybook/client-api": "npm:7.4.6"
-    "@storybook/jest": "npm:0.2.2"
+    "@storybook/jest": "npm:0.2.3"
     "@storybook/react": "npm:7.4.6"
     "@storybook/react-webpack5": "npm:7.4.6"
     "@storybook/testing-library": "npm:0.2.2"
