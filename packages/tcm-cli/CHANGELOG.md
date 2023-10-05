@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.165](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.164...v1.2.165) (2023-10-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rollup/plugin-babel to v6.0.4 ([ae1ab9c](https://github.com/The-Code-Monkey/TechStack/commit/ae1ab9c179850773ef8ce8286cdb0c864a89510e))
+
+
+
+
+
 ## [1.2.164](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.163...v1.2.164) (2023-10-05)
 
 **Note:** Version bump only for package @techstack/tcm-cli
