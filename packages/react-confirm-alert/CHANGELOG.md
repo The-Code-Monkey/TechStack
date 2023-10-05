@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.164](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.163...v1.2.164) (2023-10-05)
+
+**Note:** Version bump only for package @techstack/react-confirm-alert
+
+
+
+
+
 ## [1.2.161](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.160...v1.2.161) (2023-10-04)
 
 **Note:** Version bump only for package @techstack/react-confirm-alert
