@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.167](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.166...v1.2.167) (2023-10-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rollup/plugin-json to v6.0.1 ([738f46b](https://github.com/The-Code-Monkey/TechStack/commit/738f46b5ea702d16872675f16b6bc3ced2d38421))
+
+
+
+
+
 ## [1.2.166](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.165...v1.2.166) (2023-10-05)
 
 
