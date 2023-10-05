@@ -4370,22 +4370,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-babel@npm:6.0.3":
-  version: 6.0.3
-  resolution: "@rollup/plugin-babel@npm:6.0.3"
+"@rollup/plugin-babel@npm:6.0.4":
+  version: 6.0.4
+  resolution: "@rollup/plugin-babel@npm:6.0.4"
   dependencies:
     "@babel/helper-module-imports": "npm:^7.18.6"
     "@rollup/pluginutils": "npm:^5.0.1"
   peerDependencies:
     "@babel/core": ^7.0.0
     "@types/babel__core": ^7.1.9
-    rollup: ^1.20.0||^2.0.0||^3.0.0
+    rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
   peerDependenciesMeta:
     "@types/babel__core":
       optional: true
     rollup:
       optional: true
-  checksum: 7751a5f93808cfa9e1371f68f31bb46929200a4263c76f05586a13e768aa3d20b1c3e99c7726b047829d7731174f8c3aa31895216cfa5187498aa8fbe8906eb7
+  checksum: 5a7c04fa6d608512b597835e749aef33e129ee9ed6cc9e33489b7d43937358fc8aba48b00819604d0bc9b7c20790a6c035e4136e8d9f70cf0d0f056ba547e700
   languageName: node
   linkType: hard
 
@@ -6061,7 +6061,7 @@ __metadata:
     "@babel/traverse": "npm:7.23.0"
     "@commitlint/cli": "npm:17.7.2"
     "@commitlint/config-conventional": "npm:17.7.0"
-    "@rollup/plugin-babel": "npm:6.0.3"
+    "@rollup/plugin-babel": "npm:6.0.4"
     "@rollup/plugin-commonjs": "npm:25.0.4"
     "@rollup/plugin-json": "npm:6.0.0"
     "@rollup/plugin-node-resolve": "npm:15.1.0"
