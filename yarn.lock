@@ -4389,9 +4389,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-commonjs@npm:25.0.4":
-  version: 25.0.4
-  resolution: "@rollup/plugin-commonjs@npm:25.0.4"
+"@rollup/plugin-commonjs@npm:25.0.5":
+  version: 25.0.5
+  resolution: "@rollup/plugin-commonjs@npm:25.0.5"
   dependencies:
     "@rollup/pluginutils": "npm:^5.0.1"
     commondir: "npm:^1.0.1"
@@ -4400,11 +4400,11 @@ __metadata:
     is-reference: "npm:1.2.1"
     magic-string: "npm:^0.27.0"
   peerDependencies:
-    rollup: ^2.68.0||^3.0.0
+    rollup: ^2.68.0||^3.0.0||^4.0.0
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: f02baebdbfe920ed68a1c684b07ca16232ad7f191f51e260f96b282b3cf9f5027aee4f0faa0255a88c84420bd903140db309a5d46c3ffa6386a0295a1dd002b8
+  checksum: fabb96398c1bf49e256dee5ba47e37bf278cd2cfcc85193d1aceb3e39f83bda234a589ead2e665cd7dfed762f3b20ec1fabd24945c5b71fbb0aa45542560e034
   languageName: node
   linkType: hard
 
@@ -6062,7 +6062,7 @@ __metadata:
     "@commitlint/cli": "npm:17.7.2"
     "@commitlint/config-conventional": "npm:17.7.0"
     "@rollup/plugin-babel": "npm:6.0.4"
-    "@rollup/plugin-commonjs": "npm:25.0.4"
+    "@rollup/plugin-commonjs": "npm:25.0.5"
     "@rollup/plugin-json": "npm:6.0.0"
     "@rollup/plugin-node-resolve": "npm:15.1.0"
     "@rollup/plugin-replace": "npm:5.0.2"
