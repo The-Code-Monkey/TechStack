@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.169](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.168...v1.2.169) (2023-10-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rollup/plugin-terser to v0.4.4 ([2cdea52](https://github.com/The-Code-Monkey/TechStack/commit/2cdea52471528a6e088f5fc5ce61871ff041de2a))
+
+
+
+
+
 ## [1.2.168](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.167...v1.2.168) (2023-10-06)
 
 
