@@ -32,7 +32,7 @@
     "@techstack/tcm-cli": "workspace:*",
     "@types/node": "^20.5.6",
     "@types/react": "18.2.25",
-    "@types/react-dom": "18.2.10",
+    "@types/react-dom": "18.2.11",
     "@typescript-eslint/eslint-plugin": "6.7.4",
     "@typescript-eslint/parser": "6.7.4",
     "eslint": "8.51.0",

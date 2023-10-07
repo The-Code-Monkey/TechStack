@@ -5829,7 +5829,7 @@ __metadata:
     "@types/jest": "npm:29.5.5"
     "@types/node": "npm:^20.5.6"
     "@types/react": "npm:18.2.25"
-    "@types/react-dom": "npm:18.2.10"
+    "@types/react-dom": "npm:18.2.11"
     "@types/react-table": "npm:7.7.16"
     "@typescript-eslint/eslint-plugin": "npm:6.7.4"
     "@typescript-eslint/parser": "npm:6.7.4"
@@ -5940,7 +5940,7 @@ __metadata:
     "@techstack/tcm-cli": "workspace:*"
     "@types/node": "npm:^20.5.6"
     "@types/react": "npm:18.2.25"
-    "@types/react-dom": "npm:18.2.10"
+    "@types/react-dom": "npm:18.2.11"
     "@typescript-eslint/eslint-plugin": "npm:6.7.4"
     "@typescript-eslint/parser": "npm:6.7.4"
     eslint: "npm:8.51.0"
@@ -6942,12 +6942,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.2.10":
-  version: 18.2.10
-  resolution: "@types/react-dom@npm:18.2.10"
+"@types/react-dom@npm:18.2.11":
+  version: 18.2.11
+  resolution: "@types/react-dom@npm:18.2.11"
   dependencies:
     "@types/react": "npm:*"
-  checksum: ac4056c3b8ba5461a58a7933e1f98d772e877f275a1b4169a936391900aec8f3c8e6125ccbbda530842cd9d108a2be8c994c7f48bfd801f89702e2de9064d834
+  checksum: 3ba42df0dc1e8a26baed9668b9e2b5aea7c8e28289cf5baa656c1a07c6f83cd3c3360a374e00f96c01ce914950105d14d3ecd59be75cf215b8d3657b0b5d7785
   languageName: node
   linkType: hard
 
