@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.179](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.178...v1.2.179) (2023-10-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup-plugin-dts to v6.1.0 ([c632e98](https://github.com/The-Code-Monkey/TechStack/commit/c632e98fbd726c163cd2e3fc43e8566d8aa32e8b))
+
+
+
+
+
 ## [1.2.178](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.177...v1.2.178) (2023-10-07)
 
 

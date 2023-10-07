@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.179](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.178...v1.2.179) (2023-10-07)
+
+**Note:** Version bump only for package @techstack/react-textfit
+
+
+
+
+
 ## [1.2.177](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.176...v1.2.177) (2023-10-07)
 
 **Note:** Version bump only for package @techstack/react-textfit
