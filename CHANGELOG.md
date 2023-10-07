@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.180](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.179...v1.2.180) (2023-10-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency type-fest to v4.4.0 ([24d15c4](https://github.com/The-Code-Monkey/TechStack/commit/24d15c421c07203483eeafff0416fc6ec37c3684))
+
+
+
+
+
 ## [1.2.179](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.178...v1.2.179) (2023-10-07)
 
 
