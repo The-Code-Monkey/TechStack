@@ -3263,22 +3263,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lerna/child-process@npm:7.2.0":
-  version: 7.2.0
-  resolution: "@lerna/child-process@npm:7.2.0"
+"@lerna/child-process@npm:7.3.1":
+  version: 7.3.1
+  resolution: "@lerna/child-process@npm:7.3.1"
   dependencies:
     chalk: "npm:^4.1.0"
     execa: "npm:^5.0.0"
     strong-log-transformer: "npm:^2.1.0"
-  checksum: a02e217cdc2254aa44d7eec90b2b8ea03a218f86f8d59f8c4216365a52729612dbb2a4430b273904a4796d6f549a16e64da2c23111750a892a0a3b4dd1026c5c
+  checksum: 7033e2fa5e040c243d00a578937a357287bbbac6b60ce50463586feef92a1323b5e13e223bb5f0dc21c9885442d3388019d32bedd9ac6e5333b65296268d76a1
   languageName: node
   linkType: hard
 
-"@lerna/create@npm:7.2.0":
-  version: 7.2.0
-  resolution: "@lerna/create@npm:7.2.0"
+"@lerna/create@npm:7.3.1":
+  version: 7.3.1
+  resolution: "@lerna/create@npm:7.3.1"
   dependencies:
-    "@lerna/child-process": "npm:7.2.0"
+    "@lerna/child-process": "npm:7.3.1"
     "@npmcli/run-script": "npm:6.0.2"
     "@nx/devkit": "npm:>=16.5.1 < 17"
     "@octokit/plugin-enterprise-rest": "npm:6.0.1"
@@ -3309,7 +3309,7 @@ __metadata:
     libnpmpublish: "npm:7.3.0"
     load-json-file: "npm:6.2.0"
     lodash: "npm:^4.17.21"
-    make-dir: "npm:3.1.0"
+    make-dir: "npm:4.0.0"
     minimatch: "npm:3.0.5"
     multimatch: "npm:5.0.0"
     node-fetch: "npm:2.6.7"
@@ -3343,7 +3343,7 @@ __metadata:
     write-pkg: "npm:4.0.0"
     yargs: "npm:16.2.0"
     yargs-parser: "npm:20.2.4"
-  checksum: 7a69d29050c1ab434c97e4702d7fd806da99404277b42dbf2f25787a7d09be1cab4c0ab5c3aef711eb04d784d3685e30cae52d6d48f60cbc61d4ada32bfe472b
+  checksum: f30250199912f60a7d89095f978b314286eac7429bebf92b1e7ec0721fb183a54b1bd84a9870b5b97d9eef70fccde47fc958f8821f46a55e3823e7cb7a316698
   languageName: node
   linkType: hard
 
@@ -17105,12 +17105,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lerna@npm:7.2.0":
-  version: 7.2.0
-  resolution: "lerna@npm:7.2.0"
+"lerna@npm:7.3.1":
+  version: 7.3.1
+  resolution: "lerna@npm:7.3.1"
   dependencies:
-    "@lerna/child-process": "npm:7.2.0"
-    "@lerna/create": "npm:7.2.0"
+    "@lerna/child-process": "npm:7.3.1"
+    "@lerna/create": "npm:7.3.1"
     "@npmcli/run-script": "npm:6.0.2"
     "@nx/devkit": "npm:>=16.5.1 < 17"
     "@octokit/plugin-enterprise-rest": "npm:6.0.1"
@@ -17147,7 +17147,7 @@ __metadata:
     libnpmpublish: "npm:7.3.0"
     load-json-file: "npm:6.2.0"
     lodash: "npm:^4.17.21"
-    make-dir: "npm:3.1.0"
+    make-dir: "npm:4.0.0"
     minimatch: "npm:3.0.5"
     multimatch: "npm:5.0.0"
     node-fetch: "npm:2.6.7"
@@ -17186,7 +17186,7 @@ __metadata:
     yargs-parser: "npm:20.2.4"
   bin:
     lerna: dist/cli.js
-  checksum: 72d2df221bd71085ee24abed6a62fb05a076cc75bef5fd886ab0076699c206fa807a996cea7f7d903fa7a20c82c7dddaabdf19d61376a49a552729074eb893e9
+  checksum: 69aef3867d888e0045c3e22329fc03043a9f964bb73abb368b75fec7c70393881e5e05c49b41b9f23a94af6236256d88922d474ee819d1739080b08e903228d4
   languageName: node
   linkType: hard
 
@@ -17633,12 +17633,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"make-dir@npm:3.1.0, make-dir@npm:^3.0.2":
-  version: 3.1.0
-  resolution: "make-dir@npm:3.1.0"
+"make-dir@npm:4.0.0, make-dir@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "make-dir@npm:4.0.0"
   dependencies:
-    semver: "npm:^6.0.0"
-  checksum: 56aaafefc49c2dfef02c5c95f9b196c4eb6988040cf2c712185c7fe5c99b4091591a7fc4d4eafaaefa70ff763a26f6ab8c3ff60b9e75ea19876f49b18667ecaa
+    semver: "npm:^7.5.3"
+  checksum: 69b98a6c0b8e5c4fe9acb61608a9fbcfca1756d910f51e5dbe7a9e5cfb74fca9b8a0c8a0ffdf1294a740826c1ab4871d5bf3f62f72a3049e5eac6541ddffed68
   languageName: node
   linkType: hard
 
@@ -17652,12 +17652,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"make-dir@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "make-dir@npm:4.0.0"
+"make-dir@npm:^3.0.2":
+  version: 3.1.0
+  resolution: "make-dir@npm:3.1.0"
   dependencies:
-    semver: "npm:^7.5.3"
-  checksum: 69b98a6c0b8e5c4fe9acb61608a9fbcfca1756d910f51e5dbe7a9e5cfb74fca9b8a0c8a0ffdf1294a740826c1ab4871d5bf3f62f72a3049e5eac6541ddffed68
+    semver: "npm:^6.0.0"
+  checksum: 56aaafefc49c2dfef02c5c95f9b196c4eb6988040cf2c712185c7fe5c99b4091591a7fc4d4eafaaefa70ff763a26f6ab8c3ff60b9e75ea19876f49b18667ecaa
   languageName: node
   linkType: hard
 
@@ -23802,7 +23802,7 @@ __metadata:
   resolution: "techstack@workspace:."
   dependencies:
     husky: "npm:8.0.3"
-    lerna: "npm:7.2.0"
+    lerna: "npm:7.3.1"
   languageName: unknown
   linkType: soft
 
