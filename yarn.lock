@@ -295,6 +295,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helper-define-polyfill-provider@npm:^0.4.3":
+  version: 0.4.3
+  resolution: "@babel/helper-define-polyfill-provider@npm:0.4.3"
+  dependencies:
+    "@babel/helper-compilation-targets": "npm:^7.22.6"
+    "@babel/helper-plugin-utils": "npm:^7.22.5"
+    debug: "npm:^4.1.1"
+    lodash.debounce: "npm:^4.0.8"
+    resolve: "npm:^1.14.2"
+  peerDependencies:
+    "@babel/core": ^7.4.0 || ^8.0.0-0 <8.0.0
+  checksum: 0007035157e0d32ee9cb4ca319b89d6f3705523383efe52a59eb3d4dfa2ed08c5147e49c10a6e6d69c15221d89c76c8e5875475d6710fb44a5c37b8e69388e40
+  languageName: node
+  linkType: hard
+
 "@babel/helper-environment-visitor@npm:^7.22.20":
   version: 7.22.20
   resolution: "@babel/helper-environment-visitor@npm:7.22.20"
@@ -6169,7 +6184,7 @@ __metadata:
     babel-plugin-annotate-pure-calls: "npm:0.4.0"
     babel-plugin-dev-expression: "npm:0.2.3"
     babel-plugin-macros: "npm:3.1.0"
-    babel-plugin-polyfill-regenerator: "npm:0.5.2"
+    babel-plugin-polyfill-regenerator: "npm:0.5.3"
     babel-plugin-replace-identifiers: "npm:0.1.1"
     babel-plugin-transform-rename-import: "npm:2.3.0"
     camelcase: "npm:8.0.0"
@@ -8918,7 +8933,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-polyfill-regenerator@npm:0.5.2, babel-plugin-polyfill-regenerator@npm:^0.5.2":
+"babel-plugin-polyfill-regenerator@npm:0.5.3":
+  version: 0.5.3
+  resolution: "babel-plugin-polyfill-regenerator@npm:0.5.3"
+  dependencies:
+    "@babel/helper-define-polyfill-provider": "npm:^0.4.3"
+  peerDependencies:
+    "@babel/core": ^7.4.0 || ^8.0.0-0 <8.0.0
+  checksum: cc32313b9ebbf1d7bedc33524a861136b9e5d3b6e9be317ac360a1c2a59ae5ed1b465a6c68b2715cdefb089780ddfb0c11f4a148e49827a947beee76e43da598
+  languageName: node
+  linkType: hard
+
+"babel-plugin-polyfill-regenerator@npm:^0.5.2":
   version: 0.5.2
   resolution: "babel-plugin-polyfill-regenerator@npm:0.5.2"
   dependencies:
