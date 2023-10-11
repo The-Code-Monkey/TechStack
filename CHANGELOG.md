@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.192](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.191...v1.2.192) (2023-10-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-plugin-polyfill-regenerator to v0.5.3 ([1474c4e](https://github.com/The-Code-Monkey/TechStack/commit/1474c4ede02e110a7e645fa2fbc58f9e3f2fbd3a))
+
+
+
+
+
 ## [1.2.191](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.190...v1.2.191) (2023-10-11)
 
 
