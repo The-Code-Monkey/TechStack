@@ -5957,7 +5957,7 @@ __metadata:
     react-responsive-carousel: "npm:3.2.23"
     react-table: "npm:7.8.0"
     react-virtual: "npm:2.10.4"
-    sass: "npm:1.69.2"
+    sass: "npm:1.69.3"
     sass-loader: "npm:13.3.2"
     size-limit: "npm:9.0.0"
     storybook: "npm:7.4.6"
@@ -22526,16 +22526,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.69.2":
-  version: 1.69.2
-  resolution: "sass@npm:1.69.2"
+"sass@npm:1.69.3":
+  version: 1.69.3
+  resolution: "sass@npm:1.69.3"
   dependencies:
     chokidar: "npm:>=3.0.0 <4.0.0"
     immutable: "npm:^4.0.0"
     source-map-js: "npm:>=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 827469a22849fe62a5e3ff066b9de9cc35c6ba7cfc2c9bc5c3ad399fe62a9832f2c8b8586207499afb37a714d6fd19fbe261481a97232b9b7026f62e9246565c
+  checksum: 633fa5220dfe49fddd0ede1484f9bdf1827547e3f9790b935c791b621af3c2acd9ebcafdaf34a622e02fc1724f4c84f4bdcc3a3797f13c1aee595d08c4e8bb29
   languageName: node
   linkType: hard
 
