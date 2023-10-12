@@ -63,10 +63,10 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "7.23.0",
-    "@babel/preset-env": "7.22.20",
+    "@babel/core": "7.23.2",
+    "@babel/preset-env": "7.23.2",
     "@babel/preset-react": "7.22.15",
-    "@babel/preset-typescript": "7.23.0",
+    "@babel/preset-typescript": "7.23.2",
     "@jest/globals": "29.7.0",
     "@size-limit/file": "9.0.0",
     "@storybook/addon-essentials": "7.4.6",
