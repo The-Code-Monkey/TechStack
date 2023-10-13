@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.200](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.199...v1.2.200) (2023-10-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @tanstack/react-table to v8.10.7 ([b6852c0](https://github.com/The-Code-Monkey/TechStack/commit/b6852c080027941a7840305c5bdf389a4b57d7d1))
+
+
+
+
+
 ## [1.2.199](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.198...v1.2.199) (2023-10-13)
 
 
