@@ -104,8 +104,8 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.7.2",
-    "@commitlint/config-conventional": "17.7.0",
+    "@commitlint/cli": "17.8.0",
+    "@commitlint/config-conventional": "17.8.0",
     "@types/color": "3.0.4",
     "@types/cssnano": "5.1.0",
     "@types/eslint": "8.44.4",
