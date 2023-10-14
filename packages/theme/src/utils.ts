@@ -1,5 +1,5 @@
 import path from 'path'
-import fs from 'fs-extra';
+import * as fs from 'fs';
 
 import Config from './config';
 
@@ -8,9 +8,8 @@ const configFileNames = ['orchard.theme.config.json'];
 const resolveConfig = (): Promise<string> =>
     new Promise(resolve => {
         for (let i = 0; i < configFileNames.length; i++) {
-            fs.exists(`${process.cwd()}/${configFileNames[i]}`, (exists: boolean) => {
-                console.log(`${process.cwd()}/${configFileNames[i]}`, exists);
-                if (exists) {
+            fs.access(`${process.cwd()}/${configFileNames[i]}`, (err) => {
+                if (!err) {
                     resolve(`${process.cwd()}/${configFileNames[i]}`);
                 }
             });
@@ -22,7 +21,11 @@ const resolveConfig = (): Promise<string> =>
 const getConfig = async (options) => {
     const brand = options.b || options.brand;
     const userConfigFile = await resolveConfig();
-    const userConfig = fs.readJsonSync(userConfigFile);
+    // const userConfig = fs.readJsonSync(userConfigFile);
+    // let userConfig = await fs.readFileSync(userConfigFile, 'utf-8') as unknown as Record<string, string>
+    const userConifgFile = Bun.file(userConfigFile);
+    const userConfig = await userConifgFile.json()
+
     const tsFilesOutputDir = userConfig.outputDir
         ? `${process.cwd()}${userConfig.outputDir}/theme`
         : `${process.cwd()}/theme`;
@@ -33,7 +36,7 @@ const getConfig = async (options) => {
         ? `${process.cwd()}${userConfig.srcDir}/theme/src`
         : `${process.cwd()}/theme/src`;
 
-    fs.ensureDir(outputDir);
+    fs.mkdir(outputDir, { recursive: true }, () => {});
     const ConfigWithSource = Config;
     if (fs.existsSync(customSrcDir)) {
         console.log('Using your theme');

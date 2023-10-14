@@ -1,5 +1,5 @@
 import StyleDictionary from "style-dictionary";
-import fs from "fs-extra";
+import * as fs from "fs";
 import path from 'path';
 import { template } from 'lodash';
 import Color from 'tinycolor2'
@@ -206,11 +206,11 @@ export default tokens;
         name: 'copy_assets',
         do: function (_: unknown, config: { buildPath: string }) {
             console.log('Copying assets directory');
-            fs.copySync(config.buildPath, process.cwd() + `theme/${config.buildPath}`);
+            fs.copyFileSync(config.buildPath, process.cwd() + `theme/${config.buildPath}`);
         },
         undo: function (_: unknown, config: { buildPath: string }) {
             console.log('Cleaning assets directory');
-            fs.removeSync(config.buildPath + 'dist');
+            fs.unlink(config.buildPath + 'dist', () => {})
         },
     });
 
@@ -221,11 +221,11 @@ export default tokens;
 
     BaseStyleDictionarySS.buildAllPlatforms();
 
-    fs.copySync(`./theme-dist`, outputDir);
+    fs.copyFile(`./theme-dist`, outputDir, () => {})
 
-    fs.removeSync(`./theme-dist`);
+    fs.unlink('./theme-dist', () => {})
 
-    fs.copySync(path.resolve(__dirname, options.dev ? '../../ts/styled-system' : 'ts/styled-system'), tsFilesOutputDir);
+    fs.copyFile(path.resolve(__dirname, options.dev ? '../../ts/styled-system' : 'ts/styled-system'), tsFilesOutputDir, () => {})
 };
 
 export default generateStyledSystem

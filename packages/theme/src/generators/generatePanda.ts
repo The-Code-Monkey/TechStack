@@ -1,6 +1,6 @@
 import {getConfig} from '../utils';
 import StyleDictionary from "style-dictionary";
-import fs from 'fs-extra'
+import fs from 'fs'
 import path from 'path';
 
 const generatePanda = async (options: { b: string; brand: string }) => {

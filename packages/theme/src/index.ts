@@ -3,7 +3,6 @@ import generatePanda from './generators/generatePanda';
 import generateStyledSystem from './generators/generateStyledSystem';
 import {Options} from "./utils";
 
-
 const generate = async (options: Options) => {
   switch (options.f || options.format) {
     case 'panda': {

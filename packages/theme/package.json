@@ -12,13 +12,13 @@
     "node": ">=18"
   },
   "scripts": {
-    "build": "bun build ./src/index.ts --compile --outfile ./dist/orchard",
+    "build": "bun build ./src/index.ts --compile --outfile ./dist/orchard && bun copy",
     "copy": "bun run copy:config && bun run copy:templates && bun run copy:theme && bun run copy:orchard && bun run copy:ts",
-    "copy:config": "cp ./src/config.json ./dist/esm/config.json",
-    "copy:templates": "cp -r ./src/templates ./dist/esm",
-    "copy:theme": "cp -r ./src/theme ./dist/esm",
-    "copy:orchard": "cp ./orchard.theme.config.json ./dist/esm",
-    "copy:ts": "cp -r ./ts ./dist/esm",
+    "copy:config": "cp ./src/config.ts ./dist/config.ts",
+    "copy:templates": "cp -r ./src/templates ./dist",
+    "copy:theme": "cp -r ./src/theme ./dist",
+    "copy:orchard": "cp ./orchard.theme.config.json ./dist",
+    "copy:ts": "cp -r ./ts ./dist",
     "lint": "tcm lint src ts",
     "test": "bun run generate && bun run generate -b partial",
     "size": "size-limit",
@@ -68,7 +68,6 @@
     "typescript": "5.2.2"
   },
   "dependencies": {
-    "fs-extra": "11.1.1",
     "lodash": "4.17.21",
     "lodash-es": "4.17.21",
     "sade": "1.8.1",
