@@ -115,7 +115,7 @@
     "@types/node": "18.17.1",
     "@types/react": "18.2.28",
     "@types/semver": "7.5.3",
-    "@types/shelljs": "0.8.13",
+    "@types/shelljs": "0.8.14",
     "auto-changelog": "2.4.0",
     "autoprefixer": "10.4.16",
     "babel-plugin-replace-identifiers": "0.1.1",
