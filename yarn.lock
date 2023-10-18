@@ -6191,7 +6191,7 @@ __metadata:
     "@types/color": 3.0.5
     "@types/cssnano": 5.1.0
     "@types/eslint": 8.44.5
-    "@types/figlet": 1.5.6
+    "@types/figlet": 1.5.7
     "@types/fs-extra": 11.0.2
     "@types/lodash": 4.14.199
     "@types/node": 18.17.1
@@ -6731,10 +6731,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/figlet@npm:1.5.6":
-  version: 1.5.6
-  resolution: "@types/figlet@npm:1.5.6"
-  checksum: f36eb8cb9d8f91f6539b71be0ca10bbf82a04e96ed0f11f8e1a03760cd85ee2994bdf7c35164acf7194bb5d2855d8b7fe98d493729d238aeca46dd95cc15c6c3
+"@types/figlet@npm:1.5.7":
+  version: 1.5.7
+  resolution: "@types/figlet@npm:1.5.7"
+  checksum: b83b727a229b0d1e7bafd7102ef03ab280494524cb3d0c883809192cfb29f88817f4292e59bfa3845e4b5cb929690253254810a1653cd26d95b42160d59b497b
   languageName: node
   linkType: hard
 
