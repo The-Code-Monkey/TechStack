@@ -6193,7 +6193,7 @@ __metadata:
     "@types/eslint": 8.44.5
     "@types/figlet": 1.5.7
     "@types/fs-extra": 11.0.2
-    "@types/lodash": 4.14.199
+    "@types/lodash": 4.14.200
     "@types/node": 18.17.1
     "@types/react": 18.2.28
     "@types/semver": 7.5.3
@@ -6276,7 +6276,7 @@ __metadata:
     "@techstack/tcm-cli": "workspace:*"
     "@tsconfig/recommended": 1.0.3
     "@types/fs-extra": 11.0.2
-    "@types/lodash": 4.14.199
+    "@types/lodash": 4.14.200
     "@types/lodash-es": 4.17.9
     "@types/tinycolor2": 1.4.4
     "@typescript-eslint/eslint-plugin": 6.8.0
@@ -6911,10 +6911,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:4.14.199":
-  version: 4.14.199
-  resolution: "@types/lodash@npm:4.14.199"
-  checksum: e68d1fcbbfce953ed87b296a628573f62939227bcda0c934954e862b421e8a34c5e71cad6fea27b9980567909e6a4698f09025692958e36d64ea9ed99ec6fb2e
+"@types/lodash@npm:4.14.200":
+  version: 4.14.200
+  resolution: "@types/lodash@npm:4.14.200"
+  checksum: 6471f8bb5da692a6ecf03a8da4935bfbc341e67ee9bcb4f5730bfacff0c367232548f0a01e8ac5ea18c6fe78fb085d502494e33ccb47a7ee87cbdee03b47d00d
   languageName: node
   linkType: hard
 
