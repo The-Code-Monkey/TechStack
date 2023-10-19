@@ -6278,7 +6278,7 @@ __metadata:
     "@types/fs-extra": 11.0.3
     "@types/lodash": 4.14.200
     "@types/lodash-es": 4.17.10
-    "@types/tinycolor2": 1.4.4
+    "@types/tinycolor2": 1.4.5
     "@typescript-eslint/eslint-plugin": 6.8.0
     "@typescript-eslint/parser": 6.8.0
     eslint: 8.51.0
@@ -7210,10 +7210,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tinycolor2@npm:1.4.4":
-  version: 1.4.4
-  resolution: "@types/tinycolor2@npm:1.4.4"
-  checksum: cf92f3b7c11750a4a8fe7ba2292fb9a795f5a0eeec39c69cf7e3fc3bbc3467a02c4eaf42d9eb258f63cd6a1c64448cfcf17301bacaa67e87cd0eacc93d25e12a
+"@types/tinycolor2@npm:1.4.5":
+  version: 1.4.5
+  resolution: "@types/tinycolor2@npm:1.4.5"
+  checksum: 653b9d9b4a07c94f9e507e2173ee8d6bebcfbc7c73b19f5d357a3af489957390d817db82a9e5a4823b41b10179e9d0b2b825068f7f9d42706d591f8b2c1a464f
   languageName: node
   linkType: hard
 
