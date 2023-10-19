@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.228](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.227...v1.2.228) (2023-10-19)
+
+**Note:** Version bump only for package @techstack/theme
+
+
+
+
+
 ## [1.2.227](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.226...v1.2.227) (2023-10-18)
 
 **Note:** Version bump only for package @techstack/theme
