@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.240](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.239...v1.2.240) (2023-10-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-datetime-picker to v5.5.3 ([5453770](https://github.com/The-Code-Monkey/TechStack/commit/5453770a7e3a306bcfb1193bc099cbd385f93fb8))
+
+
+
+
+
 ## [1.2.239](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.238...v1.2.239) (2023-10-20)
 
 **Note:** Version bump only for package @techstack/components
