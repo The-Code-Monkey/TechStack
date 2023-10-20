@@ -120,7 +120,7 @@
     "@techstack/react-lazy-named": "workspace:*",
     "@techstack/styled-system": "1.0.244",
     "@techstack/theme": "workspace:*",
-    "@types/react-table": "7.7.16",
+    "@types/react-table": "7.7.17",
     "classnames": "2.3.2",
     "csstype": "3.1.2",
     "deepmerge": "4.3.1",
