@@ -48,7 +48,7 @@
     "@techstack/tcm-cli": "workspace:*",
     "@testing-library/react": "14.0.0",
     "@types/jest": "29.5.6",
-    "@types/react": "18.2.30",
+    "@types/react": "18.2.31",
     "@typescript-eslint/eslint-plugin": "6.8.0",
     "@typescript-eslint/parser": "6.8.0",
     "eslint": "8.51.0",
