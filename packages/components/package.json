@@ -127,7 +127,7 @@
     "i18next": "23.5.1",
     "react": "18.2.0",
     "react-date-picker": "10.5.2",
-    "react-datetime-picker": "5.5.2",
+    "react-datetime-picker": "5.5.3",
     "react-i18next": "13.3.0",
     "react-responsive-carousel": "3.2.23",
     "react-table": "7.8.0",
