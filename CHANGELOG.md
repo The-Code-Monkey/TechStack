@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.245](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.244...v1.2.245) (2023-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency i18next to v23.6.0 ([86c2d9f](https://github.com/The-Code-Monkey/TechStack/commit/86c2d9fee75823e181c1d26614d56375d1d17543))
+
+
+
+
+
 ## [1.2.244](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.243...v1.2.244) (2023-10-21)
 
 **Note:** Version bump only for package techstack
