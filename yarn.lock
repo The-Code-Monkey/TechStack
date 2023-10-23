@@ -6229,7 +6229,7 @@ __metadata:
     eslint-plugin-react-hooks: 4.6.0
     eslint-plugin-testing-library: 6.1.0
     execa: 8.0.1
-    figlet: 1.6.0
+    figlet: 1.7.0
     fs-extra: 11.1.1
     jest: 29.7.0
     jest-environment-jsdom: 29.7.0
@@ -13643,12 +13643,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"figlet@npm:1.6.0":
-  version: 1.6.0
-  resolution: "figlet@npm:1.6.0"
+"figlet@npm:1.7.0":
+  version: 1.7.0
+  resolution: "figlet@npm:1.7.0"
   bin:
     figlet: bin/index.js
-  checksum: 7455df4198ab4e260310a2f0bbd8970b8a6c757de16b40f451944eac2a3299f6935b1f40d1cf54d3235c147c9f65ae465533c054ecb7656c076b5cc6037d9274
+  checksum: 3f61c2aeb13e48185a1b23598c005a6cd42cffcb01dd1ed0da80d692e14af5bfef774b99df6a840a6e4daa985b35d5ca0f085c471309bcdd6c06d6be58434ccf
   languageName: node
   linkType: hard
 
