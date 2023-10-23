@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.250](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.249...v1.2.250) (2023-10-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency figlet to v1.7.0 ([fe7f805](https://github.com/The-Code-Monkey/TechStack/commit/fe7f80573907d2e878db29fb9a175431200d0ddd))
+
+
+
+
+
 ## [1.2.248](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.247...v1.2.248) (2023-10-21)
 
 **Note:** Version bump only for package @techstack/tcm-cli
