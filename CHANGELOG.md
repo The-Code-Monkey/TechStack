@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.257](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.256...v1.2.257) (2023-10-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency style-dictionary to v3.9.0 ([527e953](https://github.com/The-Code-Monkey/TechStack/commit/527e95367100b3ca2c43ab3f403dfc04fb254133))
+
+
+
+
+
 ## [1.2.256](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.255...v1.2.256) (2023-10-24)
 
 **Note:** Version bump only for package techstack
