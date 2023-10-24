@@ -5988,7 +5988,7 @@ __metadata:
     react-virtual: 2.10.4
     sass: 1.69.4
     sass-loader: 13.3.2
-    size-limit: 9.0.0
+    size-limit: 10.0.1
     storybook: 7.5.1
     styled-components: 6.0.8
     ts-jest: 29.1.1
@@ -6298,7 +6298,7 @@ __metadata:
     lodash-es: 4.17.21
     prettier: 3.0.3
     sade: 1.8.1
-    size-limit: 9.0.0
+    size-limit: 10.0.1
     style-dictionary: 3.8.0
     tinycolor2: 1.6.0
     ts-jest: 29.1.1
@@ -14802,7 +14802,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^13.1.2":
+"globby@npm:^13.1.2, globby@npm:^13.2.2":
   version: 13.2.2
   resolution: "globby@npm:13.2.2"
   dependencies:
@@ -23282,19 +23282,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"size-limit@npm:9.0.0":
-  version: 9.0.0
-  resolution: "size-limit@npm:9.0.0"
+"size-limit@npm:10.0.1":
+  version: 10.0.1
+  resolution: "size-limit@npm:10.0.1"
   dependencies:
-    bytes-iec: "npm:^3.1.1"
-    chokidar: "npm:^3.5.3"
-    globby: "npm:^11.1.0"
-    lilconfig: "npm:^2.1.0"
-    nanospinner: "npm:^1.1.0"
-    picocolors: "npm:^1.0.0"
+    bytes-iec: ^3.1.1
+    chokidar: ^3.5.3
+    globby: ^13.2.2
+    lilconfig: ^2.1.0
+    nanospinner: ^1.1.0
+    picocolors: ^1.0.0
   bin:
     size-limit: bin.js
-  checksum: c20d5d24aa4edf931234a009067ffe4b7cc4e0e00d944684990284838910b556ba35f91a3c30e604e00037b21df346c966c0205f7539a0e50cb75852c07bb9d7
+  checksum: b78ecf651eeca4dd51dff156cf398a322c22119bf66cfb2a3dea158d080752661cab66b69c627966a062df96267815a3fa0d45c8f2c7f239319f55dbeca84753
   languageName: node
   linkType: hard
 
