@@ -5896,7 +5896,7 @@ __metadata:
     "@tsconfig/recommended": 1.0.3
     "@types/jest": 29.5.6
     "@types/node": ^20.5.6
-    "@types/react": 18.2.31
+    "@types/react": 18.2.32
     "@types/react-dom": 18.2.14
     "@types/react-table": 7.7.17
     "@typescript-eslint/eslint-plugin": 6.9.0
@@ -5946,7 +5946,7 @@ __metadata:
     "@storybook/react": 7.5.1
     "@techstack/tcm-cli": "workspace:*"
     "@types/node": 20.5.6
-    "@types/react": 18.2.31
+    "@types/react": 18.2.32
     "@typescript-eslint/eslint-plugin": 6.9.0
     "@typescript-eslint/parser": 6.9.0
     eslint: 8.52.0
@@ -6007,7 +6007,7 @@ __metadata:
   dependencies:
     "@techstack/tcm-cli": "workspace:*"
     "@types/node": ^20.5.6
-    "@types/react": 18.2.31
+    "@types/react": 18.2.32
     "@types/react-dom": 18.2.14
     "@typescript-eslint/eslint-plugin": 6.9.0
     "@typescript-eslint/parser": 6.9.0
@@ -6028,7 +6028,7 @@ __metadata:
   resolution: "@techstack/react-feather@workspace:packages/react-feather"
   dependencies:
     "@techstack/tcm-cli": "workspace:*"
-    "@types/react": 18.2.31
+    "@types/react": 18.2.32
     "@typescript-eslint/eslint-plugin": 6.9.0
     "@typescript-eslint/parser": 6.9.0
     cross-env: 7.0.3
@@ -6051,7 +6051,7 @@ __metadata:
     "@techstack/tcm-cli": "workspace:*"
     "@testing-library/react": 14.0.0
     "@types/jest": 29.5.6
-    "@types/react": 18.2.31
+    "@types/react": 18.2.32
     "@typescript-eslint/eslint-plugin": 6.9.0
     "@typescript-eslint/parser": 6.9.0
     eslint: 8.52.0
@@ -6079,7 +6079,7 @@ __metadata:
   dependencies:
     "@techstack/tcm-cli": "workspace:*"
     "@types/node": ^20.5.6
-    "@types/react": 18.2.31
+    "@types/react": 18.2.32
     "@typescript-eslint/eslint-plugin": 6.9.0
     "@typescript-eslint/parser": 6.9.0
     babel-cli: 6.26.0
@@ -6142,7 +6142,7 @@ __metadata:
     "@types/fs-extra": 11.0.3
     "@types/lodash": 4.14.200
     "@types/node": 18.17.1
-    "@types/react": 18.2.31
+    "@types/react": 18.2.32
     "@types/semver": 7.5.4
     "@types/shelljs": 0.8.14
     "@typescript-eslint/eslint-plugin": 6.9.0
@@ -7048,14 +7048,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.31":
-  version: 18.2.31
-  resolution: "@types/react@npm:18.2.31"
+"@types/react@npm:18.2.32":
+  version: 18.2.32
+  resolution: "@types/react@npm:18.2.32"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: b11be8e39174d3303e308461400889e353e422d22b01d09795b2c35b7b99d5351716503d9ec5c58e4c2c871249603fa52840d45a34fb5901dd7a26e06129c716
+  checksum: dad139dd165c4ce2364d1849af4e022746adc73f1a35bb5e0c95dbfee4732637de709504440c518e0177898aaf151b7a6b34019c8e398ea2e919dcfc4d79198f
   languageName: node
   linkType: hard
 
