@@ -5958,7 +5958,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@techstack/memoize@npm:1.2.267, @techstack/memoize@workspace:*, @techstack/memoize@workspace:packages/memoize":
+"@techstack/memoize@npm:1.2.267":
+  version: 1.2.267
+  resolution: "@techstack/memoize@npm:1.2.267"
+  checksum: 1d4f727253517b9b6e595d6f3b422df594ebd66ee9785707f366fcd827c22b2babb3fb9c53c5e22d73fa8cfbe1b1009e8c7ac4a89e54914acd1198be4dab6e08
+  languageName: node
+  linkType: hard
+
+"@techstack/memoize@workspace:*, @techstack/memoize@workspace:packages/memoize":
   version: 0.0.0-use.local
   resolution: "@techstack/memoize@workspace:packages/memoize"
   dependencies:

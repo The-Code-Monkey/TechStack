@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.269](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.268...v1.2.269) (2023-10-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @techstack/styled-system to v1.0.259 ([#2009](https://github.com/The-Code-Monkey/TechStack/issues/2009)) ([306b801](https://github.com/The-Code-Monkey/TechStack/commit/306b8014c4ba9a1393f10de43c114d7313a8fd50))
+* **deps:** update dependency eslint-plugin-jest to v27.6.0 ([#2008](https://github.com/The-Code-Monkey/TechStack/issues/2008)) ([eaa64c9](https://github.com/The-Code-Monkey/TechStack/commit/eaa64c9c8c45c9958afb9835de33451c968f49f2))
+
+
+
+
+
 ## [1.2.268](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.267...v1.2.268) (2023-10-26)
 
 **Note:** Version bump only for package techstack
