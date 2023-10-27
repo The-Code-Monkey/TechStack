@@ -3481,7 +3481,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lexical/react@npm:^0.12.2":
+"@lexical/react@npm:0.12.2":
   version: 0.12.2
   resolution: "@lexical/react@npm:0.12.2"
   dependencies:
@@ -6205,11 +6205,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@techstack/lexical@workspace:packages/lexical"
   dependencies:
-    "@lexical/react": "npm:^0.12.2"
+    "@lexical/react": "npm:0.12.2"
     "@techstack/tcm-cli": "workspace:^"
-    lexical: "npm:^0.12.2"
-    react: "npm:^18.2.0"
-    styled-components: "npm:^6.1.0"
+    lexical: "npm:0.12.2"
+    react: "npm:18.2.0"
+    styled-components: "npm:6.1.0"
   languageName: unknown
   linkType: soft
 
@@ -17728,7 +17728,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lexical@npm:^0.12.2":
+"lexical@npm:0.12.2":
   version: 0.12.2
   resolution: "lexical@npm:0.12.2"
   checksum: e8f3e92f19be4d95c26db377abb05c160c832ce1f1a31902a85b3f0d397586300800af45fb3c34eb4828988e49c526d8a8cd65b0124ff8ff18fa11ea7a55d0cf
@@ -22195,7 +22195,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0, react@npm:^18.2.0":
+"react@npm:18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -24261,7 +24261,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:6.1.0, styled-components@npm:^6.1.0":
+"styled-components@npm:6.1.0":
   version: 6.1.0
   resolution: "styled-components@npm:6.1.0"
   dependencies:
