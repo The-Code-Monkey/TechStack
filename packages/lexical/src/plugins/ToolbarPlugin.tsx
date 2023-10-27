@@ -43,7 +43,7 @@ import {
   RangeSelection,
   SELECTION_CHANGE_COMMAND,
 } from 'lexical';
-import { GridSelection, NodeSelection } from 'lexical/LexicalSelection';
+import type { GridSelection, NodeSelection } from 'lexical/LexicalSelection';
 import { createPortal } from 'react-dom';
 
 import DropdownColorPicker from '../components/DropdownColorPicker';
@@ -83,7 +83,7 @@ const blockTypeToBlockName = {
 };
 
 function Divider() {
-  return <div className="divider" />;
+  return <div className='divider' />;
 }
 
 function positionEditorElement(
@@ -106,6 +106,21 @@ function positionEditorElement(
       (rect?.width ?? 1) / 2
     }px`;
   }
+}
+
+function getSelectedNode(selection: RangeSelection) {
+  const { anchor } = selection;
+  const { focus } = selection;
+  const anchorNode = selection.anchor.getNode();
+  const focusNode = selection.focus.getNode();
+  if (anchorNode === focusNode) {
+    return anchorNode;
+  }
+  const isBackward = selection.isBackward();
+  if (isBackward) {
+    return $isAtNodeEnd(focus) ? anchorNode : focusNode;
+  }
+  return $isAtNodeEnd(anchor) ? focusNode : anchorNode;
 }
 
 interface FloatingLinkEditorProps {
@@ -148,7 +163,6 @@ function FloatingLinkEditor({ editor }: FloatingLinkEditorProps) {
       selection !== null &&
       !nativeSelection?.isCollapsed &&
       rootElement !== null &&
-      // @ts-ignore
       rootElement.contains(nativeSelection.anchorNode)
     ) {
       const domRange = nativeSelection?.getRangeAt(0);
@@ -211,16 +225,16 @@ function FloatingLinkEditor({ editor }: FloatingLinkEditorProps) {
   }, [isEditMode]);
 
   return (
-    <div ref={editorRef} className="link-editor">
+    <div ref={editorRef} className='link-editor'>
       {isEditMode ? (
         <input
           ref={inputRef}
-          className="link-input"
+          className='link-input'
           value={linkUrl}
-          onChange={(event) => {
+          onChange={event => {
             setLinkUrl(event.target.value);
           }}
-          onKeyDown={(event) => {
+          onKeyDown={event => {
             if (event.key === 'Enter') {
               event.preventDefault();
               if (lastSelection !== null) {
@@ -236,15 +250,15 @@ function FloatingLinkEditor({ editor }: FloatingLinkEditorProps) {
           }}
         />
       ) : (
-        <div className="link-input">
-          <a href={linkUrl} target="_blank" rel="noopener noreferrer">
+        <div className='link-input'>
+          <a href={linkUrl} target='_blank' rel='noopener noreferrer'>
             {linkUrl}
           </a>
           <div
-            className="link-edit"
-            role="button"
+            className='link-edit'
+            role='button'
             tabIndex={0}
-            onMouseDown={(event) => event.preventDefault()}
+            onMouseDown={event => event.preventDefault()}
             onClick={() => {
               setEditMode(true);
             }}
@@ -265,31 +279,16 @@ interface SelectProps {
 function Select({ onChange, className, options, value }: SelectProps) {
   return (
     <select className={className} onChange={onChange} value={value}>
-      <option hidden value="">
+      <option hidden value=''>
         &nbsp;
       </option>
-      {options.map((option) => (
+      {options.map(option => (
         <option key={option} value={option}>
           {option}
         </option>
       ))}
     </select>
   );
-}
-
-function getSelectedNode(selection: RangeSelection) {
-  const { anchor } = selection;
-  const { focus } = selection;
-  const anchorNode = selection.anchor.getNode();
-  const focusNode = selection.focus.getNode();
-  if (anchorNode === focusNode) {
-    return anchorNode;
-  }
-  const isBackward = selection.isBackward();
-  if (isBackward) {
-    return $isAtNodeEnd(focus) ? anchorNode : focusNode;
-  }
-  return $isAtNodeEnd(anchor) ? focusNode : anchorNode;
 }
 
 interface BlockOptionsDropdownListProps {
@@ -326,8 +325,10 @@ function BlockOptionsDropdownList({
       const handle = (event: MouseEvent) => {
         const { target } = event;
 
-        // @ts-ignore
-        if (!dropDown.contains(target) && !toolbar.contains(target)) {
+        if (
+          !dropDown.contains(target as never) &&
+          !toolbar.contains(target as never)
+        ) {
           setShowBlockOptionsDropDown(false);
         }
       };
@@ -380,11 +381,9 @@ function BlockOptionsDropdownList({
 
   const formatBulletList = () => {
     if (blockType !== 'ul') {
-      // @ts-ignore
-      editor.dispatchCommand(INSERT_UNORDERED_LIST_COMMAND);
+      editor.dispatchCommand(INSERT_UNORDERED_LIST_COMMAND, undefined);
     } else {
-      // @ts-ignore
-      editor.dispatchCommand(REMOVE_LIST_COMMAND);
+      editor.dispatchCommand(REMOVE_LIST_COMMAND, undefined);
     }
     setShowBlockOptionsDropDown(false);
   };
@@ -393,11 +392,9 @@ function BlockOptionsDropdownList({
     console.log(blockType);
 
     if (blockType !== 'ol') {
-      // @ts-ignore
       editor.dispatchCommand(INSERT_ORDERED_LIST_COMMAND, undefined);
     } else {
-      // @ts-ignore
-      editor.dispatchCommand(REMOVE_LIST_COMMAND);
+      editor.dispatchCommand(REMOVE_LIST_COMMAND, undefined);
     }
     setShowBlockOptionsDropDown(false);
   };
@@ -429,41 +426,41 @@ function BlockOptionsDropdownList({
   };
 
   return (
-    <div className="toolbar-dropdown" ref={dropDownRef}>
-      <button type="button" className="item" onClick={formatParagraph}>
-        <span className="icon paragraph" />
-        <span className="text">Normal</span>
-        {blockType === 'paragraph' && <span className="active" />}
+    <div className='toolbar-dropdown' ref={dropDownRef}>
+      <button type='button' className='item' onClick={formatParagraph}>
+        <span className='icon paragraph' />
+        <span className='text'>Normal</span>
+        {blockType === 'paragraph' && <span className='active' />}
       </button>
-      <button type="button" className="item" onClick={formatLargeHeading}>
-        <span className="icon large-heading" />
-        <span className="text">Large Heading</span>
-        {blockType === 'h1' && <span className="active" />}
+      <button type='button' className='item' onClick={formatLargeHeading}>
+        <span className='icon large-heading' />
+        <span className='text'>Large Heading</span>
+        {blockType === 'h1' && <span className='active' />}
       </button>
-      <button type="button" className="item" onClick={formatSmallHeading}>
-        <span className="icon small-heading" />
-        <span className="text">Small Heading</span>
-        {blockType === 'h2' && <span className="active" />}
+      <button type='button' className='item' onClick={formatSmallHeading}>
+        <span className='icon small-heading' />
+        <span className='text'>Small Heading</span>
+        {blockType === 'h2' && <span className='active' />}
       </button>
-      <button type="button" className="item" onClick={formatBulletList}>
-        <span className="icon bullet-list" />
-        <span className="text">Bullet List</span>
-        {blockType === 'ul' && <span className="active" />}
+      <button type='button' className='item' onClick={formatBulletList}>
+        <span className='icon bullet-list' />
+        <span className='text'>Bullet List</span>
+        {blockType === 'ul' && <span className='active' />}
       </button>
-      <button type="button" className="item" onClick={formatNumberedList}>
-        <span className="icon numbered-list" />
-        <span className="text">Numbered List</span>
-        {blockType === 'ol' && <span className="active" />}
+      <button type='button' className='item' onClick={formatNumberedList}>
+        <span className='icon numbered-list' />
+        <span className='text'>Numbered List</span>
+        {blockType === 'ol' && <span className='active' />}
       </button>
-      <button type="button" className="item" onClick={formatQuote}>
-        <span className="icon quote" />
-        <span className="text">Quote</span>
-        {blockType === 'quote' && <span className="active" />}
+      <button type='button' className='item' onClick={formatQuote}>
+        <span className='icon quote' />
+        <span className='text'>Quote</span>
+        {blockType === 'quote' && <span className='active' />}
       </button>
-      <button type="button" className="item" onClick={formatCode}>
-        <span className="icon code" />
-        <span className="text">Code Block</span>
-        {blockType === 'code' && <span className="active" />}
+      <button type='button' className='item' onClick={formatCode}>
+        <span className='icon code' />
+        <span className='text'>Code Block</span>
+        {blockType === 'code' && <span className='active' />}
       </button>
     </div>
   );
@@ -608,20 +605,20 @@ export default function ToolbarPlugin() {
   );
 
   return (
-    <div className="toolbar" ref={toolbarRef}>
+    <div className='toolbar' ref={toolbarRef}>
       {supportedBlockTypes.has(blockType) && (
         <>
           <button
-            className="toolbar-item block-controls"
-            type="button"
+            className='toolbar-item block-controls'
+            type='button'
             onClick={() =>
               setShowBlockOptionsDropDown(!showBlockOptionsDropDown)
             }
-            aria-label="Formatting Options"
+            aria-label='Formatting Options'
           >
             <span className={`icon block-type ${blockType}`} />
-            <span className="text">{blockTypeToBlockName[blockType]}</span>
-            <i className="chevron-down" />
+            <span className='text'>{blockTypeToBlockName[blockType]}</span>
+            <i className='chevron-down' />
           </button>
           {showBlockOptionsDropDown &&
             createPortal(
@@ -639,131 +636,131 @@ export default function ToolbarPlugin() {
       {blockType === 'code' ? (
         <>
           <Select
-            className="toolbar-item code-language"
+            className='toolbar-item code-language'
             onChange={onCodeLanguageSelect}
             options={codeLanguges}
             value={codeLanguage}
           />
-          <i className="chevron-down inside" />
+          <i className='chevron-down inside' />
         </>
       ) : (
         <>
           <button
-            type="button"
+            type='button'
             onClick={() => {
               editor.dispatchCommand(FORMAT_TEXT_COMMAND, 'bold');
             }}
             className={`toolbar-item spaced ${isBold ? 'active' : ''}`}
-            aria-label="Format Bold"
+            aria-label='Format Bold'
           >
-            <i className="format bold" />
+            <i className='format bold' />
           </button>
           <button
-            type="button"
+            type='button'
             onClick={() => {
               editor.dispatchCommand(FORMAT_TEXT_COMMAND, 'italic');
             }}
             className={`toolbar-item spaced ${isItalic ? 'active' : ''}`}
-            aria-label="Format Italics"
+            aria-label='Format Italics'
           >
-            <i className="format italic" />
+            <i className='format italic' />
           </button>
           <button
-            type="button"
+            type='button'
             onClick={() => {
               editor.dispatchCommand(FORMAT_TEXT_COMMAND, 'underline');
             }}
             className={`toolbar-item spaced ${isUnderline ? 'active' : ''}`}
-            aria-label="Format Underline"
+            aria-label='Format Underline'
           >
-            <i className="format underline" />
+            <i className='format underline' />
           </button>
           <button
-            type="button"
+            type='button'
             onClick={() => {
               editor.dispatchCommand(FORMAT_TEXT_COMMAND, 'strikethrough');
             }}
             className={`toolbar-item spaced ${isStrikethrough ? 'active' : ''}`}
-            aria-label="Format Strikethrough"
+            aria-label='Format Strikethrough'
           >
-            <i className="format strikethrough" />
+            <i className='format strikethrough' />
           </button>
           <button
-            type="button"
+            type='button'
             onClick={() => {
               editor.dispatchCommand(FORMAT_TEXT_COMMAND, 'code');
             }}
             className={`toolbar-item spaced ${isCode ? 'active' : ''}`}
-            aria-label="Insert Code"
+            aria-label='Insert Code'
           >
-            <i className="format code" />
+            <i className='format code' />
           </button>
           <button
-            type="button"
+            type='button'
             onClick={insertLink}
             className={`toolbar-item spaced ${isLink ? 'active' : ''}`}
-            aria-label="Insert Link"
+            aria-label='Insert Link'
           >
-            <i className="format link" />
+            <i className='format link' />
           </button>
           {isLink &&
             createPortal(<FloatingLinkEditor editor={editor} />, document.body)}
           <DropdownColorPicker
-            buttonClassName="toolbar-item color-picker"
-            buttonAriaLabel="Formatting text color"
-            buttonIconClassName="icon font-color"
+            buttonClassName='toolbar-item color-picker'
+            buttonAriaLabel='Formatting text color'
+            buttonIconClassName='icon font-color'
             color={fontColor}
             onChange={onFontColorSelect}
-            title="text color"
+            title='text color'
           />
           <DropdownColorPicker
-            buttonClassName="toolbar-item color-picker"
-            buttonAriaLabel="Formatting background color"
-            buttonIconClassName="icon bg-color"
+            buttonClassName='toolbar-item color-picker'
+            buttonAriaLabel='Formatting background color'
+            buttonIconClassName='icon bg-color'
             color={bgColor}
             onChange={onBgColorSelect}
-            title="bg color"
+            title='bg color'
           />
           <Divider />
           <button
-            type="button"
+            type='button'
             onClick={() => {
               editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'left');
             }}
-            className="toolbar-item spaced"
-            aria-label="Left Align"
+            className='toolbar-item spaced'
+            aria-label='Left Align'
           >
-            <i className="format left-align" />
+            <i className='format left-align' />
           </button>
           <button
-            type="button"
+            type='button'
             onClick={() => {
               editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'center');
             }}
-            className="toolbar-item spaced"
-            aria-label="Center Align"
+            className='toolbar-item spaced'
+            aria-label='Center Align'
           >
-            <i className="format center-align" />
+            <i className='format center-align' />
           </button>
           <button
-            type="button"
+            type='button'
             onClick={() => {
               editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'right');
             }}
-            className="toolbar-item spaced"
-            aria-label="Right Align"
+            className='toolbar-item spaced'
+            aria-label='Right Align'
           >
-            <i className="format right-align" />
+            <i className='format right-align' />
           </button>
           <button
-            type="button"
+            type='button'
             onClick={() => {
               editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'justify');
             }}
-            className="toolbar-item"
-            aria-label="Justify Align"
+            className='toolbar-item'
+            aria-label='Justify Align'
           >
-            <i className="format justify-align" />
+            <i className='format justify-align' />
           </button>{' '}
         </>
       )}

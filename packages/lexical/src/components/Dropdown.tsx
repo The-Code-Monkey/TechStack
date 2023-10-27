@@ -60,7 +60,7 @@ export function DropDownItem({
       onClick={onClick}
       ref={ref}
       title={title}
-      type="button"
+      type='button'
     >
       {children}
     </button>
@@ -82,7 +82,7 @@ function DropDownItems({
 
   const registerItem = useCallback(
     (itemRef: React.RefObject<HTMLButtonElement>) => {
-      setItems((prev) => (prev ? [...prev, itemRef] : [itemRef]));
+      setItems(prev => (prev ? [...prev, itemRef] : [itemRef]));
     },
     [setItems]
   );
@@ -99,13 +99,13 @@ function DropDownItems({
     if (key === 'Escape' || key === 'Tab') {
       onClose();
     } else if (key === 'ArrowUp') {
-      setHighlightedItem((prev) => {
+      setHighlightedItem(prev => {
         if (!prev) return items[0];
         const index = items.indexOf(prev) - 1;
         return items[index === -1 ? items.length - 1 : index];
       });
     } else if (key === 'ArrowDown') {
-      setHighlightedItem((prev) => {
+      setHighlightedItem(prev => {
         if (!prev) return items[0];
         return items[items.indexOf(prev) + 1];
       });
@@ -132,7 +132,7 @@ function DropDownItems({
   return (
     <DropDownContext.Provider value={contextValue}>
       <div
-        className="dropdown"
+        className='dropdown'
         style={{ position: 'absolute' }}
         ref={dropDownRef}
         onKeyDown={handleKeyDown}
@@ -239,7 +239,7 @@ export default function DropDown({
   return (
     <>
       <button
-        type="button"
+        type='button'
         disabled={disabled}
         aria-label={buttonAriaLabel || buttonLabel}
         className={buttonClassName}
@@ -248,9 +248,9 @@ export default function DropDown({
       >
         {buttonIconClassName && <span className={buttonIconClassName} />}
         {buttonLabel && (
-          <span className="text dropdown-button-text">{buttonLabel}</span>
+          <span className='text dropdown-button-text'>{buttonLabel}</span>
         )}
-        <i className="chevron-down" />
+        <i className='chevron-down' />
       </button>
 
       {showDropDown &&

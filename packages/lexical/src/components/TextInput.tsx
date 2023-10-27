@@ -20,14 +20,14 @@ export default function TextInput({
   type = 'text',
 }: Props): JSX.Element {
   return (
-    <InputWrapper className="Input__wrapper">
-      <label className="Input__label">{label}</label>
+    <InputWrapper className='Input__wrapper'>
+      <label className='Input__label'>{label}</label>
       <input
         type={type}
-        className="Input__input"
+        className='Input__input'
         placeholder={placeholder}
         value={value}
-        onChange={(e) => {
+        onChange={e => {
           onChange(e.target.value);
         }}
         data-test-id={dataTestId}

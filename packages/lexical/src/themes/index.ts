@@ -1,3 +1,3 @@
-import Default from './default'
+import Default from './default';
 
 export { Default };
