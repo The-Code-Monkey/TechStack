@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "@lexical/react": "0.12.2",
-    "@techstack/tcm-cli": "workspace:^",
+    "@techstack/tcm-cli": "0.1.0",
     "lexical": "0.12.2",
     "react": "18.2.0",
     "styled-components": "6.1.0"
