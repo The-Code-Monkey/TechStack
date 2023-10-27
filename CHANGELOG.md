@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.0...v1.3.1) (2023-10-27)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([#2011](https://github.com/The-Code-Monkey/TechStack/issues/2011)) ([43bc1bc](https://github.com/The-Code-Monkey/TechStack/commit/43bc1bca944f69597140c8ebdc0f29b9a646424d))
+
+
+
+
+
 # [1.3.0](https://github.com/The-Code-Monkey/TechStack/compare/v1.2.270...v1.3.0) (2023-10-27)
 
 
