@@ -3,7 +3,7 @@
   "author": "The-Code-Monkey",
   "packageManager": "yarn@4.0.1",
   "description": "a wrapper for facebook/lexical for react",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "scripts": {
     "build": "tcm build",
     "lint": "tcm lint"
