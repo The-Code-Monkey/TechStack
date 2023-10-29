@@ -4679,9 +4679,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-replace@npm:5.0.4":
-  version: 5.0.4
-  resolution: "@rollup/plugin-replace@npm:5.0.4"
+"@rollup/plugin-replace@npm:5.0.5":
+  version: 5.0.5
+  resolution: "@rollup/plugin-replace@npm:5.0.5"
   dependencies:
     "@rollup/pluginutils": "npm:^5.0.1"
     magic-string: "npm:^0.30.3"
@@ -4690,7 +4690,7 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: d84cb5f8422263407a93500375c4e8e64fcaa455f4ef0d32a609cb0779f65aa0c64b0a1bf3196e9d3777f92b504033771930896b6eeb98699978a3aab3150228
+  checksum: a896ebc67e0aeb59102dd3cc8647cfeaac6d37cf337f2e2ae412a83e14dace2bb65b52271a1186f8d1c1ea151a7f9d387a3d89d03012802af40543481571ea0a
   languageName: node
   linkType: hard
 
@@ -6379,7 +6379,7 @@ __metadata:
     "@rollup/plugin-commonjs": "npm:25.0.7"
     "@rollup/plugin-json": "npm:6.0.1"
     "@rollup/plugin-node-resolve": "npm:15.1.0"
-    "@rollup/plugin-replace": "npm:5.0.4"
+    "@rollup/plugin-replace": "npm:5.0.5"
     "@rollup/plugin-terser": "npm:0.4.4"
     "@types/color": "npm:3.0.5"
     "@types/cssnano": "npm:5.1.0"
