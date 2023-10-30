@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.5](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.4...v1.3.5) (2023-10-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rollup/plugin-replace to v5.0.5 ([315d5f7](https://github.com/The-Code-Monkey/TechStack/commit/315d5f7eed669a354600bf8e4a3826df939e97e4))
+
+
+
+
+
 ## [1.3.2](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.1...v1.3.2) (2023-10-28)
 
 
