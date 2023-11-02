@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.17](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.16...v1.3.17) (2023-11-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.8.0 ([527ff64](https://github.com/The-Code-Monkey/TechStack/commit/527ff64fdab47956e388da6760953c19f46f32fe))
+
+
+
+
+
 ## [1.3.14](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.13...v1.3.14) (2023-11-02)
 
 **Note:** Version bump only for package @techstack/tcm-cli
