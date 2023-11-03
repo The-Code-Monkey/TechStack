@@ -169,10 +169,10 @@ const ReactConfirmAlert = (props: Props) => {
             <div className='react-confirm-alert-button-group'>
               {buttons.map((button, i) => (
                 <button
-                  key={i}
-                  className={button.className}
                   {...button}
                   onClick={() => handleClickButton(button)}
+                  key={i}
+                  className={button.className ?? ''}
                 >
                   {button.label}
                 </button>

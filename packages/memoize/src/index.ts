@@ -1,5 +1,5 @@
-import areInputsEqual from './are-inputs-equal';
-import type { EqualityFn, MemoizedFn, Cache } from './types';
+import areInputsEqual from './are-inputs-equal.js';
+import type { EqualityFn, MemoizedFn, Cache } from './types.js';
 
 function index<TFunc extends (this: unknown, ...newArgs: unknown[]) => unknown>(
   resultFn: TFunc,
@@ -7,34 +7,29 @@ function index<TFunc extends (this: unknown, ...newArgs: unknown[]) => unknown>(
 ): MemoizedFn<TFunc> {
   let cache: Cache<TFunc> | null = null;
 
-  // breaking cache when context (this) or arguments change
   function memoized(
     this: ThisParameterType<TFunc>,
     ...newArgs: Parameters<TFunc>
-  ): ReturnType<TFunc> {
+  ): ReturnType<TFunc> | unknown {
     if (cache && cache.lastThis === this && isEqual(newArgs, cache.lastArgs)) {
-      return cache.lastResult;
+      return cache.lastResult as ReturnType<TFunc>;
     }
 
-    // Throwing during an assignment aborts the assignment: https://codepen.io/alexreardon/pen/RYKoaz
-    // Doing the lastResult assignment first so that if it throws
-    // the cache will not be overwritten
-    const lastResult = resultFn.apply(this, newArgs);
+    const lastResult: ReturnType<TFunc> = resultFn.apply(this, newArgs) as ReturnType<TFunc>;
     cache = {
       lastResult,
       lastArgs: newArgs,
       lastThis: this,
     };
 
-    return lastResult;
+    return lastResult as ReturnType<TFunc>;
   }
 
-  // Adding the ability to clear the cache of a memoized function
   memoized.clear = function clear() {
     cache = null;
   };
 
-  return memoized;
+  return memoized as MemoizedFn<TFunc>;
 }
 
 export { EqualityFn, MemoizedFn };

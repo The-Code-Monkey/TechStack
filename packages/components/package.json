@@ -62,7 +62,6 @@
     }
   },
   "devDependencies": {
-    "@bunstack/theme": "workspace:*",
     "@babel/core": "7.22.17",
     "@babel/preset-env": "7.22.15",
     "@babel/preset-react": "7.22.15",
@@ -113,6 +112,7 @@
     "webpack": "5.88.2"
   },
   "dependencies": {
+    "@bunstack/theme": "workspace:*",
     "@emotion/is-prop-valid": "1.2.1",
     "@tanstack/react-table": "8.9.8",
     "@techstack/memoize": "1.2.85",

@@ -10,7 +10,7 @@ import {
   Script,
   SortOption,
   Variant,
-} from './types';
+} from './types.js';
 
 type LoadingStatus = 'loading' | 'finished' | 'error';
 

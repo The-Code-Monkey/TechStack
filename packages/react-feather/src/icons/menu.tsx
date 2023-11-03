@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { IconProps } from '../types';
+import { IconProps } from '../types.js';
 
 const Menu = (
   { color = 'currentColor', size = 24, ...rest }: IconProps,
