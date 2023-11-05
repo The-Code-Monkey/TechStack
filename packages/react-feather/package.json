@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@techstack/tcm-cli": "workspace:*",
-    "@types/react": "18.2.34",
+    "@types/react": "18.2.35",
     "@typescript-eslint/eslint-plugin": "6.9.1",
     "@typescript-eslint/parser": "6.9.1",
     "cross-env": "7.0.3",
