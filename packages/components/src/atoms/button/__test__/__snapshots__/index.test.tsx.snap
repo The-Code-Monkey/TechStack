@@ -4,7 +4,7 @@ exports[`<Button /> renders default correctly 1`] = `
 <DocumentFragment>
   <button
     class="sc-dlniIP cSbhrL sc-eCAqax bFtNKm"
-    data-testid=""
+    data-testid="Default_button"
     type="button"
   >
     <span
@@ -21,7 +21,7 @@ exports[`<Button /> renders icon correctly 1`] = `
 <DocumentFragment>
   <button
     class="sc-dlniIP cSbhrL sc-eCAqax bFtNKm"
-    data-testid=""
+    data-testid="Secondary_button"
     type="button"
   >
     <div
@@ -59,7 +59,7 @@ exports[`<Button /> renders icon only correctly 1`] = `
 <DocumentFragment>
   <button
     class="sc-dlniIP cSbhrL sc-eCAqax bFtNKm"
-    data-testid=""
+    data-testid="_button"
     type="button"
   >
     <div
@@ -95,7 +95,7 @@ exports[`<Button /> renders primary correctly 1`] = `
 <DocumentFragment>
   <button
     class="sc-dlniIP cSbhrL sc-eCAqax cxXVaT"
-    data-testid=""
+    data-testid="Primary_button"
     type="button"
   >
     <span
@@ -112,7 +112,7 @@ exports[`<Button /> renders secondary correctly 1`] = `
 <DocumentFragment>
   <button
     class="sc-dlniIP cSbhrL sc-eCAqax hEEDkh"
-    data-testid=""
+    data-testid="Secondary_button"
     type="button"
   >
     <span

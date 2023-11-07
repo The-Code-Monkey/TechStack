@@ -9,15 +9,10 @@ const Icon = lazy(() =>
 import { InteractableProps, Text, IconProps } from '../../primal';
 
 import { StyledInteractable, iconOrientations, iconMargins } from './styled';
+import {ComponentPropsWithRef, ReactNode} from "react";
 
 export interface Props
-  extends Omit<InteractableProps, 'size'>,
-    Partial<
-      Omit<
-        HTMLButtonElement,
-        'className' | 'children' | 'disabled' | 'onClick' | 'onDoubleClick'
-      >
-    > {
+  extends Omit<InteractableProps, 'size'>, Omit<ComponentPropsWithRef<'button'>, 'onDoubleClick' | 'onClick' | 'color'> {
   iconName?: IconProps['name'];
   iconPosition?: 'left' | 'top' | 'right' | 'bottom';
   variant?: string;
@@ -35,8 +30,12 @@ const Button = ({
   variant = 'default',
   type = 'button',
   size = 'md',
+    onDragStart,
+    onDrag,
+    onDragEnd,
+    onDrop,
   ...rest
-}: Props) => {
+}: Props): ReactNode => {
   const hasChildren = useMemo(
     () => !(typeof children === 'string' && children === ''),
     [children]
@@ -46,11 +45,15 @@ const Button = ({
     <StyledInteractable
       className={className}
       forwardedAs='button'
-      testid={`${testid || children}_button`}
+      data-testid={`${testid || children}_button`}
       typography='button'
       variant={variant}
       type={type}
       size={size}
+      onDragStart={onDragStart}
+      onDrag={onDrag}
+        onDragEnd={onDragEnd}
+        onDrop={onDrop}
       {...rest}
       {...iconOrientations[iconPosition]}
     >
