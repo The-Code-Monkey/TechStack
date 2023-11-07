@@ -20,6 +20,8 @@ import ToolbarPlugin from './plugins/ToolbarPlugin';
 import OnChangePlugin from './plugins/OnChangePlugin';
 import { Default } from './themes';
 
+import './index.scss';
+
 function Placeholder() {
   return <div className='editor-placeholder'>Enter some rich text...</div>;
 }
