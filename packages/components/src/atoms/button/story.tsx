@@ -39,4 +39,10 @@ export const IconButtons = () => (
 );
 
 export const IconOnly = () => <Button iconName='github' />;
-export const Draggable = () => <Button iconName='github' draggable onDragStart={() => console.log("START DRAG")} />;
+export const Draggable = () => (
+  <Button
+    iconName='github'
+    draggable
+    onDragStart={() => console.log('START DRAG')}
+  />
+);

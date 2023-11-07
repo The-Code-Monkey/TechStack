@@ -6,13 +6,18 @@ const Icon = lazy(() =>
   import('../../primal').then(module => ({ default: module.Icon }))
 );
 
+import { ComponentPropsWithRef, ReactNode } from 'react';
+
 import { InteractableProps, Text, IconProps } from '../../primal';
 
 import { StyledInteractable, iconOrientations, iconMargins } from './styled';
-import {ComponentPropsWithRef, ReactNode} from "react";
 
 export interface Props
-  extends Omit<InteractableProps, 'size'>, Omit<ComponentPropsWithRef<'button'>, 'onDoubleClick' | 'onClick' | 'color'> {
+  extends Omit<InteractableProps, 'size'>,
+    Omit<
+      ComponentPropsWithRef<'button'>,
+      'onDoubleClick' | 'onClick' | 'color'
+    > {
   iconName?: IconProps['name'];
   iconPosition?: 'left' | 'top' | 'right' | 'bottom';
   variant?: string;
@@ -30,10 +35,10 @@ const Button = ({
   variant = 'default',
   type = 'button',
   size = 'md',
-    onDragStart,
-    onDrag,
-    onDragEnd,
-    onDrop,
+  onDragStart,
+  onDrag,
+  onDragEnd,
+  onDrop,
   ...rest
 }: Props): ReactNode => {
   const hasChildren = useMemo(
@@ -52,8 +57,8 @@ const Button = ({
       size={size}
       onDragStart={onDragStart}
       onDrag={onDrag}
-        onDragEnd={onDragEnd}
-        onDrop={onDrop}
+      onDragEnd={onDragEnd}
+      onDrop={onDrop}
       {...rest}
       {...iconOrientations[iconPosition]}
     >
