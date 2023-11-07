@@ -51,7 +51,7 @@
     "@tsconfig/recommended": "1.0.3",
     "@types/fs-extra": "11.0.3",
     "@types/lodash": "4.14.200",
-    "@types/lodash-es": "4.17.10",
+    "@types/lodash-es": "4.17.11",
     "@types/tinycolor2": "1.4.5",
     "@typescript-eslint/eslint-plugin": "6.10.0",
     "@typescript-eslint/parser": "6.10.0",
