@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.32](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.31...v1.3.32) (2023-11-07)
+
+
+### Bug Fixes
+
+* add scss ([421e5eb](https://github.com/The-Code-Monkey/TechStack/commit/421e5ebe4258fbdaa9729421fc5bbe957ca19f07))
+
+
+
+
+
 ## [1.3.31](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.30...v1.3.31) (2023-11-07)
 
 **Note:** Version bump only for package techstack
