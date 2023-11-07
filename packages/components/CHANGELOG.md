@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.30](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.29...v1.3.30) (2023-11-07)
+
+
+### Bug Fixes
+
+* linting ([94c7b34](https://github.com/The-Code-Monkey/TechStack/commit/94c7b34135fc806b610c736b7f2c7c333d767a72))
+
+
+
+
+
 ## [1.3.29](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.28...v1.3.29) (2023-11-07)
 
 **Note:** Version bump only for package @techstack/components
