@@ -6503,7 +6503,7 @@ __metadata:
     "@tsconfig/recommended": "npm:1.0.3"
     "@types/fs-extra": "npm:11.0.3"
     "@types/lodash": "npm:4.14.200"
-    "@types/lodash-es": "npm:4.17.10"
+    "@types/lodash-es": "npm:4.17.11"
     "@types/tinycolor2": "npm:1.4.5"
     "@typescript-eslint/eslint-plugin": "npm:6.10.0"
     "@typescript-eslint/parser": "npm:6.10.0"
@@ -7112,12 +7112,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash-es@npm:4.17.10":
-  version: 4.17.10
-  resolution: "@types/lodash-es@npm:4.17.10"
+"@types/lodash-es@npm:4.17.11":
+  version: 4.17.11
+  resolution: "@types/lodash-es@npm:4.17.11"
   dependencies:
     "@types/lodash": "npm:*"
-  checksum: 813cc81a694e5dcbb89379ded1761cf3fcf1cc13839856cdb10b6401be3ca16974bd7c94088f316ab18a8c58a3632af8b37a35da5cd107a430ab41d63c8dc012
+  checksum: b9629f0e26df2bd8f727bcf9e4737b65657d42386f354ed2b35acc093b4f2fd07aea70731158a69aee1d2d78c418eb23ffc1d6e164a71d63225a9322e3e7054e
   languageName: node
   linkType: hard
 
