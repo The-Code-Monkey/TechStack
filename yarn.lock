@@ -6414,7 +6414,7 @@ __metadata:
     "@rollup/plugin-node-resolve": "npm:15.1.0"
     "@rollup/plugin-replace": "npm:5.0.5"
     "@rollup/plugin-terser": "npm:0.4.4"
-    "@types/color": "npm:3.0.5"
+    "@types/color": "npm:3.0.6"
     "@types/cssnano": "npm:5.1.0"
     "@types/eslint": "npm:8.44.7"
     "@types/figlet": "npm:1.5.8"
@@ -6799,12 +6799,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/color@npm:3.0.5":
-  version: 3.0.5
-  resolution: "@types/color@npm:3.0.5"
+"@types/color@npm:3.0.6":
+  version: 3.0.6
+  resolution: "@types/color@npm:3.0.6"
   dependencies:
     "@types/color-convert": "npm:*"
-  checksum: f647e634c5078a717a397f9a83d0310a4a7cdfa2d1ceefdca2733af7b77cc3be47ffa132c5f372d96a394ef7ba3ca746f85c8a6b14959e60d0ffe9726b9a4411
+  checksum: 79267eeb67f9d11761aecee36bb1503fb8daa699b9ae7e036fc23a74380e5b130c5c0f6d7adafabba89256e46f36ee4d3e28e0ac7e107e8258550eae7d091acf
   languageName: node
   linkType: hard
 
