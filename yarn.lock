@@ -6418,7 +6418,7 @@ __metadata:
     "@types/cssnano": "npm:5.1.0"
     "@types/eslint": "npm:8.44.7"
     "@types/figlet": "npm:1.5.8"
-    "@types/fs-extra": "npm:11.0.3"
+    "@types/fs-extra": "npm:11.0.4"
     "@types/lodash": "npm:4.14.200"
     "@types/node": "npm:18.17.1"
     "@types/react": "npm:18.2.36"
@@ -6501,7 +6501,7 @@ __metadata:
     "@size-limit/file": "npm:10.0.2"
     "@techstack/tcm-cli": "workspace:*"
     "@tsconfig/recommended": "npm:1.0.3"
-    "@types/fs-extra": "npm:11.0.3"
+    "@types/fs-extra": "npm:11.0.4"
     "@types/lodash": "npm:4.14.200"
     "@types/lodash-es": "npm:4.17.11"
     "@types/tinycolor2": "npm:1.4.5"
@@ -6971,13 +6971,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/fs-extra@npm:11.0.3":
-  version: 11.0.3
-  resolution: "@types/fs-extra@npm:11.0.3"
+"@types/fs-extra@npm:11.0.4":
+  version: 11.0.4
+  resolution: "@types/fs-extra@npm:11.0.4"
   dependencies:
     "@types/jsonfile": "npm:*"
     "@types/node": "npm:*"
-  checksum: c3b83e6e88e0ef56de0a48b0df27a173a7e6d6a527e0e1b9692c61c186f5a4bfe0c6cb464ff02528165dd8d90acc6d09e2df1d138fdc6fae7680a73c6e714958
+  checksum: 9e34f9b24ea464f3c0b18c3f8a82aefc36dc524cc720fc2b886e5465abc66486ff4e439ea3fb2c0acebf91f6d3f74e514f9983b1f02d4243706bdbb7511796ad
   languageName: node
   linkType: hard
 

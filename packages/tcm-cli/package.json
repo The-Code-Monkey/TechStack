@@ -110,7 +110,7 @@
     "@types/cssnano": "5.1.0",
     "@types/eslint": "8.44.7",
     "@types/figlet": "1.5.8",
-    "@types/fs-extra": "11.0.3",
+    "@types/fs-extra": "11.0.4",
     "@types/lodash": "4.14.200",
     "@types/node": "18.17.1",
     "@types/react": "18.2.36",
