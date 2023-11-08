@@ -6419,7 +6419,7 @@ __metadata:
     "@types/eslint": "npm:8.44.7"
     "@types/figlet": "npm:1.5.8"
     "@types/fs-extra": "npm:11.0.4"
-    "@types/lodash": "npm:4.14.200"
+    "@types/lodash": "npm:4.14.201"
     "@types/node": "npm:18.17.1"
     "@types/react": "npm:18.2.36"
     "@types/semver": "npm:7.5.4"
@@ -6502,7 +6502,7 @@ __metadata:
     "@techstack/tcm-cli": "workspace:*"
     "@tsconfig/recommended": "npm:1.0.3"
     "@types/fs-extra": "npm:11.0.4"
-    "@types/lodash": "npm:4.14.200"
+    "@types/lodash": "npm:4.14.201"
     "@types/lodash-es": "npm:4.17.11"
     "@types/tinycolor2": "npm:1.4.5"
     "@typescript-eslint/eslint-plugin": "npm:6.10.0"
@@ -7137,10 +7137,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:4.14.200":
-  version: 4.14.200
-  resolution: "@types/lodash@npm:4.14.200"
-  checksum: 7a8dac6dc866f10d1888846d6189d1faeb4f65adb139f0837a005fd1adcde62e60d7e7abb1a2733d13fc57bebb337d74182d8ad3dbd1d211dcd0c310c47e81bc
+"@types/lodash@npm:4.14.201":
+  version: 4.14.201
+  resolution: "@types/lodash@npm:4.14.201"
+  checksum: 14dc43787296c429433d7d034ed47c5ac24b92217056f80a0e6c990449120b9c9c1058918188945fb88353c0c8333c5c36dccc40c51edbd39b05d2169ab2e0ad
   languageName: node
   linkType: hard
 
