@@ -6792,7 +6792,7 @@ __metadata:
     eslint-plugin-prettier: "npm:5.0.1"
     eslint-plugin-react: "npm:7.33.2"
     esm: "npm:3.2.25"
-    i18next: "npm:23.6.0"
+    i18next: "npm:23.7.2"
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
     jest-watch-typeahead: "npm:2.2.2"
@@ -16242,12 +16242,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:23.6.0":
-  version: 23.6.0
-  resolution: "i18next@npm:23.6.0"
+"i18next@npm:23.7.2":
+  version: 23.7.2
+  resolution: "i18next@npm:23.7.2"
   dependencies:
-    "@babel/runtime": "npm:^7.22.5"
-  checksum: 292055897c01dd7720b3c6ab1321bd2b3b1f89e36702da9da90493f2a9e931e6a1f762a5b40d8e91c72803a8e80102ba9b64a4ffc0174acb91805f969072437c
+    "@babel/runtime": "npm:^7.23.2"
+  checksum: e4c59d5a75e0bc942a64af7bcb717f391860b4053629c73d05c49ba8fd427ca486caf64bc47a8d7c8f89b76bca2a96576ad8d0a2544bcbc3c18234bc7cf111cb
   languageName: node
   linkType: hard
 
