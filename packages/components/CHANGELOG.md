@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.55](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.54...v1.3.55) (2023-11-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-i18next to v13.3.2 ([d7cf79b](https://github.com/The-Code-Monkey/TechStack/commit/d7cf79be463970c3f35277c57774d8506a523686))
+
+
+
+
+
 ## [1.3.54](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.53...v1.3.54) (2023-11-10)
 
 **Note:** Version bump only for package @techstack/components
