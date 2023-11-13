@@ -6813,7 +6813,7 @@ __metadata:
     react-virtual: "npm:2.10.4"
     sass: "npm:1.69.5"
     sass-loader: "npm:13.3.2"
-    size-limit: "npm:10.0.3"
+    size-limit: "npm:11.0.0"
     storybook: "npm:7.5.3"
     styled-components: "npm:6.1.0"
     ts-jest: "npm:29.1.1"
@@ -7128,7 +7128,7 @@ __metadata:
     lodash-es: "npm:4.17.21"
     prettier: "npm:3.0.3"
     sade: "npm:1.8.1"
-    size-limit: "npm:10.0.3"
+    size-limit: "npm:11.0.0"
     style-dictionary: "npm:3.9.0"
     tinycolor2: "npm:1.6.0"
     ts-jest: "npm:29.1.1"
@@ -24320,9 +24320,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"size-limit@npm:10.0.3":
-  version: 10.0.3
-  resolution: "size-limit@npm:10.0.3"
+"size-limit@npm:11.0.0":
+  version: 11.0.0
+  resolution: "size-limit@npm:11.0.0"
   dependencies:
     bytes-iec: "npm:^3.1.1"
     chokidar: "npm:^3.5.3"
@@ -24332,7 +24332,7 @@ __metadata:
     picocolors: "npm:^1.0.0"
   bin:
     size-limit: bin.js
-  checksum: be801543039dec7bf7b2a69ec7667b1993985e31ef31837e9f3327c123940317e604d5783cca9312c60609024de56ca9fef855919ca85273c5d7a0377d600882
+  checksum: 529ab5386dda4518631456d9b52b2f4ca1a35dd5f7ac71780abea63fe439d0e645413ade70607014de8c23152007a87ea9d0df31253e39cc8fcc304fb0d93b0a
   languageName: node
   linkType: hard
 
