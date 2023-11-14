@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.78](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.77...v1.3.78) (2023-11-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup to v4.4.1 ([df97972](https://github.com/The-Code-Monkey/TechStack/commit/df97972833c0707b6a44072a54ae7335abc6c2df))
+
+
+
+
+
 ## [1.3.75](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.74...v1.3.75) (2023-11-13)
 
 **Note:** Version bump only for package @techstack/tcm-cli
