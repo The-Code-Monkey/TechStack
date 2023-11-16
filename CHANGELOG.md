@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.81](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.80...v1.3.81) (2023-11-16)
+
+**Note:** Version bump only for package techstack
+
+
+
+
+
 ## [1.3.80](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.79...v1.3.80) (2023-11-16)
 
 
