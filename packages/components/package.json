@@ -80,7 +80,7 @@
     "@storybook/react-webpack5": "7.5.3",
     "@storybook/testing-library": "0.2.2",
     "@techstack/tcm-cli": "workspace:*",
-    "@testing-library/react": "14.1.0",
+    "@testing-library/react": "14.1.2",
     "@tsconfig/create-react-app": "2.0.1",
     "@tsconfig/recommended": "1.0.3",
     "@types/jest": "29.5.8",
