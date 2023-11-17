@@ -6786,7 +6786,7 @@ __metadata:
     "@types/react-table": "npm:7.7.18"
     "@typescript-eslint/eslint-plugin": "npm:6.11.0"
     "@typescript-eslint/parser": "npm:6.11.0"
-    chromatic: "npm:9.0.0"
+    chromatic: "npm:9.1.0"
     classnames: "npm:2.3.2"
     cross-env: "npm:7.0.3"
     csstype: "npm:3.1.2"
@@ -11427,14 +11427,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:9.0.0":
-  version: 9.0.0
-  resolution: "chromatic@npm:9.0.0"
+"chromatic@npm:9.1.0":
+  version: 9.1.0
+  resolution: "chromatic@npm:9.1.0"
   bin:
     chroma: dist/bin.js
     chromatic: dist/bin.js
     chromatic-cli: dist/bin.js
-  checksum: 9127171d64aa337b24b3862bab7f86d52abdfd1d6911c1259acbd980788d8e063d18cf438d3b0756400946e135ac9b50003db2c0449ee943be125fb9d9bc33f1
+  checksum: 27d0ff5ef993024301f31d137e9774b051de908d48dcd461c33b51c92e5e7b57cd062eaddafcd02f1c2a98cfe5d5ef26b7fcdf77b76df94e357171074a23b950
   languageName: node
   linkType: hard
 
