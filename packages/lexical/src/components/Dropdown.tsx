@@ -18,6 +18,7 @@ import React, {
   useState,
 } from 'react';
 import { createPortal } from 'react-dom';
+import { ChevronDown } from '@techstack/react-feather';
 
 type DropDownContextType = {
   registerItem: (ref: RefObject<HTMLButtonElement>) => void;
@@ -149,6 +150,7 @@ export default function DropDown({
   buttonAriaLabel,
   buttonClassName,
   buttonIconClassName,
+  buttonIcon,
   children,
   stopCloseOnClickSelf,
 }: {
@@ -159,6 +161,7 @@ export default function DropDown({
   buttonLabel?: string;
   children: ReactNode;
   stopCloseOnClickSelf?: boolean;
+  buttonIcon: ReactNode;
 }): JSX.Element {
   const dropDownRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
@@ -246,11 +249,15 @@ export default function DropDown({
         onClick={() => setShowDropDown(!showDropDown)}
         ref={buttonRef}
       >
-        {buttonIconClassName && <span className={buttonIconClassName} />}
+        {buttonIconClassName && (
+          <span className={buttonIconClassName}>{buttonIcon}</span>
+        )}
         {buttonLabel && (
           <span className='text dropdown-button-text'>{buttonLabel}</span>
         )}
-        <i className='chevron-down' />
+        <i className='chevron-down'>
+          <ChevronDown />
+        </i>
       </button>
 
       {showDropDown &&

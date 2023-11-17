@@ -6850,7 +6850,8 @@ __metadata:
   resolution: "@techstack/lexical@workspace:packages/lexical"
   dependencies:
     "@lexical/react": "npm:0.12.2"
-    "@techstack/tcm-cli": "workspace:^"
+    "@techstack/react-feather": "workspace:*"
+    "@techstack/tcm-cli": "workspace:*"
     lexical: "npm:0.12.2"
     react: "npm:18.2.0"
     styled-components: "npm:6.1.0"
@@ -7008,7 +7009,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@techstack/tcm-cli@workspace:*, @techstack/tcm-cli@workspace:^, @techstack/tcm-cli@workspace:packages/tcm-cli":
+"@techstack/tcm-cli@workspace:*, @techstack/tcm-cli@workspace:packages/tcm-cli":
   version: 0.0.0-use.local
   resolution: "@techstack/tcm-cli@workspace:packages/tcm-cli"
   dependencies:

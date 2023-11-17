@@ -1,3 +1,5 @@
+import { ReactNode } from 'react';
+
 import ColorPicker from './ColorPicker';
 import DropDown from './Dropdown';
 
@@ -11,6 +13,7 @@ type Props = {
   stopCloseOnClickSelf?: boolean;
   color: string;
   onChange?: (color: string) => void;
+  buttonIcon: ReactNode;
 };
 
 export default function DropdownColorPicker({

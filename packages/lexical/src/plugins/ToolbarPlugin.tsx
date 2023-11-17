@@ -1,6 +1,7 @@
 import {
   ChangeEvent,
   Dispatch,
+  ReactNode,
   RefObject,
   SetStateAction,
   useCallback,
@@ -45,6 +46,27 @@ import {
 } from 'lexical';
 import type { GridSelection, NodeSelection } from 'lexical/LexicalSelection';
 import { createPortal } from 'react-dom';
+import {
+  AlignCenter,
+  AlignJustify,
+  AlignLeft,
+  AlignRight,
+  BgColor,
+  Bold,
+  ChevronDown,
+  Code,
+  FontColor,
+  Italic,
+  Link,
+  ListOl,
+  ListUl,
+  Quote,
+  Strikethrough,
+  TextParagraph,
+  TypeH1,
+  TypeH2,
+  Underline,
+} from '@techstack/react-feather';
 
 import DropdownColorPicker from '../components/DropdownColorPicker';
 
@@ -68,6 +90,16 @@ const supportedBlockTypes = new Set<supportedBlockTypesType>([
   'ul',
   'ol',
 ]);
+
+const supportedBlockTypesIcons: Record<supportedBlockTypesType, ReactNode> = {
+  code: <Code />,
+  h1: <TypeH1 />,
+  h2: <TypeH2 />,
+  ol: <ListOl />,
+  paragraph: <TextParagraph />,
+  quote: <Quote />,
+  ul: <ListUl />,
+};
 
 const blockTypeToBlockName = {
   code: 'Code Block',
@@ -428,37 +460,51 @@ function BlockOptionsDropdownList({
   return (
     <div className='toolbar-dropdown' ref={dropDownRef}>
       <button type='button' className='item' onClick={formatParagraph}>
-        <span className='icon paragraph' />
+        <span className='icon paragraph'>
+          <TextParagraph />
+        </span>
         <span className='text'>Normal</span>
         {blockType === 'paragraph' && <span className='active' />}
       </button>
       <button type='button' className='item' onClick={formatLargeHeading}>
-        <span className='icon large-heading' />
+        <span className='icon large-heading'>
+          <TypeH1 />
+        </span>
         <span className='text'>Large Heading</span>
         {blockType === 'h1' && <span className='active' />}
       </button>
       <button type='button' className='item' onClick={formatSmallHeading}>
-        <span className='icon small-heading' />
+        <span className='icon small-heading'>
+          <TypeH2 />
+        </span>
         <span className='text'>Small Heading</span>
         {blockType === 'h2' && <span className='active' />}
       </button>
       <button type='button' className='item' onClick={formatBulletList}>
-        <span className='icon bullet-list' />
+        <span className='icon bullet-list'>
+          <ListUl />
+        </span>
         <span className='text'>Bullet List</span>
         {blockType === 'ul' && <span className='active' />}
       </button>
       <button type='button' className='item' onClick={formatNumberedList}>
-        <span className='icon numbered-list' />
+        <span className='icon numbered-list'>
+          <ListOl />
+        </span>
         <span className='text'>Numbered List</span>
         {blockType === 'ol' && <span className='active' />}
       </button>
       <button type='button' className='item' onClick={formatQuote}>
-        <span className='icon quote' />
+        <span className='icon quote'>
+          <Quote />
+        </span>
         <span className='text'>Quote</span>
         {blockType === 'quote' && <span className='active' />}
       </button>
       <button type='button' className='item' onClick={formatCode}>
-        <span className='icon code' />
+        <span className='icon code'>
+          <Code />
+        </span>
         <span className='text'>Code Block</span>
         {blockType === 'code' && <span className='active' />}
       </button>
@@ -616,9 +662,13 @@ export default function ToolbarPlugin() {
             }
             aria-label='Formatting Options'
           >
-            <span className={`icon block-type ${blockType}`} />
+            <span className={`icon block-type ${blockType}`}>
+              {supportedBlockTypesIcons[blockType]}
+            </span>
             <span className='text'>{blockTypeToBlockName[blockType]}</span>
-            <i className='chevron-down' />
+            <i className='chevron-down'>
+              <ChevronDown />
+            </i>
           </button>
           {showBlockOptionsDropDown &&
             createPortal(
@@ -653,7 +703,9 @@ export default function ToolbarPlugin() {
             className={`toolbar-item spaced ${isBold ? 'active' : ''}`}
             aria-label='Format Bold'
           >
-            <i className='format bold' />
+            <i className='format bold'>
+              <Bold />
+            </i>
           </button>
           <button
             type='button'
@@ -663,7 +715,9 @@ export default function ToolbarPlugin() {
             className={`toolbar-item spaced ${isItalic ? 'active' : ''}`}
             aria-label='Format Italics'
           >
-            <i className='format italic' />
+            <i className='format italic'>
+              <Italic />
+            </i>
           </button>
           <button
             type='button'
@@ -673,7 +727,9 @@ export default function ToolbarPlugin() {
             className={`toolbar-item spaced ${isUnderline ? 'active' : ''}`}
             aria-label='Format Underline'
           >
-            <i className='format underline' />
+            <i className='format underline'>
+              <Underline />
+            </i>
           </button>
           <button
             type='button'
@@ -683,7 +739,9 @@ export default function ToolbarPlugin() {
             className={`toolbar-item spaced ${isStrikethrough ? 'active' : ''}`}
             aria-label='Format Strikethrough'
           >
-            <i className='format strikethrough' />
+            <i className='format strikethrough'>
+              <Strikethrough />
+            </i>
           </button>
           <button
             type='button'
@@ -693,7 +751,9 @@ export default function ToolbarPlugin() {
             className={`toolbar-item spaced ${isCode ? 'active' : ''}`}
             aria-label='Insert Code'
           >
-            <i className='format code' />
+            <i className='format code'>
+              <Code />
+            </i>
           </button>
           <button
             type='button'
@@ -701,7 +761,9 @@ export default function ToolbarPlugin() {
             className={`toolbar-item spaced ${isLink ? 'active' : ''}`}
             aria-label='Insert Link'
           >
-            <i className='format link' />
+            <i className='format link'>
+              <Link />
+            </i>
           </button>
           {isLink &&
             createPortal(<FloatingLinkEditor editor={editor} />, document.body)}
@@ -709,6 +771,7 @@ export default function ToolbarPlugin() {
             buttonClassName='toolbar-item color-picker'
             buttonAriaLabel='Formatting text color'
             buttonIconClassName='icon font-color'
+            buttonIcon={<FontColor />}
             color={fontColor}
             onChange={onFontColorSelect}
             title='text color'
@@ -717,6 +780,7 @@ export default function ToolbarPlugin() {
             buttonClassName='toolbar-item color-picker'
             buttonAriaLabel='Formatting background color'
             buttonIconClassName='icon bg-color'
+            buttonIcon={<BgColor />}
             color={bgColor}
             onChange={onBgColorSelect}
             title='bg color'
@@ -730,7 +794,9 @@ export default function ToolbarPlugin() {
             className='toolbar-item spaced'
             aria-label='Left Align'
           >
-            <i className='format left-align' />
+            <i className='format left-align'>
+              <AlignLeft />
+            </i>
           </button>
           <button
             type='button'
@@ -740,7 +806,9 @@ export default function ToolbarPlugin() {
             className='toolbar-item spaced'
             aria-label='Center Align'
           >
-            <i className='format center-align' />
+            <i className='format center-align'>
+              <AlignCenter />
+            </i>
           </button>
           <button
             type='button'
@@ -750,7 +818,9 @@ export default function ToolbarPlugin() {
             className='toolbar-item spaced'
             aria-label='Right Align'
           >
-            <i className='format right-align' />
+            <i className='format right-align'>
+              <AlignRight />
+            </i>
           </button>
           <button
             type='button'
@@ -760,7 +830,9 @@ export default function ToolbarPlugin() {
             className='toolbar-item'
             aria-label='Justify Align'
           >
-            <i className='format justify-align' />
+            <i className='format justify-align'>
+              <AlignJustify />
+            </i>
           </button>{' '}
         </>
       )}
