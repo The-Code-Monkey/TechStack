@@ -1,4 +1,4 @@
-import { helpcircle as DefaultIcon, IconProps } from '@techstack/react-feather';
+import { HelpCircle, IconProps } from '@techstack/react-feather';
 import type { IconTypes } from '@techstack/react-feather';
 import { ResponsiveValue, TLengthStyledSystem } from '@techstack/styled-system';
 import { Property } from 'csstype';
@@ -32,7 +32,7 @@ export const FeatherIcon = ({
   const Element = getIcon(name);
 
   return (
-    <Suspense fallback={<DefaultIcon {...rest} data-name='fallback-icon' />}>
+    <Suspense fallback={<HelpCircle {...rest} data-name='fallback-icon' />}>
       <Element data-testid={testid} />
     </Suspense>
   );

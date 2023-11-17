@@ -9,20 +9,20 @@ export default {
 
 export const Default = {
   args: {
-    name: 'github',
+    name: 'GitHub',
   },
 };
 
 export const Colored = {
   args: {
-    name: 'github',
+    name: 'GitHub',
     color: 'red',
   },
 };
 
 export const Filled = {
   args: {
-    name: 'github',
+    name: 'GitHub',
     color: 'red',
     fill: true,
   },
