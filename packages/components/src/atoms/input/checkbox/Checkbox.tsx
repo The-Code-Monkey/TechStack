@@ -2,7 +2,6 @@ import { Interactable, Icon } from '../../../primal';
 import { generateAutomationId } from '../../../utils';
 
 import { disabledStyles, checkedStyles } from './styled';
-
 export interface Props {
   testid?: string;
   onChange?: (p1: boolean) => void;
@@ -52,7 +51,7 @@ const Checkbox = ({ value, onChange, disabled, testid, name }: Props) => {
               ? 'minus'
               : 'check'
           }
-          name={indeterminate ? 'minus' : 'check'}
+          name={indeterminate ? 'Minus' : 'Check'}
           size='full'
         />
       )}

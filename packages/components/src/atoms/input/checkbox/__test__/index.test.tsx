@@ -18,25 +18,4 @@ describe('<Checkbox />', () => {
 
     expect(asFragment()).toMatchSnapshot();
   });
-  //
-  // it('renders correctly indeterminate', () => {
-  //   const { asFragment } = mountWithTheme(<Checkbox indeterminate />);
-  //   expect(asFragment()).toMatchSnapshot();
-  // });
-  //
-  // it('calls onClick function', async () => {
-  //   const {asFragment} = mountWithTheme(<Checkbox />);
-  //
-  //   expect(asFragment()).toMatchSnapshot()
-  //
-  //   // await waitFor(() => expect(screen.getByTitle('minus-icon')));
-  //
-  //   // fireEvent.click(screen.getByTitle('minus-icon'));
-  //
-  //   expect(asFragment()).toMatchSnapshot()
-  //
-  //   // await waitFor(() => expect(screen.getByTitle('check-icon')));
-  //
-  //   expect(asFragment()).toMatchSnapshot()
-  // });
 });

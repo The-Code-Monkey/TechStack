@@ -120,7 +120,7 @@ export { default as GitBranch } from './git-branch';
 export { default as GitCommit } from './git-commit';
 export { default as GitMerge } from './git-merge';
 export { default as GitPullRequest } from './git-pull-request';
-export { default as GitHub } from './github';
+export { default as Github } from './github';
 export { default as Gitlab } from './gitlab';
 export { default as Globe } from './globe';
 export { default as Grid } from './grid';

@@ -1,5 +1,4 @@
 import * as React from 'react';
-
 const { useMemo, lazy } = React;
 
 const Icon = lazy(() =>

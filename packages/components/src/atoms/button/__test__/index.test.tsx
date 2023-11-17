@@ -25,7 +25,7 @@ describe('<Button />', () => {
 
   it('renders icon correctly', async () => {
     const { asFragment } = mountWithTheme(
-      <Button iconName='github'>Secondary</Button>
+      <Button iconName='Github'>Secondary</Button>
     );
 
     await act(async () => {
@@ -36,7 +36,7 @@ describe('<Button />', () => {
   });
 
   it('renders icon only correctly', async () => {
-    const { asFragment } = mountWithTheme(<Button iconName='github' />);
+    const { asFragment } = mountWithTheme(<Button iconName='Github' />);
 
     await act(async () => {
       await waitFor(() => expect(screen.findByTestId('github_icon')));

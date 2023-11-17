@@ -25,6 +25,6 @@ const GitHub = (
   );
 };
 
-GitHub.displayName = 'GitHub';
+GitHub.displayName = 'Github';
 
 export default React.forwardRef(GitHub);

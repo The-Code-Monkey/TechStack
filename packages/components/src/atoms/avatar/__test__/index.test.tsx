@@ -10,7 +10,7 @@ describe('<Avatar />', () => {
   });
 
   it('renders icon correctly', async () => {
-    const { asFragment } = mountWithTheme(<Avatar iconName='github' />);
+    const { asFragment } = mountWithTheme(<Avatar iconName='Github' />);
 
     await act(async () => {
       await waitFor(() => expect(screen.findByTestId('github_icon')));
