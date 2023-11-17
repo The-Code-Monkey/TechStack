@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.87](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.86...v1.3.87) (2023-11-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency type-fest to v4.8.1 ([b49527a](https://github.com/The-Code-Monkey/TechStack/commit/b49527a904e71835406f236f9017199ef38a8eb5))
+
+
+
+
+
 ## [1.3.81](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.80...v1.3.81) (2023-11-16)
 
 **Note:** Version bump only for package @techstack/tcm-cli
