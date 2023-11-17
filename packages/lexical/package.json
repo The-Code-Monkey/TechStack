@@ -20,8 +20,14 @@
   "main": "./dist/index.js",
   "module": "./dist/lexical.esm.js",
   "exports": {
-    ".": "./dist/index.js",
-    "css": "./dist/index.scss"
+    ".": {
+      "import": "./dist/lexical.esm.js",
+      "require": "./dist/index.js"
+    },
+    "./css": {
+      "import": "./dist/index.scss",
+      "require": "./dist/index.scss"
+    }
   },
   "typings": "dist/types/index.d.ts",
   "files": [
