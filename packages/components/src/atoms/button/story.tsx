@@ -25,23 +25,23 @@ export const Intents = () => (
 
 export const IconButtons = () => (
   <>
-    <Button iconName='github'>left</Button>
-    <Button iconName='github' iconPosition='top'>
+    <Button iconName='Github'>left</Button>
+    <Button iconName='Github' iconPosition='top'>
       top
     </Button>
-    <Button iconName='github' iconPosition='right'>
+    <Button iconName='Github' iconPosition='right'>
       right
     </Button>
-    <Button iconName='github' iconPosition='bottom'>
+    <Button iconName='Github' iconPosition='bottom'>
       bottom
     </Button>
   </>
 );
 
-export const IconOnly = () => <Button iconName='github' />;
+export const IconOnly = () => <Button iconName='Github' />;
 export const Draggable = () => (
   <Button
-    iconName='github'
+    iconName='Github'
     draggable
     onDragStart={() => console.log('START DRAG')}
   />
