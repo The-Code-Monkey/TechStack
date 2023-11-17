@@ -23,6 +23,10 @@
     ".": {
       "import": "./dist/lexical.esm.js",
       "require": "./dist/index.js"
+    },
+    "css": {
+      "import": "./dist/index.scss",
+      "require": "./dist/index.scss",
     }
   },
   "typings": "dist/types/index.d.ts",
