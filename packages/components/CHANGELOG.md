@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.85](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.84...v1.3.85) (2023-11-17)
+
+
+### Bug Fixes
+
+* incorrect import ([0894fda](https://github.com/The-Code-Monkey/TechStack/commit/0894fda79c9bd29f90d9469720a11ee98e0f7a01))
+* more icons to update ([e779a00](https://github.com/The-Code-Monkey/TechStack/commit/e779a005e96e4c80eacbd4233780863204ff0ea3))
+* update icons ([903c64f](https://github.com/The-Code-Monkey/TechStack/commit/903c64fb4e0417c3ddae2a8a40f2d144419e40e7))
+* update icons where used ([4ab2f73](https://github.com/The-Code-Monkey/TechStack/commit/4ab2f73eafd450565c629eb2237086e17255480e))
+
+
+
+
+
 ## [1.3.82](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.81...v1.3.82) (2023-11-16)
 
 

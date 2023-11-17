@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.85](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.84...v1.3.85) (2023-11-17)
+
+
+### Bug Fixes
+
+* update icon types ([ea75c21](https://github.com/The-Code-Monkey/TechStack/commit/ea75c21da91be473a8f032b9abaf8723a7cc5920))
+* update icons ([903c64f](https://github.com/The-Code-Monkey/TechStack/commit/903c64fb4e0417c3ddae2a8a40f2d144419e40e7))
+
+
+
+
+
 ## [1.3.81](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.80...v1.3.81) (2023-11-16)
 
 **Note:** Version bump only for package @techstack/react-feather
