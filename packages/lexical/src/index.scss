@@ -308,6 +308,7 @@ pre::-webkit-scrollbar-thumb {
     padding-top: 6px;
     cursor: pointer;
     vertical-align: middle;
+    align-items: center;
   }
 
   .toolbar button.toolbar-item:disabled {
@@ -396,7 +397,7 @@ pre::-webkit-scrollbar-thumb {
   .toolbar i.chevron-down {
     margin-top: 3px;
     width: 16px;
-    height: 16px;
+    height: 6px;
     display: flex;
     user-select: none;
   }
