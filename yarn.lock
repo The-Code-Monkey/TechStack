@@ -6853,7 +6853,7 @@ __metadata:
     "@lexical/react": "npm:0.12.4"
     "@techstack/react-feather": "workspace:*"
     "@techstack/tcm-cli": "workspace:*"
-    lexical: "npm:0.12.2"
+    lexical: "npm:0.12.4"
     react: "npm:18.2.0"
     styled-components: "npm:6.1.0"
   languageName: unknown
@@ -18522,10 +18522,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lexical@npm:0.12.2":
-  version: 0.12.2
-  resolution: "lexical@npm:0.12.2"
-  checksum: e8f3e92f19be4d95c26db377abb05c160c832ce1f1a31902a85b3f0d397586300800af45fb3c34eb4828988e49c526d8a8cd65b0124ff8ff18fa11ea7a55d0cf
+"lexical@npm:0.12.4":
+  version: 0.12.4
+  resolution: "lexical@npm:0.12.4"
+  checksum: 6d26b17cd2fabe18091b8e3cf267d8f0d4a27164def296d7dac2966934a3c115757444f259eb244e435f31b74acdda2792e9ee262322f3b5306433d8b8dd7e6e
   languageName: node
   linkType: hard
 
