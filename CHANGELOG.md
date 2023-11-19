@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.89](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.88...v1.3.89) (2023-11-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @lexical/react to v0.12.4 ([#2099](https://github.com/The-Code-Monkey/TechStack/issues/2099)) ([595791f](https://github.com/The-Code-Monkey/TechStack/commit/595791f0ce9a0a52b90ed4bc5e5bbc800a32eeea))
+* **deps:** update dependency @techstack/styled-system to v1.0.288 ([486a638](https://github.com/The-Code-Monkey/TechStack/commit/486a63898db55e240969fdb07f0c9a0a59440a19))
+* **deps:** update dependency lexical to v0.12.4 ([997058f](https://github.com/The-Code-Monkey/TechStack/commit/997058fa21c1ee6edc3d2608e788255a69c4cc30))
+* **deps:** update dependency rollup to v4.5.0 ([d4e6109](https://github.com/The-Code-Monkey/TechStack/commit/d4e6109d6ab623f0c4a86e4a504d623648978cc2))
+
+
+
+
+
 ## [1.3.88](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.87...v1.3.88) (2023-11-18)
 
 **Note:** Version bump only for package techstack
