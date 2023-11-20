@@ -48,8 +48,8 @@ const Checkbox = ({ value, onChange, disabled, testid, name }: Props) => {
             testid
               ? `${testid}_checkbox_icon`
               : indeterminate
-              ? 'minus'
-              : 'check'
+                ? 'minus'
+                : 'check'
           }
           name={indeterminate ? 'Minus' : 'Check'}
           size='full'
