@@ -3,7 +3,7 @@
 exports[`<Box /> renders as a form correctly 1`] = `
 <DocumentFragment>
   <form
-    class="sc-bdnyFh gTbATd"
+    class="sc-bdfCDU bEKhAZ"
     data-testid="box"
   >
     This is some children
@@ -14,7 +14,7 @@ exports[`<Box /> renders as a form correctly 1`] = `
 exports[`<Box /> renders children correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bdnyFh gTbATd"
+    class="sc-bdfCDU bEKhAZ"
     data-testid="box"
   >
     This is some children
