@@ -6897,7 +6897,7 @@ __metadata:
     styled-components: "npm:6.1.1"
     ts-jest: "npm:29.1.1"
     tslib: "npm:2.6.2"
-    typescript: "npm:5.2.2"
+    typescript: "npm:5.3.2"
     webpack: "npm:5.89.0"
   languageName: unknown
   linkType: soft
@@ -6920,7 +6920,7 @@ __metadata:
     eslint-plugin-react: "npm:7.33.2"
     prettier: "npm:3.1.0"
     react: "npm:18.2.0"
-    typescript: "npm:5.2.2"
+    typescript: "npm:5.3.2"
   languageName: unknown
   linkType: soft
 
@@ -6967,7 +6967,7 @@ __metadata:
     prettier: "npm:3.1.0"
     ts-jest: "npm:29.1.1"
     tslib: "npm:2.6.2"
-    typescript: "npm:5.2.2"
+    typescript: "npm:5.3.2"
   languageName: unknown
   linkType: soft
 
@@ -6989,7 +6989,7 @@ __metadata:
     prettier: "npm:3.1.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-    typescript: "npm:5.2.2"
+    typescript: "npm:5.3.2"
   languageName: unknown
   linkType: soft
 
@@ -7010,7 +7010,7 @@ __metadata:
     fs-extra: "npm:11.1.1"
     prettier: "npm:3.1.0"
     react: "npm:18.2.0"
-    typescript: "npm:5.2.2"
+    typescript: "npm:5.3.2"
   languageName: unknown
   linkType: soft
 
@@ -7039,7 +7039,7 @@ __metadata:
     react-dom: "npm:18.2.0"
     ts-jest: "npm:29.1.1"
     tslib: "npm:2.6.2"
-    typescript: "npm:5.2.2"
+    typescript: "npm:5.3.2"
   languageName: unknown
   linkType: soft
 
@@ -7071,7 +7071,7 @@ __metadata:
     process: "npm:0.11.10"
     react: "npm:18.2.0"
     rimraf: "npm:5.0.5"
-    typescript: "npm:5.2.2"
+    typescript: "npm:5.3.2"
     webpack-dev-server: "npm:4.15.1"
   languageName: unknown
   linkType: soft
@@ -7179,7 +7179,7 @@ __metadata:
     ts-node: "npm:10.9.1"
     tslib: "npm:2.6.2"
     type-fest: "npm:4.8.1"
-    typescript: "npm:5.2.2"
+    typescript: "npm:5.3.2"
   bin:
     tcm: dist/index.js
   languageName: unknown
@@ -7213,7 +7213,7 @@ __metadata:
     tinycolor2: "npm:1.6.0"
     ts-jest: "npm:29.1.1"
     tslib: "npm:2.6.2"
-    typescript: "npm:5.2.2"
+    typescript: "npm:5.3.2"
   bin:
     orchard: ./dist/esm/index.js
   languageName: unknown
@@ -7235,7 +7235,7 @@ __metadata:
     mocha: "npm:10.2.0"
     prettier: "npm:3.1.0"
     rewire: "npm:7.0.0"
-    typescript: "npm:5.2.2"
+    typescript: "npm:5.3.2"
   bin:
     x-default-browser: bin/x-default-browser.js
   languageName: unknown
@@ -26031,7 +26031,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.2.2, typescript@npm:>=3 < 6":
+"typescript@npm:5.3.2":
+  version: 5.3.2
+  resolution: "typescript@npm:5.3.2"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: d7dbe1fbe19039e36a65468ea64b5d338c976550394ba576b7af9c68ed40c0bc5d12ecce390e4b94b287a09a71bd3229f19c2d5680611f35b7c53a3898791159
+  languageName: node
+  linkType: hard
+
+"typescript@npm:>=3 < 6":
   version: 5.2.2
   resolution: "typescript@npm:5.2.2"
   bin:
@@ -26041,7 +26051,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A>=3 < 6#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>":
+  version: 5.3.2
+  resolution: "typescript@patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 73c8bad74e732d93211c9d77f28b03307e2f5fc6a0afc73f4b783261ab567686a16d6ae958bdaef383a00be1b0b8c8b6741dd6ca3d13af4963fa7e47456d49c7
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A>=3 < 6#optional!builtin<compat/typescript>":
   version: 5.2.2
   resolution: "typescript@patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
