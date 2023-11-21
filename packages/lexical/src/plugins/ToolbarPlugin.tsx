@@ -344,8 +344,9 @@ function BlockOptionsDropdownList({
     const dropDown = dropDownRef.current;
 
     if (toolbar !== null && dropDown !== null) {
-      const { top, left } = toolbar.getBoundingClientRect();
-      dropDown.style.top = `${top + 40}px`;
+      const { left } = toolbar.getBoundingClientRect();
+
+      dropDown.style.top = `${toolbar.offsetTop + 40}px`;
       dropDown.style.left = `${left}px`;
     }
   }, [dropDownRef, toolbarRef]);
@@ -679,7 +680,7 @@ export default function ToolbarPlugin() {
                 toolbarRef={toolbarRef}
                 setShowBlockOptionsDropDown={setShowBlockOptionsDropDown}
               />,
-              editor.getRootElement()
+              document.body
             )}
           <Divider />
         </>
@@ -767,10 +768,7 @@ export default function ToolbarPlugin() {
             </i>
           </button>
           {isLink &&
-            createPortal(
-              <FloatingLinkEditor editor={editor} />,
-              editor.getRootElement()
-            )}
+            createPortal(<FloatingLinkEditor editor={editor} />, document.body)}
           <DropdownColorPicker
             buttonClassName='toolbar-item color-picker'
             buttonAriaLabel='Formatting text color'
