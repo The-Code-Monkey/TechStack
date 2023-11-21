@@ -1,8 +1,5 @@
 name: Deploy Package Version
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
+on: [push]
 
 jobs:
   deploy:
