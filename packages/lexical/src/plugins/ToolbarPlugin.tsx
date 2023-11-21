@@ -339,14 +339,13 @@ function BlockOptionsDropdownList({
   const dropDownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    console.log('toolbar ref', toolbarRef);
     const toolbar = toolbarRef.current;
     const dropDown = dropDownRef.current;
 
     if (toolbar !== null && dropDown !== null) {
       const { left } = toolbar.getBoundingClientRect();
 
-      dropDown.style.top = `${toolbar.offsetTop + 40}px`;
+      dropDown.style.top = `40px`;
       dropDown.style.left = `${left}px`;
     }
   }, [dropDownRef, toolbarRef]);
@@ -423,8 +422,6 @@ function BlockOptionsDropdownList({
   };
 
   const formatNumberedList = () => {
-    console.log(blockType);
-
     if (blockType !== 'ol') {
       editor.dispatchCommand(INSERT_ORDERED_LIST_COMMAND, undefined);
     } else {
@@ -672,16 +669,14 @@ export default function ToolbarPlugin() {
               <ChevronDown />
             </i>
           </button>
-          {showBlockOptionsDropDown &&
-            createPortal(
-              <BlockOptionsDropdownList
-                editor={editor}
-                blockType={blockType}
-                toolbarRef={toolbarRef}
-                setShowBlockOptionsDropDown={setShowBlockOptionsDropDown}
-              />,
-              document.body
-            )}
+          {showBlockOptionsDropDown && (
+            <BlockOptionsDropdownList
+              editor={editor}
+              blockType={blockType}
+              toolbarRef={toolbarRef}
+              setShowBlockOptionsDropDown={setShowBlockOptionsDropDown}
+            />
+          )}
           <Divider />
         </>
       )}
