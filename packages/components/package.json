@@ -29,8 +29,8 @@
     "lint": "yarn build:tokens && tcm lint",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "storybook": "yarn build:tokens && storybook dev -p 6006",
-    "build-storybook": "yarn build:tokens && storybook build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
     "release": "yarn lint && yarn build && release-it --ci --npm.access=public",
     "chromatic": "npx chromatic"
   },
@@ -73,7 +73,10 @@
     "@storybook/addon-interactions": "7.5.3",
     "@storybook/addon-links": "7.5.3",
     "@storybook/addon-mdx-gfm": "7.5.3",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/addon-styling-webpack": "^0.0.5",
     "@storybook/addons": "7.5.3",
+    "@storybook/blocks": "^7.5.3",
     "@storybook/client-api": "7.5.3",
     "@storybook/jest": "0.2.3",
     "@storybook/react": "7.5.3",
@@ -96,6 +99,7 @@
     "eslint-plugin-import": "2.29.0",
     "eslint-plugin-prettier": "5.0.1",
     "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-storybook": "^0.6.15",
     "esm": "3.2.25",
     "jest": "29.7.0",
     "jest-environment-jsdom": "29.7.0",
@@ -137,7 +141,10 @@
   "eslintConfig": {
     "rules": {
       "import/no-unresolved": "off"
-    }
+    },
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a",
   "browser": {
