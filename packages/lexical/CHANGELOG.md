@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.94](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.93...v1.3.94) (2023-11-21)
+
+
+### Bug Fixes
+
+* update to be relative ([3aa5fe2](https://github.com/The-Code-Monkey/TechStack/commit/3aa5fe2ea2b1e69e3638ff45c26512c035796a08))
+
+
+
+
+
 ## [1.3.93](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.92...v1.3.93) (2023-11-21)
 
 
