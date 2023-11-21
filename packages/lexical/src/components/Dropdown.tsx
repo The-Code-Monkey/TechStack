@@ -133,7 +133,7 @@ function DropDownItems({
     <DropDownContext.Provider value={contextValue}>
       <div
         className='dropdown'
-        style={{ position: 'absolute' }}
+        style={{ position: 'absolute', zIndex: 1000, background: 'white' }}
         ref={dropDownRef}
         onKeyDown={handleKeyDown}
       >
