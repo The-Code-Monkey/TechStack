@@ -1,5 +1,8 @@
 name: Deploy Package Version
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
