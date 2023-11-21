@@ -77,7 +77,11 @@ function EditorContainer({ value, onChange, name }: Props) {
 
   return (
     <LexicalComposer
-      initialConfig={{ ...editorConfig, editorState: getEditorState, namespace: `Editor-${name}` }}
+      initialConfig={{
+        ...editorConfig,
+        editorState: getEditorState,
+        namespace: `Editor-${name}`,
+      }}
     >
       <div className='editor-container'>
         <ToolbarPlugin />

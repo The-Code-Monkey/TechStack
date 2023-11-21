@@ -339,7 +339,7 @@ function BlockOptionsDropdownList({
   const dropDownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    console.log("toolbar ref", toolbarRef);
+    console.log('toolbar ref', toolbarRef);
     const toolbar = toolbarRef.current;
     const dropDown = dropDownRef.current;
 
@@ -767,7 +767,10 @@ export default function ToolbarPlugin() {
             </i>
           </button>
           {isLink &&
-            createPortal(<FloatingLinkEditor editor={editor} />, editor.getRootElement())}
+            createPortal(
+              <FloatingLinkEditor editor={editor} />,
+              editor.getRootElement()
+            )}
           <DropdownColorPicker
             buttonClassName='toolbar-item color-picker'
             buttonAriaLabel='Formatting text color'
