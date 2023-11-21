@@ -339,6 +339,7 @@ function BlockOptionsDropdownList({
   const dropDownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    console.log("toolbar ref", toolbarRef);
     const toolbar = toolbarRef.current;
     const dropDown = dropDownRef.current;
 

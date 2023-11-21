@@ -51,9 +51,10 @@ const editorConfig: InitialConfigType = {
 interface Props {
   value: string;
   onChange: (a: string) => void;
+  name: string;
 }
 
-function EditorContainer({ value, onChange }: Props) {
+function EditorContainer({ value, onChange, name }: Props) {
   const onChangeFn = (v: string) => {
     onChange(v);
   };
@@ -76,7 +77,7 @@ function EditorContainer({ value, onChange }: Props) {
 
   return (
     <LexicalComposer
-      initialConfig={{ ...editorConfig, editorState: getEditorState }}
+      initialConfig={{ ...editorConfig, editorState: getEditorState, namespace: `Editor-${name}` }}
     >
       <div className='editor-container'>
         <ToolbarPlugin />

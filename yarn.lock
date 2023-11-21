@@ -5881,6 +5881,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/addon-onboarding@npm:^1.0.8":
+  version: 1.0.8
+  resolution: "@storybook/addon-onboarding@npm:1.0.8"
+  dependencies:
+    "@storybook/telemetry": "npm:^7.1.0-alpha.32"
+    react-confetti: "npm:^6.1.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 12444cd8831e289df6e46d76fb61932678e4424e591a3ea0be1517547e2111bd35e54161674b851d00d507b05b7e28c6ca83e2b1b09bca483004c51b8f4b5acd
+  languageName: node
+  linkType: hard
+
 "@storybook/addon-outline@npm:7.5.3":
   version: 7.5.3
   resolution: "@storybook/addon-outline@npm:7.5.3"
@@ -5902,6 +5915,17 @@ __metadata:
     react-dom:
       optional: true
   checksum: 754413dc06a7fc4a0e0bd8e64553443afd0930b387ddeec5b32ef1e84ba9740d0944f9e60d793d8797fd588400c09fdfb3c5aa9330955bb4967e0b1c1fa3f309
+  languageName: node
+  linkType: hard
+
+"@storybook/addon-styling-webpack@npm:^0.0.5":
+  version: 0.0.5
+  resolution: "@storybook/addon-styling-webpack@npm:0.0.5"
+  dependencies:
+    "@storybook/node-logger": "npm:^7.0.12"
+  peerDependencies:
+    webpack: ^5.0.0
+  checksum: 6dbf0c64376075f956c9a61ecf3f4e76db666f528f1949fbc168740c39deed14ca97c710724ebe0dd3ca8536f8da686ea6ecfa20adea7ad64740c2a12c38df09
   languageName: node
   linkType: hard
 
@@ -5965,7 +5989,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/blocks@npm:7.5.3":
+"@storybook/blocks@npm:7.5.3, @storybook/blocks@npm:^7.5.3":
   version: 7.5.3
   resolution: "@storybook/blocks@npm:7.5.3"
   dependencies:
@@ -6337,6 +6361,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/csf@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "@storybook/csf@npm:0.0.1"
+  dependencies:
+    lodash: "npm:^4.17.15"
+  checksum: 7b0f75763415f9147692a460b44417ee56ea9639433716a1fd4d1df4c8b0221cbc71b8da0fbed4dcecb3ccd6c7ed64be39f5c255c713539a6088a1d6488aaa24
+  languageName: node
+  linkType: hard
+
 "@storybook/csf@npm:^0.1.0":
   version: 0.1.1
   resolution: "@storybook/csf@npm:0.1.1"
@@ -6448,7 +6481,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/node-logger@npm:7.5.3":
+"@storybook/node-logger@npm:7.5.3, @storybook/node-logger@npm:^7.0.12":
   version: 7.5.3
   resolution: "@storybook/node-logger@npm:7.5.3"
   checksum: 327f5eef43adcbbf9c5daa49c82ee8d57e6cf795defdde12b9988e04c66209ea99a49574f73a82c01c78331756dd5d50440a1d09cc7b3b6ff19e672d24390e94
@@ -6624,7 +6657,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/telemetry@npm:7.5.3":
+"@storybook/telemetry@npm:7.5.3, @storybook/telemetry@npm:^7.1.0-alpha.32":
   version: 7.5.3
   resolution: "@storybook/telemetry@npm:7.5.3"
   dependencies:
@@ -6842,7 +6875,10 @@ __metadata:
     "@storybook/addon-interactions": "npm:7.5.3"
     "@storybook/addon-links": "npm:7.5.3"
     "@storybook/addon-mdx-gfm": "npm:7.5.3"
+    "@storybook/addon-onboarding": "npm:^1.0.8"
+    "@storybook/addon-styling-webpack": "npm:^0.0.5"
     "@storybook/addons": "npm:7.5.3"
+    "@storybook/blocks": "npm:^7.5.3"
     "@storybook/client-api": "npm:7.5.3"
     "@storybook/jest": "npm:0.2.3"
     "@storybook/react": "npm:7.5.3"
@@ -6875,6 +6911,7 @@ __metadata:
     eslint-plugin-import: "npm:2.29.0"
     eslint-plugin-prettier: "npm:5.0.1"
     eslint-plugin-react: "npm:7.33.2"
+    eslint-plugin-storybook: "npm:^0.6.15"
     esm: "npm:3.2.25"
     i18next: "npm:23.7.6"
     jest: "npm:29.7.0"
@@ -8381,7 +8418,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.62.0, @typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.58.0":
+"@typescript-eslint/utils@npm:5.62.0, @typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.45.0, @typescript-eslint/utils@npm:^5.58.0":
   version: 5.62.0
   resolution: "@typescript-eslint/utils@npm:5.62.0"
   dependencies:
@@ -14122,6 +14159,20 @@ __metadata:
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
   checksum: f9b247861024bafc396c4bd3c9ac946604b3b23077251c98f23602aa22027a0c33a69157fd49564e4ff7f17b3678e5dc366a46c7ec42a09454d7cbce786d5001
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-storybook@npm:^0.6.15":
+  version: 0.6.15
+  resolution: "eslint-plugin-storybook@npm:0.6.15"
+  dependencies:
+    "@storybook/csf": "npm:^0.0.1"
+    "@typescript-eslint/utils": "npm:^5.45.0"
+    requireindex: "npm:^1.1.0"
+    ts-dedent: "npm:^2.2.0"
+  peerDependencies:
+    eslint: ">=6"
+  checksum: c61f5f2af72b614c30e8b36644672cfa25ca28e963e5e6cfab438f0cb287a6270f875a2dd8cd600a04c9864b9c549e269d95ea8da88c412e2b868fcd6a3605a4
   languageName: node
   linkType: hard
 
@@ -22741,6 +22792,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-confetti@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "react-confetti@npm:6.1.0"
+  dependencies:
+    tween-functions: "npm:^1.2.0"
+  peerDependencies:
+    react: ^16.3.0 || ^17.0.1 || ^18.0.0
+  checksum: 5b4eb23eef564695f6db1d25b294ed31d5fa21ff4092c6a38e641f85cd10e3e0b50014366e3ac0f7cf772e73faaecd14614e5b11a5531336fa769dda8068ab59
+  languageName: node
+  linkType: hard
+
 "react-date-picker@npm:10.5.2":
   version: 10.5.2
   resolution: "react-date-picker@npm:10.5.2"
@@ -23573,6 +23635,13 @@ __metadata:
   version: 2.0.2
   resolution: "require-from-string@npm:2.0.2"
   checksum: aaa267e0c5b022fc5fd4eef49d8285086b15f2a1c54b28240fdf03599cbd9c26049fee3eab894f2e1f6ca65e513b030a7c264201e3f005601e80c49fb2937ce2
+  languageName: node
+  linkType: hard
+
+"requireindex@npm:^1.1.0":
+  version: 1.2.0
+  resolution: "requireindex@npm:1.2.0"
+  checksum: 7fb42aed73bf8de9acc4d6716cf07acc7fbe180e58729433bafcf702e76e7bb10e54f8266c06bfec62d752e0ac14d50e8758833de539e6f4e2cd642077866153
   languageName: node
   linkType: hard
 
@@ -25848,6 +25917,13 @@ __metadata:
     debug: "npm:^4.3.4"
     make-fetch-happen: "npm:^11.1.1"
   checksum: 7c4980ada7a55f2670b895e8d9345ef2eec4a471c47f6127543964a12a8b9b69f16002990e01a138cd775aa954880b461186a6eaf7b86633d090425b4273375b
+  languageName: node
+  linkType: hard
+
+"tween-functions@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "tween-functions@npm:1.2.0"
+  checksum: 7e59295b8b0ee4132ed2fe335f56a9db5c87056dad6b6fd3011be72239fd20398003ddb4403bc98ad9f5c94468890830f64016edbbde35581faf95b32cda8305
   languageName: node
   linkType: hard
 
