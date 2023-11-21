@@ -679,7 +679,7 @@ export default function ToolbarPlugin() {
                 toolbarRef={toolbarRef}
                 setShowBlockOptionsDropDown={setShowBlockOptionsDropDown}
               />,
-              document.body
+              editor.getRootElement()
             )}
           <Divider />
         </>
@@ -767,7 +767,7 @@ export default function ToolbarPlugin() {
             </i>
           </button>
           {isLink &&
-            createPortal(<FloatingLinkEditor editor={editor} />, document.body)}
+            createPortal(<FloatingLinkEditor editor={editor} />, editor.getRootElement())}
           <DropdownColorPicker
             buttonClassName='toolbar-item color-picker'
             buttonAriaLabel='Formatting text color'
