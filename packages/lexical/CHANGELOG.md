@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.93](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.92...v1.3.93) (2023-11-21)
+
+
+### Bug Fixes
+
+* update use offset ([44cb1a3](https://github.com/The-Code-Monkey/TechStack/commit/44cb1a30acdbbb6d97da20675d7579c69c591748))
+
+
+
+
+
 ## [1.3.92](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.91...v1.3.92) (2023-11-21)
 
 
