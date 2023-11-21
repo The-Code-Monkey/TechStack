@@ -17,7 +17,6 @@ import React, {
   useRef,
   useState,
 } from 'react';
-import { createPortal } from 'react-dom';
 import { ChevronDown } from '@techstack/react-feather';
 
 type DropDownContextType = {
@@ -179,12 +178,8 @@ export default function DropDown({
     const dropDown = dropDownRef.current;
 
     if (showDropDown && button !== null && dropDown !== null) {
-      const { top, left } = button.getBoundingClientRect();
-      dropDown.style.top = `${top + button.offsetHeight + dropDownPadding}px`;
-      dropDown.style.left = `${Math.min(
-        left,
-        window.innerWidth - dropDown.offsetWidth - 20
-      )}px`;
+      dropDown.style.top = `40px`;
+      dropDown.style.left = `0px`;
     }
   }, [dropDownRef, buttonRef, showDropDown]);
 
@@ -260,13 +255,11 @@ export default function DropDown({
         </i>
       </button>
 
-      {showDropDown &&
-        createPortal(
-          <DropDownItems dropDownRef={dropDownRef} onClose={handleClose}>
-            {children}
-          </DropDownItems>,
-          document.body
-        )}
+      {showDropDown && (
+        <DropDownItems dropDownRef={dropDownRef} onClose={handleClose}>
+          {children}
+        </DropDownItems>
+      )}
     </>
   );
 }

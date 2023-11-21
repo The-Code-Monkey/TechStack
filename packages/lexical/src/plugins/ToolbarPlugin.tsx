@@ -343,10 +343,8 @@ function BlockOptionsDropdownList({
     const dropDown = dropDownRef.current;
 
     if (toolbar !== null && dropDown !== null) {
-      const { left } = toolbar.getBoundingClientRect();
-
       dropDown.style.top = `40px`;
-      dropDown.style.left = `${left}px`;
+      dropDown.style.left = `0px`;
     }
   }, [dropDownRef, toolbarRef]);
 
