@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.92](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.91...v1.3.92) (2023-11-21)
+
+
+### Bug Fixes
+
+* change location of portal ([6db6d96](https://github.com/The-Code-Monkey/TechStack/commit/6db6d96d71b3be5b001a74caa4b53a9443d84bcc))
+* linting ([9e0ca88](https://github.com/The-Code-Monkey/TechStack/commit/9e0ca88952f96f752315c46df1336378a41ccfb9))
+* update some lexical stuffs ([0d14364](https://github.com/The-Code-Monkey/TechStack/commit/0d143641d9984d94037f205d28ed64118886ead9))
+
+
+
+
+
 ## [1.3.91](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.90...v1.3.91) (2023-11-21)
 
 **Note:** Version bump only for package @techstack/lexical

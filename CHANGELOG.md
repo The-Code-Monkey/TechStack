@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.92](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.91...v1.3.92) (2023-11-21)
+
+
+### Bug Fixes
+
+* change location of portal ([6db6d96](https://github.com/The-Code-Monkey/TechStack/commit/6db6d96d71b3be5b001a74caa4b53a9443d84bcc))
+* delete editor from components ([426fc2c](https://github.com/The-Code-Monkey/TechStack/commit/426fc2c689ce1e179f5ec902324ea4372fb6385d))
+* **deps:** update dependency @techstack/styled-system to v1.0.291 ([#2109](https://github.com/The-Code-Monkey/TechStack/issues/2109)) ([670c212](https://github.com/The-Code-Monkey/TechStack/commit/670c212184d3e9e0126dcb177652476d6cdd8132))
+* linting ([9e0ca88](https://github.com/The-Code-Monkey/TechStack/commit/9e0ca88952f96f752315c46df1336378a41ccfb9))
+* stash ([fb09549](https://github.com/The-Code-Monkey/TechStack/commit/fb09549b41f16784c941b7f0289b9ff862f5d3fe))
+* stash ([ba610cc](https://github.com/The-Code-Monkey/TechStack/commit/ba610cc49d67558bb7e9a2416fc7e500dcc1fe80))
+* update some lexical stuffs ([0d14364](https://github.com/The-Code-Monkey/TechStack/commit/0d143641d9984d94037f205d28ed64118886ead9))
+
+
+
+
+
 ## [1.3.91](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.90...v1.3.91) (2023-11-21)
 
 
