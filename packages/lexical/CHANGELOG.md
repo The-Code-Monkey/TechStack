@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.96](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.95...v1.3.96) (2023-11-21)
+
+
+### Bug Fixes
+
+* add styles to dropdown ([b071aa9](https://github.com/The-Code-Monkey/TechStack/commit/b071aa9572cfe5e765087bd6ce3919f5f41cbac5))
+
+
+
+
+
 ## [1.3.95](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.94...v1.3.95) (2023-11-21)
 
 
