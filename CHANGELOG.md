@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.99](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.98...v1.3.99) (2023-11-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @techstack/styled-system to v1.0.293 ([#2115](https://github.com/The-Code-Monkey/TechStack/issues/2115)) ([17e2dcb](https://github.com/The-Code-Monkey/TechStack/commit/17e2dcb01c59f1987a590cfc36d732d8a35b5d5b))
+* **deps:** update dependency eslint-plugin-testing-library to v6.2.0 ([#2120](https://github.com/The-Code-Monkey/TechStack/issues/2120)) ([51fc248](https://github.com/The-Code-Monkey/TechStack/commit/51fc248c04907336cb4bf20555f78546a936a446))
+* **deps:** update dependency rollup to v4.5.1 ([07dc094](https://github.com/The-Code-Monkey/TechStack/commit/07dc0944c9257c6307fe93681333f3cc5b31dad3))
+* **deps:** update dependency type-fest to v4.8.2 ([#2116](https://github.com/The-Code-Monkey/TechStack/issues/2116)) ([b8d0e53](https://github.com/The-Code-Monkey/TechStack/commit/b8d0e5322ada439e92647efb55db41b131f2c6ef))
+
+
+
+
+
 ## [1.3.98](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.97...v1.3.98) (2023-11-21)
 
 **Note:** Version bump only for package techstack
