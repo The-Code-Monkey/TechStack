@@ -6894,7 +6894,7 @@ __metadata:
     "@testing-library/react": "npm:14.1.2"
     "@tsconfig/create-react-app": "npm:2.0.1"
     "@tsconfig/recommended": "npm:1.0.3"
-    "@types/jest": "npm:29.5.9"
+    "@types/jest": "npm:29.5.10"
     "@types/node": "npm:^20.5.6"
     "@types/react": "npm:18.2.38"
     "@types/react-dom": "npm:18.2.16"
@@ -6986,7 +6986,7 @@ __metadata:
   resolution: "@techstack/memoize@workspace:packages/memoize"
   dependencies:
     "@techstack/tcm-cli": "workspace:*"
-    "@types/jest": "npm:29.5.9"
+    "@types/jest": "npm:29.5.10"
     "@typescript-eslint/eslint-plugin": "npm:6.12.0"
     "@typescript-eslint/parser": "npm:6.12.0"
     benchmark: "npm:2.1.4"
@@ -7064,7 +7064,7 @@ __metadata:
   dependencies:
     "@techstack/tcm-cli": "workspace:*"
     "@testing-library/react": "npm:14.1.2"
-    "@types/jest": "npm:29.5.9"
+    "@types/jest": "npm:29.5.10"
     "@types/react": "npm:18.2.38"
     "@typescript-eslint/eslint-plugin": "npm:6.12.0"
     "@typescript-eslint/parser": "npm:6.12.0"
@@ -7793,13 +7793,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:29.5.9":
-  version: 29.5.9
-  resolution: "@types/jest@npm:29.5.9"
+"@types/jest@npm:29.5.10":
+  version: 29.5.10
+  resolution: "@types/jest@npm:29.5.10"
   dependencies:
     expect: "npm:^29.0.0"
     pretty-format: "npm:^29.0.0"
-  checksum: 66fe6b9b1c72739d02edaf1c98468aec84c700d841376afab9321b5268cb7b656a00a3561408b6c37f8619fffa7902e2ef29357fbc355e3e641c18b254899e49
+  checksum: b46171d59d12a5f69bbe710f65eaf59a8073337c6b4a67dff8158575caec53f1c61f8a7d645b34d6ac3c4ea398acd30f0c5d1c4a131c0c918798019264a3397d
   languageName: node
   linkType: hard
 
