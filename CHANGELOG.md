@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.102](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.101...v1.3.102) (2023-11-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup to v4.5.2 ([d3540d0](https://github.com/The-Code-Monkey/TechStack/commit/d3540d0dabad267ca275eba48956b8b05a9d17bc))
+
+
+
+
+
 ## [1.3.101](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.100...v1.3.101) (2023-11-24)
 
 
