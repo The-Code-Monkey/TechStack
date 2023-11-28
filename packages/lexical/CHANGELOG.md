@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.106](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.105...v1.3.106) (2023-11-28)
+
+
+### Bug Fixes
+
+* add markdown support ([bb022c1](https://github.com/The-Code-Monkey/TechStack/commit/bb022c12e50c6069921b4751ae1188f4b7b27645))
+* export types ([cd6650c](https://github.com/The-Code-Monkey/TechStack/commit/cd6650c18bffe4e8713fc57fabe637c64bcd9b35))
+* update linting ([ae66851](https://github.com/The-Code-Monkey/TechStack/commit/ae66851133ffb883fdba7496239a3f8777550b38))
+
+
+
+
+
 ## [1.3.105](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.104...v1.3.105) (2023-11-28)
 
 **Note:** Version bump only for package @techstack/lexical
