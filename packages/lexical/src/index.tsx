@@ -49,13 +49,13 @@ const editorConfig: InitialConfigType = {
   ],
 };
 
-interface Props {
+export interface EditorProps {
   value: string;
   onChange: (a: string) => void;
   name: string;
 }
 
-function EditorContainer({ value, onChange, name }: Props) {
+function EditorContainer({ value, onChange, name }: EditorProps) {
   const onChangeFn = (v: string) => {
     onChange(v);
   };
