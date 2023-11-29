@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.108](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.107...v1.3.108) (2023-11-29)
+
+
+### Bug Fixes
+
+* add horizonal rule node ([3d12e3a](https://github.com/The-Code-Monkey/TechStack/commit/3d12e3a93818f6c1261555a1d5afb9257ba3ca2e))
+
+
+
+
+
 ## [1.3.107](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.106...v1.3.107) (2023-11-29)
 
 **Note:** Version bump only for package @techstack/lexical
