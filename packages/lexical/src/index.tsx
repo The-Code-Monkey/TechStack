@@ -16,6 +16,7 @@ import { MarkdownShortcutPlugin } from '@lexical/react/LexicalMarkdownShortcutPl
 import { HeadingNode, QuoteNode } from '@lexical/rich-text';
 import { TableCellNode, TableNode, TableRowNode } from '@lexical/table';
 import { $getRoot, $insertNodes, LexicalEditor } from 'lexical';
+import { HorizontalRuleNode } from '@lexical/react/LexicalHorizontalRuleNode';
 
 import ToolbarPlugin from './plugins/ToolbarPlugin';
 import OnChangePlugin from './plugins/OnChangePlugin';
@@ -46,6 +47,7 @@ const editorConfig: InitialConfigType = {
     TableRowNode,
     AutoLinkNode,
     LinkNode,
+    HorizontalRuleNode,
   ],
 };
 
