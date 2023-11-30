@@ -84,6 +84,7 @@
   line-height: 20px;
   font-weight: 400;
   text-align: left;
+  border: 1px solid rgb(226, 232, 240);
 }
 
 .editor-inner {
@@ -298,6 +299,7 @@ pre::-webkit-scrollbar-thumb {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     vertical-align: middle;
+    border-bottom: 1px solid rgb(226, 232, 240);
   }
 
   .toolbar button.toolbar-item {
