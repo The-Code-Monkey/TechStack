@@ -303,12 +303,11 @@ pre::-webkit-scrollbar-thumb {
   }
 
   .font-color, .bg-color {
-    margin-right: 5px
-  }
-
-  .color-picker {
+    margin-right: 5px;
+    margin-top: 3px;
     .chevron-down {
       margin-top: 0;
+      justify-content: center;
     }
   }
 
@@ -405,6 +404,12 @@ pre::-webkit-scrollbar-thumb {
     margin-right: 8px;
     line-height: 16px;
     background-size: contain;
+  }
+
+  .toolbar .toolbar-item .icon.paragraph {
+      align-items: center;
+      justify-content: center;
+      padding-top: 3px;
   }
 
   .toolbar i.chevron-down {
