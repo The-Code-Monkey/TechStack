@@ -302,6 +302,16 @@ pre::-webkit-scrollbar-thumb {
     border-bottom: 1px solid rgb(226, 232, 240);
   }
 
+  .font-color, .bg-color {
+    margin-right: 5px
+  }
+
+  .color-picker {
+    .chevron-down {
+      margin-top: 0;
+    }
+  }
+
   .toolbar button.toolbar-item {
     border: 0;
     display: flex;

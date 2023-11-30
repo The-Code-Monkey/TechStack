@@ -765,7 +765,7 @@ export default function ToolbarPlugin() {
           <DropdownColorPicker
             buttonClassName='toolbar-item color-picker'
             buttonAriaLabel='Formatting text color'
-            buttonIconClassName='icon font-color'
+            buttonIconClassName='format font-color'
             buttonIcon={<FontColor size={14} />}
             color={fontColor}
             onChange={onFontColorSelect}
@@ -774,7 +774,7 @@ export default function ToolbarPlugin() {
           <DropdownColorPicker
             buttonClassName='toolbar-item color-picker'
             buttonAriaLabel='Formatting background color'
-            buttonIconClassName='icon bg-color'
+            buttonIconClassName='format bg-color'
             buttonIcon={<BgColor size={14} />}
             color={bgColor}
             onChange={onBgColorSelect}
