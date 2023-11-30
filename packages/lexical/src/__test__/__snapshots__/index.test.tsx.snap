@@ -18,10 +18,10 @@ exports[`<Editor /> renders text correctly 1`] = `
         >
           <svg
             fill="currentColor"
-            height="24"
+            height="14"
             stroke="currentColor"
             viewBox="0 0 16 16"
-            width="24"
+            width="14"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -68,13 +68,13 @@ exports[`<Editor /> renders text correctly 1`] = `
         >
           <svg
             fill="none"
-            height="24"
+            height="14"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
             viewBox="0 0 24 24"
-            width="24"
+            width="14"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -96,13 +96,13 @@ exports[`<Editor /> renders text correctly 1`] = `
         >
           <svg
             fill="none"
-            height="24"
+            height="14"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
             viewBox="0 0 24 24"
-            width="24"
+            width="14"
             xmlns="http://www.w3.org/2000/svg"
           >
             <line
@@ -136,13 +136,13 @@ exports[`<Editor /> renders text correctly 1`] = `
         >
           <svg
             fill="none"
-            height="24"
+            height="14"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
             viewBox="0 0 24 24"
-            width="24"
+            width="14"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -167,13 +167,13 @@ exports[`<Editor /> renders text correctly 1`] = `
         >
           <svg
             fill="none"
-            height="24"
+            height="14"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
             viewBox="0 0 16 16"
-            width="24"
+            width="14"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -192,13 +192,13 @@ exports[`<Editor /> renders text correctly 1`] = `
         >
           <svg
             fill="none"
-            height="24"
+            height="14"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
             viewBox="0 0 24 24"
-            width="24"
+            width="14"
             xmlns="http://www.w3.org/2000/svg"
           >
             <polyline
@@ -220,13 +220,13 @@ exports[`<Editor /> renders text correctly 1`] = `
         >
           <svg
             fill="none"
-            height="24"
+            height="14"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
             viewBox="0 0 24 24"
-            width="24"
+            width="14"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -248,13 +248,13 @@ exports[`<Editor /> renders text correctly 1`] = `
         >
           <svg
             fill="none"
-            height="24"
+            height="14"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
             viewBox="0 0 512 512"
-            width="24"
+            width="14"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -293,13 +293,13 @@ exports[`<Editor /> renders text correctly 1`] = `
         >
           <svg
             fill="none"
-            height="24"
+            height="14"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
             viewBox="0 0 48 48"
-            width="24"
+            width="14"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -366,13 +366,13 @@ exports[`<Editor /> renders text correctly 1`] = `
         >
           <svg
             fill="none"
-            height="24"
+            height="14"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
             viewBox="0 0 24 24"
-            width="24"
+            width="14"
             xmlns="http://www.w3.org/2000/svg"
           >
             <line
@@ -412,13 +412,13 @@ exports[`<Editor /> renders text correctly 1`] = `
         >
           <svg
             fill="none"
-            height="24"
+            height="14"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
             viewBox="0 0 24 24"
-            width="24"
+            width="14"
             xmlns="http://www.w3.org/2000/svg"
           >
             <line
@@ -458,13 +458,13 @@ exports[`<Editor /> renders text correctly 1`] = `
         >
           <svg
             fill="none"
-            height="24"
+            height="14"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
             viewBox="0 0 24 24"
-            width="24"
+            width="14"
             xmlns="http://www.w3.org/2000/svg"
           >
             <line
@@ -504,13 +504,13 @@ exports[`<Editor /> renders text correctly 1`] = `
         >
           <svg
             fill="none"
-            height="24"
+            height="14"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
             viewBox="0 0 24 24"
-            width="24"
+            width="14"
             xmlns="http://www.w3.org/2000/svg"
           >
             <line
