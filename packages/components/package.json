@@ -123,7 +123,7 @@
     "@techstack/react-feather": "workspace:*",
     "@techstack/react-lazy-named": "workspace:*",
     "@techstack/styled-system": "1.0.303",
-    "@techstack/theme": "workspace:*",
+    "@techstack/theme": "0.1.1",
     "@types/react-table": "7.7.18",
     "classnames": "2.3.2",
     "csstype": "3.1.2",
