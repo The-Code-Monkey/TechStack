@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.110](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.109...v1.3.110) (2023-11-30)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.23.5 ([#2138](https://github.com/The-Code-Monkey/TechStack/issues/2138)) ([9575c9b](https://github.com/The-Code-Monkey/TechStack/commit/9575c9bbcc8240802d8c048e960de4591f95a5ff))
+* **deps:** update dependency @techstack/styled-system to v1.0.302 ([#2137](https://github.com/The-Code-Monkey/TechStack/issues/2137)) ([e2a3bd4](https://github.com/The-Code-Monkey/TechStack/commit/e2a3bd46d38bbc76d8df8e752298c4ad32696dcf))
+
+
+
+
+
 ## [1.3.109](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.108...v1.3.109) (2023-11-29)
 
 **Note:** Version bump only for package @techstack/components
