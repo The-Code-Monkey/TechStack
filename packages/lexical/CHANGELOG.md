@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.114](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.113...v1.3.114) (2023-11-30)
+
+
+### Bug Fixes
+
+* add shadow to dropdown ([d02e0db](https://github.com/The-Code-Monkey/TechStack/commit/d02e0dbca2319cbcd8556956d855ab4b90fe868b))
+
+
+
+
+
 ## [1.3.113](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.112...v1.3.113) (2023-11-30)
 
 
