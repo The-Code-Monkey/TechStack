@@ -303,10 +303,11 @@ pre::-webkit-scrollbar-thumb {
   }
 
   .font-color, .bg-color {
-    margin-right: 5px;
     margin-top: 3px;
+  }
+
+  .color-picker {
     .chevron-down {
-      margin-top: 0;
       justify-content: center;
     }
   }
@@ -360,6 +361,11 @@ pre::-webkit-scrollbar-thumb {
     width: 1px;
     background-color: #eee;
     margin: 0 4px;
+  }
+
+  .dropdown {
+    box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5);
   }
 
   .toolbar select.toolbar-item {
