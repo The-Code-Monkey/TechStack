@@ -244,7 +244,7 @@ exports[`<Editor /> renders text correctly 1`] = `
         type="button"
       >
         <span
-          class="icon font-color"
+          class="format font-color"
         >
           <svg
             fill="none"
@@ -289,7 +289,7 @@ exports[`<Editor /> renders text correctly 1`] = `
         type="button"
       >
         <span
-          class="icon bg-color"
+          class="format bg-color"
         >
           <svg
             fill="none"
