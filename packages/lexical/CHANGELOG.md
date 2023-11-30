@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.111](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.110...v1.3.111) (2023-11-30)
+
+
+### Bug Fixes
+
+* add lexical test for rendering ([d12600a](https://github.com/The-Code-Monkey/TechStack/commit/d12600abc17ee68d7e3c6dcb441cc6d22de57f50))
+* updaate some stuff to make it pretty ([b0a6227](https://github.com/The-Code-Monkey/TechStack/commit/b0a62278372930763bc8af955308d028113f8029))
+
+
+
+
+
 ## [1.3.110](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.109...v1.3.110) (2023-11-30)
 
 **Note:** Version bump only for package @techstack/lexical
