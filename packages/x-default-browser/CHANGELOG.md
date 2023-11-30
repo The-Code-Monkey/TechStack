@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.115](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.114...v1.3.115) (2023-11-30)
+
+**Note:** Version bump only for package @techstack/x-default-browser
+
+
+
+
+
 ## [1.3.110](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.109...v1.3.110) (2023-11-30)
 
 **Note:** Version bump only for package @techstack/x-default-browser
