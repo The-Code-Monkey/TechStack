@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.122](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.121...v1.3.122) (2023-12-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.32 ([02402bc](https://github.com/The-Code-Monkey/TechStack/commit/02402bcc1a53371ef8bf9c00f6e2f175bd0fa1e7))
+* **deps:** update dependency type-fest to v4.8.3 ([a00b972](https://github.com/The-Code-Monkey/TechStack/commit/a00b9729a669a7510043ea9f77f64d57716a81c0))
+
+
+
+
+
 ## [1.3.117](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.116...v1.3.117) (2023-11-30)
 
 
