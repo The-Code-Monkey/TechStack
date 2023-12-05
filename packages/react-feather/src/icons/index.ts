@@ -293,3 +293,4 @@ export { default as Quote } from './quote';
 export { default as Strikethrough } from './strikethrough';
 export { default as FontColor } from './font-color';
 export { default as BgColor } from './bg-color';
+export { default as PoundCoin } from './pound-coin';
