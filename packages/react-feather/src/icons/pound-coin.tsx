@@ -1,16 +1,13 @@
 import * as React from 'react';
 
-import {IconProps} from "../types";
+import { IconProps } from '../types';
 
-const PoundCoin = ({
-    color = 'currentColor',
-    size = 24,
-    ...rest
-}: IconProps, ref: React.ForwardedRef<SVGSVGElement>) => {
+const PoundCoin = ({ color = 'currentColor', size = 24, ...rest }: IconProps,
+  ref: React.ForwardedRef<SVGSVGElement>) => {
     return (
         <svg
-            width='17'
-            height='17'
+            width={size}
+            height={size}
             viewBox='0 0 17 17'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
@@ -24,7 +21,7 @@ const PoundCoin = ({
                 cy='8.40576'
                 r='6.93457'
                 stroke='black'
-                stroke-width='1.5'
+                strokewidth='1.5'
             />
         </svg>
     )
