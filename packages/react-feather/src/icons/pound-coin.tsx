@@ -21,7 +21,7 @@ const PoundCoin = ({ color = 'currentColor', size = 24, ...rest }: IconProps,
                 cy='8.40576'
                 r='6.93457'
                 stroke='black'
-                strokewidth='1.5'
+                strokeWidth='1.5'
             />
         </svg>
     )
