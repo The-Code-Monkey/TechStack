@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.125](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.124...v1.3.125) (2023-12-07)
+
+
+### Bug Fixes
+
+* add pound coin icon ([3209e4e](https://github.com/The-Code-Monkey/TechStack/commit/3209e4e9e7f96c62f425638af545e3f05fc4f157))
+
+
+
+
+
 ## [1.3.124](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.123...v1.3.124) (2023-12-05)
 
 **Note:** Version bump only for package @techstack/react-feather

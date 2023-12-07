@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.125](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.124...v1.3.125) (2023-12-07)
+
+
+### Bug Fixes
+
+* add pound coin icon ([3209e4e](https://github.com/The-Code-Monkey/TechStack/commit/3209e4e9e7f96c62f425638af545e3f05fc4f157))
+* **deps:** update dependency @techstack/styled-system to v1.0.308 ([3dbea98](https://github.com/The-Code-Monkey/TechStack/commit/3dbea98da0edc5b14b69a03f973a14dc116341bb))
+* **deps:** update dependency @techstack/styled-system to v1.0.309 ([#2166](https://github.com/The-Code-Monkey/TechStack/issues/2166)) ([fa01de6](https://github.com/The-Code-Monkey/TechStack/commit/fa01de6997a8941864400707c7e68bd6811118d5))
+
+
+
+
+
 ## [1.3.124](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.123...v1.3.124) (2023-12-05)
 
 
