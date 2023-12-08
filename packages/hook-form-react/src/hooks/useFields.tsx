@@ -10,7 +10,7 @@ export interface useFieldsProps {
 }
 
 export type useFieldsReturnType<DataType> = {
-  fields: {
+  fields: Array<{
     // 'value' is the current value of the field.
     value: DataType | undefined;
     // 'reset' is a function that resets the field data to its default state.
@@ -20,7 +20,7 @@ export type useFieldsReturnType<DataType> = {
     // 'register' is a function that returns an object with the field name, value, and onChange handler.
     name: string;
     onChange: (event: ChangeEvent<HTMLInputElement>) => void;
-  }
+  }>;
 };
 
 // Define the useFields hook.
@@ -30,7 +30,7 @@ const useFields = <DataType extends DataTypeArray>({
   // Get the form context.
   const context = useContext(FormContext);
   
-  const { updateField, getFieldValue, data } = context;
+  const { updateField, getFieldValue } = context;
 
   const [fieldsRaw, setFieldsRaw] = useState<DataType>(getFieldValue(name) as DataType);
 
