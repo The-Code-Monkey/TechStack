@@ -6,4 +6,4 @@ export type DataTypeSingle =
   | Record<string, unknown>
   | undefined;
 
-export type DataTypeArray = Array<Record<string, DataTypeSingle>> | Array<DataTypeSingle>;
+export type DataTypeArray = Array<Record<string, DataTypeSingle>>;
