@@ -56,7 +56,7 @@ const useFields = <DataType extends DataTypeArray>({
   const fieldArray = fieldsRaw.map((field, index: number) => {
     const fields = Object.keys(field);
 
-    return fields.map((fieldKey) => ({ name: `${name}.${index}.${fieldKey}`, onChange: onChange(index, fieldKey), clean: clean(index, fieldKey), reset: reset(index, fieldKey) }) );
+    return fields.map((fieldKey) => ({ name: `${name}.${index}.${fieldKey}`, onChange: onChange(index, fieldKey), clean: clean(index, fieldKey), reset: reset(index, fieldKey), value: getFieldValue(`${name}.${index}.${fieldKey}`) }) );
   })
 
   return {
