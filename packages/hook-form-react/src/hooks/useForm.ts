@@ -1,30 +1,30 @@
-import { useState, FormEvent, FC } from 'react';
+import { FormEvent, useContext, useEffect, useState } from 'react';
+import { set } from 'lodash';
 
 import {
   SchemaValidationType,
-  SchemaValidationTypeString,
+  SchemaValidationTypeArray,
   SchemaValidationTypeNumber,
   SchemaValidationTypeObject,
-  SchemaValidationTypeArray,
+  SchemaValidationTypeString,
 } from '../types/schema';
-import set from '../helpers/set';
-import Provider from '../provider/FormContext';
+import { FormContext } from '../provider/FormContext';
 
 // Define the properties for the useForm hook.
 // 'DataType' is a generic type representing the shape of the form data.
-interface useFormProps<DataType> {
+export interface useFormProps<DataType> {
   // 'defaultData' is the initial state of the form data.
-  defaultData: DataType;
+  defaultValues: DataType;
   // 'onSubmit' is a function that is called when the form is submitted and the data is valid.
   onSubmit: (data: DataType) => void;
   // 'schema' is an object that defines the validation rules for each field in the form data.
-  schema: Record<keyof DataType, SchemaValidationType>;
+  schema: Record<string, SchemaValidationType>;
   // 'name' is an optional name for the form.
   name?: string;
 }
 
 // Define the return type for the useForm hook.
-type useFormReturnType<DataType> = {
+export type useFormReturnType<DataType> = {
   // 'reset' is a function that resets the form data to its default state.
   reset: (data?: DataType) => void;
   // 'handleSubmit' is a function that handles form submission.
@@ -33,17 +33,14 @@ type useFormReturnType<DataType> = {
   validate: () => Promise<Record<keyof DataType, string>>;
   // 'errors' is an object that contains any validation errors.
   errors: Record<keyof DataType, string> | undefined;
-  // 'Provider' is a React component that provides the form state to its children.
-  Provider: FC;
 };
 
 const useForm = <DataType extends object>({
-  defaultData,
-  onSubmit,
   schema,
-  name = 'form',
+  defaultValues,
+  onSubmit,
 }: useFormProps<DataType>): useFormReturnType<DataType> => {
-  const [data, setData] = useState<DataType>(defaultData);
+  const { getData, setData, getFieldValue } = useContext(FormContext);
   const [errorState, setErrorState] =
     useState<Record<keyof DataType, string>>();
 
@@ -69,11 +66,29 @@ const useForm = <DataType extends object>({
     return null;
   };
 
+  useEffect(() => {
+    const keys = Object.keys(schema);
+
+    const newData = { ...getData() };
+
+    for (const key of keys) {
+      if (getFieldValue(key) === undefined) {
+        set(newData, key, null);
+      }
+    }
+
+    setData(newData);
+  }, []);
+
   // This function validates the data according to the schema
   const validate = async () => {
     // Initialize an empty object to store any validation errors
     // @ts-expect-error - This is a hack to get around TypeScript's type checking
     const errors: Record<keyof DataType, string> = {};
+
+    const data = getData();
+
+    console.log('validation', data);
 
     // Get the keys of the data object
     const keys = Object.keys(data);
@@ -266,6 +281,8 @@ const useForm = <DataType extends object>({
       })
     );
 
+    console.log('errors', errors);
+
     return errors;
   };
 
@@ -278,10 +295,10 @@ const useForm = <DataType extends object>({
     const errors = await validate();
     // If there are no errors (i.e., the errors object is empty),
     // call the 'onSubmit' function with the form data.
-    if (Object.keys(errors).length > 0) {
-      onSubmit(data);
+    if (Object.keys(errors).length === 0) {
+      onSubmit(getData() as DataType);
     } else {
-      // If there are errors, set the error state with the errors.
+      //   If there are errors, set the error state with the errors.
       setErrorState(errors);
     }
   };
@@ -290,26 +307,20 @@ const useForm = <DataType extends object>({
   // It takes an optional parameter 'data'. If 'data' is provided, the form data is set to 'data'.
   // If 'data' is not provided, the form data is reset to 'defaultData'.
   const reset = (data?: DataType) => {
-    setData(data || defaultData);
+    setData(data || defaultValues);
   };
 
-  // This function updates a specific field in the form data.
-  // It takes a field key and a new value as parameters.
-  const updateField = (fieldKey: string, value: never) => {
-    // Create a copy of the current form data.
-    const newData = { ...data };
-    // Use the 'set' function to update the value of the specified field in the copied data.
-    set(newData, fieldKey, value);
-    // Update the form data with the modified copy.
-    setData(newData);
-  };
+  // useEffect(() => {
+  //   if (setData && Object.keys(getData()).length === 0) {
+  //     setData(defaultValues);
+  //   }
+  // }, [defaultValues, setData]);
 
   return {
     reset,
     handleSubmit,
     validate,
     errors: errorState,
-    Provider: Provider<DataType>({ name, data, updateField }),
   };
 };
 
