@@ -1,6 +1,7 @@
 import { ChangeEvent, useContext, useEffect, useState } from 'react';
 
 import { FormContext } from '../provider/FormContext';
+import {DataTypeSingle} from "../types/types";
 
 // Define the properties for the useField hook.
 // 'DataType' is a generic type representing the type of the field data.
@@ -23,7 +24,7 @@ export type useFieldReturnType<DataType> = {
 };
 
 // Define the useField hook.
-const useField = <DataType>({
+const useField = <DataType extends DataTypeSingle>({
   name,
 }: useFieldProps): useFieldReturnType<DataType> => {
   // Get the form context.
@@ -32,26 +33,26 @@ const useField = <DataType>({
   const { updateField, getFieldValue, data } = context;
 
   // Initialize the field value state.
-  const [value, setValue] = useState<DataType | undefined>(getFieldValue(name));
+  const [value, setValue] = useState<DataType>(getFieldValue(name) as DataType);
 
   const onChange = async (e: ChangeEvent<HTMLInputElement>) => {
     setValue(e.target.value as DataType);
-    await updateField(name, e.target.value);
+    updateField(name, e.target.value);
   };
 
   // Define the reset function.
   const reset = async (value?: DataType) => {
-    await updateField(name, value);
+    updateField(name, value);
   };
 
   // Define the clean function.
   const clean = async () => {
-    await updateField(name, '');
+    updateField(name, '');
   };
 
   useEffect(() => {
     if (value !== getFieldValue(name)) {
-      setValue(getFieldValue(name));
+      setValue(getFieldValue(name) as DataType);
     }
   }, [data]);
 

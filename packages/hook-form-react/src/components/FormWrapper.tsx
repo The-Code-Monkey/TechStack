@@ -2,6 +2,7 @@ import { PropsWithChildren, useCallback, useState } from 'react';
 import { get, set } from 'lodash';
 
 import { FormContext } from '../provider/FormContext';
+import {DataTypeSingle} from "../types/types";
 
 export interface Props<DataType> extends PropsWithChildren {
   defaultValues?: Partial<DataType>;
@@ -35,7 +36,7 @@ const FormWrapper = <DataType extends object>({
 
   const getFieldValue = useCallback(
     (fieldKey: string) => {
-      return get(data, fieldKey);
+      return get(data, fieldKey) as DataTypeSingle;
     },
     [data]
   );

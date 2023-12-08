@@ -5,6 +5,7 @@ import {
   PropsWithChildren,
   SetStateAction,
 } from 'react';
+import {DataTypeSingle} from "../types/types";
 
 export type FormContextType = {
   name: string;
@@ -13,12 +14,7 @@ export type FormContextType = {
   getFieldValue: (
     field: string
   ) =>
-    | string
-    | boolean
-    | number
-    | [unknown]
-    | Record<string, unknown>
-    | undefined;
+    DataTypeSingle;
   getData: () => object;
   setData?: Dispatch<SetStateAction<object>>;
 };
@@ -35,13 +31,7 @@ export interface Props<DataType> extends PropsWithChildren {
   getData: () => DataType;
   getFieldValue: (
     field: string
-  ) =>
-    | string
-    | boolean
-    | number
-    | [unknown]
-    | Record<string, unknown>
-    | undefined;
+  ) => DataTypeSingle;
   updateField: (field: string, value: never) => void;
   data: Partial<DataType>;
   setData: Dispatch<SetStateAction<DataType>>;
