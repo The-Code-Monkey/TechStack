@@ -33,10 +33,34 @@ const useFields = <DataType extends DataTypeArray>({
 
   const [fieldsRaw, setFieldsRaw] = useState<DataType>(getFieldValue(name) as DataType);
 
-  const fields = fieldsRaw.map((field, index: number) => ({ ...field, name: `${name}.${index}` })
+  const onChange = (index: number, fieldKey: string) => (e: ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setFieldsRaw(prevState => {
+      const newState = [...prevState];
+      set(newState, `${index}.${fieldKey}`, value);
+      return newState;
+    });
+    updateField(`${name}.${index}.${fieldKey}`, e.target.value);
+  };
+
+  // Define the reset function.
+  const reset = (index: number, fieldKey: string) => (value?: DataType) => {
+    updateField(`${name}.${index}.${fieldKey}`, value);
+  };
+
+  // Define the clean function.
+  const clean = (index: number, fieldKey: string) => () => {
+    updateField(`${name}.${index}.${fieldKey}`, '');
+  };
+
+  const fieldArray = fieldsRaw.map((field, index: number) => {
+    const fields = Object.keys(field);
+
+    return fields.map((fieldKey) => ({ name: `${name}.${index}.${fieldKey}`, onChange: onChange(index, fieldKey), clean: clean(index, fieldKey), reset: reset(index, fieldKey) }) );
+  })
 
   return {
-    fields
+    fields: fieldArray
   };
 };
 
