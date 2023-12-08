@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.127](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.126...v1.3.127) (2023-12-08)
+
+
+### Bug Fixes
+
+* broken test ([8c26d9d](https://github.com/The-Code-Monkey/TechStack/commit/8c26d9dc4b8ac4266e785f7ab918bb6778de14af))
+* **deps:** update dependency @techstack/styled-system to v1.0.314 ([df798fa](https://github.com/The-Code-Monkey/TechStack/commit/df798fa934b8cecd84f2949bffe28dec30fcf2ca))
+* **deps:** update dependency rollup to v4.7.0 ([#2180](https://github.com/The-Code-Monkey/TechStack/issues/2180)) ([7eb2fa4](https://github.com/The-Code-Monkey/TechStack/commit/7eb2fa4a4abaf629a01cb5a7de33e03af3eec155))
+* **deps:** update lexical monorepo to v0.12.5 ([#2172](https://github.com/The-Code-Monkey/TechStack/issues/2172)) ([48748a1](https://github.com/The-Code-Monkey/TechStack/commit/48748a14b1a6d28a3623ba92ef4efc69ab9e4cef))
+
+
+
+
+
 ## [1.3.126](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.125...v1.3.126) (2023-12-08)
 
 

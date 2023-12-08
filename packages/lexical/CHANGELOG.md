@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.127](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.126...v1.3.127) (2023-12-08)
+
+
+### Bug Fixes
+
+* **deps:** update lexical monorepo to v0.12.5 ([#2172](https://github.com/The-Code-Monkey/TechStack/issues/2172)) ([48748a1](https://github.com/The-Code-Monkey/TechStack/commit/48748a14b1a6d28a3623ba92ef4efc69ab9e4cef))
+
+
+
+
+
 ## [1.3.126](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.125...v1.3.126) (2023-12-08)
 
 **Note:** Version bump only for package @techstack/lexical
