@@ -1,0 +1,39 @@
+{
+  "name": "@techstack/hook-form-react",
+  "author": "The-Code-Monkey",
+  "packageManager": "yarn@4.0.2",
+  "description": "a custom hook form for react",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tcm build",
+    "lint": "tcm lint",
+    "test": "tcm test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "18.2.0"
+  },
+  "devDependencies": {
+    "@techstack/tcm-cli": "workspace:*"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/hook-form-react.esm.js",
+  "exports": {
+    ".": {
+      "import": "./dist/hook-form-react.esm.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

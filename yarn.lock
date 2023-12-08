@@ -7278,6 +7278,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@techstack/hook-form-react@workspace:packages/hook-form-react":
+  version: 0.0.0-use.local
+  resolution: "@techstack/hook-form-react@workspace:packages/hook-form-react"
+  dependencies:
+    "@techstack/tcm-cli": "workspace:*"
+    react: "npm:18.2.0"
+  languageName: unknown
+  linkType: soft
+
 "@techstack/lexical@workspace:packages/lexical":
   version: 0.0.0-use.local
   resolution: "@techstack/lexical@workspace:packages/lexical"
