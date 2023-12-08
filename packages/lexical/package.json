@@ -11,9 +11,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@lexical/react": "0.12.4",
+    "@lexical/react": "0.12.5",
     "@techstack/react-feather": "workspace:*",
-    "lexical": "0.12.4",
+    "lexical": "0.12.5",
     "react": "18.2.0",
     "styled-components": "6.1.1"
   },
