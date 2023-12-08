@@ -5,3 +5,5 @@ export type DataTypeSingle =
   | [unknown]
   | Record<string, unknown>
   | undefined;
+
+export type DataTypeArray = Array<Record<string, DataTypeSingle>>;
