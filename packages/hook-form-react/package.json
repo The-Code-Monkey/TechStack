@@ -6,8 +6,7 @@
   "version": "0.0.1",
   "scripts": {
     "build": "tcm build",
-    "lint": "tcm lint",
-    "test": "tcm test"
+    "lint": "tcm lint"
   },
   "license": "MIT",
   "dependencies": {
