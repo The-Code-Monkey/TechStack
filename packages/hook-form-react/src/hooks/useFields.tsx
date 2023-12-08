@@ -41,11 +41,11 @@ const useFields = <DataType extends DataTypeSingle>({
       set(newState, `${index}.${fieldKey}`, value);
       return newState;
     });
-    updateField(`${name}.${index}.${fieldKey}`, e.target.value);
+    updateField(`${name}.${index}.${fieldKey}`, e.target.value as DataTypeSingle);
   };
 
   // Define the reset function.
-  const reset = (index: number, fieldKey: string) => (value?: DataType) => {
+  const reset = (index: number, fieldKey: string) => (value?: DataTypeSingle) => {
     updateField(`${name}.${index}.${fieldKey}`, value);
   };
 
