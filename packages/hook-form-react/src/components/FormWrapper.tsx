@@ -2,7 +2,7 @@ import { PropsWithChildren, useCallback, useState } from 'react';
 import { get, set } from 'lodash';
 
 import { FormContext } from '../provider/FormContext';
-import {DataTypeSingle} from "../types/types";
+import { DataTypeSingle } from '../types/types';
 
 export interface Props<DataType> extends PropsWithChildren {
   defaultValues?: Partial<DataType>;
