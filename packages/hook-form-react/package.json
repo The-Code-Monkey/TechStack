@@ -12,6 +12,9 @@
   "dependencies": {
     "react": "18.2.0"
   },
+  "devDependencies": {
+    "@techstack/tcm-cli": "workspace:*"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/hook-form-react.esm.js",
