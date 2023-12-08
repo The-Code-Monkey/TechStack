@@ -37,6 +37,7 @@ import {
   $getNodeByKey,
   $getSelection,
   $isRangeSelection,
+  BaseSelection,
   DEPRECATED_$isGridSelection,
   FORMAT_ELEMENT_COMMAND,
   FORMAT_TEXT_COMMAND,
@@ -44,7 +45,6 @@ import {
   RangeSelection,
   SELECTION_CHANGE_COMMAND,
 } from 'lexical';
-import type { GridSelection, NodeSelection } from 'lexical/LexicalSelection';
 import { createPortal } from 'react-dom';
 import {
   AlignCenter,
@@ -165,9 +165,9 @@ function FloatingLinkEditor({ editor }: FloatingLinkEditorProps) {
   const mouseDownRef = useRef(false);
   const [linkUrl, setLinkUrl] = useState('');
   const [isEditMode, setEditMode] = useState(false);
-  const [lastSelection, setLastSelection] = useState<
-    RangeSelection | NodeSelection | GridSelection | null
-  >(null);
+  const [lastSelection, setLastSelection] = useState<BaseSelection | null>(
+    null
+  );
 
   const updateLinkEditor = useCallback(() => {
     const selection = $getSelection();
