@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.130](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/hook-form-react@1.3.129...@techstack/hook-form-react@1.3.130) (2023-12-08)
+
+
+### Bug Fixes
+
+* missing lodash ([086bef8](https://github.com/The-Code-Monkey/TechStack/commit/086bef8f2ba9c20fef434705f9c8bda375401986))
+
+
+
+
+
 ## [1.3.129](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/hook-form-react@1.3.128...@techstack/hook-form-react@1.3.129) (2023-12-08)
 
 
