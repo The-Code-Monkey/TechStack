@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.126](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.125...v1.3.126) (2023-12-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @techstack/styled-system to v1.0.311 ([fa5b5df](https://github.com/The-Code-Monkey/TechStack/commit/fa5b5df2376434b919e8363c2a9ea9b98c4ca82f))
+* **deps:** update dependency @techstack/styled-system to v1.0.312 ([b03e5dd](https://github.com/The-Code-Monkey/TechStack/commit/b03e5ddd147f7c2470b7595f17b4a2becbcc5874))
+* **deps:** update dependency @techstack/styled-system to v1.0.313 ([7b2f458](https://github.com/The-Code-Monkey/TechStack/commit/7b2f458a659089dee3349ce16e467b8e106c2361))
+* **deps:** update dependency csstype to v3.1.3 ([afe57c3](https://github.com/The-Code-Monkey/TechStack/commit/afe57c30ca7f1dc0b9ca77a130d192ff6a059396))
+* **deps:** update dependency i18next to v23.7.8 ([3e8ce09](https://github.com/The-Code-Monkey/TechStack/commit/3e8ce09d1edeeb17f78fa81443995507c512f35e))
+
+
+
+
+
 ## [1.3.125](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.124...v1.3.125) (2023-12-07)
 
 
