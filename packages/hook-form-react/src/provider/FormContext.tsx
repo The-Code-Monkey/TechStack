@@ -1,5 +1,4 @@
 /* eslint-disable react/display-name */
-
 import { createContext, PropsWithChildren } from 'react';
 
 export type FormContextType = {
