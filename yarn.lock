@@ -7283,6 +7283,8 @@ __metadata:
   resolution: "@techstack/hook-form-react@workspace:packages/hook-form-react"
   dependencies:
     "@techstack/tcm-cli": "workspace:*"
+    lodash: "npm:4.17.21"
+    lodash-es: "npm:4.17.21"
     react: "npm:18.2.0"
   languageName: unknown
   linkType: soft
