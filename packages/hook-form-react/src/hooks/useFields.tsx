@@ -9,12 +9,12 @@ export interface useFieldsProps {
   name: string;
 }
 
-export type useFieldsReturnType<DataType> = {
+export type useFieldsReturnType = {
   fields: Array<{
     // 'value' is the current value of the field.
-    value: DataType | undefined;
+    value: DataTypeSingle | undefined;
     // 'reset' is a function that resets the field data to its default state.
-    reset: (value?: DataType) => void;
+    reset: (value?: DataTypeSingle) => void;
     // 'clean' is a function that clears the field data.
     clean: () => void;
     // 'register' is a function that returns an object with the field name, value, and onChange handler.
