@@ -2,7 +2,7 @@ import { ChangeEvent, useContext, useState } from 'react';
 import { set } from 'lodash';
 
 import { FormContext } from '../provider/FormContext';
-import { DataTypeArray } from '../types/types';
+import { DataTypeArray, DataTypeSingle } from '../types/types';
 
 export interface useFieldsProps {
   // 'name' is the name of the field.
@@ -24,7 +24,7 @@ export type useFieldsReturnType<DataType> = {
 };
 
 // Define the useFields hook.
-const useFields = <DataType extends DataTypeArray>({
+const useFields = <DataType extends DataTypeSingle>({
   name,
 }: useFieldsProps): useFieldsReturnType<DataType> => {
   // Get the form context.
@@ -32,7 +32,7 @@ const useFields = <DataType extends DataTypeArray>({
   
   const { updateField, getFieldValue } = context;
 
-  const [fieldsRaw, setFieldsRaw] = useState<DataType>(getFieldValue(name) as DataType);
+  const [fieldsRaw, setFieldsRaw] = useState<DataTypeArray>(getFieldValue(name) as DataType);
 
   const onChange = (index: number, fieldKey: string) => (e: ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
