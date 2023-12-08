@@ -32,7 +32,7 @@ const useFields = <DataType extends DataTypeSingle>({
   
   const { updateField, getFieldValue } = context;
 
-  const [fieldsRaw, setFieldsRaw] = useState<DataTypeArray>(getFieldValue(name) as DataType);
+  const [fieldsRaw, setFieldsRaw] = useState<DataTypeArray>(getFieldValue(name) as DataTypeArray);
 
   const onChange = (index: number, fieldKey: string) => (e: ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
