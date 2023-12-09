@@ -26,7 +26,7 @@ export type useFieldsReturnType = {
 // Define the useFields hook.
 const useFields = <DataType extends DataTypeSingle>({
   name,
-}: useFieldsProps): useFieldsReturnType<DataType> => {
+}: useFieldsProps): useFieldsReturnType => {
   // Get the form context.
   const context = useContext(FormContext);
   
@@ -41,11 +41,11 @@ const useFields = <DataType extends DataTypeSingle>({
       set(newState, `${index}.${fieldKey}`, value);
       return newState;
     });
-    updateField(`${name}.${index}.${fieldKey}`, e.target.value as DataTypeSingle);
+    updateField(`${name}.${index}.${fieldKey}`, e.target.value as DataType);
   };
 
   // Define the reset function.
-  const reset = (index: number, fieldKey: string) => (value?: DataTypeSingle) => {
+  const reset = (index: number, fieldKey: string) => (value?: DataType) => {
     updateField(`${name}.${index}.${fieldKey}`, value);
   };
 
