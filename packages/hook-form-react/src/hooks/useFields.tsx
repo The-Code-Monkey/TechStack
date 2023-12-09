@@ -7,7 +7,7 @@ import { DataTypeArray, DataTypeSingle, FieldType } from '../types';
 export interface useFieldsProps {
   // 'name' is the name of the field.
   name: string;
-  fieldArray?: Array<FieldType>;
+  fieldArray: Array<FieldType>;
 }
 
 export type useFieldsReturnType = {
@@ -22,6 +22,7 @@ export type useFieldsReturnType = {
       // 'register' is a function that returns an object with the field name, value, and onChange handler.
       name: string;
       onChange: (event: ChangeEvent<HTMLInputElement>) => void;
+      type: 'text';
     }>
   >;
 };
@@ -62,14 +63,15 @@ const useFields = <DataType extends DataTypeSingle>({
   };
 
   const fieldArray = fieldsRaw.map((field, index: number) => {
-    const fields = fieldArrayRaw ? fieldArrayRaw.map(item => item.name) : Object.keys(field);
+    const fields = fieldArrayRaw.map(item => ({ fieldKey: item.name, type: item.type }));
 
-    return fields.map(fieldKey => ({
+    return fields.map(({ fieldKey, type }) => ({
       name: `${name}.${index}.${fieldKey}`,
       onChange: onChange(index, fieldKey),
       clean: clean(index, fieldKey),
       reset: reset(index, fieldKey),
       value: getFieldValue(`${name}.${index}.${fieldKey}`),
+      type,
     }));
   });
 
