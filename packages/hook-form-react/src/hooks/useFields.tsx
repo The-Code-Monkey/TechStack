@@ -2,11 +2,12 @@ import { ChangeEvent, useContext, useState } from 'react';
 import { set } from 'lodash';
 
 import { FormContext } from '../provider/FormContext';
-import { DataTypeArray, DataTypeSingle } from '../types/types';
+import { DataTypeArray, DataTypeSingle, FieldType } from '../types';
 
 export interface useFieldsProps {
   // 'name' is the name of the field.
   name: string;
+  fieldArray?: Array<FieldType>;
 }
 
 export type useFieldsReturnType = {
@@ -28,6 +29,7 @@ export type useFieldsReturnType = {
 // Define the useFields hook.
 const useFields = <DataType extends DataTypeSingle>({
   name,
+  fieldArray: fieldArrayRaw
 }: useFieldsProps): useFieldsReturnType => {
   // Get the form context.
   const context = useContext(FormContext);
@@ -60,7 +62,7 @@ const useFields = <DataType extends DataTypeSingle>({
   };
 
   const fieldArray = fieldsRaw.map((field, index: number) => {
-    const fields = Object.keys(field);
+    const fields = fieldArrayRaw ? fieldArrayRaw.map(item => item.name) : Object.keys(field);
 
     return fields.map(fieldKey => ({
       name: `${name}.${index}.${fieldKey}`,
