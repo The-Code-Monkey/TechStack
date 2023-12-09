@@ -30,7 +30,7 @@ export type useFieldsReturnType = {
 // Define the useFields hook.
 const useFields = <DataType extends DataTypeSingle>({
   name,
-  fieldArray: fieldArrayRaw
+  fieldArray: fieldArrayRaw,
 }: useFieldsProps): useFieldsReturnType => {
   // Get the form context.
   const context = useContext(FormContext);
@@ -63,7 +63,10 @@ const useFields = <DataType extends DataTypeSingle>({
   };
 
   const fieldArray = fieldsRaw.map((field, index: number) => {
-    const fields = fieldArrayRaw.map(item => ({ fieldKey: item.name, type: item.type }));
+    const fields = fieldArrayRaw.map(item => ({
+      fieldKey: item.name,
+      type: item.type
+    }));
 
     return fields.map(({ fieldKey, type }) => ({
       name: `${name}.${index}.${fieldKey}`,
