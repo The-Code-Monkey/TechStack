@@ -1,7 +1,7 @@
 import { ChangeEvent, useContext, useEffect, useState } from 'react';
 
 import { FormContext } from '../provider/FormContext';
-import { DataTypeSingle } from '../types/types';
+import { DataTypeSingle } from '../types';
 
 // Define the properties for the useField hook.
 // 'DataType' is a generic type representing the type of the field data.
