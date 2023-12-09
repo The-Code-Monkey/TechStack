@@ -65,7 +65,7 @@ const useFields = <DataType extends DataTypeSingle>({
   const fieldArray = fieldsRaw.map((field, index: number) => {
     const fields = fieldArrayRaw.map(item => ({
       fieldKey: item.name,
-      type: item.type
+      type: item.type,
     }));
 
     return fields.map(({ fieldKey, type }) => ({
