@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.131 (2023-12-09)
+
+
+### Bug Fixes
+
+* linting ([c0de03b](https://github.com/The-Code-Monkey/TechStack/commit/c0de03b1d3af0277f3579c32a0889b1dbb0b1d5b))
+
+
+
+
+
 ## [1.3.130](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/hook-form-react@1.3.129...@techstack/hook-form-react@1.3.130) (2023-12-08)
 
 
