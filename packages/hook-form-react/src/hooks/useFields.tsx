@@ -10,7 +10,7 @@ export interface useFieldsProps {
 }
 
 export type useFieldsReturnType = {
-  fields: Array<{
+  fields: Array<Array<{
     // 'value' is the current value of the field.
     value: DataTypeSingle | undefined;
     // 'reset' is a function that resets the field data to its default state.
@@ -20,7 +20,7 @@ export type useFieldsReturnType = {
     // 'register' is a function that returns an object with the field name, value, and onChange handler.
     name: string;
     onChange: (event: ChangeEvent<HTMLInputElement>) => void;
-  }>;
+  }>>;
 };
 
 // Define the useFields hook.
