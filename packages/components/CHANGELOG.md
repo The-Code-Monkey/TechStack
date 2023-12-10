@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.129 (2023-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-datetime-picker to v5.6.0 ([23ae1ac](https://github.com/The-Code-Monkey/TechStack/commit/23ae1ac97c0cf2735db2c282d0dc503aae864d80))
+
+
+
+
+
 ## 1.3.128 (2023-12-08)
 
 
