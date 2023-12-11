@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.130](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.129...@techstack/components@1.3.130) (2023-12-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @techstack/styled-system to v1.0.316 ([9c893ed](https://github.com/The-Code-Monkey/TechStack/commit/9c893ed62b12003377cfa55e708af0826ec266aa))
+* **deps:** update dependency react-date-picker to v10.6.0 ([b36ab88](https://github.com/The-Code-Monkey/TechStack/commit/b36ab88a0db40bebb8c74cf11a8d4e30cb225a88))
+
+
+
+
+
 ## 1.3.129 (2023-12-10)
 
 
