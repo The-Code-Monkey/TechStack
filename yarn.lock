@@ -5747,17 +5747,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-json@npm:6.0.1":
-  version: 6.0.1
-  resolution: "@rollup/plugin-json@npm:6.0.1"
+"@rollup/plugin-json@npm:6.1.0":
+  version: 6.1.0
+  resolution: "@rollup/plugin-json@npm:6.1.0"
   dependencies:
-    "@rollup/pluginutils": "npm:^5.0.1"
+    "@rollup/pluginutils": "npm:^5.1.0"
   peerDependencies:
     rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 8a8aed6376c86fb7e551b8b17181e585a9141f94d9c205d99dcdf834242720ee029693c3c44c36e4c4e72c61595c0976d89da4b04e790f0a3698a3cd1eb283fc
+  checksum: 9400c431b5e0cf3088ba2eb2d038809a2b0fb2a84ed004997da85582f48cd64958ed3168893c4f2c8109e38652400ed68282d0c92bf8ec07a3b2ef2e1ceab0b7
   languageName: node
   linkType: hard
 
@@ -5834,6 +5834,22 @@ __metadata:
     rollup:
       optional: true
   checksum: ceccecb6f9b0d53d2745b0e84c4618c669edd6fb66a769955aec38ff534fd811230bf6113545886c7dbaf657245a92714cc897206a2234e63c6f2bbe51c0d4f3
+  languageName: node
+  linkType: hard
+
+"@rollup/pluginutils@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@rollup/pluginutils@npm:5.1.0"
+  dependencies:
+    "@types/estree": "npm:^1.0.0"
+    estree-walker: "npm:^2.0.2"
+    picomatch: "npm:^2.3.1"
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: c7bed15711f942d6fdd3470fef4105b73991f99a478605e13d41888963330a6f9e32be37e6ddb13f012bc7673ff5e54f06f59fd47109436c1c513986a8a7612d
   languageName: node
   linkType: hard
 
@@ -7506,7 +7522,7 @@ __metadata:
     "@commitlint/config-conventional": "npm:18.4.3"
     "@rollup/plugin-babel": "npm:6.0.4"
     "@rollup/plugin-commonjs": "npm:25.0.7"
-    "@rollup/plugin-json": "npm:6.0.1"
+    "@rollup/plugin-json": "npm:6.1.0"
     "@rollup/plugin-node-resolve": "npm:15.1.0"
     "@rollup/plugin-replace": "npm:5.0.5"
     "@rollup/plugin-terser": "npm:0.4.4"
