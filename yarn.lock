@@ -7286,7 +7286,7 @@ __metadata:
     eslint-plugin-react: "npm:7.33.2"
     eslint-plugin-storybook: "npm:0.6.15"
     esm: "npm:3.2.25"
-    i18next: "npm:23.7.8"
+    i18next: "npm:23.7.9"
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
     jest-watch-typeahead: "npm:2.2.2"
@@ -16845,12 +16845,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:23.7.8":
-  version: 23.7.8
-  resolution: "i18next@npm:23.7.8"
+"i18next@npm:23.7.9":
+  version: 23.7.9
+  resolution: "i18next@npm:23.7.9"
   dependencies:
     "@babel/runtime": "npm:^7.23.2"
-  checksum: 1f6c472d167f02c1f3274ed16649fba03405a561e27f34721e93a3dd4aa585e12a6a7d9c9910282f113b058127ae130b824ba505e020c205e04405035ed31f2e
+  checksum: e509249823b1b6d84b7f068c7db7196e89456c068c72e727571218270ef0f2c8b3ee13d9997b0a2edf2d7d6fb135cbd098d737ab39eab1e4dcb04a6787975692
   languageName: node
   linkType: hard
 
