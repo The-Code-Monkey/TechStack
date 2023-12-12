@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.130](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.129...@techstack/tcm-cli@1.3.130) (2023-12-12)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.23.6 ([f808ed7](https://github.com/The-Code-Monkey/TechStack/commit/f808ed7e115786cbc0d720d71d888a12e4bb666e))
+* **deps:** update dependency babel-plugin-polyfill-regenerator to v0.5.4 ([35959df](https://github.com/The-Code-Monkey/TechStack/commit/35959df1a8cac6ab3bbaf519070873dbbe0cde74))
+* **deps:** update dependency rollup to v4.8.0 ([57c2ab9](https://github.com/The-Code-Monkey/TechStack/commit/57c2ab981380c805ed045b13ff283a0bd23784df))
+
+
+
+
+
 ## [1.3.129](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.128...@techstack/tcm-cli@1.3.129) (2023-12-11)
 
 **Note:** Version bump only for package @techstack/tcm-cli
