@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.131](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.130...@techstack/tcm-cli@1.3.131) (2023-12-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rollup/plugin-json to v6.1.0 ([72097a7](https://github.com/The-Code-Monkey/TechStack/commit/72097a783e52d178997ee521e2e221ff19d92e09))
+
+
+
+
+
 ## [1.3.130](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.129...@techstack/tcm-cli@1.3.130) (2023-12-12)
 
 
