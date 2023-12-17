@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.135](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.134...@techstack/tcm-cli@1.3.135) (2023-12-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency regenerator-runtime to v0.14.1 ([98fe543](https://github.com/The-Code-Monkey/TechStack/commit/98fe543ed2446d492a9229b4678d69d5c04c5dfd))
+
+
+
+
+
 ## [1.3.134](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.133...@techstack/tcm-cli@1.3.134) (2023-12-16)
 
 **Note:** Version bump only for package @techstack/tcm-cli
