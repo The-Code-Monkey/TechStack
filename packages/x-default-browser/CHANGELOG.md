@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.138](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/x-default-browser@1.3.137...@techstack/x-default-browser@1.3.138) (2023-12-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency default-browser-id to v5 ([126eb68](https://github.com/The-Code-Monkey/TechStack/commit/126eb6865a7762d3e02612e2830a64936e6a2455))
+
+
+
+
+
 ## [1.3.137](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/x-default-browser@1.3.136...@techstack/x-default-browser@1.3.137) (2023-12-19)
 
 **Note:** Version bump only for package @techstack/x-default-browser
