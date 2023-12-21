@@ -7325,7 +7325,7 @@ __metadata:
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-prettier: "npm:5.1.0"
+    eslint-plugin-prettier: "npm:5.1.1"
     eslint-plugin-react: "npm:7.33.2"
     eslint-plugin-storybook: "npm:0.6.15"
     esm: "npm:3.2.25"
@@ -7369,7 +7369,7 @@ __metadata:
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-prettier: "npm:5.1.0"
+    eslint-plugin-prettier: "npm:5.1.1"
     eslint-plugin-react: "npm:7.33.2"
     prettier: "npm:3.1.1"
     react: "npm:18.2.0"
@@ -7414,7 +7414,7 @@ __metadata:
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-prettier: "npm:5.1.0"
+    eslint-plugin-prettier: "npm:5.1.1"
     eslint-plugin-react: "npm:7.33.2"
     expect-type: "npm:0.17.3"
     fast-memoize: "npm:2.5.2"
@@ -7448,7 +7448,7 @@ __metadata:
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-prettier: "npm:5.1.0"
+    eslint-plugin-prettier: "npm:5.1.1"
     eslint-plugin-react: "npm:7.33.2"
     prettier: "npm:3.1.1"
     react: "npm:18.2.0"
@@ -7469,7 +7469,7 @@ __metadata:
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-prettier: "npm:5.1.0"
+    eslint-plugin-prettier: "npm:5.1.1"
     eslint-plugin-react: "npm:7.33.2"
     fs-extra: "npm:11.2.0"
     prettier: "npm:3.1.1"
@@ -7491,7 +7491,7 @@ __metadata:
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-prettier: "npm:5.1.0"
+    eslint-plugin-prettier: "npm:5.1.1"
     eslint-plugin-react: "npm:7.33.2"
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
@@ -7527,7 +7527,7 @@ __metadata:
     eslint-config-airbnb: "npm:19.0.4"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-prettier: "npm:5.1.0"
+    eslint-plugin-prettier: "npm:5.1.1"
     eslint-plugin-react: "npm:7.33.2"
     expect: "npm:29.7.0"
     mocha: "npm:10.2.0"
@@ -7605,7 +7605,7 @@ __metadata:
     eslint-plugin-jest: "npm:27.6.0"
     eslint-plugin-jsx-a11y: "npm:6.8.0"
     eslint-plugin-no-restricted-imports: "npm:0.0.0"
-    eslint-plugin-prettier: "npm:5.1.0"
+    eslint-plugin-prettier: "npm:5.1.1"
     eslint-plugin-react: "npm:7.33.2"
     eslint-plugin-react-hooks: "npm:4.6.0"
     eslint-plugin-testing-library: "npm:6.2.0"
@@ -7665,7 +7665,7 @@ __metadata:
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-prettier: "npm:5.1.0"
+    eslint-plugin-prettier: "npm:5.1.1"
     eslint-plugin-react: "npm:7.33.2"
     fs-extra: "npm:11.2.0"
     lodash: "npm:4.17.21"
@@ -7694,7 +7694,7 @@ __metadata:
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-prettier: "npm:5.1.0"
+    eslint-plugin-prettier: "npm:5.1.1"
     eslint-plugin-react: "npm:7.33.2"
     mocha: "npm:10.2.0"
     prettier: "npm:3.1.1"
@@ -14694,9 +14694,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:5.1.0":
-  version: 5.1.0
-  resolution: "eslint-plugin-prettier@npm:5.1.0"
+"eslint-plugin-prettier@npm:5.1.1":
+  version: 5.1.1
+  resolution: "eslint-plugin-prettier@npm:5.1.1"
   dependencies:
     prettier-linter-helpers: "npm:^1.0.0"
     synckit: "npm:^0.8.5"
@@ -14710,7 +14710,7 @@ __metadata:
       optional: true
     eslint-config-prettier:
       optional: true
-  checksum: 76b9a6cc5fa8dcc0d5d8aac5e7b717c08c736d2f158ba63709d94526d3152761d36963f930f9c64a29270a107519eca24b41e82b67cc43f0291d43db4a975fd1
+  checksum: cb9fb797e3b872864d9bd4a6154cc0aeccdd9b3d7add510b2077f6d5149fb4b681abd180dacb5dafda603defb6089824a7c6f97faf1f099dba4f4e77f86c46c3
   languageName: node
   linkType: hard
 
