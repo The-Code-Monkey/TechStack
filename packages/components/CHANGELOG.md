@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.141](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.140...@techstack/components@1.3.141) (2023-12-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @techstack/styled-system to v1.0.328 ([a342dce](https://github.com/The-Code-Monkey/TechStack/commit/a342dced6349a96115aec9c3bbfa9f657f91787f))
+* **deps:** update dependency react-i18next to v14 ([87248f7](https://github.com/The-Code-Monkey/TechStack/commit/87248f7339ba5ee03a8f8338302c6ac0f7b67a8b))
+
+
+
+
+
 ## [1.3.140](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.139...@techstack/components@1.3.140) (2023-12-21)
 
 
