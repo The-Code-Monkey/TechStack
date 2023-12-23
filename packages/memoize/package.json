@@ -63,7 +63,7 @@
     "memoizee": "0.4.15",
     "moize": "6.1.6",
     "nanocolors": "0.2.13",
-    "ora": "8.0.0",
+    "ora": "8.0.1",
     "prettier": "3.1.1",
     "ts-jest": "29.1.1",
     "tslib": "2.6.2",
