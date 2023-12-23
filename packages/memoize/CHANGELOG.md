@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.141](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@1.3.140...@techstack/memoize@1.3.141) (2023-12-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ora to v8 ([7d3447c](https://github.com/The-Code-Monkey/TechStack/commit/7d3447c1eadd34769785a4aeb86640014fc79d8e))
+
+
+
+
+
 ## [1.3.140](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@1.3.139...@techstack/memoize@1.3.140) (2023-12-22)
 
 **Note:** Version bump only for package @techstack/memoize
