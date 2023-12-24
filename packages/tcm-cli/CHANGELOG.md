@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.142](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.141...@techstack/tcm-cli@1.3.142) (2023-12-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ora to v8.0.1 ([124cc02](https://github.com/The-Code-Monkey/TechStack/commit/124cc023914aa19013d11404416cbbb22639fc11))
+
+
+
+
+
 ## [1.3.141](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.140...@techstack/tcm-cli@1.3.141) (2023-12-23)
 
 
