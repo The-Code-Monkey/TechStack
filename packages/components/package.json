@@ -108,7 +108,7 @@
     "react-dom": "18.2.0",
     "react-is": "18.2.0",
     "sass": "1.69.5",
-    "sass-loader": "13.3.2",
+    "sass-loader": "13.3.3",
     "size-limit": "11.0.1",
     "storybook": "7.6.6",
     "ts-jest": "29.1.1",
