@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.149 (2024-01-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jest to v27.6.1 ([ac3ab27](https://github.com/The-Code-Monkey/TechStack/commit/ac3ab27c64720de7359018a0b77736d2f5defb7d))
+
+
+
+
+
 ## [1.3.148](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.147...@techstack/tcm-cli@1.3.148) (2023-12-31)
 
 
