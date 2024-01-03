@@ -6273,14 +6273,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-styling-webpack@npm:0.0.5":
-  version: 0.0.5
-  resolution: "@storybook/addon-styling-webpack@npm:0.0.5"
+"@storybook/addon-styling-webpack@npm:0.0.6":
+  version: 0.0.6
+  resolution: "@storybook/addon-styling-webpack@npm:0.0.6"
   dependencies:
     "@storybook/node-logger": "npm:^7.0.12"
   peerDependencies:
     webpack: ^5.0.0
-  checksum: 6dbf0c64376075f956c9a61ecf3f4e76db666f528f1949fbc168740c39deed14ca97c710724ebe0dd3ca8536f8da686ea6ecfa20adea7ad64740c2a12c38df09
+  checksum: b0dc60ba927ae4982f06fa37874a25b70b53532cea715baeda3125fa87c1361429aaf15964d5bcd1d3a137fe1f3aad4f1cc666dc77942ef67818cd8c8ae0a51e
   languageName: node
   linkType: hard
 
@@ -7303,7 +7303,7 @@ __metadata:
     "@storybook/addon-links": "npm:7.6.7"
     "@storybook/addon-mdx-gfm": "npm:7.6.7"
     "@storybook/addon-onboarding": "npm:1.0.10"
-    "@storybook/addon-styling-webpack": "npm:0.0.5"
+    "@storybook/addon-styling-webpack": "npm:0.0.6"
     "@storybook/addons": "npm:7.6.7"
     "@storybook/blocks": "npm:7.6.7"
     "@storybook/client-api": "npm:7.6.7"
