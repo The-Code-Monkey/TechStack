@@ -74,7 +74,7 @@
     "@storybook/addon-links": "7.6.7",
     "@storybook/addon-mdx-gfm": "7.6.7",
     "@storybook/addon-onboarding": "1.0.10",
-    "@storybook/addon-styling-webpack": "0.0.5",
+    "@storybook/addon-styling-webpack": "0.0.6",
     "@storybook/addons": "7.6.7",
     "@storybook/blocks": "7.6.7",
     "@storybook/client-api": "7.6.7",
