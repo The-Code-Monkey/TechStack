@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.160](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.159...@techstack/components@1.3.160) (2024-01-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/preset-env to v7.23.8 ([ede51ff](https://github.com/The-Code-Monkey/TechStack/commit/ede51ffa996faacae7d110064c1274e69766f303))
+* **deps:** update dependency @techstack/styled-system to v1.0.348 ([bcf3e2c](https://github.com/The-Code-Monkey/TechStack/commit/bcf3e2c210a5c597d58196dab429d39688e58971))
+
+
+
+
+
 ## [1.3.159](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.158...@techstack/components@1.3.159) (2024-01-09)
 
 **Note:** Version bump only for package @techstack/components

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.155](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.154...@techstack/tcm-cli@1.3.155) (2024-01-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/preset-env to v7.23.8 ([ede51ff](https://github.com/The-Code-Monkey/TechStack/commit/ede51ffa996faacae7d110064c1274e69766f303))
+
+
+
+
+
 ## 1.3.154 (2024-01-09)
 
 **Note:** Version bump only for package @techstack/tcm-cli
