@@ -7341,7 +7341,7 @@ __metadata:
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
     jest-watch-typeahead: "npm:2.2.2"
-    prettier: "npm:3.2.0"
+    prettier: "npm:3.2.1"
     react: "npm:18.2.0"
     react-date-picker: "npm:10.6.0"
     react-datetime-picker: "npm:5.6.0"
@@ -7379,7 +7379,7 @@ __metadata:
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-prettier: "npm:5.1.3"
     eslint-plugin-react: "npm:7.33.2"
-    prettier: "npm:3.2.0"
+    prettier: "npm:3.2.1"
     react: "npm:18.2.0"
     typescript: "npm:5.3.3"
   languageName: unknown
@@ -7443,7 +7443,7 @@ __metadata:
     moize: "npm:6.1.6"
     nanocolors: "npm:0.2.13"
     ora: "npm:8.0.1"
-    prettier: "npm:3.2.0"
+    prettier: "npm:3.2.1"
     ts-jest: "npm:29.1.1"
     tslib: "npm:2.6.2"
     typescript: "npm:5.3.3"
@@ -7465,7 +7465,7 @@ __metadata:
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-prettier: "npm:5.1.3"
     eslint-plugin-react: "npm:7.33.2"
-    prettier: "npm:3.2.0"
+    prettier: "npm:3.2.1"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     typescript: "npm:5.3.3"
@@ -7487,7 +7487,7 @@ __metadata:
     eslint-plugin-prettier: "npm:5.1.3"
     eslint-plugin-react: "npm:7.33.2"
     fs-extra: "npm:11.2.0"
-    prettier: "npm:3.2.0"
+    prettier: "npm:3.2.1"
     react: "npm:18.2.0"
     typescript: "npm:5.3.3"
   languageName: unknown
@@ -7513,7 +7513,7 @@ __metadata:
     jest-watch-typeahead: "npm:2.2.2"
     lodash: "npm:4.17.21"
     lodash-es: "npm:4.17.21"
-    prettier: "npm:3.2.0"
+    prettier: "npm:3.2.1"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     ts-jest: "npm:29.1.1"
@@ -7546,7 +7546,7 @@ __metadata:
     eslint-plugin-react: "npm:7.33.2"
     expect: "npm:29.7.0"
     mocha: "npm:10.2.0"
-    prettier: "npm:3.2.0"
+    prettier: "npm:3.2.1"
     process: "npm:0.11.10"
     react: "npm:18.2.0"
     rimraf: "npm:5.0.5"
@@ -7636,7 +7636,7 @@ __metadata:
     ora: "npm:8.0.1"
     pascal-case: "npm:3.1.2"
     postcss: "npm:8.4.33"
-    prettier: "npm:3.2.0"
+    prettier: "npm:3.2.1"
     progress-estimator: "npm:0.3.1"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
@@ -7685,7 +7685,7 @@ __metadata:
     fs-extra: "npm:11.2.0"
     lodash: "npm:4.17.21"
     lodash-es: "npm:4.17.21"
-    prettier: "npm:3.2.0"
+    prettier: "npm:3.2.1"
     sade: "npm:1.8.1"
     size-limit: "npm:11.0.1"
     style-dictionary: "npm:3.9.1"
@@ -7712,7 +7712,7 @@ __metadata:
     eslint-plugin-prettier: "npm:5.1.3"
     eslint-plugin-react: "npm:7.33.2"
     mocha: "npm:10.2.0"
-    prettier: "npm:3.2.0"
+    prettier: "npm:3.2.1"
     rewire: "npm:7.0.0"
     typescript: "npm:5.3.3"
   bin:
@@ -23495,12 +23495,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.2.0":
-  version: 3.2.0
-  resolution: "prettier@npm:3.2.0"
+"prettier@npm:3.2.1":
+  version: 3.2.1
+  resolution: "prettier@npm:3.2.1"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 8ba997430cb3fe88cd749a3521bc15821cadb4b6ff41c626e92cabc342efee712d109921b3de37dcada7326bc1b03e745b802fba5472535eb7880e8e7e073b51
+  checksum: e01284f25c1e9a96dfaf4f7d0bfdf0726b26afc732b0e645a2653174d4ad5a1e85ae21ec4d327c71536f1acf8fee1dff5ea35c5b4b8e5b83ff00fe1dd6fef146
   languageName: node
   linkType: hard
 
