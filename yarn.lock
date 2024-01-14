@@ -7316,7 +7316,7 @@ __metadata:
     "@techstack/tcm-cli": "workspace:*"
     "@techstack/theme": "workspace:*"
     "@testing-library/react": "npm:14.1.2"
-    "@tsconfig/create-react-app": "npm:2.0.1"
+    "@tsconfig/create-react-app": "npm:2.0.2"
     "@tsconfig/recommended": "npm:1.0.3"
     "@types/jest": "npm:29.5.11"
     "@types/node": "npm:^20.5.6"
@@ -7827,10 +7827,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/create-react-app@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@tsconfig/create-react-app@npm:2.0.1"
-  checksum: 0f4cf2810f71c6a04c037146fca66ddf01eb7fa90d330267b74c6345896ba55d421cda714a6fbef2cd812f39f86e61bac054904bfa79242f7aa5f3b8f97ec04b
+"@tsconfig/create-react-app@npm:2.0.2":
+  version: 2.0.2
+  resolution: "@tsconfig/create-react-app@npm:2.0.2"
+  checksum: 33afc42382bf8c9bb433d91c178debd2ff7c3de466747c5c416e67ce0f3d592ceceec00539c8b7220335144ce56016818f0f1de95cd72d6d55907e372dd352b1
   languageName: node
   linkType: hard
 
