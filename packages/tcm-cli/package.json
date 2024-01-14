@@ -85,7 +85,7 @@
     "ora": "8.0.1",
     "pascal-case": "3.1.2",
     "postcss": "8.4.33",
-    "prettier": "3.2.1",
+    "prettier": "3.2.2",
     "progress-estimator": "0.3.1",
     "regenerator-runtime": "0.14.1",
     "rollup": "4.9.5",
