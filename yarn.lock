@@ -7688,7 +7688,7 @@ __metadata:
     prettier: "npm:3.2.4"
     sade: "npm:1.8.1"
     size-limit: "npm:11.0.2"
-    style-dictionary: "npm:3.9.1"
+    style-dictionary: "npm:3.9.2"
     tinycolor2: "npm:1.6.0"
     ts-jest: "npm:29.1.1"
     tslib: "npm:2.6.2"
@@ -26344,9 +26344,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-dictionary@npm:3.9.1":
-  version: 3.9.1
-  resolution: "style-dictionary@npm:3.9.1"
+"style-dictionary@npm:3.9.2":
+  version: 3.9.2
+  resolution: "style-dictionary@npm:3.9.2"
   dependencies:
     chalk: "npm:^4.0.0"
     change-case: "npm:^4.1.2"
@@ -26359,7 +26359,7 @@ __metadata:
     tinycolor2: "npm:^1.4.1"
   bin:
     style-dictionary: bin/style-dictionary
-  checksum: 1a52e82175c97d4825c67ce7d896d12ec39082c405e8c064a3341a4b7469ce9ca15fed40999021b2a16b0d4ed3fd6b0c3ef0743f25518f57640deb1ca91837d1
+  checksum: 639f567e35565ea4e76f1f564b4b7f21208fd7f0bc86230fce9bee474f6add33defe3c2467fb73703e8e9819c29707d5d1628f2569cb69f2561b9e7b7596d434
   languageName: node
   linkType: hard
 
