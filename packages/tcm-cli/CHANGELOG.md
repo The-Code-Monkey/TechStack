@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.164 (2024-01-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup to v4.9.6 ([ddac08b](https://github.com/The-Code-Monkey/TechStack/commit/ddac08be26c4be4063bd5f460848e23e1eb39a78))
+
+
+
+
+
 ## [1.3.163](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.162...@techstack/tcm-cli@1.3.163) (2024-01-19)
 
 
