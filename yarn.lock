@@ -6262,16 +6262,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-onboarding@npm:1.0.10":
-  version: 1.0.10
-  resolution: "@storybook/addon-onboarding@npm:1.0.10"
+"@storybook/addon-onboarding@npm:1.0.11":
+  version: 1.0.11
+  resolution: "@storybook/addon-onboarding@npm:1.0.11"
   dependencies:
     "@storybook/telemetry": "npm:^7.1.0"
     react-confetti: "npm:^6.1.0"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 4ee04976e9adcf73d9b3645b766e39ba19e34144c05348b63390719cdf77f79fe9e44da45af2cd61849940427c1c553563165d57511e54e1bf26fb3817ec53dc
+  checksum: ca3de3eb85fb6d04309dbc07c26956777c064bb5032fb99aca3e43361b0816ac4326183aac99204d795fdc2010aa69c4978353c70a42926e9da0819343fcd2a0
   languageName: node
   linkType: hard
 
@@ -7314,7 +7314,7 @@ __metadata:
     "@storybook/addon-interactions": "npm:7.6.10"
     "@storybook/addon-links": "npm:7.6.10"
     "@storybook/addon-mdx-gfm": "npm:7.6.10"
-    "@storybook/addon-onboarding": "npm:1.0.10"
+    "@storybook/addon-onboarding": "npm:1.0.11"
     "@storybook/addon-styling-webpack": "npm:0.0.6"
     "@storybook/addons": "npm:7.6.10"
     "@storybook/blocks": "npm:7.6.10"
