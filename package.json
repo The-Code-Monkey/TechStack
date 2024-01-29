@@ -28,7 +28,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "husky": "9.0.6",
+    "husky": "9.0.7",
     "lerna": "8.0.2"
   },
   "packageManager": "yarn@4.0.2"
