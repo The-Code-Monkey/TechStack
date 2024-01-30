@@ -7696,7 +7696,7 @@ __metadata:
     ts-jest: "npm:29.1.2"
     ts-node: "npm:10.9.1"
     tslib: "npm:2.6.2"
-    type-fest: "npm:4.10.1"
+    type-fest: "npm:4.10.2"
     typescript: "npm:5.3.3"
   bin:
     tcm: dist/index.js
@@ -27225,10 +27225,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:4.10.1":
-  version: 4.10.1
-  resolution: "type-fest@npm:4.10.1"
-  checksum: 0523bc1a407cdc03fe20ee78698646e36fd40c99cb2c5b115e72d5a7e4d236f1e7fbf15b3b7b8e703f9108467a8e69aa2df268feefa65847bf37a89555703352
+"type-fest@npm:4.10.2":
+  version: 4.10.2
+  resolution: "type-fest@npm:4.10.2"
+  checksum: 740f7d30da742ff413e8690ec10a24df054bfd87575cf92691b77f5a6b8185c582da529b84ceb13771482599e085712beec51492feaef2a1adc8661c0a47ecba
   languageName: node
   linkType: hard
 
