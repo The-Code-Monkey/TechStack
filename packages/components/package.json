@@ -83,7 +83,7 @@
     "@storybook/react-webpack5": "7.6.11",
     "@storybook/testing-library": "0.2.2",
     "@techstack/tcm-cli": "workspace:*",
-    "@testing-library/react": "14.1.2",
+    "@testing-library/react": "14.2.0",
     "@tsconfig/create-react-app": "2.0.2",
     "@tsconfig/recommended": "1.0.3",
     "@types/jest": "29.5.11",
