@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.171](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.170...@techstack/tcm-cli@1.3.171) (2024-01-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sort-package-json to v2.7.0 ([fe3376b](https://github.com/The-Code-Monkey/TechStack/commit/fe3376b4c1dc538ce1f4a1743c8e534a288991b2))
+* **deps:** update dependency type-fest to v4.10.2 ([6fc1f18](https://github.com/The-Code-Monkey/TechStack/commit/6fc1f1804163a5ef1eb8145f53663371f8f60917))
+
+
+
+
+
 ## 1.3.170 (2024-01-30)
 
 **Note:** Version bump only for package @techstack/tcm-cli
