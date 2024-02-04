@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.174](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@1.3.173...@techstack/memoize@1.3.174) (2024-02-04)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
 ## [1.3.173](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@1.3.172...@techstack/memoize@1.3.173) (2024-02-03)
 
 **Note:** Version bump only for package @techstack/memoize
