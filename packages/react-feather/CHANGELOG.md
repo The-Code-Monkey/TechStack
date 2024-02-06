@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@1.3.176...@techstack/react-feather@1.4.0) (2024-02-06)
+
+
+### Bug Fixes
+
+* add plane in ([fa85234](https://github.com/The-Code-Monkey/TechStack/commit/fa852349957049226d2154e0a89058b9714fc82a))
+
+
+### Features
+
+* add bus and ship icons ([4d1fdaf](https://github.com/The-Code-Monkey/TechStack/commit/4d1fdaf6767bf84dfd988e256335424542655abd))
+
+
+
+
+
 ## [1.3.176](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@1.3.175...@techstack/react-feather@1.3.176) (2024-02-06)
 
 **Note:** Version bump only for package @techstack/react-feather
