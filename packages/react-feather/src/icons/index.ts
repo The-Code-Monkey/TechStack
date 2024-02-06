@@ -294,3 +294,6 @@ export { default as Strikethrough } from './strikethrough';
 export { default as FontColor } from './font-color';
 export { default as BgColor } from './bg-color';
 export { default as PoundCoin } from './pound-coin';
+export { default as Plane } from './plane';
+export { default as Ship } from './ship';
+export { default as Bus } from './bus';
