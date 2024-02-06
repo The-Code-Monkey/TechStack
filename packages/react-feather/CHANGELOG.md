@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.2](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@1.4.1...@techstack/react-feather@1.4.2) (2024-02-06)
+
+
+### Bug Fixes
+
+* different bus icon ([db2c3ef](https://github.com/The-Code-Monkey/TechStack/commit/db2c3efcb2310e104a04c51c022acc286e36f479))
+
+
+
+
+
 ## [1.4.1](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@1.4.0...@techstack/react-feather@1.4.1) (2024-02-06)
 
 **Note:** Version bump only for package @techstack/react-feather
