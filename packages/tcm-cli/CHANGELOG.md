@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.180 (2024-02-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency semver to v7.6.0 ([a2de70e](https://github.com/The-Code-Monkey/TechStack/commit/a2de70ea860f514dc9a5e78f30899eab8c6d637c))
+
+
+
+
+
 ## [1.3.179](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.178...@techstack/tcm-cli@1.3.179) (2024-02-06)
 
 **Note:** Version bump only for package @techstack/tcm-cli
