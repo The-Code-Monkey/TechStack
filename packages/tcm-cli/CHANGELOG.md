@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.181](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.3.180...@techstack/tcm-cli@1.3.181) (2024-02-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.35 ([c1d0405](https://github.com/The-Code-Monkey/TechStack/commit/c1d0405b4a9bb07a29aaea239de921a8be22f3b3))
+
+
+
+
+
 ## 1.3.180 (2024-02-07)
 
 
