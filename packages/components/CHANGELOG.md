@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.207](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.206...@techstack/components@1.3.207) (2024-02-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @techstack/styled-system to v1.0.379 ([aad4924](https://github.com/The-Code-Monkey/TechStack/commit/aad492475ae0722410475aeaf01132a408a48491))
+
+
+
+
+
 ## [1.3.206](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.205...@techstack/components@1.3.206) (2024-02-11)
 
 **Note:** Version bump only for package @techstack/components
