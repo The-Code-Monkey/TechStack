@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.189 (2024-02-14)
+
+**Note:** Version bump only for package @techstack/lexical
+
+
+
+
+
 ## 1.3.188 (2024-02-14)
 
 **Note:** Version bump only for package @techstack/lexical
