@@ -7377,7 +7377,7 @@ __metadata:
     "@tsconfig/recommended": "npm:1.0.3"
     "@types/jest": "npm:29.5.12"
     "@types/node": "npm:^20.5.6"
-    "@types/react": "npm:18.2.55"
+    "@types/react": "npm:18.2.56"
     "@types/react-dom": "npm:18.2.19"
     "@types/react-table": "npm:7.7.19"
     "@typescript-eslint/eslint-plugin": "npm:7.0.1"
@@ -7428,7 +7428,7 @@ __metadata:
     "@storybook/react": "npm:7.6.16"
     "@techstack/tcm-cli": "workspace:*"
     "@types/node": "npm:20.5.6"
-    "@types/react": "npm:18.2.55"
+    "@types/react": "npm:18.2.56"
     "@typescript-eslint/eslint-plugin": "npm:7.0.1"
     "@typescript-eslint/parser": "npm:7.0.1"
     eslint: "npm:8.56.0"
@@ -7513,7 +7513,7 @@ __metadata:
   dependencies:
     "@techstack/tcm-cli": "workspace:*"
     "@types/node": "npm:^20.5.6"
-    "@types/react": "npm:18.2.55"
+    "@types/react": "npm:18.2.56"
     "@types/react-dom": "npm:18.2.19"
     "@typescript-eslint/eslint-plugin": "npm:7.0.1"
     "@typescript-eslint/parser": "npm:7.0.1"
@@ -7534,7 +7534,7 @@ __metadata:
   resolution: "@techstack/react-feather@workspace:packages/react-feather"
   dependencies:
     "@techstack/tcm-cli": "workspace:*"
-    "@types/react": "npm:18.2.55"
+    "@types/react": "npm:18.2.56"
     "@typescript-eslint/eslint-plugin": "npm:7.0.1"
     "@typescript-eslint/parser": "npm:7.0.1"
     cross-env: "npm:7.0.3"
@@ -7557,7 +7557,7 @@ __metadata:
     "@techstack/tcm-cli": "workspace:*"
     "@testing-library/react": "npm:14.2.1"
     "@types/jest": "npm:29.5.12"
-    "@types/react": "npm:18.2.55"
+    "@types/react": "npm:18.2.56"
     "@typescript-eslint/eslint-plugin": "npm:7.0.1"
     "@typescript-eslint/parser": "npm:7.0.1"
     eslint: "npm:8.56.0"
@@ -7585,7 +7585,7 @@ __metadata:
   dependencies:
     "@techstack/tcm-cli": "workspace:*"
     "@types/node": "npm:^20.5.6"
-    "@types/react": "npm:18.2.55"
+    "@types/react": "npm:18.2.56"
     "@typescript-eslint/eslint-plugin": "npm:7.0.1"
     "@typescript-eslint/parser": "npm:7.0.1"
     babel-cli: "npm:6.26.0"
@@ -7648,7 +7648,7 @@ __metadata:
     "@types/fs-extra": "npm:11.0.4"
     "@types/lodash": "npm:4.14.202"
     "@types/node": "npm:18.17.1"
-    "@types/react": "npm:18.2.55"
+    "@types/react": "npm:18.2.56"
     "@types/semver": "npm:7.5.7"
     "@types/shelljs": "npm:0.8.15"
     "@typescript-eslint/eslint-plugin": "npm:7.0.1"
@@ -8621,14 +8621,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.55":
-  version: 18.2.55
-  resolution: "@types/react@npm:18.2.55"
+"@types/react@npm:18.2.56":
+  version: 18.2.56
+  resolution: "@types/react@npm:18.2.56"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/6b1c73beafbbc582dc54ffd92b3779f6d850e8f6b5ce5d04b31e9498a3d77bfc416bb08f0d8d63ab4f4649ccd6639996472416871c01c74a528b16a55faeaf38
+  checksum: 10c0/a6dab9569799538a9e01d340a721ef1a6f5532bd11cae8d8ab9af00dab2edcafaa00950f7bf2f9ae5bbb1839d890e9ac6eb1ea1186200894b7178dde7b503269
   languageName: node
   linkType: hard
 
