@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.232](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.231...@techstack/components@1.3.232) (2024-02-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency i18next to v23.9.0 ([b262899](https://github.com/The-Code-Monkey/TechStack/commit/b26289914ec4760a8605d19aed9fb201f6c04023))
+
+
+
+
+
 ## [1.3.231](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.230...@techstack/components@1.3.231) (2024-02-17)
 
 
