@@ -492,6 +492,9 @@ pre::-webkit-scrollbar-thumb {
 }
 
 .link-editor div.link-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-size: 16px;
   background-position: center;
   background-repeat: no-repeat;
