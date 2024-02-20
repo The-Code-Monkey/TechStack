@@ -66,6 +66,7 @@ import {
   TypeH1,
   TypeH2,
   Underline,
+  Edit,
 } from '@techstack/react-feather';
 
 import DropdownColorPicker from '../components/DropdownColorPicker';
@@ -294,7 +295,9 @@ function FloatingLinkEditor({ editor }: FloatingLinkEditorProps) {
             onClick={() => {
               setEditMode(true);
             }}
-          />
+          >
+            <Edit size={12} />
+          </div>
         </div>
       )}
     </div>
