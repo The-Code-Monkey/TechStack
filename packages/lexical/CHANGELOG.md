@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.2](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.4.1...@techstack/lexical@1.4.2) (2024-02-22)
+
+
+### Bug Fixes
+
+* push some changes ([e49b4d4](https://github.com/The-Code-Monkey/TechStack/commit/e49b4d4c1bd83688e7a0fb681ec4272b0c0d450e))
+* remove textnode issue ([051382e](https://github.com/The-Code-Monkey/TechStack/commit/051382ee7dfefaffddc427746b7e2f558a025dd6))
+
+
+
+
+
 ## [1.4.1](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.4.0...@techstack/lexical@1.4.1) (2024-02-22)
 
 
