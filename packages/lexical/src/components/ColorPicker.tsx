@@ -1,6 +1,6 @@
-import {useEffect, useMemo, useRef, useState} from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
-import {ColorPickerWrapper} from './styles';
+import { ColorPickerWrapper } from './styles';
 import TextInput from './TextInput';
 
 interface ColorPickerProps {

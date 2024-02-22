@@ -14,9 +14,9 @@ import {
   $createCodeNode,
   $isCodeNode,
   CODE_LANGUAGE_MAP,
-    getCodeLanguages,
+  getCodeLanguages,
 } from '@lexical/code';
-import { $isTableNode } from '@lexical/table';
+import { $isTableNode, $isTableSelection } from '@lexical/table';
 import { $isLinkNode, TOGGLE_LINK_COMMAND } from '@lexical/link';
 import {
   $isListNode,
@@ -32,15 +32,26 @@ import {
   $createQuoteNode,
   $isHeadingNode,
 } from '@lexical/rich-text';
-import { $isAtNodeEnd, $patchStyleText, $wrapNodes, $getSelectionStyleValueForProperty } from '@lexical/selection';
-import { $getNearestNodeOfType, mergeRegister } from '@lexical/utils';
-import { $isTableSelection } from '@lexical/table';
+import {
+  $isAtNodeEnd,
+  $patchStyleText,
+  $wrapNodes,
+  $getSelectionStyleValueForProperty,
+} from '@lexical/selection';
+import {
+  $getNearestNodeOfType,
+  mergeRegister,
+  $findMatchingParent,
+} from '@lexical/utils';
 import {
   $createParagraphNode,
   $getNodeByKey,
-  $getSelection, $isElementNode,
-  $isRangeSelection, $isRootOrShadowRoot,
-  BaseSelection, ElementFormatType,
+  $getSelection,
+  $isElementNode,
+  $isRangeSelection,
+  $isRootOrShadowRoot,
+  BaseSelection,
+  ElementFormatType,
   FORMAT_ELEMENT_COMMAND,
   FORMAT_TEXT_COMMAND,
   LexicalEditor,
@@ -68,11 +79,11 @@ import {
   TypeH1,
   TypeH2,
   Underline,
-  Edit, CheckSquare,
+  Edit,
+  CheckSquare,
 } from '@techstack/react-feather';
 
 import DropdownColorPicker from '../components/DropdownColorPicker';
-import {$findMatchingParent} from "lexical/LexicalUtils";
 // import DropDown, {DropDownItem} from "../components/Dropdown";
 
 const LowPriority = 1;
@@ -83,13 +94,13 @@ type supportedBlockTypesType =
   | 'code'
   | 'h1'
   | 'h2'
-//     | 'h3'
-// | 'h4'
-// | 'h5'
-//     |'h6'
-    | 'bullet'
-    | 'check'
-    | 'number' ;
+  //     | 'h3'
+  // | 'h4'
+  // | 'h5'
+  //     |'h6'
+  | 'bullet'
+  | 'check'
+  | 'number';
 
 const supportedBlockTypes = new Set<supportedBlockTypesType>([
   'paragraph',
@@ -97,28 +108,28 @@ const supportedBlockTypes = new Set<supportedBlockTypesType>([
   'code',
   'h1',
   'h2',
-    // 'h3',
-    // 'h4',
-    // 'h5',
-    // 'h6',
-    'bullet',
-    'check',
-    'number',
+  // 'h3',
+  // 'h4',
+  // 'h5',
+  // 'h6',
+  'bullet',
+  'check',
+  'number',
 ]);
 
 const supportedBlockTypesIcons: Record<supportedBlockTypesType, ReactNode> = {
   code: <Code size={14} />,
   h1: <TypeH1 size={14} />,
   h2: <TypeH2 size={14} />,
-    // h3: <TypeH3 size={14} />,
-    // h4: <TypeH4 size={14} />,
-    // h5: <TypeH5 size={14} />,
-    // h6: <TypeH6 size={14} />,
+  // h3: <TypeH3 size={14} />,
+  // h4: <TypeH4 size={14} />,
+  // h5: <TypeH5 size={14} />,
+  // h6: <TypeH6 size={14} />,
   paragraph: <TextParagraph size={14} />,
   quote: <Quote size={14} />,
-    bullet: <ListUl size={14} />,
-    check: <CheckSquare size={14} />,
-    number: <ListOl size={14} />,
+  bullet: <ListUl size={14} />,
+  check: <CheckSquare size={14} />,
+  number: <ListOl size={14} />,
 };
 
 const blockTypeToBlockName: Record<supportedBlockTypesType, string> = {
@@ -578,13 +589,13 @@ function BlockOptionsDropdownList({
         <span className='text'>Numbered List</span>
         {blockType === 'number' && <span className='active' />}
       </button>
-        <button type='button' className='item' onClick={formatCheckList}>
-            <span className='icon check-list'>
-            <CheckSquare size={14} />
-            </span>
-            <span className='text'>Check List</span>
-            {blockType === 'check' && <span className='active' />}
-        </button>
+      <button type='button' className='item' onClick={formatCheckList}>
+        <span className='icon check-list'>
+          <CheckSquare size={14} />
+        </span>
+        <span className='text'>Check List</span>
+        {blockType === 'check' && <span className='active' />}
+      </button>
       <button type='button' className='item' onClick={formatQuote}>
         <span className='icon quote'>
           <Quote size={14} />
@@ -613,9 +624,9 @@ export default function ToolbarPlugin() {
   const toolbarRef = useRef<HTMLDivElement>(null);
   const [blockType, setBlockType] =
     useState<supportedBlockTypesType>('paragraph');
-  // @ts-ignore
+  // @ts-expect-error not using this yet but will do
   const [rootType, setRootType] =
-      useState<keyof typeof rootTypeToRootName>('root');
+    useState<keyof typeof rootTypeToRootName>('root');
   const [selectedElementKey, setSelectedElementKey] = useState<string | null>(
     null
   );
@@ -630,11 +641,11 @@ export default function ToolbarPlugin() {
   const [isCode, setIsCode] = useState(false);
   const [fontColor, setFontColor] = useState<string>('#000');
   const [bgColor, setBgColor] = useState<string>('#fff');
-  // @ts-ignore
+  // @ts-expect-error not using this yet but will do
   const [fontSize, setFontSize] = useState<string>('16px');
-  // @ts-ignore
+  // @ts-expect-error not using this yet but will do
   const [fontFamily, setFontFamily] = useState<string>('Arial');
-  // @ts-ignore
+  // @ts-expect-error not using this yet but will do
   const [elementFormat, setElementFormat] = useState<ElementFormatType>('left');
 
   const updateToolbar = useCallback(() => {
@@ -642,12 +653,12 @@ export default function ToolbarPlugin() {
     if ($isRangeSelection(selection)) {
       const anchorNode = selection.anchor.getNode();
       let element =
-          anchorNode.getKey() === 'root'
-              ? anchorNode
-              : $findMatchingParent(anchorNode, (e) => {
-                const parent = e.getParent();
-                return parent !== null && $isRootOrShadowRoot(parent);
-              });
+        anchorNode.getKey() === 'root'
+          ? anchorNode
+          : $findMatchingParent(anchorNode, e => {
+              const parent = e.getParent();
+              return parent !== null && $isRootOrShadowRoot(parent);
+            });
 
       if (element === null) {
         element = anchorNode.getTopLevelElementOrThrow();
@@ -683,25 +694,25 @@ export default function ToolbarPlugin() {
         setSelectedElementKey(elementKey);
         if ($isListNode(element)) {
           const parentList = $getNearestNodeOfType<ListNode>(
-              anchorNode,
-              ListNode,
+            anchorNode,
+            ListNode
           );
           const type = parentList
-              ? parentList.getListType()
-              : element.getListType();
+            ? parentList.getListType()
+            : element.getListType();
           setBlockType(type);
         } else {
           const type = $isHeadingNode(element)
-              ? element.getTag()
-              : element.getType();
+            ? element.getTag()
+            : element.getType();
           if (type in blockTypeToBlockName) {
             setBlockType(type as keyof typeof blockTypeToBlockName);
           }
           if ($isCodeNode(element)) {
             const language =
-                element.getLanguage() as keyof typeof CODE_LANGUAGE_MAP;
+              element.getLanguage() as keyof typeof CODE_LANGUAGE_MAP;
             setCodeLanguage(
-                language ? CODE_LANGUAGE_MAP[language] || language : '',
+              language ? CODE_LANGUAGE_MAP[language] || language : ''
             );
             return;
           }
@@ -709,37 +720,37 @@ export default function ToolbarPlugin() {
       }
       // Handle buttons
       setFontSize(
-          $getSelectionStyleValueForProperty(selection, 'font-size', '15px'),
+        $getSelectionStyleValueForProperty(selection, 'font-size', '15px')
       );
       setFontColor(
-          $getSelectionStyleValueForProperty(selection, 'color', '#000'),
+        $getSelectionStyleValueForProperty(selection, 'color', '#000')
       );
       setBgColor(
-          $getSelectionStyleValueForProperty(
-              selection,
-              'background-color',
-              '#fff',
-          ),
+        $getSelectionStyleValueForProperty(
+          selection,
+          'background-color',
+          '#fff'
+        )
       );
       setFontFamily(
-          $getSelectionStyleValueForProperty(selection, 'font-family', 'Arial'),
+        $getSelectionStyleValueForProperty(selection, 'font-family', 'Arial')
       );
       let matchingParent;
       if ($isLinkNode(parent)) {
         // If node is a link, we need to fetch the parent paragraph node to set format
         matchingParent = $findMatchingParent(
-            node,
-            (parentNode) => $isElementNode(parentNode) && !parentNode.isInline(),
+          node,
+          parentNode => $isElementNode(parentNode) && !parentNode.isInline()
         );
       }
 
       // If matchingParent is a valid node, pass it's format type
       setElementFormat(
-          $isElementNode(matchingParent)
-              ? matchingParent.getFormatType()
-              : $isElementNode(node)
-                  ? node.getFormatType()
-                  : parent?.getFormatType() || 'left',
+        $isElementNode(matchingParent)
+          ? matchingParent.getFormatType()
+          : $isElementNode(node)
+            ? node.getFormatType()
+            : parent?.getFormatType() || 'left'
       );
     }
   }, [editor]);
@@ -791,10 +802,7 @@ export default function ToolbarPlugin() {
     (styles: Record<string, string>) => {
       editor.update(() => {
         const selection = $getSelection();
-        if (
-          $isRangeSelection(selection) ||
-            $isTableSelection(selection)
-        ) {
+        if ($isRangeSelection(selection) || $isTableSelection(selection)) {
           $patchStyleText(selection, styles);
         }
       });
