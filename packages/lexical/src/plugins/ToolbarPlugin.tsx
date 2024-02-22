@@ -613,6 +613,7 @@ export default function ToolbarPlugin() {
   const toolbarRef = useRef<HTMLDivElement>(null);
   const [blockType, setBlockType] =
     useState<supportedBlockTypesType>('paragraph');
+  // @ts-ignore
   const [rootType, setRootType] =
       useState<keyof typeof rootTypeToRootName>('root');
   const [selectedElementKey, setSelectedElementKey] = useState<string | null>(
@@ -629,8 +630,11 @@ export default function ToolbarPlugin() {
   const [isCode, setIsCode] = useState(false);
   const [fontColor, setFontColor] = useState<string>('#000');
   const [bgColor, setBgColor] = useState<string>('#fff');
+  // @ts-ignore
   const [fontSize, setFontSize] = useState<string>('16px');
+  // @ts-ignore
   const [fontFamily, setFontFamily] = useState<string>('Arial');
+  // @ts-ignore
   const [elementFormat, setElementFormat] = useState<ElementFormatType>('left');
 
   const updateToolbar = useCallback(() => {
