@@ -64,6 +64,8 @@ export interface EditorProps {
 }
 
 function EditorContainer({ value, onChange, name }: EditorProps) {
+  if (typeof window === 'undefined') return null;
+
   const onChangeFn = (v: string) => {
     onChange(v);
   };
