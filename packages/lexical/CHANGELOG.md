@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.3.199...@techstack/lexical@1.4.0) (2024-02-22)
+
+
+### Bug Fixes
+
+* update linting ([03a475f](https://github.com/The-Code-Monkey/TechStack/commit/03a475f9ce949654a2f1fa067e62fff621d7f90d))
+* update stuff ([661836f](https://github.com/The-Code-Monkey/TechStack/commit/661836f7294ccca8121e2378fb5e45fc48f642c1))
+
+
+### Features
+
+* make styles be readded on editor load ([530dcc4](https://github.com/The-Code-Monkey/TechStack/commit/530dcc446c1f2127ff04835df13507fd0dc77bae))
+
+
+
+
+
 ## [1.3.199](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.3.198...@techstack/lexical@1.3.199) (2024-02-20)
 
 **Note:** Version bump only for package @techstack/lexical
