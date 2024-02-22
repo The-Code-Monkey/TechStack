@@ -15,12 +15,13 @@ import { RichTextPlugin } from '@lexical/react/LexicalRichTextPlugin';
 import { MarkdownShortcutPlugin } from '@lexical/react/LexicalMarkdownShortcutPlugin';
 import { HeadingNode, QuoteNode } from '@lexical/rich-text';
 import { TableCellNode, TableNode, TableRowNode } from '@lexical/table';
-import { $getRoot, $insertNodes, LexicalEditor } from 'lexical';
+import {$getRoot, $insertNodes, LexicalEditor, TextNode} from 'lexical';
 import { HorizontalRuleNode } from '@lexical/react/LexicalHorizontalRuleNode';
 
 import ToolbarPlugin from './plugins/ToolbarPlugin';
 import OnChangePlugin from './plugins/OnChangePlugin';
 import { Default } from './themes';
+import ExtendedTextNode from "./nodes/ExtendedTextNode";
 
 function Placeholder() {
   return <div className='editor-placeholder'>Enter some rich text...</div>;
@@ -48,6 +49,8 @@ const editorConfig: InitialConfigType = {
     AutoLinkNode,
     LinkNode,
     HorizontalRuleNode,
+    ExtendedTextNode,
+    { replace: TextNode, with: (node: TextNode) => new ExtendedTextNode(node.__text)}
   ],
 };
 

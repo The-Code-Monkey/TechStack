@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import {useEffect, useMemo, useRef, useState} from 'react';
 
-import { ColorPickerWrapper } from './styles';
+import {ColorPickerWrapper} from './styles';
 import TextInput from './TextInput';
 
 interface ColorPickerProps {
@@ -132,15 +132,11 @@ function transformColor<M extends keyof Color, C extends Color[M]>(
     rgb = hex2rgb(hex);
     hsv = rgb2hsv(rgb);
   } else if (format === 'rgb') {
-    const value = color as Color['rgb'];
-
-    rgb = value;
+    rgb = color as Color['rgb'];
     hex = rgb2hex(rgb);
     hsv = rgb2hsv(rgb);
   } else if (format === 'hsv') {
-    const value = color as Color['hsv'];
-
-    hsv = value;
+    hsv = color as Color['hsv'];
     rgb = hsv2rgb(hsv);
     hex = rgb2hex(rgb);
   }

@@ -13,14 +13,16 @@ import {
 import {
   $createCodeNode,
   $isCodeNode,
-  getCodeLanguages,
-  getDefaultCodeLanguage,
+  CODE_LANGUAGE_MAP,
+    getCodeLanguages,
 } from '@lexical/code';
+import { $isTableNode } from '@lexical/table';
 import { $isLinkNode, TOGGLE_LINK_COMMAND } from '@lexical/link';
 import {
   $isListNode,
   INSERT_ORDERED_LIST_COMMAND,
   INSERT_UNORDERED_LIST_COMMAND,
+  INSERT_CHECK_LIST_COMMAND,
   ListNode,
   REMOVE_LIST_COMMAND,
 } from '@lexical/list';
@@ -30,15 +32,15 @@ import {
   $createQuoteNode,
   $isHeadingNode,
 } from '@lexical/rich-text';
-import { $isAtNodeEnd, $patchStyleText, $wrapNodes } from '@lexical/selection';
+import { $isAtNodeEnd, $patchStyleText, $wrapNodes, $getSelectionStyleValueForProperty } from '@lexical/selection';
 import { $getNearestNodeOfType, mergeRegister } from '@lexical/utils';
+import { $isTableSelection } from '@lexical/table';
 import {
   $createParagraphNode,
   $getNodeByKey,
-  $getSelection,
-  $isRangeSelection,
-  BaseSelection,
-  DEPRECATED_$isGridSelection,
+  $getSelection, $isElementNode,
+  $isRangeSelection, $isRootOrShadowRoot,
+  BaseSelection, ElementFormatType,
   FORMAT_ELEMENT_COMMAND,
   FORMAT_TEXT_COMMAND,
   LexicalEditor,
@@ -66,10 +68,12 @@ import {
   TypeH1,
   TypeH2,
   Underline,
-  Edit,
+  Edit, CheckSquare,
 } from '@techstack/react-feather';
 
 import DropdownColorPicker from '../components/DropdownColorPicker';
+import {$findMatchingParent} from "lexical/LexicalUtils";
+// import DropDown, {DropDownItem} from "../components/Dropdown";
 
 const LowPriority = 1;
 
@@ -79,8 +83,13 @@ type supportedBlockTypesType =
   | 'code'
   | 'h1'
   | 'h2'
-  | 'ul'
-  | 'ol';
+//     | 'h3'
+// | 'h4'
+// | 'h5'
+//     |'h6'
+    | 'bullet'
+    | 'check'
+    | 'number' ;
 
 const supportedBlockTypes = new Set<supportedBlockTypesType>([
   'paragraph',
@@ -88,31 +97,42 @@ const supportedBlockTypes = new Set<supportedBlockTypesType>([
   'code',
   'h1',
   'h2',
-  'ul',
-  'ol',
+    // 'h3',
+    // 'h4',
+    // 'h5',
+    // 'h6',
+    'bullet',
+    'check',
+    'number',
 ]);
 
 const supportedBlockTypesIcons: Record<supportedBlockTypesType, ReactNode> = {
   code: <Code size={14} />,
   h1: <TypeH1 size={14} />,
   h2: <TypeH2 size={14} />,
-  ol: <ListOl size={14} />,
+    // h3: <TypeH3 size={14} />,
+    // h4: <TypeH4 size={14} />,
+    // h5: <TypeH5 size={14} />,
+    // h6: <TypeH6 size={14} />,
   paragraph: <TextParagraph size={14} />,
   quote: <Quote size={14} />,
-  ul: <ListUl size={14} />,
+    bullet: <ListUl size={14} />,
+    check: <CheckSquare size={14} />,
+    number: <ListOl size={14} />,
 };
 
-const blockTypeToBlockName = {
+const blockTypeToBlockName: Record<supportedBlockTypesType, string> = {
   code: 'Code Block',
   h1: 'Large Heading',
   h2: 'Small Heading',
-  h3: 'Heading',
-  h4: 'Heading',
-  h5: 'Heading',
-  ol: 'Numbered List',
+  // h3: 'Heading',
+  // h4: 'Heading',
+  // h5: 'Heading',
+  number: 'Numbered List',
   paragraph: 'Normal',
   quote: 'Quote',
-  ul: 'Bulleted List',
+  bullet: 'Bulleted List',
+  check: 'Check List',
 };
 
 function Divider() {
@@ -140,6 +160,62 @@ function positionEditorElement(
     }px`;
   }
 }
+
+// function FontDropDown({
+//                         editor,
+//                         value,
+//                         style,
+//                         disabled = false,
+//                       }: {
+//   editor: LexicalEditor;
+//   value: string;
+//   style: string;
+//   disabled?: boolean;
+// }): JSX.Element {
+//   const handleClick = useCallback(
+//       (option: string) => {
+//         editor.update(() => {
+//           const selection = $getSelection();
+//           if (selection !== null) {
+//             $patchStyleText(selection, {
+//               [style]: option,
+//             });
+//           }
+//         });
+//       },
+//       [editor, style],
+//   );
+//
+//   const buttonAriaLabel =
+//       style === 'font-family'
+//           ? 'Formatting options for font family'
+//           : 'Formatting options for font size';
+//
+//   return (
+//       <DropDown
+//           disabled={disabled}
+//           buttonClassName={'toolbar-item ' + style}
+//           buttonLabel={value}
+//           buttonIconClassName={
+//             style === 'font-family' ? 'icon block-type font-family' : ''
+//           }
+//           buttonIcon={}
+//           buttonAriaLabel={buttonAriaLabel}>
+//         {(style === 'font-family' ? FONT_FAMILY_OPTIONS : FONT_SIZE_OPTIONS).map(
+//             ([option, text]) => (
+//                 <DropDownItem
+//                     className={`item ${dropDownActiveClass(value === option)} ${
+//                         style === 'font-size' ? 'fontsize-item' : ''
+//                     }`}
+//                     onClick={() => handleClick(option)}
+//                     key={option}>
+//                   <span className="text">{text}</span>
+//                 </DropDownItem>
+//             ),
+//         )}
+//       </DropDown>
+//   );
+// }
 
 function getSelectedNode(selection: RangeSelection) {
   const { anchor } = selection;
@@ -414,7 +490,7 @@ function BlockOptionsDropdownList({
   };
 
   const formatBulletList = () => {
-    if (blockType !== 'ul') {
+    if (blockType !== 'bullet') {
       editor.dispatchCommand(INSERT_UNORDERED_LIST_COMMAND, undefined);
     } else {
       editor.dispatchCommand(REMOVE_LIST_COMMAND, undefined);
@@ -423,12 +499,20 @@ function BlockOptionsDropdownList({
   };
 
   const formatNumberedList = () => {
-    if (blockType !== 'ol') {
+    if (blockType !== 'number') {
       editor.dispatchCommand(INSERT_ORDERED_LIST_COMMAND, undefined);
     } else {
       editor.dispatchCommand(REMOVE_LIST_COMMAND, undefined);
     }
     setShowBlockOptionsDropDown(false);
+  };
+
+  const formatCheckList = () => {
+    if (blockType !== 'check') {
+      editor.dispatchCommand(INSERT_CHECK_LIST_COMMAND, undefined);
+    } else {
+      editor.dispatchCommand(REMOVE_LIST_COMMAND, undefined);
+    }
   };
 
   const formatQuote = () => {
@@ -485,15 +569,22 @@ function BlockOptionsDropdownList({
           <ListUl size={14} />
         </span>
         <span className='text'>Bullet List</span>
-        {blockType === 'ul' && <span className='active' />}
+        {blockType === 'bullet' && <span className='active' />}
       </button>
       <button type='button' className='item' onClick={formatNumberedList}>
         <span className='icon numbered-list'>
           <ListOl size={14} />
         </span>
         <span className='text'>Numbered List</span>
-        {blockType === 'ol' && <span className='active' />}
+        {blockType === 'number' && <span className='active' />}
       </button>
+        <button type='button' className='item' onClick={formatCheckList}>
+            <span className='icon check-list'>
+            <CheckSquare size={14} />
+            </span>
+            <span className='text'>Check List</span>
+            {blockType === 'check' && <span className='active' />}
+        </button>
       <button type='button' className='item' onClick={formatQuote}>
         <span className='icon quote'>
           <Quote size={14} />
@@ -512,11 +603,18 @@ function BlockOptionsDropdownList({
   );
 }
 
+const rootTypeToRootName = {
+  root: 'Root',
+  table: 'Table',
+};
+
 export default function ToolbarPlugin() {
   const [editor] = useLexicalComposerContext();
   const toolbarRef = useRef<HTMLDivElement>(null);
   const [blockType, setBlockType] =
     useState<supportedBlockTypesType>('paragraph');
+  const [rootType, setRootType] =
+      useState<keyof typeof rootTypeToRootName>('root');
   const [selectedElementKey, setSelectedElementKey] = useState<string | null>(
     null
   );
@@ -529,37 +627,31 @@ export default function ToolbarPlugin() {
   const [isUnderline, setIsUnderline] = useState(false);
   const [isStrikethrough, setIsStrikethrough] = useState(false);
   const [isCode, setIsCode] = useState(false);
-  const [fontColor] = useState<string>('#000');
-  const [bgColor] = useState<string>('#fff');
+  const [fontColor, setFontColor] = useState<string>('#000');
+  const [bgColor, setBgColor] = useState<string>('#fff');
+  const [fontSize, setFontSize] = useState<string>('16px');
+  const [fontFamily, setFontFamily] = useState<string>('Arial');
+  const [elementFormat, setElementFormat] = useState<ElementFormatType>('left');
 
   const updateToolbar = useCallback(() => {
     const selection = $getSelection();
     if ($isRangeSelection(selection)) {
       const anchorNode = selection.anchor.getNode();
-      const element =
-        anchorNode.getKey() === 'root'
-          ? anchorNode
-          : anchorNode.getTopLevelElementOrThrow();
+      let element =
+          anchorNode.getKey() === 'root'
+              ? anchorNode
+              : $findMatchingParent(anchorNode, (e) => {
+                const parent = e.getParent();
+                return parent !== null && $isRootOrShadowRoot(parent);
+              });
+
+      if (element === null) {
+        element = anchorNode.getTopLevelElementOrThrow();
+      }
+
       const elementKey = element.getKey();
       const elementDOM = editor.getElementByKey(elementKey);
-      if (elementDOM !== null) {
-        setSelectedElementKey(elementKey);
-        if ($isListNode(element)) {
-          const parentList = $getNearestNodeOfType(anchorNode, ListNode);
-          const type = parentList ? parentList.getTag() : element.getTag();
-          setBlockType(type);
-        } else {
-          const type = ($isHeadingNode(
-            element
-          ) as unknown as supportedBlockTypesType)
-            ? element.getTag()
-            : element.getType();
-          setBlockType(type);
-          if ($isCodeNode(element)) {
-            setCodeLanguage(element.getLanguage() || getDefaultCodeLanguage());
-          }
-        }
-      }
+
       // Update text format
       setIsBold(selection.hasFormat('bold'));
       setIsItalic(selection.hasFormat('italic'));
@@ -575,6 +667,76 @@ export default function ToolbarPlugin() {
       } else {
         setIsLink(false);
       }
+
+      const tableNode = $findMatchingParent(node, $isTableNode);
+      if ($isTableNode(tableNode)) {
+        setRootType('table');
+      } else {
+        setRootType('root');
+      }
+
+      if (elementDOM !== null) {
+        setSelectedElementKey(elementKey);
+        if ($isListNode(element)) {
+          const parentList = $getNearestNodeOfType<ListNode>(
+              anchorNode,
+              ListNode,
+          );
+          const type = parentList
+              ? parentList.getListType()
+              : element.getListType();
+          setBlockType(type);
+        } else {
+          const type = $isHeadingNode(element)
+              ? element.getTag()
+              : element.getType();
+          if (type in blockTypeToBlockName) {
+            setBlockType(type as keyof typeof blockTypeToBlockName);
+          }
+          if ($isCodeNode(element)) {
+            const language =
+                element.getLanguage() as keyof typeof CODE_LANGUAGE_MAP;
+            setCodeLanguage(
+                language ? CODE_LANGUAGE_MAP[language] || language : '',
+            );
+            return;
+          }
+        }
+      }
+      // Handle buttons
+      setFontSize(
+          $getSelectionStyleValueForProperty(selection, 'font-size', '15px'),
+      );
+      setFontColor(
+          $getSelectionStyleValueForProperty(selection, 'color', '#000'),
+      );
+      setBgColor(
+          $getSelectionStyleValueForProperty(
+              selection,
+              'background-color',
+              '#fff',
+          ),
+      );
+      setFontFamily(
+          $getSelectionStyleValueForProperty(selection, 'font-family', 'Arial'),
+      );
+      let matchingParent;
+      if ($isLinkNode(parent)) {
+        // If node is a link, we need to fetch the parent paragraph node to set format
+        matchingParent = $findMatchingParent(
+            node,
+            (parentNode) => $isElementNode(parentNode) && !parentNode.isInline(),
+        );
+      }
+
+      // If matchingParent is a valid node, pass it's format type
+      setElementFormat(
+          $isElementNode(matchingParent)
+              ? matchingParent.getFormatType()
+              : $isElementNode(node)
+                  ? node.getFormatType()
+                  : parent?.getFormatType() || 'left',
+      );
     }
   }, [editor]);
 
@@ -627,7 +789,7 @@ export default function ToolbarPlugin() {
         const selection = $getSelection();
         if (
           $isRangeSelection(selection) ||
-          DEPRECATED_$isGridSelection(selection)
+            $isTableSelection(selection)
         ) {
           $patchStyleText(selection, styles);
         }
@@ -693,6 +855,18 @@ export default function ToolbarPlugin() {
         </>
       ) : (
         <>
+          {/*<FontDropDown*/}
+          {/*    disabled={!isEditable}*/}
+          {/*    style={'font-family'}*/}
+          {/*    value={fontFamily}*/}
+          {/*    editor={editor}*/}
+          {/*/>*/}
+          {/*<Divider />*/}
+          {/*<FontSize*/}
+          {/*    selectionFontSize={fontSize.slice(0, -2)}*/}
+          {/*    editor={editor}*/}
+          {/*    disabled={!isEditable}*/}
+          {/*/>*/}
           <button
             type='button'
             onClick={() => {
