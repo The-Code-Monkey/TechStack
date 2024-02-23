@@ -3,7 +3,7 @@
   "author": "The-Code-Monkey",
   "packageManager": "yarn@4.1.0",
   "description": "a wrapper for facebook/lexical for react",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "scripts": {
     "build": "tcm build && cp ./src/index.scss ./dist/index.scss",
     "lint": "tcm lint",
