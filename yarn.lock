@@ -7643,7 +7643,7 @@ __metadata:
     "@rollup/plugin-terser": "npm:0.4.4"
     "@types/color": "npm:3.0.6"
     "@types/cssnano": "npm:5.1.0"
-    "@types/eslint": "npm:8.56.2"
+    "@types/eslint": "npm:8.56.3"
     "@types/figlet": "npm:1.5.8"
     "@types/fs-extra": "npm:11.0.4"
     "@types/lodash": "npm:4.14.202"
@@ -8182,13 +8182,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.56.2":
-  version: 8.56.2
-  resolution: "@types/eslint@npm:8.56.2"
+"@types/eslint@npm:8.56.3":
+  version: 8.56.3
+  resolution: "@types/eslint@npm:8.56.3"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: 10c0/e33ca87a30a9454ba9943e1270ac759996f5fe598a1c1afbaec1d1e7346a339e20bf2a9d81f177067116bbaa6cfa4f748993cb338f57978ae862ad38ffae56fe
+  checksum: 10c0/c5d81d0001fae211451b39d82b2bc8d7224b00d52a514954a33840a3665f36f3bde3be602eec6ad08d1fff59108052cd7746ced4237116bc3d8ac01a7cf5b5fe
   languageName: node
   linkType: hard
 
