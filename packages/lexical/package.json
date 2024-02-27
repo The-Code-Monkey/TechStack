@@ -24,8 +24,8 @@
   "module": "./dist/esm/index.js",
   "exports": {
     ".": {
-      "import": "./dist/lexical.esm.js",
-      "require": "./dist/index.js"
+      "import": "./dist/esm/index.js",
+      "require": "./dist/esm/index.js"
     },
     "./css": {
       "import": "./dist/index.scss",
