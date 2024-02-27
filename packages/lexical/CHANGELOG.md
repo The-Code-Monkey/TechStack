@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.17](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.4.16...@techstack/lexical@1.4.17) (2024-02-27)
+
+
+### Bug Fixes
+
+* lexical now works after being built ([090a594](https://github.com/The-Code-Monkey/TechStack/commit/090a594dc5d6805821cc1da7f97eb99056b66e04))
+
+
+
+
+
 ## [1.4.16](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.4.15...@techstack/lexical@1.4.16) (2024-02-27)
 
 **Note:** Version bump only for package @techstack/lexical
