@@ -13,6 +13,7 @@
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "declarationDir": "dist/types"
+    "declarationDir": "dist/types",
+    "noEmit": false
   }
 }
