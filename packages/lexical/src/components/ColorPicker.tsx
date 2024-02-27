@@ -284,6 +284,7 @@ export default function ColorPicker({
           <button
             className={basicColor === selfColor.hex ? ' active' : ''}
             key={basicColor}
+            type='button'
             style={{ backgroundColor: basicColor }}
             onClick={() => {
               setInputColor(basicColor);
