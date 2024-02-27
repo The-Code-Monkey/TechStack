@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.18](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.4.17...@techstack/lexical@1.4.18) (2024-02-27)
+
+
+### Bug Fixes
+
+* add tpye button to color pickers ([939f405](https://github.com/The-Code-Monkey/TechStack/commit/939f405c32b0a105980f2e4c3b612bc0495b23de))
+
+
+
+
+
 ## [1.4.17](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.4.16...@techstack/lexical@1.4.17) (2024-02-27)
 
 
