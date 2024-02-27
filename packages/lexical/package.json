@@ -5,7 +5,7 @@
   "description": "a wrapper for facebook/lexical for react",
   "version": "1.4.13",
   "scripts": {
-    "build": "tcm build && cp ./src/index.scss ./dist/index.scss",
+    "build": "tsc && cp ./src/index.scss ./dist/index.scss",
     "lint": "tcm lint",
     "test": "tcm test"
   },
