@@ -3670,6 +3670,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@emotion/is-prop-valid@npm:1.2.2":
+  version: 1.2.2
+  resolution: "@emotion/is-prop-valid@npm:1.2.2"
+  dependencies:
+    "@emotion/memoize": "npm:^0.8.1"
+  checksum: 10c0/bb1530dcb4e0e5a4fabb219279f2d0bc35796baf66f6241f98b0d03db1985c890a8cafbea268e0edefd5eeda143dbd5c09a54b5fba74cee8c69b98b13194af50
+  languageName: node
+  linkType: hard
+
 "@emotion/memoize@npm:^0.8.1":
   version: 0.8.1
   resolution: "@emotion/memoize@npm:0.8.1"
@@ -7349,7 +7358,7 @@ __metadata:
     "@babel/preset-env": "npm:7.23.9"
     "@babel/preset-react": "npm:7.23.3"
     "@babel/preset-typescript": "npm:7.23.3"
-    "@emotion/is-prop-valid": "npm:1.2.1"
+    "@emotion/is-prop-valid": "npm:1.2.2"
     "@jest/globals": "npm:29.7.0"
     "@size-limit/file": "npm:11.0.2"
     "@storybook/addon-essentials": "npm:7.6.17"
