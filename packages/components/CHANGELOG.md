@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.260](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.259...@techstack/components@1.3.260) (2024-02-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @emotion/is-prop-valid to v1.2.2 ([26d94f3](https://github.com/The-Code-Monkey/TechStack/commit/26d94f38ab38664fa2a021c7ec9edb5478a4a0da))
+
+
+
+
+
 ## 1.3.259 (2024-02-27)
 
 **Note:** Version bump only for package @techstack/components
