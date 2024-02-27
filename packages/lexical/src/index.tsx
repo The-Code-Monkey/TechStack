@@ -1,4 +1,3 @@
-import React from 'react';
 import { CodeHighlightNode, CodeNode } from '@lexical/code';
 import { $generateNodesFromDOM } from '@lexical/html';
 import { AutoLinkNode, LinkNode } from '@lexical/link';

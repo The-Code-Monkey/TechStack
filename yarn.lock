@@ -7461,7 +7461,10 @@ __metadata:
     "@techstack/react-feather": "workspace:*"
     "@techstack/tcm-cli": "workspace:*"
     lexical: "npm:0.13.1"
+    prop-types: "npm:^15.8.1"
     react: "npm:18.2.0"
+    react-dom: "npm:^18.2.0"
+    storybook: "npm:^7.6.17"
     styled-components: "npm:6.1.1"
   languageName: unknown
   linkType: soft
@@ -24242,7 +24245,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0":
+"react-dom@npm:18.2.0, react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -26281,7 +26284,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook@npm:7.6.17":
+"storybook@npm:7.6.17, storybook@npm:^7.6.17":
   version: 7.6.17
   resolution: "storybook@npm:7.6.17"
   dependencies:
