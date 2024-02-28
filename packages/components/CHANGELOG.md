@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.265](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.264...@techstack/components@1.3.265) (2024-02-28)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.24.0 ([c180b48](https://github.com/The-Code-Monkey/TechStack/commit/c180b48795b876634cb4ad1d2a120f15be2042b5))
+
+
+
+
+
 ## [1.3.264](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.263...@techstack/components@1.3.264) (2024-02-28)
 
 

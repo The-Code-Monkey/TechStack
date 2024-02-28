@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.208 (2024-02-28)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.24.0 ([c180b48](https://github.com/The-Code-Monkey/TechStack/commit/c180b48795b876634cb4ad1d2a120f15be2042b5))
+
+
+
+
+
 ## 1.3.207 (2024-02-28)
 
 **Note:** Version bump only for package @techstack/tcm-cli
