@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.215](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-lazy-named@1.3.214...@techstack/react-lazy-named@1.3.215) (2024-03-04)
+
+**Note:** Version bump only for package @techstack/react-lazy-named
+
+
+
+
+
 ## [1.3.214](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-lazy-named@1.3.213...@techstack/react-lazy-named@1.3.214) (2024-03-04)
 
 **Note:** Version bump only for package @techstack/react-lazy-named
