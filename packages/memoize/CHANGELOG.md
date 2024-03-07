@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.222 (2024-03-07)
+
+**Note:** Version bump only for package @techstack/memoize
+
+
+
+
+
 ## 1.3.221 (2024-03-07)
 
 **Note:** Version bump only for package @techstack/memoize
