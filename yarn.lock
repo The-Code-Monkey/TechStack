@@ -7395,7 +7395,7 @@ __metadata:
     "@types/react-table": "npm:7.7.19"
     "@typescript-eslint/eslint-plugin": "npm:7.1.1"
     "@typescript-eslint/parser": "npm:7.1.1"
-    chromatic: "npm:11.0.3"
+    chromatic: "npm:11.0.4"
     classnames: "npm:2.5.1"
     cross-env: "npm:7.0.3"
     csstype: "npm:3.1.3"
@@ -12288,9 +12288,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:11.0.3":
-  version: 11.0.3
-  resolution: "chromatic@npm:11.0.3"
+"chromatic@npm:11.0.4":
+  version: 11.0.4
+  resolution: "chromatic@npm:11.0.4"
   peerDependencies:
     "@chromatic-com/cypress": ^0.5.2 || ^1.0.0
     "@chromatic-com/playwright": ^0.5.2 || ^1.0.0
@@ -12303,7 +12303,7 @@ __metadata:
     chroma: dist/bin.js
     chromatic: dist/bin.js
     chromatic-cli: dist/bin.js
-  checksum: 10c0/425529837bb8a353d21c25872a9b0456f1eb566d39d140abfc7619cb5a1a2153c639d85ee4e47a69eefda3a6d60a5c09c5133040ad6cbea2981b1f11c6c13718
+  checksum: 10c0/431bc87d5ddebe769d49df7251483d8a9b22007d6ed6522e0e96cb6a5dca191283da2fd92e6d2cbc1e251f5fedde483ec7fb22ad67ee99cb02430d754ea1f4ea
   languageName: node
   linkType: hard
 
