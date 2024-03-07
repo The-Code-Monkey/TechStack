@@ -101,7 +101,7 @@
     "ts-node": "10.9.1",
     "tslib": "2.6.2",
     "type-fest": "4.11.1",
-    "typescript": "5.3.3"
+    "typescript": "5.4.2"
   },
   "devDependencies": {
     "@commitlint/cli": "19.0.3",
