@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.224 (2024-03-08)
+
+**Note:** Version bump only for package @techstack/x-default-browser
+
+
+
+
+
 ## 1.3.223 (2024-03-07)
 
 **Note:** Version bump only for package @techstack/x-default-browser
