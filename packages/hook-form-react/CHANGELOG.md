@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.229](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/hook-form-react@1.3.228...@techstack/hook-form-react@1.3.229) (2024-03-09)
+
+**Note:** Version bump only for package @techstack/hook-form-react
+
+
+
+
+
 ## 1.3.228 (2024-03-08)
 
 **Note:** Version bump only for package @techstack/hook-form-react
