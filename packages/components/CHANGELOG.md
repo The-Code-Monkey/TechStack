@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.307](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.306...@techstack/components@1.3.307) (2024-03-12)
+
+**Note:** Version bump only for package @techstack/components
+
+
+
+
+
 ## [1.3.306](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.305...@techstack/components@1.3.306) (2024-03-11)
 
 **Note:** Version bump only for package @techstack/components
