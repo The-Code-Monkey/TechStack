@@ -6173,12 +6173,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@size-limit/file@npm:11.0.3":
-  version: 11.0.3
-  resolution: "@size-limit/file@npm:11.0.3"
+"@size-limit/file@npm:11.1.0":
+  version: 11.1.0
+  resolution: "@size-limit/file@npm:11.1.0"
   peerDependencies:
-    size-limit: 11.0.3
-  checksum: 10c0/a12c19e4e5ad13c8933b755ce519a1c4f0e66fd1aa28245e46488a2a5500f04fefcc0e3c4a97afb0f45ba4f0769377f4d357e9e0c0e6bbbea7cbb1e2de67e76b
+    size-limit: 11.1.0
+  checksum: 10c0/979bdd3a53866d1154e26b50ee6713cf796c7c80719ef00668f40a601d20b5e635322c561fefb796b4bd40f66a96a5f5c05b14c36463345f168e299751e0a5f4
   languageName: node
   linkType: hard
 
@@ -7379,7 +7379,7 @@ __metadata:
     "@babel/preset-typescript": "npm:7.23.3"
     "@emotion/is-prop-valid": "npm:1.2.2"
     "@jest/globals": "npm:29.7.0"
-    "@size-limit/file": "npm:11.0.3"
+    "@size-limit/file": "npm:11.1.0"
     "@storybook/addon-essentials": "npm:7.6.17"
     "@storybook/addon-interactions": "npm:7.6.17"
     "@storybook/addon-links": "npm:7.6.17"
@@ -7756,7 +7756,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@techstack/theme@workspace:packages/theme"
   dependencies:
-    "@size-limit/file": "npm:11.0.3"
+    "@size-limit/file": "npm:11.1.0"
     "@techstack/tcm-cli": "workspace:*"
     "@tsconfig/recommended": "npm:1.0.3"
     "@types/fs-extra": "npm:11.0.4"
