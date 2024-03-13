@@ -107,7 +107,7 @@
     "prettier": "3.2.5",
     "react-dom": "18.2.0",
     "react-is": "18.2.0",
-    "sass": "1.71.1",
+    "sass": "1.72.0",
     "sass-loader": "14.1.1",
     "size-limit": "11.1.0",
     "storybook": "7.6.17",
