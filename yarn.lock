@@ -3473,20 +3473,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:19.1.0":
-  version: 19.1.0
-  resolution: "@commitlint/cli@npm:19.1.0"
+"@commitlint/cli@npm:19.2.0":
+  version: 19.2.0
+  resolution: "@commitlint/cli@npm:19.2.0"
   dependencies:
     "@commitlint/format": "npm:^19.0.3"
     "@commitlint/lint": "npm:^19.1.0"
-    "@commitlint/load": "npm:^19.1.0"
-    "@commitlint/read": "npm:^19.0.3"
+    "@commitlint/load": "npm:^19.2.0"
+    "@commitlint/read": "npm:^19.2.0"
     "@commitlint/types": "npm:^19.0.3"
     execa: "npm:^8.0.1"
     yargs: "npm:^17.0.0"
   bin:
     commitlint: cli.js
-  checksum: 10c0/8eaaabb12b8d0f533641a4d458245f433392dc0d102531fce32a374d902feadeabbddff5cfb1ebb710c7ae6ab749904c33d11c29e2d07884a99fadd50dea4ac0
+  checksum: 10c0/ef9792dd52a0146fbd87792ade1638e7a321876180d75e856e746f93d7bc067dcb62b56e1b79858f9915abb98ed3308904763c85054d22d8c4f278d31eb3f9c4
   languageName: node
   linkType: hard
 
@@ -3563,21 +3563,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^19.1.0":
-  version: 19.1.0
-  resolution: "@commitlint/load@npm:19.1.0"
+"@commitlint/load@npm:^19.2.0":
+  version: 19.2.0
+  resolution: "@commitlint/load@npm:19.2.0"
   dependencies:
     "@commitlint/config-validator": "npm:^19.0.3"
     "@commitlint/execute-rule": "npm:^19.0.0"
     "@commitlint/resolve-extends": "npm:^19.1.0"
     "@commitlint/types": "npm:^19.0.3"
     chalk: "npm:^5.3.0"
-    cosmiconfig: "npm:^8.3.6"
+    cosmiconfig: "npm:^9.0.0"
     cosmiconfig-typescript-loader: "npm:^5.0.0"
     lodash.isplainobject: "npm:^4.0.6"
     lodash.merge: "npm:^4.6.2"
     lodash.uniq: "npm:^4.5.0"
-  checksum: 10c0/f86a3f47bdc850455c14bbdb120eca56e5c793dd8f996f23e61c1c5fe0085d3b3699c5f052eaa5300498c400d75f004025f030333c8e22ae209153e0efe2876f
+  checksum: 10c0/100ad63e99f59cdad7f48748b77a9a55710a2487971dd2ee503ba003aaf407ab49acf844a45c87a8b5e0a4de3a037cadaed9460ecd6d2e886bbdf943eb344bb2
   languageName: node
   linkType: hard
 
@@ -3599,15 +3599,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/read@npm:^19.0.3":
-  version: 19.0.3
-  resolution: "@commitlint/read@npm:19.0.3"
+"@commitlint/read@npm:^19.2.0":
+  version: 19.2.0
+  resolution: "@commitlint/read@npm:19.2.0"
   dependencies:
     "@commitlint/top-level": "npm:^19.0.0"
     "@commitlint/types": "npm:^19.0.3"
+    execa: "npm:^8.0.1"
     git-raw-commits: "npm:^4.0.0"
     minimist: "npm:^1.2.8"
-  checksum: 10c0/0ad975acc672c661498a7327f937fd4ecf09f5ca9945682b15f14de1ab91a5e1b9877d15bd46423c1dd45d1b3c2f5cec749414fe01e48477056586276f933553
+  checksum: 10c0/7703132c8bf6afd2388be4da7158d9a23b7835039ab968067477cac70443a0dfba2905f2bb0d82cb373ec43a4928791ada82f0d280631e805c7c043c175cdaaf
   languageName: node
   linkType: hard
 
@@ -7657,7 +7658,7 @@ __metadata:
     "@babel/plugin-proposal-class-properties": "npm:7.18.6"
     "@babel/preset-env": "npm:7.24.0"
     "@babel/traverse": "npm:7.24.0"
-    "@commitlint/cli": "npm:19.1.0"
+    "@commitlint/cli": "npm:19.2.0"
     "@commitlint/config-conventional": "npm:19.1.0"
     "@rollup/plugin-babel": "npm:6.0.4"
     "@rollup/plugin-commonjs": "npm:25.0.7"
@@ -13046,20 +13047,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig@npm:^8.3.6":
-  version: 8.3.6
-  resolution: "cosmiconfig@npm:8.3.6"
+"cosmiconfig@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "cosmiconfig@npm:9.0.0"
   dependencies:
+    env-paths: "npm:^2.2.1"
     import-fresh: "npm:^3.3.0"
     js-yaml: "npm:^4.1.0"
     parse-json: "npm:^5.2.0"
-    path-type: "npm:^4.0.0"
   peerDependencies:
     typescript: ">=4.9.5"
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/0382a9ed13208f8bfc22ca2f62b364855207dffdb73dc26e150ade78c3093f1cf56172df2dd460c8caf2afa91c0ed4ec8a88c62f8f9cd1cf423d26506aa8797a
+  checksum: 10c0/1c1703be4f02a250b1d6ca3267e408ce16abfe8364193891afc94c2d5c060b69611fdc8d97af74b7e6d5d1aac0ab2fb94d6b079573146bc2d756c2484ce5f0ee
   languageName: node
   linkType: hard
 
@@ -14323,7 +14324,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"env-paths@npm:^2.2.0":
+"env-paths@npm:^2.2.0, env-paths@npm:^2.2.1":
   version: 2.2.1
   resolution: "env-paths@npm:2.2.1"
   checksum: 10c0/285325677bf00e30845e330eec32894f5105529db97496ee3f598478e50f008c5352a41a30e5e72ec9de8a542b5a570b85699cd63bd2bc646dbcb9f311d83bc4
