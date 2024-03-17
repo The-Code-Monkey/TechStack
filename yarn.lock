@@ -7408,7 +7408,7 @@ __metadata:
     "@types/node": "npm:^20.5.6"
     "@types/react": "npm:18.2.66"
     "@types/react-dom": "npm:18.2.22"
-    "@types/react-table": "npm:7.7.19"
+    "@types/react-table": "npm:7.7.20"
     "@typescript-eslint/eslint-plugin": "npm:7.2.0"
     "@typescript-eslint/parser": "npm:7.2.0"
     chromatic: "npm:11.0.8"
@@ -8635,12 +8635,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-table@npm:7.7.19":
-  version: 7.7.19
-  resolution: "@types/react-table@npm:7.7.19"
+"@types/react-table@npm:7.7.20":
+  version: 7.7.20
+  resolution: "@types/react-table@npm:7.7.20"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 10c0/bbbe6a82c330adad3d2fe26a7937f74718f9e2c56d495009f95e3ceb4340b47d41ec0c6d77b255fae6e19b9fdff7fc31735155739b25dd9e31da3761e3cd397e
+  checksum: 10c0/293cffe798bbb3c483af1f704e289681517da376edfa113a71f248cb626115999ce736972f38d85eb14dbc6e126cca89db678fb0cea9fb2acfb2f343130f02a0
   languageName: node
   linkType: hard
 
