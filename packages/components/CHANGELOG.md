@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.330](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.329...@techstack/components@1.3.330) (2024-03-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/react-table to v7.7.20 ([30cb187](https://github.com/The-Code-Monkey/TechStack/commit/30cb187eecf93b40a35e07d172e9309fa141aa7f))
+
+
+
+
+
 ## [1.3.329](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/components@1.3.328...@techstack/components@1.3.329) (2024-03-16)
 
 
