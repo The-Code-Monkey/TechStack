@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.50 (2024-03-18)
+
+
+### Bug Fixes
+
+* **deps:** update lexical monorepo to v0.14.1 ([12a5a63](https://github.com/The-Code-Monkey/TechStack/commit/12a5a631234d0687448130d743bba30be8be9ce4))
+
+
+
+
+
 ## 1.4.49 (2024-03-18)
 
 **Note:** Version bump only for package @techstack/lexical
