@@ -43,8 +43,8 @@
   "devDependencies": {
     "@techstack/tcm-cli": "workspace:*",
     "@types/jest": "29.5.12",
-    "@typescript-eslint/eslint-plugin": "7.3.0",
-    "@typescript-eslint/parser": "7.3.0",
+    "@typescript-eslint/eslint-plugin": "7.3.1",
+    "@typescript-eslint/parser": "7.3.1",
     "benchmark": "2.1.4",
     "cross-env": "7.0.3",
     "eslint": "8.57.0",
