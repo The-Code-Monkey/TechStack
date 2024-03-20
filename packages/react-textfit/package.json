@@ -59,7 +59,7 @@
     "prettier": "3.2.5",
     "rimraf": "5.0.5",
     "typescript": "5.4.2",
-    "webpack-dev-server": "5.0.3"
+    "webpack-dev-server": "5.0.4"
   },
   "dependencies": {
     "@types/react": "18.2.67",
