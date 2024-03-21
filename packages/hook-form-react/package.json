@@ -3,7 +3,7 @@
   "author": "The-Code-Monkey",
   "packageManager": "yarn@4.1.1",
   "description": "a custom hook form for react",
-  "version": "1.3.248",
+  "version": "1.3.249",
   "scripts": {
     "build": "tcm build",
     "lint": "tcm lint"
