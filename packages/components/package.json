@@ -122,7 +122,7 @@
     "@techstack/memoize": "workspace:*",
     "@techstack/react-feather": "workspace:*",
     "@techstack/react-lazy-named": "workspace:*",
-    "@techstack/styled-system": "1.0.430",
+    "@techstack/styled-system": "1.0.431",
     "@techstack/theme": "workspace:*",
     "@types/react-table": "7.7.20",
     "classnames": "2.5.1",
