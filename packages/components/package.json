@@ -118,7 +118,7 @@
   },
   "dependencies": {
     "@emotion/is-prop-valid": "1.2.2",
-    "@tanstack/react-table": "8.13.2",
+    "@tanstack/react-table": "8.15.0",
     "@techstack/memoize": "workspace:*",
     "@techstack/react-feather": "workspace:*",
     "@techstack/react-lazy-named": "workspace:*",
