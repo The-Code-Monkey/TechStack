@@ -62,7 +62,7 @@
     "webpack-dev-server": "5.0.4"
   },
   "dependencies": {
-    "@types/react": "18.2.67",
+    "@types/react": "18.2.69",
     "process": "0.11.10",
     "react": "18.2.0"
   },
