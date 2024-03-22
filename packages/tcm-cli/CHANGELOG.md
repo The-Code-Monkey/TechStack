@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.247 (2024-03-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency type-fest to v4.13.1 ([#2588](https://github.com/The-Code-Monkey/TechStack/issues/2588)) ([73d3497](https://github.com/The-Code-Monkey/TechStack/commit/73d3497a92698812c1c082abebcc39783537b611))
+
+
+
+
+
 ## 1.3.246 (2024-03-21)
 
 
