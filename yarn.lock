@@ -8174,7 +8174,7 @@ __metadata:
     jest-watch-typeahead: "npm:2.2.2"
     lodash: "npm:4.17.21"
     markdown-table: "npm:3.0.3"
-    mem: "npm:9.0.2"
+    mem: "npm:10.0.0"
     memoizee: "npm:0.4.15"
     moize: "npm:6.1.6"
     nanocolors: "npm:0.2.13"
@@ -21589,13 +21589,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mem@npm:9.0.2":
-  version: 9.0.2
-  resolution: "mem@npm:9.0.2"
+"mem@npm:10.0.0":
+  version: 10.0.0
+  resolution: "mem@npm:10.0.0"
   dependencies:
     map-age-cleaner: "npm:^0.1.3"
     mimic-fn: "npm:^4.0.0"
-  checksum: 10c0/c2c56141399e520d8f0e50186bb7e4b49300b33984dc919682f3f13e53dec0e6608fbd327d5ae99494f45061a3a05a8ee04ccba6dcf795c3c215b5aa906eb41f
+  checksum: 10c0/80e0a4640380648f9933f99e7b7db7bd0d26662f1362f7c0645078e078ade2ced9fd8ab21c908be4b0a1688678b18f8ab14eaeb0f1f91b39ef5e9c1d12d0e1c9
   languageName: node
   linkType: hard
 
