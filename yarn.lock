@@ -8267,7 +8267,7 @@ __metadata:
     lint-staged: "npm:15.2.2"
     lodash.merge: "npm:4.6.2"
     ora: "npm:8.0.1"
-    pascal-case: "npm:3.1.2"
+    pascal-case: "npm:4.0.0"
     postcss: "npm:8.4.38"
     prettier: "npm:3.2.5"
     progress-estimator: "npm:0.3.1"
@@ -22577,6 +22577,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"no-case@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "no-case@npm:4.0.0"
+  checksum: 10c0/619860434dc33e65cec2cb0b57942903bac864dd1efc834f71d04f5e060f5eb2189224c8557aa5ad3dacf5594d26e33882b3fb7f975a9bf3481c7e7867011a2f
+  languageName: node
+  linkType: hard
+
 "node-abort-controller@npm:^3.0.1":
   version: 3.1.1
   resolution: "node-abort-controller@npm:3.1.1"
@@ -23801,7 +23808,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pascal-case@npm:3.1.2, pascal-case@npm:^3.1.2":
+"pascal-case@npm:4.0.0":
+  version: 4.0.0
+  resolution: "pascal-case@npm:4.0.0"
+  dependencies:
+    no-case: "npm:^4.0.0"
+  checksum: 10c0/d421c9e1764f77466a2cc36f30b4b321ce777ee9bda7c2d90b0f49d2d4dc73577edeb85ca0bc4ce051fec6fb771ab45b759bf1e749e9f4b4aaa9a6c4a87626fa
+  languageName: node
+  linkType: hard
+
+"pascal-case@npm:^3.1.2":
   version: 3.1.2
   resolution: "pascal-case@npm:3.1.2"
   dependencies:
