@@ -2,8 +2,8 @@
   "include": ["src", "types"],
 "exclude": ["src/**/__test__/*.test.ts*x"],
   "compilerOptions": {
-    "module": "ESNext",
-    "target": "ESNext",
+    "module": "nodenext",
+    "target": "nodenext",
     "moduleResolution": "nodenext",
     "allowJs": true,
     "jsx": "react",
