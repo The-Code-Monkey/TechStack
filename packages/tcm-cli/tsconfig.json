@@ -3,7 +3,7 @@
 "exclude": ["src/**/__test__/*.test.ts*x"],
   "compilerOptions": {
     "module": "nodenext",
-    "target": "nodenext",
+    "target": "esnext",
     "moduleResolution": "nodenext",
     "allowJs": true,
     "jsx": "react",
