@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<Divider /> renders correctly 1`] = `
-<DocumentFragment>
-  <hr
-    class="sc-eCstZk hAiZZJ"
-  />
-</DocumentFragment>
-`;
