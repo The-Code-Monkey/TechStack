@@ -6,8 +6,6 @@
  *
  */
 
-import './Input.css';
-
 import * as React from 'react';
 import { HTMLInputTypeAttribute } from 'react';
 
