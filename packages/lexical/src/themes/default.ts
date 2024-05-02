@@ -70,7 +70,7 @@ const Theme = {
   tableCell: 'PlaygroundEditorTheme__tableCell',
   tableCellActionButton: 'PlaygroundEditorTheme__tableCellActionButton',
   tableCellActionButtonContainer:
-      'PlaygroundEditorTheme__tableCellActionButtonContainer',
+    'PlaygroundEditorTheme__tableCellActionButtonContainer',
   tableCellEditing: 'PlaygroundEditorTheme__tableCellEditing',
   tableCellHeader: 'PlaygroundEditorTheme__tableCellHeader',
   tableCellPrimarySelected: 'PlaygroundEditorTheme__tableCellPrimarySelected',
