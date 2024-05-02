@@ -80,11 +80,13 @@ import {
   TypeH2,
   Underline,
   Edit,
-  CheckSquare,
+  CheckSquare, Plus,
 } from '@techstack/react-feather';
 
 import DropdownColorPicker from '../components/DropdownColorPicker';
 // import DropDown, {DropDownItem} from "../components/Dropdown";
+import {InsertTableDialog} from "./TablePlugin";
+import useModal from "../hooks/useModal";
 
 const LowPriority = 1;
 
@@ -647,6 +649,7 @@ export default function ToolbarPlugin() {
   const [fontFamily, setFontFamily] = useState<string>('Arial');
   // @ts-expect-error not using this yet but will do
   const [elementFormat, setElementFormat] = useState<ElementFormatType>('left');
+  const [modal, showModal] = useModal();
 
   const updateToolbar = useCallback(() => {
     const selection = $getSelection();
@@ -970,6 +973,19 @@ export default function ToolbarPlugin() {
             title='bg color'
           />
           <Divider />
+          <button type="button" onClick={() => {
+            showModal('Insert Table', (onClose) => (
+                <InsertTableDialog
+                    activeEditor={editor}
+                    onClose={onClose}
+                />
+            ));
+          }}>
+            <i className='format element-format'>
+              <Plus size={14} />
+            </i>
+            {' '}Table
+          </button>
           <button
             type='button'
             onClick={() => {
@@ -1020,6 +1036,8 @@ export default function ToolbarPlugin() {
           </button>{' '}
         </>
       )}
+
+      {modal}
     </div>
   );
 }

@@ -17,11 +17,13 @@ import { HeadingNode, QuoteNode } from '@lexical/rich-text';
 import { TableCellNode, TableNode, TableRowNode } from '@lexical/table';
 import { $getRoot, $insertNodes, LexicalEditor, TextNode } from 'lexical';
 import { HorizontalRuleNode } from '@lexical/react/LexicalHorizontalRuleNode';
+import { TablePlugin } from '@lexical/react/LexicalTablePlugin';
 
 import ToolbarPlugin from './plugins/ToolbarPlugin';
 import OnChangePlugin from './plugins/OnChangePlugin';
 import { Default } from './themes';
 import ExtendedTextNode from './nodes/ExtendedTextNode';
+import { TableContext } from './plugins/TablePlugin';
 
 function Placeholder() {
   return <div className='editor-placeholder'>Enter some rich text...</div>;
@@ -94,21 +96,26 @@ function EditorContainer({ value, onChange, name }: EditorProps) {
         namespace: `Editor-${name}`,
       }}
     >
-      <div className='editor-container'>
-        <ToolbarPlugin />
-        <div className='editor-inner'>
-          <RichTextPlugin
-            contentEditable={<ContentEditable className='editor-input' />}
-            placeholder={<Placeholder />}
-            ErrorBoundary={LexicalErrorBoundary}
-          />
-        </div>
-      </div>
-      <LinkPlugin />
-      <ListPlugin />
-      <HistoryPlugin />
-      <MarkdownShortcutPlugin />
-      <OnChangePlugin onChange={onChangeFn} />
+      <TableContext>
+        <>
+          <div className='editor-container'>
+            <ToolbarPlugin />
+            <div className='editor-inner'>
+              <RichTextPlugin
+                contentEditable={<ContentEditable className='editor-input' />}
+                placeholder={<Placeholder />}
+                ErrorBoundary={LexicalErrorBoundary}
+              />
+            </div>
+          </div>
+          <LinkPlugin />
+          <ListPlugin />
+          <HistoryPlugin />
+          <MarkdownShortcutPlugin />
+          <TablePlugin hasCellMerge hasCellBackgroundColor />
+          <OnChangePlugin onChange={onChangeFn} />
+        </>
+      </TableContext>
     </LexicalComposer>
   );
 }

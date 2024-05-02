@@ -15,7 +15,8 @@
     "@techstack/react-feather": "workspace:*",
     "lexical": "0.14.2",
     "react": "18.2.0",
-    "styled-components": "6.1.1"
+    "styled-components": "6.1.1",
+    "typescript": "5.4.5"
   },
   "devDependencies": {
     "@techstack/tcm-cli": "workspace:*",
@@ -45,5 +46,10 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
   }
 }

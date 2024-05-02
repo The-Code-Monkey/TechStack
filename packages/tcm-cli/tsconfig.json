@@ -4,7 +4,7 @@
   "compilerOptions": {
     "module": "ESNext",
     "target": "ESNext",
-    "moduleResolution": "nodenext",
+    "moduleResolution": "Bundler",
     "allowJs": true,
     "jsx": "react",
     "importHelpers": true,
