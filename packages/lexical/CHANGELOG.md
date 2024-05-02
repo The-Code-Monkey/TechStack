@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.2](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.1...@techstack/lexical@1.6.2) (2024-05-02)
+
+
+### Bug Fixes
+
+* linting ([877ba46](https://github.com/The-Code-Monkey/TechStack/commit/877ba46d60bc1fee49640a7c1d01407b70bca399))
+
+
+
+
+
 ## [1.6.1](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.0...@techstack/lexical@1.6.1) (2024-05-02)
 
 
