@@ -80,13 +80,16 @@ import {
   TypeH2,
   Underline,
   Edit,
-  CheckSquare, Plus,
+  CheckSquare,
+  Plus,
 } from '@techstack/react-feather';
 
 import DropdownColorPicker from '../components/DropdownColorPicker';
+
 // import DropDown, {DropDownItem} from "../components/Dropdown";
-import {InsertTableDialog} from "./TablePlugin";
-import useModal from "../hooks/useModal";
+import useModal from '../hooks/useModal';
+
+import { InsertTableDialog } from './TablePlugin';
 
 const LowPriority = 1;
 
@@ -973,18 +976,18 @@ export default function ToolbarPlugin() {
             title='bg color'
           />
           <Divider />
-          <button type="button" onClick={() => {
-            showModal('Insert Table', (onClose) => (
-                <InsertTableDialog
-                    activeEditor={editor}
-                    onClose={onClose}
-                />
-            ));
-          }}>
+          <button
+            type='button'
+            onClick={() => {
+              showModal('Insert Table', onClose => (
+                <InsertTableDialog activeEditor={editor} onClose={onClose} />
+              ));
+            }}
+          >
             <i className='format element-format'>
               <Plus size={14} />
-            </i>
-            {' '}Table
+            </i>{' '}
+            Table
           </button>
           <button
             type='button'
