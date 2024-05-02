@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.6.0 (2024-05-02)
+
+
+### Bug Fixes
+
+* linting ([5c9137e](https://github.com/The-Code-Monkey/TechStack/commit/5c9137e34f69911a14defac561058a2e7d543bd7))
+
+
+### Features
+
+* add table to lexical ([013623c](https://github.com/The-Code-Monkey/TechStack/commit/013623ce0ac78e3566c5f3412259c06f0aa4eb8e))
+
+
+
+
+
 ## 1.4.66 (2024-03-23)
 
 **Note:** Version bump only for package @techstack/lexical

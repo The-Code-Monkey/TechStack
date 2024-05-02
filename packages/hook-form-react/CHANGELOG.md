@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.254 (2024-05-02)
+
+**Note:** Version bump only for package @techstack/hook-form-react
+
+
+
+
+
 ## 1.3.253 (2024-03-23)
 
 **Note:** Version bump only for package @techstack/hook-form-react
