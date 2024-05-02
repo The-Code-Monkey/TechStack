@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.1](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.0...@techstack/lexical@1.6.1) (2024-05-02)
+
+
+### Bug Fixes
+
+* remove css files ([0efcfbd](https://github.com/The-Code-Monkey/TechStack/commit/0efcfbd8f8b8d132f82c6f98f72824780549ec6c))
+
+
+
+
+
 # 1.6.0 (2024-05-02)
 
 
