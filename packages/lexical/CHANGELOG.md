@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.4](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.3...@techstack/lexical@1.6.4) (2024-05-02)
+
+
+### Bug Fixes
+
+* switch to inline svg ([634e054](https://github.com/The-Code-Monkey/TechStack/commit/634e05440f48311b3858103080d5079740cb3286))
+
+
+
+
+
 ## [1.6.3](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.2...@techstack/lexical@1.6.3) (2024-05-02)
 
 **Note:** Version bump only for package @techstack/lexical
