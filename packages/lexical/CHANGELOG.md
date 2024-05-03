@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.6...@techstack/lexical@1.6.7) (2024-05-03)
+
+
+### Bug Fixes
+
+* remove import ([e725d6f](https://github.com/The-Code-Monkey/TechStack/commit/e725d6f806edf383fdf421bf64a768af93874af2))
+* remove table node checker ([56a5887](https://github.com/The-Code-Monkey/TechStack/commit/56a5887eeafcb14533bd1568e4ee9ccc46aa87c3))
+
+
+
+
+
 ## [1.6.6](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.5...@techstack/lexical@1.6.6) (2024-05-03)
 
 
