@@ -28,6 +28,7 @@ import {
 import { $getSelection, $isRangeSelection, $setSelection } from 'lexical';
 import { JSX, useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
+import {ChevronDown} from "@techstack/react-feather";
 
 type TableCellActionMenuProps = Readonly<{
   contextRef: { current: null | HTMLElement };
@@ -553,7 +554,9 @@ function TableCellActionMenuContainer({
             ref={menuRootRef}
             type='button'
           >
-            <i className='chevron-down' />
+            <i className='chevron-down'>
+                <ChevronDown size={12} />
+            </i>
           </button>
           {isMenuOpen && (
             <TableActionMenu
