@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.2](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.1...@techstack/lexical@1.7.2) (2024-05-03)
+
+
+### Bug Fixes
+
+* install stuff ([e183616](https://github.com/The-Code-Monkey/TechStack/commit/e18361637bf300bf19b2c3b32a6dce35b777d1bd))
+* remove the table content editor ([d51bfbd](https://github.com/The-Code-Monkey/TechStack/commit/d51bfbd04e2fca340c14907377251065f5adbd1e))
+
+
+
+
+
 ## [1.7.1](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.5...@techstack/lexical@1.7.1) (2024-05-03)
 
 
