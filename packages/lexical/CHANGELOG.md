@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.3](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.2...@techstack/lexical@1.7.3) (2024-05-03)
+
+
+### Bug Fixes
+
+* remveo import ([5319c1e](https://github.com/The-Code-Monkey/TechStack/commit/5319c1e4adf61169402d2c620393465ecce50350))
+
+
+
+
+
 ## [1.7.2](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.1...@techstack/lexical@1.7.2) (2024-05-03)
 
 
