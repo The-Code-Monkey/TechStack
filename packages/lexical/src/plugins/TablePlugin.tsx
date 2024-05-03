@@ -10,6 +10,7 @@ import { useLexicalComposerContext } from '@lexical/react/LexicalComposerContext
 import {
   $createTableNodeWithDimensions,
   INSERT_TABLE_COMMAND,
+  TableNode,
 } from '@lexical/table';
 import {
   $insertNodes,
@@ -163,6 +164,10 @@ export function TablePlugin({
   const cellContext = useContext(CellContext);
 
   useEffect(() => {
+    if (!editor.hasNodes([TableNode])) {
+      throw new Error('TablePlugin: TableNode is not registered on editor');
+    }
+
     cellContext.set(cellEditorConfig, children);
 
     return editor.registerCommand<InsertTableCommandPayload>(

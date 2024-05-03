@@ -75,25 +75,24 @@ function EditorContainer({ value, onChange, name }: EditorProps) {
     useState<boolean>(false);
 
   useEffect(() => {
-    if (typeof window === 'undefined' || !window?.matchMedia) return;
-    const updateViewPortWidth = () => {
-      const isNextSmallWidthViewport = window.matchMedia(
-        '(max-width: 1025px)'
-      ).matches;
+    if (typeof window !== 'undefined' && window?.matchMedia) {
+      const updateViewPortWidth = () => {
+        const isNextSmallWidthViewport = window.matchMedia(
+          '(max-width: 1025px)'
+        ).matches;
 
-      if (isNextSmallWidthViewport !== isSmallWidthViewport) {
-        setIsSmallWidthViewport(isNextSmallWidthViewport);
-      }
-    };
-    updateViewPortWidth();
-    window.addEventListener('resize', updateViewPortWidth);
+        if (isNextSmallWidthViewport !== isSmallWidthViewport) {
+          setIsSmallWidthViewport(isNextSmallWidthViewport);
+        }
+      };
+      updateViewPortWidth();
+      window.addEventListener('resize', updateViewPortWidth);
 
-    return () => {
-      window.removeEventListener('resize', updateViewPortWidth);
-    };
+      return () => {
+        window.removeEventListener('resize', updateViewPortWidth);
+      };
+    }
   }, [isSmallWidthViewport, window]);
-
-  if (typeof window === 'undefined') return null;
 
   const onChangeFn = (v: string) => {
     onChange(v);
@@ -120,6 +119,8 @@ function EditorContainer({ value, onChange, name }: EditorProps) {
       $insertNodes(nodes);
     });
   };
+
+  if (typeof window === 'undefined') return null;
 
   return (
     <LexicalComposer
