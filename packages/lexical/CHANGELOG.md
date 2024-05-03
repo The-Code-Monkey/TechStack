@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.8](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.7...@techstack/lexical@1.7.8) (2024-05-03)
+
+
+### Bug Fixes
+
+* move dropdown location ([7aedc3d](https://github.com/The-Code-Monkey/TechStack/commit/7aedc3d33d3b69931e7d2de258b7b9dec58ab3c8))
+
+
+
+
+
 ## [1.7.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.6...@techstack/lexical@1.7.7) (2024-05-03)
 
 
