@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.5](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.4...@techstack/lexical@1.6.5) (2024-05-03)
+
+
+### Bug Fixes
+
+* add cell resizer and actions ([8df9dc0](https://github.com/The-Code-Monkey/TechStack/commit/8df9dc08aff191e9bd0c4184678daa492ec6ed6d))
+* update snapsohts and linting ([06dfb9f](https://github.com/The-Code-Monkey/TechStack/commit/06dfb9f23677b33e6f58ad3a4d3fd623f4cc1dce))
+
+
+
+
+
 ## [1.6.4](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.3...@techstack/lexical@1.6.4) (2024-05-02)
 
 
