@@ -154,10 +154,7 @@ function EditorContainer({ value, onChange, name }: EditorProps) {
           <OnChangePlugin onChange={onChangeFn} />
           {floatingAnchorElem && !isSmallWidthViewport && (
             <>
-              <TableCellActionMenuPlugin
-                anchorElem={floatingAnchorElem}
-                cellMerge={true}
-              />
+              <TableCellActionMenuPlugin />
             </>
           )}
         </>
