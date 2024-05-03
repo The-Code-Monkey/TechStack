@@ -105,7 +105,7 @@ function TableActionMenu({
       }
       dropDownElement.style.left = `${leftPosition + window.scrollX}px`;
 
-      let topPosition = menuButtonRect.top - 100;
+      let topPosition = menuButtonRect.top;
       if (topPosition + dropDownElementRect.height > window.innerHeight) {
         const position = menuButtonRect.bottom - dropDownElementRect.height;
         topPosition = (position < 0 ? margin : position) + window.scrollY;
