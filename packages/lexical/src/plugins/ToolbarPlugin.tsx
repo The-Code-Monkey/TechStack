@@ -85,8 +85,6 @@ import {
 } from '@techstack/react-feather';
 
 import DropdownColorPicker from '../components/DropdownColorPicker';
-
-// import DropDown, {DropDownItem} from "../components/Dropdown";
 import useModal from '../hooks/useModal';
 
 import { InsertTableDialog } from './TablePlugin';

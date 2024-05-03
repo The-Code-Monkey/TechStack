@@ -579,13 +579,20 @@ exports[`<Editor /> renders text correctly 1`] = `
       class="editor-inner"
     >
       <div
-        class="editor-input"
-        contenteditable="true"
-        data-lexical-editor="true"
-        role="textbox"
-        spellcheck="true"
-        style="user-select: text; white-space: pre-wrap; word-break: break-word;"
-      />
+        class="editor"
+      >
+        <div
+          class="editor-input"
+          contenteditable="true"
+          data-lexical-editor="true"
+          role="textbox"
+          spellcheck="true"
+          style="user-select: text; white-space: pre-wrap; word-break: break-word;"
+        />
+        <div
+          class="table-cell-action-button-container"
+        />
+      </div>
       <div
         class="editor-placeholder"
       >

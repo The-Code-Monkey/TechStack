@@ -18,6 +18,7 @@ import { TableCellNode, TableNode, TableRowNode } from '@lexical/table';
 import { $getRoot, $insertNodes, LexicalEditor, TextNode } from 'lexical';
 import { HorizontalRuleNode } from '@lexical/react/LexicalHorizontalRuleNode';
 import { TablePlugin } from '@lexical/react/LexicalTablePlugin';
+import { useEffect, useState } from 'react';
 
 import ToolbarPlugin from './plugins/ToolbarPlugin';
 import OnChangePlugin from './plugins/OnChangePlugin';
@@ -26,7 +27,6 @@ import ExtendedTextNode from './nodes/ExtendedTextNode';
 import { TableContext } from './plugins/TablePlugin';
 import TableCellActionMenuPlugin from './plugins/TableActionMenuPlugin';
 import TableCellResizer from './plugins/TableCellResizer';
-import {useEffect, useState} from "react";
 
 function Placeholder() {
   return <div className='editor-placeholder'>Enter some rich text...</div>;
@@ -70,15 +70,16 @@ export interface EditorProps {
 
 function EditorContainer({ value, onChange, name }: EditorProps) {
   const [floatingAnchorElem, setFloatingAnchorElem] =
-      useState<HTMLDivElement | null>(null);
+    useState<HTMLDivElement | null>(null);
   const [isSmallWidthViewport, setIsSmallWidthViewport] =
-      useState<boolean>(false);
+    useState<boolean>(false);
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
+    if (typeof window === 'undefined' || !window?.matchMedia) return;
     const updateViewPortWidth = () => {
-      const isNextSmallWidthViewport =
-          window.matchMedia('(max-width: 1025px)').matches;
+      const isNextSmallWidthViewport = window.matchMedia(
+        '(max-width: 1025px)'
+      ).matches;
 
       if (isNextSmallWidthViewport !== isSmallWidthViewport) {
         setIsSmallWidthViewport(isNextSmallWidthViewport);
@@ -134,7 +135,11 @@ function EditorContainer({ value, onChange, name }: EditorProps) {
             <ToolbarPlugin />
             <div className='editor-inner'>
               <RichTextPlugin
-                  contentEditable={<div className={"editor"} ref={onRef}><ContentEditable className='editor-input' /></div>}
+                contentEditable={
+                  <div className={'editor'} ref={onRef}>
+                    <ContentEditable className='editor-input' />
+                  </div>
+                }
                 placeholder={<Placeholder />}
                 ErrorBoundary={LexicalErrorBoundary}
               />
@@ -148,13 +153,13 @@ function EditorContainer({ value, onChange, name }: EditorProps) {
           <TableCellResizer />
           <OnChangePlugin onChange={onChangeFn} />
           {floatingAnchorElem && !isSmallWidthViewport && (
-              <>
-                <TableCellActionMenuPlugin
-                    anchorElem={floatingAnchorElem}
-                    cellMerge={true}
-                />
-                </>
-              )}
+            <>
+              <TableCellActionMenuPlugin
+                anchorElem={floatingAnchorElem}
+                cellMerge={true}
+              />
+            </>
+          )}
         </>
       </TableContext>
     </LexicalComposer>
