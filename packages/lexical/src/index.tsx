@@ -25,6 +25,7 @@ import OnChangePlugin from './plugins/OnChangePlugin';
 import { Default } from './themes';
 import ExtendedTextNode from './nodes/ExtendedTextNode';
 import { TableContext } from './plugins/TablePlugin';
+// @ts-expect-error - Ignore this error
 import TableCellActionMenuPlugin from './plugins/TableActionMenuPlugin';
 import TableCellResizer from './plugins/TableCellResizer';
 
@@ -69,6 +70,7 @@ export interface EditorProps {
 }
 
 function EditorContainer({ value, onChange, name }: EditorProps) {
+  // @ts-expect-error - Ignore this error
   const [floatingAnchorElem, setFloatingAnchorElem] =
     useState<HTMLDivElement | null>(null);
   const [isSmallWidthViewport, setIsSmallWidthViewport] =
@@ -152,14 +154,14 @@ function EditorContainer({ value, onChange, name }: EditorProps) {
           <TablePlugin hasCellMerge hasCellBackgroundColor />
           <TableCellResizer />
           <OnChangePlugin onChange={onChangeFn} />
-          {floatingAnchorElem && !isSmallWidthViewport && (
-            <>
-              <TableCellActionMenuPlugin
-                anchorElem={floatingAnchorElem}
-                cellMerge={true}
-              />
-            </>
-          )}
+          {/*{floatingAnchorElem && !isSmallWidthViewport && (*/}
+          {/*  <>*/}
+          {/*    <TableCellActionMenuPlugin*/}
+          {/*      anchorElem={floatingAnchorElem}*/}
+          {/*      cellMerge={true}*/}
+          {/*    />*/}
+          {/*  </>*/}
+          {/*)}*/}
         </>
       </TableContext>
     </LexicalComposer>
