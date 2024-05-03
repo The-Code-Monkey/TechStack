@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.6...@techstack/lexical@1.7.7) (2024-05-03)
+
+
+### Bug Fixes
+
+* add icon back in ([849a3bb](https://github.com/The-Code-Monkey/TechStack/commit/849a3bb5cc2757f79788416eab4674213e2aa181))
+
+
+
+
+
 ## [1.7.6](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.5...@techstack/lexical@1.7.6) (2024-05-03)
 
 
