@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.6](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.5...@techstack/lexical@1.7.6) (2024-05-03)
+
+
+### Bug Fixes
+
+* add old styles for anchor back in ([b678d67](https://github.com/The-Code-Monkey/TechStack/commit/b678d6728255b4a88cebf8731fb4363515a969c6))
+* small sass change ([7ca13d3](https://github.com/The-Code-Monkey/TechStack/commit/7ca13d3fa53f43e017ca1411db7c9738c63c0478))
+
+
+
+
+
 ## [1.7.5](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.4...@techstack/lexical@1.7.5) (2024-05-03)
 
 
