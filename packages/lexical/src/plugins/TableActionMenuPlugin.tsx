@@ -786,16 +786,13 @@ export default function TableActionMenuPlugin({
   anchorElem?: HTMLElement;
   cellMerge?: boolean;
 }) {
-  const isEditable = useLexicalEditable();
   return (
     <>
       {createPortal(
-        isEditable ? (
-          <TableCellActionMenuContainer
-            anchorElem={anchorElem}
-            cellMerge={cellMerge}
-          />
-        ) : null,
+        <TableCellActionMenuContainer
+          anchorElem={anchorElem}
+          cellMerge={cellMerge}
+        />,
         anchorElem
       )}
     </>
