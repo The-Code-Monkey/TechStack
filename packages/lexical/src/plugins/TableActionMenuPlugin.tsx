@@ -342,7 +342,7 @@ function TableActionMenu({
     <>
       {createPortal(
         <div
-          className='dropdown'
+          className='editor_dropdown'
           ref={dropDownRef}
           onClick={e => {
             e.stopPropagation();
