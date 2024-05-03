@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.10](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.9...@techstack/lexical@1.7.10) (2024-05-03)
+
+
+### Bug Fixes
+
+* styles still brokne ([fd155a2](https://github.com/The-Code-Monkey/TechStack/commit/fd155a20c9a6f989690cff0c10f32cac18185962))
+
+
+
+
+
 ## [1.7.9](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.8...@techstack/lexical@1.7.9) (2024-05-03)
 
 
