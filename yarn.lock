@@ -6211,7 +6211,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@techstack/lexical@workspace:packages/lexical"
   dependencies:
+    "@lexical/code": "npm:0.14.2"
+    "@lexical/html": "npm:0.14.2"
+    "@lexical/link": "npm:0.14.2"
+    "@lexical/list": "npm:0.14.2"
     "@lexical/react": "npm:0.14.2"
+    "@lexical/selection": "npm:0.14.2"
+    "@lexical/table": "npm:0.14.2"
+    "@lexical/utils": "npm:0.14.2"
     "@techstack/react-feather": "workspace:*"
     "@techstack/tcm-cli": "workspace:*"
     lexical: "npm:0.14.2"
