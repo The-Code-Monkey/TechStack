@@ -10,7 +10,6 @@ import { useLexicalComposerContext } from '@lexical/react/LexicalComposerContext
 import {
   $createTableNodeWithDimensions,
   INSERT_TABLE_COMMAND,
-  TableNode,
 } from '@lexical/table';
 import {
   $insertNodes,
