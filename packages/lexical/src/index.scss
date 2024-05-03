@@ -864,7 +864,7 @@ pre::-webkit-scrollbar-thumb {
 }
 
 .table-cell-action-button {
-  background-color: none;
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -872,6 +872,5 @@ pre::-webkit-scrollbar-thumb {
   position: relative;
   border-radius: 15px;
   color: #222;
-  display: inline-block;
   cursor: pointer;
 }
