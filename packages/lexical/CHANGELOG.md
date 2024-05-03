@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.9](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.8...@techstack/lexical@1.7.9) (2024-05-03)
+
+
+### Bug Fixes
+
+* new styles for dropdown ([ef528cc](https://github.com/The-Code-Monkey/TechStack/commit/ef528cc3f8e983aa2914ac2534a4afb144219a21))
+
+
+
+
+
 ## [1.7.8](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.7...@techstack/lexical@1.7.8) (2024-05-03)
 
 
