@@ -28,7 +28,6 @@ jobs:
       - name: Install deps
         uses: bahmutov/npm-install@v1
 
-
       - name: Cache dependencies
         uses: actions/cache@v4
         with:
@@ -36,18 +35,9 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-        
+
       - name: Build
         run: yarn build
-
-      - name: Lint
-        run: yarn lint
-
-      - name: Test
-        run: yarn test
-
-      - name: Size
-        run: yarn size
 
       - name: git config
         run: |

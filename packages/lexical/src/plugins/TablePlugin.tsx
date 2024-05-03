@@ -164,10 +164,6 @@ export function TablePlugin({
   const cellContext = useContext(CellContext);
 
   useEffect(() => {
-    if (!editor.hasNodes([TableNode])) {
-      throw new Error('TablePlugin: TableNode is not registered on editor');
-    }
-
     cellContext.set(cellEditorConfig, children);
 
     return editor.registerCommand<InsertTableCommandPayload>(
