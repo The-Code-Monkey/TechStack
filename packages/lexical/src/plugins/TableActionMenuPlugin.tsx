@@ -28,7 +28,7 @@ import {
 import { $getSelection, $isRangeSelection, $setSelection } from 'lexical';
 import { JSX, useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
-import {ChevronDown} from "@techstack/react-feather";
+import { ChevronDown } from '@techstack/react-feather';
 
 type TableCellActionMenuProps = Readonly<{
   contextRef: { current: null | HTMLElement };
@@ -85,9 +85,9 @@ function TableActionMenu({
     const rootElement = editor.getRootElement();
 
     if (
-        menuButtonElement != null &&
-        dropDownElement != null &&
-        rootElement != null
+      menuButtonElement != null &&
+      dropDownElement != null &&
+      rootElement != null
     ) {
       const rootEleRect = rootElement.getBoundingClientRect();
       const menuButtonRect = menuButtonElement.getBoundingClientRect();
@@ -96,11 +96,11 @@ function TableActionMenu({
       const margin = 5;
       let leftPosition = menuButtonRect.right + margin;
       if (
-          leftPosition + dropDownElementRect.width > window.innerWidth ||
-          leftPosition + dropDownElementRect.width > rootEleRect.right
+        leftPosition + dropDownElementRect.width > window.innerWidth ||
+        leftPosition + dropDownElementRect.width > rootEleRect.right
       ) {
         const position =
-            menuButtonRect.left - dropDownElementRect.width - margin;
+          menuButtonRect.left - dropDownElementRect.width - margin;
         leftPosition = (position < 0 ? margin : position) + window.pageXOffset;
       }
       dropDownElement.style.left = `${leftPosition + window.pageXOffset}px`;
@@ -458,9 +458,9 @@ function TableActionMenu({
 }
 
 function TableCellActionMenuContainer({
-                                        anchorElement
-                                      }: {
-  anchorElement: HTMLElement
+  anchorElement,
+}: {
+  anchorElement: HTMLElement;
 }): JSX.Element {
   const [editor] = useLexicalComposerContext();
 
@@ -536,7 +536,7 @@ function TableCellActionMenuContainer({
 
         const top = tableCellRect.top - anchorRect.top + 4;
         const left =
-            tableCellRect.right - menuRect.width - 10 - anchorRect.left;
+          tableCellRect.right - menuRect.width - 10 - anchorRect.left;
 
         menuButtonDOM.style.opacity = '1';
         menuButtonDOM.style.transform = `translate(${left}px, ${top}px)`;
@@ -571,7 +571,7 @@ function TableCellActionMenuContainer({
             type='button'
           >
             <i className='chevron-down'>
-                <ChevronDown size={12} />
+              <ChevronDown size={12} />
             </i>
           </button>
           {isMenuOpen && (
@@ -589,9 +589,16 @@ function TableCellActionMenuContainer({
 }
 
 export default function TableActionMenuPlugin({
-    anchorElement = document.body
-                                              }: {
-  anchorElement?: HTMLElement
+  anchorElement = document.body,
+}: {
+  anchorElement?: HTMLElement;
 }) {
-  return <>{createPortal(<TableCellActionMenuContainer anchorElement={anchorElement} />, anchorElement)}</>;
+  return (
+    <>
+      {createPortal(
+        <TableCellActionMenuContainer anchorElement={anchorElement} />,
+        anchorElement
+      )}
+    </>
+  );
 }
