@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.8](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.7...@techstack/lexical@1.6.8) (2024-05-03)
+
+
+### Bug Fixes
+
+* remove if statement ([22cae40](https://github.com/The-Code-Monkey/TechStack/commit/22cae402221f742afd9af2a32549506350328591))
+
+
+
+
+
 ## [1.6.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.6...@techstack/lexical@1.6.7) (2024-05-03)
 
 
