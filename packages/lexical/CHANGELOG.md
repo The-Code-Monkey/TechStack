@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.6](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.5...@techstack/lexical@1.6.6) (2024-05-03)
+
+
+### Bug Fixes
+
+* update table stuffs ([72523f1](https://github.com/The-Code-Monkey/TechStack/commit/72523f171f42a190429be5467e807a39869b7026))
+
+
+
+
+
 ## [1.6.5](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.6.4...@techstack/lexical@1.6.5) (2024-05-03)
 
 
