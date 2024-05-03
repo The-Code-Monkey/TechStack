@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.11](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.10...@techstack/lexical@1.7.11) (2024-05-03)
+
+
+### Bug Fixes
+
+* attempt better position ([a0b3be1](https://github.com/The-Code-Monkey/TechStack/commit/a0b3be1c6ae996cffdb54c791bbcef30ab74c57d))
+* linting ([abf590b](https://github.com/The-Code-Monkey/TechStack/commit/abf590b8f17f799228058361f91d4e9b3794bfe7))
+* update snapshot ([f80e96a](https://github.com/The-Code-Monkey/TechStack/commit/f80e96a073ab246bd1de2d0a800e676203433449))
+
+
+
+
+
 ## [1.7.10](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.9...@techstack/lexical@1.7.10) (2024-05-03)
 
 
