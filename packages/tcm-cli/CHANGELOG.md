@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.10](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.9...@techstack/tcm-cli@1.4.10) (2024-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jest to v28 ([#2622](https://github.com/The-Code-Monkey/TechStack/issues/2622)) ([c3f9ec6](https://github.com/The-Code-Monkey/TechStack/commit/c3f9ec6d30d5455f1d2a51295c4381685173052e))
+
+
+
+
+
 ## [1.4.9](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.8...@techstack/tcm-cli@1.4.9) (2024-05-04)
 
 
