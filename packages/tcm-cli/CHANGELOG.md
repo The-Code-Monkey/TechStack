@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.4](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.3...@techstack/tcm-cli@1.4.4) (2024-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-plugin-polyfill-regenerator to v0.6.2 ([557d2c6](https://github.com/The-Code-Monkey/TechStack/commit/557d2c63fee33815f24745133f6c507d3a3b0947))
+
+
+
+
+
 ## 1.4.3 (2024-05-04)
 
 
