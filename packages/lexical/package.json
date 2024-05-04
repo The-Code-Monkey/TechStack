@@ -1,7 +1,7 @@
 {
   "name": "@techstack/lexical",
   "author": "The-Code-Monkey",
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@4.2.1",
   "description": "a wrapper for facebook/lexical for react",
   "version": "1.7.20",
   "scripts": {
