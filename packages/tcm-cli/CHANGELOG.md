@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.8](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.7...@techstack/tcm-cli@1.4.8) (2024-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup to v4.17.2 ([#2616](https://github.com/The-Code-Monkey/TechStack/issues/2616)) ([daff125](https://github.com/The-Code-Monkey/TechStack/commit/daff125d33eedb92e606552f3f37abcd61495d92))
+
+
+
+
+
 ## [1.4.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.6...@techstack/tcm-cli@1.4.7) (2024-05-04)
 
 **Note:** Version bump only for package @techstack/tcm-cli
