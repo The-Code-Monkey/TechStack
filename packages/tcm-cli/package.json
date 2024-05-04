@@ -111,7 +111,7 @@
     "@types/eslint": "8.56.10",
     "@types/figlet": "1.5.8",
     "@types/fs-extra": "11.0.4",
-    "@types/lodash": "4.17.0",
+    "@types/lodash": "4.17.1",
     "@types/node": "18.17.1",
     "@types/react": "18.3.1",
     "@types/semver": "7.5.8",
