@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.11](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.10...@techstack/tcm-cli@1.4.11) (2024-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency pascal-case to v4 ([#2625](https://github.com/The-Code-Monkey/TechStack/issues/2625)) ([b05cd4c](https://github.com/The-Code-Monkey/TechStack/commit/b05cd4ca0cc2bef659a513ff0a062834c73eeb52))
+
+
+
+
+
 ## [1.4.10](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.9...@techstack/tcm-cli@1.4.10) (2024-05-04)
 
 
