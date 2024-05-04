@@ -21,14 +21,14 @@
     "@lexical/utils": "0.14.5",
     "@techstack/react-feather": "workspace:*",
     "lexical": "0.14.5",
-    "react": "18.2.0",
+    "react": "18.3.1",
     "styled-components": "6.1.1",
     "typescript": "5.4.5"
   },
   "devDependencies": {
     "@techstack/tcm-cli": "workspace:*",
     "prop-types": "15.8.1",
-    "react-dom": "18.2.0",
+    "react-dom": "18.3.1",
     "storybook": "7.6.19"
   },
   "main": "./dist/esm/index.js",
