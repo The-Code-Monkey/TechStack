@@ -64,10 +64,10 @@ const Editor = ({
         namespace: `Editor-${name}`,
       }}
     >
-      {Children.map(children, (child: ReactElement) =>
-        cloneElement(child, { floatingAnchorElem, showModal })
-      )}
       <div className='editor-container'>
+        {Children.map(children, (child: ReactElement) =>
+            cloneElement(child, { floatingAnchorElem, showModal })
+        )}
         <div className='editor-inner'>
           <RichTextPlugin
             contentEditable={
