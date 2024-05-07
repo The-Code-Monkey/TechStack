@@ -6,7 +6,7 @@
  *
  */
 
-import React, {
+import {
   createContext,
   ReactNode,
   RefObject,
@@ -16,6 +16,10 @@ import React, {
   useMemo,
   useRef,
   useState,
+  JSX,
+  MouseEvent as ReactMouseEvent,
+  Ref,
+  KeyboardEvent,
 } from 'react';
 import { ChevronDown } from '@techstack/react-feather';
 
@@ -29,13 +33,13 @@ const dropDownPadding = 4;
 
 export function DropDownItem({
   children,
-  className,
+  className = 'item',
   onClick,
   title,
 }: {
   children: ReactNode;
-  className: string;
-  onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
+  className?: string;
+  onClick: (event: ReactMouseEvent<HTMLButtonElement>) => void;
   title?: string;
 }) {
   const ref = useRef<HTMLButtonElement>(null);
@@ -72,22 +76,22 @@ function DropDownItems({
   dropDownRef,
   onClose,
 }: {
-  children: React.ReactNode;
-  dropDownRef: React.Ref<HTMLDivElement>;
+  children: ReactNode;
+  dropDownRef: Ref<HTMLDivElement>;
   onClose: () => void;
 }) {
   const [items, setItems] = useState<React.RefObject<HTMLButtonElement>[]>();
   const [highlightedItem, setHighlightedItem] =
-    useState<React.RefObject<HTMLButtonElement>>();
+    useState<RefObject<HTMLButtonElement>>();
 
   const registerItem = useCallback(
-    (itemRef: React.RefObject<HTMLButtonElement>) => {
+    (itemRef: RefObject<HTMLButtonElement>) => {
       setItems(prev => (prev ? [...prev, itemRef] : [itemRef]));
     },
     [setItems]
   );
 
-  const handleKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
+  const handleKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
     if (!items) return;
 
     const { key } = event;
@@ -155,7 +159,7 @@ export default function DropDown({
 }: {
   disabled?: boolean;
   buttonAriaLabel?: string;
-  buttonClassName: string;
+  buttonClassName?: string;
   buttonIconClassName?: string;
   buttonLabel?: string;
   children: ReactNode;

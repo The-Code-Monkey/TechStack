@@ -17,9 +17,11 @@ import {
 } from '@techstack/react-feather';
 import { $findMatchingParent, mergeRegister } from '@lexical/utils';
 import { $isLinkNode } from '@lexical/link';
+import { $isParentElementRTL } from '@lexical/selection';
 
 import { LowPriority } from '../utils/priorities';
 import getSelectedNode from '../utils/getSelectedNode';
+import DropDown, { DropDownItem } from '../ui/Dropdown';
 
 const ELEMENT_FORMAT_OPTIONS: {
   [key in Exclude<ElementFormatType, ''>]: {
@@ -62,9 +64,8 @@ const ELEMENT_FORMAT_OPTIONS: {
 
 const ListPlugin = () => {
   const [editor] = useLexicalComposerContext();
-  const dropDownRef = useRef<HTMLDivElement>(null);
+  const [isRTL, setIsRTL] = useState(false);
 
-  const [showListOptionsDropdown, setShowListOptionsDropdown] = useState(false);
   const [elementFormat, setElementFormat] = useState<ElementFormatType>('left');
 
   const formatOption = ELEMENT_FORMAT_OPTIONS[elementFormat || 'left'];
@@ -84,6 +85,7 @@ const ListPlugin = () => {
         );
       }
 
+      setIsRTL($isParentElementRTL(selection));
       setElementFormat(
         $isElementNode(matchingParent)
           ? matchingParent.getFormatType()
@@ -115,72 +117,84 @@ const ListPlugin = () => {
   );
 
   return (
-    <>
-      <button
-        className='toolbar-item block-controls'
-        type='button'
-        onClick={() => setShowListOptionsDropdown(prevState => !prevState)}
-        aria-label='Formatting Options'
+    <DropDown buttonIcon={formatOption.icon} buttonLabel={formatOption.name}>
+      <DropDownItem
+        onClick={() => {
+          editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'left');
+        }}
       >
-        <span className={`icon`}>{formatOption.icon}</span>
-        <span className='text'>{formatOption.name}</span>
-        <i className='chevron-down'>
-          <ChevronDown />
+        <i className='icon'>
+          <AlignLeft />
         </i>
-      </button>
-      {showListOptionsDropdown && (
-        <div className='toolbar-dropdown' ref={dropDownRef}>
-          <button
-            type='button'
-            onClick={() => {
-              editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'left');
-            }}
-            className='toolbar-item spaced'
-            aria-label='Left Align'
-          >
-            <i className='format left-align'>
-              <AlignLeft size={14} />
-            </i>
-          </button>
-          <button
-            type='button'
-            onClick={() => {
-              editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'center');
-            }}
-            className='toolbar-item spaced'
-            aria-label='Center Align'
-          >
-            <i className='format center-align'>
-              <AlignCenter size={14} />
-            </i>
-          </button>
-          <button
-            type='button'
-            onClick={() => {
-              editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'right');
-            }}
-            className='toolbar-item spaced'
-            aria-label='Right Align'
-          >
-            <i className='format right-align'>
-              <AlignRight size={14} />
-            </i>
-          </button>
-          <button
-            type='button'
-            onClick={() => {
-              editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'justify');
-            }}
-            className='toolbar-item'
-            aria-label='Justify Align'
-          >
-            <i className='format justify-align'>
-              <AlignJustify size={14} />
-            </i>
-          </button>
-        </div>
-      )}
-    </>
+        <span className="text">
+            Align Left
+        </span>
+      </DropDownItem>
+      <DropDownItem
+        onClick={() => {
+          editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'center');
+        }}
+      >
+        <i className='icon'>
+          <AlignCenter />
+        </i>
+        <span className="text">
+            Align Center
+        </span>
+      </DropDownItem>
+      <DropDownItem
+        onClick={() => {
+          editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'right');
+        }}
+      >
+        <i className='icon'>
+          <AlignRight />
+        </i>
+        <span className="text">
+            Align Right
+        </span>
+      </DropDownItem>
+      <DropDownItem
+        onClick={() => {
+          editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'justify');
+        }}
+      >
+        <i className='icon'>
+          <AlignJustify />
+        </i>
+        <span className="text">
+            Align Justify
+        </span>
+      </DropDownItem>
+      <DropDownItem
+        onClick={() => {
+          editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'start');
+        }}
+      >
+        <i className='icon'>
+          {isRTL
+            ? ELEMENT_FORMAT_OPTIONS.start.iconRTL
+            : ELEMENT_FORMAT_OPTIONS.start.icon}
+        </i>
+        <span className="text">
+            Align Start
+        </span>
+      </DropDownItem>
+      <DropDownItem
+        onClick={() => {
+          editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'end');
+        }}
+      >
+        <i className='icon'>
+          {isRTL
+            ? ELEMENT_FORMAT_OPTIONS.end.iconRTL
+            : ELEMENT_FORMAT_OPTIONS.end.icon}
+        </i>
+        <span className="text">
+            Align End
+        </span>
+      </DropDownItem>
+    </DropDown>
   );
 };
 export default ListPlugin;
