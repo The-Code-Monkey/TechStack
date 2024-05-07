@@ -43,8 +43,8 @@
       "require": "./dist/index.scss"
     },
     "./editor": {
-        "import": "./dist/esm/editor.js",
-        "require": "./dist/esm/editor.js"
+      "import": "./dist/esm/editor.js",
+      "require": "./dist/esm/editor.js"
     },
     "./plugins": {
       "import": "./dist/esm/plugins/index.js",
