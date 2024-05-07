@@ -16,16 +16,9 @@ import {
   CODE_LANGUAGE_MAP,
   getCodeLanguages,
 } from '@lexical/code';
-import { $isTableNode, $isTableSelection } from '@lexical/table';
-import { $isLinkNode, TOGGLE_LINK_COMMAND } from '@lexical/link';
-import {
-  $isListNode,
-  INSERT_ORDERED_LIST_COMMAND,
-  INSERT_UNORDERED_LIST_COMMAND,
-  INSERT_CHECK_LIST_COMMAND,
-  ListNode,
-  REMOVE_LIST_COMMAND,
-} from '@lexical/list';
+import { $isTableNode } from '@lexical/table';
+import { $isLinkNode } from '@lexical/link';
+import { $isListNode } from '@lexical/list';
 import { useLexicalComposerContext } from '@lexical/react/LexicalComposerContext';
 import {
   $createHeadingNode,
@@ -33,16 +26,10 @@ import {
   $isHeadingNode,
 } from '@lexical/rich-text';
 import {
-  $isAtNodeEnd,
-  $patchStyleText,
   $wrapNodes,
   $getSelectionStyleValueForProperty,
 } from '@lexical/selection';
-import {
-  $getNearestNodeOfType,
-  mergeRegister,
-  $findMatchingParent,
-} from '@lexical/utils';
+import { mergeRegister, $findMatchingParent } from '@lexical/utils';
 import {
   $createParagraphNode,
   $getNodeByKey,
@@ -50,60 +37,33 @@ import {
   $isElementNode,
   $isRangeSelection,
   $isRootOrShadowRoot,
-  BaseSelection,
   ElementFormatType,
-  FORMAT_ELEMENT_COMMAND,
   FORMAT_TEXT_COMMAND,
   LexicalEditor,
-  RangeSelection,
   SELECTION_CHANGE_COMMAND,
 } from 'lexical';
-import { createPortal } from 'react-dom';
 import {
-  AlignCenter,
-  AlignJustify,
-  AlignLeft,
-  AlignRight,
-  BgColor,
   Bold,
   ChevronDown,
   Code,
-  FontColor,
   Italic,
-  Link,
-  ListOl,
-  ListUl,
   Quote,
   Strikethrough,
   TextParagraph,
   TypeH1,
   TypeH2,
   Underline,
-  Edit,
-  CheckSquare,
-  Plus,
 } from '@techstack/react-feather';
 
-import DropdownColorPicker from '../components/DropdownColorPicker';
-import useModal from '../hooks/useModal';
-
-import { InsertTableDialog } from './TablePlugin';
+import getSelectedNode from '../utils/getSelectedNode';
 
 const LowPriority = 1;
 
-type supportedBlockTypesType =
-  | 'paragraph'
-  | 'quote'
-  | 'code'
-  | 'h1'
-  | 'h2'
-  //     | 'h3'
-  // | 'h4'
-  // | 'h5'
-  //     |'h6'
-  | 'bullet'
-  | 'check'
-  | 'number';
+type supportedBlockTypesType = 'paragraph' | 'quote' | 'code' | 'h1' | 'h2';
+//     | 'h3'
+// | 'h4'
+// | 'h5'
+//     |'h6';
 
 const supportedBlockTypes = new Set<supportedBlockTypesType>([
   'paragraph',
@@ -115,9 +75,6 @@ const supportedBlockTypes = new Set<supportedBlockTypesType>([
   // 'h4',
   // 'h5',
   // 'h6',
-  'bullet',
-  'check',
-  'number',
 ]);
 
 const supportedBlockTypesIcons: Record<supportedBlockTypesType, ReactNode> = {
@@ -130,9 +87,6 @@ const supportedBlockTypesIcons: Record<supportedBlockTypesType, ReactNode> = {
   // h6: <TypeH6 size={14} />,
   paragraph: <TextParagraph size={14} />,
   quote: <Quote size={14} />,
-  bullet: <ListUl size={14} />,
-  check: <CheckSquare size={14} />,
-  number: <ListOl size={14} />,
 };
 
 const blockTypeToBlockName: Record<supportedBlockTypesType, string> = {
@@ -142,38 +96,9 @@ const blockTypeToBlockName: Record<supportedBlockTypesType, string> = {
   // h3: 'Heading',
   // h4: 'Heading',
   // h5: 'Heading',
-  number: 'Numbered List',
   paragraph: 'Normal',
   quote: 'Quote',
-  bullet: 'Bulleted List',
-  check: 'Check List',
 };
-
-function Divider() {
-  return <div className='divider' />;
-}
-
-function positionEditorElement(
-  editor: HTMLDivElement,
-  rect: DOMRect | undefined | null
-) {
-  if (rect === null) {
-    editor.style.opacity = '0';
-    editor.style.top = '-1000px';
-    editor.style.left = '-1000px';
-  } else {
-    editor.style.opacity = '1';
-    editor.style.top = `${
-      (rect?.top ?? 1) + (rect?.height ?? 1) + window.scrollY + 10
-    }px`;
-    editor.style.left = `${
-      (rect?.left ?? 1) +
-      window.scrollX -
-      editor.offsetWidth / 2 +
-      (rect?.width ?? 1) / 2
-    }px`;
-  }
-}
 
 // function FontDropDown({
 //                         editor,
@@ -230,169 +155,6 @@ function positionEditorElement(
 //       </DropDown>
 //   );
 // }
-
-function getSelectedNode(selection: RangeSelection) {
-  const { anchor } = selection;
-  const { focus } = selection;
-  const anchorNode = selection.anchor.getNode();
-  const focusNode = selection.focus.getNode();
-  if (anchorNode === focusNode) {
-    return anchorNode;
-  }
-  const isBackward = selection.isBackward();
-  if (isBackward) {
-    return $isAtNodeEnd(focus) ? anchorNode : focusNode;
-  }
-  return $isAtNodeEnd(anchor) ? focusNode : anchorNode;
-}
-
-interface FloatingLinkEditorProps {
-  editor: LexicalEditor;
-}
-
-function FloatingLinkEditor({ editor }: FloatingLinkEditorProps) {
-  const editorRef = useRef<HTMLDivElement>(null);
-  const inputRef = useRef<HTMLInputElement>(null);
-  const mouseDownRef = useRef(false);
-  const [linkUrl, setLinkUrl] = useState('');
-  const [isEditMode, setEditMode] = useState(false);
-  const [lastSelection, setLastSelection] = useState<BaseSelection | null>(
-    null
-  );
-
-  const updateLinkEditor = useCallback(() => {
-    const selection = $getSelection();
-    if ($isRangeSelection(selection)) {
-      const node = getSelectedNode(selection);
-      const parent = node.getParent();
-      if ($isLinkNode(parent)) {
-        setLinkUrl(parent.getURL());
-      } else if ($isLinkNode(node)) {
-        setLinkUrl(node.getURL());
-      } else {
-        setLinkUrl('');
-      }
-    }
-    const editorElem = editorRef.current;
-    const nativeSelection = window.getSelection();
-    const { activeElement } = document;
-
-    if (editorElem === null) {
-      return;
-    }
-
-    const rootElement = editor.getRootElement();
-    if (
-      selection !== null &&
-      !nativeSelection?.isCollapsed &&
-      rootElement !== null &&
-      rootElement.contains(nativeSelection.anchorNode)
-    ) {
-      const domRange = nativeSelection?.getRangeAt(0);
-      let rect;
-      if (nativeSelection?.anchorNode === rootElement) {
-        let inner: HTMLElement | Element = rootElement;
-        while (inner.firstElementChild != null) {
-          inner = inner.firstElementChild;
-        }
-        rect = inner.getBoundingClientRect();
-      } else {
-        rect = domRange?.getBoundingClientRect();
-      }
-
-      if (!mouseDownRef.current) {
-        positionEditorElement(editorElem, rect);
-      }
-      setLastSelection(selection);
-    } else if (!activeElement || activeElement.className !== 'link-input') {
-      positionEditorElement(editorElem, null);
-      setLastSelection(null);
-      setEditMode(false);
-      setLinkUrl('');
-    }
-
-    return true;
-  }, [editor]);
-
-  useEffect(
-    () =>
-      mergeRegister(
-        editor.registerUpdateListener(({ editorState }) => {
-          editorState.read(() => {
-            updateLinkEditor();
-          });
-        }),
-
-        editor.registerCommand(
-          SELECTION_CHANGE_COMMAND,
-          () => {
-            updateLinkEditor();
-            return true;
-          },
-          LowPriority
-        )
-      ),
-    [editor, updateLinkEditor]
-  );
-
-  useEffect(() => {
-    editor.getEditorState().read(() => {
-      updateLinkEditor();
-    });
-  }, [editor, updateLinkEditor]);
-
-  useEffect(() => {
-    if (isEditMode && inputRef.current) {
-      inputRef.current.focus();
-    }
-  }, [isEditMode]);
-
-  return (
-    <div ref={editorRef} className='link-editor'>
-      {isEditMode ? (
-        <input
-          ref={inputRef}
-          className='link-input'
-          value={linkUrl}
-          onChange={event => {
-            setLinkUrl(event.target.value);
-          }}
-          onKeyDown={event => {
-            if (event.key === 'Enter') {
-              event.preventDefault();
-              if (lastSelection !== null) {
-                if (linkUrl !== '') {
-                  editor.dispatchCommand(TOGGLE_LINK_COMMAND, linkUrl);
-                }
-                setEditMode(false);
-              }
-            } else if (event.key === 'Escape') {
-              event.preventDefault();
-              setEditMode(false);
-            }
-          }}
-        />
-      ) : (
-        <div className='link-input'>
-          <a href={linkUrl} target='_blank' rel='noopener noreferrer'>
-            {linkUrl}
-          </a>
-          <div
-            className='link-edit'
-            role='button'
-            tabIndex={0}
-            onMouseDown={event => event.preventDefault()}
-            onClick={() => {
-              setEditMode(true);
-            }}
-          >
-            <Edit size={12} />
-          </div>
-        </div>
-      )}
-    </div>
-  );
-}
 
 interface SelectProps {
   onChange: (e: ChangeEvent<HTMLSelectElement>) => void;
@@ -503,32 +265,6 @@ function BlockOptionsDropdownList({
     setShowBlockOptionsDropDown(false);
   };
 
-  const formatBulletList = () => {
-    if (blockType !== 'bullet') {
-      editor.dispatchCommand(INSERT_UNORDERED_LIST_COMMAND, undefined);
-    } else {
-      editor.dispatchCommand(REMOVE_LIST_COMMAND, undefined);
-    }
-    setShowBlockOptionsDropDown(false);
-  };
-
-  const formatNumberedList = () => {
-    if (blockType !== 'number') {
-      editor.dispatchCommand(INSERT_ORDERED_LIST_COMMAND, undefined);
-    } else {
-      editor.dispatchCommand(REMOVE_LIST_COMMAND, undefined);
-    }
-    setShowBlockOptionsDropDown(false);
-  };
-
-  const formatCheckList = () => {
-    if (blockType !== 'check') {
-      editor.dispatchCommand(INSERT_CHECK_LIST_COMMAND, undefined);
-    } else {
-      editor.dispatchCommand(REMOVE_LIST_COMMAND, undefined);
-    }
-  };
-
   const formatQuote = () => {
     if (blockType !== 'quote') {
       editor.update(() => {
@@ -578,27 +314,7 @@ function BlockOptionsDropdownList({
         <span className='text'>Small Heading</span>
         {blockType === 'h2' && <span className='active' />}
       </button>
-      <button type='button' className='item' onClick={formatBulletList}>
-        <span className='icon bullet-list'>
-          <ListUl size={14} />
-        </span>
-        <span className='text'>Bullet List</span>
-        {blockType === 'bullet' && <span className='active' />}
-      </button>
-      <button type='button' className='item' onClick={formatNumberedList}>
-        <span className='icon numbered-list'>
-          <ListOl size={14} />
-        </span>
-        <span className='text'>Numbered List</span>
-        {blockType === 'number' && <span className='active' />}
-      </button>
-      <button type='button' className='item' onClick={formatCheckList}>
-        <span className='icon check-list'>
-          <CheckSquare size={14} />
-        </span>
-        <span className='text'>Check List</span>
-        {blockType === 'check' && <span className='active' />}
-      </button>
+
       <button type='button' className='item' onClick={formatQuote}>
         <span className='icon quote'>
           <Quote size={14} />
@@ -636,21 +352,18 @@ export default function ToolbarPlugin() {
   const [showBlockOptionsDropDown, setShowBlockOptionsDropDown] =
     useState(false);
   const [codeLanguage, setCodeLanguage] = useState('');
-  const [isLink, setIsLink] = useState(false);
   const [isBold, setIsBold] = useState(false);
   const [isItalic, setIsItalic] = useState(false);
   const [isUnderline, setIsUnderline] = useState(false);
   const [isStrikethrough, setIsStrikethrough] = useState(false);
   const [isCode, setIsCode] = useState(false);
-  const [fontColor, setFontColor] = useState<string>('#000');
-  const [bgColor, setBgColor] = useState<string>('#fff');
+
   // @ts-expect-error not using this yet but will do
   const [fontSize, setFontSize] = useState<string>('16px');
   // @ts-expect-error not using this yet but will do
   const [fontFamily, setFontFamily] = useState<string>('Arial');
   // @ts-expect-error not using this yet but will do
   const [elementFormat, setElementFormat] = useState<ElementFormatType>('left');
-  const [modal, showModal] = useModal();
 
   const updateToolbar = useCallback(() => {
     const selection = $getSelection();
@@ -681,11 +394,6 @@ export default function ToolbarPlugin() {
       // Update links
       const node = getSelectedNode(selection);
       const parent = node.getParent();
-      if ($isLinkNode(parent) || $isLinkNode(node)) {
-        setIsLink(true);
-      } else {
-        setIsLink(false);
-      }
 
       const tableNode = $findMatchingParent(node, $isTableNode);
       if ($isTableNode(tableNode)) {
@@ -697,14 +405,7 @@ export default function ToolbarPlugin() {
       if (elementDOM !== null) {
         setSelectedElementKey(elementKey);
         if ($isListNode(element)) {
-          const parentList = $getNearestNodeOfType<ListNode>(
-            anchorNode,
-            ListNode
-          );
-          const type = parentList
-            ? parentList.getListType()
-            : element.getListType();
-          setBlockType(type);
+          // ignore moved to plugin
         } else {
           const type = $isHeadingNode(element)
             ? element.getTag()
@@ -725,16 +426,6 @@ export default function ToolbarPlugin() {
       // Handle buttons
       setFontSize(
         $getSelectionStyleValueForProperty(selection, 'font-size', '15px')
-      );
-      setFontColor(
-        $getSelectionStyleValueForProperty(selection, 'color', '#000')
-      );
-      setBgColor(
-        $getSelectionStyleValueForProperty(
-          selection,
-          'background-color',
-          '#fff'
-        )
       );
       setFontFamily(
         $getSelectionStyleValueForProperty(selection, 'font-family', 'Arial')
@@ -794,40 +485,6 @@ export default function ToolbarPlugin() {
     [editor, selectedElementKey]
   );
 
-  const insertLink = useCallback(() => {
-    if (!isLink) {
-      editor.dispatchCommand(TOGGLE_LINK_COMMAND, 'https://');
-    } else {
-      editor.dispatchCommand(TOGGLE_LINK_COMMAND, null);
-    }
-  }, [editor, isLink]);
-
-  const applyStyleText = useCallback(
-    (styles: Record<string, string>) => {
-      editor.update(() => {
-        const selection = $getSelection();
-        if ($isRangeSelection(selection) || $isTableSelection(selection)) {
-          $patchStyleText(selection, styles);
-        }
-      });
-    },
-    [editor]
-  );
-
-  const onFontColorSelect = useCallback(
-    (value: string) => {
-      applyStyleText({ color: value });
-    },
-    [applyStyleText]
-  );
-
-  const onBgColorSelect = useCallback(
-    (value: string) => {
-      applyStyleText({ 'background-color': value });
-    },
-    [applyStyleText]
-  );
-
   return (
     <div className='toolbar' ref={toolbarRef}>
       {supportedBlockTypes.has(blockType) && (
@@ -856,7 +513,6 @@ export default function ToolbarPlugin() {
               setShowBlockOptionsDropDown={setShowBlockOptionsDropDown}
             />
           )}
-          <Divider />
         </>
       )}
       {blockType === 'code' ? (
@@ -943,102 +599,21 @@ export default function ToolbarPlugin() {
               <Code size={14} />
             </i>
           </button>
-          <button
-            type='button'
-            onClick={insertLink}
-            className={`toolbar-item spaced ${isLink ? 'active' : ''}`}
-            aria-label='Insert Link'
-          >
-            <i className='format link'>
-              <Link size={14} />
-            </i>
-          </button>
-          {isLink &&
-            createPortal(<FloatingLinkEditor editor={editor} />, document.body)}
-          <DropdownColorPicker
-            buttonClassName='toolbar-item color-picker'
-            buttonAriaLabel='Formatting text color'
-            buttonIconClassName='format font-color'
-            buttonIcon={<FontColor size={14} />}
-            color={fontColor}
-            onChange={onFontColorSelect}
-            title='text color'
-          />
-          <DropdownColorPicker
-            buttonClassName='toolbar-item color-picker'
-            buttonAriaLabel='Formatting background color'
-            buttonIconClassName='format bg-color'
-            buttonIcon={<BgColor size={14} />}
-            color={bgColor}
-            onChange={onBgColorSelect}
-            title='bg color'
-          />
-          <Divider />
-          <button
-            type='button'
-            onClick={() => {
-              showModal('Insert Table', onClose => (
-                <InsertTableDialog activeEditor={editor} onClose={onClose} />
-              ));
-            }}
-          >
-            <i className='format element-format'>
-              <Plus size={14} />
-            </i>{' '}
-            Table
-          </button>
-          <button
-            type='button'
-            onClick={() => {
-              editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'left');
-            }}
-            className='toolbar-item spaced'
-            aria-label='Left Align'
-          >
-            <i className='format left-align'>
-              <AlignLeft size={14} />
-            </i>
-          </button>
-          <button
-            type='button'
-            onClick={() => {
-              editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'center');
-            }}
-            className='toolbar-item spaced'
-            aria-label='Center Align'
-          >
-            <i className='format center-align'>
-              <AlignCenter size={14} />
-            </i>
-          </button>
-          <button
-            type='button'
-            onClick={() => {
-              editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'right');
-            }}
-            className='toolbar-item spaced'
-            aria-label='Right Align'
-          >
-            <i className='format right-align'>
-              <AlignRight size={14} />
-            </i>
-          </button>
-          <button
-            type='button'
-            onClick={() => {
-              editor.dispatchCommand(FORMAT_ELEMENT_COMMAND, 'justify');
-            }}
-            className='toolbar-item'
-            aria-label='Justify Align'
-          >
-            <i className='format justify-align'>
-              <AlignJustify size={14} />
-            </i>
-          </button>{' '}
+          {/*<button*/}
+          {/*  type='button'*/}
+          {/*  onClick={() => {*/}
+          {/*    showModal('Insert Table', onClose => (*/}
+          {/*      <InsertTableDialog activeEditor={editor} onClose={onClose} />*/}
+          {/*    ));*/}
+          {/*  }}*/}
+          {/*>*/}
+          {/*  <i className='format element-format'>*/}
+          {/*    <Plus size={14} />*/}
+          {/*  </i>{' '}*/}
+          {/*  Table*/}
+          {/*</button>{' '}*/}
         </>
       )}
-
-      {modal}
     </div>
   );
 }

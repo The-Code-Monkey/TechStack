@@ -1,13 +1,6 @@
-/**
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- */
+import { HTMLInputTypeAttribute, JSX } from 'react';
 
-import * as React from 'react';
-import { HTMLInputTypeAttribute } from 'react';
+import { InputWrapper } from './styles';
 
 type Props = Readonly<{
   'data-test-id'?: string;
@@ -25,9 +18,9 @@ export default function TextInput({
   placeholder = '',
   'data-test-id': dataTestId,
   type = 'text',
-}: Props): React.JSX.Element {
+}: Props): JSX.Element {
   return (
-    <div className='Input__wrapper'>
+    <InputWrapper className='Input__wrapper'>
       <label className='Input__label'>{label}</label>
       <input
         type={type}
@@ -39,6 +32,6 @@ export default function TextInput({
         }}
         data-test-id={dataTestId}
       />
-    </div>
+    </InputWrapper>
   );
 }

@@ -41,6 +41,14 @@
     "./css": {
       "import": "./dist/index.scss",
       "require": "./dist/index.scss"
+    },
+    "./editor": {
+        "import": "./dist/esm/editor.js",
+        "require": "./dist/esm/editor.js"
+    },
+    "./plugins": {
+      "import": "./dist/esm/plugins/index.js",
+      "require": "./dist/esm/plugins/index.js"
     }
   },
   "typings": "dist/types/index.d.ts",
