@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.26...@techstack/lexical@1.8.0) (2024-05-07)
+
+
+### Bug Fixes
+
+* remove imports ([ba39ba8](https://github.com/The-Code-Monkey/TechStack/commit/ba39ba84d8d035fbf9fa7af1b324ee4634026995))
+* update lexical package json ([c7545a6](https://github.com/The-Code-Monkey/TechStack/commit/c7545a60a3e6093c40615585dd40128fe5488072))
+* use dropdown ui element for align plugin dropdown ([5bd37ed](https://github.com/The-Code-Monkey/TechStack/commit/5bd37ed5bf4bb860c88a08947f09b77d0bd18101))
+
+
+### Features
+
+* split editor into smaller bits ([94f139e](https://github.com/The-Code-Monkey/TechStack/commit/94f139ea96ff682e58486c04d85a030a7f33f818))
+
+
+
+
+
 ## [1.7.26](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.25...@techstack/lexical@1.7.26) (2024-05-06)
 
 **Note:** Version bump only for package @techstack/lexical
