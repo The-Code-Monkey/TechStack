@@ -66,7 +66,7 @@ const Editor = ({
     >
       <div className='editor-container'>
         {Children.map(children, (child: ReactElement) =>
-            cloneElement(child, { floatingAnchorElem, showModal })
+          cloneElement(child, { floatingAnchorElem, showModal })
         )}
         <div className='editor-inner'>
           <RichTextPlugin

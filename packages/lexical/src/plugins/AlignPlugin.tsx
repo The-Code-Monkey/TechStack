@@ -125,9 +125,7 @@ const ListPlugin = () => {
         <i className='icon'>
           <AlignLeft />
         </i>
-        <span className="text">
-            Align Left
-        </span>
+        <span className='text'>Align Left</span>
       </DropDownItem>
       <DropDownItem
         onClick={() => {
@@ -137,9 +135,7 @@ const ListPlugin = () => {
         <i className='icon'>
           <AlignCenter />
         </i>
-        <span className="text">
-            Align Center
-        </span>
+        <span className='text'>Align Center</span>
       </DropDownItem>
       <DropDownItem
         onClick={() => {
@@ -149,9 +145,7 @@ const ListPlugin = () => {
         <i className='icon'>
           <AlignRight />
         </i>
-        <span className="text">
-            Align Right
-        </span>
+        <span className='text'>Align Right</span>
       </DropDownItem>
       <DropDownItem
         onClick={() => {
@@ -161,9 +155,7 @@ const ListPlugin = () => {
         <i className='icon'>
           <AlignJustify />
         </i>
-        <span className="text">
-            Align Justify
-        </span>
+        <span className='text'>Align Justify</span>
       </DropDownItem>
       <DropDownItem
         onClick={() => {
@@ -175,9 +167,7 @@ const ListPlugin = () => {
             ? ELEMENT_FORMAT_OPTIONS.start.iconRTL
             : ELEMENT_FORMAT_OPTIONS.start.icon}
         </i>
-        <span className="text">
-            Align Start
-        </span>
+        <span className='text'>Align Start</span>
       </DropDownItem>
       <DropDownItem
         onClick={() => {
@@ -189,9 +179,7 @@ const ListPlugin = () => {
             ? ELEMENT_FORMAT_OPTIONS.end.iconRTL
             : ELEMENT_FORMAT_OPTIONS.end.icon}
         </i>
-        <span className="text">
-            Align End
-        </span>
+        <span className='text'>Align End</span>
       </DropDownItem>
     </DropDown>
   );

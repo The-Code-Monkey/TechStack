@@ -3,278 +3,237 @@
 exports[`<Editor /> renders text correctly 1`] = `
 <DocumentFragment>
   <div
-    class="toolbar"
-  >
-    <button
-      aria-label="Formatting text color"
-      class="toolbar-item color-picker"
-      type="button"
-    >
-      <span
-        class="format font-color"
-      >
-        <svg
-          fill="none"
-          height="14"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 512 512"
-          width="14"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M221.631 109 109.92 392h58.055l24.079-61h127.892l24.079 61h58.055L290.369 109Zm-8.261 168L256 169l42.63 108Z"
-            fill="#777"
-          />
-        </svg>
-      </span>
-      <i
-        class="chevron-down"
-      >
-        <svg
-          fill="none"
-          height="24"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          width="24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <polyline
-            points="6 9 12 15 18 9"
-          />
-        </svg>
-      </i>
-    </button>
-    <button
-      aria-label="Formatting background color"
-      class="toolbar-item color-picker"
-      type="button"
-    >
-      <span
-        class="format bg-color"
-      >
-        <svg
-          fill="none"
-          height="14"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 48 48"
-          width="14"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0 0h48v48H0z"
-            fill="#fff"
-            fill-opacity=".01"
-          />
-          <path
-            clip-rule="evenodd"
-            d="M37 37a4 4 0 0 0 4-4c0-1.473-1.333-3.473-4-6-2.667 2.527-4 4.527-4 6a4 4 0 0 0 4 4Z"
-            fill="#777"
-            fill-rule="evenodd"
-          />
-          <path
-            d="m20.854 5.504 3.535 3.536"
-            stroke="#777"
-            stroke-linecap="round"
-            stroke-width="4"
-          />
-          <path
-            d="M23.682 8.333 8.125 23.889 19.44 35.203l15.556-15.557L23.682 8.333Z"
-            stroke="#777"
-            stroke-linejoin="round"
-            stroke-width="4"
-          />
-          <path
-            d="m12 20.073 16.961 5.577M4 43h40"
-            stroke="#777"
-            stroke-linecap="round"
-            stroke-width="4"
-          />
-        </svg>
-      </span>
-      <i
-        class="chevron-down"
-      >
-        <svg
-          fill="none"
-          height="24"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          width="24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <polyline
-            points="6 9 12 15 18 9"
-          />
-        </svg>
-      </i>
-    </button>
-    <div
-      class="divider"
-    />
-    <button
-      aria-label="Insert Link"
-      class="toolbar-item spaced "
-      type="button"
-    >
-      <i
-        class="format link"
-      >
-        <svg
-          fill="none"
-          height="14"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          width="14"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
-          />
-          <path
-            d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
-          />
-        </svg>
-      </i>
-    </button>
-    <button
-      aria-label="Formatting Options"
-      class="toolbar-item block-controls"
-      type="button"
-    >
-      <span
-        class="icon block-type bullet"
-      >
-        <svg
-          fill="none"
-          height="14"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 16 16"
-          width="14"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-            fill-rule="evenodd"
-          />
-        </svg>
-      </span>
-      <span
-        class="text"
-      >
-        Bullet List
-      </span>
-      <i
-        class="chevron-down"
-      >
-        <svg
-          fill="none"
-          height="24"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          width="24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <polyline
-            points="6 9 12 15 18 9"
-          />
-        </svg>
-      </i>
-    </button>
-    <button
-      aria-label="Formatting Options"
-      class="toolbar-item block-controls"
-      type="button"
-    >
-      <span
-        class="icon"
-      >
-        <svg
-          fill="none"
-          height="24"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          width="24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <line
-            x1="17"
-            x2="3"
-            y1="10"
-            y2="10"
-          />
-          <line
-            x1="21"
-            x2="3"
-            y1="6"
-            y2="6"
-          />
-          <line
-            x1="21"
-            x2="3"
-            y1="14"
-            y2="14"
-          />
-          <line
-            x1="17"
-            x2="3"
-            y1="18"
-            y2="18"
-          />
-        </svg>
-      </span>
-      <span
-        class="text"
-      >
-        Left Align
-      </span>
-      <i
-        class="chevron-down"
-      >
-        <svg
-          fill="none"
-          height="24"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          width="24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <polyline
-            points="6 9 12 15 18 9"
-          />
-        </svg>
-      </i>
-    </button>
-  </div>
-  <div
     class="editor-container"
   >
+    <div
+      class="toolbar"
+    >
+      <button
+        aria-label="Formatting text color"
+        class="toolbar-item color-picker"
+        type="button"
+      >
+        <span
+          class="format font-color"
+        >
+          <svg
+            fill="none"
+            height="14"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 512 512"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M221.631 109 109.92 392h58.055l24.079-61h127.892l24.079 61h58.055L290.369 109Zm-8.261 168L256 169l42.63 108Z"
+              fill="#777"
+            />
+          </svg>
+        </span>
+        <i
+          class="chevron-down"
+        >
+          <svg
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <polyline
+              points="6 9 12 15 18 9"
+            />
+          </svg>
+        </i>
+      </button>
+      <button
+        aria-label="Formatting background color"
+        class="toolbar-item color-picker"
+        type="button"
+      >
+        <span
+          class="format bg-color"
+        >
+          <svg
+            fill="none"
+            height="14"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 48 48"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h48v48H0z"
+              fill="#fff"
+              fill-opacity=".01"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M37 37a4 4 0 0 0 4-4c0-1.473-1.333-3.473-4-6-2.667 2.527-4 4.527-4 6a4 4 0 0 0 4 4Z"
+              fill="#777"
+              fill-rule="evenodd"
+            />
+            <path
+              d="m20.854 5.504 3.535 3.536"
+              stroke="#777"
+              stroke-linecap="round"
+              stroke-width="4"
+            />
+            <path
+              d="M23.682 8.333 8.125 23.889 19.44 35.203l15.556-15.557L23.682 8.333Z"
+              stroke="#777"
+              stroke-linejoin="round"
+              stroke-width="4"
+            />
+            <path
+              d="m12 20.073 16.961 5.577M4 43h40"
+              stroke="#777"
+              stroke-linecap="round"
+              stroke-width="4"
+            />
+          </svg>
+        </span>
+        <i
+          class="chevron-down"
+        >
+          <svg
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <polyline
+              points="6 9 12 15 18 9"
+            />
+          </svg>
+        </i>
+      </button>
+      <div
+        class="divider"
+      />
+      <button
+        aria-label="Insert Link"
+        class="toolbar-item spaced "
+        type="button"
+      >
+        <i
+          class="format link"
+        >
+          <svg
+            fill="none"
+            height="14"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+            />
+            <path
+              d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+            />
+          </svg>
+        </i>
+      </button>
+      <button
+        aria-label="Formatting Options"
+        class="toolbar-item block-controls"
+        type="button"
+      >
+        <span
+          class="icon block-type bullet"
+        >
+          <svg
+            fill="none"
+            height="14"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 16 16"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </span>
+        <span
+          class="text"
+        >
+          Bullet List
+        </span>
+        <i
+          class="chevron-down"
+        >
+          <svg
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <polyline
+              points="6 9 12 15 18 9"
+            />
+          </svg>
+        </i>
+      </button>
+      <button
+        aria-label="Left Align"
+        type="button"
+      >
+        <span
+          class="text dropdown-button-text"
+        >
+          Left Align
+        </span>
+        <i
+          class="chevron-down"
+        >
+          <svg
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <polyline
+              points="6 9 12 15 18 9"
+            />
+          </svg>
+        </i>
+      </button>
+    </div>
     <div
       class="editor-inner"
     >
