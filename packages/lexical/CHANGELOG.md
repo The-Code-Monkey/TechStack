@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.1](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.8.0...@techstack/lexical@1.8.1) (2024-05-07)
+
+
+### Bug Fixes
+
+* move where toolbar renders ([038f7a4](https://github.com/The-Code-Monkey/TechStack/commit/038f7a4f68fcc3f3a510cf7b1a117b2e1a70fc0a))
+
+
+
+
+
 # [1.8.0](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.7.26...@techstack/lexical@1.8.0) (2024-05-07)
 
 
