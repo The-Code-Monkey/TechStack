@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.13 (2024-05-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency semver to v7.6.1 ([c04f432](https://github.com/The-Code-Monkey/TechStack/commit/c04f4327073c9f25400b161017f92b660b5eca2e))
+
+
+
+
+
 ## 1.4.12 (2024-05-06)
 
 
