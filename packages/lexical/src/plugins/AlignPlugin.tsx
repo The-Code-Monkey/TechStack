@@ -1,4 +1,4 @@
-import { useRef, useState, ReactNode, useEffect, useCallback } from 'react';
+import { useState, ReactNode, useEffect, useCallback } from 'react';
 import { useLexicalComposerContext } from '@lexical/react/LexicalComposerContext';
 import {
   $getSelection,
@@ -13,7 +13,6 @@ import {
   AlignJustify,
   AlignLeft,
   AlignRight,
-  ChevronDown,
 } from '@techstack/react-feather';
 import { $findMatchingParent, mergeRegister } from '@lexical/utils';
 import { $isLinkNode } from '@lexical/link';
