@@ -4193,12 +4193,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/is-prop-valid@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "@emotion/is-prop-valid@npm:1.2.1"
+"@emotion/is-prop-valid@npm:1.2.2":
+  version: 1.2.2
+  resolution: "@emotion/is-prop-valid@npm:1.2.2"
   dependencies:
     "@emotion/memoize": "npm:^0.8.1"
-  checksum: 10c0/7c2aabdf0ca9986ca25abc9dae711348308cf18d418d64ffa4c8ffd2114806c47f2e06ba8ee769f38ec67d65bd59ec73f34d94023e81baa1c43510ac86ccd5e6
+  checksum: 10c0/bb1530dcb4e0e5a4fabb219279f2d0bc35796baf66f6241f98b0d03db1985c890a8cafbea268e0edefd5eeda143dbd5c09a54b5fba74cee8c69b98b13194af50
   languageName: node
   linkType: hard
 
@@ -4209,7 +4209,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/unitless@npm:^0.8.0":
+"@emotion/unitless@npm:0.8.1":
   version: 0.8.1
   resolution: "@emotion/unitless@npm:0.8.1"
   checksum: 10c0/a1ed508628288f40bfe6dd17d431ed899c067a899fa293a13afe3aed1d70fac0412b8a215fafab0b42829360db687fecd763e5f01a64ddc4a4b58ec3112ff548
@@ -6514,7 +6514,7 @@ __metadata:
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     storybook: "npm:8.0.10"
-    styled-components: "npm:6.1.1"
+    styled-components: "npm:6.1.10"
     typescript: "npm:5.4.5"
   languageName: unknown
   linkType: soft
@@ -6741,7 +6741,7 @@ __metadata:
     semver: "npm:7.6.1"
     shelljs: "npm:0.8.5"
     sort-package-json: "npm:2.10.0"
-    styled-components: "npm:6.1.1"
+    styled-components: "npm:6.1.10"
     tiny-glob: "npm:0.2.9"
     tiny-invariant: "npm:1.3.3"
     tiny-warning: "npm:1.0.3"
@@ -7600,10 +7600,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/stylis@npm:^4.0.2":
-  version: 4.2.0
-  resolution: "@types/stylis@npm:4.2.0"
-  checksum: 10c0/c76c13e76ca485f598a13984cfb5e07bb88a851da5bee213587424a5f101f182c74f4f92d633cebf9abcec40ccebb645d600d184b7e4b42793e3eeca8729b110
+"@types/stylis@npm:4.2.5":
+  version: 4.2.5
+  resolution: "@types/stylis@npm:4.2.5"
+  checksum: 10c0/23f5b35a3a04f6bb31a29d404fa1bc8e0035fcaff2356b4047743a057e0c37b2eba7efe14d57dd2b95b398cea3bac294d9c6cd93ed307d8c0b7f5d282224b469
   languageName: node
   linkType: hard
 
@@ -11602,7 +11602,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-to-react-native@npm:^3.2.0":
+"css-to-react-native@npm:3.2.0":
   version: 3.2.0
   resolution: "css-to-react-native@npm:3.2.0"
   dependencies:
@@ -11802,7 +11802,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:^3.0.2, csstype@npm:^3.1.2":
+"csstype@npm:3.1.3":
+  version: 3.1.3
+  resolution: "csstype@npm:3.1.3"
+  checksum: 10c0/80c089d6f7e0c5b2bd83cf0539ab41474198579584fa10d86d0cafe0642202343cbc119e076a0b1aece191989477081415d66c9fefbf3c957fc2fc4b7009f248
+  languageName: node
+  linkType: hard
+
+"csstype@npm:^3.0.2":
   version: 3.1.2
   resolution: "csstype@npm:3.1.2"
   checksum: 10c0/32c038af259897c807ac738d9eab16b3d86747c72b09d5c740978e06f067f9b7b1737e1b75e407c7ab1fe1543dc95f20e202b4786aeb1b8d3bdf5d5ce655e6c6
@@ -21472,7 +21479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.38, postcss@npm:^8.4.31":
+"postcss@npm:8.4.38":
   version: 8.4.38
   resolution: "postcss@npm:8.4.38"
   dependencies:
@@ -23099,7 +23106,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shallowequal@npm:^1.1.0":
+"shallowequal@npm:1.1.0":
   version: 1.1.0
   resolution: "shallowequal@npm:1.1.0"
   checksum: 10c0/b926efb51cd0f47aa9bc061add788a4a650550bbe50647962113a4579b60af2abe7b62f9b02314acc6f97151d4cf87033a2b15fc20852fae306d1a095215396c
@@ -23972,23 +23979,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:6.1.1":
-  version: 6.1.1
-  resolution: "styled-components@npm:6.1.1"
+"styled-components@npm:6.1.10":
+  version: 6.1.10
+  resolution: "styled-components@npm:6.1.10"
   dependencies:
-    "@emotion/is-prop-valid": "npm:^1.2.1"
-    "@emotion/unitless": "npm:^0.8.0"
-    "@types/stylis": "npm:^4.0.2"
-    css-to-react-native: "npm:^3.2.0"
-    csstype: "npm:^3.1.2"
-    postcss: "npm:^8.4.31"
-    shallowequal: "npm:^1.1.0"
-    stylis: "npm:^4.3.0"
-    tslib: "npm:^2.5.0"
+    "@emotion/is-prop-valid": "npm:1.2.2"
+    "@emotion/unitless": "npm:0.8.1"
+    "@types/stylis": "npm:4.2.5"
+    css-to-react-native: "npm:3.2.0"
+    csstype: "npm:3.1.3"
+    postcss: "npm:8.4.38"
+    shallowequal: "npm:1.1.0"
+    stylis: "npm:4.3.2"
+    tslib: "npm:2.6.2"
   peerDependencies:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
-  checksum: 10c0/de8fe762fed9ad75b09db0ec7235623ba18e8812bf6fc133c259f933b0bebb658ca94a7e6b1ce1a7a165c44aaaa0c5a5f24965b8fadb52551fa47c1112e52f85
+  checksum: 10c0/81a8794cc3ffbd2807aebf3d1014f550b66cc80d0af61f31089620fc4161cbf4d93d6b5875298b4c7647965de8f88f8b096dad356a182761b2f9b14e881f7263
   languageName: node
   linkType: hard
 
@@ -24016,10 +24023,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylis@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "stylis@npm:4.3.0"
-  checksum: 10c0/5a9f7e0cf2a15591efaacc1c6416a8785d2b57522cd38bb8e0a81a03c23d3bea2363659fa5f9d486a73d1b6ebaf1d32826ce1c1974c95afdb5b495d98acb25c0
+"stylis@npm:4.3.2":
+  version: 4.3.2
+  resolution: "stylis@npm:4.3.2"
+  checksum: 10c0/0410e1404cbeee3388a9e17587875211ce2f014c8379af0d1e24ca55878867c9f1ccc7b0ce9a156ca53f5d6e301391a82b0645522a604674a378b3189a4a1994
   languageName: node
   linkType: hard
 
@@ -24619,7 +24626,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.6.2, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.4.0, tslib@npm:^2.5.0, tslib@npm:^2.6.0, tslib@npm:^2.6.2":
+"tslib@npm:2.6.2, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.4.0, tslib@npm:^2.6.0, tslib@npm:^2.6.2":
   version: 2.6.2
   resolution: "tslib@npm:2.6.2"
   checksum: 10c0/e03a8a4271152c8b26604ed45535954c0a45296e32445b4b87f8a5abdb2421f40b59b4ca437c4346af0f28179780d604094eb64546bee2019d903d01c6c19bdb
