@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.266](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-confirm-alert@1.3.265...@techstack/react-confirm-alert@1.3.266) (2024-05-08)
+
+**Note:** Version bump only for package @techstack/react-confirm-alert
+
+
+
+
+
 ## 1.3.265 (2024-05-07)
 
 **Note:** Version bump only for package @techstack/react-confirm-alert
