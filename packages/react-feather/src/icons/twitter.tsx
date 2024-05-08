@@ -15,7 +15,7 @@ const Twitter = (
       fill='none'
       viewBox='0 0 16 17'
       stroke={color}
-      strokeWidth='2'
+      strokeWidth='1.2'
       strokeLinecap='round'
       strokeLinejoin='round'
       {...rest}
