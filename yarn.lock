@@ -6729,7 +6729,7 @@ __metadata:
     eslint-plugin-react: "npm:7.34.1"
     eslint-plugin-react-hooks: "npm:4.6.2"
     eslint-plugin-testing-library: "npm:6.2.2"
-    execa: "npm:9.0.0"
+    execa: "npm:9.0.1"
     figlet: "npm:1.7.0"
     fs-extra: "npm:11.2.0"
     jest: "npm:29.7.0"
@@ -13815,9 +13815,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:9.0.0":
-  version: 9.0.0
-  resolution: "execa@npm:9.0.0"
+"execa@npm:9.0.1":
+  version: 9.0.1
+  resolution: "execa@npm:9.0.1"
   dependencies:
     "@sindresorhus/merge-streams": "npm:^4.0.0"
     cross-spawn: "npm:^7.0.3"
@@ -13831,7 +13831,7 @@ __metadata:
     signal-exit: "npm:^4.1.0"
     strip-final-newline: "npm:^4.0.0"
     yoctocolors: "npm:^2.0.0"
-  checksum: 10c0/fc0d8f21f015af7ad69a50a692d2c106a506c885ef1d8f913ac3257c45a1351110ae13081a2969c6d8b1647b831971834f1d57d6265f160e2cd20408acfe82bb
+  checksum: 10c0/4a0e3a687eed40f5ed7bc1b6442053527d4827f1547eac08d5d84f771b23f6bae9d956bf119000f1efb6b7dced486ec6db8c329a9412b0a5f4c42a00c3c45ae4
   languageName: node
   linkType: hard
 
