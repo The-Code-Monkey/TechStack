@@ -6528,7 +6528,7 @@ __metadata:
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     storybook: "npm:8.0.10"
-    styled-components: "npm:6.1.10"
+    styled-components: "npm:6.1.11"
     typescript: "npm:5.4.5"
   languageName: unknown
   linkType: soft
@@ -6755,7 +6755,7 @@ __metadata:
     semver: "npm:7.6.2"
     shelljs: "npm:0.8.5"
     sort-package-json: "npm:2.10.0"
-    styled-components: "npm:6.1.10"
+    styled-components: "npm:6.1.11"
     tiny-glob: "npm:0.2.9"
     tiny-invariant: "npm:1.3.3"
     tiny-warning: "npm:1.0.3"
@@ -24078,9 +24078,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:6.1.10":
-  version: 6.1.10
-  resolution: "styled-components@npm:6.1.10"
+"styled-components@npm:6.1.11":
+  version: 6.1.11
+  resolution: "styled-components@npm:6.1.11"
   dependencies:
     "@emotion/is-prop-valid": "npm:1.2.2"
     "@emotion/unitless": "npm:0.8.1"
@@ -24094,7 +24094,7 @@ __metadata:
   peerDependencies:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
-  checksum: 10c0/81a8794cc3ffbd2807aebf3d1014f550b66cc80d0af61f31089620fc4161cbf4d93d6b5875298b4c7647965de8f88f8b096dad356a182761b2f9b14e881f7263
+  checksum: 10c0/1d149a51d24f779bba700c8c23ec0538b2d2b57745ccd49d1cfdc2dfce8bcea21e8ff81fed1143d1b35d127cc591717a398da72ea6671abbf705432b13e59e56
   languageName: node
   linkType: hard
 
