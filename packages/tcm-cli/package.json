@@ -93,7 +93,7 @@
     "rollup-plugin-dts": "6.1.0",
     "rollup-plugin-typescript2": "0.36.0",
     "sade": "1.8.1",
-    "semver": "7.6.1",
+    "semver": "7.6.2",
     "shelljs": "0.8.5",
     "sort-package-json": "2.10.0",
     "tiny-glob": "0.2.9",
