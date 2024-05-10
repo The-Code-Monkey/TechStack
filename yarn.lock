@@ -6666,7 +6666,7 @@ __metadata:
     prettier: "npm:3.2.5"
     process: "npm:0.11.10"
     react: "npm:18.3.1"
-    rimraf: "npm:5.0.5"
+    rimraf: "npm:5.0.6"
     typescript: "npm:5.4.5"
     webpack-dev-server: "npm:5.0.4"
   languageName: unknown
@@ -22660,14 +22660,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:5.0.5, rimraf@npm:^5.0.5":
-  version: 5.0.5
-  resolution: "rimraf@npm:5.0.5"
+"rimraf@npm:5.0.6":
+  version: 5.0.6
+  resolution: "rimraf@npm:5.0.6"
   dependencies:
     glob: "npm:^10.3.7"
   bin:
     rimraf: dist/esm/bin.mjs
-  checksum: 10c0/d50dbe724f33835decd88395b25ed35995077c60a50ae78ded06e0185418914e555817aad1b4243edbff2254548c2f6ad6f70cc850040bebb4da9e8cc016f586
+  checksum: 10c0/7e750e2d9073c058895c23622fdde6419acbdfdbba2f1baf4c14ce44c3424d1a83a513955ed32161fc13df54ab4182ceda1ca448720ceb6d834020b5ca0a7717
   languageName: node
   linkType: hard
 
@@ -22690,6 +22690,17 @@ __metadata:
   bin:
     rimraf: dist/cjs/src/bin.js
   checksum: 10c0/8c5e142d26d8b222be9dc9a1a41ba48e95d8f374e813e66a8533e87c6180174fcb3f573b9b592eca12740ebf8b78526d136acd971d4a790763d6f2232c34fa24
+  languageName: node
+  linkType: hard
+
+"rimraf@npm:^5.0.5":
+  version: 5.0.5
+  resolution: "rimraf@npm:5.0.5"
+  dependencies:
+    glob: "npm:^10.3.7"
+  bin:
+    rimraf: dist/esm/bin.mjs
+  checksum: 10c0/d50dbe724f33835decd88395b25ed35995077c60a50ae78ded06e0185418914e555817aad1b4243edbff2254548c2f6ad6f70cc850040bebb4da9e8cc016f586
   languageName: node
   linkType: hard
 
