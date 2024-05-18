@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.23 (2024-05-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup-plugin-dts to v6.1.1 ([ca8420e](https://github.com/The-Code-Monkey/TechStack/commit/ca8420eaa98c099cb26e83e2842fc39b6e106dab))
+
+
+
+
+
 ## 1.4.22 (2024-05-17)
 
 **Note:** Version bump only for package @techstack/tcm-cli
