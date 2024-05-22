@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.28](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.27...@techstack/tcm-cli@1.4.28) (2024-05-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rollup/plugin-commonjs to v25.0.8 ([0aa9cd0](https://github.com/The-Code-Monkey/TechStack/commit/0aa9cd091de21cfe3d221806b75f9c262fa299db))
+
+
+
+
+
 ## 1.4.27 (2024-05-22)
 
 
