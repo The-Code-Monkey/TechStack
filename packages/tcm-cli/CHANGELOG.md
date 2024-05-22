@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.27 (2024-05-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup to v4.18.0 ([4efa707](https://github.com/The-Code-Monkey/TechStack/commit/4efa70771289d791440745c622cd00ddf6c6bd52))
+
+
+
+
+
 ## [1.4.26](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.25...@techstack/tcm-cli@1.4.26) (2024-05-22)
 
 **Note:** Version bump only for package @techstack/tcm-cli
