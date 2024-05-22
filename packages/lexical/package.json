@@ -29,7 +29,7 @@
     "@techstack/tcm-cli": "workspace:*",
     "prop-types": "15.8.1",
     "react-dom": "18.3.1",
-    "storybook": "8.1.1"
+    "storybook": "8.1.2"
   },
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
