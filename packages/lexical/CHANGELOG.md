@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.19](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.8.18...@techstack/lexical@1.8.19) (2024-05-22)
+
+**Note:** Version bump only for package @techstack/lexical
+
+
+
+
+
 ## [1.8.18](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.8.17...@techstack/lexical@1.8.18) (2024-05-21)
 
 **Note:** Version bump only for package @techstack/lexical
