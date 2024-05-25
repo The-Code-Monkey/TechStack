@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.292](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/font-picker-react@1.3.291...@techstack/font-picker-react@1.3.292) (2024-05-25)
+
+**Note:** Version bump only for package @techstack/font-picker-react
+
+
+
+
+
 ## 1.3.291 (2024-05-24)
 
 **Note:** Version bump only for package @techstack/font-picker-react
