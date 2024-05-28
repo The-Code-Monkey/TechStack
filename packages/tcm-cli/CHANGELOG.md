@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.35](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.34...@techstack/tcm-cli@1.4.35) (2024-05-28)
+
+**Note:** Version bump only for package @techstack/tcm-cli
+
+
+
+
+
 ## [1.4.34](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.33...@techstack/tcm-cli@1.4.34) (2024-05-28)
 
 **Note:** Version bump only for package @techstack/tcm-cli
