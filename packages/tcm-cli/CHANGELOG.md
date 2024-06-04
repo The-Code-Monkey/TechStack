@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.38](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.37...@techstack/tcm-cli@1.4.38) (2024-06-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency type-fest to v4.19.0 ([1a7fc34](https://github.com/The-Code-Monkey/TechStack/commit/1a7fc3437644b5336b3826420e06d7074ee77c51))
+
+
+
+
+
 ## [1.4.37](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.36...@techstack/tcm-cli@1.4.37) (2024-06-03)
 
 **Note:** Version bump only for package @techstack/tcm-cli
