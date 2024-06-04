@@ -100,7 +100,7 @@
     "ts-jest": "29.1.4",
     "ts-node": "10.9.1",
     "tslib": "2.6.2",
-    "type-fest": "4.18.3",
+    "type-fest": "4.19.0",
     "typescript": "5.4.5"
   },
   "devDependencies": {
