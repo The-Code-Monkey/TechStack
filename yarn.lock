@@ -6890,7 +6890,7 @@ __metadata:
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     storybook: "npm:8.1.5"
-    styled-components: "npm:6.1.11"
+    styled-components: "npm:6.1.16"
     typescript: "npm:5.4.5"
   languageName: unknown
   linkType: soft
@@ -7117,7 +7117,7 @@ __metadata:
     semver: "npm:7.6.2"
     shelljs: "npm:0.8.5"
     sort-package-json: "npm:2.10.0"
-    styled-components: "npm:6.1.11"
+    styled-components: "npm:6.1.16"
     tiny-glob: "npm:0.2.9"
     tiny-invariant: "npm:1.3.3"
     tiny-warning: "npm:1.0.3"
@@ -22230,6 +22230,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:8.4.49":
+  version: 8.4.49
+  resolution: "postcss@npm:8.4.49"
+  dependencies:
+    nanoid: "npm:^3.3.7"
+    picocolors: "npm:^1.1.1"
+    source-map-js: "npm:^1.2.1"
+  checksum: 10c0/f1b3f17aaf36d136f59ec373459f18129908235e65dbdc3aee5eef8eba0756106f52de5ec4682e29a2eab53eb25170e7e871b3e4b52a8f1de3d344a514306be3
+  languageName: node
+  linkType: hard
+
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
@@ -24229,6 +24240,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"source-map-js@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "source-map-js@npm:1.2.1"
+  checksum: 10c0/7bda1fc4c197e3c6ff17de1b8b2c20e60af81b63a52cb32ec5a5d67a20a7d42651e2cb34ebe93833c5a2a084377e17455854fee3e21e7925c64a51b6a52b0faf
+  languageName: node
+  linkType: hard
+
 "source-map-resolve@npm:^0.5.0":
   version: 0.5.3
   resolution: "source-map-resolve@npm:0.5.3"
@@ -24828,23 +24846,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:6.1.11":
-  version: 6.1.11
-  resolution: "styled-components@npm:6.1.11"
+"styled-components@npm:6.1.16":
+  version: 6.1.16
+  resolution: "styled-components@npm:6.1.16"
   dependencies:
     "@emotion/is-prop-valid": "npm:1.2.2"
     "@emotion/unitless": "npm:0.8.1"
     "@types/stylis": "npm:4.2.5"
     css-to-react-native: "npm:3.2.0"
     csstype: "npm:3.1.3"
-    postcss: "npm:8.4.38"
+    postcss: "npm:8.4.49"
     shallowequal: "npm:1.1.0"
     stylis: "npm:4.3.2"
     tslib: "npm:2.6.2"
   peerDependencies:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
-  checksum: 10c0/1d149a51d24f779bba700c8c23ec0538b2d2b57745ccd49d1cfdc2dfce8bcea21e8ff81fed1143d1b35d127cc591717a398da72ea6671abbf705432b13e59e56
+  checksum: 10c0/190d6d5dc9099489fac37e23be5bda7fef399ca9f9230f1de81100b98ec1c75070ef5990241c007126d97f40069d3c864f4239e185161a70ff111dd3e3bf5370
   languageName: node
   linkType: hard
 
