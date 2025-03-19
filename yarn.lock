@@ -7137,7 +7137,7 @@ __metadata:
   dependencies:
     "@size-limit/file": "npm:11.1.4"
     "@techstack/tcm-cli": "workspace:*"
-    "@tsconfig/recommended": "npm:1.0.6"
+    "@tsconfig/recommended": "npm:1.0.8"
     "@types/fs-extra": "npm:11.0.4"
     "@types/lodash": "npm:4.17.4"
     "@types/lodash-es": "npm:4.17.12"
@@ -7287,10 +7287,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/recommended@npm:1.0.6":
-  version: 1.0.6
-  resolution: "@tsconfig/recommended@npm:1.0.6"
-  checksum: 10c0/4789509c7958c99cfbfc1c41d59b4af21bd628d3914930529b70159572902e86727de15c4d99725169eeb56d91024497a5e1358a6293a43112a715012d226bec
+"@tsconfig/recommended@npm:1.0.8":
+  version: 1.0.8
+  resolution: "@tsconfig/recommended@npm:1.0.8"
+  checksum: 10c0/bd6517e3f69cf96108ab8b7d2ee70a7e64ee457bb72326524acdef6e2219813b298654e9aa57ce2f8899901c9b8fd66388b036b9ca0aa062952a83adb59bec17
   languageName: node
   linkType: hard
 
