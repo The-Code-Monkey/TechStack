@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.293](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@1.3.292...@techstack/memoize@1.3.293) (2025-03-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.57.1 ([#2700](https://github.com/The-Code-Monkey/TechStack/issues/2700)) ([2f0e89a](https://github.com/The-Code-Monkey/TechStack/commit/2f0e89ab69dbed3944802789a1f87b18c48322f3))
+
+
+
+
+
 ## [1.3.292](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@1.3.291...@techstack/memoize@1.3.292) (2024-09-24)
 
 **Note:** Version bump only for package @techstack/memoize

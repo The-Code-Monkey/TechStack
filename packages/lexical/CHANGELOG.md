@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.38](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.8.37...@techstack/lexical@1.8.38) (2025-03-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency styled-components to v6.1.16 ([#2701](https://github.com/The-Code-Monkey/TechStack/issues/2701)) ([3466c00](https://github.com/The-Code-Monkey/TechStack/commit/3466c00e87e79b169c55126adb45fdafd70eb8e1))
+
+
+
+
+
 ## [1.8.37](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.8.36...@techstack/lexical@1.8.37) (2024-09-24)
 
 **Note:** Version bump only for package @techstack/lexical

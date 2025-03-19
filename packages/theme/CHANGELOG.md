@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.302](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@1.3.301...@techstack/theme@1.3.302) (2025-03-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.57.1 ([#2700](https://github.com/The-Code-Monkey/TechStack/issues/2700)) ([2f0e89a](https://github.com/The-Code-Monkey/TechStack/commit/2f0e89ab69dbed3944802789a1f87b18c48322f3))
+
+
+
+
+
 ## [1.3.301](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@1.3.300...@techstack/theme@1.3.301) (2024-09-24)
 
 **Note:** Version bump only for package @techstack/theme

@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.40](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.39...@techstack/tcm-cli@1.4.40) (2025-03-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rollup/plugin-replace to v5.0.7 ([#2698](https://github.com/The-Code-Monkey/TechStack/issues/2698)) ([9e1a4e6](https://github.com/The-Code-Monkey/TechStack/commit/9e1a4e60b57a1276f1ec49e026901f74a49636e7))
+* **deps:** update dependency eslint to v8.57.1 ([#2700](https://github.com/The-Code-Monkey/TechStack/issues/2700)) ([2f0e89a](https://github.com/The-Code-Monkey/TechStack/commit/2f0e89ab69dbed3944802789a1f87b18c48322f3))
+* **deps:** update dependency rollup-plugin-delete to v3 ([#2753](https://github.com/The-Code-Monkey/TechStack/issues/2753)) ([3f3f33a](https://github.com/The-Code-Monkey/TechStack/commit/3f3f33aad95a445505ebd1632aee4e5c446b9c79))
+* **deps:** update dependency styled-components to v6.1.16 ([#2701](https://github.com/The-Code-Monkey/TechStack/issues/2701)) ([3466c00](https://github.com/The-Code-Monkey/TechStack/commit/3466c00e87e79b169c55126adb45fdafd70eb8e1))
+
+
+
+
+
 ## [1.4.39](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.38...@techstack/tcm-cli@1.4.39) (2024-09-24)
 
 
