@@ -89,7 +89,7 @@
     "progress-estimator": "0.3.1",
     "regenerator-runtime": "0.14.1",
     "rollup": "4.22.4",
-    "rollup-plugin-delete": "2.0.0",
+    "rollup-plugin-delete": "2.2.0",
     "rollup-plugin-dts": "6.1.1",
     "rollup-plugin-typescript2": "0.36.0",
     "sade": "1.8.1",
