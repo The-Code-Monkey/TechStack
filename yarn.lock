@@ -7094,7 +7094,7 @@ __metadata:
     asyncro: "npm:3.0.0"
     auto-changelog: "npm:2.4.0"
     autoprefixer: "npm:10.4.21"
-    babel-plugin-annotate-pure-calls: "npm:0.4.0"
+    babel-plugin-annotate-pure-calls: "npm:0.5.0"
     babel-plugin-dev-expression: "npm:0.2.3"
     babel-plugin-macros: "npm:3.1.0"
     babel-plugin-polyfill-regenerator: "npm:0.6.4"
@@ -9744,12 +9744,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-annotate-pure-calls@npm:0.4.0":
-  version: 0.4.0
-  resolution: "babel-plugin-annotate-pure-calls@npm:0.4.0"
+"babel-plugin-annotate-pure-calls@npm:0.5.0":
+  version: 0.5.0
+  resolution: "babel-plugin-annotate-pure-calls@npm:0.5.0"
   peerDependencies:
-    "@babel/core": ^6.0.0-0 || 7.x
-  checksum: 10c0/8cd300d84eccb118218416d2c21ad1b955a3f30d872f15caf6c6fc869d8117b80d48766fe658b243c1825eeb5418e7b9890f3a29d2de4e635531545044bf7ce5
+    "@babel/core": ^7.0.0
+  checksum: 10c0/6c5156b78c3f6cf66a7701f6d77af9407d9a6172e3307c4d2dcd97b0f0d38e6ae015e4a20c4f76149551b713b036af566f9234f31910e6cab5cfdec9a5722ce6
   languageName: node
   linkType: hard
 
