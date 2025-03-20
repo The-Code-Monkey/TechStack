@@ -6994,7 +6994,7 @@ __metadata:
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-prettier: "npm:5.1.3"
     eslint-plugin-react: "npm:7.34.2"
-    fs-extra: "npm:11.2.0"
+    fs-extra: "npm:11.3.0"
     prettier: "npm:3.3.0"
     react: "npm:18.3.1"
     typescript: "npm:5.4.5"
@@ -7122,7 +7122,7 @@ __metadata:
     eslint-plugin-testing-library: "npm:7.1.1"
     execa: "npm:9.1.0"
     figlet: "npm:1.7.0"
-    fs-extra: "npm:11.2.0"
+    fs-extra: "npm:11.3.0"
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
     jest-watch-typeahead: "npm:2.2.2"
@@ -7178,7 +7178,7 @@ __metadata:
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-prettier: "npm:5.1.3"
     eslint-plugin-react: "npm:7.34.2"
-    fs-extra: "npm:11.2.0"
+    fs-extra: "npm:11.3.0"
     lodash: "npm:4.17.21"
     lodash-es: "npm:4.17.21"
     prettier: "npm:3.3.0"
@@ -15165,14 +15165,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:11.2.0":
-  version: 11.2.0
-  resolution: "fs-extra@npm:11.2.0"
+"fs-extra@npm:11.3.0":
+  version: 11.3.0
+  resolution: "fs-extra@npm:11.3.0"
   dependencies:
     graceful-fs: "npm:^4.2.0"
     jsonfile: "npm:^6.0.1"
     universalify: "npm:^2.0.0"
-  checksum: 10c0/d77a9a9efe60532d2e790e938c81a02c1b24904ef7a3efb3990b835514465ba720e99a6ea56fd5e2db53b4695319b644d76d5a0e9988a2beef80aa7b1da63398
+  checksum: 10c0/5f95e996186ff45463059feb115a22fb048bdaf7e487ecee8a8646c78ed8fdca63630e3077d4c16ce677051f5e60d3355a06f3cd61f3ca43f48cc58822a44d0a
   languageName: node
   linkType: hard
 
