@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.298](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@1.3.297...@techstack/memoize@1.3.298) (2025-03-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency tslib to v2.8.1 ([#2738](https://github.com/The-Code-Monkey/TechStack/issues/2738)) ([ed0a545](https://github.com/The-Code-Monkey/TechStack/commit/ed0a5450579d51c405d8a4528256240ff6d672f2))
+
+
+
+
+
 ## [1.3.297](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/memoize@1.3.296...@techstack/memoize@1.3.297) (2025-03-20)
 
 
