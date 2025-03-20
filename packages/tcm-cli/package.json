@@ -94,7 +94,7 @@
     "rollup-plugin-typescript2": "0.36.0",
     "sade": "1.8.1",
     "semver": "7.7.1",
-    "shelljs": "0.8.5",
+    "shelljs": "0.9.2",
     "sort-package-json": "3.0.0",
     "tiny-glob": "0.2.9",
     "ts-jest": "29.2.6",
