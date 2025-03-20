@@ -67,7 +67,7 @@
     "prettier": "3.3.0",
     "ts-jest": "29.2.6",
     "tslib": "2.8.1",
-    "typescript": "5.4.5"
+    "typescript": "5.8.2"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a"
 }
