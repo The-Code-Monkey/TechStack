@@ -6380,12 +6380,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@size-limit/file@npm:11.1.4":
-  version: 11.1.4
-  resolution: "@size-limit/file@npm:11.1.4"
+"@size-limit/file@npm:11.2.0":
+  version: 11.2.0
+  resolution: "@size-limit/file@npm:11.2.0"
   peerDependencies:
-    size-limit: 11.1.4
-  checksum: 10c0/df96a30a8731d942fff1d2ab024de18cac401f053d256ad9d09862e614071a691eac19d8b97901165598539a89039c47c75e204b070105810c7f61d0dd502fc7
+    size-limit: 11.2.0
+  checksum: 10c0/25fb431c2afa9293774842f3abb12ee0aaa988585a2be545f2a4f90ffd5c638a13bada10a0b71e376cefb426bd991793d0e1ffe970b94a4e0bb8b0a8b504f343
   languageName: node
   linkType: hard
 
@@ -7135,7 +7135,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@techstack/theme@workspace:packages/theme"
   dependencies:
-    "@size-limit/file": "npm:11.1.4"
+    "@size-limit/file": "npm:11.2.0"
     "@techstack/tcm-cli": "workspace:*"
     "@tsconfig/recommended": "npm:1.0.8"
     "@types/fs-extra": "npm:11.0.4"
