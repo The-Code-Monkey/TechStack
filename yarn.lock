@@ -6945,7 +6945,7 @@ __metadata:
     ora: "npm:8.2.0"
     prettier: "npm:3.3.0"
     ts-jest: "npm:29.2.6"
-    tslib: "npm:2.6.2"
+    tslib: "npm:2.8.1"
     typescript: "npm:5.4.5"
   languageName: unknown
   linkType: soft
@@ -7017,7 +7017,7 @@ __metadata:
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     ts-jest: "npm:29.2.6"
-    tslib: "npm:2.6.2"
+    tslib: "npm:2.8.1"
     typescript: "npm:5.4.5"
   languageName: unknown
   linkType: soft
@@ -7144,7 +7144,7 @@ __metadata:
     tiny-warning: "npm:1.0.3"
     ts-jest: "npm:29.2.6"
     ts-node: "npm:10.9.1"
-    tslib: "npm:2.6.2"
+    tslib: "npm:2.8.1"
     type-fest: "npm:4.37.0"
     typescript: "npm:5.4.5"
   bin:
@@ -7179,7 +7179,7 @@ __metadata:
     style-dictionary: "npm:3.9.2"
     tinycolor2: "npm:1.6.0"
     ts-jest: "npm:29.2.6"
-    tslib: "npm:2.6.2"
+    tslib: "npm:2.8.1"
     typescript: "npm:5.4.5"
   bin:
     orchard: ./dist/esm/index.js
@@ -25616,6 +25616,13 @@ __metadata:
   version: 2.6.2
   resolution: "tslib@npm:2.6.2"
   checksum: 10c0/e03a8a4271152c8b26604ed45535954c0a45296e32445b4b87f8a5abdb2421f40b59b4ca437c4346af0f28179780d604094eb64546bee2019d903d01c6c19bdb
+  languageName: node
+  linkType: hard
+
+"tslib@npm:2.8.1":
+  version: 2.8.1
+  resolution: "tslib@npm:2.8.1"
+  checksum: 10c0/9c4759110a19c53f992d9aae23aac5ced636e99887b51b9e61def52611732872ff7668757d4e4c61f19691e36f4da981cd9485e869b4a7408d689f6bf1f14e62
   languageName: node
   linkType: hard
 

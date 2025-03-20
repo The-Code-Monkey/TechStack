@@ -99,7 +99,7 @@
     "tiny-glob": "0.2.9",
     "ts-jest": "29.2.6",
     "ts-node": "10.9.1",
-    "tslib": "2.6.2",
+    "tslib": "2.8.1",
     "type-fest": "4.37.0",
     "typescript": "5.4.5"
   },
