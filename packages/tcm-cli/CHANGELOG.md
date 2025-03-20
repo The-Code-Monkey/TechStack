@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.43](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.42...@techstack/tcm-cli@1.4.43) (2025-03-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rollup/plugin-commonjs to v28 ([#2749](https://github.com/The-Code-Monkey/TechStack/issues/2749)) ([6cd0277](https://github.com/The-Code-Monkey/TechStack/commit/6cd0277aba2682da6305522124746e07288ef6a3))
+* **deps:** update dependency @rollup/plugin-replace to v6 ([#2750](https://github.com/The-Code-Monkey/TechStack/issues/2750)) ([7b26ce8](https://github.com/The-Code-Monkey/TechStack/commit/7b26ce80732435020d59db9162abe60ea6832bdb))
+* **deps:** update dependency eslint-config-prettier to v10 ([#2751](https://github.com/The-Code-Monkey/TechStack/issues/2751)) ([9940d52](https://github.com/The-Code-Monkey/TechStack/commit/9940d52f2440e1f8dfab39ff31b3dc494b54a801))
+* **deps:** update dependency eslint-plugin-prettier to v5.2.3 ([#2722](https://github.com/The-Code-Monkey/TechStack/issues/2722)) ([19376da](https://github.com/The-Code-Monkey/TechStack/commit/19376dafe11e7ed29c4fdefedd060ee08fa66d76))
+* **deps:** update dependency eslint-plugin-testing-library to v7 ([#2752](https://github.com/The-Code-Monkey/TechStack/issues/2752)) ([bf22838](https://github.com/The-Code-Monkey/TechStack/commit/bf22838d24d8635fb23346dc1a9e74ccad098ef4))
+* **deps:** update dependency fs-extra to v11.3.0 ([#2727](https://github.com/The-Code-Monkey/TechStack/issues/2727)) ([6d6b8a5](https://github.com/The-Code-Monkey/TechStack/commit/6d6b8a54b91dbc261ec755f7928c2eb99f3097ab))
+* **deps:** update dependency ora to v8.2.0 ([#2728](https://github.com/The-Code-Monkey/TechStack/issues/2728)) ([a3ecd5b](https://github.com/The-Code-Monkey/TechStack/commit/a3ecd5b78acb2151b07265333a83f0d14567108d))
+* **deps:** update dependency postcss to v8.5.3 ([#2729](https://github.com/The-Code-Monkey/TechStack/issues/2729)) ([905c9e7](https://github.com/The-Code-Monkey/TechStack/commit/905c9e7366c60c2fa2708a8e55a66cca3f400ff0))
+* **deps:** update dependency rollup to v4.36.0 ([#2731](https://github.com/The-Code-Monkey/TechStack/issues/2731)) ([4a08e25](https://github.com/The-Code-Monkey/TechStack/commit/4a08e25b91eca305c60ead4de036dd1a0330cdd9))
+* **deps:** update dependency rollup-plugin-dts to v6.2.0 ([#2733](https://github.com/The-Code-Monkey/TechStack/issues/2733)) ([b6397cb](https://github.com/The-Code-Monkey/TechStack/commit/b6397cb82ce5c96610849e597527f3d1e7e48131))
+* **deps:** update dependency semver to v7.7.1 ([#2734](https://github.com/The-Code-Monkey/TechStack/issues/2734)) ([1c8609f](https://github.com/The-Code-Monkey/TechStack/commit/1c8609f654806074139f72e6e655388aba76bc91))
+* **deps:** update dependency sort-package-json to v3 ([#2754](https://github.com/The-Code-Monkey/TechStack/issues/2754)) ([9b10f56](https://github.com/The-Code-Monkey/TechStack/commit/9b10f5696d5700bf5497b461e47930068b980f1f))
+* **deps:** update dependency ts-jest to v29.2.6 ([#2737](https://github.com/The-Code-Monkey/TechStack/issues/2737)) ([287d43b](https://github.com/The-Code-Monkey/TechStack/commit/287d43ba836b2b7edf37279a1703a52c1e1f59c5))
+* **deps:** update dependency type-fest to v4.37.0 ([#2739](https://github.com/The-Code-Monkey/TechStack/issues/2739)) ([ca7a3b1](https://github.com/The-Code-Monkey/TechStack/commit/ca7a3b1ada2bb767591187027c128826e79f2151))
+* **deps:** update typescript-eslint monorepo to v7.18.0 ([#2741](https://github.com/The-Code-Monkey/TechStack/issues/2741)) ([01d58a7](https://github.com/The-Code-Monkey/TechStack/commit/01d58a72e8bba25b2550e5e833f0ee666df61478))
+
+
+
+
+
 ## 1.4.42 (2025-03-20)
 
 

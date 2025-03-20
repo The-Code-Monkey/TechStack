@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.305](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/theme@1.3.304...@techstack/theme@1.3.305) (2025-03-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v10 ([#2751](https://github.com/The-Code-Monkey/TechStack/issues/2751)) ([9940d52](https://github.com/The-Code-Monkey/TechStack/commit/9940d52f2440e1f8dfab39ff31b3dc494b54a801))
+* **deps:** update dependency eslint-plugin-prettier to v5.2.3 ([#2722](https://github.com/The-Code-Monkey/TechStack/issues/2722)) ([19376da](https://github.com/The-Code-Monkey/TechStack/commit/19376dafe11e7ed29c4fdefedd060ee08fa66d76))
+* **deps:** update dependency fs-extra to v11.3.0 ([#2727](https://github.com/The-Code-Monkey/TechStack/issues/2727)) ([6d6b8a5](https://github.com/The-Code-Monkey/TechStack/commit/6d6b8a54b91dbc261ec755f7928c2eb99f3097ab))
+* **deps:** update dependency ts-jest to v29.2.6 ([#2737](https://github.com/The-Code-Monkey/TechStack/issues/2737)) ([287d43b](https://github.com/The-Code-Monkey/TechStack/commit/287d43ba836b2b7edf37279a1703a52c1e1f59c5))
+* **deps:** update typescript-eslint monorepo to v7.18.0 ([#2741](https://github.com/The-Code-Monkey/TechStack/issues/2741)) ([01d58a7](https://github.com/The-Code-Monkey/TechStack/commit/01d58a72e8bba25b2550e5e833f0ee666df61478))
+
+
+
+
+
 ## 1.3.304 (2025-03-20)
 
 **Note:** Version bump only for package @techstack/theme
