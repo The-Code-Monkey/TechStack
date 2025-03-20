@@ -7154,7 +7154,7 @@ __metadata:
     lodash-es: "npm:4.17.21"
     prettier: "npm:3.3.0"
     sade: "npm:1.8.1"
-    size-limit: "npm:11.1.4"
+    size-limit: "npm:11.2.0"
     style-dictionary: "npm:3.9.2"
     tinycolor2: "npm:1.6.0"
     ts-jest: "npm:29.1.4"
@@ -11250,6 +11250,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chokidar@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "chokidar@npm:4.0.3"
+  dependencies:
+    readdirp: "npm:^4.0.1"
+  checksum: 10c0/a58b9df05bb452f7d105d9e7229ac82fa873741c0c40ddcc7bb82f8a909fbe3f7814c9ebe9bc9a2bef9b737c0ec6e2d699d179048ef06ad3ec46315df0ebe6ad
+  languageName: node
+  linkType: hard
+
 "chownr@npm:^1.1.1":
   version: 1.1.4
   resolution: "chownr@npm:1.1.4"
@@ -14700,6 +14709,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fdir@npm:^6.4.3":
+  version: 6.4.3
+  resolution: "fdir@npm:6.4.3"
+  peerDependencies:
+    picomatch: ^3 || ^4
+  peerDependenciesMeta:
+    picomatch:
+      optional: true
+  checksum: 10c0/d13c10120e9625adf21d8d80481586200759928c19405a816b77dd28eaeb80e7c59c5def3e2941508045eb06d34eb47fad865ccc8bf98e6ab988bb0ed160fb6f
+  languageName: node
+  linkType: hard
+
 "fetch-retry@npm:^5.0.2":
   version: 5.0.6
   resolution: "fetch-retry@npm:5.0.6"
@@ -18060,12 +18081,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jiti@npm:^1.21.0":
-  version: 1.21.0
-  resolution: "jiti@npm:1.21.0"
+"jiti@npm:^2.4.2":
+  version: 2.4.2
+  resolution: "jiti@npm:2.4.2"
   bin:
-    jiti: bin/jiti.js
-  checksum: 10c0/7f361219fe6c7a5e440d5f1dba4ab763a5538d2df8708cdc22561cf25ea3e44b837687931fca7cdd8cdd9f567300e90be989dd1321650045012d8f9ed6aab07f
+    jiti: lib/jiti-cli.mjs
+  checksum: 10c0/4ceac133a08c8faff7eac84aabb917e85e8257f5ad659e843004ce76e981c457c390a220881748ac67ba1b940b9b729b30fb85cbaf6e7989f04b6002c94da331
   languageName: node
   linkType: hard
 
@@ -18580,17 +18601,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lilconfig@npm:^3.1.1, lilconfig@npm:~3.1.1":
-  version: 3.1.1
-  resolution: "lilconfig@npm:3.1.1"
-  checksum: 10c0/311b559794546894e3fe176663427326026c1c644145be9e8041c58e268aa9328799b8dfe7e4dd8c6a4ae305feae95a1c9e007db3569f35b42b6e1bc8274754c
-  languageName: node
-  linkType: hard
-
-"lilconfig@npm:^3.1.2":
+"lilconfig@npm:^3.1.2, lilconfig@npm:^3.1.3":
   version: 3.1.3
   resolution: "lilconfig@npm:3.1.3"
   checksum: 10c0/f5604e7240c5c275743561442fbc5abf2a84ad94da0f5adc71d25e31fa8483048de3dcedcb7a44112a942fed305fd75841cdf6c9681c7f640c63f1049e9a5dcc
+  languageName: node
+  linkType: hard
+
+"lilconfig@npm:~3.1.1":
+  version: 3.1.1
+  resolution: "lilconfig@npm:3.1.1"
+  checksum: 10c0/311b559794546894e3fe176663427326026c1c644145be9e8041c58e268aa9328799b8dfe7e4dd8c6a4ae305feae95a1c9e007db3569f35b42b6e1bc8274754c
   languageName: node
   linkType: hard
 
@@ -19968,12 +19989,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanospinner@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "nanospinner@npm:1.1.0"
+"nanospinner@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "nanospinner@npm:1.2.2"
   dependencies:
-    picocolors: "npm:^1.0.0"
-  checksum: 10c0/2f89e48bfb1452b5f3afd8034753bbc45040a6830fec913ec228d7a8a8eab1e2c8193bd41e2203806a1f454907641ffa035b14f3a8462cf374e874eb29fd57f1
+    picocolors: "npm:^1.1.1"
+  checksum: 10c0/07264f63816a8ec24d84ffe216a605cf11dffd8b098d4c5e6790437304b47e10ce4fc341de8dbcfc1b59aa42107f9949c89bcc201239eb61a80e14b6b1a20c90
   languageName: node
   linkType: hard
 
@@ -21452,13 +21473,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picocolors@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "picocolors@npm:1.0.1"
-  checksum: 10c0/c63cdad2bf812ef0d66c8db29583802355d4ca67b9285d846f390cc15c2f6ccb94e8cb7eb6a6e97fc5990a6d3ad4ae42d86c84d3146e667c739a4234ed50d400
-  languageName: node
-  linkType: hard
-
 "picocolors@npm:^1.1.1":
   version: 1.1.1
   resolution: "picocolors@npm:1.1.1"
@@ -21470,6 +21484,13 @@ __metadata:
   version: 2.3.1
   resolution: "picomatch@npm:2.3.1"
   checksum: 10c0/26c02b8d06f03206fc2ab8d16f19960f2ff9e81a658f831ecb656d8f17d9edc799e8364b1f4a7873e89d9702dff96204be0fa26fe4181f6843f040f819dac4be
+  languageName: node
+  linkType: hard
+
+"picomatch@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "picomatch@npm:4.0.2"
+  checksum: 10c0/7c51f3ad2bb42c776f49ebf964c644958158be30d0a510efd5a395e8d49cb5acfed5b82c0c5b365523ce18e6ab85013c9ebe574f60305892ec3fa8eee8304ccc
   languageName: node
   linkType: hard
 
@@ -22792,6 +22813,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"readdirp@npm:^4.0.1":
+  version: 4.1.2
+  resolution: "readdirp@npm:4.1.2"
+  checksum: 10c0/60a14f7619dec48c9c850255cd523e2717001b0e179dc7037cfa0895da7b9e9ab07532d324bfb118d73a710887d1e35f79c495fa91582784493e085d18c72c62
+  languageName: node
+  linkType: hard
+
 "readdirp@npm:~3.6.0":
   version: 3.6.0
   resolution: "readdirp@npm:3.6.0"
@@ -24020,20 +24048,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"size-limit@npm:11.1.4":
-  version: 11.1.4
-  resolution: "size-limit@npm:11.1.4"
+"size-limit@npm:11.2.0":
+  version: 11.2.0
+  resolution: "size-limit@npm:11.2.0"
   dependencies:
     bytes-iec: "npm:^3.1.1"
-    chokidar: "npm:^3.6.0"
-    globby: "npm:^14.0.1"
-    jiti: "npm:^1.21.0"
-    lilconfig: "npm:^3.1.1"
-    nanospinner: "npm:^1.1.0"
-    picocolors: "npm:^1.0.1"
+    chokidar: "npm:^4.0.3"
+    jiti: "npm:^2.4.2"
+    lilconfig: "npm:^3.1.3"
+    nanospinner: "npm:^1.2.2"
+    picocolors: "npm:^1.1.1"
+    tinyglobby: "npm:^0.2.11"
   bin:
     size-limit: bin.js
-  checksum: 10c0/1475db1203ae6433f2bb02dfa1e78f8f47a740617f0e30333b4c0ae5298102847945154af7c544fa8d8761bb55815e255ec1a8c0832222c3694c175889a00def
+  checksum: 10c0/c3613e20dfc227074d73098bfdd6fe274aed980bf133ad61a380032425bfa8b7d749c876dea50e9648a64cd57fb768edac9ffc1927100bcadf814255e44236f1
   languageName: node
   linkType: hard
 
@@ -25200,6 +25228,16 @@ __metadata:
   version: 1.6.0
   resolution: "tinycolor2@npm:1.6.0"
   checksum: 10c0/9aa79a36ba2c2a87cb221453465cabacd04b9e35f9694373e846fdc78b1c768110f81e581ea41440106c0f24d9a023891d0887e8075885e790ac40eb0e74a5c1
+  languageName: node
+  linkType: hard
+
+"tinyglobby@npm:^0.2.11":
+  version: 0.2.12
+  resolution: "tinyglobby@npm:0.2.12"
+  dependencies:
+    fdir: "npm:^6.4.3"
+    picomatch: "npm:^4.0.2"
+  checksum: 10c0/7c9be4fd3625630e262dcb19015302aad3b4ba7fc620f269313e688f2161ea8724d6cb4444baab5ef2826eb6bed72647b169a33ec8eea37501832a2526ff540f
   languageName: node
   linkType: hard
 
