@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.297](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-confirm-alert@1.3.296...@techstack/react-confirm-alert@1.3.297) (2025-03-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to v2.31.0 ([#2719](https://github.com/The-Code-Monkey/TechStack/issues/2719)) ([55b0939](https://github.com/The-Code-Monkey/TechStack/commit/55b0939b0498d965f66f4c04cab382ae7ff6fecb))
+* **deps:** update dependency typescript to v5.8.2 ([#2740](https://github.com/The-Code-Monkey/TechStack/issues/2740)) ([d4199e1](https://github.com/The-Code-Monkey/TechStack/commit/d4199e1112dd97f25f3773b41f66a713bce94fa9))
+
+
+
+
+
 ## [1.3.296](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-confirm-alert@1.3.295...@techstack/react-confirm-alert@1.3.296) (2025-03-20)
 
 **Note:** Version bump only for package @techstack/react-confirm-alert

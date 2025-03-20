@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.45](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.44...@techstack/tcm-cli@1.4.45) (2025-03-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-plugin-annotate-pure-calls to v0.5.0 ([#2717](https://github.com/The-Code-Monkey/TechStack/issues/2717)) ([40a0c54](https://github.com/The-Code-Monkey/TechStack/commit/40a0c54b7857f09343ed13f1ee0f3501b5d42e6f))
+* **deps:** update dependency chalk to v5.4.1 ([#2718](https://github.com/The-Code-Monkey/TechStack/issues/2718)) ([4b9582d](https://github.com/The-Code-Monkey/TechStack/commit/4b9582d7688dc6fa2da9e637425227e1cba6eb54))
+* **deps:** update dependency eslint-plugin-import to v2.31.0 ([#2719](https://github.com/The-Code-Monkey/TechStack/issues/2719)) ([55b0939](https://github.com/The-Code-Monkey/TechStack/commit/55b0939b0498d965f66f4c04cab382ae7ff6fecb))
+* **deps:** update dependency execa to v9.5.2 ([#2725](https://github.com/The-Code-Monkey/TechStack/issues/2725)) ([fc5d4fb](https://github.com/The-Code-Monkey/TechStack/commit/fc5d4fb563e93a888665a828f2dfed10d6c09cd2))
+* **deps:** update dependency typescript to v5.8.2 ([#2740](https://github.com/The-Code-Monkey/TechStack/issues/2740)) ([d4199e1](https://github.com/The-Code-Monkey/TechStack/commit/d4199e1112dd97f25f3773b41f66a713bce94fa9))
+
+
+
+
+
 ## [1.4.44](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/tcm-cli@1.4.43...@techstack/tcm-cli@1.4.44) (2025-03-20)
 
 

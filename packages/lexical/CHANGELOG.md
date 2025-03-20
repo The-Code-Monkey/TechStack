@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.43](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.8.42...@techstack/lexical@1.8.43) (2025-03-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency typescript to v5.8.2 ([#2740](https://github.com/The-Code-Monkey/TechStack/issues/2740)) ([d4199e1](https://github.com/The-Code-Monkey/TechStack/commit/d4199e1112dd97f25f3773b41f66a713bce94fa9))
+
+
+
+
+
 ## [1.8.42](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/lexical@1.8.41...@techstack/lexical@1.8.42) (2025-03-20)
 
 **Note:** Version bump only for package @techstack/lexical
