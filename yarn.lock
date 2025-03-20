@@ -7114,7 +7114,7 @@ __metadata:
     rollup-plugin-dts: "npm:6.1.1"
     rollup-plugin-typescript2: "npm:0.36.0"
     sade: "npm:1.8.1"
-    semver: "npm:7.6.2"
+    semver: "npm:7.7.1"
     shelljs: "npm:0.8.5"
     sort-package-json: "npm:2.10.0"
     styled-components: "npm:6.1.16"
@@ -23696,12 +23696,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.6.2":
-  version: 7.6.2
-  resolution: "semver@npm:7.6.2"
+"semver@npm:7.7.1":
+  version: 7.7.1
+  resolution: "semver@npm:7.7.1"
   bin:
     semver: bin/semver.js
-  checksum: 10c0/97d3441e97ace8be4b1976433d1c32658f6afaff09f143e52c593bae7eef33de19e3e369c88bd985ce1042c6f441c80c6803078d1de2a9988080b66684cbb30c
+  checksum: 10c0/fd603a6fb9c399c6054015433051bdbe7b99a940a8fb44b85c2b524c4004b023d7928d47cb22154f8d054ea7ee8597f586605e05b52047f048278e4ac56ae958
   languageName: node
   linkType: hard
 
