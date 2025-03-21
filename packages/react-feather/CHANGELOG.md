@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.124 (2025-03-21)
+
+**Note:** Version bump only for package @techstack/react-feather
+
+
+
+
+
 ## [1.4.123](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/react-feather@1.4.122...@techstack/react-feather@1.4.123) (2025-03-21)
 
 **Note:** Version bump only for package @techstack/react-feather
