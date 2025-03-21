@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.299](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/x-default-browser@1.3.298...@techstack/x-default-browser@1.3.299) (2025-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.37.4 ([#2723](https://github.com/The-Code-Monkey/TechStack/issues/2723)) ([3dd41c4](https://github.com/The-Code-Monkey/TechStack/commit/3dd41c4854de46028bb9ee7b30226ec9d77c899a))
+
+
+
+
+
 ## 1.3.298 (2025-03-21)
 
 **Note:** Version bump only for package @techstack/x-default-browser
