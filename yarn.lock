@@ -5129,7 +5129,7 @@ __metadata:
     eslint-plugin-import: "npm:2.31.0"
     eslint-plugin-prettier: "npm:5.2.3"
     eslint-plugin-react: "npm:7.37.4"
-    prettier: "npm:3.3.0"
+    prettier: "npm:3.5.3"
     react: "npm:18.3.1"
     typescript: "npm:5.8.2"
   languageName: unknown
@@ -5197,7 +5197,7 @@ __metadata:
     moize: "npm:6.1.6"
     nanocolors: "npm:0.2.13"
     ora: "npm:8.2.0"
-    prettier: "npm:3.3.0"
+    prettier: "npm:3.5.3"
     ts-jest: "npm:29.2.6"
     tslib: "npm:2.8.1"
     typescript: "npm:5.8.2"
@@ -5219,7 +5219,7 @@ __metadata:
     eslint-plugin-import: "npm:2.31.0"
     eslint-plugin-prettier: "npm:5.2.3"
     eslint-plugin-react: "npm:7.37.4"
-    prettier: "npm:3.3.0"
+    prettier: "npm:3.5.3"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     typescript: "npm:5.8.2"
@@ -5241,7 +5241,7 @@ __metadata:
     eslint-plugin-prettier: "npm:5.2.3"
     eslint-plugin-react: "npm:7.37.4"
     fs-extra: "npm:11.3.0"
-    prettier: "npm:3.3.0"
+    prettier: "npm:3.5.3"
     react: "npm:18.3.1"
     typescript: "npm:5.8.2"
   languageName: unknown
@@ -5267,7 +5267,7 @@ __metadata:
     jest-watch-typeahead: "npm:2.2.2"
     lodash: "npm:4.17.21"
     lodash-es: "npm:4.17.21"
-    prettier: "npm:3.3.0"
+    prettier: "npm:3.5.3"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     ts-jest: "npm:29.2.6"
@@ -5300,7 +5300,7 @@ __metadata:
     eslint-plugin-react: "npm:7.37.4"
     expect: "npm:29.7.0"
     mocha: "npm:11.1.0"
-    prettier: "npm:3.3.0"
+    prettier: "npm:3.5.3"
     process: "npm:0.11.10"
     react: "npm:18.3.1"
     rimraf: "npm:6.0.1"
@@ -5378,7 +5378,7 @@ __metadata:
     ora: "npm:8.2.0"
     pascal-case: "npm:4.0.0"
     postcss: "npm:8.5.3"
-    prettier: "npm:3.3.0"
+    prettier: "npm:3.5.3"
     progress-estimator: "npm:0.3.1"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
@@ -5427,7 +5427,7 @@ __metadata:
     fs-extra: "npm:11.3.0"
     lodash: "npm:4.17.21"
     lodash-es: "npm:4.17.21"
-    prettier: "npm:3.3.0"
+    prettier: "npm:3.5.3"
     sade: "npm:1.8.1"
     size-limit: "npm:11.2.0"
     style-dictionary: "npm:3.9.2"
@@ -5454,7 +5454,7 @@ __metadata:
     eslint-plugin-prettier: "npm:5.2.3"
     eslint-plugin-react: "npm:7.37.4"
     mocha: "npm:11.1.0"
-    prettier: "npm:3.3.0"
+    prettier: "npm:3.5.3"
     rewire: "npm:7.0.0"
     typescript: "npm:5.8.2"
   bin:
@@ -20642,12 +20642,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.3.0":
-  version: 3.3.0
-  resolution: "prettier@npm:3.3.0"
+"prettier@npm:3.5.3":
+  version: 3.5.3
+  resolution: "prettier@npm:3.5.3"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/d033c356320aa2e468bf29c931b094ac730d2f4defd5eb2989d8589313dec901d2fc866e3788f3d161e420b142ea4ec3dda535dbe0169ef4d0026397a68ba9cf
+  checksum: 10c0/3880cb90b9dc0635819ab52ff571518c35bd7f15a6e80a2054c05dbc8a3aa6e74f135519e91197de63705bcb38388ded7e7230e2178432a1468005406238b877
   languageName: node
   linkType: hard
 
