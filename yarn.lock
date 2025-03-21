@@ -5121,7 +5121,7 @@ __metadata:
     "@storybook/react": "npm:8.6.7"
     "@techstack/tcm-cli": "workspace:*"
     "@types/node": "npm:20.5.6"
-    "@types/react": "npm:18.3.3"
+    "@types/react": "npm:18.3.19"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
     eslint: "npm:8.57.1"
@@ -5210,8 +5210,8 @@ __metadata:
   dependencies:
     "@techstack/tcm-cli": "workspace:*"
     "@types/node": "npm:^20.5.6"
-    "@types/react": "npm:18.3.3"
-    "@types/react-dom": "npm:18.3.0"
+    "@types/react": "npm:18.3.19"
+    "@types/react-dom": "npm:18.3.5"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
     eslint: "npm:8.57.1"
@@ -5231,7 +5231,7 @@ __metadata:
   resolution: "@techstack/react-feather@workspace:packages/react-feather"
   dependencies:
     "@techstack/tcm-cli": "workspace:*"
-    "@types/react": "npm:18.3.3"
+    "@types/react": "npm:18.3.19"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
     cross-env: "npm:7.0.3"
@@ -5254,7 +5254,7 @@ __metadata:
     "@techstack/tcm-cli": "workspace:*"
     "@testing-library/react": "npm:15.0.7"
     "@types/jest": "npm:29.5.14"
-    "@types/react": "npm:18.3.3"
+    "@types/react": "npm:18.3.19"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
     eslint: "npm:8.57.1"
@@ -5282,7 +5282,7 @@ __metadata:
   dependencies:
     "@techstack/tcm-cli": "workspace:*"
     "@types/node": "npm:^20.5.6"
-    "@types/react": "npm:18.3.3"
+    "@types/react": "npm:18.3.19"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
     babel-cli: "npm:6.26.0"
@@ -5333,7 +5333,7 @@ __metadata:
     "@types/fs-extra": "npm:11.0.4"
     "@types/lodash": "npm:4.17.16"
     "@types/node": "npm:18.17.1"
-    "@types/react": "npm:18.3.3"
+    "@types/react": "npm:18.3.19"
     "@types/semver": "npm:7.5.8"
     "@types/shelljs": "npm:0.8.15"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
@@ -6037,12 +6037,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.3.0":
-  version: 18.3.0
-  resolution: "@types/react-dom@npm:18.3.0"
-  dependencies:
-    "@types/react": "npm:*"
-  checksum: 10c0/6c90d2ed72c5a0e440d2c75d99287e4b5df3e7b011838cdc03ae5cd518ab52164d86990e73246b9d812eaf02ec351d74e3b4f5bd325bf341e13bf980392fd53b
+"@types/react-dom@npm:18.3.5":
+  version: 18.3.5
+  resolution: "@types/react-dom@npm:18.3.5"
+  peerDependencies:
+    "@types/react": ^18.0.0
+  checksum: 10c0/b163d35a6b32a79f5782574a7aeb12a31a647e248792bf437e6d596e2676961c394c5e3c6e91d1ce44ae90441dbaf93158efb4f051c0d61e2612f1cb04ce4faa
   languageName: node
   linkType: hard
 
@@ -6066,13 +6066,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.3.3":
-  version: 18.3.3
-  resolution: "@types/react@npm:18.3.3"
+"@types/react@npm:18.3.19":
+  version: 18.3.19
+  resolution: "@types/react@npm:18.3.19"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/fe455f805c5da13b89964c3d68060cebd43e73ec15001a68b34634604a78140e6fc202f3f61679b9d809dde6d7a7c2cb3ed51e0fd1462557911db09879b55114
+  checksum: 10c0/236bfe0c4748ada1a640f13573eca3e0fc7c9d847b442947adb352b0718d6d285357fd84c33336c8ffb8cbfabc0d58a43a647c7fd79857fecd61fb58ab6f7918
   languageName: node
   linkType: hard
 
