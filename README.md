@@ -58,12 +58,8 @@
 - [About the Project](#star2-about-the-project)
   * [Packages within repo](#packages-within-repo)
     - [TCM-CLI](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/tcm-cli)
-    - [X-Default-Browser](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/x-default-browser)
-    - [Theme](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/theme)
-    - [React-Lazy-Named](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/react-lazy-named)
     - [Memoize](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/memoize)
     - [React-Textfit](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/react-textfit)
-    - [React-Feather](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/react-feather)
     - [Components](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/components)
   * [Features](#dart-features)
   * [Color Reference](#art-color-reference)
@@ -90,12 +86,8 @@ This Project started out as just theme, styled-system, and components. But as ti
 ### Packages within repo
 
   - [TCM-CLI](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/tcm-cli)
-  - [X-Default-Browser](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/x-default-browser)
-  - [Theme](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/theme)
-  - [React-Lazy-Named](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/react-lazy-named)
   - [Memoize](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/memoize)
   - [React-Textfit](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/react-textfit)
-  - [React-Feather](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/react-feather)
   - [Components](https://github.com/The-Code-Monkey/TechStack/tree/dev/packages/components)
 
 <!-- Getting Started -->
@@ -104,10 +96,10 @@ This Project started out as just theme, styled-system, and components. But as ti
 <!-- Prerequisites -->
 ### :bangbang: Prerequisites
 
-This project uses Yarn as package manager
+This project uses npm and Turborepo as the package manager and build system.
 
 ```bash
- npm install --global yarn
+ npm install --global turbo
 ```
 
 <!-- Run Locally -->
@@ -128,7 +120,7 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  yarn install
+  npm install
 ```
 
 

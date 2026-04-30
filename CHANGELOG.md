@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.12] - 2026-04-30
+
+### Refactor
+* Converted monorepo to use Turborepo instead of Lerna.
+* Migrated package manager from Yarn to NPM.
+* Removed obsolete packages (`react-feather`, `react-lazy-named`, `theme`, `x-default-browser`).
+* Updated dependencies across all remaining packages.
+* Removed Husky to streamline the build process.
+
 ## [1.3.127](https://github.com/The-Code-Monkey/TechStack/compare/v1.3.126...v1.3.127) (2023-12-08)
 
 
