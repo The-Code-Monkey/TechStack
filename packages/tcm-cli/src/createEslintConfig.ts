@@ -1,6 +1,14 @@
 import path from 'path';
 
+import tsPlugin from '@typescript-eslint/eslint-plugin';
+import tsParser from '@typescript-eslint/parser';
+import eslintConfigPrettier from 'eslint-config-prettier';
+import type { Linter } from 'eslint';
+import importPlugin from 'eslint-plugin-import';
+import prettierPlugin from 'eslint-plugin-prettier';
+import reactPlugin from 'eslint-plugin-react';
 import fs from 'fs-extra';
+import globals from 'globals';
 
 import { PackageJson } from './types.js';
 
@@ -13,106 +21,140 @@ interface CreateEslintConfigArgs {
 export async function createEslintConfig({
   rootDir,
   writeFile,
-}: CreateEslintConfigArgs): Promise<object | void> {
-  const config = {
-    env: {
-      browser: true,
-      es6: true,
+}: CreateEslintConfigArgs): Promise<Linter.Config[] | void> {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const tsRecommended = (tsPlugin as any).configs[
+    'flat/recommended'
+  ] as Linter.Config[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const reactRecommended = (reactPlugin as any).configs.flat
+    .recommended as Linter.Config;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const importErrors = (importPlugin as any).flatConfigs
+    .errors as Linter.Config;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const importWarnings = (importPlugin as any).flatConfigs
+    .warnings as Linter.Config;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const importTypescript = (importPlugin as any).flatConfigs
+    .typescript as Linter.Config;
+
+  const config: Linter.Config[] = [
+    // Ignore build output, declaration files, and dependencies
+    {
+      ignores: ['dist/**', 'node_modules/**', '**/*.d.ts', 'coverage/**'],
     },
-    parser: '@typescript-eslint/parser',
-    extends: [
-      'plugin:@typescript-eslint/recommended',
-      'plugin:react/recommended',
-      'plugin:import/errors',
-      'plugin:import/warnings',
-      'plugin:import/typescript',
-      'prettier',
-    ],
-    plugins: ['@typescript-eslint', 'prettier', 'react', 'import'],
-    settings: {
-      react: {
-        version: 'detect',
+    // TypeScript recommended (flat config array)
+    ...tsRecommended,
+    // React recommended (flat config object)
+    reactRecommended,
+    // Import plugin configs
+    importErrors,
+    importWarnings,
+    importTypescript,
+    // Custom config with prettier plugin, globals, and rule overrides
+    {
+      files: ['**/*.{js,jsx,mjs,cjs,ts,tsx}'],
+      plugins: {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        prettier: prettierPlugin as any,
       },
-      'import/resolver': {
-        node: {
-          extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      languageOptions: {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        parser: tsParser as any,
+        parserOptions: {
+          sourceType: 'module',
+          ecmaVersion: 'latest',
+          ecmaFeatures: {
+            jsx: true,
+          },
+        },
+        globals: {
+          ...globals.browser,
+          ...globals.es2015,
         },
       },
-    },
-    parserOptions: {
-      sourceType: 'module',
-      ecmaVersion: 'latest',
-      ecmaFeatures: {
-        jsx: true,
-        modules: true,
+      settings: {
+        react: {
+          version: 'detect',
+        },
+        'import/resolver': {
+          typescript: {
+            alwaysTryTypes: true,
+          },
+          node: {
+            extensions: ['.js', '.jsx', '.ts', '.tsx'],
+          },
+        },
+      },
+      rules: {
+        'react/react-in-jsx-scope': 'off',
+        '@typescript-eslint/no-use-before-define': ['warn'],
+        '@typescript-eslint/no-var-requires': 0,
+        '@typescript-eslint/no-empty-function': 'warn',
+        'import/no-unresolved': 2,
+        'import/order': [
+          'warn',
+          {
+            groups: [
+              'builtin',
+              'external',
+              'internal',
+              'parent',
+              'sibling',
+              'index',
+              'object',
+            ],
+            pathGroups: [
+              {
+                pattern: './*.scss',
+                group: 'unknown',
+                position: 'after',
+              },
+            ],
+            'newlines-between': 'always',
+          },
+        ],
+        '@typescript-eslint/no-unused-vars': [
+          'warn',
+          {
+            vars: 'all',
+            args: 'after-used',
+          },
+        ],
+        'prettier/prettier': [
+          'error',
+          {
+            printWidth: 80,
+            trailingComma: 'es5',
+            semi: true,
+            jsxSingleQuote: true,
+            singleQuote: true,
+            useTabs: false,
+            'react/no-typos': false,
+            bracketSpacing: true,
+            arrowParens: 'avoid',
+            endOfLine: 'auto',
+          },
+        ],
       },
     },
-    rules: {
-      'react/react-in-jsx-scope': 'off',
-      '@typescript-eslint/no-use-before-define': ['warn'],
-      '@typescript-eslint/no-var-requires': 0,
-      '@typescript-eslint/no-empty-function': 'warn',
-      'import/no-unresolved': 2,
-      'import/order': [
-        'warn',
-        {
-          groups: [
-            'builtin',
-            'external',
-            'internal',
-            'parent',
-            'sibling',
-            'index',
-            'object',
-          ],
-          pathGroups: [
-            {
-              pattern: './*.scss',
-              group: 'unknown',
-              position: 'after',
-            },
-          ],
-          'newlines-between': 'always',
-        },
-      ],
-      '@typescript-eslint/no-unused-vars': [
-        'warn',
-        {
-          vars: 'all',
-          args: 'after-used',
-        },
-      ],
-      'prettier/prettier': [
-        'error',
-        {
-          printWidth: 80,
-          trailingComma: 'es5',
-          semi: true,
-          jsxSingleQuote: true,
-          singleQuote: true,
-          useTabs: false,
-          'react/no-typos': false,
-          bracketSpacing: true,
-          arrowParens: 'avoid',
-          endOfLine: 'auto',
-        },
-      ],
-    },
-  };
+    // Prettier config (disables rules that conflict with prettier)
+    eslintConfigPrettier as Linter.Config,
+  ];
+
   if (!writeFile) {
-    return config;
+    return config as Linter.Config[];
   }
 
-  const file = path.join(rootDir, '.eslintrc.js');
-  // if the path is an abs path(e.g. "/Users/user/my-project/.eslintrc.js"),
-  // need to convert a rel path to app root.
-  config.extends = config.extends.map(it =>
-    /^\//u.test(it) ? path.relative(rootDir, it) : it
-  );
+  const file = path.join(rootDir, 'eslint.config.js');
+  // Note: flat config with plugin objects cannot be fully serialized to JSON.
+  // The written file serves as a starting point and may need manual adjustment.
   try {
+    const rulesOnly = config.find(c => c.rules?.['prettier/prettier'])?.rules;
     await fs.writeFile(
       file,
-      `module.exports = ${JSON.stringify(config, null, 2)}`,
+      `// Generated by tcm - flat config format\nexport default ${JSON.stringify({ rules: rulesOnly }, null, 2)}`,
       { flag: 'wx' }
     );
   } catch (e) {

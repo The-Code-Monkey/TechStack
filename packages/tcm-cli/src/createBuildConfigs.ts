@@ -128,6 +128,7 @@ function getTcmConfig(): TcmConfig {
 // tcm.config.ts
 function loadTcmConfigTs(): TcmConfig | undefined {
   try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
     require('ts-node').register({
       compilerOptions: {
         module: 'CommonJS',
@@ -135,6 +136,7 @@ function loadTcmConfigTs(): TcmConfig | undefined {
       transpileOnly: true, // skip type checking
     });
     return (
+      // eslint-disable-next-line @typescript-eslint/no-require-imports
       interopRequireDefault(require(paths.appConfigTs)) as Record<
         'default',
         TcmConfig
@@ -150,14 +152,16 @@ function loadTcmConfigTs(): TcmConfig | undefined {
 // tcm.config.js
 function loadTcmConfigJs(): TcmConfig | undefined {
   // babel-node could easily be injected here if so desired.
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   return require(paths.appConfigJs);
 }
 
 function loadTcmConfigCjs(): TcmConfig | undefined {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   return require(paths.appConfigCjs);
 }
 
-function isTcmConfig(required): required is TcmConfig {
+function isTcmConfig(required: unknown): required is TcmConfig {
   return isDefined(required) && isDefined(required);
 }
 

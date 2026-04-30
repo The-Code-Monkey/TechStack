@@ -148,7 +148,6 @@ export default class FontPicker extends PureComponent<Props, State> {
       `font-picker${this.fontManager.selectorSuffix}`
     );
 
-    // eslint-disable-next-line no-constant-condition
     while (true) {
       if (targetEl === fontPickerEl) {
         // Click inside font picker: Exit

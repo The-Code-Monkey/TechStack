@@ -8,10 +8,12 @@ import chalk from 'chalk';
 import enquirer from 'enquirer';
 const { Input, Select } = enquirer;
 import { ESLint } from 'eslint';
+import type { Linter } from 'eslint';
 import * as execa from 'execa';
 import figlet from 'figlet';
 import fs from 'fs-extra';
 import * as jest from 'jest';
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const { run: jestRun } = (jest as any).default || jest;
 import { concatAllArray } from 'jpjs';
 import ora from 'ora';
@@ -64,6 +66,7 @@ let appPackageJson: PackageJson;
 
 try {
   appPackageJson = fs.readJSONSync(paths.appPackageJson);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
 } catch (e) {}
 
 function setAuthorName(author: string) {
@@ -548,22 +551,31 @@ prog
         );
       }
       try {
-        const config = await createEslintConfig({
+        const configs = await createEslintConfig({
           pkg: appPackageJson,
           rootDir: paths.appRoot,
           writeFile: opts['write-file'],
         });
 
+        const overrideConfig: Linter.Config[] = [];
+        if (opts['ignore-pattern']) {
+          overrideConfig.push({ ignores: [opts['ignore-pattern']] });
+        }
+
+        if (Array.isArray(configs)) {
+          overrideConfig.push(...configs);
+        }
+
+        if (appPackageJson.eslint) {
+          overrideConfig.push(appPackageJson.eslint);
+        }
+
         const linter = new ESLint({
           cwd: paths.appRoot,
-          baseConfig: {
-            ...config,
-            ...appPackageJson.eslint,
-            ignorePatterns: opts['ignore-pattern'],
-          } as any,
-          extensions: ['.js', '.mjs', '.cjs', '.ts', '.tsx', '.jsx'],
+          overrideConfigFile: true,
+          overrideConfig,
           fix: opts.fix,
-        } as any);
+        });
         const results = await linter.lintFiles(opts['_']);
         if (opts.fix) {
           await ESLint.outputFixes(results);

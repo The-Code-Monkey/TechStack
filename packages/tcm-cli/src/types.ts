@@ -28,8 +28,10 @@ export interface WatchOpts extends BuildOpts {
   onFailure?: string;
 }
 
-export interface NormalizedOpts
-  extends Omit<WatchOpts, 'name' | 'input' | 'format'> {
+export interface NormalizedOpts extends Omit<
+  WatchOpts,
+  'name' | 'input' | 'format'
+> {
   name: string | string[];
   input: string[];
   format: [ModuleFormat, ...ModuleFormat[]];
