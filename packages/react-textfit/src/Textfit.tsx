@@ -209,8 +209,8 @@ export default class TextFit extends React.Component<Props> {
     if (mode === 'single') wrapperStyle.whiteSpace = 'nowrap';
 
     return (
-      <div ref={c => (this._parent = c)} style={finalStyle} {...props}>
-        <div ref={c => (this._child = c)} style={wrapperStyle}>
+      <div ref={c => { this._parent = c; }} style={finalStyle} {...props}>
+        <div ref={c => { this._child = c; }} style={wrapperStyle}>
           {text && ready ? text : children}
         </div>
       </div>

@@ -23,10 +23,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '20.x'
+          node-version: '24.x'
 
       - name: Install deps
-        uses: bahmutov/npm-install@v1
+        run: npm install
 
 
       - name: Cache dependencies
@@ -38,7 +38,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Build
-        run: yarn build
+        run: npm run build
 
 #      - name: Lint
 #        run: yarn lint
@@ -58,14 +58,14 @@ jobs:
 
       - name: Authenticate with Registry
         run: |
-          yarn npm logout
+          # npm logout
           echo "registry=http://registry.npmjs.org/" >> .npmrc
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
           npm whoami
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Release package
-        run: yarn lerna:publish
+        run: npm run lerna:publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -6,30 +6,33 @@
   "author": "The-Code-Monkey",
   "license": "MIT",
   "private": true,
+  "packageManager": "npm@11.13.0",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "clean": "git clean -xdf",
-    "test": "lerna run test --stream",
-    "test:fix": "lerna run test -- -u",
-    "lint": "lerna run lint --stream",
-    "lint:fix": "lerna run lint -- --fix",
-    "lint:cms": "cd platforms/react-cms && yarn lint",
-    "size": "lerna run size",
-    "build:tcm": "cd packages/tcm-cli && yarn build",
-    "build:theme": "cd packages/theme && yarn build",
-    "build": "lerna run build --stream",
+    "test": "turbo run test",
+    "test:fix": "turbo run test -- -- -u",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint -- --fix",
+    "lint:cms": "cd platforms/react-cms && npm run lint",
+    "size": "turbo run size",
+    "build:tcm": "turbo run build --filter=@techstack/tcm-cli",
+    "build:theme": "turbo run build --filter=@techstack/theme",
+    "build": "turbo run build",
     "lerna:link": "lerna link",
     "lerna:changed": "lerna changed",
     "lerna:version": "lerna version --conventional-commits --exact --yes",
-    "lerna:publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-package --no-verify-access --yes --create-release github",
-    "build-storybook": "lerna run build-storybook --stream -- -o build",
-    "prepare": "husky install"
+    "lerna:publish": "npm run lerna:changed && npm run lerna:version && lerna publish from-package --no-verify-access --yes --create-release github",
+    "build-storybook": "turbo run build-storybook -- -- -o build"
   },
   "devDependencies": {
-    "husky": "9.1.7",
-    "lerna": "8.2.1"
+    "@types/node": "^25.6.0",
+    "lerna": "9.0.7",
+    "turbo": "^2.9.6"
   },
-  "packageManager": "yarn@4.7.0"
+  "engines": {
+    "node": ">=24"
+  }
 }

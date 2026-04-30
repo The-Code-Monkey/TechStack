@@ -1,5 +1,5 @@
 {
-  "npmClient": "yarn",
+  "npmClient": "npm",
   "command": {
     "publish": {
       "message": "chore(release): publish %s",

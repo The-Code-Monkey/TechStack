@@ -3,7 +3,6 @@ import type { Template } from './template.js';
 const basicTemplate: Template = {
   name: 'basic',
   dependencies: [
-    'husky',
     'tcm-cli',
     'tslib',
     'typescript',

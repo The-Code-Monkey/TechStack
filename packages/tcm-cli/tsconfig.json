@@ -15,5 +15,8 @@
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "ignoreDeprecations": "6.0"
   }
 }

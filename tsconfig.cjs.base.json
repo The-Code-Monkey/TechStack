@@ -22,6 +22,7 @@
     "module": "commonjs",
     "outDir": "./dist/cjs",
     "target": "ESNext",
-    "declarationDir": "dist/types"
+    "declarationDir": "dist/types",
+    "ignoreDeprecations": "6.0"
   }
 }

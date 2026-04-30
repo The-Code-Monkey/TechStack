@@ -1,0 +1,16 @@
+{
+  "source": [],
+  "log": "",
+  "platforms": {
+    "CSS": {
+      "transforms": ["attribute/cti", "name/kebab", "color/makeNeutrals", "color/makeShades"],
+      "buildPath": "theme-dist/",
+      "files": [
+        {
+          "destination": "globals.css",
+          "format": "custom/tailwind_v4"
+        }
+      ]
+    }
+  }
+}

@@ -16,7 +16,7 @@
     "src"
   ],
   "engines": {
-    "node": ">=18"
+    "node": ">=24"
   },
   "publishConfig": {
     "access": "public"
@@ -30,20 +30,20 @@
     "@samuelmeuli/font-manager": "1.4.0"
   },
   "devDependencies": {
-    "@storybook/react": "8.6.7",
-    "@techstack/tcm-cli": "workspace:*",
-    "@types/node": "20.5.6",
-    "@types/react": "18.3.3",
-    "@typescript-eslint/eslint-plugin": "7.18.0",
-    "@typescript-eslint/parser": "7.18.0",
-    "eslint": "8.57.1",
-    "eslint-config-prettier": "10.1.1",
-    "eslint-plugin-import": "2.31.0",
-    "eslint-plugin-prettier": "5.2.3",
-    "eslint-plugin-react": "7.37.4",
-    "prettier": "3.3.0",
-    "react": "18.3.1",
-    "typescript": "5.8.2"
+    "@storybook/react": "10.3.6",
+    "@techstack/tcm-cli": "*",
+    "@types/node": "25.6.0",
+    "@types/react": "19.2.14",
+    "@typescript-eslint/eslint-plugin": "8.59.1",
+    "@typescript-eslint/parser": "8.59.1",
+    "eslint": "10.2.1",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-prettier": "5.5.5",
+    "eslint-plugin-react": "7.37.5",
+    "prettier": "3.8.3",
+    "react": "19.2.5",
+    "typescript": "6.0.3"
   },
   "prettier": {
     "printWidth": 80,

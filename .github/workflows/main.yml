@@ -8,7 +8,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node: ['20', '22']
+        node: ['24']
         os: [ubuntu-latest]
 
     steps:
@@ -21,19 +21,19 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Install deps
-        uses: bahmutov/npm-install@v1
+        run: npm install
 
       - name: Build
-        run: yarn build
+        run: npm run build
 
       - name: Lint
-        run: yarn lint
+        run: npm run lint
   
       - name: Test
-        run: yarn test
+        run: npm run test
 
       - name: Size
-        run: yarn size
+        run: npm run size
 
       - name: git config
         run: |
@@ -41,4 +41,4 @@ jobs:
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
       - name: Changed
-        run: yarn lerna:changed
+        run: npm run lerna:changed

@@ -157,7 +157,7 @@ export async function createRollupConfig(
         },
       },
       typescript({
-        typescript: ts,
+        typescript: ts as any,
         tsconfig: opts.tsconfig,
         tsconfigDefaults: {
           exclude: [

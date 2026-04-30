@@ -11,8 +11,8 @@ import { ESLint } from 'eslint';
 import * as execa from 'execa';
 import figlet from 'figlet';
 import fs from 'fs-extra';
-import jest from 'jest';
-const { run: jestRun } = jest;
+import * as jest from 'jest';
+const { run: jestRun } = (jest as any).default || jest;
 import { concatAllArray } from 'jpjs';
 import ora from 'ora';
 import { OutputOptions, rollup, RollupOptions } from 'rollup';
@@ -223,10 +223,6 @@ prog
     )}]`
   )
   .example('create --template react mypackage')
-  .option('--husky', 'Should husky be added to the generated project?', true)
-  .example('create --husky mypackage')
-  .example('create --no-husky mypackage')
-  .example('create --husky false mypackage')
   .action(async (pkg: string, opts: { template: string }) => {
     console.log(
       chalk.cyan(figlet.textSync('TCM', { horizontalLayout: 'full' }))
@@ -564,10 +560,10 @@ prog
             ...config,
             ...appPackageJson.eslint,
             ignorePatterns: opts['ignore-pattern'],
-          },
+          } as any,
           extensions: ['.js', '.mjs', '.cjs', '.ts', '.tsx', '.jsx'],
           fix: opts.fix,
-        });
+        } as any);
         const results = await linter.lintFiles(opts['_']);
         if (opts.fix) {
           await ESLint.outputFixes(results);
