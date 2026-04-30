@@ -3,7 +3,7 @@ import { createRequire } from 'module';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-import asyncro from 'asyncro';
+import * as asyncro from 'asyncro';
 import chalk from 'chalk';
 import enquirer from 'enquirer';
 const { Input, Select } = enquirer;

@@ -157,6 +157,7 @@ export async function createRollupConfig(
         },
       },
       typescript({
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         typescript: ts as any,
         tsconfig: opts.tsconfig,
         tsconfigDefaults: {

@@ -136,11 +136,10 @@ function loadTcmConfigTs(): TcmConfig | undefined {
       transpileOnly: true, // skip type checking
     });
     return (
-      // eslint-disable-next-line @typescript-eslint/no-require-imports
-      interopRequireDefault(require(paths.appConfigTs)) as Record<
-        'default',
-        TcmConfig
-      >
+      interopRequireDefault(
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        require(paths.appConfigTs)
+      ) as Record<'default', TcmConfig>
     ).default;
   } catch (error) {
     logError(error);
