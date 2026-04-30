@@ -19,7 +19,6 @@
     "lint:cms": "cd platforms/react-cms && npm run lint",
     "size": "turbo run size",
     "build:tcm": "turbo run build --filter=@techstack/tcm-cli",
-    "build:theme": "turbo run build --filter=@techstack/theme",
     "build": "turbo run build",
     "lerna:link": "lerna link",
     "lerna:changed": "lerna changed",
