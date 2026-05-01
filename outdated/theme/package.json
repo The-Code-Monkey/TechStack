@@ -47,7 +47,7 @@
   ],
   "devDependencies": {
     "@size-limit/file": "12.1.0",
-    "@techstack/tcm-cli": "*",
+    "@techstack/tcm-cli": "1.0.0",
     "@tsconfig/recommended": "1.0.13",
     "@types/fs-extra": "11.0.4",
     "@types/lodash": "4.17.24",
