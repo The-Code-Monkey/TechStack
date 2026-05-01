@@ -29,8 +29,7 @@
   },
   "scripts": {
     "lint": "tcm lint",
-    "build": "tcm build",
-    "storybook": "storybook"
+    "build": "tcm build"
   },
   "dependencies": {
     "@samuelmeuli/font-manager": "1.4.0"
