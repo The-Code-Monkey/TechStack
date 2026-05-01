@@ -1,72 +1,48 @@
-name: Deploy Package Version
-on:
- push:
-   branches:
-     - main
+name: Deploy
 
-# on:
-#   schedule:
-#      - cron: "0 0 * * *"
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  deploy:
-    runs-on: ubuntu-24.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+  release:
+    name: Release and Publish
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+      issues: write
+      pull-requests: write
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '24.x'
+          node-version: 'lts/*'
 
-      - name: Install deps
-        run: npm install
+      - name: Install Dependencies
+        run: npm ci
 
-
-      - name: Cache dependencies
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - name: Build
+      - name: Build Packages
         run: npm run build
 
-#      - name: Lint
-#        run: yarn lint
-#
-#      - name: Test
-#        run: yarn test
-#
-#      - name: Size
-#        run: yarn size
-
-      - name: git config
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-
-      - run: echo //registry.npmjs.org/:_authToken=${{ secrets.npm_tokem }} > .npmrc
-
-      - name: Authenticate with Registry
-        run: |
-          # npm logout
-          echo "registry=http://registry.npmjs.org/" >> .npmrc
-          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
-          npm whoami
+      - name: Release Packages
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - name: Release package
-        run: npm run lerna:publish
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for dir in packages/*; do
+            if [ -d "$dir" ]; then
+              echo "Releasing $dir..."
+              cd $dir
+              # The @semantic-release/npm plugin automatically detects 
+              # the OIDC environment and uses Trusted Publishing.
+              npx semantic-release -e semantic-release-monorepo
+              cd ../..
+            fi
+          done
