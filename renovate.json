@@ -3,7 +3,6 @@
     ":dependencyDashboard",
     ":semanticPrefixFixDepsChoreOthers",
     ":ignoreModulesAndTests",
-    ":autodetectPinVersions",
     "group:monorepos",
     "group:recommended",
     "workarounds:all"
@@ -20,8 +19,10 @@
   },
   "packageRules": [
     {
-      "matchPackagePatterns": ["node"],
-      "enabled": false
+      "enabled": false,
+      "matchPackageNames": [
+        "/node/"
+      ]
     }
   ],
   "updateInternalDeps": true
