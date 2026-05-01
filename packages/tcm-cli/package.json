@@ -84,7 +84,7 @@
     "execa": "9.6.1",
     "figlet": "1.11.0",
     "fs-extra": "11.3.4",
-    "globals": "17.5.0",
+    "globals": "17.6.0",
     "jest": "30.3.0",
     "jest-environment-jsdom": "30.3.0",
     "jest-watch-typeahead": "3.0.1",
