@@ -8,6 +8,7 @@
     "group:recommended",
     "workarounds:all"
   ],
+  "dependencyDashboard": true,
   "rangeStrategy": "pin",
   "automergeStrategy": "squash",
   "automerge": true,
