@@ -5,7 +5,12 @@
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/react-textfit/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/The-Code-Monkey/TechStack.git"
+    "url": "https://github.com/The-Code-Monkey/TechStack.git",
+    "directory": "packages/font-picker"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   },
   "bugs": {
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
@@ -24,9 +29,6 @@
   "scripts": {
     "build": "tcm build",
     "lint": "tcm lint"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "keywords": [
     "textfit",
