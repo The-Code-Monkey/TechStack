@@ -34,11 +34,3 @@ jobs:
 
       - name: Size
         run: npm run size
-
-      - name: git config
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-
-      - name: Changed
-        run: npm run lerna:changed
