@@ -92,7 +92,7 @@
     "lodash.merge": "4.6.2",
     "ora": "9.4.0",
     "pascal-case": "4.0.0",
-    "postcss": "8.5.13",
+    "postcss": "8.5.14",
     "prettier": "3.8.3",
     "progress-estimator": "0.3.1",
     "regenerator-runtime": "0.14.1",
