@@ -39,7 +39,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@techstack/tcm-cli": "2.0.5",
+    "@techstack/tcm-cli": "2.0.6",
     "@types/node": "^25.6.0",
     "@typescript-eslint/eslint-plugin": "8.59.2",
     "@typescript-eslint/parser": "8.59.2",
