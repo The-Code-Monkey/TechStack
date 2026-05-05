@@ -124,7 +124,7 @@
     "@types/react": "19.2.14",
     "@types/semver": "7.7.1",
     "@types/shelljs": "0.10.0",
-    "auto-changelog": "2.5.0",
+    "auto-changelog": "2.5.1",
     "autoprefixer": "10.5.0",
     "babel-plugin-replace-identifiers": "0.1.1",
     "cssnano": "7.1.9",
