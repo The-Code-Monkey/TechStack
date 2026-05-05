@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/node": "25.6.0",
-    "turbo": "2.9.8"
+    "turbo": "2.9.9"
   },
   "engines": {
     "node": ">=24"
