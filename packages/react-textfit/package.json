@@ -66,7 +66,7 @@
   "dependencies": {
     "@types/react": "19.2.14",
     "process": "0.11.10",
-    "react": "19.2.5"
+    "react": "19.2.6"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a"
 }
