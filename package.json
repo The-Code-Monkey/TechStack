@@ -6,7 +6,7 @@
   "author": "The-Code-Monkey",
   "license": "MIT",
   "private": true,
-  "packageManager": "npm@11.13.0",
+  "packageManager": "npm@11.14.0",
   "workspaces": [
     "packages/*"
   ],
