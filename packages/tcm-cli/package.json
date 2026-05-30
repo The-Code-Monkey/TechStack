@@ -129,7 +129,7 @@
     "babel-plugin-replace-identifiers": "0.1.1",
     "cssnano": "8.0.1",
     "doctoc": "2.4.1",
-    "lint-staged": "17.0.5",
+    "lint-staged": "17.0.6",
     "react": "19.2.6",
     "react-dom": "19.2.6",
     "react-is": "19.2.6",
