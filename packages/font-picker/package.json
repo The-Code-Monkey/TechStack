@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@storybook/react": "10.4.2",
-    "@techstack/tcm-cli": "2.0.30",
+    "@techstack/tcm-cli": "2.0.31",
     "@types/node": "25.6.0",
     "@types/react": "19.2.16",
     "@typescript-eslint/eslint-plugin": "8.60.1",
